@@ -10,7 +10,8 @@ export interface Exercise {
 
 export interface VocabularyItem {
   word: string;
-  translation?: string;
+  translations?: Record<string, string>;
+  translation?: string; // fallback
   emoji: string;
   color?: string;
 }
@@ -41,11 +42,11 @@ export const lessons: Lesson[] = [
     emoji: "🅰️",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "Avión", translation: "Airplane", emoji: "✈️", color: "#E2F3E7" },
-      { word: "Elefante", translation: "Elephant", emoji: "🐘", color: "#E2F3E7" },
-      { word: "Isla", translation: "Island", emoji: "🏝️", color: "#E2F3E7" },
-      { word: "Oso", translation: "Bear", emoji: "🐻", color: "#E2F3E7" },
-      { word: "Uvas", translation: "Grapes", emoji: "🍇", color: "#E2F3E7" }
+      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, emoji: "✈️", color: "#E2F3E7" },
+      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, emoji: "🐘", color: "#E2F3E7" },
+      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, emoji: "🏝️", color: "#E2F3E7" },
+      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, emoji: "🐻", color: "#E2F3E7" },
+      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, emoji: "🍇", color: "#E2F3E7" }
     ],
     content: `
 ## Vamos a aprender las vocales (a, e, i, o, u)
@@ -79,12 +80,12 @@ Usa el botón de abajo si estuviera disponible el audio (simulación).
     emoji: "👤",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "La cabeza", translation: "Head", emoji: "👧", color: "#EBF8FF" },
-      { word: "La mano", translation: "Hand", emoji: "✋", color: "#EBF8FF" },
-      { word: "El pie", translation: "Foot", emoji: "🦶", color: "#EBF8FF" },
-      { word: "Los ojos", translation: "Eyes", emoji: "👁️", color: "#EBF8FF" },
-      { word: "Las piernas", translation: "Legs", emoji: "🦵", color: "#EBF8FF" },
-      { word: "El brazo", translation: "Arm", emoji: "💪", color: "#EBF8FF" }
+      { word: "La cabeza", translations: { en: "Head", ar: "الرأس", uk: "Голова", fr: "Tête" }, emoji: "👧", color: "#EBF8FF" },
+      { word: "La mano", translations: { en: "Hand", ar: "اليد", uk: "Рука", fr: "Main" }, emoji: "✋", color: "#EBF8FF" },
+      { word: "El pie", translations: { en: "Foot", ar: "القدم", uk: "Нога", fr: "Pied" }, emoji: "🦶", color: "#EBF8FF" },
+      { word: "Los ojos", translations: { en: "Eyes", ar: "العينان", uk: "Очі", fr: "Yeux" }, emoji: "👁️", color: "#EBF8FF" },
+      { word: "Las piernas", translations: { en: "Legs", ar: "الساقين", uk: "Ноги", fr: "Jambes" }, emoji: "🦵", color: "#EBF8FF" },
+      { word: "El brazo", translations: { en: "Arm", ar: "الذراع", uk: "Рука", fr: "Bras" }, emoji: "💪", color: "#EBF8FF" }
     ],
     content: `
 ## El Cuerpo Humano
@@ -116,12 +117,12 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     emoji: "🎨",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "Rojo", translation: "Red", emoji: "🍎", color: "#E53E3E" },
-      { word: "Azul", translation: "Blue", emoji: "💧", color: "#3182CE" },
-      { word: "Verde", translation: "Green", emoji: "🐸", color: "#38A169" },
-      { word: "Amarillo", translation: "Yellow", emoji: "☀️", color: "#ECC94B" },
-      { word: "Naranja", translation: "Orange", emoji: "🍊", color: "#DD6B20" },
-      { word: "Negro", translation: "Black", emoji: "🎩", color: "#1A202C" }
+      { word: "Rojo", translations: { en: "Red", ar: "أحمر", uk: "Червоний", fr: "Rouge" }, emoji: "🍎", color: "#E53E3E" },
+      { word: "Azul", translations: { en: "Blue", ar: "أزرق", uk: "Синій", fr: "Bleu" }, emoji: "💧", color: "#3182CE" },
+      { word: "Verde", translations: { en: "Green", ar: "أخضر", uk: "Зелений", fr: "Vert" }, emoji: "🐸", color: "#38A169" },
+      { word: "Amarillo", translations: { en: "Yellow", ar: "أصفر", uk: "Жовтий", fr: "Jaune" }, emoji: "☀️", color: "#ECC94B" },
+      { word: "Naranja", translations: { en: "Orange", ar: "برتقالي", uk: "Помаранчевий", fr: "Orange" }, emoji: "🍊", color: "#DD6B20" },
+      { word: "Negro", translations: { en: "Black", ar: "أسود", uk: "Чорний", fr: "Noir" }, emoji: "🎩", color: "#1A202C" }
     ],
     content: `
 ## ¿De qué color es?
@@ -151,9 +152,9 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     emoji: "🏃🏻",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "Yo soy", translation: "Soy profesor", emoji: "🧑‍🏫", color: "#E2E8F0" },
-      { word: "Yo estoy", translation: "Estoy en casa", emoji: "🏠", color: "#E2E8F0" },
-      { word: "Yo tengo", translation: "Tengo una manzana", emoji: "🍎", color: "#E2E8F0" }
+      { word: "Yo soy", translations: { en: "I am (teacher)", ar: "أنا معلم", uk: "Я вчитель", fr: "Je suis (professeur)" }, emoji: "🧑‍🏫", color: "#E2E8F0" },
+      { word: "Yo estoy", translations: { en: "I am (at home)", ar: "أنا في المنزل", uk: "Я вдома", fr: "Je suis (à la maison)" }, emoji: "🏠", color: "#E2E8F0" },
+      { word: "Yo tengo", translations: { en: "I have (an apple)", ar: "لدي تفاحة", uk: "Я маю", fr: "J'ai (une pomme)" }, emoji: "🍎", color: "#E2E8F0" }
     ],
     content: `
 ## Verbos muy importantes
@@ -203,10 +204,10 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
     emoji: "👕",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "La camiseta", translation: "T-Shirt", emoji: "👕", color: "#EDF2F7" },
-      { word: "El pantalón", translation: "Pants", emoji: "👖", color: "#EDF2F7" },
-      { word: "Los zapatos", translation: "Shoes", emoji: "👟", color: "#EDF2F7" },
-      { word: "La chaqueta", translation: "Jacket", emoji: "🧥", color: "#EDF2F7" }
+      { word: "La camiseta", translations: { en: "T-Shirt", ar: "قميص", uk: "Футболка", fr: "T-shirt" }, emoji: "👕", color: "#EDF2F7" },
+      { word: "El pantalón", translations: { en: "Pants", ar: "سروال", uk: "Штани", fr: "Pantalon" }, emoji: "👖", color: "#EDF2F7" },
+      { word: "Los zapatos", translations: { en: "Shoes", ar: "حذاء", uk: "Взуття", fr: "Chaussures" }, emoji: "👟", color: "#EDF2F7" },
+      { word: "La chaqueta", translations: { en: "Jacket", ar: "سترة", uk: "Куртка", fr: "Veste" }, emoji: "🧥", color: "#EDF2F7" }
     ],
     content: `
 ## Las prendas de vestir
@@ -230,12 +231,12 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
     emoji: "🐶",
     color: "#FEFCBF",
     vocabulary: [
-      { word: "El perro", translation: "Dog", emoji: "🐶", color: "#FEFCBF" },
-      { word: "El gato", translation: "Cat", emoji: "🐱", color: "#FEFCBF" },
-      { word: "El pájaro", translation: "Bird", emoji: "🐦", color: "#FEFCBF" },
-      { word: "El árbol", translation: "Tree", emoji: "🌳", color: "#F0FFF4" },
-      { word: "La montaña", translation: "Mountain", emoji: "⛰️", color: "#F0FFF4" },
-      { word: "El mar", translation: "Sea", emoji: "🌊", color: "#F0FFF4" }
+      { word: "El perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, emoji: "🐶", color: "#FEFCBF" },
+      { word: "El gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, emoji: "🐱", color: "#FEFCBF" },
+      { word: "El pájaro", translations: { en: "Bird", ar: "طائر", uk: "Птах", fr: "Oiseau" }, emoji: "🐦", color: "#FEFCBF" },
+      { word: "El árbol", translations: { en: "Tree", ar: "شجرة", uk: "Дерево", fr: "Arbre" }, emoji: "🌳", color: "#F0FFF4" },
+      { word: "La montaña", translations: { en: "Mountain", ar: "جبل", uk: "Гора", fr: "Montagne" }, emoji: "⛰️", color: "#F0FFF4" },
+      { word: "El mar", translations: { en: "Sea", ar: "بحر", uk: "Море", fr: "Mer" }, emoji: "🌊", color: "#F0FFF4" }
     ],
     content: `
 ## Mascotas y animales salvajes
@@ -300,9 +301,9 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
     emoji: "🌍",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "Marruecos", translation: "África", emoji: "🇲🇦", color: "#FEFCBF" },
-      { word: "España", translation: "Europa", emoji: "🇪🇸", color: "#FFF5F5" },
-      { word: "Senegal", translation: "África", emoji: "🇸🇳", color: "#F0FFF4" }
+      { word: "Marruecos", translations: { en: "Morocco", ar: "المغرب", uk: "Марокко", fr: "Maroc" }, emoji: "🇲🇦", color: "#FEFCBF" },
+      { word: "España", translations: { en: "Spain", ar: "إسبانيا", uk: "Іспанія", fr: "Espagne" }, emoji: "🇪🇸", color: "#FFF5F5" },
+      { word: "Senegal", translations: { en: "Senegal", ar: "السنغال", uk: "Сенегал", fr: "Sénégal" }, emoji: "🇸🇳", color: "#F0FFF4" }
     ],
     content: `
 ## Los Continentes

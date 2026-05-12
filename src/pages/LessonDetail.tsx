@@ -7,10 +7,12 @@ import { ArrowLeft, CheckCircle2, ChevronRight, XCircle, BookOpen } from 'lucide
 import { MemoryGame } from '../components/layout/MemoryGame';
 import { FlashcardsGame } from '../components/layout/FlashcardsGame';
 import { VocabularyQuiz } from '../components/layout/VocabularyQuiz';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export function LessonDetail() {
   const { id } = useParams<{ id: string }>();
   const lesson = lessons.find(l => l.id === id);
+  const { language } = useLanguage();
 
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [showResults, setShowResults] = useState(false);
@@ -110,15 +112,18 @@ export function LessonDetail() {
             <div className="mt-8 border-t border-stone-100 pt-8">
                <h2 className="text-2xl font-black text-[#192A56] mb-6">Vocabulario y Juegos interactivos</h2>
                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3 sm:gap-4 mb-8">
-                 {lesson.vocabulary.map((vocab, index) => (
+                 {lesson.vocabulary.map((vocab, index) => {
+                   const translatedText = vocab.translations?.[language] || vocab.translation;
+                   return (
                    <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full" style={{ borderColor: vocab.color || '#E2E8F0' }}>
                      <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl" style={{ background: vocab.color || '#f4fbf6' }}>
                        {vocab.emoji}
                      </div>
                      <span className="font-bold text-[#3C3633] text-xs sm:text-sm leading-tight mt-auto">{vocab.word}</span>
-                     {vocab.translation && <span className="text-[10px] sm:text-xs text-stone-500 mt-1">({vocab.translation})</span>}
+                     {translatedText && <span className="text-[10px] sm:text-xs text-stone-500 mt-1">({translatedText})</span>}
                    </div>
-                 ))}
+                   );
+                 })}
                </div>
                
                <div className="space-y-6">

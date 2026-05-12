@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
-import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star } from 'lucide-react';
+import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star, Languages } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { lessons } from '../../data/content';
+import { useLanguage, Language } from '../../contexts/LanguageContext';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
+  const { language, setLanguage } = useLanguage();
 
-  // Close menu when clicking outside could be added, but for now we rely on the close button
+  // Close menus when clicking outside could be added, but for now we rely on the close button
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -35,6 +38,13 @@ export function Navbar() {
   ];
 
   const recommendedLessons = lessons.slice(0, 3); // Get first 3 for recommended
+  
+  const languages: { code: Language; label: string }[] = [
+    { code: 'en', label: 'English' },
+    { code: 'ar', label: 'العربية' },
+    { code: 'uk', label: 'Українська' },
+    { code: 'fr', label: 'Français' },
+  ];
 
   return (
     <>
@@ -58,8 +68,37 @@ export function Navbar() {
               </Link>
             </div>
             
-            <div className="hidden md:flex flex-1 justify-end w-1/3">
-              <div className="px-5 py-2 bg-[#00823B] text-white rounded-full text-xs font-bold uppercase tracking-wider shadow-sm hover:bg-[#006A30] transition-all cursor-pointer">
+            <div className="flex flex-1 justify-end w-1/3 items-center gap-3 md:gap-4">
+              <div className="relative">
+                <button
+                  onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
+                  className="flex items-center gap-2 p-2 text-stone-600 hover:text-[#00823B] bg-stone-100 rounded-xl transition-colors"
+                  aria-label="Seleccionar idioma de traducción"
+                >
+                  <Languages size={20} />
+                  <span className="hidden md:inline-block text-xs font-bold uppercase tracking-wider">{language}</span>
+                </button>
+                
+                {isLangMenuOpen && (
+                  <div className="absolute right-0 mt-2 w-36 bg-white border border-stone-200 rounded-xl shadow-lg z-50 overflow-hidden">
+                    {languages.map((lang) => (
+                      <button
+                        key={lang.code}
+                        onClick={() => {
+                          setLanguage(lang.code);
+                          setIsLangMenuOpen(false);
+                        }}
+                        className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors ${
+                          language === lang.code ? 'bg-[#00823B] text-white' : 'text-stone-700 hover:bg-stone-50'
+                        }`}
+                      >
+                        {lang.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <div className="hidden md:flex px-5 py-2 bg-[#00823B] text-white rounded-full text-xs font-bold uppercase tracking-wider shadow-sm hover:bg-[#006A30] transition-all cursor-pointer">
                 Aula Virtual
               </div>
             </div>

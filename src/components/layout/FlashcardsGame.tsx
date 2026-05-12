@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { VocabularyItem } from '../../data/content';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronRight, ChevronLeft, RotateCcw } from 'lucide-react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const { language } = useLanguage();
 
   if (!vocabulary || vocabulary.length === 0) return null;
 
@@ -24,6 +26,7 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
   };
 
   const currentCard = vocabulary[currentIndex];
+  const translatedText = currentCard.translations?.[language] || currentCard.translation;
 
   return (
     <div className="bg-white rounded-2xl p-6 border border-stone-200 mt-6 relative overflow-hidden shadow-sm">
@@ -69,8 +72,8 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
               }}
             >
               <span className="text-3xl sm:text-4xl font-black text-[#192A56] text-center mb-2">{currentCard.word}</span>
-              {currentCard.translation && (
-                <span className="text-lg sm:text-xl font-medium text-stone-500 text-center">{currentCard.translation}</span>
+              {translatedText && (
+                <span className="text-lg sm:text-xl font-medium text-stone-500 text-center">{translatedText}</span>
               )}
             </div>
           </motion.div>
