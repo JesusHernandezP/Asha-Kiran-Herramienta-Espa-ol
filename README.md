@@ -1,20 +1,72 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌍 Asha Kiran — Herramienta de Aprendizaje de Español
 
-# Run and deploy your AI Studio app
+Aplicación educativa orientada al aprendizaje de español para usuarios en entornos reales de formación y apoyo educativo.
 
-This contains everything you need to run your app locally.
+El proyecto fue desarrollado con enfoque mobile-first y experiencia interactiva, priorizando accesibilidad, simplicidad y experiencia de usuario responsive.
 
-View your app in AI Studio: https://ai.studio/apps/d7041906-80e7-420a-a856-d143bdb85df8
+---
 
-## Run Locally
+# 🚀 Objetivo
 
-**Prerequisites:**  Node.js
+Facilitar el aprendizaje de español mediante una herramienta visual, accesible e interactiva orientada a usuarios con necesidad de apoyo lingüístico.
 
+La aplicación busca ofrecer una experiencia simple, moderna y fácil de utilizar desde dispositivos móviles y escritorio.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+# 🛠 Tecnologías utilizadas
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Diseño responsive
+- Mobile-first
+
+---
+
+# ✨ Características principales
+
+- Interfaz moderna e intuitiva
+- Diseño optimizado para móvil
+- Navegación simple y accesible
+- Experiencia interactiva de aprendizaje
+- Arquitectura frontend moderna
+- UI responsive
+
+---
+
+# 📚 Contexto del proyecto
+
+La herramienta fue desarrollada durante prácticas formativas y orientada a uso funcional dentro de un entorno educativo real.
+
+---
+
+# 🌐 Demo
+
+🔗 https://aprende-con-vinculos.netlify.app/
+
+---
+
+# 📂 Repositorio
+
+🔗 https://github.com/JesusHernandezP/Asha-Kiran-Herramienta-Espa-ol
+
+---
+
+# 👥 Colaboradores
+
+- Jesús Hernández  
+- Santiago Arena
+
+---
+
+# 👨‍💻 Contacto
+
+- GitHub:  
+  https://github.com/JesusHernandezP
+
+- LinkedIn:  
+  https://www.linkedin.com/in/jesushernandezp/
+
+- Portfolio:  
+  https://jesus-hernandez.es
