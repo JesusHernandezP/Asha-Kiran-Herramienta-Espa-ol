@@ -6,6 +6,7 @@ interface MemoryCard {
   id: string;
   type: 'word' | 'emoji';
   content: string;
+  imageUrl?: string;
   matchId: string;
   isFlipped: boolean;
   isMatched: boolean;
@@ -36,6 +37,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
         id: `emoji-${index}`,
         type: 'emoji',
         content: item.emoji,
+        imageUrl: item.imageUrl,
         matchId: `match-${index}`,
         isFlipped: false,
         isMatched: false,
@@ -139,7 +141,11 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
                 }}
               >
                 {card.type === 'emoji' ? (
-                  <span className="text-4xl sm:text-5xl drop-shadow-sm">{card.content}</span>
+                  card.imageUrl ? (
+                    <img src={card.imageUrl} alt="card" className="w-12 h-12 object-contain drop-shadow-sm rounded-sm" />
+                  ) : (
+                    <span className="text-4xl sm:text-5xl drop-shadow-sm">{card.content}</span>
+                  )
                 ) : (
                   <span className="text-sm sm:text-base font-bold text-center text-[#3C3633]">{card.content}</span>
                 )}

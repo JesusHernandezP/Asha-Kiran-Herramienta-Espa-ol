@@ -117,7 +117,11 @@ export function LessonDetail() {
                    return (
                    <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full" style={{ borderColor: vocab.color || '#E2E8F0' }}>
                      <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl" style={{ background: vocab.color || '#f4fbf6' }}>
-                       {vocab.emoji}
+                       {vocab.imageUrl ? (
+                         <img src={vocab.imageUrl} alt={vocab.word} className="w-2/3 h-2/3 object-contain drop-shadow-sm rounded-sm" />
+                       ) : (
+                         vocab.emoji
+                       )}
                      </div>
                      <span className="font-bold text-[#3C3633] text-xs sm:text-sm leading-tight mt-auto">{vocab.word}</span>
                      {translatedText && <span className="text-[10px] sm:text-xs text-stone-500 mt-1">({translatedText})</span>}
