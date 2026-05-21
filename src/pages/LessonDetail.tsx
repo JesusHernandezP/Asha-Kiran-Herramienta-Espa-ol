@@ -3,11 +3,13 @@ import { useParams, Link } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import { lessons } from '../data/content';
-import { ArrowLeft, CheckCircle2, ChevronRight, XCircle, BookOpen } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, ChevronRight, XCircle, BookOpen, Volume2 } from 'lucide-react';
 import { MemoryGame } from '../components/layout/MemoryGame';
 import { FlashcardsGame } from '../components/layout/FlashcardsGame';
 import { VocabularyQuiz } from '../components/layout/VocabularyQuiz';
+import { ListeningQuiz } from '../components/layout/ListeningQuiz';
 import { useLanguage, replaceTransTags, TransText } from '../contexts/LanguageContext';
+import { speakSpanish } from '../utils/speech';
 
 export function LessonDetail() {
   const { id } = useParams<{ id: string }>();
@@ -26,9 +28,26 @@ export function LessonDetail() {
         target.src = 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80';
       }
     };
+
+    // Attach listener for simulated audio buttons in lesson content
+    const handleAudioBtnClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (target && target.classList.contains('audio-btn')) {
+        if (id === 'a1-alfa-abecedario') {
+          speakSpanish("A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z");
+        } else {
+          const textToSpeak = target.innerText.replace('🔊', '').trim();
+          speakSpanish(textToSpeak);
+        }
+      }
+    };
+
     document.addEventListener('error', handleImageError, true);
+    document.addEventListener('click', handleAudioBtnClick);
+    
     return () => {
       document.removeEventListener('error', handleImageError, true);
+      document.removeEventListener('click', handleAudioBtnClick);
     };
   }, [id]);
 
@@ -115,13 +134,23 @@ export function LessonDetail() {
                  {lesson.vocabulary.map((vocab, index) => {
                    const translatedText = vocab.translations?.[language] || vocab.translation;
                    return (
-                   <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full" style={{ borderColor: vocab.color || '#E2E8F0' }}>
-                     <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl" style={{ background: vocab.color || '#f4fbf6' }}>
+                   <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full relative" style={{ borderColor: vocab.color || '#E2E8F0' }}>
+                     <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl relative" style={{ background: vocab.color || '#f4fbf6' }}>
                        {vocab.imageUrl ? (
                           <img src={vocab.imageUrl} alt={vocab.word} className="w-2/3 h-2/3 object-contain drop-shadow-sm rounded-sm" />
                         ) : (
                           vocab.emoji
                         )}
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            speakSpanish(vocab.word);
+                          }}
+                          className="absolute bottom-1 right-1 w-7 h-7 rounded-full bg-white shadow flex items-center justify-center text-[#00823B] hover:bg-[#00823B] hover:text-white transition-all active:scale-90"
+                          title="Escuchar"
+                        >
+                          <Volume2 size={14} />
+                        </button>
                      </div>
                      <span className="font-bold text-[#3C3633] text-xs sm:text-sm leading-tight mt-auto">{vocab.word}</span>
                      {translatedText && <span className="text-[10px] sm:text-xs text-stone-500 mt-1">({translatedText})</span>}
@@ -134,6 +163,7 @@ export function LessonDetail() {
                  <FlashcardsGame vocabulary={lesson.vocabulary} />
                  <VocabularyQuiz vocabulary={lesson.vocabulary} />
                  <MemoryGame vocabulary={lesson.vocabulary} />
+                 <ListeningQuiz vocabulary={lesson.vocabulary} />
                </div>
             </div>
           )}
