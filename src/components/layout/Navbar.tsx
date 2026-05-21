@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star, Languages } from 'lucide-react';
+import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star, Languages, MapPin } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { lessons } from '../../data/content';
 import { useLanguage, Language } from '../../contexts/LanguageContext';
@@ -98,9 +98,12 @@ export function Navbar() {
                   </div>
                 )}
               </div>
-              <div className="hidden md:flex px-5 py-2 bg-[#00823B] text-white rounded-full text-xs font-bold uppercase tracking-wider shadow-sm hover:bg-[#006A30] transition-all cursor-pointer">
-                Aula Virtual
-              </div>
+              <Link 
+                to="/recursos-malaga"
+                className="hidden md:flex px-5 py-2 bg-[#00823B] text-white rounded-full text-xs font-bold uppercase tracking-wider shadow-sm hover:bg-[#006A30] transition-all cursor-pointer"
+              >
+                Recursos Málaga
+              </Link>
             </div>
           </div>
         </div>
@@ -209,6 +212,18 @@ export function Navbar() {
                  </li>
                ))}
              </ul>
+          </div>
+
+          {/* Recursos Málaga prominent link in mobile */}
+          <div className="mt-auto pt-4 border-t border-stone-100">
+             <Link 
+               to="/recursos-malaga" 
+               onClick={() => setIsMenuOpen(false)}
+               className="flex items-center justify-center gap-2 w-full py-4 bg-[#00823B] text-white rounded-2xl font-bold shadow-md hover:bg-[#006A30] transition-colors"
+             >
+               <MapPin size={18} />
+               <span>Recursos Málaga</span>
+             </Link>
           </div>
 
         </div>

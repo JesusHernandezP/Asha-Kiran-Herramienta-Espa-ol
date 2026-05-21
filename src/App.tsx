@@ -9,6 +9,7 @@ import { Footer } from './components/layout/Footer';
 import { Home } from './pages/Home';
 import { LevelSection } from './pages/LevelSection';
 import { LessonDetail } from './pages/LessonDetail';
+import { RecursosMalaga } from './pages/RecursosMalaga';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/nivel/:level" element={<LevelSection />} />
               <Route path="/leccion/:id" element={<LessonDetail />} />
+              <Route path="/recursos-malaga" element={<RecursosMalaga />} />
             </Routes>
           </main>
           <Footer />

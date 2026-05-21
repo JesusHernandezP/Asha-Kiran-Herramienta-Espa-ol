@@ -88,7 +88,11 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
               className="w-32 h-32 rounded-3xl flex items-center justify-center mb-8 shadow-sm border-2 border-stone-100"
               style={{ backgroundColor: vocabulary[currentQuestion].color || '#f4fbf6' }}
             >
-              <span className="text-6xl drop-shadow-sm">{vocabulary[currentQuestion].emoji}</span>
+              {vocabulary[currentQuestion].imageUrl ? (
+                <img src={vocabulary[currentQuestion].imageUrl} alt={vocabulary[currentQuestion].word} className="w-20 h-20 object-contain drop-shadow-sm rounded-sm" />
+              ) : (
+                <span className="text-6xl drop-shadow-sm">{vocabulary[currentQuestion].emoji}</span>
+              )}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">

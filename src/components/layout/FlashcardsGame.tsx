@@ -60,7 +60,13 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
                 backgroundColor: currentCard.color || '#f4fbf6'
               }}
             >
-              <span className="text-8xl sm:text-9xl drop-shadow-sm mb-4">{currentCard.emoji}</span>
+              <div className="flex items-center justify-center mb-4">
+                {currentCard.imageUrl ? (
+                  <img src={currentCard.imageUrl} alt={currentCard.word} className="w-32 h-32 object-contain drop-shadow-sm rounded-sm" />
+                ) : (
+                  <span className="text-8xl sm:text-9xl drop-shadow-sm">{currentCard.emoji}</span>
+                )}
+              </div>
             </div>
             
             {/* Back: Word */}
