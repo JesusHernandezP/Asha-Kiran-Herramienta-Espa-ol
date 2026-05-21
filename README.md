@@ -19,6 +19,7 @@ La aplicación busca ofrecer una experiencia simple, moderna y fácil de utiliza
 - Next.js
 - TypeScript
 - Tailwind CSS
+- Web Speech API (Text-to-Speech)
 - Diseño responsive
 - Mobile-first
 
@@ -30,6 +31,8 @@ La aplicación busca ofrecer una experiencia simple, moderna y fácil de utiliza
 - Diseño optimizado para móvil
 - Navegación simple y accesible
 - Experiencia interactiva de aprendizaje
+- Soporte de audio interactivo (Text-to-Speech nativo)
+- Juego de Quiz Auditivo para entrenamiento fonético y ortográfico
 - Arquitectura frontend moderna
 - UI responsive
 
