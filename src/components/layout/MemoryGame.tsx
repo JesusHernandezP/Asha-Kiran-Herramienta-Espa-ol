@@ -6,11 +6,11 @@ interface MemoryCard {
   id: string;
   type: 'word' | 'emoji';
   content: string;
-  imageUrl?: string;
   matchId: string;
   isFlipped: boolean;
   isMatched: boolean;
   color?: string;
+  imageUrl?: string;
 }
 
 export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
@@ -22,9 +22,12 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
   useEffect(() => {
     if (!vocabulary || vocabulary.length === 0) return;
     
+    // Select up to 8 random items for the current game
+    const gameVocab = [...vocabulary].sort(() => Math.random() - 0.5).slice(0, 8);
+    
     // Initialize cards
     const initialCards: MemoryCard[] = [];
-    vocabulary.forEach((item, index) => {
+    gameVocab.forEach((item, index) => {
       initialCards.push({
         id: `word-${index}`,
         type: 'word',
@@ -49,6 +52,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
     setCards(initialCards.sort(() => Math.random() - 0.5));
     setMatches(0);
     setFlippedIndices([]);
+    setIsLocked(false);
   }, [vocabulary]);
 
   const handleCardClick = (index: number) => {
@@ -103,7 +107,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
           <p className="text-sm text-stone-500">Encuentra las parejas (palabra y dibujo).</p>
         </div>
         <div className="bg-white px-3 py-1 rounded-full border border-stone-200 text-sm font-bold text-[#00823B]">
-          {matches} / {vocabulary.length}
+          {matches} / {cards.length / 2}
         </div>
       </div>
       
