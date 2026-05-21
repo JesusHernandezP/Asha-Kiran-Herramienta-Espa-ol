@@ -7,7 +7,7 @@ import { ArrowLeft, CheckCircle2, ChevronRight, XCircle, BookOpen } from 'lucide
 import { MemoryGame } from '../components/layout/MemoryGame';
 import { FlashcardsGame } from '../components/layout/FlashcardsGame';
 import { VocabularyQuiz } from '../components/layout/VocabularyQuiz';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage, replaceTransTags, TransText } from '../contexts/LanguageContext';
 
 export function LessonDetail() {
   const { id } = useParams<{ id: string }>();
@@ -105,7 +105,7 @@ export function LessonDetail() {
         <div className="p-5 sm:p-8 md:p-12">
           {/* We use a prose class wrapper to style markdown, we need @tailwindcss/typography but we can do it manually or rely on standard tags if no typography plugin. We'll add custom styles since we didn't install the plugin. */}
           <div className="prose-custom prose prose-stone prose-lg sm:prose-xl max-w-none prose-p:leading-relaxed overflow-x-auto mb-12">
-            <Markdown rehypePlugins={[rehypeRaw]}>{lesson.content}</Markdown>
+            <Markdown rehypePlugins={[rehypeRaw]}>{replaceTransTags(lesson.content, language)}</Markdown>
           </div>
           
           {lesson.vocabulary && lesson.vocabulary.length > 0 && (
@@ -145,7 +145,7 @@ export function LessonDetail() {
             {lesson.exercises.map((ex, index) => (
               <div key={ex.id} className="bg-[#FAF9F6] rounded-2xl p-6 border border-stone-200">
                 <h3 className="text-sm font-bold text-[#3C3633] mb-4">
-                  {index + 1}. {ex.question}
+                  {index + 1}. <TransText text={ex.question} />
                 </h3>
                 <div className="space-y-3">
                   {ex.options.map((opt, optIndex) => {

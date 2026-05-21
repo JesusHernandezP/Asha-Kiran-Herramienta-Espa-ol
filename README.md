@@ -1,72 +1,20 @@
-# 🌍 Asha Kiran — Herramienta de Aprendizaje de Español
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Aplicación educativa orientada al aprendizaje de español para usuarios en entornos reales de formación y apoyo educativo.
+# Run and deploy your AI Studio app
 
-El proyecto fue desarrollado con enfoque mobile-first y experiencia interactiva, priorizando accesibilidad, simplicidad y experiencia de usuario responsive.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/d7041906-80e7-420a-a856-d143bdb85df8
 
-# 🚀 Objetivo
+## Run Locally
 
-Facilitar el aprendizaje de español mediante una herramienta visual, accesible e interactiva orientada a usuarios con necesidad de apoyo lingüístico.
+**Prerequisites:**  Node.js
 
-La aplicación busca ofrecer una experiencia simple, moderna y fácil de utilizar desde dispositivos móviles y escritorio.
 
----
-
-# 🛠 Tecnologías utilizadas
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Diseño responsive
-- Mobile-first
-
----
-
-# ✨ Características principales
-
-- Interfaz moderna e intuitiva
-- Diseño optimizado para móvil
-- Navegación simple y accesible
-- Experiencia interactiva de aprendizaje
-- Arquitectura frontend moderna
-- UI responsive
-
----
-
-# 📚 Contexto del proyecto
-
-La herramienta fue desarrollada durante prácticas formativas y orientada a uso funcional dentro de un entorno educativo real.
-
----
-
-# 🌐 Demo
-
-🔗 https://aprende-con-vinculos.netlify.app/
-
----
-
-# 📂 Repositorio
-
-🔗 https://github.com/JesusHernandezP/Asha-Kiran-Herramienta-Espa-ol
-
----
-
-# 👥 Colaboradores
-
-- Jesús Hernández  
-- Santiago Arena
-
----
-
-# 👨‍💻 Contacto
-
-- GitHub:  
-  https://github.com/JesusHernandezP
-
-- LinkedIn:  
-  https://www.linkedin.com/in/jesushernandezp/
-
-- Portfolio:  
-  https://jesus-hernandez.es
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
