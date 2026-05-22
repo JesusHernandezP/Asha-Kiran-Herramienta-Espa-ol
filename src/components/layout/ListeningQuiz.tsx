@@ -6,7 +6,7 @@ import { speakSpanish } from '../../utils/speech';
 import { useLanguage } from '../../contexts/LanguageContext';
 
 export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) {
-  const { language } = useLanguage();
+  const { language, visualMode } = useLanguage();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [options, setOptions] = useState<string[]>([]);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -184,11 +184,13 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
               >
                 <div className="flex items-center gap-3 self-start sm:self-center">
                   <div className="text-3xl shrink-0">
-                    {currentItem.imageUrl ? (
-                      <img src={currentItem.imageUrl} alt={currentItem.word} className="w-10 h-10 object-contain rounded" />
-                    ) : (
-                      currentItem.emoji
-                    )}
+                    {(() => {
+                      const displayImg = visualMode === 'illustration' ? (currentItem.illustrationUrl || currentItem.imageUrl) : currentItem.imageUrl;
+                      if (displayImg) {
+                        return <img src={displayImg} alt={currentItem.word} className="w-10 h-10 object-contain rounded" />;
+                      }
+                      return currentItem.emoji;
+                    })()}
                   </div>
                   <div>
                     <h4 className="font-bold text-[#192A56] text-sm">

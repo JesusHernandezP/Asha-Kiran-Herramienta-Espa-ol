@@ -1,19 +1,27 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
-export type Language = 'en' | 'ar' | 'uk' | 'fr';
+export type Language = 'es' | 'en' | 'ar' | 'uk' | 'fr';
+export type VisualMode = 'photo' | 'illustration';
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
+  visualMode: VisualMode;
+  setVisualMode: (mode: VisualMode) => void;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('es');
+  const [visualMode, setVisualMode] = useState<VisualMode>('photo');
+
+  const handleSetVisualMode = (mode: VisualMode) => {
+    // No-op now that toggle is removed
+  };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage, visualMode, setVisualMode: handleSetVisualMode }}>
       {children}
     </LanguageContext.Provider>
   );
@@ -28,6 +36,10 @@ export function useLanguage() {
 }
 
 export function replaceTransTags(text: string, language: Language): string {
+  // When Spanish is selected, remove <trans> tags entirely so the original Spanish content remains clean
+  if (language === 'es') {
+    return text.replace(/<trans\s+en="[^"]*"\s+ar="[^"]*"\s+uk="[^"]*"\s+fr="[^"]*"\s*\/>/g, '');
+  }
   // Replace <trans en="..." ar="..." uk="..." fr="..."/> with the selected language text for HTML string usage
   return text.replace(/<trans\s+en="([^"]*)"\s+ar="([^"]*)"\s+uk="([^"]*)"\s+fr="([^"]*)"\s*\/>/g, (match, en, ar, uk, fr) => {
     switch (language) {
@@ -44,6 +56,12 @@ export function TransText({ text }: { text: string }) {
   const { language } = useLanguage();
   
   if (!text) return null;
+
+  // When Spanish is selected, strip all trans tags and return plain text
+  if (language === 'es') {
+    const cleanText = text.replace(/<trans\s+en="[^"]*"\s+ar="[^"]*"\s+uk="[^"]*"\s+fr="[^"]*"\s*\/>/g, '');
+    return <>{cleanText}</>;
+  }
 
   const parts = text.split(/(<trans\s+en="[^"]*"\s+ar="[^"]*"\s+uk="[^"]*"\s+fr="[^"]*"\s*\/>)/g);
   

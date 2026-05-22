@@ -13,6 +13,8 @@ export interface VocabularyItem {
   translations?: Record<string, string>;
   translation?: string; // fallback
   emoji: string;
+  imageUrl?: string;
+  illustrationUrl?: string;
   color?: string;
 }
 
@@ -25,6 +27,7 @@ export interface Lesson {
   description: string;
   content: string; // Markdown content, heavily visual
   imageUrl?: string;
+  illustrationUrl?: string;
   emoji?: string;
   color?: string;
   vocabulary?: VocabularyItem[];
@@ -39,36 +42,37 @@ export const lessons: Lesson[] = [
     level: "A1",
     category: "Alfabetización",
     description: "Aprende las 27 letras del abecedario español con palabras básicas y vocabulario esencial.",
-    emoji: "🔤",
+    imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/abecedario.png",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, emoji: "✈️", color: "#E2F3E7" },
-      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, emoji: "🚢", color: "#E2F3E7" },
-      { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, emoji: "🏠", color: "#E3EEF9" },
-      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, emoji: "☝️", color: "#FCE8E8" },
-      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, emoji: "🐘", color: "#E2F3E7" },
-      { word: "Fuego", translations: { en: "Fire", ar: "نار", uk: "Вогонь", fr: "Feu" }, emoji: "🔥", color: "#FFF4E5" },
-      { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, emoji: "🐱", color: "#F3E8FF" },
-      { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, emoji: "🍦", color: "#FEFCBF" },
-      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, emoji: "🏝️", color: "#E2F3E7" },
-      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, emoji: "🦒", color: "#FEFCBF" },
-      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, emoji: "🐨", color: "#E3EEF9" },
-      { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, emoji: "🌙", color: "#F3E8FF" },
-      { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, emoji: "🍎", color: "#FCE8E8" },
-      { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, emoji: "☁️", color: "#E3EEF9" },
-      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, emoji: "🐦", color: "#F3E8FF" },
-      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, emoji: "🐻", color: "#E2F3E7" },
-      { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, emoji: "🐶", color: "#FEFCBF" },
-      { word: "Queso", translations: { en: "Cheese", ar: "جبن", uk: "Сир", fr: "Fromage" }, emoji: "🧀", color: "#FEFCBF" },
-      { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, emoji: "🐭", color: "#E3EEF9" },
-      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, emoji: "☀️", color: "#FEFCBF" },
-      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, emoji: "🚆", color: "#FCE8E8" },
-      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, emoji: "🍇", color: "#F3E8FF" },
-      { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, emoji: "🐮", color: "#E2F3E7" },
-      { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, emoji: "🥝", color: "#E2F3E7" },
-      { word: "Xilófono", translations: { en: "Xylophone", ar: "إكسيليفون", uk: "Ксилофон", fr: "Xylophone" }, emoji: "🎹", color: "#F3E8FF" },
-      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, emoji: "🪀", color: "#FCE8E8" },
-      { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, emoji: "👞", color: "#FFF4E5" }
+      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=200&auto=format&fit=crop&q=60", emoji: "✈️", color: "#E2F3E7" },
+      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-1505244208262-19158ab91c13?w=200&auto=format&fit=crop&q=60", emoji: "🚢", color: "#E2F3E7" },
+      { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, imageUrl: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=200&auto=format&fit=crop&q=60", emoji: "🏠", color: "#E3EEF9" },
+      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&auto=format&fit=crop&q=60", emoji: "☝️", color: "#FCE8E8" },
+      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-1581850518616-bcb8077fa212?w=200&auto=format&fit=crop&q=60", emoji: "🐘", color: "#E2F3E7" },
+      { word: "Fuego", translations: { en: "Fire", ar: "نار", uk: "Вогонь", fr: "Feu" }, imageUrl: "https://images.unsplash.com/photo-1508873696983-2df519f0397e?w=200&auto=format&fit=crop&q=60", emoji: "🔥", color: "#FFF4E5" },
+      { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&auto=format&fit=crop&q=60", emoji: "🐱", color: "#F3E8FF" },
+      { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, imageUrl: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=200&auto=format&fit=crop&q=60", emoji: "🍦", color: "#FEFCBF" },
+      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "🏝️", color: "#E2F3E7" },
+      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=200&auto=format&fit=crop&q=60", emoji: "🦒", color: "#FEFCBF" },
+      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=200&auto=format&fit=crop&q=60", emoji: "🐨", color: "#E3EEF9" },
+      { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, imageUrl: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=200&auto=format&fit=crop&q=60", emoji: "🌙", color: "#F3E8FF" },
+      { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#FCE8E8" },
+      { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, imageUrl: "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=200&auto=format&fit=crop&q=60", emoji: "☁️", color: "#E3EEF9" },
+      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#F3E8FF" },
+      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, imageUrl: "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?w=200&auto=format&fit=crop&q=60", emoji: "🐻", color: "#E2F3E7" },
+      { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=200&auto=format&fit=crop&q=60", emoji: "🐶", color: "#FEFCBF" },
+      { word: "Queso", translations: { en: "Cheese", ar: "جبن", uk: "Сир", fr: "Fromage" }, imageUrl: "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=200&auto=format&fit=crop&q=60", emoji: "🧀", color: "#FEFCBF" },
+      { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, imageUrl: "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=200&auto=format&fit=crop&q=60", emoji: "🐭", color: "#E3EEF9" },
+      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-1581373449483-37449f962b6c?w=200&auto=format&fit=crop&q=60", emoji: "☀️", color: "#FEFCBF" },
+      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-1532103054090-334e6e60ab29?w=200&auto=format&fit=crop&q=60", emoji: "🚆", color: "#FCE8E8" },
+      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=200&auto=format&fit=crop&q=60", emoji: "🍇", color: "#F3E8FF" },
+      { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, imageUrl: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&auto=format&fit=crop&q=60", emoji: "🐮", color: "#E2F3E7" },
+      { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, imageUrl: "https://images.unsplash.com/photo-1585059895524-72359e06133a?w=200&auto=format&fit=crop&q=60", emoji: "🥝", color: "#E2F3E7" },
+      { word: "Xilófono", translations: { en: "Xylophone", ar: "إكسيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=200&auto=format&fit=crop&q=60", emoji: "🎹", color: "#F3E8FF" },
+      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=200&auto=format&fit=crop&q=60", emoji: "🪀", color: "#FCE8E8" },
+      { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&auto=format&fit=crop&q=60", emoji: "👞", color: "#FFF4E5" }
     ],
     content: `
 ## Vamos a aprender el abecedario de la A a la Z
@@ -105,15 +109,16 @@ Usa el botón de abajo si estuviera disponible el audio (simulación).
     level: "A1",
     category: "Vocabulario",
     description: "Imágenes y vocabulario básico sobre las partes principales de nuestro cuerpo.",
-    emoji: "👤",
+    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/cuerpo.png",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "La cabeza", translations: { en: "Head", ar: "الرأس", uk: "Голова", fr: "Tête" }, emoji: "👧", color: "#EBF8FF" },
-      { word: "La mano", translations: { en: "Hand", ar: "اليد", uk: "Рука", fr: "Main" }, emoji: "✋", color: "#EBF8FF" },
-      { word: "El pie", translations: { en: "Foot", ar: "القدم", uk: "Нога", fr: "Pied" }, emoji: "🦶", color: "#EBF8FF" },
-      { word: "Los ojos", translations: { en: "Eyes", ar: "العينان", uk: "Очі", fr: "Yeux" }, emoji: "👁️", color: "#EBF8FF" },
-      { word: "Las piernas", translations: { en: "Legs", ar: "الساقين", uk: "Ноги", fr: "Jambes" }, emoji: "🦵", color: "#EBF8FF" },
-      { word: "El brazo", translations: { en: "Arm", ar: "الذراع", uk: "Рука", fr: "Bras" }, emoji: "💪", color: "#EBF8FF" }
+      { word: "La cabeza", translations: { en: "Head", ar: "الرأس", uk: "Голова", fr: "Tête" }, emoji: "👧", imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/cabeza.png", color: "#EBF8FF" },
+      { word: "La mano", translations: { en: "Hand", ar: "اليد", uk: "Рука", fr: "Main" }, emoji: "✋", imageUrl: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/mano.png", color: "#EBF8FF" },
+      { word: "El pie", translations: { en: "Foot", ar: "القدم", uk: "Нога", fr: "Pied" }, emoji: "🦶", imageUrl: "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/pie.png", color: "#EBF8FF" },
+      { word: "Los ojos", translations: { en: "Eyes", ar: "العينان", uk: "Очі", fr: "Yeux" }, emoji: "👁️", imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/ojos.png", color: "#EBF8FF" },
+      { word: "Las piernas", translations: { en: "Legs", ar: "الساقين", uk: "Ноги", fr: "Jambes" }, emoji: "🦵", imageUrl: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/piernas.png", color: "#EBF8FF" },
+      { word: "El brazo", translations: { en: "Arm", ar: "الذراع", uk: "Рука", fr: "Bras" }, emoji: "💪", imageUrl: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/brazo.png", color: "#EBF8FF" }
     ],
     content: `
 ## El Cuerpo Humano
@@ -142,15 +147,16 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     level: "A1",
     category: "Vocabulario",
     description: "Vocabulario con tonos de colores. Rojo, azul, verde, amarillo, naranja.",
-    emoji: "🎨",
+    imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/colores.png",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "Rojo", translations: { en: "Red", ar: "أحمر", uk: "Червоний", fr: "Rouge" }, emoji: "🍎", color: "#E53E3E" },
-      { word: "Azul", translations: { en: "Blue", ar: "أزرق", uk: "Синій", fr: "Bleu" }, emoji: "💧", color: "#3182CE" },
-      { word: "Verde", translations: { en: "Green", ar: "أخضر", uk: "Зелений", fr: "Vert" }, emoji: "🐸", color: "#38A169" },
-      { word: "Amarillo", translations: { en: "Yellow", ar: "أصفر", uk: "Жовтий", fr: "Jaune" }, emoji: "☀️", color: "#ECC94B" },
-      { word: "Naranja", translations: { en: "Orange", ar: "برتقالي", uk: "Помаранчевий", fr: "Orange" }, emoji: "🍊", color: "#DD6B20" },
-      { word: "Negro", translations: { en: "Black", ar: "أسود", uk: "Чорний", fr: "Noir" }, emoji: "🎩", color: "#1A202C" }
+      { word: "Rojo", translations: { en: "Red", ar: "أحمر", uk: "Червоний", fr: "Rouge" }, imageUrl: "https://images.unsplash.com/photo-1508020963904-3fea35495547?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#E53E3E" },
+      { word: "Azul", translations: { en: "Blue", ar: "أزرق", uk: "Синій", fr: "Bleu" }, imageUrl: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=200&auto=format&fit=crop&q=60", emoji: "💧", color: "#3182CE" },
+      { word: "Verde", translations: { en: "Green", ar: "أخضر", uk: "Зелений", fr: "Vert" }, imageUrl: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=200&auto=format&fit=crop&q=60", emoji: "🐸", color: "#38A169" },
+      { word: "Amarillo", translations: { en: "Yellow", ar: "أصفر", uk: "Жовтий", fr: "Jaune" }, imageUrl: "https://images.unsplash.com/photo-1569172122301-bc5008bc09c5?w=200&auto=format&fit=crop&q=60", emoji: "☀️", color: "#ECC94B" },
+      { word: "Naranja", translations: { en: "Orange", ar: "برتقالي", uk: "Помаранчевий", fr: "Orange" }, imageUrl: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=200&auto=format&fit=crop&q=60", emoji: "🍊", color: "#DD6B20" },
+      { word: "Negro", translations: { en: "Black", ar: "أسود", uk: "Чорний", fr: "Noir" }, imageUrl: "https://images.unsplash.com/photo-1507499739999-097706ad8914?w=200&auto=format&fit=crop&q=60", emoji: "🎩", color: "#1A202C" }
     ],
     content: `
 ## ¿De qué color es?
@@ -177,13 +183,14 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     level: "A1",
     category: "Gramática",
     description: "Aprende a usar los artículos (el, la, los, las) y a formar el plural añadiendo 'S' o 'ES'.",
-    emoji: "📚",
+    imageUrl: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/articulos.png",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "El niño", translations: { en: "The boy", ar: "الولد", uk: "Хлопчик", fr: "Le garçon" }, emoji: "👦", color: "#EBF8FF" },
-      { word: "La niña", translations: { en: "The girl", ar: "البنت", uk: "Дівчинка", fr: "La fille" }, emoji: "👧", color: "#EBF8FF" },
-      { word: "Los niños", translations: { en: "The boys / The children", ar: "الأولاد", uk: "Хлопчики", fr: "Les garçons" }, emoji: "👦👦", color: "#EBF8FF" },
-      { word: "Las niñas", translations: { en: "The girls", ar: "البنات", uk: "Дівчатка", fr: "Les filles" }, emoji: "👧👧", color: "#EBF8FF" }
+      { word: "El niño", translations: { en: "The boy", ar: "الولد", uk: "Хлопчик", fr: "Le garçon" }, imageUrl: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=200&auto=format&fit=crop&q=60", emoji: "👦", color: "#EBF8FF" },
+      { word: "La niña", translations: { en: "The girl", ar: "البنت", uk: "Дівчинка", fr: "La fille" }, imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=200&auto=format&fit=crop&q=60", emoji: "👧", color: "#EBF8FF" },
+      { word: "Los niños", translations: { en: "The boys / The children", ar: "الأولاد", uk: "Хлопчики", fr: "Les garçons" }, imageUrl: "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?w=200&auto=format&fit=crop&q=60", emoji: "👦👦", color: "#EBF8FF" },
+      { word: "Las niñas", translations: { en: "The girls", ar: "البنات", uk: "Дівчатка", fr: "Les filles" }, imageUrl: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=200&auto=format&fit=crop&q=60", emoji: "👧👧", color: "#EBF8FF" }
     ],
     content: `
 ## Los Artículos Definidos
@@ -227,15 +234,16 @@ Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añ
     level: "A1",
     category: "Gramática",
     description: "Aprende los pronombres para referirte a personas: yo, tú, él, ella, nosotros, vosotros, ellos.",
-    emoji: "🙋🏽‍♂️",
+    imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/pronombres.png",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "Yo", translations: { en: "I", ar: "أنا", uk: "Я", fr: "Je" }, emoji: "🙋", color: "#E2F3E7" },
-      { word: "Tú", translations: { en: "You (singular, informal)", ar: "أنت", uk: "Ти", fr: "Tu" }, emoji: "👉", color: "#E2F3E7" },
-      { word: "Él / Ella", translations: { en: "He / She", ar: "هو / هي", uk: "Він / Вона", fr: "Il / Elle" }, emoji: "🧍", color: "#E2F3E7" },
-      { word: "Nosotros", translations: { en: "We", ar: "نحن", uk: "Ми", fr: "Nous" }, emoji: "🫂", color: "#E2F3E7" },
-      { word: "Vosotros", translations: { en: "You (plural, informal)", ar: "أنتم", uk: "Ви", fr: "Vous" }, emoji: "👋", color: "#E2F3E7" },
-      { word: "Ellos / Ellas", translations: { en: "They", ar: "هم / هن", uk: "Вони", fr: "Ils / Elles" }, emoji: "👥", color: "#E2F3E7" }
+      { word: "Yo", translations: { en: "I", ar: "أنا", uk: "Я", fr: "Je" }, imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=60", emoji: "🙋", color: "#E2F3E7" },
+      { word: "Tú", translations: { en: "You (singular, informal)", ar: "أنت", uk: "Ти", fr: "Tu" }, imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=60", emoji: "👉", color: "#E2F3E7" },
+      { word: "Él / Ella", translations: { en: "He / She", ar: "هو / هي", uk: "Він / Вона", fr: "Il / Elle" }, imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=60", emoji: "🧍", color: "#E2F3E7" },
+      { word: "Nosotros", translations: { en: "We", ar: "نحن", uk: "Ми", fr: "Nous" }, imageUrl: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=200&auto=format&fit=crop&q=60", emoji: "🫂", color: "#E2F3E7" },
+      { word: "Vosotros", translations: { en: "You (plural, informal)", ar: "أنتم", uk: "Ви", fr: "Vous" }, imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&auto=format&fit=crop&q=60", emoji: "👋", color: "#E2F3E7" },
+      { word: "Ellos / Ellas", translations: { en: "They", ar: "هم / هن", uk: "Вони", fr: "Ils / Elles" }, imageUrl: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&auto=format&fit=crop&q=60", emoji: "👥", color: "#E2F3E7" }
     ],
     content: `
 ## Los Pronombres Personales
@@ -277,12 +285,13 @@ Para hablar de quién hace la acción, usamos los pronombres personales. ¡Apren
     level: "A1",
     category: "Gramática",
     description: "Aprende los tres verbos más importantes en español para poder presentarte.",
-    emoji: "🏃🏻",
+    imageUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/verbos.png",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "Yo soy", translations: { en: "I am (teacher)", ar: "أنا معلم", uk: "Я вчитель", fr: "Je suis (professeur)" }, emoji: "🧑‍🏫", color: "#E2E8F0" },
-      { word: "Yo estoy", translations: { en: "I am (at home)", ar: "أنا في المنزل", uk: "Я вдома", fr: "Je suis (à la maison)" }, emoji: "🏠", color: "#E2E8F0" },
-      { word: "Yo tengo", translations: { en: "I have (an apple)", ar: "لدي تفاحة", uk: "Я маю", fr: "J'ai (une pomme)" }, emoji: "🍎", color: "#E2E8F0" }
+      { word: "Yo soy", translations: { en: "I am (teacher)", ar: "أنا معلم", uk: "Я вчитель", fr: "Je suis (professeur)" }, imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=200&auto=format&fit=crop&q=60", emoji: "🧑‍🏫", color: "#E2E8F0" },
+      { word: "Yo estoy", translations: { en: "I am (at home)", ar: "أنا في المنزل", uk: "Я вдома", fr: "Je suis (à la maison)" }, imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&auto=format&fit=crop&q=60", emoji: "🏠", color: "#E2E8F0" },
+      { word: "Yo tengo", translations: { en: "I have (an apple)", ar: "لدي تفاحة", uk: "Я маю", fr: "J'ai (une pomme)" }, imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#E2E8F0" }
     ],
     content: `
 ## Verbos muy importantes
@@ -329,13 +338,14 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
     level: "A1",
     category: "Vocabulario",
     description: "¿Qué te pones cada día? Aprende palabras como camisa, pantalones y zapatos.",
-    emoji: "👕",
+    imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/ropa.png",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "La camiseta", translations: { en: "T-Shirt", ar: "قميص", uk: "Футболка", fr: "T-shirt" }, emoji: "👕", color: "#EDF2F7" },
-      { word: "El pantalón", translations: { en: "Pants", ar: "سروال", uk: "Штани", fr: "Pantalon" }, emoji: "👖", color: "#EDF2F7" },
-      { word: "Los zapatos", translations: { en: "Shoes", ar: "حذاء", uk: "Взуття", fr: "Chaussures" }, emoji: "👟", color: "#EDF2F7" },
-      { word: "La chaqueta", translations: { en: "Jacket", ar: "سترة", uk: "Куртка", fr: "Veste" }, emoji: "🧥", color: "#EDF2F7" }
+      { word: "La camiseta", translations: { en: "T-Shirt", ar: "قميص", uk: "Футболка", fr: "T-shirt" }, imageUrl: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=200&auto=format&fit=crop&q=60", emoji: "👕", color: "#EDF2F7" },
+      { word: "El pantalón", translations: { en: "Pants", ar: "سروال", uk: "Штани", fr: "Pantalon" }, imageUrl: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=200&auto=format&fit=crop&q=60", emoji: "👖", color: "#EDF2F7" },
+      { word: "Los zapatos", translations: { en: "Shoes", ar: "حذاء", uk: "Взуття", fr: "Chaussures" }, imageUrl: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=200&auto=format&fit=crop&q=60", emoji: "👟", color: "#EDF2F7" },
+      { word: "La chaqueta", translations: { en: "Jacket", ar: "سترة", uk: "Куртка", fr: "Veste" }, imageUrl: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=200&auto=format&fit=crop&q=60", emoji: "🧥", color: "#EDF2F7" }
     ],
     content: `
 ## Las prendas de vestir
@@ -356,15 +366,16 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
     level: "A1",
     category: "Gramática",
     description: "Aprende las reglas básicas para saber si una palabra es masculina (termina en 'o') o femenina (termina en 'a'), y algunas excepciones.",
-    emoji: "🚹",
+    imageUrl: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/genero.png",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "El niño", translations: { en: "The boy", ar: "الولد", uk: "Хлопчик", fr: "Le garçon" }, emoji: "👦", color: "#E2F3E7" },
-      { word: "El cielo", translations: { en: "The sky", ar: "السماء", uk: "Небо", fr: "Le ciel" }, emoji: "🌌", color: "#EBF8FF" },
-      { word: "La niña", translations: { en: "The girl", ar: "البنت", uk: "Дівчинка", fr: "La fille" }, emoji: "👧", color: "#FFF5F5" },
-      { word: "La manzana", translations: { en: "The apple", ar: "التفاحة", uk: "Яблуко", fr: "La pomme" }, emoji: "🍎", color: "#FCE8E8" },
-      { word: "La información", translations: { en: "The information", ar: "المعلومات", uk: "Інформація", fr: "L'information" }, emoji: "ℹ️", color: "#E3EEF9" },
-      { word: "La concentración", translations: { en: "The concentration", ar: "التركيز", uk: "Концентрація", fr: "La concentration" }, emoji: "🧠", color: "#F3E8FF" }
+      { word: "El niño", translations: { en: "The boy", ar: "الولد", uk: "Хлопчик", fr: "Le garçon" }, imageUrl: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=200&auto=format&fit=crop&q=60", emoji: "👦", color: "#E2F3E7" },
+      { word: "El cielo", translations: { en: "The sky", ar: "السماء", uk: "Небо", fr: "Le ciel" }, imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=200&auto=format&fit=crop&q=60", emoji: "🌌", color: "#EBF8FF" },
+      { word: "La niña", translations: { en: "The girl", ar: "البنت", uk: "Дівчинка", fr: "La fille" }, imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=200&auto=format&fit=crop&q=60", emoji: "👧", color: "#FFF5F5" },
+      { word: "La manzana", translations: { en: "The apple", ar: "التفاحة", uk: "Яблуко", fr: "La pomme" }, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#FCE8E8" },
+      { word: "La información", translations: { en: "The information", ar: "المعلومات", uk: "Інформація", fr: "L'information" }, imageUrl: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=200&auto=format&fit=crop&q=60", emoji: "ℹ️", color: "#E3EEF9" },
+      { word: "La concentración", translations: { en: "The concentration", ar: "التركيز", uk: "Концентрація", fr: "La concentration" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🧠", color: "#F3E8FF" }
     ],
     content: `
 ## Palabras Masculinas y Femeninas
@@ -417,14 +428,15 @@ Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no ter
     level: "A1",
     category: "Gramática",
     description: "Aprende a indicar posesión: mi, tu, nuestro, vuestro, su.",
+    imageUrl: "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?w=600&auto=format&fit=crop&q=80",
     emoji: "🎒",
     color: "#FCE8E8",
     vocabulary: [
-      { word: "Mi", translations: { en: "My", ar: "لي", uk: "Мій", fr: "Mon/Ma" }, emoji: "🙋", color: "#FCE8E8" },
-      { word: "Tu", translations: { en: "Your", ar: "لك", uk: "Твій", fr: "Ton/Ta" }, emoji: "👉", color: "#FCE8E8" },
-      { word: "Su", translations: { en: "His/Her/Their", ar: "له/لها/لهم", uk: "Його/Її/Їх", fr: "Son/Sa/Leur" }, emoji: "🧍", color: "#FCE8E8" },
-      { word: "Nuestro / Nuestra", translations: { en: "Our", ar: "لنا", uk: "Наш/Наша", fr: "Notre" }, emoji: "🫂", color: "#FCE8E8" },
-      { word: "Vuestro / Vuestra", translations: { en: "Your (plural)", ar: "لكم", uk: "Ваш/Ваша", fr: "Votre" }, emoji: "👋", color: "#FCE8E8" }
+      { word: "Mi", translations: { en: "My", ar: "لي", uk: "Мій", fr: "Mon/Ma" }, imageUrl: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&auto=format&fit=crop&q=60", emoji: "🙋", color: "#FCE8E8" },
+      { word: "Tu", translations: { en: "Your", ar: "لك", uk: "Твій", fr: "Ton/Ta" }, imageUrl: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=200&auto=format&fit=crop&q=60", emoji: "👉", color: "#FCE8E8" },
+      { word: "Su", translations: { en: "His/Her/Their", ar: "له/لها/لهم", uk: "Його/Її/Їх", fr: "Son/Sa/Leur" }, imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=60", emoji: "🧍", color: "#FCE8E8" },
+      { word: "Nuestro / Nuestra", translations: { en: "Our", ar: "لنا", uk: "Наш/Наша", fr: "Notre" }, imageUrl: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=200&auto=format&fit=crop&q=60", emoji: "🫂", color: "#FCE8E8" },
+      { word: "Vuestro / Vuestra", translations: { en: "Your (plural)", ar: "لكم", uk: "Ваш/Ваша", fr: "Votre" }, imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&auto=format&fit=crop&q=60", emoji: "👋", color: "#FCE8E8" }
     ],
     content: `
 ## ¿De quién es?
@@ -468,13 +480,14 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
     level: "A1",
     category: "Gramática",
     description: "Aprende a decir sí o no, y a expresar lo que te gusta y no te gusta.",
+    imageUrl: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&auto=format&fit=crop&q=80",
     emoji: "👍",
     color: "#E3EEF9",
     vocabulary: [
-      { word: "Sí", translations: { en: "Yes", ar: "نعم", uk: "Так", fr: "Oui" }, emoji: "✅", color: "#E2F3E7" },
-      { word: "No", translations: { en: "No", ar: "لا", uk: "Ні", fr: "Non" }, emoji: "❌", color: "#FCE8E8" },
-      { word: "Me gusta", translations: { en: "I like", ar: "يعجبني", uk: "Мені подобається", fr: "J'aime" }, emoji: "👍", color: "#E3EEF9" },
-      { word: "No me gusta", translations: { en: "I don't like", ar: "لا يعجبني", uk: "Мені не подобається", fr: "Je n'aime pas" }, emoji: "👎", color: "#FCE8E8" }
+      { word: "Sí", translations: { en: "Yes", ar: "نعم", uk: "Так", fr: "Oui" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "✅", color: "#E2F3E7" },
+      { word: "No", translations: { en: "No", ar: "لا", uk: "Ні", fr: "Non" }, imageUrl: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=200&auto=format&fit=crop&q=60", emoji: "❌", color: "#FCE8E8" },
+      { word: "Me gusta", translations: { en: "I like", ar: "يعجبني", uk: "Мені подобається", fr: "J'aime" }, imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=200&auto=format&fit=crop&q=60", emoji: "👍", color: "#E3EEF9" },
+      { word: "No me gusta", translations: { en: "I don't like", ar: "لا يعجبني", uk: "Мені не подобається", fr: "Je n'aime pas" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "👎", color: "#FCE8E8" }
     ],
     content: `
 ## ¿Sí o No?
@@ -513,14 +526,15 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito.
     level: "A1",
     category: "Vocabulario",
     description: "Hola, ¿cómo estás? Aprende las preguntas y respuestas más importantes para conocer a alguien.",
-    emoji: "🤝",
+    imageUrl: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/saludos.png",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "Hola", translations: { en: "Hello", ar: "مرحباً", uk: "Привіт", fr: "Bonjour" }, emoji: "👋", color: "#FFF5F5" },
-      { word: "¿Cómo estás?", translations: { en: "How are you?", ar: "كيف حالك؟", uk: "Як справи?", fr: "Comment vas-tu ?" }, emoji: "🤔", color: "#EBF8FF" },
-      { word: "Estoy bien", translations: { en: "I'm fine", ar: "أنا بخير", uk: "Я в порядку", fr: "Je vais bien" }, emoji: "😊", color: "#E2F3E7" },
-      { word: "¿Cómo te llamas?", translations: { en: "What's your name?", ar: "ما اسمك؟", uk: "Як тебе звати?", fr: "Comment t'appelles-tu ?" }, emoji: "🏷️", color: "#EBF8FF" },
-      { word: "¿De dónde eres?", translations: { en: "Where are you from?", ar: "من أين أنت؟", uk: "Звідки ти?", fr: "D'où viens-tu ?" }, emoji: "🌍", color: "#FEFCBF" }
+      { word: "Hola", translations: { en: "Hello", ar: "مرحباً", uk: "Привіт", fr: "Bonjour" }, imageUrl: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=200&auto=format&fit=crop&q=60", emoji: "👋", color: "#FFF5F5" },
+      { word: "¿Cómo estás?", translations: { en: "How are you?", ar: "كيف حالك؟", uk: "Як справи?", fr: "Comment vas-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&auto=format&fit=crop&q=60", emoji: "🤔", color: "#EBF8FF" },
+      { word: "Estoy bien", translations: { en: "I'm fine", ar: "أنا بخير", uk: "Я в порядку", fr: "Je vais bien" }, imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=60", emoji: "😊", color: "#E2F3E7" },
+      { word: "¿Cómo te llamas?", translations: { en: "What's your name?", ar: "ما اسمك؟", uk: "Як тебе звати?", fr: "Comment t'appelles-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "🏷️", color: "#EBF8FF" },
+      { word: "¿De dónde eres?", translations: { en: "Where are you from?", ar: "من أين أنت؟", uk: "Звідки ти?", fr: "D'où viens-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🌍", color: "#FEFCBF" }
     ],
     content: `
 ## Conversación Básica
@@ -566,19 +580,20 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
     level: "A1",
     category: "Vocabulario",
     description: "Aprende a contar del uno al diez.",
-    emoji: "🔢",
+    imageUrl: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "/images/lessons/numeros.png",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "Uno (1)", translations: { en: "One", ar: "واحد", uk: "Один", fr: "Un" }, emoji: "1️⃣", color: "#EBF8FF" },
-      { word: "Dos (2)", translations: { en: "Two", ar: "إثنان", uk: "Два", fr: "Deux" }, emoji: "2️⃣", color: "#EBF8FF" },
-      { word: "Tres (3)", translations: { en: "Three", ar: "ثلاثة", uk: "Три", fr: "Trois" }, emoji: "3️⃣", color: "#EBF8FF" },
-      { word: "Cuatro (4)", translations: { en: "Four", ar: "أربعة", uk: "Чотири", fr: "Quatre" }, emoji: "4️⃣", color: "#EBF8FF" },
-      { word: "Cinco (5)", translations: { en: "Five", ar: "خمسة", uk: "П'ять", fr: "Cinq" }, emoji: "5️⃣", color: "#EBF8FF" },
-      { word: "Seis (6)", translations: { en: "Six", ar: "ستة", uk: "Шість", fr: "Six" }, emoji: "6️⃣", color: "#EBF8FF" },
-      { word: "Siete (7)", translations: { en: "Seven", ar: "سبعة", uk: "Сім", fr: "Sept" }, emoji: "7️⃣", color: "#EBF8FF" },
-      { word: "Ocho (8)", translations: { en: "Eight", ar: "ثمانية", uk: "Вісім", fr: "Huit" }, emoji: "8️⃣", color: "#EBF8FF" },
-      { word: "Nueve (9)", translations: { en: "Nine", ar: "تسعة", uk: "Дев'ять", fr: "Neuf" }, emoji: "9️⃣", color: "#EBF8FF" },
-      { word: "Diez (10)", translations: { en: "Ten", ar: "عشرة", uk: "Десять", fr: "Dix" }, emoji: "🔟", color: "#EBF8FF" }
+      { word: "Uno (1)", translations: { en: "One", ar: "واحد", uk: "Один", fr: "Un" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "1️⃣", color: "#EBF8FF" },
+      { word: "Dos (2)", translations: { en: "Two", ar: "إثنان", uk: "Два", fr: "Deux" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "2️⃣", color: "#EBF8FF" },
+      { word: "Tres (3)", translations: { en: "Three", ar: "ثلاثة", uk: "Три", fr: "Trois" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "3️⃣", color: "#EBF8FF" },
+      { word: "Cuatro (4)", translations: { en: "Four", ar: "أربعة", uk: "Чотири", fr: "Quatre" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "4️⃣", color: "#EBF8FF" },
+      { word: "Cinco (5)", translations: { en: "Five", ar: "خمسة", uk: "П'ять", fr: "Cinq" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "5️⃣", color: "#EBF8FF" },
+      { word: "Seis (6)", translations: { en: "Six", ar: "ستة", uk: "Шість", fr: "Six" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "6️⃣", color: "#EBF8FF" },
+      { word: "Siete (7)", translations: { en: "Seven", ar: "سبعة", uk: "Сім", fr: "Sept" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "7️⃣", color: "#EBF8FF" },
+      { word: "Ocho (8)", translations: { en: "Eight", ar: "ثمانية", uk: "Вісім", fr: "Huit" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "8️⃣", color: "#EBF8FF" },
+      { word: "Nueve (9)", translations: { en: "Nine", ar: "تسعة", uk: "Дев'ять", fr: "Neuf" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "9️⃣", color: "#EBF8FF" },
+      { word: "Diez (10)", translations: { en: "Ten", ar: "عشرة", uk: "Десять", fr: "Dix" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "🔟", color: "#EBF8FF" }
     ],
     content: `
 ## A contar...
@@ -619,14 +634,15 @@ Los primeros 10 son:
     level: "A1",
     category: "Vocabulario",
     description: "España y español. Inglaterra y británico. Aprende cómo hablar de orígenes.",
+    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=600&auto=format&fit=crop&q=80",
     emoji: "🌐",
     color: "#FEFCBF",
     vocabulary: [
-      { word: "España / español", translations: { en: "Spain / Spanish", ar: "إسبانيا / إسباني", uk: "Іспанія / іспанець", fr: "Espagne / espagnol" }, emoji: "🇪🇸", color: "#FFF5F5" },
-      { word: "Inglaterra / inglés", translations: { en: "England / English", ar: "إنجلترا / إنجليزي", uk: "Англія / англієць", fr: "Angleterre / anglais" }, emoji: "🇬🇧", color: "#EBF8FF" },
-      { word: "Marruecos / marroquí", translations: { en: "Morocco / Moroccan", ar: "المغرب / مغربي", uk: "Марокко / марокканець", fr: "Maroc / marocain" }, emoji: "🇲🇦", color: "#FCE8E8" },
-      { word: "Francia / francés", translations: { en: "France / French", ar: "فرنسا / فرنسي", uk: "Франція / француз", fr: "France / français" }, emoji: "🇫🇷", color: "#E3EEF9" },
-      { word: "Senegal / senegalés", translations: { en: "Senegal / Senegalese", ar: "السنغال / سنغالي", uk: "Сенегал / сенегалець", fr: "Sénégal / sénégalais" }, emoji: "🇸🇳", color: "#E2F3E7" }
+      { word: "España / español", translations: { en: "Spain / Spanish", ar: "إسبانيا / إسباني", uk: "Іспанія / іспанець", fr: "Espagne / espagnol" }, imageUrl: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=200&auto=format&fit=crop&q=60", emoji: "🇪🇸", color: "#FFF5F5" },
+      { word: "Inglaterra / inglés", translations: { en: "England / English", ar: "إنجلترا / إنجليزي", uk: "Англія / англієць", fr: "Angleterre / anglais" }, imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ca1ad?w=200&auto=format&fit=crop&q=60", emoji: "🇬🇧", color: "#EBF8FF" },
+      { word: "Marruecos / marroquí", translations: { en: "Morocco / Moroccan", ar: "المغرب / مغربي", uk: "Марокко / марокканець", fr: "Maroc / marocain" }, imageUrl: "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=200&auto=format&fit=crop&q=60", emoji: "🇲🇦", color: "#FCE8E8" },
+      { word: "Francia / francés", translations: { en: "France / French", ar: "فرنسا / فرنسي", uk: "Франція / француз", fr: "France / français" }, imageUrl: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=200&auto=format&fit=crop&q=60", emoji: "🇫🇷", color: "#E3EEF9" },
+      { word: "Senegal / senegalés", translations: { en: "Senegal / Senegalese", ar: "السنغال / سنغالي", uk: "Сенегал / сенегалець", fr: "Sénégal / sénégalais" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🇸🇳", color: "#E2F3E7" }
     ],
     content: `
 ## País y Nacionalidad
@@ -664,15 +680,16 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Vocabulario",
     description: "Vocabulario sobre árboles, montañas, y animales comunes (perro, gato, pájaro).",
+    imageUrl: "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     emoji: "🐶",
     color: "#FEFCBF",
     vocabulary: [
-      { word: "El perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, emoji: "🐶", color: "#FEFCBF" },
-      { word: "El gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, emoji: "🐱", color: "#FEFCBF" },
-      { word: "El pájaro", translations: { en: "Bird", ar: "طائر", uk: "Птах", fr: "Oiseau" }, emoji: "🐦", color: "#FEFCBF" },
-      { word: "El árbol", translations: { en: "Tree", ar: "شجرة", uk: "Дерево", fr: "Arbre" }, emoji: "🌳", color: "#F0FFF4" },
-      { word: "La montaña", translations: { en: "Mountain", ar: "جبل", uk: "Гора", fr: "Montagne" }, emoji: "⛰️", color: "#F0FFF4" },
-      { word: "El mar", translations: { en: "Sea", ar: "بحر", uk: "Море", fr: "Mer" }, emoji: "🌊", color: "#F0FFF4" }
+      { word: "El perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=200&auto=format&fit=crop&q=60", emoji: "🐶", color: "#FEFCBF" },
+      { word: "El gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&auto=format&fit=crop&q=60", emoji: "🐱", color: "#FEFCBF" },
+      { word: "El pájaro", translations: { en: "Bird", ar: "طائر", uk: "Птах", fr: "Oiseau" }, imageUrl: "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#FEFCBF" },
+      { word: "El árbol", translations: { en: "Tree", ar: "شجرة", uk: "Дерево", fr: "Arbre" }, imageUrl: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=200&auto=format&fit=crop&q=60", emoji: "🌳", color: "#F0FFF4" },
+      { word: "La montaña", translations: { en: "Mountain", ar: "جبل", uk: "Гора", fr: "Montagne" }, imageUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=200&auto=format&fit=crop&q=60", emoji: "⛰️", color: "#F0FFF4" },
+      { word: "El mar", translations: { en: "Sea", ar: "بحر", uk: "Море", fr: "Mer" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🌊", color: "#F0FFF4" }
     ],
     content: `
 ## Mascotas y animales salvajes
@@ -695,6 +712,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Comprensión",
     description: "Una lectura corta para entender frases simples y practicar preguntas.",
+    imageUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=80",
     emoji: "📖",
     color: "#EBF8FF",
     content: `
@@ -734,12 +752,13 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Vocabulario",
     description: "Continentes, países comunes, y vocabulario geográfico.",
+    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
     emoji: "🌍",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "Marruecos", translations: { en: "Morocco", ar: "المغرب", uk: "Марокко", fr: "Maroc" }, emoji: "🇲🇦", color: "#FEFCBF" },
-      { word: "España", translations: { en: "Spain", ar: "إسبانيا", uk: "Іспанія", fr: "Espagne" }, emoji: "🇪🇸", color: "#FFF5F5" },
-      { word: "Senegal", translations: { en: "Senegal", ar: "السنغال", uk: "Сенегал", fr: "Sénégal" }, emoji: "🇸🇳", color: "#F0FFF4" }
+      { word: "Marruecos", translations: { en: "Morocco", ar: "المغرب", uk: "Марокко", fr: "Maroc" }, imageUrl: "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=200&auto=format&fit=crop&q=60", emoji: "🇲🇦", color: "#FEFCBF" },
+      { word: "España", translations: { en: "Spain", ar: "إسبانيا", uk: "Іспанія", fr: "Espagne" }, imageUrl: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=200&auto=format&fit=crop&q=60", emoji: "🇪🇸", color: "#FFF5F5" },
+      { word: "Senegal", translations: { en: "Senegal", ar: "السنغال", uk: "Сенегал", fr: "Sénégal" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🇸🇳", color: "#F0FFF4" }
     ],
     content: `
 ## Los Continentes
@@ -777,15 +796,16 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país.
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda.",
+    imageUrl: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&auto=format&fit=crop&q=80",
     emoji: "🗺️",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "El lavabo / baño", translations: { en: "Bathroom / Toilet", ar: "الحمام", uk: "Туалет / Ванна", fr: "Toilettes / Salle de bain" }, emoji: "🚽", color: "#EBF8FF" },
-      { word: "El autobús", translations: { en: "Bus", ar: "حافلة", uk: "Автобус", fr: "Bus" }, emoji: "🚌", color: "#FFF5F5" },
-      { word: "El metro", translations: { en: "Subway / Metro", ar: "مترو الأنفاق", uk: "Метро", fr: "Métro" }, emoji: "🚇", color: "#E2F3E7" },
-      { word: "La tienda", translations: { en: "Store / Shop", ar: "متجر", uk: "Магазин", fr: "Magasin" }, emoji: "🏪", color: "#FEFCBF" },
-      { word: "La farmacia", translations: { en: "Pharmacy", ar: "صيدلية", uk: "Аптека", fr: "Pharmacie" }, emoji: "💊", color: "#FCE8E8" },
-      { word: "El hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, emoji: "🏥", color: "#E3EEF9" }
+      { word: "El lavabo / baño", translations: { en: "Bathroom / Toilet", ar: "الحمام", uk: "Туалет / Ванна", fr: "Toilettes / Salle de bain" }, imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=200&auto=format&fit=crop&q=60", emoji: "🚽", color: "#EBF8FF" },
+      { word: "El autobús", translations: { en: "Bus", ar: "حافلة", uk: "Автобус", fr: "Bus" }, imageUrl: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=200&auto=format&fit=crop&q=60", emoji: "🚌", color: "#FFF5F5" },
+      { word: "El metro", translations: { en: "Subway / Metro", ar: "مترو الأنفاق", uk: "Метро", fr: "Métro" }, imageUrl: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=200&auto=format&fit=crop&q=60", emoji: "🚇", color: "#E2F3E7" },
+      { word: "La tienda", translations: { en: "Store / Shop", ar: "متجر", uk: "Магазин", fr: "Magasin" }, imageUrl: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=200&auto=format&fit=crop&q=60", emoji: "🏪", color: "#FEFCBF" },
+      { word: "La farmacia", translations: { en: "Pharmacy", ar: "صيدلية", uk: "Аптека", fr: "Pharmacie" }, imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&auto=format&fit=crop&q=60", emoji: "💊", color: "#FCE8E8" },
+      { word: "El hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🏥", color: "#E3EEF9" }
     ],
     content: `
 ## Preguntar por lugares
@@ -819,14 +839,15 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
     level: "A2",
     category: "Gramática",
     description: "Aprende a expresar tus deseos y necesidades: quiero comprar, necesito ayuda, quiero ir a...",
+    imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=600&auto=format&fit=crop&q=80",
     emoji: "🛒",
     color: "#F3E8FF",
     vocabulary: [
-      { word: "Quiero", translations: { en: "I want", ar: "أريد", uk: "Я хочу", fr: "Je veux" }, emoji: "🤲", color: "#F3E8FF" },
-      { word: "Necesito", translations: { en: "I need", ar: "أحتاج", uk: "Мені потрібно", fr: "J'ai besoin" }, emoji: "❗", color: "#FCE8E8" },
-      { word: "Comprar", translations: { en: "To buy", ar: "أشتري", uk: "Купити", fr: "Acheter" }, emoji: "🛍️", color: "#E3EEF9" },
-      { word: "Ir", translations: { en: "To go", ar: "أذهب", uk: "Іти", fr: "Aller" }, emoji: "🚶", color: "#E2F3E7" },
-      { word: "Ayuda", translations: { en: "Help", ar: "مساعدة", uk: "Допомога", fr: "Aide" }, emoji: "🆘", color: "#FFF4E5" }
+      { word: "Quiero", translations: { en: "I want", ar: "أريد", uk: "Я хочу", fr: "Je veux" }, imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=200&auto=format&fit=crop&q=60", emoji: "🤲", color: "#F3E8FF" },
+      { word: "Necesito", translations: { en: "I need", ar: "أحتاج", uk: "Мені потрібно", fr: "J'ai besoin" }, imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=200&auto=format&fit=crop&q=60", emoji: "❗", color: "#FCE8E8" },
+      { word: "Comprar", translations: { en: "To buy", ar: "أشتري", uk: "Купити", fr: "Acheter" }, imageUrl: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=200&auto=format&fit=crop&q=60", emoji: "🛍️", color: "#E3EEF9" },
+      { word: "Ir", translations: { en: "To go", ar: "أذهب", uk: "Іти", fr: "Aller" }, imageUrl: "https://images.unsplash.com/photo-15024661135-423995f22d0b?w=200&auto=format&fit=crop&q=60", emoji: "🚶", color: "#E2F3E7" },
+      { word: "Ayuda", translations: { en: "Help", ar: "مساعدة", uk: "Допомога", fr: "Aide" }, imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=200&auto=format&fit=crop&q=60", emoji: "🆘", color: "#FFF4E5" }
     ],
     content: `
 ## Expresar deseos y necesidades
@@ -860,14 +881,15 @@ Para pedir cosas o decir adónde vas, usamos **Quiero** (deseo) o **Necesito** (
     level: "A2",
     category: "Gramática",
     description: "Usa el verbo TENER para hablar de lo que posees y de tus sensaciones corporales.",
+    imageUrl: "https://images.unsplash.com/photo-1511688868859-7650ade30331?w=600&auto=format&fit=crop&q=80",
     emoji: "🌡️",
     color: "#FFF4E5",
     vocabulary: [
-      { word: "Tengo hambre", translations: { en: "I'm hungry", ar: "أشعر بالجوع", uk: "Я голодний", fr: "J'ai faim" }, emoji: "🤤", color: "#FFF4E5" },
-      { word: "Tengo sed", translations: { en: "I'm thirsty", ar: "أشعر بالعطش", uk: "Я хочу пити", fr: "J'ai soif" }, emoji: "🥛", color: "#E3EEF9" },
-      { word: "Tengo frío", translations: { en: "I'm cold", ar: "أشعر بالبرد", uk: "Мені холодно", fr: "J'ai froid" }, emoji: "🥶", color: "#EBF8FF" },
-      { word: "Tengo calor", translations: { en: "I'm hot", ar: "أشعر بالحر", uk: "Мені жарко", fr: "J'ai chaud" }, emoji: "🥵", color: "#FCE8E8" },
-      { word: "Tengo miedo", translations: { en: "I'm afraid", ar: "أشعر بالخوف", uk: "Мені страшно", fr: "J'ai peur" }, emoji: "😨", color: "#F3E8FF" }
+      { word: "Tengo hambre", translations: { en: "I'm hungry", ar: "أشعر بالجوع", uk: "Я голодний", fr: "J'ai faim" }, imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&auto=format&fit=crop&q=60", emoji: "🤤", color: "#FFF4E5" },
+      { word: "Tengo sed", translations: { en: "I'm thirsty", ar: "أشعر بالعطش", uk: "Я хочу пити", fr: "J'ai soif" }, imageUrl: "https://images.unsplash.com/photo-1548964856-ac520a4a9f30?w=200&auto=format&fit=crop&q=60", emoji: "🥛", color: "#E3EEF9" },
+      { word: "Tengo frío", translations: { en: "I'm cold", ar: "أشعر بالبرد", uk: "Мені холодно", fr: "J'ai froid" }, imageUrl: "https://images.unsplash.com/photo-1511688868859-7650ade30331?w=200&auto=format&fit=crop&q=60", emoji: "🥶", color: "#EBF8FF" },
+      { word: "Tengo calor", translations: { en: "I'm hot", ar: "أشعر بالحر", uk: "Мені жарко", fr: "J'ai chaud" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "🥵", color: "#FCE8E8" },
+      { word: "Tengo miedo", translations: { en: "I'm afraid", ar: "أشعر بالخوف", uk: "Мені страшно", fr: "J'ai peur" }, imageUrl: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=200&auto=format&fit=crop&q=60", emoji: "😨", color: "#F3E8FF" }
     ],
     content: `
 ## Posesión y Estados Físicos
@@ -905,13 +927,14 @@ Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para có
     level: "A2",
     category: "Gramática",
     description: "Aprende a expresar dolor, molestias, gustos y preocupaciones usando 'Me'.",
+    imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=600&auto=format&fit=crop&q=80",
     emoji: "🤕",
     color: "#FCE8E8",
     vocabulary: [
-      { word: "Me duele", translations: { en: "It hurts", ar: "يؤلمني", uk: "Мені боляче", fr: "J'ai mal" }, emoji: "🤕", color: "#FCE8E8" },
-      { word: "Me molesta", translations: { en: "It bothers me", ar: "يزعجني", uk: "Мене турбує", fr: "Ça me dérange" }, emoji: "😠", color: "#FFF4E5" },
-      { word: "Me aburre", translations: { en: "It bores me", ar: "يصيبني بالملل", uk: "Мені нудно", fr: "Ça m'ennuie" }, emoji: "🥱", color: "#E3EEF9" },
-      { word: "Me preocupa", translations: { en: "It worries me", ar: "يقلقني", uk: "Мене хвилює", fr: "Ça m'inquiète" }, emoji: "😟", color: "#F3E8FF" }
+      { word: "Me duele", translations: { en: "It hurts", ar: "يؤلمني", uk: "Мені боляче", fr: "J'ai mal" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "🤕", color: "#FCE8E8" },
+      { word: "Me molesta", translations: { en: "It bothers me", ar: "يزعجني", uk: "Мене турбує", fr: "Ça me dérange" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "😠", color: "#FFF4E5" },
+      { word: "Me aburre", translations: { en: "It bores me", ar: "يصيبني بالملل", uk: "Мені нудно", fr: "Ça m'ennuie" }, imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&auto=format&fit=crop&q=60", emoji: "🥱", color: "#E3EEF9" },
+      { word: "Me preocupa", translations: { en: "It worries me", ar: "يقلقني", uk: "Мене хвилює", fr: "Ça m'inquiète" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "😟", color: "#F3E8FF" }
     ],
     content: `
 ## Expresando sentimientos y dolor
@@ -946,6 +969,7 @@ Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**
     level: "A2",
     category: "Comprensión",
     description: "Lee sobre una visita al supermercado y practica el vocabulario de alimentos y compras.",
+    imageUrl: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&auto=format&fit=crop&q=80",
     emoji: "🛒",
     color: "#E2F3E7",
     content: `
@@ -985,6 +1009,7 @@ Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**
     level: "A2",
     category: "Comprensión",
     description: "Una pequeña conversación en la farmacia para practicar cómo pedir medicamentos.",
+    imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&auto=format&fit=crop&q=80",
     emoji: "🏥",
     color: "#FFF5F5",
     content: `
@@ -1028,6 +1053,7 @@ Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**
     level: "B1",
     category: "Gramática",
     description: "Aprende a hablar de acciones terminadas en un momento específico del pasado.",
+    imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⏳",
     color: "#FEFCBF",
     content: `
@@ -1073,6 +1099,7 @@ Usamos este tiempo verbal para acciones que empezaron y terminaron en el pasado 
     level: "B2",
     category: "Gramática",
     description: "Expresa deseos, dudas, emociones y probabilidades usando el presente de subjuntivo.",
+    imageUrl: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=600&auto=format&fit=crop&q=80",
     emoji: "💭",
     color: "#E3EEF9",
     content: `
@@ -1112,6 +1139,7 @@ El subjuntivo no es un tiempo verbal, es un *modo*. Lo usamos para expresar cosa
     level: "C1",
     category: "Vocabulario",
     description: "Aprende expresiones idiomáticas comunes para hablar con gran naturalidad y entender a los nativos.",
+    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80",
     emoji: "🗣️",
     color: "#F3E8FF",
     content: `
@@ -1150,7 +1178,7 @@ Para hablar como un nativo, es esencial conocer las frases hechas que se usan en
     level: "C2",
     category: "Comprensión",
     description: "Lee textos literarios complejos, comprende dobles sentidos, ironía y vocabulario muy avanzado.",
-    emoji: "📚",
+    imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&auto=format&fit=crop&q=80",
     color: "#FFF4E5",
     content: `
 ## Lectura Avanzada
@@ -1184,13 +1212,14 @@ Este texto no solo describe el clima (la niebla), sino que lo utiliza como metá
     level: "A1",
     category: "Vocabulario",
     description: "Aprende los días de la semana, los meses y cómo decir la hora en español.",
+    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
     emoji: "📅",
     color: "#E3EEF9",
     vocabulary: [
-      { word: "Lunes", translations: { en: "Monday", ar: "الاثنين", uk: "Понеділок", fr: "Lundi" }, emoji: "1️⃣", color: "#E3EEF9" },
-      { word: "Martes", translations: { en: "Tuesday", ar: "الثلاثاء", uk: "Вівторок", fr: "Mardi" }, emoji: "2️⃣", color: "#E3EEF9" },
-      { word: "Enero", translations: { en: "January", ar: "يناير", uk: "Січень", fr: "Janvier" }, emoji: "❄️", color: "#E3EEF9" },
-      { word: "La hora", translations: { en: "The time / hour", ar: "الوقت", uk: "Час", fr: "L'heure" }, emoji: "⌚", color: "#E3EEF9" }
+      { word: "Lunes", translations: { en: "Monday", ar: "الاثنين", uk: "Понеділок", fr: "Lundi" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "1️⃣", color: "#E3EEF9" },
+      { word: "Martes", translations: { en: "Tuesday", ar: "الثلاثاء", uk: "Вівторок", fr: "Mardi" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "2️⃣", color: "#E3EEF9" },
+      { word: "Enero", translations: { en: "January", ar: "يناير", uk: "Січень", fr: "Janvier" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "❄️", color: "#E3EEF9" },
+      { word: "La hora", translations: { en: "The time / hour", ar: "الوقت", uk: "Час", fr: "L'heure" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⌚", color: "#E3EEF9" }
     ],
     content: `
 ## Los Días de la Semana
@@ -1222,12 +1251,13 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00).
     level: "A1",
     category: "Vocabulario",
     description: "Aprende nombres de profesiones comunes como médico, profesor o cocinero.",
+    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
     emoji: "💼",
     color: "#FCE8E8",
     vocabulary: [
-      { word: "El médico / La médica", translations: { en: "Doctor", ar: "طبيب", uk: "Лікар", fr: "Médecin" }, emoji: "🩺", color: "#FCE8E8" },
-      { word: "El profesor / La profesora", translations: { en: "Teacher", ar: "معلم", uk: "Вчитель", fr: "Professeur" }, emoji: "👨‍🏫", color: "#FCE8E8" },
-      { word: "El cocinero / La cocinera", translations: { en: "Cook / Chef", ar: "طباخ", uk: "Кухар", fr: "Cuisinier" }, emoji: "🍳", color: "#FCE8E8" }
+      { word: "El médico / La médica", translations: { en: "Doctor", ar: "طبيب", uk: "Лікар", fr: "Médecin" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "🩺", color: "#FCE8E8" },
+      { word: "El profesor / La profesora", translations: { en: "Teacher", ar: "معلم", uk: "Вчитель", fr: "Professeur" }, imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=200&auto=format&fit=crop&q=60", emoji: "👨‍🏫", color: "#FCE8E8" },
+      { word: "El cocinero / La cocinera", translations: { en: "Cook / Chef", ar: "طباخ", uk: "Кухар", fr: "Cuisinier" }, imageUrl: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=200&auto=format&fit=crop&q=60", emoji: "🍳", color: "#FCE8E8" }
     ],
     content: `
 ## ¿A qué te dedicas?
@@ -1251,13 +1281,14 @@ Para hablar de nuestra profesión usamos el verbo SER.
     level: "A1",
     category: "Vocabulario",
     description: "Habla de tu familia (madre, padre) y describe cómo son (alto, bajo).",
+    imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
     emoji: "👨‍👩‍👦",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "La madre", translations: { en: "Mother", ar: "أم", uk: "Мати", fr: "Mère" }, emoji: "👩", color: "#E2F3E7" },
-      { word: "El padre", translations: { en: "Father", ar: "أب", uk: "Батько", fr: "Père" }, emoji: "👨", color: "#E2F3E7" },
-      { word: "El hermano / La hermana", translations: { en: "Brother / Sister", ar: "أخ / أخت", uk: "Брат / Сестра", fr: "Frère / Sœur" }, emoji: "👦", color: "#E2F3E7" },
-      { word: "Alto / Alta", translations: { en: "Tall", ar: "طويل", uk: "Високий", fr: "Grand" }, emoji: "📏", color: "#E2F3E7" }
+      { word: "La madre", translations: { en: "Mother", ar: "أم", uk: "Мати", fr: "Mère" }, imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&auto=format&fit=crop&q=60", emoji: "👩", color: "#E2F3E7" },
+      { word: "El padre", translations: { en: "Father", ar: "أب", uk: "Батько", fr: "Père" }, imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&auto=format&fit=crop&q=60", emoji: "👨", color: "#E2F3E7" },
+      { word: "El hermano / La hermana", translations: { en: "Brother / Sister", ar: "أخ / أخت", uk: "Брат / Сестра", fr: "Frère / Sœur" }, imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&auto=format&fit=crop&q=60", emoji: "👦", color: "#E2F3E7" },
+      { word: "Alto / Alta", translations: { en: "Tall", ar: "طويل", uk: "Високий", fr: "Grand" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "📏", color: "#E2F3E7" }
     ],
     content: `
 ## Mi Familia
@@ -1292,13 +1323,14 @@ Usamos el verbo SER para describir:
     level: "A1",
     category: "Gramática",
     description: "Aprende a formular preguntas básicas para pedir información.",
+    imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop&q=80",
     emoji: "❓",
     color: "#FFF4E5",
     vocabulary: [
-      { word: "¿Qué?", translations: { en: "What?", ar: "ماذا؟", uk: "Що?", fr: "Quoi ?" }, emoji: "❓", color: "#FFF4E5" },
-      { word: "¿Quién?", translations: { en: "Who?", ar: "من؟", uk: "Хто?", fr: "Qui ?" }, emoji: "👤", color: "#FFF4E5" },
-      { word: "¿Dónde?", translations: { en: "Where?", ar: "أين؟", uk: "Де?", fr: "Où ?" }, emoji: "📍", color: "#FFF4E5" },
-      { word: "¿Cuándo?", translations: { en: "When?", ar: "متى؟", uk: "Коли?", fr: "Quand ?" }, emoji: "⏳", color: "#FFF4E5" }
+      { word: "¿Qué?", translations: { en: "What?", ar: "ماذا؟", uk: "Що?", fr: "Quoi ?" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "❓", color: "#FFF4E5" },
+      { word: "¿Quién?", translations: { en: "Who?", ar: "من؟", uk: "Хто?", fr: "Qui ?" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "👤", color: "#FFF4E5" },
+      { word: "¿Dónde?", translations: { en: "Where?", ar: "أين؟", uk: "Де?", fr: "Où ?" }, imageUrl: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=200&auto=format&fit=crop&q=60", emoji: "📍", color: "#FFF4E5" },
+      { word: "¿Cuándo?", translations: { en: "When?", ar: "متى؟", uk: "Коли?", fr: "Quand ?" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⏳", color: "#FFF4E5" }
     ],
     content: `
 ## Palabras para Preguntar
@@ -1331,13 +1363,14 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     level: "A1",
     category: "Vocabulario",
     description: "Aprende el nombre de algunas partes de la casa y alimentos muy comunes.",
+    imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     emoji: "🍞",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "El pan", translations: { en: "Bread", ar: "خبز", uk: "Хліб", fr: "Pain" }, emoji: "🍞", color: "#EBF8FF" },
-      { word: "El agua", translations: { en: "Water", ar: "ماء", uk: "Вода", fr: "Eau" }, emoji: "💧", color: "#EBF8FF" },
-      { word: "El dormitorio", translations: { en: "Bedroom", ar: "غرفة نوم", uk: "Спальня", fr: "Chambre" }, emoji: "🛏️", color: "#EBF8FF" },
-      { word: "La cocina", translations: { en: "Kitchen", ar: "مطبخ", uk: "Кухня", fr: "Cuisine" }, emoji: "🍳", color: "#EBF8FF" }
+      { word: "El pan", translations: { en: "Bread", ar: "خبز", uk: "Хліб", fr: "Pain" }, imageUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&auto=format&fit=crop&q=60", emoji: "🍞", color: "#EBF8FF" },
+      { word: "El agua", translations: { en: "Water", ar: "ماء", uk: "Вода", fr: "Eau" }, imageUrl: "https://images.unsplash.com/photo-1548964856-ac520a4a9f30?w=200&auto=format&fit=crop&q=60", emoji: "💧", color: "#EBF8FF" },
+      { word: "El dormitorio", translations: { en: "Bedroom", ar: "غرفة نوم", uk: "Спальня", fr: "Chambre" }, imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=200&auto=format&fit=crop&q=60", emoji: "🛏️", color: "#EBF8FF" },
+      { word: "La cocina", translations: { en: "Kitchen", ar: "مطبخ", uk: "Кухня", fr: "Cuisine" }, imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=200&auto=format&fit=crop&q=60", emoji: "🍳", color: "#EBF8FF" }
     ],
     content: `
 ## Comida Básica
@@ -1363,6 +1396,7 @@ La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina*
     level: "A2",
     category: "Gramática",
     description: "Habla sobre cosas que has hecho hoy, esta semana o en tu vida en general.",
+    imageUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop&q=80",
     emoji: "📅",
     color: "#FEFCBF",
     content: `
@@ -1407,6 +1441,7 @@ Usamos este tiempo para hablar de acciones pasadas que se conectan con el presen
     level: "A2",
     category: "Gramática",
     description: "Habla de tus planes y de cosas que van a pasar usando 'IR + a + infinitivo'.",
+    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     emoji: "🔮",
     color: "#E2F3E7",
     content: `
@@ -1444,6 +1479,7 @@ Para hablar de planes (este fin de semana, mañana, la próxima semana), en el n
     level: "A2",
     category: "Gramática",
     description: "Aprende a comparar cosas: más alto que, menos grande que, tan bueno como...",
+    imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=80",
     emoji: "⚖️",
     color: "#F3E8FF",
     content: `
@@ -1485,13 +1521,14 @@ No decimos "más malo". Decimos **peor**.
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a pedir comida y pagar en un bar o restaurante.",
+    imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
     emoji: "🍽️",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "El menú / La carta", translations: { en: "Menu", ar: "قائمة الطعام", uk: "Меню", fr: "Menu" }, emoji: "🧾", color: "#FFF5F5" },
-      { word: "La cuenta", translations: { en: "The bill", ar: "الفاتورة", uk: "Рахунок", fr: "L'addition" }, emoji: "💶", color: "#FFF5F5" },
-      { word: "Para beber", translations: { en: "To drink", ar: "للشرب", uk: "Пити", fr: "À boire" }, emoji: "🥤", color: "#FFF5F5" },
-      { word: "Para comer", translations: { en: "To eat", ar: "للأكل", uk: "Їсти", fr: "À manger" }, emoji: "🍽️", color: "#FFF5F5" }
+      { word: "El menú / La carta", translations: { en: "Menu", ar: "قائمة الطعام", uk: "Меню", fr: "Menu" }, imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&auto=format&fit=crop&q=60", emoji: "🧾", color: "#FFF5F5" },
+      { word: "La cuenta", translations: { en: "The bill", ar: "الفاتورة", uk: "Рахунок", fr: "L'addition" }, imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&auto=format&fit=crop&q=60", emoji: "💶", color: "#FFF5F5" },
+      { word: "Para beber", translations: { en: "To drink", ar: "للشرب", uk: "Пити", fr: "À boire" }, imageUrl: "https://images.unsplash.com/photo-1548964856-ac520a4a9f30?w=200&auto=format&fit=crop&q=60", emoji: "🥤", color: "#FFF5F5" },
+      { word: "Para comer", translations: { en: "To eat", ar: "للأكل", uk: "Їсти", fr: "À manger" }, imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&auto=format&fit=crop&q=60", emoji: "🍽️", color: "#FFF5F5" }
     ],
     content: `
 ## Pedir en un Restaurante
@@ -1526,6 +1563,7 @@ Tú: **La cuenta, por favor.** (Para poder pagar).
     level: "B1",
     category: "Gramática",
     description: "Aprende a hacer predicciones y a hablar de situaciones hipotéticas o deseos.",
+    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
     emoji: "🚀",
     color: "#E2F3E7",
     content: `
@@ -1566,6 +1604,7 @@ Para situaciones hipotéticas, deseos o dar consejos ("Si pudiera, lo haría").
     level: "B1",
     category: "Vocabulario",
     description: "Expresa lo que piensas sobre diferentes temas y da recomendaciones a otros.",
+    imageUrl: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&auto=format&fit=crop&q=80",
     emoji: "💡",
     color: "#FFF4E5",
     content: `
@@ -1605,6 +1644,7 @@ Cuando alguien tiene un problema:
     level: "B1",
     category: "Gramática",
     description: "Conecta tus ideas usando 'porque', 'aunque', 'sin embargo' para hablar mejor.",
+    imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&auto=format&fit=crop&q=80",
     emoji: "🔗",
     color: "#EBF8FF",
     content: `
@@ -1639,6 +1679,7 @@ Los conectores son palabras que unen ideas y hacen que hables de forma más comp
     level: "B2",
     category: "Gramática",
     description: "Aprende a formular suposiciones complejas usando el condicional y el subjuntivo.",
+    imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&auto=format&fit=crop&q=80",
     emoji: "🎲",
     color: "#F3E8FF",
     content: `
@@ -1679,6 +1720,7 @@ Situaciones que no son reales en el presente:
     level: "B2",
     category: "Comprensión",
     description: "Comprende textos de nivel avanzado y practica cómo defender una postura sobre temas sociales.",
+    imageUrl: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=80",
     emoji: "⚖️",
     color: "#FFF5F5",
     content: `
@@ -1711,6 +1753,7 @@ En B2 debes identificar las **dos posturas** en un debate y los conectores que e
     level: "B2",
     category: "Vocabulario",
     description: "Adapta tu forma de hablar al contexto: escribir un email formal vs charlar con amigos.",
+    imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
     emoji: "👔",
     color: "#E2E8F0",
     content: `
@@ -1749,12 +1792,13 @@ En un nivel alto, debes saber cambiar de vocabulario dependiendo de con quién h
     level: "B1",
     category: "Comprensión",
     description: "Aprende a narrar sucesos del pasado y a seguir el hilo de una historia.",
+    imageUrl: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&auto=format&fit=crop&q=80",
     emoji: "✈️",
     color: "#FFF4E5",
     vocabulary: [
-      { word: "El viaje", translations: { en: "The trip / travel", ar: "الرحلة", uk: "Подорож", fr: "Le voyage" }, emoji: "🧳", color: "#FFF4E5" },
-      { word: "El recuerdo", translations: { en: "The memory", ar: "الذكرى", uk: "Спогад", fr: "Le souvenir" }, emoji: "💭", color: "#FFF4E5" },
-      { word: "Planificar", translations: { en: "To plan", ar: "التخطيط", uk: "Планувати", fr: "Planifier" }, emoji: "📅", color: "#FFF4E5" }
+      { word: "El viaje", translations: { en: "The trip / travel", ar: "الرحلة", uk: "Подорож", fr: "Le voyage" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "🧳", color: "#FFF4E5" },
+      { word: "El recuerdo", translations: { en: "The memory", ar: "الذكرى", uk: "Спогад", fr: "Le souvenir" }, imageUrl: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=200&auto=format&fit=crop&q=60", emoji: "💭", color: "#FFF4E5" },
+      { word: "Planificar", translations: { en: "To plan", ar: "التخطيط", uk: "Планувати", fr: "Planifier" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "📅", color: "#FFF4E5" }
     ],
     content: `
 ## LECTURA: Recuerdos de Andalucía
@@ -1789,12 +1833,13 @@ Para contar historias, combinamos los pasados:
     level: "B2",
     category: "Gramática",
     description: "Usa el subjuntivo para hablar del futuro con 'cuando' y expresar contraste con 'aunque'.",
+    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
     emoji: "⏳",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "Cuando", translations: { en: "When", ar: "عندما", uk: "Коли", fr: "Quand" }, emoji: "⏰", color: "#EBF8FF" },
-      { word: "Aunque", translations: { en: "Although", ar: "بالرغم من", uk: "Хоча", fr: "Bien que / Aunque" }, emoji: "⚖️", color: "#EBF8FF" },
-      { word: "Tan pronto como", translations: { en: "As soon as", ar: "بمجرد أن", uk: "Як тільки", fr: "Dès que" }, emoji: "⚡", color: "#EBF8FF" }
+      { word: "Cuando", translations: { en: "When", ar: "عندما", uk: "Коли", fr: "Quand" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⏰", color: "#EBF8FF" },
+      { word: "Aunque", translations: { en: "Although", ar: "بالرغم من", uk: "Хоча", fr: "Bien que / Aunque" }, imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&auto=format&fit=crop&q=60", emoji: "⚖️", color: "#EBF8FF" },
+      { word: "Tan pronto como", translations: { en: "As soon as", ar: "بمجرد أن", uk: "Як тільки", fr: "Dès que" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⚡", color: "#EBF8FF" }
     ],
     content: `
 ## Oraciones Temporales y Concesivas con Subjuntivo
@@ -1831,12 +1876,13 @@ En el nivel B2, aprendemos que ciertas conjunciones cambian de modo (indicativo 
     level: "C1",
     category: "Comprensión",
     description: "Analiza un texto formal sobre el cambio climático para comprender sutilezas y registros.",
+    imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=80",
     emoji: "📰",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "El desafío", translations: { en: "The challenge", ar: "التحدي", uk: "Виклик", fr: "Le défi" }, emoji: "⛰️", color: "#E2F3E7" },
-      { word: "A largo plazo", translations: { en: "Long term", ar: "على المدى الطويل", uk: "على المدى البعيد", fr: "À long terme" }, emoji: "📈", color: "#E2F3E7" },
-      { word: "El recurso", translations: { en: "The resource", ar: "المورد", uk: "Ресурс", fr: "La ressource" }, emoji: "💧", color: "#E2F3E7" }
+      { word: "El desafío", translations: { en: "The challenge", ar: "التحدي", uk: "Виклик", fr: "Le défi" }, imageUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=200&auto=format&fit=crop&q=60", emoji: "⛰️", color: "#E2F3E7" },
+      { word: "A largo plazo", translations: { en: "Long term", ar: "على المدى الطويل", uk: "على المدى البعيد", fr: "À long terme" }, imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&auto=format&fit=crop&q=60", emoji: "📈", color: "#E2F3E7" },
+      { word: "El recurso", translations: { en: "The resource", ar: "المورد", uk: "Ресурс", fr: "La ressource" }, imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=200&auto=format&fit=crop&q=60", emoji: "💧", color: "#E2F3E7" }
     ],
     content: `
 ## LECTURA: El porvenir ecológico
@@ -1870,12 +1916,13 @@ En este nivel, debes comprender:
     level: "C1",
     category: "Gramática",
     description: "Aprende a usar construcciones verbales precisas como 'soler', 'acabar de' o 'llevar + gerundio'.",
+    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
     emoji: "⚙️",
     color: "#F3E8FF",
     vocabulary: [
-      { word: "Soler", translations: { en: "To usually do", ar: "غالباً ما يفعل", uk: "Зазвичай робити", fr: "Avoir l'habitude de" }, emoji: "🔄", color: "#F3E8FF" },
-      { word: "Llevar + gerundio", translations: { en: "To have been doing", ar: "يقوم به desde hace tiempo", uk: "Робити протягом часу", fr: "Faire depuis un moment" }, emoji: "⏳", color: "#F3E8FF" },
-      { word: "Acabar de", translations: { en: "To have just done", ar: "انتهى للتو من", uk: "Щойно зробити", fr: "Venir de" }, emoji: "🏁", color: "#F3E8FF" }
+      { word: "Soler", translations: { en: "To usually do", ar: "غالباً ما يفعل", uk: "Зазвичай робити", fr: "Avoir l'habitude de" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "🔄", color: "#F3E8FF" },
+      { word: "Llevar + gerundio", translations: { en: "To have been doing", ar: "يقوم به desde hace tiempo", uk: "Робити протягом часу", fr: "Faire depuis un moment" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⏳", color: "#F3E8FF" },
+      { word: "Acabar de", translations: { en: "To have just done", ar: "انتهى للتو من", uk: "Щойно зробити", fr: "Venir de" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "🏁", color: "#F3E8FF" }
     ],
     content: `
 ## Perífrasis Verbales Avanzadas
@@ -1916,12 +1963,13 @@ Las perífrasis son uniones de dos o más verbos que funcionan como una sola uni
     level: "C1",
     category: "Gramática",
     description: "Aprende a reportar lo que otros dijeron cambiando los tiempos verbales adecuadamente.",
+    imageUrl: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=600&auto=format&fit=crop&q=80",
     emoji: "💬",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "Asegurar", translations: { en: "To assure / state", ar: "يؤكد", uk: "Запевняти", fr: "Assurer" }, emoji: "🗣️", color: "#FFF5F5" },
-      { word: "Preguntar", translations: { en: "To ask", ar: "يسأل", uk: "Запитувати", fr: "Demander" }, emoji: "❓", color: "#FFF5F5" },
-      { word: "Mencionar", translations: { en: "To mention", ar: "يذكر", uk: "Згадувати", fr: "Mentionner" }, emoji: "📝", color: "#FFF5F5" }
+      { word: "Asegurar", translations: { en: "To assure / state", ar: "يؤكد", uk: "Запевняти", fr: "Assurer" }, imageUrl: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=200&auto=format&fit=crop&q=60", emoji: "🗣️", color: "#FFF5F5" },
+      { word: "Preguntar", translations: { en: "To ask", ar: "يسأل", uk: "Запитувати", fr: "Demander" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "❓", color: "#FFF5F5" },
+      { word: "Mencionar", translations: { en: "To mention", ar: "يذكر", uk: "Згадувати", fr: "Mentionner" }, imageUrl: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=200&auto=format&fit=crop&q=60", emoji: "📝", color: "#FFF5F5" }
     ],
     content: `
 ## El Estilo Indirecto (Reported Speech)
@@ -1957,12 +2005,13 @@ Cuando queremos contar a alguien lo que otra persona ha dicho, usamos verbos de 
     level: "C1",
     category: "Vocabulario",
     description: "Organiza tus ideas de forma fluida y profesional usando conectores de nivel avanzado.",
+    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
     emoji: "🧠",
     color: "#FEFCBF",
     vocabulary: [
-      { word: "No obstante", translations: { en: "Nevertheless", ar: "ومع ذلك", uk: "Проте", fr: "Néanmoins" }, emoji: "⚖️", color: "#FEFCBF" },
-      { word: "Por consiguiente", translations: { en: "Therefore / Consequently", ar: "بناء على ذلك", uk: "Отже", fr: "Par conséquent" }, emoji: "👉", color: "#FEFCBF" },
-      { word: "En resumen", translations: { en: "In summary", ar: "باختصار", uk: "Підсумовуючи", fr: "En résumé" }, emoji: "📌", color: "#FEFCBF" }
+      { word: "No obstante", translations: { en: "Nevertheless", ar: "ومع ذلك", uk: "Проте", fr: "Néanmoins" }, imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&auto=format&fit=crop&q=60", emoji: "⚖️", color: "#FEFCBF" },
+      { word: "Por consiguiente", translations: { en: "Therefore / Consequently", ar: "بناء على ذلك", uk: "Отже", fr: "Par conséquent" }, imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&auto=format&fit=crop&q=60", emoji: "👉", color: "#FEFCBF" },
+      { word: "En resumen", translations: { en: "In summary", ar: "باختصار", uk: "Підсумовуючи", fr: "En résumé" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "📌", color: "#FEFCBF" }
     ],
     content: `
 ## Marcadores Discursivos Avanzados

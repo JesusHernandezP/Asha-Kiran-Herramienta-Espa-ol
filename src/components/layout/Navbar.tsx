@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star, Languages, MapPin } from 'lucide-react';
+import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star, Languages, MapPin, Camera, Palette } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { lessons } from '../../data/content';
 import { useLanguage, Language } from '../../contexts/LanguageContext';
@@ -7,7 +7,7 @@ import { useLanguage, Language } from '../../contexts/LanguageContext';
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, visualMode, setVisualMode } = useLanguage();
   const location = useLocation();
   const isRecursosMalaga = location.pathname === '/recursos-malaga';
 
@@ -42,6 +42,7 @@ export function Navbar() {
   const recommendedLessons = lessons.slice(0, 3); // Get first 3 for recommended
   
   const languages: { code: Language; label: string }[] = [
+    { code: 'es', label: 'Español' },
     { code: 'en', label: 'English' },
     { code: 'ar', label: 'العربية' },
     { code: 'uk', label: 'Українська' },
@@ -189,8 +190,14 @@ export function Navbar() {
                       onClick={() => setIsMenuOpen(false)}
                       className="group flex gap-3 p-2 rounded-xl hover:bg-stone-50 transition-colors border border-transparent hover:border-stone-100"
                     >
-                      <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-lg shadow-sm" style={{ backgroundColor: lesson.color || '#f4fbf6' }}>
-                        <span className="text-2xl drop-shadow-sm">{lesson.emoji || '📚'}</span>
+                      <div className="w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden shadow-sm relative" style={{ backgroundColor: lesson.color || '#f4fbf6' }}>
+                        {(() => {
+                          const displayImg = visualMode === 'illustration' ? (lesson.illustrationUrl || lesson.imageUrl) : lesson.imageUrl;
+                          if (displayImg) {
+                            return <img src={displayImg} alt="" className="w-full h-full object-cover" />;
+                          }
+                          return <span className="text-2xl drop-shadow-sm absolute inset-0 flex items-center justify-center">{lesson.emoji || '📚'}</span>;
+                        })()}
                       </div>
                       <div className="flex flex-col justify-center">
                         <span className="text-sm font-bold text-[#3C3633] leading-tight group-hover:text-[#00823B] transition-colors line-clamp-1">{lesson.title}</span>

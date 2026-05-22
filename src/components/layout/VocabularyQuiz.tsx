@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { VocabularyItem } from '../../data/content';
+import { useLanguage } from '../../contexts/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { CheckCircle2, XCircle, ArrowRight, RotateCcw } from 'lucide-react';
 
 export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) {
+  const { visualMode } = useLanguage();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [options, setOptions] = useState<string[]>([]);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -88,11 +90,14 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
               className="w-32 h-32 rounded-3xl flex items-center justify-center mb-8 shadow-sm border-2 border-stone-100"
               style={{ backgroundColor: vocabulary[currentQuestion].color || '#f4fbf6' }}
             >
-              {vocabulary[currentQuestion].imageUrl ? (
-                <img src={vocabulary[currentQuestion].imageUrl} alt={vocabulary[currentQuestion].word} className="w-20 h-20 object-contain drop-shadow-sm rounded-sm" />
-              ) : (
-                <span className="text-6xl drop-shadow-sm">{vocabulary[currentQuestion].emoji}</span>
-              )}
+              {(() => {
+                const item = vocabulary[currentQuestion];
+                const displayImg = visualMode === 'illustration' ? (item.illustrationUrl || item.imageUrl) : item.imageUrl;
+                if (displayImg) {
+                  return <img src={displayImg} alt={item.word} className="w-20 h-20 object-contain drop-shadow-sm rounded-sm" />;
+                }
+                return <span className="text-6xl drop-shadow-sm">{item.emoji}</span>;
+              })()}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">

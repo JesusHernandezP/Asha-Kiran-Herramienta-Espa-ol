@@ -7,7 +7,7 @@ import { useLanguage } from '../../contexts/LanguageContext';
 export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const { language } = useLanguage();
+  const { language, visualMode } = useLanguage();
 
   if (!vocabulary || vocabulary.length === 0) return null;
 
@@ -61,11 +61,13 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
               }}
             >
               <div className="flex items-center justify-center mb-4">
-                {currentCard.imageUrl ? (
-                  <img src={currentCard.imageUrl} alt={currentCard.word} className="w-32 h-32 object-contain drop-shadow-sm rounded-sm" />
-                ) : (
-                  <span className="text-8xl sm:text-9xl drop-shadow-sm">{currentCard.emoji}</span>
-                )}
+                {(() => {
+                  const displayImg = visualMode === 'illustration' ? (currentCard.illustrationUrl || currentCard.imageUrl) : currentCard.imageUrl;
+                  if (displayImg) {
+                    return <img src={displayImg} alt={currentCard.word} className="w-32 h-32 object-contain drop-shadow-sm rounded-sm" />;
+                  }
+                  return <span className="text-8xl sm:text-9xl drop-shadow-sm">{currentCard.emoji}</span>;
+                })()}
               </div>
             </div>
             

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { VocabularyItem } from '../../data/content';
+import { useLanguage } from '../../contexts/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface MemoryCard {
@@ -11,9 +12,11 @@ interface MemoryCard {
   isMatched: boolean;
   color?: string;
   imageUrl?: string;
+  illustrationUrl?: string;
 }
 
 export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
+  const { visualMode } = useLanguage();
   const [cards, setCards] = useState<MemoryCard[]>([]);
   const [flippedIndices, setFlippedIndices] = useState<number[]>([]);
   const [matches, setMatches] = useState(0);
@@ -41,6 +44,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
         type: 'emoji',
         content: item.emoji,
         imageUrl: item.imageUrl,
+        illustrationUrl: item.illustrationUrl,
         matchId: `match-${index}`,
         isFlipped: false,
         isMatched: false,
@@ -97,7 +101,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
 
   if (!vocabulary || vocabulary.length === 0) return null;
 
-  const isWin = matches === vocabulary.length && vocabulary.length > 0;
+  const isWin = matches === cards.length / 2 && cards.length > 0;
 
   return (
     <div className="bg-stone-50 rounded-2xl p-4 sm:p-6 border border-stone-200 mt-6 relative overflow-hidden">
@@ -145,11 +149,13 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
                 }}
               >
                 {card.type === 'emoji' ? (
-                  card.imageUrl ? (
-                    <img src={card.imageUrl} alt="card" className="w-12 h-12 object-contain drop-shadow-sm rounded-sm" />
-                  ) : (
-                    <span className="text-4xl sm:text-5xl drop-shadow-sm">{card.content}</span>
-                  )
+                  (() => {
+                    const displayImg = visualMode === 'illustration' ? (card.illustrationUrl || card.imageUrl) : card.imageUrl;
+                    if (displayImg) {
+                      return <img src={displayImg} alt="card" className="w-12 h-12 object-contain drop-shadow-sm rounded-sm" />;
+                    }
+                    return <span className="text-4xl sm:text-5xl drop-shadow-sm">{card.content}</span>;
+                  })()
                 ) : (
                   <span className="text-sm sm:text-base font-bold text-center text-[#3C3633]">{card.content}</span>
                 )}

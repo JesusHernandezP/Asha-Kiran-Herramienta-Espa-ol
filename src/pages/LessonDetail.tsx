@@ -14,7 +14,7 @@ import { speakSpanish } from '../utils/speech';
 export function LessonDetail() {
   const { id } = useParams<{ id: string }>();
   const lesson = lessons.find(l => l.id === id);
-  const { language } = useLanguage();
+  const { language, visualMode } = useLanguage();
 
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [showResults, setShowResults] = useState(false);
@@ -84,31 +84,34 @@ export function LessonDetail() {
 
       <div className="bg-white rounded-3xl shadow-sm border border-stone-200 overflow-hidden mb-12">
         <div className="h-48 sm:h-64 w-full relative">
-          {lesson.emoji ? (
-            <div className="w-full h-full flex flex-col items-center justify-center" style={{ backgroundColor: lesson.color || '#f4fbf6' }}>
-              <span className="text-7xl sm:text-8xl drop-shadow-md mb-2">{lesson.emoji}</span>
+          {(() => {
+            const bannerImg = visualMode === 'illustration' ? (lesson.illustrationUrl || lesson.imageUrl) : lesson.imageUrl;
+            return bannerImg ? (
+              <>
+              <img 
+                src={bannerImg} 
+                alt={lesson.title} 
+                className="w-full h-full object-cover" 
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.onerror = null; 
+                  target.src = "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80";
+                }}
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-            </div>
-          ) : lesson.imageUrl ? (
-            <>
-            <img 
-              src={lesson.imageUrl} 
-              alt={lesson.title} 
-              className="w-full h-full object-cover" 
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.onerror = null; 
-                target.src = "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80";
-              }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-            </>
-          ) : (
-            <div className="w-full h-full bg-[#f4fbf6] flex items-center justify-center">
-              <BookOpen size={64} className="text-[#89C73A]" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-            </div>
-          )}
+              </>
+            ) : lesson.emoji ? (
+              <div className="w-full h-full flex flex-col items-center justify-center" style={{ backgroundColor: lesson.color || '#f4fbf6' }}>
+                <span className="text-7xl sm:text-8xl drop-shadow-md mb-2">{lesson.emoji}</span>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+              </div>
+            ) : (
+              <div className="w-full h-full bg-[#f4fbf6] flex items-center justify-center">
+                <BookOpen size={64} className="text-[#89C73A]" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+              </div>
+            );
+          })()}
           <div className="absolute bottom-6 left-6 right-6 text-white">
               <div className="flex gap-2 mb-3">
                 <span className="bg-[#00823B] text-white font-bold px-3 py-1 rounded-full text-[10px] shadow uppercase tracking-tighter">
@@ -136,11 +139,14 @@ export function LessonDetail() {
                    return (
                    <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full relative" style={{ borderColor: vocab.color || '#E2E8F0' }}>
                      <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl relative" style={{ background: vocab.color || '#f4fbf6' }}>
-                       {vocab.imageUrl ? (
-                          <img src={vocab.imageUrl} alt={vocab.word} className="w-2/3 h-2/3 object-contain drop-shadow-sm rounded-sm" />
-                        ) : (
-                          vocab.emoji
-                        )}
+                       {(() => {
+                          const displayImg = visualMode === 'illustration' ? (vocab.illustrationUrl || vocab.imageUrl) : vocab.imageUrl;
+                          return displayImg ? (
+                            <img src={displayImg} alt={vocab.word} className="w-2/3 h-2/3 object-contain drop-shadow-sm rounded-sm" />
+                          ) : (
+                            vocab.emoji
+                          );
+                        })()}
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
