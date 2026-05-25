@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { VocabularyItem } from '../../data/content';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { ChevronRight, ChevronLeft, RotateCcw } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { lessonTranslations } from '../../data/lessonTranslations';
 
 export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,6 +11,8 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
   const { language, visualMode } = useLanguage();
 
   if (!vocabulary || vocabulary.length === 0) return null;
+
+  const t = lessonTranslations[language];
 
   const handleNext = () => {
     setIsFlipped(false);
@@ -32,8 +35,8 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
     <div className="bg-white rounded-2xl p-6 border border-stone-200 mt-6 relative overflow-hidden shadow-sm">
       <div className="mb-6 flex items-center justify-between">
         <div>
-          <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide">Tarjetas de Vocabulario</h3>
-          <p className="text-sm text-stone-500">Toca la tarjeta para ver la traducción.</p>
+          <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide">{t.flashcardsHeader}</h3>
+          <p className="text-sm text-stone-500">{t.flashcardsSub}</p>
         </div>
         <div className="bg-[#f4fbf6] px-3 py-1 rounded-full border border-[#00823B]/20 text-sm font-bold text-[#00823B]">
           {currentIndex + 1} / {vocabulary.length}
@@ -62,7 +65,7 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
             >
               <div className="flex items-center justify-center mb-4">
                 {(() => {
-                  const displayImg = visualMode === 'illustration' ? (currentCard.illustrationUrl || currentCard.imageUrl) : currentCard.imageUrl;
+                  const displayImg = visualMode === 'illustration' ? currentCard.illustrationUrl : currentCard.imageUrl;
                   if (displayImg) {
                     return <img src={displayImg} alt={currentCard.word} className="w-32 h-32 object-contain drop-shadow-sm rounded-sm" />;
                   }
@@ -100,7 +103,7 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
              className="px-6 py-3 bg-[#00823B] hover:bg-[#006e32] text-white font-bold rounded-full uppercase tracking-wider flex items-center gap-2 transition-colors"
           >
             <RotateCcw size={18} />
-            Voltear
+            {t.flip}
           </button>
           
           <button 
@@ -114,3 +117,4 @@ export function FlashcardsGame({ vocabulary }: { vocabulary: VocabularyItem[] })
     </div>
   );
 }
+

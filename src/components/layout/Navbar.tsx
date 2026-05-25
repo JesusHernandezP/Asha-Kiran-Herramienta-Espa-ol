@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, Music, Shield, BookType, Star, Languages, MapPin, Camera, Palette } from 'lucide-react';
+import { Menu, X, BookOpen, PenTool, Layout, Globe, Activity, BookType, Star, Languages, MapPin, FileText, Video, Headphones, Image } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { lessons } from '../../data/content';
 import { useLanguage, Language } from '../../contexts/LanguageContext';
@@ -7,11 +7,10 @@ import { useLanguage, Language } from '../../contexts/LanguageContext';
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
-  const { language, setLanguage, visualMode, setVisualMode } = useLanguage();
+  const { language, setLanguage, visualMode } = useLanguage();
   const location = useLocation();
-  const isRecursosMalaga = location.pathname === '/recursos-malaga';
+  const currentPath = location.pathname;
 
-  // Close menus when clicking outside could be added, but for now we rely on the close button
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -39,7 +38,14 @@ export function Navbar() {
     { name: 'Cultura', icon: <Globe size={16} /> }
   ];
 
-  const recommendedLessons = lessons.slice(0, 3); // Get first 3 for recommended
+  const recursos = [
+    { name: 'Lecturas', icon: <FileText size={16} /> },
+    { name: 'Videos', icon: <Video size={16} /> },
+    { name: 'Audios', icon: <Headphones size={16} /> },
+    { name: 'Imágenes', icon: <Image size={16} /> },
+  ];
+
+  const recommendedLessons = lessons.slice(0, 3);
   
   const languages: { code: Language; label: string }[] = [
     { code: 'es', label: 'Español' },
@@ -48,6 +54,20 @@ export function Navbar() {
     { code: 'uk', label: 'Українська' },
     { code: 'fr', label: 'Français' },
   ];
+
+  // Determine the contextual navigation button
+  const getNavButton = () => {
+    if (currentPath === '/recursos-malaga') {
+      return { to: '/aula-virtual', label: 'Aula Virtual', icon: <BookOpen size={18} /> };
+    }
+    if (currentPath === '/aula-virtual' || currentPath.startsWith('/nivel') || currentPath.startsWith('/leccion')) {
+      return { to: '/recursos-malaga', label: 'Recursos Málaga', icon: <MapPin size={18} /> };
+    }
+    // Landing page or other
+    return { to: '/aula-virtual', label: 'Aula Virtual', icon: <BookOpen size={18} /> };
+  };
+
+  const navButton = getNavButton();
 
   return (
     <>
@@ -65,9 +85,12 @@ export function Navbar() {
             </div>
             
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center w-auto">
-              <Link to="/" className="flex flex-col items-center group whitespace-nowrap">
-                <span className="text-xl sm:text-2xl font-black tracking-widest text-[#00823B] uppercase">Asha-Kiran</span>
-                <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-stone-400 font-medium">Vínculos - Málaga</span>
+              <Link to="/" className="flex items-center gap-2 sm:gap-3 group whitespace-nowrap">
+                <img src="/images/logo.png" alt="Asha-Kiran Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain shrink-0" />
+                <div className="flex flex-col items-start leading-none">
+                  <span className="text-lg sm:text-xl font-black tracking-widest text-[#00823B] uppercase">Asha-Kiran</span>
+                  <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.15em] text-stone-400 font-medium mt-0.5">Vínculos - Málaga</span>
+                </div>
               </Link>
             </div>
             
@@ -102,10 +125,10 @@ export function Navbar() {
                 )}
               </div>
               <Link 
-                to={isRecursosMalaga ? "/" : "/recursos-malaga"}
+                to={navButton.to}
                 className="hidden md:flex px-5 py-2 bg-[#00823B] text-white rounded-full text-xs font-bold uppercase tracking-wider shadow-sm hover:bg-[#006A30] transition-all cursor-pointer"
               >
-                {isRecursosMalaga ? "Aula Virtual" : "Recursos Málaga"}
+                {navButton.label}
               </Link>
             </div>
           </div>
@@ -130,7 +153,7 @@ export function Navbar() {
           <div className="flex justify-between items-center mb-8">
              <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3">
                 <div className="flex items-center justify-center w-10 h-10 bg-white shadow-sm border border-stone-100 rounded-lg overflow-hidden shrink-0">
-                  <img src="/logo.png" alt="Asha-Kiran" className="w-full h-full object-contain" />
+                  <img src="/images/logo.png" alt="Asha-Kiran" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-lg font-black tracking-tight text-[#00823B]">VÍNCULOS</span>
              </Link>
@@ -143,7 +166,7 @@ export function Navbar() {
           </div>
 
           {/* Niveles */}
-          <div className="mb-8">
+          <div className="mb-6">
             <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-4">Niveles</h3>
             <div className="flex gap-2 flex-wrap">
               {levels.map(lvl => (
@@ -159,8 +182,25 @@ export function Navbar() {
             </div>
           </div>
 
+          {/* Recursos (formerly Formatos, moved below Niveles) */}
+          <div className="mb-6">
+            <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-4">Recursos</h3>
+            <div className="grid grid-cols-2 gap-2">
+              {recursos.map((rec, idx) => (
+                <Link
+                  key={idx}
+                  to="#"
+                  className="flex items-center gap-2 px-3 py-2.5 rounded-lg hover:bg-stone-50 text-stone-700 text-sm font-medium transition-colors border border-transparent hover:border-stone-100"
+                >
+                  <span className="text-[#00823B]">{rec.icon}</span>
+                  <span>{rec.name}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
           {/* Categorías */}
-          <div className="mb-8">
+          <div className="mb-6">
             <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-4">Categorías</h3>
             <div className="grid grid-cols-2 gap-2">
               {categories.map((cat, idx) => (
@@ -192,7 +232,7 @@ export function Navbar() {
                     >
                       <div className="w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden shadow-sm relative" style={{ backgroundColor: lesson.color || '#f4fbf6' }}>
                         {(() => {
-                          const displayImg = visualMode === 'illustration' ? (lesson.illustrationUrl || lesson.imageUrl) : lesson.imageUrl;
+                          const displayImg = visualMode === 'illustration' ? lesson.illustrationUrl : lesson.imageUrl;
                           if (displayImg) {
                             return <img src={displayImg} alt="" className="w-full h-full object-cover" />;
                           }
@@ -209,38 +249,15 @@ export function Navbar() {
              </ul>
           </div>
 
-          {/* Formatos (Optional, mimicking profedeele) */}
-          <div className="mb-8">
-             <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-4">Formatos</h3>
-             <ul className="space-y-1">
-               {['Actividad breve', 'Presentación', 'Lecturas', 'Juegos (Kahoot)'].map((fmt, i) => (
-                 <li key={i}>
-                    <Link to="#" className="block px-3 py-2 text-sm text-stone-600 hover:text-[#00823B] hover:bg-green-50 rounded-lg font-medium transition-colors">
-                      {fmt}
-                    </Link>
-                 </li>
-               ))}
-             </ul>
-          </div>
-
-          {/* Enlace prominente en móvil: cambia según la página actual */}
+          {/* Bottom contextual nav button */}
           <div className="mt-auto pt-4 border-t border-stone-100">
              <Link 
-               to={isRecursosMalaga ? "/" : "/recursos-malaga"} 
+               to={navButton.to}
                onClick={() => setIsMenuOpen(false)}
                className="flex items-center justify-center gap-2 w-full py-4 bg-[#00823B] text-white rounded-2xl font-bold shadow-md hover:bg-[#006A30] transition-colors"
              >
-               {isRecursosMalaga ? (
-                 <>
-                   <BookOpen size={18} />
-                   <span>Aula Virtual</span>
-                 </>
-               ) : (
-                 <>
-                   <MapPin size={18} />
-                   <span>Recursos Málaga</span>
-                 </>
-               )}
+               {navButton.icon}
+               <span>{navButton.label}</span>
              </Link>
           </div>
 

@@ -75,28 +75,28 @@ export const lessons: Lesson[] = [
       { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&auto=format&fit=crop&q=60", emoji: "👞", color: "#FFF4E5" }
     ],
     content: `
-## Vamos a aprender el abecedario de la A a la Z
+## Vamos a aprender el abecedario de la A a la Z <trans en=\"(## Let's learn the alphabet from A to Z)\" ar=\"(## دعونا نتعلم الأبجدية من الألف إلى الياء)\" uk=\"(## Вивчаємо алфавіт від А до Я)\" fr=\"(## Apprenons l'alphabet de A à Z)\"/>
 
-### Ejercicio de pronunciación:
-Usa el botón de abajo si estuviera disponible el audio (simulación).
+### Ejercicio de pronunciación: <trans en=\"(### Pronunciation exercise:)\" ar=\"(### تمرين النطق:)\" uk=\"(### Вправа на вимову:)\" fr=\"(### Exercice de prononciation :)\"/>
+Usa el botón de abajo si estuviera disponible el audio (simulación). <trans en=\"(Use the button below if audio (simulation) is available.)\" ar=\"(استخدم الزر أدناه إذا كان الصوت (المحاكاة) متاحًا.)\" uk=\"(Використовуйте кнопку нижче, якщо доступний звук (моделювання).)\" fr=\"(Utilisez le bouton ci-dessous si l'audio (simulation) est disponible.)\"/>
 <button class="audio-btn">🔊 Escuchar el abecedario</button>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "¿Con qué letra empieza la palabra 'Avión'?",
+        question: "¿Con qué letra empieza la palabra 'Avión'? <trans en=\"(What letter does the word 'Airplane' begin with?)\" ar=\"(ما هو الحرف الذي تبدأ به كلمة 'طائرة'؟)\" uk=\"(З якої букви починається слово «Літак»?)\" fr=\"(Par quelle lettre commence le mot « avion » ?)\"/>",
         options: ["E", "O", "A"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "¿Qué imagen empieza con la letra 'B'?",
+        question: "¿Qué imagen empieza con la letra 'B'? <trans en=\"(Which image starts with the letter 'B'?)\" ar=\"(ما هي الصورة التي تبدأ بحرف 'ب'؟)\" uk=\"(Яке зображення починається на літеру «Б»?)\" fr=\"(Quelle image commence par la lettre « B » ?)\"/>",
         options: ["Casa", "Barco", "Dedo"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "¿Con qué letra empieza la palabra 'Sol'?",
+        question: "¿Con qué letra empieza la palabra 'Sol'? <trans en=\"(What letter does the word 'Sun' begin with?)\" ar=\"(ما هو الحرف الذي تبدأ به كلمة 'الشمس'؟)\" uk=\"(З якої букви починається слово «Сонечко»?)\" fr=\"(Par quelle lettre commence le mot « Soleil » ?)\"/>",
         options: ["S", "T", "R"],
         correctAnswer: 0
       }
@@ -121,9 +121,9 @@ Usa el botón de abajo si estuviera disponible el audio (simulación).
       { word: "El brazo", translations: { en: "Arm", ar: "الذراع", uk: "Рука", fr: "Bras" }, emoji: "💪", imageUrl: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=200&auto=format&fit=crop&q=60", illustrationUrl: "/images/vocab/brazo.png", color: "#EBF8FF" }
     ],
     content: `
-## El Cuerpo Humano
+## El Cuerpo Humano <trans en=\"(The human body)\" ar=\"(الجسم البشري)\" uk=\"(ЛЮДСЬКЕ ТІЛО)\" fr=\"(le corps humain)\"/>
 
-Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
+Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor. <trans en=\"(Learning our body parts helps us communicate better.)\" ar=\"(يساعدنا تعلم أجزاء الجسم على التواصل بشكل أفضل.)\" uk=\"(Вивчення частин нашого тіла допомагає нам краще спілкуватися.)\" fr=\"(Apprendre les parties de notre corps nous aide à mieux communiquer.)\"/>
     `,
     exercises: [
       {
@@ -134,7 +134,7 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
       },
       {
         id: "ex2",
-        question: "Usas estos para ver:",
+        question: "Usas estos para ver: <trans en=\"(You use these to see:)\" ar=\"(يمكنك استخدام هذه لرؤية:)\" uk=\"(Ви використовуєте їх, щоб побачити:)\" fr=\"(Vous les utilisez pour voir :)\"/>",
         options: ["Los ojos", "El brazo", "La cabeza"],
         correctAnswer: 0
       }
@@ -159,18 +159,18 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
       { word: "Negro", translations: { en: "Black", ar: "أسود", uk: "Чорний", fr: "Noir" }, imageUrl: "https://images.unsplash.com/photo-1507499739999-097706ad8914?w=200&auto=format&fit=crop&q=60", emoji: "🎩", color: "#1A202C" }
     ],
     content: `
-## ¿De qué color es?
+## ¿De qué color es? <trans en=\"(What colour is it?)\" ar=\"()...)\" uk=\"(## Якого він кольору?)\" fr=\"(– Quelle couleur a-t-elle ?)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "El cielo es...",
+        question: "El cielo es... <trans en=\"(Heaven is...)\" ar=\"(الجنة هي...)\" uk=\"(Небо - це...)\" fr=\"(Le paradis est...)\"/>",
         options: ["Rojo", "Azul", "Amarillo"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Una manzana normalmente es...",
+        question: "Una manzana normalmente es... <trans en=\"(An apple is usually...)\" ar=\"(التفاحة عادة...)\" uk=\"(Яблуко зазвичай...)\" fr=\"(Une pomme est généralement...)\"/>",
         options: ["Verde o Roja", "Azul o Negra", "Naranja"],
         correctAnswer: 0
       }
@@ -193,16 +193,16 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
       { word: "Las niñas", translations: { en: "The girls", ar: "البنات", uk: "Дівчатка", fr: "Les filles" }, imageUrl: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=200&auto=format&fit=crop&q=60", emoji: "👧👧", color: "#EBF8FF" }
     ],
     content: `
-## Los Artículos Definidos
+## Los Artículos Definidos <trans en=\"(Definite articles?)\" ar=\"(## العناصر المحددة)\" uk=\"(## Визначені елементи)\" fr=\"(## Les Articles Définis)\"/>
 
-En español, usamos diferentes artículos dependiendo de si la palabra es masculina o femenina, y si es singular (uno) o plural (más de uno).
+En español, usamos diferentes artículos dependiendo de si la palabra es masculina o femenina, y si es singular (uno) o plural (más de uno). <trans en=\"(In Spanish, we use different articles depending on whether the word is masculine or feminine, and whether it is singular (one) or plural (more than one).)\" ar=\"(في اللغة الإسبانية، نستخدم مقالات مختلفة اعتمادًا على ما إذا كانت الكلمة ذكورية أو أنثوية، وما إذا كانت مفردة (واحدة) أو جمع (أكثر من واحدة).)\" uk=\"(В іспанській мові ми використовуємо різні статті залежно від того, чи є слово чоловічого чи жіночого роду, і чи є воно одниною (один) або множиною (більше одного).)\" fr=\"(En espagnol, nous utilisons différents articles selon que le mot est masculin ou féminin, et s'il est singulier (un) ou pluriel (plus d'un).)\"/>
 
 ### Singular <trans en="(Singular)" ar="(مفرد)" uk="(Однина)" fr="(Singulier)"/>
 *   **El** <trans en="(The - Masculine)" ar="(ال - مذكر)" uk="(Чоловічий рід)" fr="(Le)"/>: El niño, El perro, El coche.
 *   **La** <trans en="(The - Feminine)" ar="(ال - مؤنث)" uk="(Жіночий рід)" fr="(La)"/>: La niña, La casa, La mesa.
 
 ### Plural <trans en="(Plural)" ar="(جمع)" uk="(Множина)" fr="(Pluriel)"/>
-Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añadimos una **"S"** al final.
+Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añadimos una **"S"** al final. <trans en=\"(To form the plural of the words ending in vowel (a, e, i, o, u), we add an **'S'** at the end.)\" ar=\"(لتشكيل جمع الكلمات التي تنتهي بحرف العلة (a، e، i، o، u)، نضيف **' S '** في النهاية.)\" uk=\"(Щоб сформувати множину слів, що закінчуються на голосний (a, e, i, o, u), в кінці додаємо * * 'S'**.)\" fr=\"(Pour former le pluriel des mots se terminant par une voyelle (a, e, i, o, u), on ajoute un **'S'** à la fin.)\"/>
 *   **Los** <trans en="(The - Masculine plural)" ar="(ال - جمع مذكر)" uk="(Чоловічий рід множина)" fr="(Les - Masculin)"/>: *Los niño**s***.
 *   **Las** <trans en="(The - Feminine plural)" ar="(ال - جمع مؤنث)" uk="(Жіночий рід множина)" fr="(Les - Féminin)"/>: *Las niña**s***.
     `,
@@ -246,9 +246,9 @@ Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añ
       { word: "Ellos / Ellas", translations: { en: "They", ar: "هم / هن", uk: "Вони", fr: "Ils / Elles" }, imageUrl: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&auto=format&fit=crop&q=60", emoji: "👥", color: "#E2F3E7" }
     ],
     content: `
-## Los Pronombres Personales
+## Los Pronombres Personales <trans en=\"(Personal pronouns)\" ar=\"(ضمير)\" uk=\"(Особові займенники)\" fr=\"(Pronom)\"/>
 
-Para hablar de quién hace la acción, usamos los pronombres personales. ¡Aprenderlos de memoria es súper importante!
+Para hablar de quién hace la acción, usamos los pronombres personales. ¡Aprenderlos de memoria es súper importante! <trans en=\"(To talk about who is doing the action, we use personal pronouns. Learning them by heart is super important!)\" ar=\"(للحديث عن من يقوم بالعمل، نستخدم الضمائر الشخصية. إن تعلمها عن ظهر قلب أمر بالغ الأهمية!)\" uk=\"(Щоб розповісти про те, хто виконує дію, ми використовуємо особисті займенники. Вивчити їх напам 'ять дуже важливо!)\" fr=\"(Pour parler de qui fait l'action, nous utilisons les pronoms personnels. Les apprendre par cœur est super important !)\"/>
 
 *   **Yo** <trans en="(I)" ar="(أنا)" uk="(Я)" fr="(Je)"/>
 *   **Tú** <trans en="(You)" ar="(أنت)" uk="(Ти)" fr="(Tu)"/>
@@ -294,9 +294,9 @@ Para hablar de quién hace la acción, usamos los pronombres personales. ¡Apren
       { word: "Yo tengo", translations: { en: "I have (an apple)", ar: "لدي تفاحة", uk: "Я маю", fr: "J'ai (une pomme)" }, imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#E2E8F0" }
     ],
     content: `
-## Verbos muy importantes
+## Verbos muy importantes <trans en=\"(## Very important verbs)\" ar=\"(## أفعال مهمة جدًا)\" uk=\"(## Дуже важливі дієслова)\" fr=\"(## Verbes très importants)\"/>
 
-Aprender la conjugación (la forma) es esencial para comunicarte.
+Aprender la conjugación (la forma) es esencial para comunicarte. <trans en=\"(Learning the conjugation (the form) is essential to communicate.)\" ar=\"(يعد تعلم الاقتران (النموذج) أمرًا ضروريًا للتواصل.)\" uk=\"(Вивчення спряження (форми) має важливе значення для спілкування.)\" fr=\"(Apprendre la conjugaison (la forme) est essentiel pour communiquer.)\"/>
 
 ### Verbo SER <trans en="(Identity / To be)" ar="(الهوية / يكون)" uk="(Ідентичність / Бути)" fr="(Identité / Être)"/>
 *   **Yo soy** Ana. <trans en="(I am Ana)" ar="(أنا آنا)" uk="(Я Ана)" fr="(Je suis Ana)"/>
@@ -313,19 +313,19 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
     exercises: [
       {
         id: "ex1",
-        question: "Completa: 'Yo _______ feliz hoy.'",
+        question: "Completa: 'Yo _______ feliz hoy.' <trans en=\"(Complete: 'I _______ happy today.')\" ar=\"(أكمل: 'أنا _______ سعيد اليوم.')\" uk=\"(Заповніть: «Сьогодні я _______ щасливий».)\" fr=\"(Compléter : « Je _______ heureux aujourd'hui. »)\"/>",
         options: ["soy", "tengo", "estoy"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "Completa: 'Ella _______ de Senegal.'",
+        question: "Completa: 'Ella _______ de Senegal.' <trans en=\"(Complete: 'She _______ from Senegal.')\" ar=\"(أكمل: 'هي _______ من السنغال.')\" uk=\"(Заповніть: «Вона _______ із Сенегалу».)\" fr=\"(Compléter : « Elle _______ du Sénégal. »)\"/>",
         options: ["es", "tiene", "está"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Completa: 'Nosotros _______ 20 años.'",
+        question: "Completa: 'Nosotros _______ 20 años.' <trans en=\"(Complete: 'We _______ 20 years.')\" ar=\"(أكمل: 'نحن _______ 20 عامًا.')\" uk=\"(Заповніть: «Нам _______ 20 років».)\" fr=\"(Compléter : « Nous _______ 20 ans. »)\"/>",
         options: ["somos", "estamos", "tenemos"],
         correctAnswer: 2
       }
@@ -348,7 +348,7 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
       { word: "La chaqueta", translations: { en: "Jacket", ar: "سترة", uk: "Куртка", fr: "Veste" }, imageUrl: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=200&auto=format&fit=crop&q=60", emoji: "🧥", color: "#EDF2F7" }
     ],
     content: `
-## Las prendas de vestir
+## Las prendas de vestir <trans en=\"(CLOTHING)\" ar=\"(الملابس)\" uk=\"(## Одяг)\" fr=\"(Habillement)\"/>
     `,
     exercises: [
       {
@@ -378,24 +378,24 @@ Aprender la conjugación (la forma) es esencial para comunicarte.
       { word: "La concentración", translations: { en: "The concentration", ar: "التركيز", uk: "Концентрація", fr: "La concentration" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🧠", color: "#F3E8FF" }
     ],
     content: `
-## Palabras Masculinas y Femeninas
+## Palabras Masculinas y Femeninas <trans en=\"(## Male and Female Words)\" ar=\"(## كلمات الذكور والإناث)\" uk=\"(## Чоловічі та жіночі слова)\" fr=\"(## Mots masculins et féminins)\"/>
 
-Casi todas las cosas en español son masculinas o femeninas.
+Casi todas las cosas en español son masculinas o femeninas. <trans en=\"(Almost everything in Spanish is either masculine or feminine.)\" ar=\"(كل شيء تقريبًا باللغة الإسبانية إما ذكوري أو أنثوي.)\" uk=\"(Майже все в іспанській мові або чоловіче, або жіноче.)\" fr=\"(Presque toutes les choses en espagnol sont masculines ou féminines.)\"/>
 
 ### Masculino <trans en="(Masculine)" ar="(مذكر)" uk="(Чоловічий рід)" fr="(Masculin)"/>
-Normalmente terminan en **-O**. Usamos **EL** o **UN**.
+Normalmente terminan en **-O**. Usamos **EL** o **UN**. <trans en=\"(They usually end in **-O**. We use **EL** or **UN**.)\" ar=\"(عادة ما تنتهي بـ **-O**. نحن نستخدم **EL** أو **UN**.)\" uk=\"(Вони зазвичай закінчуються на **-O**. Ми використовуємо **EL** або **UN**.)\" fr=\"(Ils se terminent généralement par **-O**. Nous utilisons **LE** ou **UN**.)\"/>
 *   **El** niño
 *   **El** cielo
 *   **El** oro
 
 ### Femenino <trans en="(Feminine)" ar="(مؤنث)" uk="(Жіночий рід)" fr="(Féminin)"/>
-Normalmente terminan en **-A**. Usamos **LA** o **UNA**.
+Normalmente terminan en **-A**. Usamos **LA** o **UNA**. <trans en=\"(They usually end in **-A**. We use **LA** or **UNA**.)\" ar=\"(عادة ما تنتهي بـ **-A**. نستخدم **LA** أو **UNA**.)\" uk=\"(Вони зазвичай закінчуються на **-A**. Ми використовуємо **LA** або **UNA**.)\" fr=\"(Ils se terminent généralement par **-A**. Nous utilisons **LA** ou **UNA**.)\"/>
 *   **La** niña
 *   **La** tierra
 *   **La** manzana
 
-### Excepciones Importantes ⚠️
-Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no terminen en -a.
+### Excepciones Importantes ⚠️ <trans en=\"(### Important Exceptions ⚠️)\" ar=\"(### استثناءات مهمة ⚠️)\" uk=\"(### Важливі винятки ⚠️)\" fr=\"(### Exceptions importantes ⚠️)\"/>
+Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no terminen en -a. <trans en=\"(Words ending in * * -action * * are always * * feminine **, even if they do not end in -a.)\" ar=\"(الكلمات التي تنتهي بـ **- action ** تكون دائمًا ** أنثوية**، حتى لو لم تنتهي بـ - a.)\" uk=\"(Слова, що закінчуються на ** -action * *, завжди * * жіночого роду**, навіть якщо вони не закінчуються на -a.)\" fr=\"(Les mots qui se terminent par **-tion** sont toujours * * féminins * *, même s'ils ne se terminent pas par -a.)\"/>
 *   **La** informa**ción**
 *   **La** concentra**ción**
 *   **La** emo**ción**
@@ -439,9 +439,9 @@ Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no ter
       { word: "Vuestro / Vuestra", translations: { en: "Your (plural)", ar: "لكم", uk: "Ваш/Ваша", fr: "Votre" }, imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&auto=format&fit=crop&q=60", emoji: "👋", color: "#FCE8E8" }
     ],
     content: `
-## ¿De quién es?
+## ¿De quién es? <trans en=\"(Who was it?)\" ar=\"(- من أرسله؟)\" uk=\"(## Чиє воно?)\" fr=\"(À qui est-ce ?)\"/>
 
-Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras.
+Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras. <trans en=\"(To indicate that something is someone's, we use possessive. They go before the words.)\" ar=\"(للإشارة إلى أن شيئًا ما يخص شخصًا ما، نستخدم التملك. يذهبون قبل الكلمات.)\" uk=\"(Щоб вказати, що щось є чиєсь, ми використовуємо власницьке. Вони йдуть перед словами.)\" fr=\"(Pour indiquer que quelque chose appartient à quelqu'un, nous utilisons des possessifs. Ils vont avant les mots.)\"/>
 
 *   **Mi** casa <trans en="(My house)" ar="(منزلي)" uk="(Мій дім)" fr="(Ma maison)"/>
 *   **Tu** mochila <trans en="(Your backpack)" ar="(حقيبتك)" uk="(Твій рюкзак)" fr="(Ton sac à dos)"/>
@@ -467,7 +467,7 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
       },
       {
         id: "ex3",
-        question: "Yo tengo una bicicleta. Es ______ bicicleta.",
+        question: "Yo tengo una bicicleta. Es ______ bicicleta. <trans en=\"(I have a bicycle.)\" ar=\"(لدي دراجة. إنها ______ دراجة.)\" uk=\"(У мене є велосипед. Це ______ велосипед.)\" fr=\"(J'ai un vélo. C'est ______ vélo.)\"/>",
         options: ["mi", "tu", "su"],
         correctAnswer: 0
       }
@@ -490,16 +490,16 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
       { word: "No me gusta", translations: { en: "I don't like", ar: "لا يعجبني", uk: "Мені не подобається", fr: "Je n'aime pas" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "👎", color: "#FCE8E8" }
     ],
     content: `
-## ¿Sí o No?
+## ¿Sí o No? <trans en=\"(Didn't we?)\" ar=\"(نعم أم لا؟)\" uk=\"(Так чи ні)\" fr=\"(OUI OU NON ?)\"/>
 
 *   **Sí**, quiero pan.
 *   **No**, no quiero pan.
 
 *Para decir que algo no ocurre, ponemos "no" antes del verbo.*
 
-## Los Gustos
+## Los Gustos <trans en=\"(ALL TASTES)\" ar=\"(## Los Gustos)\" uk=\"(## Los Gustos)\" fr=\"(## Les Goûts)\"/>
 
-Usamos **Me gusta** cuando algo nos parece bueno o bonito.
+Usamos **Me gusta** cuando algo nos parece bueno o bonito. <trans en=\"(We use **Like** when we think something is good or beautiful.)\" ar=\"(نستخدم **مثل** عندما نعتقد أن شيئًا ما جيد أو جميل.)\" uk=\"(Ми використовуємо **Like**, коли думаємо, що щось добре або красиво.)\" fr=\"(Nous utilisons **J'aime** quand quelque chose nous semble bon ou joli.)\"/>
 
 *   **Me gusta** el fútbol. <trans en="(I like soccer)" ar="(أحب كرة القدم)" uk="(Мені подобається футбол)" fr="(J'aime le football)"/>
 *   **No me gusta** el frío. <trans en="(I don't like the cold)" ar="(لا أحب البرد)" uk="(Мені не подобається холод)" fr="(Je n'aime pas le froid)"/>
@@ -507,13 +507,13 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito.
     exercises: [
       {
         id: "ex1",
-        question: "___, me llamo Juan.",
+        question: "___, me llamo Juan. <trans en=\"(___, my name is Juan.)\" ar=\"(___، اسمي خوان.)\" uk=\"(___, мене звати Хуан.)\" fr=\"(___, je m'appelle Juan.)\"/>",
         options: ["No", "Sí"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "A mí ___ me gusta el pescado. Prefiero la carne.",
+        question: "A mí ___ me gusta el pescado. Prefiero la carne. <trans en=\"(I ___ like fish.)\" ar=\"(أنا ___ أحب السمك. أنا أفضل اللحوم.)\" uk=\"(Я ___ люблю рибу. Я віддаю перевагу м'ясу.)\" fr=\"(Je ___ aime le poisson. Je préfère la viande.)\"/>",
         options: ["no", "sí", "también"],
         correctAnswer: 0
       }
@@ -537,9 +537,9 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito.
       { word: "¿De dónde eres?", translations: { en: "Where are you from?", ar: "من أين أنت؟", uk: "Звідки ти?", fr: "D'où viens-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🌍", color: "#FEFCBF" }
     ],
     content: `
-## Conversación Básica
+## Conversación Básica <trans en=\"(Spoken Interaction: Basic User)\" ar=\"(محادثة أساسية)\" uk=\"(## Базова розмова)\" fr=\"(## Conversation de base)\"/>
 
-Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
+Aquí tienes preguntas muy importantes y cómo responderlas de forma natural: <trans en=\"(Here are some very important questions and how to answer them naturally:)\" ar=\"(فيما يلي بعض الأسئلة المهمة للغاية وكيفية الإجابة عليها بشكل طبيعي:)\" uk=\"(Ось кілька дуже важливих питань і як відповісти на них природним шляхом:)\" fr=\"(Voici des questions très importantes et comment y répondre naturellement :)\"/>
 
 *   **Hola, ¿cómo estás?** <trans en="(Hello, how are you?)" ar="(مرحباً، كيف حالك؟)" uk="(Привіт, як справи?)" fr="(Bonjour, comment vas-tu ?)"/>
     *   **Estoy bien, gracias.** <trans en="(I'm fine, thank you)" ar="(أنا بخير، شكراً)" uk="(Я в порядку, дякую)" fr="(Je vais bien, merci)"/>
@@ -555,19 +555,19 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
     exercises: [
       {
         id: "ex1",
-        question: "Responde a la pregunta: '¿Cómo te llamas?'",
+        question: "Responde a la pregunta: '¿Cómo te llamas?' <trans en=\"(Answers the question: 'What is your name?')\" ar=\"(يجيب على السؤال: ما اسمك؟)\" uk=\"(Відповідає на запитання: «Як тебе звати?»)\" fr=\"(Répond à la question : « Quel est votre nom ? »)\"/>",
         options: ["Tengo 20 años", "Me llamo Sara", "Soy de Málaga"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Responde a la pregunta: '¿De dónde eres?'",
+        question: "Responde a la pregunta: '¿De dónde eres?' <trans en=\"(Answers the question: 'Where are you from?')\" ar=\"(يجيب على السؤال: 'من أين أنت؟')\" uk=\"(Відповідає на запитання: «Звідки ти?»)\" fr=\"(Répond à la question : « D’où venez-vous ? »)\"/>",
         options: ["Soy de Senegal", "Estoy bien", "Llevo tres semanas"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Responde a la pregunta: '¿Cuántos años tienes?'",
+        question: "Responde a la pregunta: '¿Cuántos años tienes?' <trans en=\"(Answers the question: 'How old are you?')\" ar=\"(يجيب على السؤال: 'كم عمرك؟')\" uk=\"(Відповідає на запитання: «Скільки тобі років?»)\" fr=\"(Répond à la question : « Quel âge as-tu ? »)\"/>",
         options: ["Tengo mucho frío", "Tengo 25 años", "Me llamo Luis"],
         correctAnswer: 1
       }
@@ -596,10 +596,10 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
       { word: "Diez (10)", translations: { en: "Ten", ar: "عشرة", uk: "Десять", fr: "Dix" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "🔟", color: "#EBF8FF" }
     ],
     content: `
-## A contar...
+## A contar... <trans en=\"(a contar,)\" ar=\"(## أخبرنا...)\" uk=\"(## Розкажіть нам...)\" fr=\"(## À compter...)\"/>
 
-Saber los números nos ayuda a decir nuestra edad, la hora o precios.
-Los primeros 10 son:
+Saber los números nos ayuda a decir nuestra edad, la hora o precios. <trans en=\"(Knowing the numbers helps us tell our age, time, or prices.)\" ar=\"(تساعدنا معرفة الأرقام في معرفة عمرنا أو وقتنا أو أسعارنا.)\" uk=\"(Знаючи цифри, ми можемо визначити свій вік, час або ціни.)\" fr=\"(Connaître les chiffres nous aide à dire notre âge, l'heure ou les prix.)\"/>
+Los primeros 10 son: <trans en=\"(The top 10 are:)\" ar=\"(العشرة الأوائل هم:)\" uk=\"(У першій десятці:)\" fr=\"(Les 10 premiers sont :)\"/>
 
 *   1 = **Uno**
 *   2 = **Dos**
@@ -615,13 +615,13 @@ Los primeros 10 son:
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué número es el 'Cinco'?",
+        question: "¿Qué número es el 'Cinco'? <trans en=\"(What number is 'Five'?)\" ar=\"(ما هو الرقم 'خمسة'؟)\" uk=\"(Яке число 'п'ять'?)\" fr=\"(Quel nombre est « Cinq » ?)\"/>",
         options: ["6", "5", "10"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "3 en español es...",
+        question: "3 en español es... <trans en=\"(3 in Spanish is...)\" ar=\"(3 بالإسبانية...)\" uk=\"(3 іспанською - це...)\" fr=\"(3 en espagnol c'est...)\"/>",
         options: ["Tres", "Dos", "Uno"],
         correctAnswer: 0
       }
@@ -645,9 +645,9 @@ Los primeros 10 son:
       { word: "Senegal / senegalés", translations: { en: "Senegal / Senegalese", ar: "السنغال / سنغالي", uk: "Сенегал / сенегалець", fr: "Sénégal / sénégalais" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🇸🇳", color: "#E2F3E7" }
     ],
     content: `
-## País y Nacionalidad
+## País y Nacionalidad <trans en=\"(## Country and Nationality)\" ar=\"(## البلد والجنسية)\" uk=\"(## Країна та громадянство)\" fr=\"(Pays, île et nationalité)\"/>
 
-Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
+Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad). <trans en=\"(From the country (the place) comes the word about your origin (nationality).)\" ar=\"(من البلد (المكان) تأتي كلمة عن أصلكم (الجنسية).)\" uk=\"(З країни (місця) йде слово про ваше походження (національність).)\" fr=\"(Du pays (le lieu) vient le mot sur votre origine (la nationalité).)\"/>
 
 *   País: **España**. "Yo soy de España".
 *   Nacionalidad: **Español / Española**. "Yo soy español".
@@ -661,13 +661,13 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     exercises: [
       {
         id: "ex1",
-        question: "Una persona de Francia es...",
+        question: "Una persona de Francia es... <trans en=\"(A person from France is...)\" ar=\"(شخص من فرنسا...)\" uk=\"(Людина з Франції - це...)\" fr=\"(Une personne de France est...)\"/>",
         options: ["francés", "franco", "francia"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "Fátima es de Marruecos. Ella es...",
+        question: "Fátima es de Marruecos. Ella es... <trans en=\"(Fatima is from Morocco.)\" ar=\"(فاطمة من المغرب. هي...)\" uk=\"(Фатіма родом з Марокко. вона...)\" fr=\"(Fatima est originaire du Maroc. Elle est...)\"/>",
         options: ["marrueca", "marroquí", "marruecos"],
         correctAnswer: 1
       }
@@ -692,14 +692,14 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
       { word: "El mar", translations: { en: "Sea", ar: "بحر", uk: "Море", fr: "Mer" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🌊", color: "#F0FFF4" }
     ],
     content: `
-## Mascotas y animales salvajes
+## Mascotas y animales salvajes <trans en=\"(## Pets and wildlife)\" ar=\"(## الحيوانات الأليفة والحياة البرية)\" uk=\"(## Домашні тварини та дика природа)\" fr=\"(## Animaux et animaux sauvages)\"/>
 
-## La Naturaleza
+## La Naturaleza <trans en=\"(Nature)\" ar=\"(آه ،الطبيعة!)\" uk=\"(## Природа)\" fr=\"(avec la nature)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "¿Cuál es una mascota común en casa?",
+        question: "¿Cuál es una mascota común en casa? <trans en=\"(What is a common pet at home?)\" ar=\"(ما هو الحيوان الأليف الشائع في المنزل؟)\" uk=\"(Який звичайний домашній улюбленець?)\" fr=\"(Qu'est-ce qu'un animal de compagnie commun à la maison ?)\"/>",
         options: ["La montaña", "El perro", "El árbol"],
         correctAnswer: 1
       }
@@ -716,30 +716,30 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     emoji: "📖",
     color: "#EBF8FF",
     content: `
-## LECTURA: Hola, me llamo Ali
+## LECTURA: Hola, me llamo Ali <trans en=\"(## READING: Hi, my name is Ali)\" ar=\"(## READING: مرحبًا، اسمي علي)\" uk=\"(## READING: Привіт, мене звати Алі)\" fr=\"(## LECTURE : Bonjour, je m'appelle Ali)\"/>
 
-> *"Hola, me llamo Ali. Tengo veinticinco (25) años. Yo soy de Marruecos, pero ahora estoy en Málaga, España. Yo tengo una hermana que se llama Fátima."*
+> *"Hola, me llamo Ali. Tengo veinticinco (25) años. Yo soy de Marruecos, pero ahora estoy en Málaga, España. Yo tengo una hermana que se llama Fátima."* <trans en=\"(> *'Hello, my name is Ali. I am twenty-five (25) years old. I am from Morocco, but now I am in Malaga, Spain. I have a sister named Fátima.'*)\" ar=\"(> *'مرحبًا، اسمي علي. عمري خمسة وعشرون (25) عامًا. أنا من المغرب، لكني الآن في ملقة بإسبانيا. لدي أخت تدعى فاطمة.'*)\" uk=\"(> *'Привіт, мене звати Алі. Мені двадцять п'ять (25) років. Я з Марокко, але зараз я в Малазі, Іспанія. У мене є сестра на ім'я Фатіма.'*)\" fr=\"(> *'Bonjour, je m'appelle Ali. J'ai vingt-cinq (25) ans. Je viens du Maroc, mais maintenant je suis à Malaga, en Espagne. J'ai une sœur nommée Fátima.'*)\"/>
 
-> *"Me gusta mucho el mar y quiero trabajar de cocinero. Yo hablo un poco de español, pero estudio todos los días en la escuela."*
+> *"Me gusta mucho el mar y quiero trabajar de cocinero. Yo hablo un poco de español, pero estudio todos los días en la escuela."* <trans en=\"(> *'I really like the sea and I want to work as a cook. I speak a little Spanish, but I study every day at school.'*)\" ar=\"(> *'أنا أحب البحر حقًا وأريد أن أعمل طباخًا. أتحدث القليل من الإسبانية، لكني أدرس كل يوم في المدرسة.'*)\" uk=\"(> *'Мені дуже подобається море і я хочу працювати кухарем. Я трохи розмовляю іспанською, але вчуся щодня в школі.'*)\" fr=\"(> *'J'aime beaucoup la mer et je veux travailler comme cuisinier. Je parle un peu espagnol, mais j'étudie tous les jours à l'école.'*)\"/>
 
-### Lee la lectura con atención y responde al ejercicio.
+### Lee la lectura con atención y responde al ejercicio. <trans en=\"(### Read the reading carefully and respond to the exercise.)\" ar=\"(### اقرأ القراءة بعناية وأجب عن التمرين.)\" uk=\"(### Уважно прочитайте текст і дайте відповідь на вправу.)\" fr=\"(### Lisez attentivement la lecture et répondez à l'exercice.)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "¿De dónde es Ali?",
+        question: "¿De dónde es Ali? <trans en=\"(Where is Ali from?)\" ar=\"(من أين علي؟)\" uk=\"(Звідки Алі?)\" fr=\"(D’où vient Ali ?)\"/>",
         options: ["Es de Málaga", "Es de Marruecos", "Es de Francia"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿De qué quiere trabajar Ali?",
+        question: "¿De qué quiere trabajar Ali? <trans en=\"(What does Ali want to work on?)\" ar=\"(ما الذي يريد علي أن يعمل عليه؟)\" uk=\"(Над чим Алі хоче працювати?)\" fr=\"(Sur quoi Ali veut-il travailler ?)\"/>",
         options: ["De profesor", "De cocinero", "De conductor"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "¿Dónde está Ali ahora?",
+        question: "¿Dónde está Ali ahora? <trans en=\"(Where is Ali now?)\" ar=\"(أين علي الآن؟)\" uk=\"(Де Алі зараз?)\" fr=\"(Où est Ali maintenant ?)\"/>",
         options: ["En Marruecos", "En Málaga", "En Madrid"],
         correctAnswer: 1
       }
@@ -761,29 +761,29 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
       { word: "Senegal", translations: { en: "Senegal", ar: "السنغال", uk: "Сенегал", fr: "Sénégal" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🇸🇳", color: "#F0FFF4" }
     ],
     content: `
-## Los Continentes
+## Los Continentes <trans en=\"(## The Continents)\" ar=\"(## القارات)\" uk=\"(## Континенти)\" fr=\"(## Les continents)\"/>
 
-Existen diferentes continentes en el mundo:
+Existen diferentes continentes en el mundo: <trans en=\"(There are different continents in the world:)\" ar=\"(هناك قارات مختلفة في العالم:)\" uk=\"(У світі є різні континенти:)\" fr=\"(Il existe différents continents dans le monde :)\"/>
 - **África**
 - **Europa**
 - **América** (Norte y Sur)
 - **Asia**
 - **Oceanía**
 
-## Países 
+## Países <trans en=\"(## Countries)\" ar=\"(## بلدان)\" uk=\"(## Країни)\" fr=\"(## Pays)\"/> 
 
-Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país.
+Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país. <trans en=\"(To say where you are from you can say: *'I am from...'* and your country.)\" ar=\"(لتقول من أين أنت يمكنك أن تقول: *'أنا من...'* وبلدك.)\" uk=\"(Щоб сказати, звідки ви, ви можете сказати: *'Я з...'* і вашої країни.)\" fr=\"(Pour dire d'où vous venez vous pouvez dire : *'Je viens de...'* et votre pays.)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "España está en:",
+        question: "España está en: <trans en=\"(Spain is in:)\" ar=\"(اسبانيا في:)\" uk=\"(Іспанія знаходиться в:)\" fr=\"(L'Espagne est dans :)\"/>",
         options: ["Asia", "África", "Europa"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "¿Cómo se llama el continente con muchos desiertos al sur de Europa?",
+        question: "¿Cómo se llama el continente con muchos desiertos al sur de Europa? <trans en=\"(What is the name of the continent with many deserts south of Europe?)\" ar=\"(ما اسم القارة التي بها صحاري كثيرة جنوب أوروبا؟)\" uk=\"(Як називається материк з багатьма пустелями на південь від Європи?)\" fr=\"(Quel est le nom du continent qui compte de nombreux déserts au sud de l’Europe ?)\"/>",
         options: ["África", "América", "Oceanía"],
         correctAnswer: 0
       }
@@ -808,7 +808,7 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país.
       { word: "El hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🏥", color: "#E3EEF9" }
     ],
     content: `
-## Preguntar por lugares
+## Preguntar por lugares <trans en=\"(## Ask about places)\" ar=\"(## اسأل عن الأماكن)\" uk=\"(## Запитайте про місця)\" fr=\"(## Renseignez-vous sur les lieux)\"/>
 
 Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** <trans en="(Where is...?)" ar="(أين...؟)" uk="(Де знаходиться...?)" fr="(Où est...?)"/>
 
@@ -820,13 +820,13 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
     exercises: [
       {
         id: "ex1",
-        question: "Necesitas lavarte las manos. Preguntas: ¿Dónde está...?",
+        question: "Necesitas lavarte las manos. Preguntas: ¿Dónde está...? <trans en=\"(You need to wash your hands.)\" ar=\"(تحتاج إلى غسل يديك. الأسئلة: أين...؟)\" uk=\"(Треба вимити руки. Запитання: Де...?)\" fr=\"(Vous devez vous laver les mains. Questions : Où est... ?)\"/>",
         options: ["el metro", "el lavabo", "el autobús"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Quieres comprar algo de comida. Preguntas: ¿Dónde está...?",
+        question: "Quieres comprar algo de comida. Preguntas: ¿Dónde está...? <trans en=\"(You want to buy some food.)\" ar=\"(تريد شراء بعض الطعام. الأسئلة: أين...؟)\" uk=\"(Ви хочете купити трохи їжі. Запитання: Де...?)\" fr=\"(Vous voulez acheter de la nourriture. Questions : Où est... ?)\"/>",
         options: ["la tienda", "el hospital", "el mar"],
         correctAnswer: 0
       }
@@ -850,9 +850,9 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
       { word: "Ayuda", translations: { en: "Help", ar: "مساعدة", uk: "Допомога", fr: "Aide" }, imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=200&auto=format&fit=crop&q=60", emoji: "🆘", color: "#FFF4E5" }
     ],
     content: `
-## Expresar deseos y necesidades
+## Expresar deseos y necesidades <trans en=\"(## Express wants and needs)\" ar=\"(## التعبير عن الرغبات والاحتياجات)\" uk=\"(## Виражайте бажання та потреби)\" fr=\"(## Exprimer les désirs et les besoins)\"/>
 
-Para pedir cosas o decir adónde vas, usamos **Quiero** (deseo) o **Necesito** (obligación/necesidad).
+Para pedir cosas o decir adónde vas, usamos **Quiero** (deseo) o **Necesito** (obligación/necesidad). <trans en=\"(To ask for things or say where you are going, we use **I want** (desire) or **I need** (obligation/need).)\" ar=\"(لنطلب أشياء أو نقول إلى أين أنت ذاهب، نستخدم **أريد** (الرغبة) أو **أحتاج** (الالتزام/الحاجة).)\" uk=\"(Щоб попросити щось або сказати, куди ви йдете, ми використовуємо **Я хочу** (бажання) або **Мені потрібно** (обов’язок/потреба).)\" fr=\"(Pour demander des choses ou dire où l'on va, on utilise **Je veux** (désir) ou **J'ai besoin** (obligation/besoin).)\"/>
 
 *   **Quiero comprar** agua. <trans en="(I want to buy water)" ar="(أريد شراء الماء)" uk="(Я хочу купити воду)" fr="(Je veux acheter de l'eau)"/>
 *   **Quiero ir a** la estación. <trans en="(I want to go to the station)" ar="(أريد الذهاب إلى المحطة)" uk="(Я хочу піти на станцію)" fr="(Je veux aller à la station)"/>
@@ -862,13 +862,13 @@ Para pedir cosas o decir adónde vas, usamos **Quiero** (deseo) o **Necesito** (
     exercises: [
       {
         id: "ex1",
-        question: "No tienes agua y tienes mucha sed. Dices: '______ comprar agua'.",
+        question: "No tienes agua y tienes mucha sed. Dices: '______ comprar agua'. <trans en=\"(You have no water and you are very thirsty.)\" ar=\"(ليس لديك ماء وأنت عطشان جداً. تقول: ______ شراء الماء.)\" uk=\"(У вас немає води, і ви відчуваєте сильну спрагу. Ви говорите: «______ купіть воду».)\" fr=\"(Vous n'avez pas d'eau et vous avez très soif. Vous dites : « ______ achète de l'eau ».)\"/>",
         options: ["Dónde", "Necesito", "Hola"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Cómo pides que alguien te asista?",
+        question: "¿Cómo pides que alguien te asista? <trans en=\"(How do you ask someone to assist you?)\" ar=\"(كيف تطلب من شخص أن يساعدك؟)\" uk=\"(Як попросити когось допомогти вам?)\" fr=\"(Comment demander à quelqu’un de vous aider ?)\"/>",
         options: ["Necesito ayuda", "Quiero ir", "El lavabo"],
         correctAnswer: 0
       }
@@ -892,15 +892,15 @@ Para pedir cosas o decir adónde vas, usamos **Quiero** (deseo) o **Necesito** (
       { word: "Tengo miedo", translations: { en: "I'm afraid", ar: "أشعر بالخوف", uk: "Мені страшно", fr: "J'ai peur" }, imageUrl: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=200&auto=format&fit=crop&q=60", emoji: "😨", color: "#F3E8FF" }
     ],
     content: `
-## Posesión y Estados Físicos
+## Posesión y Estados Físicos <trans en=\"(## Possession and Physical States)\" ar=\"(## الحيازة والحالات المادية)\" uk=\"(## Володіння та фізичні стани)\" fr=\"(## Possession et états physiques)\"/>
 
-Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para cómo nos sentimos físicamente.
+Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para cómo nos sentimos físicamente. <trans en=\"(We use **I have** to say the things that are ours, but *also* for how we feel physically.)\" ar=\"(نحن نستخدم **لدي** لنقول الأشياء التي لنا، ولكن *أيضًا* لنقول ما نشعر به جسديًا.)\" uk=\"(Ми використовуємо **Я маю**, щоб сказати те, що належить нам, але *також* для того, як ми відчуваємо себе фізично.)\" fr=\"(Nous utilisons **J'ai** pour dire les choses qui nous appartiennent, mais *aussi* pour ce que nous ressentons physiquement.)\"/>
 
-### Posesión
+### Posesión <trans en=\"(### Possession)\" ar=\"(### تملُّك)\" uk=\"(### Володіння)\" fr=\"(### Possession)\"/>
 *   **Tengo** dinero. <trans en="(I have money)" ar="(عندي مال)" uk="(У мене є гроші)" fr="(J'ai de l'argent)"/>
 *   **No tengo** teléfono. <trans en="(I don't have a phone)" ar="(ليس عندي هاتف)" uk="(У мене немає телефону)" fr="(Je n'ai pas de téléphone)"/>
 
-### Sensaciones
+### Sensaciones <trans en=\"(### Sensations)\" ar=\"(### الأحاسيس)\" uk=\"(### Відчуття)\" fr=\"(### Sentiments)\"/>
 *   **Tengo hambre** (quiero comer).
 *   **Tengo sed** (quiero beber).
 *   **Tengo frío** (necesito una chaqueta).
@@ -908,13 +908,13 @@ Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para có
     exercises: [
       {
         id: "ex1",
-        question: "Si quieres comer porque tu estómago está vacío, dices:",
+        question: "Si quieres comer porque tu estómago está vacío, dices: <trans en=\"(If you want to eat because your stomach is empty, you say:)\" ar=\"(إذا أردت أن تأكل لأن معدتك فارغة فقل:)\" uk=\"(Якщо ви хочете їсти, тому що ваш шлунок порожній, ви говорите:)\" fr=\"(Si vous voulez manger parce que votre estomac est vide, vous dites :)\"/>",
         options: ["Tengo frío", "Tengo hambre", "Tengo dinero"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Para decir 'I don't have money', en español es:",
+        question: "Para decir 'I don't have money', en español es: <trans en=\"(To say 'I don't have money', in Spanish it is:)\" ar=\"(لقول 'ليس لدي المال'، في الإسبانية هو:)\" uk=\"(Сказати «у мене немає грошей» іспанською:)\" fr=\"(Pour dire 'Je n'ai pas d'argent', en espagnol, c'est :)\"/>",
         options: ["No tengo dinero", "Necesito dinero", "Dónde está el dinero"],
         correctAnswer: 0
       }
@@ -937,9 +937,9 @@ Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para có
       { word: "Me preocupa", translations: { en: "It worries me", ar: "يقلقني", uk: "Мене хвилює", fr: "Ça m'inquiète" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "😟", color: "#F3E8FF" }
     ],
     content: `
-## Expresando sentimientos y dolor
+## Expresando sentimientos y dolor <trans en=\"(## Expressing feelings and pain)\" ar=\"(##التعبير عن المشاعر والألم)\" uk=\"(## Вираження почуттів і болю)\" fr=\"(## Exprimer ses sentiments et sa douleur)\"/>
 
-Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**, **le**) para saber a quién le afecta.
+Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**, **le**) para saber a quién le afecta. <trans en=\"(Some verbs in Spanish need a 'pronoun' in front (like **me**, **te**, **le**) to know who it affects.)\" ar=\"(تحتاج بعض الأفعال في اللغة الإسبانية إلى 'ضمير' في المقدمة (مثل **me**، **te**، **le**) لمعرفة من يؤثر عليه.)\" uk=\"(Деякі дієслова в іспанській мові потребують «займенника» попереду (наприклад, **me**, **te**, **le**), щоб знати, на кого вони впливають.)\" fr=\"(Certains verbes en espagnol ont besoin d'un « pronom » devant (comme **me**, **te**, **le**) pour savoir qui cela affecte.)\"/>
 
 *   **Me duele** la cabeza. <trans en="(My head hurts)" ar="(رأسي يؤلمني)" uk="(У мене болить голова)" fr="(J'ai mal à la tête)"/>
 *   **Me duele** el estómago.
@@ -950,13 +950,13 @@ Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**
     exercises: [
       {
         id: "ex1",
-        question: "Si tu cabeza no está bien y sientes dolor, dices:",
+        question: "Si tu cabeza no está bien y sientes dolor, dices: <trans en=\"(If your head is not right and you feel pain, you say:)\" ar=\"(إذا كان رأسك ليس في مكانه الصحيح وتشعر بالألم، فقل:)\" uk=\"(Якщо ваша голова не в порядку і ви відчуваєте біль, скажіть:)\" fr=\"(Si votre tête ne va pas bien et que vous ressentez de la douleur, vous dites :)\"/>",
         options: ["Me gusta la cabeza", "Tengo cabeza", "Me duele la cabeza"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "Si algo es muy ruidoso y no te deja dormir:",
+        question: "Si algo es muy ruidoso y no te deja dormir: <trans en=\"(If something is very noisy and doesn't let you sleep:)\" ar=\"(إذا كان هناك شيء صاخب جدًا ولا يسمح لك بالنوم:)\" uk=\"(Якщо щось дуже шумить і не дає вам спати:)\" fr=\"(Si quelque chose est très bruyant et ne vous permet pas de dormir :)\"/>",
         options: ["Me molesta el ruido", "Me aburre el ruido", "Me gusta el ruido"],
         correctAnswer: 0
       }
@@ -973,30 +973,30 @@ Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**
     emoji: "🛒",
     color: "#E2F3E7",
     content: `
-## LECTURA: La lista de la compra
+## LECTURA: La lista de la compra <trans en=\"(## READING: The shopping list)\" ar=\"(## القراءة: قائمة التسوق)\" uk=\"(## ЧИТАННЯ: список покупок)\" fr=\"(## LECTURE : La liste de courses)\"/>
 
-> *"Hoy es sábado y Ana va al supermercado. Ana necesita muchas cosas para la semana. En su lista de la compra tiene: manzanas, leche, arroz y pan."*
+> *"Hoy es sábado y Ana va al supermercado. Ana necesita muchas cosas para la semana. En su lista de la compra tiene: manzanas, leche, arroz y pan."* <trans en=\"(> *'Today is Saturday and Ana is going to the supermarket. Ana needs many things for the week. On her shopping list she has: apples, milk, rice and bread.'*)\" ar=\"(> *'اليوم هو السبت وآنا ذاهبة إلى السوبر ماركت. آنا تحتاج إلى أشياء كثيرة لهذا الأسبوع. في قائمة التسوق لديها: التفاح والحليب والأرز والخبز.'*)\" uk=\"(> *'Сьогодні субота, і Ана йде в супермаркет. Ані потрібно багато речей на тиждень. У її списку покупок у неї: яблука, молоко, рис і хліб.'*)\" fr=\"(> *'Aujourd'hui, c'est samedi et Ana va au supermarché. Ana a besoin de beaucoup de choses pour la semaine. Sur sa liste de courses, elle a : des pommes, du lait, du riz et du pain.'*)\"/>
 
-> *"Primero, ella va a la sección de frutas. Después, compra la leche y el arroz. Al final, Ana paga en la caja con dinero en efectivo. El cajero dice: 'Gracias, ¡buen fin de semana!'."*
+> *"Primero, ella va a la sección de frutas. Después, compra la leche y el arroz. Al final, Ana paga en la caja con dinero en efectivo. El cajero dice: 'Gracias, ¡buen fin de semana!'."* <trans en=\"(> *'First, she goes to the fruit section. Then, she buys the milk and rice. At the end, Ana pays at the register with cash. The cashier says: 'Thank you, have a good weekend!'.'*)\" ar=\"(> *'أولاً، تذهب إلى قسم الفاكهة. ثم تشتري الحليب والأرز. وفي النهاية، تدفع آنا نقدًا في السجل. ويقول أمين الصندوق: 'شكرًا لك، أتمنى لك عطلة نهاية أسبوع سعيدة!'*)\" uk=\"(> *'Спочатку вона йде до відділу фруктів. Потім вона купує молоко та рис. Наприкінці Ана розраховується в касі готівкою. Касир каже: 'Дякую, гарних вихідних!''*)\" fr=\"(> *'D'abord, elle va au rayon fruits. Ensuite, elle achète le lait et le riz. À la fin, Ana paie en espèces à la caisse. La caissière dit : 'Merci, bon week-end !'.'*)\"/>
 
-### Lee la lectura con atención y responde al ejercicio.
+### Lee la lectura con atención y responde al ejercicio. <trans en=\"(### Read the reading carefully and respond to the exercise.)\" ar=\"(### اقرأ القراءة بعناية وأجب عن التمرين.)\" uk=\"(### Уважно прочитайте текст і дайте відповідь на вправу.)\" fr=\"(### Lisez attentivement la lecture et répondez à l'exercice.)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué día va Ana al supermercado?",
+        question: "¿Qué día va Ana al supermercado? <trans en=\"(What day does Ana go to the supermarket?)\" ar=\"(في أي يوم تذهب آنا إلى السوبر ماركت؟)\" uk=\"(У який день Аня йде в супермаркет?)\" fr=\"(Quel jour Ana va-t-elle au supermarché ?)\"/>",
         options: ["El lunes", "El sábado", "El domingo"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Qué compra primero Ana?",
+        question: "¿Qué compra primero Ana? <trans en=\"(What does Ana buy first?)\" ar=\"(ماذا تشتري آنا أولاً؟)\" uk=\"(Що Аня купує в першу чергу?)\" fr=\"(Qu’est-ce qu’Ana achète en premier ?)\"/>",
         options: ["Frutas (manzanas)", "Leche", "Carne"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "¿Cómo paga Ana?",
+        question: "¿Cómo paga Ana? <trans en=\"(How does Ana pay?)\" ar=\"(كيف تدفع آنا؟)\" uk=\"(Як Ана платить?)\" fr=\"(Comment Ana paie-t-elle ?)\"/>",
         options: ["Con tarjeta", "Con el teléfono", "Con dinero en efectivo"],
         correctAnswer: 2
       }
@@ -1013,34 +1013,34 @@ Algunos verbos en español necesitan un "pronombre" delante (como **me**, **te**
     emoji: "🏥",
     color: "#FFF5F5",
     content: `
-## LECTURA: Necesito pastillas
+## LECTURA: Necesito pastillas <trans en=\"(## READING: I need pills)\" ar=\"(## القراءة: أحتاج إلى حبوب)\" uk=\"(## ЧИТАННЯ: Мені потрібні таблетки)\" fr=\"(## LECTURE : J'ai besoin de pilules)\"/>
 
-> *Carlos está en la farmacia porque está enfermo.*
-> **Farmacéutico:** Hola, buenos días. ¿En qué puedo ayudarle?
-> **Carlos:** Hola. Me duele la cabeza mucho y tengo fiebre. Necesito pastillas, por favor.
-> **Farmacéutico:** Sí, claro. Tome estas pastillas cada ocho (8) horas con un poco de agua.
-> **Carlos:** ¿Cuánto cuesta?
-> **Farmacéutico:** Son cinco euros.
-> **Carlos:** Aquí tiene. Muchas gracias.
+> *Carlos está en la farmacia porque está enfermo.* <trans en=\"(> *Carlos is at the pharmacy because he is sick.*)\" ar=\"(> *كارلوس في الصيدلية لأنه مريض.*)\" uk=\"(> *Карлос в аптеці, тому що він хворий.*)\" fr=\"(> *Carlos est à la pharmacie parce qu'il est malade.*)\"/>
+> **Farmacéutico:** Hola, buenos días. ¿En qué puedo ayudarle? <trans en=\"(> **Pharmacist:** Hello, good morning.)\" ar=\"(> **الصيدلي:** أهلاً، صباح الخير. كيف يمكنني مساعدك؟)\" uk=\"(> **Фармацевт:** Привіт, доброго ранку. Чим я можу вам допомогти?)\" fr=\"(> **Pharmacien :** Bonjour, bonjour. Comment puis-je t'aider?)\"/>
+> **Carlos:** Hola. Me duele la cabeza mucho y tengo fiebre. Necesito pastillas, por favor. <trans en=\"(> **Carlos:** Hello.)\" ar=\"(> ** كارلوس: ** مرحبًا. رأسي يؤلمني كثيراً وأعاني من الحمى. أحتاج إلى حبوب من فضلك.)\" uk=\"(> **Карлос:** Привіт. У мене сильно болить голова і температура. Мені потрібні таблетки, будь ласка.)\" fr=\"(> **Carlos :** Bonjour. J'ai très mal à la tête et j'ai de la fièvre. J'ai besoin de pilules, s'il vous plaît.)\"/>
+> **Farmacéutico:** Sí, claro. Tome estas pastillas cada ocho (8) horas con un poco de agua. <trans en=\"(> **Pharmacist:** Yes, of course.)\" ar=\"(> **الصيدلاني:** نعم بالطبع. تناول هذه الحبوب كل ثماني (8) ساعات مع القليل من الماء.)\" uk=\"(> **Фармацевт:** Так, звичайно. Приймайте ці таблетки кожні вісім (8) годин, запиваючи невеликою кількістю води.)\" fr=\"(> **Pharmacien :** Oui, bien sûr. Prenez ces comprimés toutes les huit (8) heures avec un peu d'eau.)\"/>
+> **Carlos:** ¿Cuánto cuesta? <trans en=\"(> **Carlos:** How much does it cost?)\" ar=\"(> **كارلوس:** كم التكلفة؟)\" uk=\"(> **Карлос:** Скільки це коштує?)\" fr=\"(> **Carlos :** Combien ça coûte ?)\"/>
+> **Farmacéutico:** Son cinco euros. <trans en=\"(> **Pharmacist:** It's five euros.)\" ar=\"(> **الصيدلي:** ثمنها خمسة يورو.)\" uk=\"(> **Фармацевт:** Це п'ять євро.)\" fr=\"(> **Pharmacien :** C'est cinq euros.)\"/>
+> **Carlos:** Aquí tiene. Muchas gracias. <trans en=\"(> **Carlos:** Here you go.)\" ar=\"(> **كارلوس:** تفضل. شكراً جزيلاً.)\" uk=\"(> **Карлос:** Ось. Дуже дякую.)\" fr=\"(> **Carlos :** Et voilà. Merci beaucoup.)\"/>
 
-### Lee la conversación con atención y responde al ejercicio.
+### Lee la conversación con atención y responde al ejercicio. <trans en=\"(### Read the conversation carefully and respond to the exercise.)\" ar=\"(### اقرأ المحادثة بعناية وأجب عن التمرين.)\" uk=\"(### Уважно прочитайте розмову та дайте відповідь на вправу.)\" fr=\"(### Lisez attentivement la conversation et répondez à l'exercice.)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué le pasa a Carlos?",
+        question: "¿Qué le pasa a Carlos? <trans en=\"(What's wrong with Carlos?)\" ar=\"(ما هو الخطأ في كارلوس؟)\" uk=\"(Що не так з Карлосом?)\" fr=\"(Qu'est-ce qui ne va pas avec Carlos ?)\"/>",
         options: ["Le duele la cabeza y tiene fiebre", "Le duele el estómago", "Tiene hambre y necesita comer"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "¿Cada cuántas horas tiene que tomar las pastillas?",
+        question: "¿Cada cuántas horas tiene que tomar las pastillas? <trans en=\"(How often do you have to take the pills?)\" ar=\"(كم مرة عليك أن تأخذ الحبوب؟)\" uk=\"(Як часто потрібно приймати таблетки?)\" fr=\"(À quelle fréquence devez-vous prendre les pilules ?)\"/>",
         options: ["Cada 5 horas", "Cada 8 horas", "Cada 10 horas"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "¿Cuánto dinero paga Carlos?",
+        question: "¿Cuánto dinero paga Carlos? <trans en=\"(How much money does Carlos pay?)\" ar=\"(كم من المال يدفع كارلوس؟)\" uk=\"(Скільки грошей платить Карлос?)\" fr=\"(Combien d’argent Carlos paie-t-il ?)\"/>",
         options: ["Diez euros", "Ocho euros", "Cinco euros"],
         correctAnswer: 2
       }
@@ -1222,23 +1222,23 @@ Este texto no solo describe el clima (la niebla), sino que lo utiliza como metá
       { word: "La hora", translations: { en: "The time / hour", ar: "الوقت", uk: "Час", fr: "L'heure" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⌚", color: "#E3EEF9" }
     ],
     content: `
-## Los Días de la Semana
-Lunes, Martes, Miércoles, Jueves, Viernes, Sábado y Domingo.
+## Los Días de la Semana <trans en=\"(## The Days of the Week)\" ar=\"(##أيام الأسبوع)\" uk=\"(## Дні тижня)\" fr=\"(## Les jours de la semaine)\"/>
+Lunes, Martes, Miércoles, Jueves, Viernes, Sábado y Domingo. <trans en=\"(Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.)\" ar=\"(الاثنين والثلاثاء والأربعاء والخميس والجمعة والسبت والأحد.)\" uk=\"(Понеділок, вівторок, середа, четвер, п'ятниця, субота та неділя.)\" fr=\"(Lundi, mardi, mercredi, jeudi, vendredi, samedi et dimanche.)\"/>
 
-## La Hora
+## La Hora <trans en=\"(## The Time)\" ar=\"(## الوقت)\" uk=\"(## Час)\" fr=\"(## L'heure)\"/>
 Para preguntar la hora: **¿Qué hora es?** <trans en="(What time is it?)" ar="(كم الساعة؟)" uk="(Котра година?)" fr="(Quelle heure est-il ?)"/>
-Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00).
+Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00). <trans en=\"(To answer: **It's two o'clock.** (2:00) or **It's one o'clock.** (1:00).)\" ar=\"(للإجابة: **إنها الساعة الثانية.** (2:00) أو **إنها الساعة الواحدة.** (1:00).)\" uk=\"(Щоб відповісти: **Це друга година.** (2:00) або **Це одна година.** (1:00).)\" fr=\"(Pour répondre : **Il est deux heures.** (2h00) ou **Il est une heure.** (1h00).)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué día va después del lunes?",
+        question: "¿Qué día va después del lunes? <trans en=\"(What day comes after Monday?)\" ar=\"(ما هو اليوم الذي يأتي بعد يوم الاثنين؟)\" uk=\"(Який день наступає після понеділка?)\" fr=\"(Quel jour vient après lundi ?)\"/>",
         options: ["Miércoles", "Martes", "Sábado"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Cómo preguntas la hora?",
+        question: "¿Cómo preguntas la hora? <trans en=\"(How do you ask the time?)\" ar=\"(كيف تسأل عن الوقت؟)\" uk=\"(Як ви питаєте час?)\" fr=\"(Comment demander l'heure ?)\"/>",
         options: ["¿Cómo te llamas?", "¿Dónde estás?", "¿Qué hora es?"],
         correctAnswer: 2
       }
@@ -1260,15 +1260,15 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00).
       { word: "El cocinero / La cocinera", translations: { en: "Cook / Chef", ar: "طباخ", uk: "Кухар", fr: "Cuisinier" }, imageUrl: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=200&auto=format&fit=crop&q=60", emoji: "🍳", color: "#FCE8E8" }
     ],
     content: `
-## ¿A qué te dedicas?
-Para hablar de nuestra profesión usamos el verbo SER.
+## ¿A qué te dedicas? <trans en=\"(## What do you do for a living?)\" ar=\"(## ماذا تعمل لكسب عيشك؟)\" uk=\"(## Чим ви заробляєте на життя?)\" fr=\"(## Que fais-tu dans la vie?)\"/>
+Para hablar de nuestra profesión usamos el verbo SER. <trans en=\"(To talk about our profession we use the verb SER.)\" ar=\"(للحديث عن مهنتنا نستخدم الفعل SER.)\" uk=\"(Щоб говорити про нашу професію, ми використовуємо дієслово SER.)\" fr=\"(Pour parler de notre métier nous utilisons le verbe SER.)\"/>
 *   **Soy** profesor. <trans en="(I am a teacher)" ar="(أنا معلم)" uk="(Я вчитель)" fr="(Je suis professeur)"/>
 *   Ella **es** médica. <trans en="(She is a doctor)" ar="(هي طبيبة)" uk="(Вона лікар)" fr="(Elle est médecin)"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "La persona que hace la comida es el...",
+        question: "La persona que hace la comida es el... <trans en=\"(The person who makes the food is the...)\" ar=\"(الشخص الذي يصنع الطعام هو...)\" uk=\"(Людина, яка готує їжу, є...)\" fr=\"(La personne qui prépare la nourriture est la...)\"/>",
         options: ["Médico", "Profesor", "Cocinero"],
         correctAnswer: 2
       }
@@ -1291,26 +1291,26 @@ Para hablar de nuestra profesión usamos el verbo SER.
       { word: "Alto / Alta", translations: { en: "Tall", ar: "طويل", uk: "Високий", fr: "Grand" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "📏", color: "#E2F3E7" }
     ],
     content: `
-## Mi Familia
+## Mi Familia <trans en=\"(## My family)\" ar=\"(## عائلتي)\" uk=\"(## Моя сім'я)\" fr=\"(## Ma famille)\"/>
 *   Mi mamá es **la madre**.
 *   Mi papá es **el padre**.
 *   Los hijos son **los hermanos**.
 
-## Descripciones Físicas
-Usamos el verbo SER para describir:
+## Descripciones Físicas <trans en=\"(## Physical Descriptions)\" ar=\"(## الأوصاف الجسدية)\" uk=\"(## Фізичні описи)\" fr=\"(## Descriptions physiques)\"/>
+Usamos el verbo SER para describir: <trans en=\"(We use the verb BE to describe:)\" ar=\"(نستخدم الفعل BE لوصف:)\" uk=\"(Ми використовуємо дієслово BE для опису:)\" fr=\"(Nous utilisons le verbe BE pour décrire :)\"/>
 *   Mi hermano **es alto**. (Masculino)
 *   Mi hermana **es alta**. (Femenina)
     `,
     exercises: [
       {
         id: "ex1",
-        question: "El papá en español se dice también...",
+        question: "El papá en español se dice también... <trans en=\"(The dad in Spanish is also said...)\" ar=\"(ويقال الأب بالإسبانية أيضًا...)\" uk=\"(Тато іспанською мовою також кажуть...)\" fr=\"(Le papa en espagnol est aussi dit...)\"/>",
         options: ["El padre", "El hermano", "El abuelo"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "Para decir que tu hermana tiene mucha altura dices: Mi hermana es...",
+        question: "Para decir que tu hermana tiene mucha altura dices: Mi hermana es... <trans en=\"(To say that your sister is very tall you say: My sister is...)\" ar=\"(لكي تقول أن أختك طويلة جداً تقول: أختي...)\" uk=\"(Щоб сказати, що твоя сестра дуже висока, ти скажеш: Моя сестра...)\" fr=\"(Pour dire que votre sœur est très grande, vous dites : Ma sœur est...)\"/>",
         options: ["alta", "alto", "baja"],
         correctAnswer: 0
       }
@@ -1333,8 +1333,8 @@ Usamos el verbo SER para describir:
       { word: "¿Cuándo?", translations: { en: "When?", ar: "متى؟", uk: "Коли?", fr: "Quand ?" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⏳", color: "#FFF4E5" }
     ],
     content: `
-## Palabras para Preguntar
-Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) y se usa el signo (¿?)!
+## Palabras para Preguntar <trans en=\"(## Words to Ask)\" ar=\"(## الكلمات التي يجب طرحها)\" uk=\"(## Слова для запитань)\" fr=\"(## Mots à demander)\"/>
+Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) y se usa el signo (¿?)! <trans en=\"(To ask questions you need these words.)\" ar=\"(لطرح الأسئلة تحتاج إلى هذه الكلمات. تذكر أن لديهم لهجة (´) ويتم استخدام العلامة (؟)!)\" uk=\"(Щоб поставити запитання, потрібні ці слова. Пам’ятайте, що вони мають наголос (´) і використовується знак (?)!)\" fr=\"(Pour poser des questions, vous avez besoin de ces mots. N'oubliez pas qu'ils ont un accent (´) et que le signe (?) est utilisé !)\"/>
 
 *   **¿Qué es esto?** <trans en="(What is this?)" ar="(ما هذا؟)" uk="(Що це?)" fr="(Qu'est-ce que c'est ?)"/>
 *   **¿Quién eres tú?** <trans en="(Who are you?)" ar="(من أنت؟)" uk="(Хто ти?)" fr="(Qui es-tu ?)"/>
@@ -1344,13 +1344,13 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     exercises: [
       {
         id: "ex1",
-        question: "Si quieres saber el lugar, preguntas...",
+        question: "Si quieres saber el lugar, preguntas... <trans en=\"(If you want to know the place, ask...)\" ar=\"(إذا أردت أن تعرف المكان فاسأل..)\" uk=\"(Якщо ви хочете знати місце, запитайте...)\" fr=\"(Si vous voulez connaître l'endroit, demandez...)\"/>",
         options: ["¿Quién?", "¿Qué?", "¿Dónde?"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "Para preguntar por una persona usas:",
+        question: "Para preguntar por una persona usas: <trans en=\"(To ask for a person you use:)\" ar=\"(للاستفسار عن شخص تستخدمه:)\" uk=\"(Щоб запитати людину, яку ви використовуєте:)\" fr=\"(Pour demander une personne que vous utilisez :)\"/>",
         options: ["¿Qué?", "¿Quién?", "¿Cuándo?"],
         correctAnswer: 1
       }
@@ -1373,17 +1373,17 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
       { word: "La cocina", translations: { en: "Kitchen", ar: "مطبخ", uk: "Кухня", fr: "Cuisine" }, imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=200&auto=format&fit=crop&q=60", emoji: "🍳", color: "#EBF8FF" }
     ],
     content: `
-## Comida Básica
+## Comida Básica <trans en=\"(## Basic Food)\" ar=\"(## الأغذية الأساسية)\" uk=\"(## Основне харчування)\" fr=\"(## Aliments de base)\"/>
 *   Quiero comer **pan**.
 *   Necesito beber **agua**.
 
-## La Casa
-La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina** (para cocinar).
+## La Casa <trans en=\"(## The House)\" ar=\"(##البيت)\" uk=\"(## Будинок)\" fr=\"(## La maison)\"/>
+La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina** (para cocinar). <trans en=\"(The house has several parts, such as **the bedroom** (for sleeping) and **the kitchen** (for cooking).)\" ar=\"(يتكون المنزل من عدة أجزاء مثل **غرفة النوم** (للنوم) و **المطبخ** (للطهي).)\" uk=\"(У будинку є кілька частин, наприклад **спальня** (для сну) і **кухня** (для приготування їжі).)\" fr=\"(La maison comprend plusieurs parties, comme **la chambre** (pour dormir) et **la cuisine** (pour cuisiner).)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "El lugar donde duermes se llama:",
+        question: "El lugar donde duermes se llama: <trans en=\"(The place where you sleep is called:)\" ar=\"(المكان الذي تنام فيه يسمى :)\" uk=\"(Місце, де ти спиш, називається:)\" fr=\"(L'endroit où vous dormez s'appelle :)\"/>",
         options: ["El dormitorio", "La cocina", "El pan"],
         correctAnswer: 0
       }
@@ -1400,18 +1400,18 @@ La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina*
     emoji: "📅",
     color: "#FEFCBF",
     content: `
-## El Pretérito Perfecto (He comido...)
+## El Pretérito Perfecto (He comido...) <trans en=\"(## The Past Perfect (I have eaten...))\" ar=\"(## الماضي التام (لقد أكلت...))\" uk=\"(## The Past Perfect (Я їв...))\" fr=\"(## Le plus-que-parfait (j'ai mangé...))\"/>
 
-Usamos este tiempo para hablar de acciones pasadas que se conectan con el presente ("hoy", "esta mañana", "alguna vez"). Se forma con el verbo **HABER** + el **Participio**.
+Usamos este tiempo para hablar de acciones pasadas que se conectan con el presente ("hoy", "esta mañana", "alguna vez"). Se forma con el verbo **HABER** + el **Participio**. <trans en=\"(We use this tense to talk about past actions that connect to the present ('today,' 'this morning,' 'sometime').)\" ar=\"(نستخدم هذا الزمن للحديث عن أفعال سابقة مرتبطة بالحاضر ('اليوم'، 'هذا الصباح'، 'في وقتٍ ما'). ويتكون من الفعل **حبر** + **النعت**.)\" uk=\"(Ми використовуємо цей час, щоб говорити про минулі дії, пов’язані з теперішнім («сьогодні», «сьогодні вранці», «колись»). Він утворений за допомогою дієслова **HABER** + **частка**.)\" fr=\"(Nous utilisons ce temps pour parler d'actions passées qui sont liées au présent (« aujourd'hui », « ce matin », « parfois »). Il se forme avec le verbe **HABER** + le **Participe**.)\"/>
 
-### Verbo Haber
+### Verbo Haber <trans en=\"(### Verb Haber)\" ar=\"(### فعل هابر)\" uk=\"(### Дієслово Haber)\" fr=\"(### Verbe Haber)\"/>
 *   Yo **he**
 *   Tú **has**
 *   Él/Ella **ha**
 *   Nosotros **hemos**
 *   Ellos **han**
 
-### Participios Regulares
+### Participios Regulares <trans en=\"(### Regular Participles)\" ar=\"(### المشاركات العادية)\" uk=\"(### Звичайні причастя)\" fr=\"(### Participes Réguliers)\"/>
 *   **-AR** -> -ado (hablar -> hablado, trabajar -> trabajado)
 *   **-ER / -IR** -> -ido (comer -> comido, vivir -> vivido)
 
@@ -1422,13 +1422,13 @@ Usamos este tiempo para hablar de acciones pasadas que se conectan con el presen
     exercises: [
       {
         id: "ex1",
-        question: "Hoy nosotros _______ (trabajar) mucho.",
+        question: "Hoy nosotros _______ (trabajar) mucho. <trans en=\"(Today we _______ (work) a lot.)\" ar=\"(اليوم _______ (نعمل) كثيرًا.)\" uk=\"(Сьогодні ми _______ (працюємо) багато.)\" fr=\"(Aujourd'hui, nous _______ (travaillons) beaucoup.)\"/>",
         options: ["hemos trabajado", "han trabajado", "ha trabajado"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "¿Tú _____ (estar) en Marruecos alguna vez?",
+        question: "¿Tú _____ (estar) en Marruecos alguna vez? <trans en=\"(Have you ever _____ (be) in Morocco?)\" ar=\"(هل سبق لك _____ (أن تكون) في المغرب؟)\" uk=\"(Ви коли-небудь _____ (були) в Марокко?)\" fr=\"(Avez-vous déjà _____ (être) au Maroc ?)\"/>",
         options: ["ha estado", "has estado", "he estado"],
         correctAnswer: 1
       }
@@ -1445,9 +1445,9 @@ Usamos este tiempo para hablar de acciones pasadas que se conectan con el presen
     emoji: "🔮",
     color: "#E2F3E7",
     content: `
-## Ir + a + Infinitivo
+## Ir + a + Infinitivo <trans en=\"(## Go + to + Infinitive)\" ar=\"(## اذهب + إلى + صيغة المصدر)\" uk=\"(## Go + to + Infinitive)\" fr=\"(## Aller + à + Infinitif)\"/>
 
-Para hablar de planes (este fin de semana, mañana, la próxima semana), en el nivel A2 usamos mucho el "Futuro Próximo".
+Para hablar de planes (este fin de semana, mañana, la próxima semana), en el nivel A2 usamos mucho el "Futuro Próximo". <trans en=\"(To talk about plans (this weekend, tomorrow, next week), at level A2 we use the 'Near Future' a lot.)\" ar=\"(للحديث عن الخطط (نهاية هذا الأسبوع، غدًا، الأسبوع المقبل)، في المستوى A2 نستخدم 'المستقبل القريب' كثيرًا.)\" uk=\"(Щоб говорити про плани (ці вихідні, завтра, наступний тиждень), на рівні A2 ми часто використовуємо «Недалеке майбутнє».)\" fr=\"(Pour parler de projets (ce week-end, demain, la semaine prochaine), au niveau A2 on utilise beaucoup le 'Near Future'.)\"/>
 
 **Fórmula:** Verbo IR en presente + a + la acción (sin conjugar).
 
@@ -1460,13 +1460,13 @@ Para hablar de planes (este fin de semana, mañana, la próxima semana), en el n
     exercises: [
       {
         id: "ex1",
-        question: "El fin de semana, yo _______ español.",
+        question: "El fin de semana, yo _______ español. <trans en=\"(On the weekend, I _______ Spanish.)\" ar=\"(في عطلة نهاية الأسبوع، أنا _______ الإسبانية.)\" uk=\"(На вихідних я _______ іспанською.)\" fr=\"(Le week-end, je _______ espagnol.)\"/>",
         options: ["voy a estudio", "voy a estudiar", "voy estudiar"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Mañana nosotros _____ ir al cine.",
+        question: "Mañana nosotros _____ ir al cine. <trans en=\"(Tomorrow we _____ go to the cinema.)\" ar=\"(غدًا _____ نذهب إلى السينما.)\" uk=\"(Завтра ми _____ йдемо в кіно.)\" fr=\"(Demain, nous _____ allons au cinéma.)\"/>",
         options: ["vamos a", "vamos", "va a"],
         correctAnswer: 0
       }
@@ -1483,32 +1483,32 @@ Para hablar de planes (este fin de semana, mañana, la próxima semana), en el n
     emoji: "⚖️",
     color: "#F3E8FF",
     content: `
-## Comparar en Español
+## Comparar en Español <trans en=\"(## Compare in Spanish)\" ar=\"(## قارن باللغة الاسبانية)\" uk=\"(## Порівняйте іспанською)\" fr=\"(## Comparer en espagnol)\"/>
 
-Para comparar dos cosas o personas, usamos estas estructuras:
+Para comparar dos cosas o personas, usamos estas estructuras: <trans en=\"(To compare two things or people, we use these structures:)\" ar=\"(للمقارنة بين شيئين أو شخصين، نستخدم هذه الهياكل:)\" uk=\"(Щоб порівняти дві речі або людей, ми використовуємо такі структури:)\" fr=\"(Pour comparer deux choses ou personnes, nous utilisons ces structures :)\"/>
 
-### Más / Menos ... que
+### Más / Menos ... que <trans en=\"(### More/Less...than)\" ar=\"(### أكثر/أقل...من)\" uk=\"(### Більше/менше... ніж)\" fr=\"(### Plus/Moins... que)\"/>
 *   Málaga es **más grande que** mi pueblo.
 *   El autobús es **menos rápido que** el tren.
 
-### Mejor / Peor (Irregulares)
-No decimos "más bueno". Decimos **mejor**.
-No decimos "más malo". Decimos **peor**.
+### Mejor / Peor (Irregulares) <trans en=\"(### Better / Worse (Irregular))\" ar=\"(### أفضل / أسوأ (غير منتظم))\" uk=\"(### Краще / Гірше (нерегулярно))\" fr=\"(### Mieux / Pire (irrégulier))\"/>
+No decimos "más bueno". Decimos **mejor**. <trans en=\"(We don't say 'more good.')\" ar=\"(نحن لا نقول 'المزيد من الخير'. نقول **أفضل**.)\" uk=\"(Ми не говоримо «більше добра». Ми кажемо **краще**.)\" fr=\"(Nous ne disons pas « plus de bien ». Nous disons **mieux**.)\"/>
+No decimos "más malo". Decimos **peor**. <trans en=\"(We don't say 'badder.')\" ar=\"(نحن لا نقول 'أسوأ'. نقول **أسوأ**.)\" uk=\"(Ми не говоримо «гірше». Ми говоримо **гірше**.)\" fr=\"(Nous ne disons pas « plus méchant ». Nous disons **pire**.)\"/>
 *   Esta comida es **mejor que** la otra.
 
-### Tan ... como (Igualdad)
+### Tan ... como (Igualdad) <trans en=\"(### As...as (Equality))\" ar=\"(### كما...كما (المساواة))\" uk=\"(### As...as (Рівність))\" fr=\"(### Comme...comme (Égalité))\"/>
 *   Mi hermano es **tan alto como** tú. (Tienen la misma altura).
     `,
     exercises: [
       {
         id: "ex1",
-        question: "Un avión es ______ rápido que un coche.",
+        question: "Un avión es ______ rápido que un coche. <trans en=\"(A plane is ______ faster than a car.)\" ar=\"(الطائرة ______ أسرع من السيارة.)\" uk=\"(Літак на ______ швидший за автомобіль.)\" fr=\"(Un avion est ______ plus rapide qu’une voiture.)\"/>",
         options: ["más", "mucho", "menos"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "Mi inglés es ______ que mi español. (Es 'más bueno')",
+        question: "Mi inglés es ______ que mi español. (Es 'más bueno') <trans en=\"(My English is ______ than my Spanish.)\" ar=\"(لغتي الإنجليزية هي ______ من لغتي الإسبانية. (إنها 'أكثر جيدة'))\" uk=\"(Моя англійська ______ ніж моя іспанська. (Це 'більш добре'))\" fr=\"(Mon anglais est ______ supérieur à mon espagnol. (C'est 'plus bien'))\"/>",
         options: ["más bueno", "mejor", "peor"],
         correctAnswer: 1
       }
@@ -1531,20 +1531,20 @@ No decimos "más malo". Decimos **peor**.
       { word: "Para comer", translations: { en: "To eat", ar: "للأكل", uk: "Їсти", fr: "À manger" }, imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&auto=format&fit=crop&q=60", emoji: "🍽️", color: "#FFF5F5" }
     ],
     content: `
-## Pedir en un Restaurante
+## Pedir en un Restaurante <trans en=\"(## Order at a Restaurant)\" ar=\"(## اطلب في مطعم)\" uk=\"(## Замовляйте в ресторані)\" fr=\"(## Commander dans un restaurant)\"/>
 
-Camarero: **¿Qué van a tomar?**
-Tú: **Para comer quiero** arroz con pollo, por favor.
-Camarero: **¿Y para beber?**
-Tú: **Para beber quiero** agua.
+Camarero: **¿Qué van a tomar?** <trans en=\"(Waiter: **What are you going to have?**)\" ar=\"(النادل: **ماذا ستتناولين؟**)\" uk=\"(Офіціант: **Що ти збираєшся?**)\" fr=\"(Serveur : **Qu'est-ce que tu vas avoir ?**)\"/>
+Tú: **Para comer quiero** arroz con pollo, por favor. <trans en=\"(You: **To eat I want** rice with chicken, please.)\" ar=\"(أنت: **لآكل أريد** أرز بالدجاج من فضلك.)\" uk=\"(Ви: **Їсти я хочу** рис з куркою, будь ласка.)\" fr=\"(Vous : **Pour manger, je veux** du riz avec du poulet, s'il vous plaît.)\"/>
+Camarero: **¿Y para beber?** <trans en=\"(Waiter: **And to drink?**)\" ar=\"(النادل: **والشرب؟**)\" uk=\"(Офіціант: **А пити?**)\" fr=\"(Serveur : **Et boire ?**)\"/>
+Tú: **Para beber quiero** agua. <trans en=\"(You: **I want** water to drink.)\" ar=\"(أنت: **أريد** الماء للشرب.)\" uk=\"(Ви: **Я хочу** води пити.)\" fr=\"(Vous : **Je veux** de l'eau à boire.)\"/>
 
-Al final de la comida:
-Tú: **La cuenta, por favor.** (Para poder pagar).
+Al final de la comida: <trans en=\"(At the end of the meal:)\" ar=\"(في نهاية الوجبة:)\" uk=\"(В кінці трапези:)\" fr=\"(A la fin du repas :)\"/>
+Tú: **La cuenta, por favor.** (Para poder pagar). <trans en=\"(You: **The bill, please.** (To be able to pay).)\" ar=\"(أنت: **الفاتورة من فضلك.** (لتتمكن من الدفع).)\" uk=\"(Ви: **Рахунок, будь ласка.** (Щоб мати можливість оплатити).)\" fr=\"(Vous : **La facture, s'il vous plaît.** (Pour pouvoir payer).)\"/>
     `,
     exercises: [
       {
         id: "ex1",
-        question: "Cuando terminas de comer y quieres pagar, dices...",
+        question: "Cuando terminas de comer y quieres pagar, dices... <trans en=\"(When you finish eating and want to pay, you say...)\" ar=\"(عندما تنتهي من الأكل وتريد أن تدفع، تقول...)\" uk=\"(Коли ви закінчуєте їсти і хочете заплатити, ви говорите...)\" fr=\"(Quand vous avez fini de manger et que vous voulez payer, vous dites...)\"/>",
         options: ["La carta, por favor.", "La cuenta, por favor.", "El menú, por favor."],
         correctAnswer: 1
       },

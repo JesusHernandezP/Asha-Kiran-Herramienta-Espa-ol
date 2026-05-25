@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { VocabularyItem } from '../../data/content';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
+import { lessonTranslations } from '../../data/lessonTranslations';
 
 interface MemoryCard {
   id: string;
@@ -16,7 +17,7 @@ interface MemoryCard {
 }
 
 export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
-  const { visualMode } = useLanguage();
+  const { language, visualMode } = useLanguage();
   const [cards, setCards] = useState<MemoryCard[]>([]);
   const [flippedIndices, setFlippedIndices] = useState<number[]>([]);
   const [matches, setMatches] = useState(0);
@@ -102,13 +103,14 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
   if (!vocabulary || vocabulary.length === 0) return null;
 
   const isWin = matches === cards.length / 2 && cards.length > 0;
+  const t = lessonTranslations[language];
 
   return (
     <div className="bg-stone-50 rounded-2xl p-4 sm:p-6 border border-stone-200 mt-6 relative overflow-hidden">
       <div className="mb-4 flex items-center justify-between">
         <div>
-          <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide">Juego de Memoria</h3>
-          <p className="text-sm text-stone-500">Encuentra las parejas (palabra y dibujo).</p>
+          <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide">{t.memoryHeader}</h3>
+          <p className="text-sm text-stone-500">{t.memorySub}</p>
         </div>
         <div className="bg-white px-3 py-1 rounded-full border border-stone-200 text-sm font-bold text-[#00823B]">
           {matches} / {cards.length / 2}
@@ -150,7 +152,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
               >
                 {card.type === 'emoji' ? (
                   (() => {
-                    const displayImg = visualMode === 'illustration' ? (card.illustrationUrl || card.imageUrl) : card.imageUrl;
+                    const displayImg = visualMode === 'illustration' ? card.illustrationUrl : card.imageUrl;
                     if (displayImg) {
                       return <img src={displayImg} alt="card" className="w-12 h-12 object-contain drop-shadow-sm rounded-sm" />;
                     }
@@ -173,8 +175,8 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
             className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white/90 backdrop-blur-sm rounded-2xl"
           >
             <span className="text-6xl mb-4">🏆</span>
-            <h3 className="text-2xl font-black text-[#00823B] uppercase mb-2">¡Genial!</h3>
-            <p className="text-stone-600 mb-4 font-bold">Has encontrado todas las parejas.</p>
+            <h3 className="text-2xl font-black text-[#00823B] uppercase mb-2">{t.great}</h3>
+            <p className="text-stone-600 mb-4 font-bold">{t.memorySuccess}</p>
             <button 
               onClick={() => {
                 setCards(cards.sort(() => Math.random() - 0.5).map(c => ({...c, isFlipped: false, isMatched: false})));
@@ -182,7 +184,7 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
               }}
               className="bg-[#F5A623] hover:bg-[#d48d1a] text-white px-6 py-2 rounded-full font-bold uppercase tracking-wider"
             >
-              Jugar de nuevo
+              {t.playAgain}
             </button>
           </motion.div>
         )}
@@ -190,3 +192,4 @@ export function MemoryGame({ vocabulary }: { vocabulary: VocabularyItem[] }) {
     </div>
   );
 }
+

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { VocabularyItem } from '../../data/content';
 import { motion, AnimatePresence } from 'motion/react';
-import { CheckCircle2, XCircle, ArrowRight, RotateCcw, Volume2, HelpCircle } from 'lucide-react';
+import { CheckCircle2, XCircle, ArrowRight, RotateCcw, Volume2 } from 'lucide-react';
 import { speakSpanish } from '../../utils/speech';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { lessonTranslations } from '../../data/lessonTranslations';
 
 export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) {
   const { language, visualMode } = useLanguage();
@@ -83,6 +84,7 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
 
   const currentItem = vocabulary[currentQuestion];
   const translationToShow = currentItem.translations?.[language] || currentItem.translation || '';
+  const t = lessonTranslations[language];
 
   return (
     <div className="bg-white rounded-2xl p-6 border border-stone-200 mt-6 shadow-sm">
@@ -90,9 +92,9 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
         <div>
           <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide flex items-center gap-2">
             <Volume2 className="text-[#00823B]" />
-            Quiz Auditivo
+            {t.listeningQuizHeader}
           </h3>
-          <p className="text-sm text-stone-500">Escucha el audio y selecciona la palabra correcta</p>
+          <p className="text-sm text-stone-500">{t.listeningQuizSub}</p>
         </div>
         {!isFinished && (
           <div className="bg-[#f4fbf6] px-3 py-1 rounded-full border border-[#00823B]/20 text-sm font-bold text-[#00823B]">
@@ -126,7 +128,7 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
             </motion.button>
 
             <span className="text-xs text-[#00823B] font-bold uppercase tracking-widest mb-6">
-              Haz clic en el círculo para escuchar
+              {t.clickToListen}
             </span>
 
             {/* Answer Options */}
@@ -185,7 +187,7 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
                 <div className="flex items-center gap-3 self-start sm:self-center">
                   <div className="text-3xl shrink-0">
                     {(() => {
-                      const displayImg = visualMode === 'illustration' ? (currentItem.illustrationUrl || currentItem.imageUrl) : currentItem.imageUrl;
+                      const displayImg = visualMode === 'illustration' ? currentItem.illustrationUrl : currentItem.imageUrl;
                       if (displayImg) {
                         return <img src={displayImg} alt={currentItem.word} className="w-10 h-10 object-contain rounded" />;
                       }
@@ -198,7 +200,7 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
                     </h4>
                     {translationToShow && (
                       <p className="text-xs text-stone-500 font-medium">
-                        Traducción: <span className="text-[#00823B] font-bold">{translationToShow}</span>
+                        {t.translationLabel}: <span className="text-[#00823B] font-bold">{translationToShow}</span>
                       </p>
                     )}
                   </div>
@@ -208,7 +210,7 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
                   onClick={handleNext}
                   className="w-full sm:w-auto px-6 py-3 bg-[#00823B] hover:bg-[#006e32] text-white font-bold rounded-full uppercase tracking-wider flex items-center justify-center gap-2 transition-colors active:scale-95"
                 >
-                  {currentQuestion < vocabulary.length - 1 ? 'Siguiente' : 'Terminar'}
+                  {currentQuestion < vocabulary.length - 1 ? t.next : t.finish}
                   <ArrowRight size={18} />
                 </button>
               </motion.div>
@@ -224,9 +226,9 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
             <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-[#f4fbf6] text-[#00823B] mb-6">
               <span className="text-4xl">🏆</span>
             </div>
-            <h3 className="text-2xl font-black text-[#192A56] uppercase mb-2">¡Completado!</h3>
+            <h3 className="text-2xl font-black text-[#192A56] uppercase mb-2">{t.completed}</h3>
             <p className="text-stone-600 mb-6 font-bold text-lg">
-              Puntuación: <span className={score >= vocabulary.length / 2 ? "text-[#00823B]" : "text-[#F5A623]"}>{score} / {vocabulary.length}</span>
+              {t.yourScore} <span className={score >= vocabulary.length / 2 ? "text-[#00823B]" : "text-[#F5A623]"}>{score} / {vocabulary.length}</span>
             </p>
 
             <button
@@ -234,7 +236,7 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
               className="bg-[#F5A623] hover:bg-[#d48d1a] text-white px-8 py-3 rounded-full font-bold uppercase tracking-wider flex items-center gap-2 mx-auto active:scale-95 transition-transform"
             >
               <RotateCcw size={18} />
-              Intentar de nuevo
+              {t.tryAgain}
             </button>
           </motion.div>
         )}
@@ -242,3 +244,4 @@ export function ListeningQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) 
     </div>
   );
 }
+

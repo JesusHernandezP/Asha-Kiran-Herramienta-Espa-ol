@@ -6,7 +6,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
-import { Home } from './pages/Home';
+import { LandingPage } from './pages/LandingPage';
+import { AulaVirtual } from './pages/AulaVirtual';
 import { LevelSection } from './pages/LevelSection';
 import { LessonDetail } from './pages/LessonDetail';
 import { RecursosMalaga } from './pages/RecursosMalaga';
@@ -20,7 +21,8 @@ export default function App() {
           <Navbar />
           <main className="flex-grow">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/aula-virtual" element={<AulaVirtual />} />
               <Route path="/nivel/:level" element={<LevelSection />} />
               <Route path="/leccion/:id" element={<LessonDetail />} />
               <Route path="/recursos-malaga" element={<RecursosMalaga />} />
