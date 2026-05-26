@@ -105,32 +105,32 @@ export const lessonMetadataTranslations: Record<string, Record<Language, LessonM
     fr: { title: "Vocabulaire : La carte du monde", description: "Continents, pays communs et vocabulaire géographique." }
   },
   "a2-vocab-direcciones": {
-    es: { title: "Supervivencia: ¿Dónde está...?", description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda." },
-    en: { title: "Survival: Where is...?", description: "Learn to ask for important places like the restroom, the bus, or the store." },
-    ar: { title: "البقاء على قيد الحياة: أين يقع...؟", description: "تعلم كيفية السؤال عن الأماكن المهمة مثل دورة المياه، الحافلة أو المتجر." },
-    uk: { title: "Виживання: Де знаходиться...?", description: "Навчіться запитувати про важливі місця, такі як туалет, автобус чи магазин." },
-    fr: { title: "Survie : Où est... ?", description: "Apprenez à demander après des endroits importants comme les toilettes, le bus ou le magasin." }
+    es: { title: "¿Dónde está...?", description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda." },
+    en: { title: "Where is...?", description: "Learn to ask for important places like the restroom, the bus, or the store." },
+    ar: { title: "أين يقع...؟", description: "تعلم كيفية السؤال عن الأماكن المهمة مثل دورة المياه، الحافلة أو المتجر." },
+    uk: { title: "Де знаходиться...?", description: "Навчіться запитувати про важливі місця, такі як туалет, автобус чи магазин." },
+    fr: { title: "Où est... ?", description: "Apprenez à demander après des endroits importants comme les toilettes, le bus ou le magasin." }
   },
   "a2-gram-necesidades": {
-    es: { title: "Supervivencia: Quiero y Necesito", description: "Aprende a expresar tus deseos y necesidades: quiero comprar, necesito ayuda, quiero ir a..." },
-    en: { title: "Survival: I Want and I Need", description: "Learn to express your desires and needs: I want to buy, I need help, I want to go to..." },
-    ar: { title: "البقاء على قيد الحياة: أريد وأحتاج", description: "تعلم التعبير عن رغباتك واحتياجاتك: أريد شراء، أحتاج مساعدة، أريد الذهاب إلى..." },
-    uk: { title: "Виживання: Я хочу і мені потрібно", description: "Навчіться висловлювати свої бажання та потреби: я хочу купити, мені потрібна допомога, я хочу піти до..." },
-    fr: { title: "Survie : Je veux et j'ai besoin", description: "Apprenez à exprimer vos désirs et vos besoins : je veux acheter, j'ai besoin d'aide, je veux aller à..." }
+    es: { title: "Quiero y Necesito", description: "Aprende a expresar tus deseos y necesidades: quiero comprar, necesito ayuda, quiero ir a..." },
+    en: { title: "I Want and I Need", description: "Learn to express your desires and needs: I want to buy, I need help, I want to go to..." },
+    ar: { title: "أريد وأحتاج", description: "تعلم التعبير عن رغباتك واحتياجاتك: أريد شراء، أحتاج مساعدة، أريد الذهاب إلى..." },
+    uk: { title: "Я хочу і мені потрібно", description: "Навчіться висловлювати свої бажання та потреби: я хочу купити, мені потрібна допомога, я хочу піти до..." },
+    fr: { title: "Je veux et j'ai besoin", description: "Apprenez à exprimer vos désirs et vos besoins : je veux acheter, j'ai besoin d'aide, je veux aller à..." }
   },
   "a2-gram-tener-estados": {
-    es: { title: "Supervivencia: Tengo / No tengo", description: "Usa el verbo TENER para hablar de lo que posees y de tus sensaciones corporales." },
-    en: { title: "Survival: I Have / I Don't Have", description: "Use the verb TENER to talk about what you own and your bodily sensations." },
-    ar: { title: "البقاء على قيد الحياة: لدي / ليس لدي", description: "استخدم الفعل TENER للتحدث عما تملكه وعن أحاسيسك الجسدية (الجوع، البرد, إلخ)." },
-    uk: { title: "Виживання: Я маю / Я не маю", description: "Використовуйте дієслово TENER для розмов про те, чим ви володієте, та про свої тілесні відчуття." },
-    fr: { title: "Survie : J'ai / Je n'ai pas", description: "Utilisez le verbe TENER pour parler de ce que vous possédez et de vos sensations corporelles." }
+    es: { title: "Tengo / No tengo", description: "Usa el verbo TENER para hablar de lo que posees y de tus sensaciones corporales." },
+    en: { title: "I Have / I Don't Have", description: "Use the verb TENER to talk about what you own and your bodily sensations." },
+    ar: { title: "لدي / ليس لدي", description: "استخدم الفعل TENER للتحدث عما تملكه وعن أحاسيسك الجسدية (الجوع، البرد, إلخ)." },
+    uk: { title: "Я маю / Я не маю", description: "Використовуйте дієслово TENER для розмов про те, чим ви володієте, та про свої тілесні відчуття." },
+    fr: { title: "J'ai / Je n'ai pas", description: "Utilisez le verbe TENER pour parler de ce que vous possédez et de vos sensations corporelles." }
   },
   "a2-gram-me-duele": {
-    es: { title: "Supervivencia: Me duele, me gusta...", description: "Aprende a expresar dolor, molestias, gustos y preocupaciones usando 'Me'." },
-    en: { title: "Survival: It Hurts, I Like...", description: "Learn to express pain, discomfort, tastes, and worries using 'Me'." },
-    ar: { title: "البقاء على قيد الحياة: يؤلمني، يعجبني...", description: "تعلم التعبير عن الألم، الانزعاج، الأذواق والاهتمامات باستخدام 'Me'." },
-    uk: { title: "Виживання: Мені болить, мені подобається...", description: "Навчіться висловлювати біль, дискомфорт, смаки та турботи за допомогою 'Me'." },
-    fr: { title: "Survie : Ça me fait mal, j'aime...", description: "Apprenez à exprimer la douleur, l'inconfort, les goûts et les inquiétudes avec 'Me'." }
+    es: { title: "Me duele, me gusta...", description: "Aprende a expresar dolor, molestias, gustos y preocupaciones usando 'Me'." },
+    en: { title: "It Hurts, I Like...", description: "Learn to express pain, discomfort, tastes, and worries using 'Me'." },
+    ar: { title: "يؤلمني، يعجبني...", description: "تعلم التعبير عن الألم، الانزعاج، الأذواق والاهتمامات باستخدام 'Me'." },
+    uk: { title: "Мені болить, мені подобається...", description: "Навчіться висловлювати біль, дискомфорт, смаки та турботи за допомогою 'Me'." },
+    fr: { title: "Ça me fait mal, j'aime...", description: "Apprenez à exprimer la douleur, l'inconfort, les goûts et les inquiétudes avec 'Me'." }
   },
   "a2-comp-supermercado": {
     es: { title: "Lectura Fácil: En el supermercado", description: "Lee sobre una visita al supermercado y practica el vocabulario de alimentos y compras." },
@@ -203,11 +203,11 @@ export const lessonMetadataTranslations: Record<string, Record<Language, LessonM
     fr: { title: "Faire des comparaisons simples", description: "Apprenez à comparer des choses : plus grand que, moins grand que, aussi bon que..." }
   },
   "a2-vocab-restaurante": {
-    es: { title: "Supervivencia: En el Restaurante", description: "Aprende a pedir comida y pagar en un bar o restaurante." },
-    en: { title: "Survival: In the Restaurant", description: "Learn how to order food and pay in a bar or restaurant." },
-    ar: { title: "البقاء على قيد الحياة: في المطعم", description: "تعلم كيفية طلب الطعام والدفع في حانة أو مطعم." },
-    uk: { title: "Виживання: У ресторані", description: "Навчіться замовляти їжу та розплачуватися в барі чи ресторані." },
-    fr: { title: "Survie : Au restaurant", description: "Apprenez à commander à manger et à payer dans un bar ou un restaurant." }
+    es: { title: "En el Restaurante", description: "Aprende a pedir comida y pagar en un bar o restaurante." },
+    en: { title: "In the Restaurant", description: "Learn how to order food and pay in a bar or restaurant." },
+    ar: { title: "في المطعم", description: "تعلم كيفية طلب الطعام والدفع في حانة أو مطعم." },
+    uk: { title: "У ресторані", description: "Навчіться замовляти їжу та розплачуватися в барі чи ресторані." },
+    fr: { title: "Au restaurant", description: "Apprenez à commander à manger et à payer dans un bar ou un restaurant." }
   },
   "a1-alfa-silabas": {
     es: { title: "Alfabetización: Sílabas y Palabras Básicas", description: "Aprende a leer y escribir sílabas directas simples y a formar tus primeras palabras." },

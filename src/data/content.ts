@@ -792,7 +792,7 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país. <trans en=\
   {
     id: "a2-vocab-direcciones",
     topic: "Direcciones",
-    title: "Supervivencia: ¿Dónde está...?",
+    title: "¿Dónde está...?",
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda.",
@@ -835,7 +835,7 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
   {
     id: "a2-gram-necesidades",
     topic: "Necesidades",
-    title: "Supervivencia: Quiero y Necesito",
+    title: "Quiero y Necesito",
     level: "A2",
     category: "Gramática",
     description: "Aprende a expresar tus deseos y necesidades: quiero comprar, necesito ayuda, quiero ir a...",
@@ -877,7 +877,7 @@ Para pedir cosas o decir adónde vas, usamos **Quiero** (deseo) o **Necesito** (
   {
     id: "a2-gram-tener-estados",
     topic: "Estados Físicos",
-    title: "Supervivencia: Tengo / No tengo",
+    title: "Tengo / No tengo",
     level: "A2",
     category: "Gramática",
     description: "Usa el verbo TENER para hablar de lo que posees y de tus sensaciones corporales.",
@@ -923,7 +923,7 @@ Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para có
   {
     id: "a2-gram-me-duele",
     topic: "Expresiones",
-    title: "Supervivencia: Me duele, me gusta...",
+    title: "Me duele, me gusta...",
     level: "A2",
     category: "Gramática",
     description: "Aprende a expresar dolor, molestias, gustos y preocupaciones usando 'Me'.",
@@ -1517,7 +1517,7 @@ No decimos "más malo". Decimos **peor**. <trans en=\"(We don't say 'badder.')\"
   {
     id: "a2-vocab-restaurante",
     topic: "Restaurante",
-    title: "Supervivencia: En el Restaurante",
+    title: "En el Restaurante",
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a pedir comida y pagar en un bar o restaurante.",
