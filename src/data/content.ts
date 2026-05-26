@@ -1556,7 +1556,963 @@ Tú: **La cuenta, por favor.** (Para poder pagar). <trans en=\"(You: **The bill,
       }
     ]
   },
+    {
+    id: "a2-repaso-a1",
+    topic: "Repaso",
+    title: "Repaso General del Nivel A1",
+    level: "A2",
+    category: "Gramática",
+    description: "Consolida las bases del español y repasa los contenidos clave del nivel A1. <trans en=\"(Consolidate the bases of Spanish and review the key contents of level A1.)\" ar=\"(قم بتوحيد قواعد اللغة الإسبانية ومراجعة المحتويات الأساسية للمستوى A1.)\" uk=\"(Закріпіть основи іспанської мови та повторіть ключовий зміст рівня A1.)\" fr=\"(Consolider les bases d'espagnol et revoir les contenus clés du niveau A1.)\"/>",
+    emoji: "📚",
+    color: "#E2F3E7",
+    vocabulary: [],
+    content: `
+## Objetivo del repaso A1 <trans en=\"(Review objective A1)\" ar=\"(هدف المراجعة A1)\" uk=\"(Мета огляду A1)\" fr=\"(Objectif de révision A1)\"/>
+    Consolidar las bases del español, reforzar confianza comunicativa y preparar el paso al nivel A2. <trans en=\"(Consolidate the bases of Spanish, reinforce communicative confidence and prepare for the move to level A2.)\" ar=\"(تعزيز قواعد اللغة الإسبانية وتعزيز الثقة في التواصل والاستعداد للانتقال إلى المستوى A2.)\" uk=\"(Закріпити основи іспанської мови, зміцнити комунікативну впевненість і підготуватися до переходу на рівень А2.)\" fr=\"(Consolider les bases de l'espagnol, renforcer la confiance communicative et préparer le passage au niveau A2.)\"/>
+
+## Contenidos A1 repasados <trans en=\"(A1 contents reviewed)\" ar=\"(تمت مراجعة محتويات A1)\" uk=\"(Вміст A1 переглянуто)\" fr=\"(Contenu A1 révisé)\"/>
+    - **Verbos**: ser, estar, tener, vivir, querer, ir, me duele. <trans en=\"(**Verbs**: be, be, have, live, want, go, it hurts.)\" ar=\"(**الأفعال**: يكون، يكون، يملك، يعيش، يريد، يذهب، إنه مؤلم.)\" uk=\"(**Дієслова**: be, be, have, live, want, go, it hurts.)\" fr=\"(**Verbes** : être, être, avoir, vivre, vouloir, partir, ça fait mal.)\"/>
+    - **Gramática**: pronombres personales, posesivos (mi, tu, su), masculino / femenino, singular / plural, preguntas simples (qué, dónde, cuánto). <trans en=\"(**Grammar**: personal pronouns, possessives (my, your, their), masculine/feminine, singular/plural, simple questions (what, where, how much).)\" ar=\"(**القواعد**: الضمائر الشخصية، الملكية (my، your، their)، المذكر/المؤنث، المفرد/الجمع، الأسئلة البسيطة (ماذا، أين، كم).)\" uk=\"(**Граматика**: особисті займенники, присвійні (my, your, their), чоловічий/жіночий рід, однина/множина, прості питання (що, де, скільки).)\" fr=\"(**Grammaire** : pronoms personnels, possessifs (mon, votre, leur), masculin/féminin, singulier/pluriel, questions simples (quoi, où, combien).)\"/>
+    - **Temas**: presentaciones, familia, casa, supermercado, médico, transporte, profesiones, horas y saludos, países y nacionalidades. <trans en=\"(**Topics**: presentations, family, home, supermarket, doctor, transportation, professions, hours and greetings, countries and nationalities.)\" ar=\"(**المواضيع**: العروض التقديمية، الأسرة، المنزل، السوبر ماركت، الطبيب، المواصلات، المهن، الساعات والتحيات، البلدان والجنسيات.)\" uk=\"(**Теми**: презентації, сім’я, дім, супермаркет, лікар, транспорт, професії, години роботи та привітання, країни та національності.)\" fr=\"(**Sujets** : présentations, famille, maison, supermarché, médecin, transports, professions, horaires et salutations, pays et nationalités.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Yo ___ Ana. <trans en=\"(I ___ Ana.)\" ar=\"(أنا ___ آنا.)\" uk=\"(Я ___ Ана.)\" fr=\"(Je ___ Ana.)\"/>",
+        options: ["soy", "estoy", "tengo"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "Nosotros ___ en casa. <trans en=\"(We ___ at home.)\" ar=\"(نحن ___ في المنزل.)\" uk=\"(Ми ___ вдома.)\" fr=\"(Nous ___ à la maison.)\"/>",
+        options: ["estamos", "somos", "tenemos"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Nosotros ___ documentos. <trans en=\"(We ___ documents.)\" ar=\"(نحن ___ المستندات.)\" uk=\"(Ми ___ документів.)\" fr=\"(Nous ___ documents.)\"/>",
+        options: ["tenemos", "tenéis", "tienen"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "___ nombre es Carlos. <trans en=\"(___ name is Carlos.)\" ar=\"(___ الاسم كارلوس.)\" uk=\"(___ ім'я Карлос.)\" fr=\"(___ je m'appelle Carlos.)\"/>",
+        options: ["Mi", "Tu", "Su"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "Yo ___ España. <trans en=\"(I ___ Spain.)\" ar=\"(أنا ___ إسبانيا.)\" uk=\"(Я ___ Іспанія.)\" fr=\"(Je ___ Espagne.)\"/>",
+        options: ["vivo en", "vivo", "vives en"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "Me duele ___ cabeza. <trans en=\"(My head hurts.)\" ar=\"(رأسي يؤلمني.)\" uk=\"(Голова болить.)\" fr=\"(J'ai mal à la tête.)\"/>",
+        options: ["la", "el", "los"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "¿___ años tienes? <trans en=\"(Are you ___ years old?)\" ar=\"(هل عمرك ___ سنة؟)\" uk=\"(Тобі ___ років?)\" fr=\"(Avez-vous ___ ans ?)\"/>",
+        options: ["Cuántos", "Cuánto", "Qué"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "Voy ___ autobús. <trans en=\"(I'm going ___ bus.)\" ar=\"(سأذهب ___ الحافلة.)\" uk=\"(Я їду ___ автобусом.)\" fr=\"(Je vais ___ bus.)\"/>",
+        options: ["en", "a", "por"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "Ser se usa para la profesión. <trans en=\"(Ser is used for profession.)\" ar=\"(يستخدم Ser للمهنة.)\" uk=\"(Ser використовується для професії.)\" fr=\"(Ser est utilisé pour la profession.)\"/>",
+        options: ["Verdadero", "Falso"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "— ¿Cómo te llamas? — ___ llamo Ana. <trans en=\"(- What is your name? — ___ my name is Ana.)\" ar=\"(- ما اسمك؟ — ___ اسمي آنا.)\" uk=\"(- Як тебе звуть? — ___ мене звати Ана.)\" fr=\"(- Quel est ton nom? — ___ je m'appelle Ana.)\"/>",
+        options: ["Me", "Te", "Se"],
+        correctAnswer: 0
+      },
+    ]
+  },
   {
+    id: "a2-vocab-clima",
+    topic: "Clima",
+    title: "La Naturaleza y el Clima",
+    level: "A2",
+    category: "Vocabulario",
+    description: "Aprende vocabulario sobre el tiempo, el clima, las estaciones y la naturaleza. <trans en=\"(Learn vocabulary about weather, climate, seasons and nature.)\" ar=\"(تعلم المفردات حول الطقس والمناخ والمواسم والطبيعة.)\" uk=\"(Вивчайте словниковий запас про погоду, клімат, пори року та природу.)\" fr=\"(Apprenez le vocabulaire sur la météo, le climat, les saisons et la nature.)\"/>",
+    emoji: "☀️",
+    color: "#FFF4E5",
+    vocabulary: [
+      { word: "Naturaleza", translations: { en: "Nature", ar: "طبيعة", uk: "природа", fr: "Nature" }, emoji: "🌳", color: "#E2F3E7" },
+      { word: "Clima", translations: { en: "Climate", ar: "مناخ", uk: "Клімат", fr: "Climat" }, emoji: "🌤️", color: "#E3EEF9" },
+      { word: "Tiempo", translations: { en: "Time", ar: "وقت", uk: "час", fr: "Temps" }, emoji: "⏰", color: "#FCE8E8" },
+      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "сонце", fr: "Soleil" }, emoji: "☀️", color: "#F3E8FF" },
+      { word: "Lluvia", translations: { en: "Rain", ar: "مطر", uk: "Дощ", fr: "Pluie" }, emoji: "🌧️", color: "#FEFCBF" },
+      { word: "Viento", translations: { en: "Wind", ar: "رياح", uk: "Вітер", fr: "Vent" }, emoji: "💨", color: "#FFF4E5" },
+      { word: "Nubes", translations: { en: "Clouds", ar: "الغيوم", uk: "Хмари", fr: "Nuages" }, emoji: "☁️", color: "#E2F3E7" },
+      { word: "Calor", translations: { en: "Heat", ar: "حرارة", uk: "Тепло", fr: "Chaleur" }, emoji: "🥵", color: "#E3EEF9" },
+      { word: "Frío", translations: { en: "Cold", ar: "بارد", uk: "Холодний", fr: "Froid" }, emoji: "🥶", color: "#FCE8E8" },
+      { word: "Temperatura", translations: { en: "Temperature", ar: "درجة حرارة", uk: "Температура", fr: "Température" }, emoji: "🌡️", color: "#F3E8FF" },
+      { word: "Cielo", translations: { en: "Darling", ar: "محبوب", uk: "кохана", fr: "Chéri" }, emoji: "🌌", color: "#FEFCBF" },
+      { word: "Tierra", translations: { en: "Land", ar: "أرض", uk: "Земля", fr: "Atterrir" }, emoji: "🌍", color: "#FFF4E5" },
+      { word: "Río", translations: { en: "River", ar: "نهر", uk: "Річка", fr: "Rivière" }, emoji: "🏞️", color: "#E2F3E7" },
+      { word: "Montaña", translations: { en: "Mountain", ar: "جبل", uk: "Гора", fr: "Montagne" }, emoji: "⛰️", color: "#E3EEF9" },
+      { word: "Campo", translations: { en: "Field", ar: "مجال", uk: "Поле", fr: "Champ" }, emoji: "🌾", color: "#FCE8E8" },
+      { word: "Árbol", translations: { en: "Tree", ar: "شجرة", uk: "дерево", fr: "Arbre" }, emoji: "🌳", color: "#F3E8FF" },
+      { word: "Árboles", translations: { en: "Trees", ar: "الأشجار", uk: "дерева", fr: "Arbres" }, emoji: "🌲", color: "#FEFCBF" },
+      { word: "Flor", translations: { en: "Flower", ar: "ورد", uk: "Квітка", fr: "Fleur" }, emoji: "🌸", color: "#FFF4E5" },
+      { word: "Flores", translations: { en: "Flowers", ar: "زهور", uk: "квіти", fr: "Fleurs" }, emoji: "💐", color: "#E2F3E7" },
+      { word: "Agua", translations: { en: "Water", ar: "ماء", uk: "вода", fr: "Eau" }, emoji: "💧", color: "#E3EEF9" },
+      { word: "Día", translations: { en: "Day", ar: "يوم", uk: "День", fr: "Jour" }, emoji: "☀️", color: "#FCE8E8" },
+      { word: "Noche", translations: { en: "Evening", ar: "مساء", uk: "вечір", fr: "Soirée" }, emoji: "🌙", color: "#F3E8FF" },
+      { word: "Verano", translations: { en: "Summer", ar: "صيف", uk: "Літо", fr: "Été" }, emoji: "🏖️", color: "#FEFCBF" },
+      { word: "Invierno", translations: { en: "Winter", ar: "شتاء", uk: "Зима", fr: "Hiver" }, emoji: "❄️", color: "#FFF4E5" },
+      { word: "Primavera", translations: { en: "Spring", ar: "ربيع", uk: "Весна", fr: "Printemps" }, emoji: "🌱", color: "#E2F3E7" },
+      { word: "Otoño", translations: { en: "Autumn", ar: "خريف", uk: "осінь", fr: "Automne" }, emoji: "🍂", color: "#E3EEF9" },
+      { word: "Hoy", translations: { en: "Today", ar: "اليوم", uk: "Сьогодні", fr: "Aujourd'hui" }, emoji: "📅", color: "#FCE8E8" },
+      { word: "Mañana", translations: { en: "Tomorrow", ar: "غداً", uk: "завтра", fr: "Demain" }, emoji: "🌅", color: "#F3E8FF" },
+      { word: "Ahora", translations: { en: "Now", ar: "الآن", uk: "Зараз", fr: "Maintenant" }, emoji: "⏱️", color: "#FEFCBF" },
+      { word: "Siempre", translations: { en: "Always", ar: "دائماً", uk: "Завжди", fr: "Toujours" }, emoji: "🔄", color: "#FFF4E5" },
+      { word: "A veces", translations: { en: "Sometimes", ar: "أحيانا", uk: "іноді", fr: "Parfois" }, emoji: "⏱️", color: "#E2F3E7" },
+      { word: "Nunca", translations: { en: "Never", ar: "أبداً", uk: "Ніколи", fr: "Jamais" }, emoji: "❌", color: "#E3EEF9" },
+      { word: "Mucho", translations: { en: "A lot", ar: "كثيراً", uk: "багато", fr: "Beaucoup" }, emoji: "📈", color: "#FCE8E8" },
+      { word: "Poco", translations: { en: "Bit", ar: "قليل", uk: "біт", fr: "Peu" }, emoji: "📉", color: "#F3E8FF" },
+      { word: "Muy", translations: { en: "Very", ar: "جداً", uk: "дуже", fr: "Très" }, emoji: "🔥", color: "#FEFCBF" },
+      { word: "Bastante", translations: { en: "Quite", ar: "تمامًا", uk: "цілком", fr: "Assez" }, emoji: "⚖️", color: "#FFF4E5" },
+      { word: "Bien", translations: { en: "Good", ar: "جيد", uk: "добре", fr: "Bien" }, emoji: "✅", color: "#E2F3E7" },
+      { word: "Mal", translations: { en: "Evil", ar: "شر", uk: "зло", fr: "Mal" }, emoji: "❌", color: "#E3EEF9" },
+      { word: "Mejor", translations: { en: "Better", ar: "أحسن", uk: "краще", fr: "Mieux" }, emoji: "🏆", color: "#FCE8E8" },
+    ],
+    content: `
+## Hablar del clima <trans en=\"(Talk about the weather)\" ar=\"(تحدث عن الطقس)\" uk=\"(Розмова про погоду)\" fr=\"(Parlons de la météo)\"/>
+    En español usamos el verbo **hacer** para hablar del tiempo: <trans en=\"(In Spanish we use the verb **do** to talk about time:)\" ar=\"(في اللغة الإسبانية نستخدم الفعل **do** للحديث عن الوقت:)\" uk=\"(В іспанській мові ми використовуємо дієслово **do**, щоб говорити про час:)\" fr=\"(En espagnol, nous utilisons le verbe **do** pour parler du temps :)\"/>
+    - **Hace calor** <trans en=\"(**It's hot**)\" ar=\"(**الطقس حار**)\" uk=\"(**Спекотно**)\" fr=\"(**C'est chaud**)\"/>
+    - **Hace frío** <trans en=\"(**It's cold**)\" ar=\"(**انها بارده**)\" uk=\"(**Холодно**)\" fr=\"(**Il fait froid**)\"/>
+    - **Hace viento** <trans en=\"(**It's windy**)\" ar=\"(**الطقس عاصف**)\" uk=\"(**Вітер**)\" fr=\"(**Il y a du vent**)\"/>
+    - **Hace sol** <trans en=\"(**It's sunny**)\" ar=\"(**الطقس مشمس**)\" uk=\"(**Сонячно**)\" fr=\"(**Il fait beau**)\"/>
+    - **Hace buen tiempo** / **Hace mal tiempo** <trans en=\"(**The weather is good** / **The weather is bad**)\" ar=\"(**الطقس جيد** / **الطقس سيء**)\" uk=\"(**Погода хороша** / **Погода погана**)\" fr=\"(**Il fait beau** / **Il fait mauvais**)\"/>
+
+    También usamos verbos específicos como **llover** (llueve) o **nevar** (nieva). <trans en=\"(We also use specific verbs like **llover** (it rains) or **nevar** (it snows).)\" ar=\"(نستخدم أيضًا أفعالًا محددة مثل **llover** (تمطر) أو **nevar** (تتساقط الثلوج).)\" uk=\"(Ми також використовуємо спеціальні дієслова, наприклад **llover** (іде дощ) або **nevar** (іде сніг).)\" fr=\"(Nous utilisons également des verbes spécifiques comme **llover** (il pleut) ou **nevar** (il neige).)\"/>
+
+## Adjetivos de clima <trans en=\"(climate adjectives)\" ar=\"(الصفات المناخية)\" uk=\"(кліматичні прикметники)\" fr=\"(adjectifs climatiques)\"/>
+    - Un día **frío** / **caliente** <trans en=\"(A **cold** / **hot** day)\" ar=\"(يوم **بارد** / **حار**)\" uk=\"(**Холодний** / **спекотний** день)\" fr=\"(Une journée **froide** / **chaude**)\"/>
+    - El clima **bueno** / **malo** <trans en=\"(The weather **good** / **bad**)\" ar=\"(الطقس ** جيد ** / ** سيء **)\" uk=\"(Погода **хороша** / **погана**)\" fr=\"(Le temps **bon** / **mauvais**)\"/>
+    - La temperatura **alta** / **baja** <trans en=\"(**high** / **low** temperature)\" ar=\"(**درجة حرارة عالية** / **منخفضة**)\" uk=\"(**висока** / **низька** температура)\" fr=\"(Température **élevée** / **basse**)\"/>
+    - El cielo **nublado** / **despejado** <trans en=\"(The sky **cloudy** / **clear**)\" ar=\"(السماء ** غائمة ** / ** صافية **)\" uk=\"(Небо **хмарне** / **ясне**)\" fr=\"(Le ciel **nuageux** / **clair**)\"/>
+
+## Adverbios de frecuencia <trans en=\"(Adverbs of frequency)\" ar=\"(ظروف التردد)\" uk=\"(Прислівники частоти)\" fr=\"(Adverbes de fréquence)\"/>
+    - **Siempre** hace calor en verano. <trans en=\"(It is **always** hot in summer.)\" ar=\"(الجو **دائما** حار في الصيف.)\" uk=\"(Влітку **завжди** жарко.)\" fr=\"(Il fait **toujours** chaud en été.)\"/>
+    - **A veces** llueve en primavera. <trans en=\"(**Sometimes** it rains in spring.)\" ar=\"(**أحيانًا** تمطر في الربيع.)\" uk=\"(**Іноді** весною йде дощ.)\" fr=\"(**Parfois** il pleut au printemps.)\"/>
+    - **Nunca** nieva aquí. <trans en=\"(It **never** snows here.)\" ar=\"(** لا تتساقط الثلوج هنا أبدًا.)\" uk=\"(Тут **ніколи** не випадає сніг.)\" fr=\"(Il ne neige **jamais** ici.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "___ calor hoy. <trans en=\"(___ hot today.)\" ar=\"(___ حار اليوم.)\" uk=\"(___ сьогодні гаряче.)\" fr=\"(___ il fait chaud aujourd'hui.)\"/>",
+        options: ["Hace", "Haces", "Hago"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "___ frío en invierno. <trans en=\"(___ cold in winter.)\" ar=\"(___ البرد في الشتاء.)\" uk=\"(___ холодно взимку.)\" fr=\"(___ froid en hiver.)\"/>",
+        options: ["Hace", "Hacen", "Hacemos"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Hoy ___ mucho. <trans en=\"(Today ___ a lot.)\" ar=\"(اليوم ___ الكثير.)\" uk=\"(Сьогодні ___ багато.)\" fr=\"(Aujourd'hui ___ beaucoup.)\"/>",
+        options: ["llueve", "llover", "llueven"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "En verano hace ___ en esta ciudad. <trans en=\"(In summer it is ___ in this city.)\" ar=\"(في الصيف يكون ___ في هذه المدينة.)\" uk=\"(Влітку в цьому місті ___.)\" fr=\"(En été, il fait ___ dans cette ville.)\"/>",
+        options: ["calor", "lluvia", "viento"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "La noche es ___ en invierno. <trans en=\"(The night is ___ in winter.)\" ar=\"(الليل ___ في الشتاء.)\" uk=\"(Взимку ніч ___.)\" fr=\"(La nuit est ___ en hiver.)\"/>",
+        options: ["fría", "frío", "caliente"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "En verano ___ hace calor. <trans en=\"(In summer ___ it is hot.)\" ar=\"(في الصيف ___ الجو حار.)\" uk=\"(Влітку ___ жарко.)\" fr=\"(En été ___ il fait chaud.)\"/>",
+        options: ["siempre", "nunca", "a veces"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "El agua del río está ___ fría. <trans en=\"(The river water is ___ cold.)\" ar=\"(مياه النهر ___ باردة.)\" uk=\"(Вода в річці ___ холодна.)\" fr=\"(L'eau de la rivière est ___ froide.)\"/>",
+        options: ["muy", "mucho", "poco"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "El clima ___ bueno hoy. <trans en=\"(The weather ___ good today.)\" ar=\"(الطقس ___ جيد اليوم.)\" uk=\"(Сьогодні хороша погода ___.)\" fr=\"(Le temps ___ est beau aujourd'hui.)\"/>",
+        options: ["es", "está", "son"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "— ¿Qué tiempo hace hoy? — Hace buen ___ y hay sol. <trans en=\"(- How is the weather today? — It's nice ___ and there's sun.)\" ar=\"(- كيف حال  الطقس اليوم؟ — إنه لطيف ___ وهناك شمس.)\" uk=\"(- Яка сьогодні погода? — Гарно ___ і сонечко.)\" fr=\"(- Quel temps fait-il aujourd'hui? — Il fait beau ___ et il y a du soleil.)\"/>",
+        options: ["tiempo", "clima", "día"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "Una montaña es un lugar con temperatura ___ alta. <trans en=\"(A mountain is a place with a high ___ temperature.)\" ar=\"(الجبل هو مكان ذو درجة حرارة عالية ___.)\" uk=\"(Гора — це місце з високою ___ температурою.)\" fr=\"(Une montagne est un endroit où la température ___ est élevée.)\"/>",
+        options: ["más", "menos", "mucho"],
+        correctAnswer: 0
+      },
+    ]
+  },
+  {
+    id: "a2-vocab-hospital",
+    topic: "Hospital",
+    title: "En el Hospital",
+    level: "A2",
+    category: "Vocabulario",
+    description: "Vocabulario y expresiones útiles para describir síntomas y hablar en el médico u hospital. <trans en=\"(Useful vocabulary and expressions to describe symptoms and speak at the doctor or hospital.)\" ar=\"(مفردات وتعابير مفيدة لوصف الأعراض والتحدث عند الطبيب أو المستشفى.)\" uk=\"(Корисна лексика та вирази для опису симптомів і спілкування з лікарем або в лікарні.)\" fr=\"(Vocabulaire et expressions utiles pour décrire les symptômes et parler chez le médecin ou à l'hôpital.)\"/>",
+    emoji: "🏥",
+    color: "#EBF8FF",
+    vocabulary: [
+      { word: "Hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, emoji: "🏥", color: "#E2F3E7" },
+      { word: "Centro de salud", translations: { en: "health center", ar: "مركز صحي", uk: "оздоровчий центр", fr: "centre de santé" }, emoji: "🩺", color: "#E3EEF9" },
+      { word: "Médico", translations: { en: "Doctor", ar: "طبيب", uk: "лікар", fr: "Médecin" }, emoji: "👨‍⚕️", color: "#FCE8E8" },
+      { word: "Médica", translations: { en: "Medical", ar: "طبي", uk: "Медичний", fr: "Médical" }, emoji: "👩‍⚕️", color: "#F3E8FF" },
+      { word: "Enfermero", translations: { en: "Nurse", ar: "ممرضة", uk: "Медсестра", fr: "Infirmière" }, emoji: "🧑‍⚕️", color: "#FEFCBF" },
+      { word: "Enfermera", translations: { en: "Nurse", ar: "ممرضة", uk: "Медсестра", fr: "Infirmière" }, emoji: "👩‍⚕️", color: "#FFF4E5" },
+      { word: "Paciente", translations: { en: "Patient", ar: "مريض", uk: "пацієнт", fr: "Patient" }, emoji: "🧑‍🦽", color: "#E2F3E7" },
+      { word: "Cita", translations: { en: "Appointment", ar: "ميعاد", uk: "Призначення", fr: "Rendez-vous" }, emoji: "📅", color: "#E3EEF9" },
+      { word: "Urgencias", translations: { en: "Emergencies", ar: "حالات الطوارئ", uk: "Надзвичайні ситуації", fr: "Urgences" }, emoji: "🚨", color: "#FCE8E8" },
+      { word: "Sala", translations: { en: "Hall", ar: "قاعة", uk: "Зал", fr: "Salle" }, emoji: "🛋️", color: "#F3E8FF" },
+      { word: "Dolor", translations: { en: "Pain", ar: "ألم", uk: "Біль", fr: "Douleur" }, emoji: "🤕", color: "#FEFCBF" },
+      { word: "Fiebre", translations: { en: "Fever", ar: "حمى", uk: "Лихоманка", fr: "Fièvre" }, emoji: "🌡️", color: "#FFF4E5" },
+      { word: "Tos", translations: { en: "Cough", ar: "سعال", uk: "Кашель", fr: "Toux" }, emoji: "🗣️", color: "#E2F3E7" },
+      { word: "Cansancio", translations: { en: "Fatigue", ar: "تعب", uk: "Втома", fr: "Fatigue" }, emoji: "🥱", color: "#E3EEF9" },
+      { word: "Mareo", translations: { en: "Dizziness", ar: "دوخة", uk: "Запаморочення", fr: "Vertiges" }, emoji: "🤢", color: "#FCE8E8" },
+      { word: "Herida", translations: { en: "Wound", ar: "جرح", uk: "рана", fr: "Blesser" }, emoji: "🩹", color: "#F3E8FF" },
+      { word: "Infección", translations: { en: "Infection", ar: "عدوى", uk: "Інфекція", fr: "Infection" }, emoji: "🦠", color: "#FEFCBF" },
+      { word: "Enfermedad", translations: { en: "Disease", ar: "مرض", uk: "Захворювання", fr: "Maladie" }, emoji: "🤢", color: "#FFF4E5" },
+      { word: "Tratamiento", translations: { en: "Treatment", ar: "علاج", uk: "Лікування", fr: "Traitement" }, emoji: "💊", color: "#E2F3E7" },
+      { word: "Medicamento", translations: { en: "Medicine", ar: "الدواء", uk: "Ліки", fr: "Médecine" }, emoji: "💊", color: "#E3EEF9" },
+      { word: "Receta", translations: { en: "Recipe", ar: "وصفة", uk: "рецепт", fr: "Recette" }, emoji: "📝", color: "#FCE8E8" },
+      { word: "Pastillas", translations: { en: "Tablets", ar: "أقراص", uk: "Таблетки", fr: "Comprimés" }, emoji: "💊", color: "#F3E8FF" },
+      { word: "Jarabe", translations: { en: "Syrup", ar: "شراب", uk: "Сироп", fr: "Sirop" }, emoji: "🧪", color: "#FEFCBF" },
+      { word: "Descanso", translations: { en: "Rest", ar: "استراحة", uk: "Відпочинок", fr: "Repos" }, emoji: "🛌", color: "#FFF4E5" },
+      { word: "Agua", translations: { en: "Water", ar: "ماء", uk: "вода", fr: "Eau" }, emoji: "💧", color: "#E2F3E7" },
+      { word: "Comer", translations: { en: "Eat", ar: "يأكل", uk: "Їсти", fr: "Manger" }, emoji: "🍽️", color: "#E3EEF9" },
+      { word: "Dormir", translations: { en: "Sleep", ar: "ينام", uk: "сон", fr: "Dormir" }, emoji: "😴", color: "#FCE8E8" },
+      { word: "Mejorar", translations: { en: "Improve", ar: "يحسن", uk: "Поліпшити", fr: "Améliorer" }, emoji: "📈", color: "#F3E8FF" },
+      { word: "Empeorar", translations: { en: "Worsen", ar: "تفاقم", uk: "Погіршується", fr: "Empirer" }, emoji: "📉", color: "#FEFCBF" },
+      { word: "Bien", translations: { en: "Good", ar: "جيد", uk: "добре", fr: "Bien" }, emoji: "✅", color: "#FFF4E5" },
+      { word: "Mal", translations: { en: "Evil", ar: "شر", uk: "зло", fr: "Mal" }, emoji: "❌", color: "#E2F3E7" },
+      { word: "Nada", translations: { en: "Nothing", ar: "لا شئ", uk: "нічого", fr: "Rien" }, emoji: "📝", color: "#E3EEF9" },
+      { word: "Nunca", translations: { en: "Never", ar: "أبداً", uk: "Ніколи", fr: "Jamais" }, emoji: "❌", color: "#FCE8E8" },
+      { word: "Siempre", translations: { en: "Always", ar: "دائماً", uk: "Завжди", fr: "Toujours" }, emoji: "🔄", color: "#F3E8FF" },
+      { word: "A veces", translations: { en: "Sometimes", ar: "أحيانا", uk: "іноді", fr: "Parfois" }, emoji: "⏱️", color: "#FEFCBF" },
+      { word: "Hoy", translations: { en: "Today", ar: "اليوم", uk: "Сьогодні", fr: "Aujourd'hui" }, emoji: "📅", color: "#FFF4E5" },
+      { word: "Mañana", translations: { en: "Tomorrow", ar: "غداً", uk: "завтра", fr: "Demain" }, emoji: "🌅", color: "#E2F3E7" },
+      { word: "Ahora", translations: { en: "Now", ar: "الآن", uk: "Зараз", fr: "Maintenant" }, emoji: "⏱️", color: "#E3EEF9" },
+      { word: "Ayuda", translations: { en: "Aid", ar: "يساعد", uk: "Допомога", fr: "Aide" }, emoji: "🆘", color: "#FCE8E8" },
+    ],
+    content: `
+## Hablar de salud <trans en=\"(Talk about health)\" ar=\"(الحديث عن الصحة)\" uk=\"(Розмова про здоров'я)\" fr=\"(Parlons de santé)\"/>
+    Para expresar problemas de salud, usamos principalmente dos estructuras: <trans en=\"(To express health problems, we mainly use two structures:)\" ar=\"(للتعبير عن المشاكل الصحية، نستخدم بشكل أساسي بنيتين:)\" uk=\"(Для вираження проблем зі здоров’ям ми в основному використовуємо дві структури:)\" fr=\"(Pour exprimer les problèmes de santé, nous utilisons principalement deux structures :)\"/>
+    1. **Tener + sustantivo**: <trans en=\"(1. **Have + noun**:)\" ar=\"(1. **لديك + اسم**:)\" uk=\"(1. **Є + іменник**:)\" fr=\"(1. **Avoir + nom** :)\"/>
+    - Tengo fiebre. <trans en=\"(I have a fever.)\" ar=\"(لدى حمى .)\" uk=\"(у мене гарячка.)\" fr=\"(J'ai de la fièvre.)\"/>
+    - Tengo tos. <trans en=\"(I have a cough.)\" ar=\"(لدي سعال.)\" uk=\"(у мене кашель.)\" fr=\"(Je tousse.)\"/>
+    - Tengo cansancio. <trans en=\"(I'm tired.)\" ar=\"(أنا متعب.)\" uk=\"(я втомився)\" fr=\"(Je suis fatigué.)\"/>
+    - Tengo una cita. <trans en=\"(I have an appointment.)\" ar=\"(لدي موعد.)\" uk=\"(у мене зустріч)\" fr=\"(J'ai un rendez-vous.)\"/>
+    - Tengo una infección. <trans en=\"(I have an infection.)\" ar=\"(لدي عدوى.)\" uk=\"(У мене інфекція.)\" fr=\"(J'ai une infection.)\"/>
+
+    2. **Doler + sustantivo**: <trans en=\"(2. **Hurt + noun**:)\" ar=\"(2. **الأذى + اسم**:)\" uk=\"(2. **Hurt + іменник**:)\" fr=\"(2. **Blessé + nom** :)\"/>
+    - Me duele la cabeza. <trans en=\"(My head hurts.)\" ar=\"(رأسي يؤلمني.)\" uk=\"(Голова болить.)\" fr=\"(J'ai mal à la tête.)\"/>
+    - Te duele la espalda. <trans en=\"(Your back hurts.)\" ar=\"(ظهرك يؤلمك.)\" uk=\"(Болить спина.)\" fr=\"(Vous avez mal au dos.)\"/>
+    - Le duele el estómago. <trans en=\"(His stomach hurts.)\" ar=\"(معدته تؤلمه.)\" uk=\"(У нього болить живіт.)\" fr=\"(Il a mal au ventre.)\"/>
+    - Nos duele el cuerpo. <trans en=\"(Our bodies hurt.)\" ar=\"(أجسادنا تؤلمنا.)\" uk=\"(Наші тіла болять.)\" fr=\"(Nos corps nous font mal.)\"/>
+
+## Consejos médicos <trans en=\"(Medical advice)\" ar=\"(نصيحة طبية)\" uk=\"(Медична консультація)\" fr=\"(Conseil médical)\"/>
+    - Tiene que **descansar**. <trans en=\"(He has to **rest**.)\" ar=\"(عليه أن **يرتاح**.)\" uk=\"(Він повинен **відпочити**.)\" fr=\"(Il doit se **reposer**.)\"/>
+    - Tiene que **beber agua**. <trans en=\"(You have to **drink water**.)\" ar=\"(عليك **شرب الماء**.)\" uk=\"(Ви повинні **пити воду**.)\" fr=\"(Vous devez **boire de l'eau**.)\"/>
+    - No tiene que **trabajar hoy**. <trans en=\"(You don't have to **work today**.)\" ar=\"(ليس عليك **العمل اليوم**.)\" uk=\"(Вам не потрібно **працювати сьогодні**.)\" fr=\"(Vous n'êtes pas obligé de **travailler aujourd'hui**.)\"/>
+    - Tiene que tomar el **medicamento** con **receta**. <trans en=\"(You have to take the **medication** with a **prescription**.)\" ar=\"(عليك أن تتناول **الدواء** بوصفة طبية**.)\" uk=\"(Ви повинні приймати **ліки** за **рецептом**.)\" fr=\"(Vous devez prendre le **médicament** avec une **ordonnance**.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Yo ___ fiebre hoy. <trans en=\"(I ___ fever today.)\" ar=\"(أنا ___ حمى اليوم.)\" uk=\"(Я ___ лихоманка сьогодні.)\" fr=\"(J'ai ___ de la fièvre aujourd'hui.)\"/>",
+        options: ["tengo", "tienes", "tiene"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "A mí me ___ la cabeza. <trans en=\"(I _____ my head.)\" ar=\"(أنا _____ رأسي.)\" uk=\"(Я _____ свою голову.)\" fr=\"(Je _____ ma tête.)\"/>",
+        options: ["duele", "duelen", "doler"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Nosotros ___ cansancio hoy. <trans en=\"(We ___ tired today.)\" ar=\"(نحن ___ متعبون اليوم.)\" uk=\"(Ми ___ сьогодні втомилися.)\" fr=\"(Nous ___ fatigués aujourd'hui.)\"/>",
+        options: ["tenemos", "tenéis", "tienen"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "No tengo ___ de fiebre. <trans en=\"(I don't have a fever.)\" ar=\"(ليس لدي حمى.)\" uk=\"(У мене немає температури.)\" fr=\"(Je n'ai pas de fièvre.)\"/>",
+        options: ["nada", "nadie", "alguien"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "Yo ___ tomo medicamento sin receta. <trans en=\"(I ___ take medication without a prescription.)\" ar=\"(أنا ___ أتناول الدواء بدون وصفة طبية.)\" uk=\"(Я ___ приймаю ліки без рецепта.)\" fr=\"(Je ___ prends des médicaments sans ordonnance.)\"/>",
+        options: ["nunca", "siempre", "hoy"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "Con el descanso y el jarabe, yo ___ rápido. <trans en=\"(With the rest and the syrup, I ___ quickly.)\" ar=\"(مع الباقي والشراب، ___ بسرعة.)\" uk=\"(З рештою та сиропом я ___ швидко.)\" fr=\"(Avec le reste et le sirop, je ___ vite.)\"/>",
+        options: ["mejoro", "empeoro", "duermo"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "Un médico trabaja en el ___. <trans en=\"(A doctor works in the ___.)\" ar=\"(طبيب يعمل في ___.)\" uk=\"(В ___ працює лікар.)\" fr=\"(Un médecin travaille dans le ___.)\"/>",
+        options: ["hospital", "colegio", "campo"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "— ¿Qué te pasa? — Me ___ la espalda. <trans en=\"(- What's the matter? — I ___ my back.)\" ar=\"(- ماذا جرى؟ - أنا ___ ظهري.)\" uk=\"(- Що сталося? — Я ___ спину.)\" fr=\"(- Quel est le problème? — Je ___ mon dos.)\"/>",
+        options: ["duele", "tengo", "gusta"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "El médico dice que tiene que ___ y beber agua. <trans en=\"(The doctor says you have to ___ and drink water.)\" ar=\"(يقول الطبيب أنه عليك ___ وشرب الماء.)\" uk=\"(Лікар каже, що вам потрібно ___ і пити воду.)\" fr=\"(Le médecin dit que vous devez ___ et boire de l'eau.)\"/>",
+        options: ["descansar", "trabajar", "correr"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "Tengo una ___ con el médico hoy a las cinco. <trans en=\"(I have a ___ with the doctor today at five.)\" ar=\"(لدي ___ مع الطبيب اليوم في الخامسة.)\" uk=\"(У мене ___ з лікарем сьогодні о п'ятій.)\" fr=\"(J'ai un ___ avec le médecin aujourd'hui à cinq heures.)\"/>",
+        options: ["cita", "receta", "sala"],
+        correctAnswer: 0
+      },
+    ]
+  },
+  {
+    id: "a2-vocab-colegio",
+    topic: "Colegio",
+    title: "En el Colegio",
+    level: "A2",
+    category: "Vocabulario",
+    description: "Aprende vocabulario sobre el colegio, las asignaturas, el aula y los estudios. <trans en=\"(Learn vocabulary about school, subjects, the classroom and studies.)\" ar=\"(تعلم المفردات حول المدرسة، والموضوعات، والفصول الدراسية والدراسات.)\" uk=\"(Вивчайте словниковий запас про школу, предмети, клас і навчання.)\" fr=\"(Apprenez le vocabulaire sur l'école, les matières, la classe et les études.)\"/>",
+    emoji: "🏫",
+    color: "#FFF5F5",
+    vocabulary: [
+      { word: "Colegio", translations: { en: "School", ar: "مدرسة", uk: "Школа", fr: "École" }, emoji: "🏫", color: "#E2F3E7" },
+      { word: "Escuela", translations: { en: "School", ar: "مدرسة", uk: "Школа", fr: "École" }, emoji: "🏫", color: "#E3EEF9" },
+      { word: "Instituto", translations: { en: "Institute", ar: "معهد", uk: "Інститут", fr: "Institut" }, emoji: "🏫", color: "#FCE8E8" },
+      { word: "Clase", translations: { en: "Class", ar: "فصل", uk: "Клас", fr: "Classe" }, emoji: "👩‍🏫", color: "#F3E8FF" },
+      { word: "Aula", translations: { en: "Classroom", ar: "الفصل الدراسي", uk: "Класна кімната", fr: "Classe" }, emoji: "🏫", color: "#FEFCBF" },
+      { word: "Profesor", translations: { en: "Teacher", ar: "مدرس", uk: "вчитель", fr: "Professeur" }, emoji: "👨‍🏫", color: "#FFF4E5" },
+      { word: "Profesora", translations: { en: "Teacher", ar: "مدرس", uk: "вчитель", fr: "Professeur" }, emoji: "👩‍🏫", color: "#E2F3E7" },
+      { word: "Estudiante", translations: { en: "Student", ar: "طالب", uk: "студент", fr: "Étudiant" }, emoji: "🧑‍🎓", color: "#E3EEF9" },
+      { word: "Alumnos", translations: { en: "Students", ar: "طلاب", uk: "Студенти", fr: "Étudiants" }, emoji: "🧑‍🎓🧑‍🎓", color: "#FCE8E8" },
+      { word: "Compañeros", translations: { en: "Companions", ar: "الصحابة", uk: "Компаньйони", fr: "Compagnons" }, emoji: "🧑‍🤝‍🧑", color: "#F3E8FF" },
+      { word: "Director", translations: { en: "Director", ar: "مخرج", uk: "Директор", fr: "Directeur" }, emoji: "👨‍💼", color: "#FEFCBF" },
+      { word: "Asignatura", translations: { en: "Subject", ar: "موضوع", uk: "Тема", fr: "Sujet" }, emoji: "📚", color: "#FFF4E5" },
+      { word: "Examen", translations: { en: "Exam", ar: "امتحان", uk: "екзамен", fr: "Examen" }, emoji: "📝", color: "#E2F3E7" },
+      { word: "Prueba", translations: { en: "Proof", ar: "دليل", uk: "доказ", fr: "Preuve" }, emoji: "📝", color: "#E3EEF9" },
+      { word: "Nota", translations: { en: "Note", ar: "ملحوظة", uk: "Примітка", fr: "Note" }, emoji: "💯", color: "#FCE8E8" },
+      { word: "Aprobado", translations: { en: "Approved", ar: "موافقة", uk: "Затверджено", fr: "Approuvé" }, emoji: "✅", color: "#F3E8FF" },
+      { word: "Suspendido", translations: { en: "Suspended", ar: "معلق", uk: "Підвішено", fr: "Suspendu" }, emoji: "❌", color: "#FEFCBF" },
+      { word: "Libro", translations: { en: "Book", ar: "كتاب", uk: "книга", fr: "Livre" }, emoji: "📖", color: "#FFF4E5" },
+      { word: "Cuaderno", translations: { en: "Notebook", ar: "دفتر الملاحظات", uk: "Ноутбук", fr: "Carnet de notes" }, emoji: "📓", color: "#E2F3E7" },
+      { word: "Lápiz", translations: { en: "Pencil", ar: "قلم رصاص", uk: "Олівець", fr: "Crayon" }, emoji: "✏️", color: "#E3EEF9" },
+      { word: "Bolígrafo", translations: { en: "Pen", ar: "قلم", uk: "Перо", fr: "Stylo" }, emoji: "🖊️", color: "#FCE8E8" },
+      { word: "Mochila", translations: { en: "Backpack", ar: "حقيبة الظهر", uk: "Рюкзак", fr: "Sac à dos" }, emoji: "🎒", color: "#F3E8FF" },
+      { word: "Tarea", translations: { en: "Task", ar: "مهمة", uk: "завдання", fr: "Tâche" }, emoji: "✍️", color: "#FEFCBF" },
+      { word: "Deberes", translations: { en: "Homework", ar: "العمل في المنزل", uk: "Домашнє завдання", fr: "Devoirs" }, emoji: "✍️", color: "#FFF4E5" },
+      { word: "Estudiar", translations: { en: "Study", ar: "يذاكر", uk: "дослідження", fr: "Étude" }, emoji: "📚", color: "#E2F3E7" },
+      { word: "Aprender", translations: { en: "Learn", ar: "يتعلم", uk: "вчитися", fr: "Apprendre" }, emoji: "🧠", color: "#E3EEF9" },
+      { word: "Explicar", translations: { en: "Explain", ar: "يشرح", uk: "Поясніть", fr: "Expliquer" }, emoji: "🗣️", color: "#FCE8E8" },
+      { word: "Preguntar", translations: { en: "Ask", ar: "بسأل", uk: "Запитуйте", fr: "Demander" }, emoji: "❓", color: "#F3E8FF" },
+      { word: "Responder", translations: { en: "Reply", ar: "رد", uk: "Відповісти", fr: "Répondre" }, emoji: "💬", color: "#FEFCBF" },
+      { word: "Escuchar", translations: { en: "Hear", ar: "يسمع", uk: "Почуйте", fr: "Entendre" }, emoji: "👂", color: "#FFF4E5" },
+      { word: "Leer", translations: { en: "Read", ar: "يقرأ", uk: "Прочитайте", fr: "Lire" }, emoji: "📖", color: "#E2F3E7" },
+      { word: "Escribir", translations: { en: "Write", ar: "يكتب", uk: "Напишіть", fr: "Écrire" }, emoji: "✍️", color: "#E3EEF9" },
+      { word: "Repetir", translations: { en: "Repeat", ar: "يكرر", uk: "Повторіть", fr: "Répéter" }, emoji: "🔁", color: "#FCE8E8" },
+      { word: "Empezar", translations: { en: "Begin", ar: "يبدأ", uk: "Почніть", fr: "Commencer" }, emoji: "🏁", color: "#F3E8FF" },
+      { word: "Terminar", translations: { en: "Finish", ar: "ينهي", uk: "Закінчити", fr: "Finition" }, emoji: "🔚", color: "#FEFCBF" },
+      { word: "Horario", translations: { en: "Schedule", ar: "جدول", uk: "розклад", fr: "Calendrier" }, emoji: "📅", color: "#FFF4E5" },
+      { word: "Mañana", translations: { en: "Tomorrow", ar: "غداً", uk: "завтра", fr: "Demain" }, emoji: "🌅", color: "#E2F3E7" },
+      { word: "Tarde", translations: { en: "Late", ar: "متأخر", uk: "Пізно", fr: "En retard" }, emoji: "📝", color: "#E3EEF9" },
+      { word: "Ayuda", translations: { en: "Aid", ar: "يساعد", uk: "Допомога", fr: "Aide" }, emoji: "🆘", color: "#FCE8E8" },
+    ],
+    content: `
+## La vida en el colegio <trans en=\"(Life at school)\" ar=\"(الحياة في المدرسة)\" uk=\"(Життя в школі)\" fr=\"(La vie à l'école)\"/>
+    En el colegio realizamos diferentes actividades de aprendizaje: <trans en=\"(At school we carry out different learning activities:)\" ar=\"(نقوم في المدرسة بتنفيذ أنشطة تعليمية مختلفة:)\" uk=\"(У школі ми проводимо різні навчальні заходи:)\" fr=\"(À l'école, nous réalisons différentes activités d'apprentissage :)\"/>
+    - Los **estudiantes** o **alumnos** escuchan en el **aula** o **clase**. <trans en=\"(The **students** or **pupils** listen in the **classroom** or **class**.)\" ar=\"(يستمع **الطلاب** أو **التلاميذ** في **الفصل الدراسي** أو **الفصل**.)\" uk=\"(**Студенти** або **учні** слухають у **класі** або **класі**.)\" fr=\"(Les **étudiants** ou **élèves** écoutent dans la **classe** ou la **classe**.)\"/>
+    - El **profesor** o la **profesora** explica la **asignatura**. <trans en=\"(The **teacher** explains the **subject**.)\" ar=\"(**المعلم** يشرح **الموضوع**.)\" uk=\"(**Вчитель** пояснює **предмет**.)\" fr=\"(Le **professeur** explique le **sujet**.)\"/>
+    - Los estudiantes hacen **deberes** o **tareas** en casa. <trans en=\"(Students do **homework** or **tasks** at home.)\" ar=\"(يقوم الطلاب بـ **الواجبات المنزلية** أو **المهام** في المنزل.)\" uk=\"(Учні виконують **домашнє завдання** або **завдання** вдома.)\" fr=\"(Les élèves font des **devoirs** ou des **tâches** à la maison.)\"/>
+    - Para pasar el curso, hay que hacer un **examen** o **prueba** y obtener un **aprobado**. <trans en=\"(To pass the course, you must take an **exam** or **test** and obtain a **pass**.)\" ar=\"(لاجتياز الدورة، يجب عليك إجراء **امتحان** أو **اختبار** والحصول على **النجاح**.)\" uk=\"(Щоб пройти курс, необхідно скласти **іспит** або **тест** і отримати **перепустку**.)\" fr=\"(Pour réussir le cours, vous devez passer un **examen** ou un **test** et obtenir un **réussite**.)\"/>
+
+## Obligación y Necesidad <trans en=\"(Obligation and Necessity)\" ar=\"(الإلزام والضرورة)\" uk=\"(Обов'язок і необхідність)\" fr=\"(Obligation et nécessité)\"/>
+    Usamos la estructura **Tener que + infinitivo** para expresar obligación: <trans en=\"(We use the structure **Tener que + infinitive** to express obligation:)\" ar=\"(نستخدم البنية **Tener que + صيغة المصدر** للتعبير عن الالتزام:)\" uk=\"(Ми використовуємо структуру **Tener que + інфінітив** для вираження зобов’язання:)\" fr=\"(On utilise la structure **Tener que + infinitif** pour exprimer l'obligation :)\"/>
+    - Yo **tengo que** estudiar. <trans en=\"(I **have to** study.)\" ar=\"(أنا ** لا بد لي من ** الدراسة.)\" uk=\"(Я **повинен** вчитися.)\" fr=\"(Je **dois** étudier.)\"/>
+    - Tú **tienes que** hacer los deberes. <trans en=\"(You **have** to do your homework.)\" ar=\"(لديك ** لديك ** لأداء واجباتك المنزلية.)\" uk=\"(Ви **повинні** зробити домашнє завдання.)\" fr=\"(Vous **devez** faire vos devoirs.)\"/>
+    - Nosotros **tenemos que** ir al colegio. <trans en=\"(We **have** to go to school.)\" ar=\"(علينا **علينا** الذهاب إلى المدرسة.)\" uk=\"(Ми **повинні** йти до школи.)\" fr=\"(Nous **devons** aller à l'école.)\"/>
+
+    Para expresar falta de obligación, usamos **No tener que + infinitivo**: <trans en=\"(To express lack of obligation, we use **Not have to + infinitive**:)\" ar=\"(للتعبير عن عدم الالتزام، نستخدم **Not need to + صيغة المصدر**:)\" uk=\"(Щоб виразити відсутність зобов’язань, ми використовуємо **Not have to + інфінітив**:)\" fr=\"(Pour exprimer l'absence d'obligation, nous utilisons **Pas besoin de + infinitif** :)\"/>
+    - Hoy **no tengo que** ir al colegio. <trans en=\"(Today I **don't have** to go to school.)\" ar=\"(اليوم **ليس عليّ** الذهاب إلى المدرسة.)\" uk=\"(Сьогодні мені **нема** йти до школи.)\" fr=\"(Aujourd'hui, je **n'ai **pas** d'aller à l'école.)\"/>
+    - Ella **no tiene que** hacer examen hoy. <trans en=\"(She **doesn't have to** take a test today.)\" ar=\"(هي **ليست مضطرة** إلى إجراء اختبار اليوم.)\" uk=\"(Їй **не потрібно** складати тест сьогодні.)\" fr=\"(Elle **n'est pas obligé** de passer un test aujourd'hui.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Tú ___ hacer los deberes en casa. <trans en=\"(You ___ do your homework at home.)\" ar=\"(أنت ___ تقوم بأداء واجباتك المنزلية في المنزل.)\" uk=\"(Ви ___ виконуєте домашнє завдання вдома.)\" fr=\"(Vous ___ faites vos devoirs à la maison.)\"/>",
+        options: ["tienes que", "tengo que", "tiene que"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "Nosotros ___ aprender español. <trans en=\"(We ___ learn Spanish.)\" ar=\"(نحن ___ نتعلم اللغة الإسبانية.)\" uk=\"(Ми ___ вивчаємо іспанську мову.)\" fr=\"(Nous ___ apprenons l’espagnol.)\"/>",
+        options: ["tenemos que", "tenéis que", "tienen que"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Yo ___ por la mañana en el aula. <trans en=\"(I ___ in the morning in the classroom.)\" ar=\"(أنا ___ في الصباح في الفصل الدراسي.)\" uk=\"(Я ___ вранці в класі.)\" fr=\"(Je ___ le matin en classe.)\"/>",
+        options: ["estudio", "estudias", "estudia"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "Yo ___ español muy rápido. <trans en=\"(I ___ Spanish very quickly.)\" ar=\"(أنا ___ الإسبانية بسرعة كبيرة.)\" uk=\"(Я ___ іспанську дуже швидко.)\" fr=\"(Je ___ espagnol très rapidement.)\"/>",
+        options: ["aprendo", "aprendes", "aprende"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "El profesor ___ la asignatura en el aula. <trans en=\"(The teacher ___ the subject in the classroom.)\" ar=\"(المعلم ___ الموضوع في الفصل الدراسي.)\" uk=\"(Учитель ___ предмет на уроці.)\" fr=\"(L'enseignant ___ la matière en classe.)\"/>",
+        options: ["explica", "aprende", "escucha"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "El estudiante ___ las explicaciones. <trans en=\"(The student ___ the explanations.)\" ar=\"(الطالب ___ الشروحات.)\" uk=\"(Учень ___ пояснення.)\" fr=\"(L'élève ___ les explications.)\"/>",
+        options: ["escucha", "enseña", "explica"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "El cuaderno es para ___ notas. <trans en=\"(The notebook is for ___ notes.)\" ar=\"(دفتر الملاحظات مخصص لـ ___ الملاحظات.)\" uk=\"(Зошит для ___ записів.)\" fr=\"(Le cahier est destiné à ___ notes.)\"/>",
+        options: ["escribir", "beber", "dormir"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "Hoy es domingo, así que no ___ ir al colegio. <trans en=\"(Today is Sunday, so I don't ___ go to school.)\" ar=\"(اليوم هو الأحد، لذلك لا ___ أذهب إلى المدرسة.)\" uk=\"(Сьогодні неділя, тому я не ___ йду до школи.)\" fr=\"(Aujourd'hui, c'est dimanche, donc je ne vais pas ___ à l'école.)\"/>",
+        options: ["tengo que", "tienes que", "tiene que"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "Tengo que llevar mis libros en la ___. <trans en=\"(I have to carry my books in the ___.)\" ar=\"(لا بد لي من حمل كتبي في ___.)\" uk=\"(Я повинен нести свої книги в ___.)\" fr=\"(Je dois transporter mes livres dans le ___.)\"/>",
+        options: ["mochila", "receta", "farmacia"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "Saqué una nota excelente, he ___ el examen. <trans en=\"(I got an excellent grade, I ___ the exam.)\" ar=\"(لقد حصلت على درجة ممتازة، لقد ___ الامتحان.)\" uk=\"(Я отримав відмінну оцінку, я ___ іспит.)\" fr=\"(J'ai eu une excellente note, je ___ l'examen.)\"/>",
+        options: ["aprobado", "suspendido", "abierto"],
+        correctAnswer: 0
+      },
+    ]
+  },
+  {
+    id: "a2-vocab-rutina",
+    topic: "Rutina Diaria",
+    title: "La Rutina Diaria",
+    level: "A2",
+    category: "Vocabulario",
+    description: "Vocabulario y verbos reflexivos para describir tus actividades cotidianas y horarios. <trans en=\"(Vocabulary and reflective verbs to describe your daily activities and schedules.)\" ar=\"(المفردات والأفعال الانعكاسية لوصف أنشطتك اليومية وجداولك.)\" uk=\"(Словниковий запас і рефлексивні дієслова для опису вашої щоденної діяльності та розкладу.)\" fr=\"(Vocabulaire et verbes de réflexion pour décrire vos activités et horaires quotidiens.)\"/>",
+    emoji: "⏰",
+    color: "#F3E8FF",
+    vocabulary: [
+      { word: "Rutina", translations: { en: "Routine", ar: "روتين", uk: "Рутина", fr: "Routine" }, emoji: "🔄", color: "#E2F3E7" },
+      { word: "Día", translations: { en: "Day", ar: "يوم", uk: "День", fr: "Jour" }, emoji: "☀️", color: "#E3EEF9" },
+      { word: "Mañana", translations: { en: "Tomorrow", ar: "غداً", uk: "завтра", fr: "Demain" }, emoji: "🌅", color: "#FCE8E8" },
+      { word: "Tarde", translations: { en: "Late", ar: "متأخر", uk: "Пізно", fr: "En retard" }, emoji: "📝", color: "#F3E8FF" },
+      { word: "Noche", translations: { en: "Evening", ar: "مساء", uk: "вечір", fr: "Soirée" }, emoji: "🌙", color: "#FEFCBF" },
+      { word: "Despertarse", translations: { en: "Wake up", ar: "استيقظ", uk: "Прокинься", fr: "Réveillez-vous" }, emoji: "👀", color: "#FFF4E5" },
+      { word: "Levantarse", translations: { en: "Get up", ar: "استيقظ", uk: "Вставай", fr: "Se lever" }, emoji: "🛌", color: "#E2F3E7" },
+      { word: "Ducharse", translations: { en: "Shower", ar: "دش", uk: "Душ", fr: "Douche" }, emoji: "🚿", color: "#E3EEF9" },
+      { word: "Vestirse", translations: { en: "Get dressed", ar: "أرتدي ملابسي", uk: "Одягайся", fr: "S'habiller" }, emoji: "👕", color: "#FCE8E8" },
+      { word: "Desayunar", translations: { en: "Have breakfast", ar: "تناول وجبة الإفطار", uk: "Снідати", fr: "Prendre le petit-déjeuner" }, emoji: "☕", color: "#F3E8FF" },
+      { word: "Comer", translations: { en: "Eat", ar: "يأكل", uk: "Їсти", fr: "Manger" }, emoji: "🍽️", color: "#FEFCBF" },
+      { word: "Cenar", translations: { en: "Have dinner", ar: "تناول العشاء", uk: "Вечеряйте", fr: "Dîner" }, emoji: "🍲", color: "#FFF4E5" },
+      { word: "Trabajar", translations: { en: "Work", ar: "عمل", uk: "Робота", fr: "Travail" }, emoji: "📝", color: "#E2F3E7" },
+      { word: "Estudiar", translations: { en: "Study", ar: "يذاكر", uk: "дослідження", fr: "Étude" }, emoji: "📚", color: "#E3EEF9" },
+      { word: "Descansar", translations: { en: "Rest", ar: "استراحة", uk: "Відпочинок", fr: "Repos" }, emoji: "📝", color: "#FCE8E8" },
+      { word: "Dormir", translations: { en: "Sleep", ar: "ينام", uk: "сон", fr: "Dormir" }, emoji: "😴", color: "#F3E8FF" },
+      { word: "Casa", translations: { en: "Home", ar: "بيت", uk: "додому", fr: "Maison" }, emoji: "🏠", color: "#FEFCBF" },
+      { word: "Colegio", translations: { en: "School", ar: "مدرسة", uk: "Школа", fr: "École" }, emoji: "🏫", color: "#FFF4E5" },
+      { word: "Trabajo", translations: { en: "Job", ar: "وظيفة", uk: "Робота", fr: "Emploi" }, emoji: "💼", color: "#E2F3E7" },
+      { word: "Calle", translations: { en: "Street", ar: "شارع", uk: "вул", fr: "Rue" }, emoji: "🛣️", color: "#E3EEF9" },
+      { word: "Siempre", translations: { en: "Always", ar: "دائماً", uk: "Завжди", fr: "Toujours" }, emoji: "🔄", color: "#FCE8E8" },
+      { word: "Casi siempre", translations: { en: "Almost always", ar: "دائما تقريبا", uk: "Майже завжди", fr: "Presque toujours" }, emoji: "🔄", color: "#F3E8FF" },
+      { word: "A veces", translations: { en: "Sometimes", ar: "أحيانا", uk: "іноді", fr: "Parfois" }, emoji: "⏱️", color: "#FEFCBF" },
+      { word: "Casi nunca", translations: { en: "Hardly ever", ar: "نادرا من أي وقت مضى", uk: "Навряд чи коли-небудь", fr: "Rarement" }, emoji: "⏱️", color: "#FFF4E5" },
+      { word: "Nunca", translations: { en: "Never", ar: "أبداً", uk: "Ніколи", fr: "Jamais" }, emoji: "❌", color: "#E2F3E7" },
+      { word: "Temprano", translations: { en: "Early", ar: "مبكر", uk: "Рано", fr: "Tôt" }, emoji: "🌅", color: "#E3EEF9" },
+      { word: "Tarde", translations: { en: "Late", ar: "متأخر", uk: "Пізно", fr: "En retard" }, emoji: "📝", color: "#FCE8E8" },
+      { word: "Primero", translations: { en: "First", ar: "أولاً", uk: "перше", fr: "D'abord" }, emoji: "1️⃣", color: "#F3E8FF" },
+      { word: "Después", translations: { en: "After", ar: "بعد", uk: "після", fr: "Après" }, emoji: "➡️", color: "#FEFCBF" },
+      { word: "Luego", translations: { en: "Then", ar: "ثم", uk: "Потім", fr: "Alors" }, emoji: "➡️", color: "#FFF4E5" },
+      { word: "Antes", translations: { en: "Before", ar: "قبل", uk: "Раніше", fr: "Avant" }, emoji: "⬅️", color: "#E2F3E7" },
+      { word: "Todos los días", translations: { en: "Every day", ar: "كل يوم", uk: "Кожен день", fr: "Tous les jours" }, emoji: "📅", color: "#E3EEF9" },
+      { word: "Entre semana", translations: { en: "midweek", ar: "منتصف الاسبوع", uk: "середина тижня", fr: "milieu de la semaine" }, emoji: "📅", color: "#FCE8E8" },
+      { word: "Fin de semana", translations: { en: "Weekend", ar: "عطلة نهاية الأسبوع", uk: "Вихідні", fr: "Fin de semaine" }, emoji: "🎉", color: "#F3E8FF" },
+      { word: "Hora", translations: { en: "Hour", ar: "ساعة", uk: "годину", fr: "Heure" }, emoji: "🕒", color: "#FEFCBF" },
+      { word: "Tiempo", translations: { en: "Time", ar: "وقت", uk: "час", fr: "Temps" }, emoji: "⏰", color: "#FFF4E5" },
+      { word: "Actividad", translations: { en: "Activity", ar: "نشاط", uk: "діяльність", fr: "Activité" }, emoji: "🏃", color: "#E2F3E7" },
+      { word: "Hábito", translations: { en: "Habit", ar: "عادة", uk: "звичка", fr: "Habitude" }, emoji: "🔄", color: "#E3EEF9" },
+    ],
+    content: `
+## Los verbos reflexivos de la rutina <trans en=\"(The reflexive verbs of routine)\" ar=\"(الأفعال الانعكاسية الروتينية)\" uk=\"(Зворотні дієслова розпорядку)\" fr=\"(Les verbes réfléchis de routine)\"/>
+    Muchos verbos de la rutina diaria son **pronominales** (se conjugan con pronombres reflexivos: *me, te, se, nos, os, se*): <trans en=\"(Many daily routine verbs are **pronominal** (they are conjugated with reflexive pronouns: *me, te, se, nos, os, se*):)\" ar=\"(العديد من الأفعال الروتينية اليومية هي **ضمير** (وهي مترافقة مع الضمائر الانعكاسية: *me, te, se, nos, os, se*):)\" uk=\"(Багато щоденних дієслів є **займенниковими** (вони сполучаються з поворотними займенниками: *me, te, se, nos, os, se*):)\" fr=\"(De nombreux verbes de routine quotidienne sont **pronominaux** (ils sont conjugués avec des pronoms réfléchis : *me, te, se, nos, os, se*) :)\"/>
+    - **Despertarse** (e -> ie): yo me despierto, tú te despiertas... <trans en=\"(**Wake up** (e -> ie): I wake up, you wake up...)\" ar=\"(**استيقظ** (ه -> أي): أستيقظ، أستيقظ أنت...)\" uk=\"(**Прокидайся** (e -> ie): я прокидаюся, ти прокидаєшся...)\" fr=\"(**Réveillez-vous** (e -> ie) : je me réveille, tu te réveilles...)\"/>
+    - **Levantarse**: yo me levanto, tú te levantas, él se levanta, nosotros nos levantamos, vosotros os levantáis, ellos se levantan. <trans en=\"(**Get up**: I get up, you get up, he gets up, we get up, you get up, they get up.)\" ar=\"(**استيقظ**: أنا أستيقظ، أنت تنهض، هو ينهض، نحن ننهض، أنت تنهض، هم ينهضون.)\" uk=\"(**Вставай**: Я встаю, ти встаєш, він встає, ми встаємо, ти встаєш, вони встають.)\" fr=\"(**Lève-toi** : Je me lève, tu te lèves, il se lève, on se lève, tu te lèves, ils se lèvent.)\"/>
+    - **Ducharse**: yo me ducho, tú te duchas... <trans en=\"(**Shower**: I take a shower, you take a shower...)\" ar=\"(**الاستحمام**: أنا أستحم، وأنت تستحم...)\" uk=\"(**Душ**: Я приймаю душ, ти приймай душ...)\" fr=\"(**Douche** : je prends une douche, tu prends une douche...)\"/>
+    - **Vestirse** (e -> i): yo me visto, tú te vistes... <trans en=\"(**Get dressed** (e -> i): I get dressed, you get dressed...)\" ar=\"(**ارتدي ملابسي** (e -> i): أنا أرتدي ملابسي، وأنت ترتدي ملابسك...)\" uk=\"(**Одягайся** (e -> i): я одягаюся, ти одягайся...)\" fr=\"(**Habille-toi** (e -> i) : je m'habille, tu t'habilles...)\"/>
+    - **Acostarse** (o -> ue): yo me acuesto, tú te acuestas... <trans en=\"(**Go to bed** (o -> ue): I go to bed, you go to bed...)\" ar=\"(**اذهب إلى السرير** (o -> ue): أذهب إلى السرير، اذهب إلى السرير...)\" uk=\"(**Лігай спати** (o -> ue): я лягаю спати, ти лягаєш...)\" fr=\"(**Va te coucher** (o -> ue) : je me couche, tu te couches...)\"/>
+
+## Organizar el tiempo y frecuencia <trans en=\"(Organize time and frequency)\" ar=\"(تنظيم الوقت والتكرار)\" uk=\"(Організуйте час і частоту)\" fr=\"(Organiser le temps et la fréquence)\"/>
+    Usamos adverbios de frecuencia para describir la regularidad de nuestros hábitos: <trans en=\"(We use adverbs of frequency to describe the regularity of our habits:)\" ar=\"(نستخدم ظروف التردد لوصف انتظام عاداتنا:)\" uk=\"(Ми використовуємо прислівники частоти, щоб описати регулярність наших звичок:)\" fr=\"(Nous utilisons des adverbes de fréquence pour décrire la régularité de nos habitudes :)\"/>
+    - **Siempre** / **Casi siempre** me levanto temprano. <trans en=\"(**Always** / **Almost always** I get up early.)\" ar=\"(**دائمًا** / **دائمًا تقريبًا** أستيقظ مبكرًا.)\" uk=\"(**Завжди** / **Майже завжди** Я встаю рано.)\" fr=\"(**Toujours** / **Presque toujours** Je me lève tôt.)\"/>
+    - **A veces** estudio por la tarde. <trans en=\"(**Sometimes** I study in the afternoon.)\" ar=\"(**أحيانًا** أدرس في فترة ما بعد الظهر.)\" uk=\"(**Іноді** я вчуся в другій половині дня.)\" fr=\"(**Parfois** J'étudie l'après-midi.)\"/>
+    - **Casi nunca** ceno tarde. <trans en=\"(I **almost never** have a late dinner.)\" ar=\"(أنا ** تقريبًا ** لا أتناول عشاءًا متأخرًا.)\" uk=\"(Я **майже ніколи** не вечеряю пізно.)\" fr=\"(Je ne dîne **presque jamais** tard.)\"/>
+    - **Nunca** duermo en el trabajo. <trans en=\"(I **NEVER** sleep at work.)\" ar=\"(أنا ** لا ** أنام في العمل.)\" uk=\"(Я **НІКОЛИ** не сплю на роботі.)\" fr=\"(Je ne dors **JAMAIS** au travail.)\"/>
+
+    Para ordenar las acciones usamos conectores temporales: <trans en=\"(To order the actions we use temporary connectors:)\" ar=\"(لترتيب الإجراءات نستخدم موصلات مؤقتة:)\" uk=\"(Для впорядкування дій ми використовуємо тимчасові конектори:)\" fr=\"(Pour ordonner les actions, nous utilisons des connecteurs temporaires :)\"/>
+    - **Primero** me ducho, **después** desayuno y **luego** voy al trabajo. <trans en=\"(**First** I shower, **then** I have breakfast and **then** I go to work.)\" ar=\"(**أولاً** أستحم، **ثم** أتناول الإفطار، و**ثم** أذهب إلى العمل.)\" uk=\"(**Спочатку** я приймаю душ, **потім** я снідаю, а **потім** я йду на роботу.)\" fr=\"(**D'abord** je me douche, **puis** je prends mon petit-déjeuner et **puis** je vais travailler.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Yo ___ temprano por la mañana. <trans en=\"(I ___ early in the morning.)\" ar=\"(أنا ___ في الصباح الباكر.)\" uk=\"(Я ___ рано вранці.)\" fr=\"(Je ___ tôt le matin.)\"/>",
+        options: ["me levanto", "te levantas", "se levanta"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "Tú ___ a las siete. <trans en=\"(You ___ at seven.)\" ar=\"(أنت ___ في السابعة.)\" uk=\"(Ти ___ о сьомій.)\" fr=\"(Vous ___ à sept heures.)\"/>",
+        options: ["te levantas", "me levanto", "se levanta"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Nosotros ___ a las ocho de la tarde. <trans en=\"(We ___ at eight in the afternoon.)\" ar=\"(نحن ___ الساعة الثامنة مساءً.)\" uk=\"(Ми ___ о восьмій вечора.)\" fr=\"(Nous ___ à huit heures de l'après-midi.)\"/>",
+        options: ["cenamos", "cenáis", "cenan"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "Yo ___ de noche y duermo de día. <trans en=\"(I ___ at night and sleep during the day.)\" ar=\"(أنا ___ في الليل وأنام أثناء النهار.)\" uk=\"(Я ___ вночі і сплю вдень.)\" fr=\"(Je ___ la nuit et je dors pendant la journée.)\"/>",
+        options: ["trabajo", "duermo", "como"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "Siempre ___ antes de ir a trabajar. <trans en=\"(Always ___ before going to work.)\" ar=\"(دائمًا ___ قبل الذهاب إلى العمل.)\" uk=\"(Завжди ___ перед виходом на роботу.)\" fr=\"(Toujours ___ avant d'aller travailler.)\"/>",
+        options: ["me ducho", "te duchas", "ducho"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "Yo ___ por la mañana y estudio por la tarde. <trans en=\"(I ___ in the morning and study in the afternoon.)\" ar=\"(أنا ___ في الصباح وأدرس في فترة ما بعد الظهر.)\" uk=\"(Я ___ вранці і вчуся вдень.)\" fr=\"(Je ___ le matin et j'étudie l'après-midi.)\"/>",
+        options: ["trabajo", "estudio", "duermo"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "En el fin de semana, yo ___ tarde. <trans en=\"(On the weekend, I ___ late.)\" ar=\"(في عطلة نهاية الأسبوع، ___ متأخرا.)\" uk=\"(На вихідних я ___ запізнився.)\" fr=\"(Le week-end, je ___ en retard.)\"/>",
+        options: ["me despierto", "me despiertas", "despierto"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "— ¿A qué hora desayunas? — Desayuno ___ de salir de casa. <trans en=\"(—What time do you have breakfast? — Breakfast ___ after leaving home.)\" ar=\"(- في أي وقت تتناول الفطور؟ — الإفطار ___ بعد مغادرة المنزل.)\" uk=\"(— О котрій годині ти снідаєш? — Сніданок ___ після виходу з дому.)\" fr=\"(— À quelle heure prends-tu ton petit-déjeuner ? — Petit-déjeuner ___ après avoir quitté la maison.)\"/>",
+        options: ["antes", "después", "luego"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "Primero me visto y ___ desayuno. <trans en=\"(First I get dressed and eat breakfast.)\" ar=\"(أولاً أرتدي ملابسي وأتناول وجبة الإفطار.)\" uk=\"(Спочатку я одягаюся і снідаю.)\" fr=\"(Je m’habille d’abord et je prends mon petit-déjeuner.)\"/>",
+        options: ["luego", "antes", "siempre"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "No trabajo los sábados ni domingos, descanso el ___ de semana. <trans en=\"(I don't work on Saturdays or Sundays, I rest on ___ of the week.)\" ar=\"(أنا لا أعمل أيام السبت أو الأحد، بل أرتاح في ___ من الأسبوع.)\" uk=\"(У суботу та неділю не працюю, відпочиваю ___ числа тижня.)\" fr=\"(Je ne travaille pas le samedi ni le dimanche, je me repose ___ de la semaine.)\"/>",
+        options: ["fin", "día", "tiempo"],
+        correctAnswer: 0
+      },
+    ]
+  },
+  {
+    id: "a2-vocab-familia-relaciones",
+    topic: "Familia",
+    title: "La Familia y las Relaciones",
+    level: "A2",
+    category: "Vocabulario",
+    description: "Amplía tu vocabulario sobre los miembros de la familia y las relaciones personales. <trans en=\"(Expand your vocabulary about family members and personal relationships.)\" ar=\"(قم بتوسيع مفرداتك حول أفراد الأسرة والعلاقات الشخصية.)\" uk=\"(Розширте свій словниковий запас про членів сім’ї та особисті стосунки.)\" fr=\"(Développez votre vocabulaire sur les membres de la famille et les relations personnelles.)\"/>",
+    emoji: "👥",
+    color: "#FEFCBF",
+    vocabulary: [
+      { word: "Familia", translations: { en: "Family", ar: "عائلة", uk: "Сім'я", fr: "Famille" }, emoji: "👨‍👩‍👧‍👦", color: "#E2F3E7" },
+      { word: "Padres", translations: { en: "Parents", ar: "آباء", uk: "Батьки", fr: "Parents" }, emoji: "👨‍👩‍👦", color: "#E3EEF9" },
+      { word: "Madre", translations: { en: "Mother", ar: "الأم", uk: "мати", fr: "Mère" }, emoji: "👩", color: "#FCE8E8" },
+      { word: "Padre", translations: { en: "Father", ar: "أب", uk: "батько", fr: "Père" }, emoji: "👨", color: "#F3E8FF" },
+      { word: "Hijos", translations: { en: "Children", ar: "أطفال", uk: "діти", fr: "Enfants" }, emoji: "👦👦", color: "#FEFCBF" },
+      { word: "Hijas", translations: { en: "Daughters", ar: "بنات", uk: "Дочки", fr: "Filles" }, emoji: "👧👧", color: "#FFF4E5" },
+      { word: "Hermano", translations: { en: "Brother", ar: "أخ", uk: "Брат", fr: "Frère" }, emoji: "👦", color: "#E2F3E7" },
+      { word: "Hermana", translations: { en: "Sister", ar: "أخت", uk: "сестра", fr: "Sœur" }, emoji: "👧", color: "#E3EEF9" },
+      { word: "Abuelos", translations: { en: "Grandparents", ar: "الأجداد", uk: "Дідусь і бабуся", fr: "Grands-parents" }, emoji: "👴👵", color: "#FCE8E8" },
+      { word: "Abuelo", translations: { en: "Grandfather", ar: "الجد", uk: "Дідусь", fr: "Grand-père" }, emoji: "👴", color: "#F3E8FF" },
+      { word: "Abuela", translations: { en: "Grandmother", ar: "جدة", uk: "Бабуся", fr: "Grand-mère" }, emoji: "👵", color: "#FEFCBF" },
+      { word: "Tío", translations: { en: "Uncle", ar: "عم", uk: "дядько", fr: "Oncle" }, emoji: "👨", color: "#FFF4E5" },
+      { word: "Tía", translations: { en: "Aunt", ar: "عمة", uk: "тітка", fr: "Tante" }, emoji: "👩", color: "#E2F3E7" },
+      { word: "Primo", translations: { en: "Cousin", ar: "ابن عم", uk: "Двоюрідна сестра", fr: "Cousin" }, emoji: "👦", color: "#E3EEF9" },
+      { word: "Prima", translations: { en: "Premium", ar: "غالي", uk: "Преміум", fr: "Prime" }, emoji: "👧", color: "#FCE8E8" },
+      { word: "Pareja", translations: { en: "Couple", ar: "زوج", uk: "Пара", fr: "Couple" }, emoji: "💑", color: "#F3E8FF" },
+      { word: "Amigo", translations: { en: "Friend", ar: "صديق", uk: "Друг", fr: "Ami" }, emoji: "🧑‍🤝‍🧑", color: "#FEFCBF" },
+      { word: "Amiga", translations: { en: "Friend", ar: "صديق", uk: "Друг", fr: "Ami" }, emoji: "🧑‍🤝‍🧑", color: "#FFF4E5" },
+      { word: "Personas", translations: { en: "People", ar: "الناس", uk: "люди", fr: "Personnes" }, emoji: "👥", color: "#E2F3E7" },
+      { word: "Relación", translations: { en: "Relationship", ar: "علاقة", uk: "стосунки", fr: "Relation" }, emoji: "🤝", color: "#E3EEF9" },
+      { word: "Vivir", translations: { en: "Live", ar: "يعيش", uk: "Жити", fr: "En direct" }, emoji: "🏠", color: "#FCE8E8" },
+      { word: "Ayudar", translations: { en: "Help", ar: "يساعد", uk: "Довідка", fr: "Aide" }, emoji: "📝", color: "#F3E8FF" },
+      { word: "Llamar", translations: { en: "Call", ar: "يتصل", uk: "Телефонуйте", fr: "Appel" }, emoji: "📝", color: "#FEFCBF" },
+      { word: "Visitar", translations: { en: "Visit", ar: "يزور", uk: "Відвідайте", fr: "Visite" }, emoji: "🚗", color: "#FFF4E5" },
+      { word: "Cuidar", translations: { en: "Care", ar: "رعاية", uk: "Догляд", fr: "Soins" }, emoji: "❤️", color: "#E2F3E7" },
+      { word: "Hablar", translations: { en: "Talk", ar: "يتحدث", uk: "говорити", fr: "Parler" }, emoji: "🗣️", color: "#E3EEF9" },
+      { word: "Escuchar", translations: { en: "Hear", ar: "يسمع", uk: "Почуйте", fr: "Entendre" }, emoji: "👂", color: "#FCE8E8" },
+      { word: "Querer", translations: { en: "Want", ar: "يريد", uk: "хочу", fr: "Vouloir" }, emoji: "❤️", color: "#F3E8FF" },
+      { word: "Conocer", translations: { en: "Know", ar: "يعرف", uk: "знати", fr: "Savoir" }, emoji: "🤝", color: "#FEFCBF" },
+      { word: "Juntos", translations: { en: "Together", ar: "معاً", uk: "Разом", fr: "Ensemble" }, emoji: "🧑‍🤝‍🧑", color: "#FFF4E5" },
+      { word: "Separados", translations: { en: "Separated", ar: "منفصل", uk: "Відокремлені", fr: "Séparé" }, emoji: "💔", color: "#E2F3E7" },
+      { word: "Cerca", translations: { en: "Near", ar: "قريب", uk: "Поруч", fr: "Près" }, emoji: "📝", color: "#E3EEF9" },
+      { word: "Lejos", translations: { en: "Far", ar: "بعيد", uk: "далеко", fr: "Loin" }, emoji: "📝", color: "#FCE8E8" },
+      { word: "Casa", translations: { en: "Home", ar: "بيت", uk: "додому", fr: "Maison" }, emoji: "🏠", color: "#F3E8FF" },
+      { word: "Ciudad", translations: { en: "City", ar: "مدينة", uk: "Місто", fr: "Ville" }, emoji: "📝", color: "#FEFCBF" },
+      { word: "Apoyo", translations: { en: "Support", ar: "يدعم", uk: "Підтримка", fr: "Soutien" }, emoji: "🤝", color: "#FFF4E5" },
+      { word: "Problema", translations: { en: "Problem", ar: "مشكلة", uk: "проблема", fr: "Problème" }, emoji: "❓", color: "#E2F3E7" },
+      { word: "Tiempo", translations: { en: "Time", ar: "وقت", uk: "час", fr: "Temps" }, emoji: "⏰", color: "#E3EEF9" },
+      { word: "Siempre", translations: { en: "Always", ar: "دائماً", uk: "Завжди", fr: "Toujours" }, emoji: "🔄", color: "#FCE8E8" },
+      { word: "A veces", translations: { en: "Sometimes", ar: "أحيانا", uk: "іноді", fr: "Parfois" }, emoji: "⏱️", color: "#F3E8FF" },
+    ],
+    content: `
+## La Familia <trans en=\"(The Family)\" ar=\"(العائلة)\" uk=\"(Сім'я)\" fr=\"(La famille)\"/>
+    Vocabulario para describir las relaciones familiares y afectivas: <trans en=\"(Vocabulary to describe family and emotional relationships:)\" ar=\"(مفردات لوصف العلاقات الأسرية والعاطفية:)\" uk=\"(Словник для опису сімейних та емоційних стосунків:)\" fr=\"(Vocabulaire pour décrire les relations familiales et affectives :)\"/>
+    - **Padres**: el padre y la madre. <trans en=\"(**Parents**: the father and the mother.)\" ar=\"(**الوالدان**: الأب والأم.)\" uk=\"(**Батьки**: батько і мати.)\" fr=\"(**Parents** : le père et la mère.)\"/>
+    - **Hijos**: el hijo y la hija. <trans en=\"(**Children**: the son and the daughter.)\" ar=\"(**الأبناء**: الابن والبنت.)\" uk=\"(**Діти**: син і дочка.)\" fr=\"(**Enfants** : le fils et la fille.)\"/>
+    - **Abuelos**: el abuelo y la abuela. <trans en=\"(**Grandparents**: grandfather and grandmother.)\" ar=\"(**الأجداد**: الجد والجدة.)\" uk=\"(**Дідусь і бабуся**: дідусь і бабуся.)\" fr=\"(**Grands-parents** : grand-père et grand-mère.)\"/>
+    - **Tíos**: el tío (hermano del padre/madre) y la tía. <trans en=\"(**Uncles**: the uncle (brother of the father/mother) and the aunt.)\" ar=\"(**الأعمام**: العم (أخ الأب/الأم) والخالة.)\" uk=\"(**Дядьки**: дядько (брат батька/матері) і тітка.)\" fr=\"(**Oncles** : l'oncle (frère du père/mère) et la tante.)\"/>
+    - **Primos**: el primo (hijo de los tíos) y la prima. <trans en=\"(**Cousins**: the cousin (uncle's son) and the cousin.)\" ar=\"(**أبناء العمومة**: ابن العم (ابن العم) وابن العم.)\" uk=\"(**Двоюрідні брати**: двоюрідний брат (дядьків син) і двоюрідний брат.)\" fr=\"(**Cousins** : le cousin (le fils de l'oncle) et le cousin.)\"/>
+    - **Pareja**: compañero/a sentimental. <trans en=\"(**Partner**: sentimental partner.)\" ar=\"(**الشريك**: الشريك العاطفي.)\" uk=\"(**Партнер**: сентиментальний партнер.)\" fr=\"(**Partenaire** : partenaire sentimental.)\"/>
+
+## Pronombres de objeto indirecto <trans en=\"(indirect object pronouns)\" ar=\"(ضمائر المفعول به غير المباشرة)\" uk=\"(непрямі додатки)\" fr=\"(pronoms objets indirects)\"/>
+    Usamos los pronombres de objeto para indicar hacia quién va dirigida la acción (*me, te, le, nos, os, les*): <trans en=\"(We use object pronouns to indicate who the action is directed towards (*me, te, le, nos, os, les*):)\" ar=\"(نستخدم ضمائر المفعول للإشارة إلى الجهة التي يتجه إليها الفعل (*me, te, le, nos, os, les*):)\" uk=\"(Ми використовуємо об’єктні займенники, щоб вказати, на кого спрямована дія (*me, te, le, nos, os, les*):)\" fr=\"(Nous utilisons des pronoms objets pour indiquer vers qui l'action est dirigée (*me, te, le, nos, os, les*) :)\"/>
+    - Yo **le** llamo (a mi madre) por teléfono. <trans en=\"(I call (my mother) on the phone.)\" ar=\"(أتصل (بوالدتي) عبر الهاتف.)\" uk=\"(Дзвоню (моїй мамі) по телефону.)\" fr=\"(J'appelle (ma mère) au téléphone.)\"/>
+    - Nosotros **les** ayudamos (a nuestros abuelos) en casa. <trans en=\"(We **help** them (our grandparents) at home.)\" ar=\"(نحن **نساعد**هم (أجدادنا) في المنزل.)\" uk=\"(Ми **допомагаємо** їм (бабусям і дідусям) по дому.)\" fr=\"(Nous les **aidons** (nos grands-parents) à la maison.)\"/>
+    - Ella **nos** visita todos los fines de semana. <trans en=\"(She **visits** us every weekend.)\" ar=\"(إنها **تزورنا** في نهاية كل أسبوع.)\" uk=\"(Вона **відвідує** нас кожні вихідні.)\" fr=\"(Elle **nous rend** visite tous les week-ends.)\"/>
+    - Yo **te** escucho con atención. <trans en=\"(I listen to you carefully.)\" ar=\"(أستمع إليك بعناية.)\" uk=\"(Я вас уважно слухаю.)\" fr=\"(Je vous écoute attentivement.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Yo ___ a mi abuelo en el hospital. <trans en=\"(I ___ my grandfather in the hospital.)\" ar=\"(أنا ___ جدي في المستشفى.)\" uk=\"(Я ___ дідусь у лікарні.)\" fr=\"(Je ___ mon grand-père à l'hôpital.)\"/>",
+        options: ["visito", "visitas", "visita"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "Nosotros ___ a nuestros hijos. <trans en=\"(We ___ our children.)\" ar=\"(نحن ___ أطفالنا.)\" uk=\"(Ми ___ наші діти.)\" fr=\"(Nous ___ nos enfants.)\"/>",
+        options: ["cuidamos", "cuidáis", "cuidan"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Yo ___ por teléfono a mi madre todos los días. <trans en=\"(I ___ on the phone to my mother every day.)\" ar=\"(أنا ___ على الهاتف مع والدتي كل يوم.)\" uk=\"(Я ___ щодня телефоную своїй мамі.)\" fr=\"(Je ___ au téléphone avec ma mère tous les jours.)\"/>",
+        options: ["llamo", "llamas", "llama"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "Yo ___ a mi pareja. <trans en=\"(I ___ my partner.)\" ar=\"(أنا ___ شريكي.)\" uk=\"(Я ___ мій партнер.)\" fr=\"(Je ___ mon partenaire.)\"/>",
+        options: ["quiero", "quieres", "quiere"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "Yo ___ a mis amigos en la escuela. <trans en=\"(I ___ my friends at school.)\" ar=\"(أنا ___ أصدقائي في المدرسة.)\" uk=\"(Я ___ моїх друзів у школі.)\" fr=\"(Je ___ mes amis à l'école.)\"/>",
+        options: ["conozco", "conoces", "conoce"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "La madre de mi padre es mi ___. <trans en=\"(My father's mother is my ___.)\" ar=\"(والدة والدي هي ___.)\" uk=\"(Мама мого тата – моя ___.)\" fr=\"(La mère de mon père est ma ___.)\"/>",
+        options: ["abuela", "tía", "hermana"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "El hermano de mi madre es mi ___. <trans en=\"(My mother's brother is my ___.)\" ar=\"(أخي أمي هو ___.)\" uk=\"(Мамин брат - мій ___.)\" fr=\"(Le frère de ma mère est mon ___.)\"/>",
+        options: ["tío", "abuelo", "primo"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "Yo ___ ayudo a mi hermano con la tarea. <trans en=\"(I ___ help my brother with his homework.)\" ar=\"(أنا ___ أساعد أخي في واجباته المدرسية.)\" uk=\"(Я ___ допомагаю братові робити уроки.)\" fr=\"(Je ___ aide mon frère à faire ses devoirs.)\"/>",
+        options: ["le", "me", "nos"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "Mis abuelos viven ___ de mí, en otra ciudad. <trans en=\"(My grandparents live ____ from me, in another city.)\" ar=\"(أجدادي يعيشون ____ مني، في مدينة أخرى.)\" uk=\"(Мої дідусь і бабуся живуть ____ від мене, в іншому місті.)\" fr=\"(Mes grands-parents habitent ____ chez moi, dans une autre ville.)\"/>",
+        options: ["lejos", "cerca", "juntos"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "— ¿Viven tus padres juntos? — No, están ___. <trans en=\"(— Do your parents live together? — No, they are ___.)\" ar=\"(- هل يعيش والديك معًا؟ - لا، إنهم ___.)\" uk=\"(— Ваші батьки живуть разом? — Ні, вони ___.)\" fr=\"(— Vos parents vivent ensemble ? — Non, ils sont ___.)\"/>",
+        options: ["separados", "cerca", "hermanos"],
+        correctAnswer: 0
+      },
+    ]
+  },
+  {
+    id: "a2-vocab-trabajo",
+    topic: "Trabajo",
+    title: "El Trabajo",
+    level: "A2",
+    category: "Vocabulario",
+    description: "Vocabulario sobre profesiones, búsqueda de empleo y el entorno laboral. <trans en=\"(Vocabulary about professions, job search and the work environment.)\" ar=\"(مفردات حول المهن والبحث عن عمل وبيئة العمل.)\" uk=\"(Лексика про професії, пошук роботи та робоче середовище.)\" fr=\"(Vocabulaire sur les métiers, la recherche d'emploi et l'environnement de travail.)\"/>",
+    emoji: "💼",
+    color: "#FFF4E5",
+    vocabulary: [
+      { word: "Trabajo", translations: { en: "Job", ar: "وظيفة", uk: "Робота", fr: "Emploi" }, emoji: "💼", color: "#E2F3E7" },
+      { word: "Empleo", translations: { en: "Employment", ar: "توظيف", uk: "Працевлаштування", fr: "Emploi" }, emoji: "💼", color: "#E3EEF9" },
+      { word: "Oficio", translations: { en: "Job", ar: "وظيفة", uk: "Робота", fr: "Emploi" }, emoji: "🛠️", color: "#FCE8E8" },
+      { word: "Empresa", translations: { en: "Company", ar: "شركة", uk: "Компанія", fr: "Entreprise" }, emoji: "🏢", color: "#F3E8FF" },
+      { word: "Jefe", translations: { en: "Boss", ar: "رئيس", uk: "Бос", fr: "Chef" }, emoji: "👨‍💼", color: "#FEFCBF" },
+      { word: "Jefa", translations: { en: "Boss", ar: "رئيس", uk: "Бос", fr: "Chef" }, emoji: "👩‍💼", color: "#FFF4E5" },
+      { word: "Compañero", translations: { en: "Buddy", ar: "صاحب", uk: "приятель", fr: "Copain" }, emoji: "🧑‍💼", color: "#E2F3E7" },
+      { word: "Compañera", translations: { en: "Companion", ar: "رفيق", uk: "Компаньйон", fr: "Compagnon" }, emoji: "👩‍💼", color: "#E3EEF9" },
+      { word: "Horario", translations: { en: "Schedule", ar: "جدول", uk: "розклад", fr: "Calendrier" }, emoji: "📅", color: "#FCE8E8" },
+      { word: "Turno", translations: { en: "Shift", ar: "يحول", uk: "Shift", fr: "Changement" }, emoji: "🔄", color: "#F3E8FF" },
+      { word: "Mañana", translations: { en: "Tomorrow", ar: "غداً", uk: "завтра", fr: "Demain" }, emoji: "🌅", color: "#FEFCBF" },
+      { word: "Tarde", translations: { en: "Late", ar: "متأخر", uk: "Пізно", fr: "En retard" }, emoji: "📝", color: "#FFF4E5" },
+      { word: "Noche", translations: { en: "Evening", ar: "مساء", uk: "вечір", fr: "Soirée" }, emoji: "🌙", color: "#E2F3E7" },
+      { word: "Salario", translations: { en: "Salary", ar: "مرتب", uk: "Зарплата", fr: "Salaire" }, emoji: "💵", color: "#E3EEF9" },
+      { word: "Dinero", translations: { en: "Money", ar: "مال", uk: "гроші", fr: "Argent" }, emoji: "💵", color: "#FCE8E8" },
+      { word: "Contrato", translations: { en: "Contract", ar: "عقد", uk: "Договір", fr: "Contracter" }, emoji: "📄", color: "#F3E8FF" },
+      { word: "Documento", translations: { en: "Document", ar: "وثيقة", uk: "документ", fr: "Document" }, emoji: "📄", color: "#FEFCBF" },
+      { word: "Oficina", translations: { en: "Office", ar: "مكتب", uk: "Офіс", fr: "Bureau" }, emoji: "🏢", color: "#FFF4E5" },
+      { word: "Fábrica", translations: { en: "Factory", ar: "مصنع", uk: "Фабрика", fr: "Usine" }, emoji: "🏭", color: "#E2F3E7" },
+      { word: "Campo", translations: { en: "Field", ar: "مجال", uk: "Поле", fr: "Champ" }, emoji: "🌾", color: "#E3EEF9" },
+      { word: "Tienda", translations: { en: "Store", ar: "محل", uk: "Магазин", fr: "Magasin" }, emoji: "📝", color: "#FCE8E8" },
+      { word: "Limpieza", translations: { en: "Cleaning", ar: "تنظيف", uk: "прибирання", fr: "Nettoyage" }, emoji: "🧹", color: "#F3E8FF" },
+      { word: "Construcción", translations: { en: "Construction", ar: "بناء", uk: "Будівництво", fr: "Construction" }, emoji: "🏗️", color: "#FEFCBF" },
+      { word: "Transporte", translations: { en: "Transport", ar: "ينقل", uk: "Транспорт", fr: "Transport" }, emoji: "🚌", color: "#FFF4E5" },
+      { word: "Cocinar", translations: { en: "Cook", ar: "يطبخ", uk: "Кухар", fr: "Cuisiner" }, emoji: "🍳", color: "#E2F3E7" },
+      { word: "Cuidar", translations: { en: "Care", ar: "رعاية", uk: "Догляд", fr: "Soins" }, emoji: "❤️", color: "#E3EEF9" },
+      { word: "Ayudar", translations: { en: "Help", ar: "يساعد", uk: "Довідка", fr: "Aide" }, emoji: "📝", color: "#FCE8E8" },
+      { word: "Trabajar", translations: { en: "Work", ar: "عمل", uk: "Робота", fr: "Travail" }, emoji: "📝", color: "#F3E8FF" },
+      { word: "Buscar", translations: { en: "Look for", ar: "بحث", uk: "Шукайте", fr: "Rechercher" }, emoji: "🔍", color: "#FEFCBF" },
+      { word: "Empezar", translations: { en: "Begin", ar: "يبدأ", uk: "Почніть", fr: "Commencer" }, emoji: "🏁", color: "#FFF4E5" },
+      { word: "Terminar", translations: { en: "Finish", ar: "ينهي", uk: "Закінчити", fr: "Finition" }, emoji: "🔚", color: "#E2F3E7" },
+      { word: "Descansar", translations: { en: "Rest", ar: "استراحة", uk: "Відпочинок", fr: "Repos" }, emoji: "📝", color: "#E3EEF9" },
+      { word: "Problema", translations: { en: "Problem", ar: "مشكلة", uk: "проблема", fr: "Problème" }, emoji: "❓", color: "#FCE8E8" },
+      { word: "Ayuda", translations: { en: "Aid", ar: "يساعد", uk: "Допомога", fr: "Aide" }, emoji: "🆘", color: "#F3E8FF" },
+      { word: "Bien", translations: { en: "Good", ar: "جيد", uk: "добре", fr: "Bien" }, emoji: "✅", color: "#FEFCBF" },
+      { word: "Mal", translations: { en: "Evil", ar: "شر", uk: "зло", fr: "Mal" }, emoji: "❌", color: "#FFF4E5" },
+      { word: "Mucho", translations: { en: "A lot", ar: "كثيراً", uk: "багато", fr: "Beaucoup" }, emoji: "📈", color: "#E2F3E7" },
+      { word: "Poco", translations: { en: "Bit", ar: "قليل", uk: "біт", fr: "Peu" }, emoji: "📉", color: "#E3EEF9" },
+      { word: "Siempre", translations: { en: "Always", ar: "دائماً", uk: "Завжди", fr: "Toujours" }, emoji: "🔄", color: "#FCE8E8" },
+      { word: "A veces", translations: { en: "Sometimes", ar: "أحيانا", uk: "іноді", fr: "Parfois" }, emoji: "⏱️", color: "#F3E8FF" },
+    ],
+    content: `
+## El Entorno Laboral <trans en=\"(The Work Environment)\" ar=\"(بيئة العمل)\" uk=\"(Робоче середовище)\" fr=\"(L'environnement de travail)\"/>
+    Vocabulario clave para desenvolverse en el ámbito del trabajo: <trans en=\"(Key vocabulary to function in the workplace:)\" ar=\"(المفردات الأساسية للعمل في مكان العمل:)\" uk=\"(Ключовий словниковий запас для роботи на робочому місці:)\" fr=\"(Vocabulaire clé pour fonctionner sur le lieu de travail :)\"/>
+    - **Empresa**: organización dedicada a actividades industriales o mercantiles. <trans en=\"(**Company**: organization dedicated to industrial or commercial activities.)\" ar=\"(**الشركة**: منظمة مخصصة للأنشطة الصناعية أو التجارية.)\" uk=\"(**Компанія**: організація, що займається промисловою чи комерційною діяльністю.)\" fr=\"(**Entreprise** : organisation dédiée aux activités industrielles ou commerciales.)\"/>
+    - **Jefe** / **Jefa**: persona que manda u dirige el trabajo. <trans en=\"(**Boss** / **Boss**: person who commands or directs the work.)\" ar=\"(**الرئيس** / **الرئيس**: الشخص الذي يأمر العمل أو يوجهه.)\" uk=\"(**Начальник** / **Начальник**: особа, яка командує або керує роботою.)\" fr=\"(**Patron** / **Boss** : personne qui commande ou dirige le travail.)\"/>
+    - **Salario** o **Sueldo**: dinero que se recibe por el trabajo. <trans en=\"(**Salary** or **Salary**: money received for work.)\" ar=\"(**الراتب** أو **الراتب**: الأموال المستلمة مقابل العمل.)\" uk=\"(**Зарплата** або **Зарплата**: гроші, отримані за роботу.)\" fr=\"(**Salaire** ou **Salaire** : argent reçu pour le travail.)\"/>
+    - **Contrato**: documento legal que firma el trabajador y la empresa. <trans en=\"(**Contract**: legal document signed by the worker and the company.)\" ar=\"(**العقد**: وثيقة قانونية موقعة من العامل والشركة.)\" uk=\"(**Контракт**: юридичний документ, підписаний працівником і компанією.)\" fr=\"(**Contrat** : document légal signé par le travailleur et l'entreprise.)\"/>
+    - **Compañero** / **Compañera**: persona que trabaja contigo. <trans en=\"(**Companion** / **Companion**: person who works with you.)\" ar=\"(**رفيق** / **رفيق**: الشخص الذي يعمل معك.)\" uk=\"(**Компаньйон** / **Компаньйон**: особа, яка працює з вами.)\" fr=\"(**Compagnon** / **Compagnon** : personne qui travaille avec vous.)\"/>
+
+## Expresar necesidad y condiciones <trans en=\"(Express need and conditions)\" ar=\"(التعبير عن الحاجة والشروط)\" uk=\"(Висловіть потребу та умови)\" fr=\"(Exprimer le besoin et les conditions)\"/>
+    - **Tener que + infinitivo**: Tengo que empezar a las ocho. <trans en=\"(**Have to + infinitive**: I have to start at eight.)\" ar=\"(**Have to + صيغة المصدر**: يجب أن أبدأ عند الثامنة.)\" uk=\"(**Have to + інфінітив**: I have to start at восьма.)\" fr=\"(**Il faut + infinitif** : je dois commencer à huit heures.)\"/>
+    - **Buscar trabajo**: Estoy buscando un empleo en la ciudad. <trans en=\"(**Look for work**: I am looking for a job in the city.)\" ar=\"(**البحث عن عمل**: أبحث عن عمل في المدينة.)\" uk=\"(**Шукаю роботу**: Шукаю роботу в місті.)\" fr=\"(**Chercher du travail** : Je recherche un emploi en ville.)\"/>
+    - **Horario y turnos**: Trabajo en el turno de mañana. <trans en=\"(**Schedule and shifts**: I work the morning shift.)\" ar=\"(**الجدول الزمني والمناوبات**: أعمل في الوردية الصباحية.)\" uk=\"(**Графік і зміни**: Я працюю в ранкову зміну.)\" fr=\"(**Horaire et quarts de travail** : Je travaille le quart du matin.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Yo ___ por la mañana en la oficina. <trans en=\"(I ___ in the morning at the office.)\" ar=\"(أنا ___ في الصباح في المكتب.)\" uk=\"(Я ___ вранці в офісі.)\" fr=\"(Je ___ le matin au bureau.)\"/>",
+        options: ["trabajo", "trabajas", "trabaja"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "Nosotros ___ trabajo en la ciudad. <trans en=\"(We ___ work in the city.)\" ar=\"(نحن ___ نعمل في المدينة.)\" uk=\"(Ми ___ працюємо в місті.)\" fr=\"(Nous ___ travaillons en ville.)\"/>",
+        options: ["buscamos", "buscáis", "buscan"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Ella ___ empleo en una empresa grande. <trans en=\"(She ___ a job in a large company.)\" ar=\"(هي ___ وظيفة في شركة كبيرة.)\" uk=\"(Вона ___ робота у великій компанії.)\" fr=\"(Elle ___ un emploi dans une grande entreprise.)\"/>",
+        options: ["busca", "buscan", "buscas"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "Tú ___ que estudiar mucho hoy. <trans en=\"(You ___ have to study hard today.)\" ar=\"(عليك ___ عليك أن تدرس بجد اليوم.)\" uk=\"(Ви ___ сьогодні повинні старанно вчитися.)\" fr=\"(Vous ___ devez étudier dur aujourd’hui.)\"/>",
+        options: ["tienes", "tengo", "tiene"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "Ellos ___ trabajo aquí todos los días. <trans en=\"(They ___ work here every day.)\" ar=\"(إنهم ___ يعملون هنا كل يوم.)\" uk=\"(Вони ___ працюють тут щодня.)\" fr=\"(Ils ___ travaillent ici tous les jours.)\"/>",
+        options: ["encuentran", "encuentras", "encuentro"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "La persona que dirige la empresa es mi ___. <trans en=\"(The person who runs the company is my ___.)\" ar=\"(الشخص الذي يدير الشركة هو ___.)\" uk=\"(Людина, яка керує компанією, це моя ___.)\" fr=\"(La personne qui dirige l’entreprise est mon ___.)\"/>",
+        options: ["jefe", "compañero", "empleado"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "El dinero que gano al mes es mi ___. <trans en=\"(The money I earn each month is my ___.)\" ar=\"(المال الذي أكسبه كل شهر هو ___.)\" uk=\"(Гроші, які я заробляю щомісяця, це мої ___.)\" fr=\"(L’argent que je gagne chaque mois est mon ___.)\"/>",
+        options: ["salario", "contrato", "turno"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "Firmo un ___ para empezar en el trabajo. <trans en=\"(I sign a ___ to start work.)\" ar=\"(أوقع ___ لبدء العمل.)\" uk=\"(Підписую ___ на початок роботи.)\" fr=\"(Je signe un ___ pour commencer à travailler.)\"/>",
+        options: ["contrato", "salario", "jefe"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "Trabajo en el turno de la ___ (de 22:00 a 06:00). <trans en=\"(I work the ___ shift (from 10:00 p.m. to 6:00 a.m.).)\" ar=\"(أعمل في وردية ___ (من الساعة 10:00 مساءً إلى الساعة 6:00 صباحًا).)\" uk=\"(Працюю в ___ зміну (з 22:00 до 06:00).)\" fr=\"(Je travaille le quart de ___ (de 22h00 à 6h00).)\"/>",
+        options: ["noche", "tarde", "mañana"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "Estudio español ___ quiero encontrar un trabajo mejor. <trans en=\"(I study Spanish ___ I want to find a better job.)\" ar=\"(أنا أدرس اللغة الإسبانية ___ أريد أن أجد وظيفة أفضل.)\" uk=\"(Я вивчаю іспанську ___ Я хочу знайти кращу роботу.)\" fr=\"(J'étudie l'espagnol ___ Je veux trouver un meilleur travail.)\"/>",
+        options: ["porque", "pero", "y"],
+        correctAnswer: 0
+      },
+    ]
+  },
+  {
+    id: "a2-repaso-a2",
+    topic: "Repaso",
+    title: "Repaso General del Nivel A2",
+    level: "A2",
+    category: "Gramática",
+    description: "Consolida tus conocimientos de nivel A2 con ejercicios interactivos de repaso. <trans en=\"(Consolidate your A2 level knowledge with interactive review exercises.)\" ar=\"(قم بتعزيز معرفتك بمستوى A2 من خلال تمارين المراجعة التفاعلية.)\" uk=\"(Закріпіть свої знання на рівні А2 за допомогою інтерактивних вправ.)\" fr=\"(Consolidez vos connaissances de niveau A2 avec des exercices de révision interactifs.)\"/>",
+    emoji: "🎓",
+    color: "#E2F3E7",
+    vocabulary: [],
+    content: `
+## Temas A2 Repasados <trans en=\"(A2 Topics Reviewed)\" ar=\"(تمت مراجعة موضوعات A2)\" uk=\"(Переглянуті теми A2)\" fr=\"(A2 Sujets examinés)\"/>
+    - **Ciudad**: preguntar por direcciones, farmacia, hospital, banco, parada, derecha, izquierda. <trans en=\"(**City**: ask for directions, pharmacy, hospital, bank, stop, right, left.)\" ar=\"(**المدينة**: اسأل عن الاتجاهات، الصيدلية، المستشفى، البنك، التوقف، اليمين، اليسار.)\" uk=\"(**Місто**: запитати дорогу, аптека, лікарня, банк, зупинка, праворуч, ліворуч.)\" fr=\"(**Ville** : demander son chemin, pharmacie, hôpital, banque, arrêt, droite, gauche.)\"/>
+    - **Naturaleza y clima**: el tiempo, hacer calor / frío, llover, estaciones, adverbios de frecuencia. <trans en=\"(**Nature and climate**: weather, hot/cold, rain, seasons, adverbs of frequency.)\" ar=\"(**الطبيعة والمناخ**: الطقس، حار/بارد، المطر، المواسم، أحوال التردد.)\" uk=\"(**Природа та клімат**: погода, жарко/холодно, дощ, пори року, прислівники частоти.)\" fr=\"(**Nature et climat** : météo, chaud/froid, pluie, saisons, adverbes de fréquence.)\"/>
+    - **Hospital**: síntomas, dolor de cabeza, doler, tener fiebre, consejos médicos. <trans en=\"(**Hospital**: symptoms, headache, pain, fever, medical advice.)\" ar=\"(**المستشفى**: الأعراض، الصداع، الألم، الحمى، المشورة الطبية.)\" uk=\"(**Лікарня**: симптоми, головний біль, біль, лихоманка, консультація лікаря.)\" fr=\"(**Hôpital** : symptômes, maux de tête, douleurs, fièvre, avis médical.)\"/>
+    - **Colegio**: asignaturas, deberes, exámenes, obligación (tener que). <trans en=\"(**School**: subjects, homework, exams, obligation (have to).)\" ar=\"(**المدرسة**: المواد الدراسية والواجبات المنزلية والامتحانات والالتزامات (يجب).)\" uk=\"(**Школа**: предмети, домашні завдання, іспити, обов'язки (повинен).)\" fr=\"(**École** : matières, devoirs, examens, obligation (devoir).)\"/>
+    - **Rutina diaria**: verbos reflexivos (levantarse, ducharse), orden de acciones. <trans en=\"(**Daily routine**: reflexive verbs (get up, shower), order of actions.)\" ar=\"(**الروتين اليومي**: الأفعال الانعكاسية (انهض، استحم)، ترتيب الأفعال.)\" uk=\"(**Розпорядок дня**: зворотні дієслова (встати, прийняти душ), порядок дій.)\" fr=\"(**Routine quotidienne** : verbes réfléchis (se lever, se doucher), ordre des actions.)\"/>
+    - **Familia**: parentescos, pronombres de objeto (le, nos, les). <trans en=\"(**Family**: relationships, object pronouns (le, nos, les).)\" ar=\"(**العائلة**: العلاقات، ضمائر المفعول (le، nos، les).)\" uk=\"(**Сім’я**: стосунки, об’єктні займенники (le, nos, les).)\" fr=\"(**Famille** : relations, pronoms objets (le, nos, les).)\"/>
+    - **Trabajo**: profesiones, salario, contrato, turnos. <trans en=\"(**Work**: professions, salary, contract, shifts.)\" ar=\"(**العمل**: المهن، الراتب، العقد، الورديات.)\" uk=\"(**Робота**: професії, з/п, контракт, позмінність.)\" fr=\"(**Travail** : professions, salaire, contrat, équipes.)\"/>
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "Yo ___ por la mañana. <trans en=\"(I ___ in the morning.)\" ar=\"(أنا ___ في الصباح.)\" uk=\"(Я ___ ранку.)\" fr=\"(Je ___ le matin.)\"/>",
+        options: ["trabajo", "trabajas", "trabaja"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex2",
+        question: "Nosotros ___ al centro de la ciudad. <trans en=\"(We ___ to the city center.)\" ar=\"(نحن ___ إلى وسط المدينة.)\" uk=\"(Ми ___ до центру міста.)\" fr=\"(Nous ___ au centre-ville.)\"/>",
+        options: ["vamos", "vais", "van"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex3",
+        question: "Ella ___ trabajo en una oficina. <trans en=\"(She ___ work in an office.)\" ar=\"(هي ___ تعمل في مكتب.)\" uk=\"(Вона ___ працює в офісі.)\" fr=\"(Elle ___ travaille dans un bureau.)\"/>",
+        options: ["busca", "buscan", "buscas"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex4",
+        question: "Estudio español ___ vivo aquí en España. <trans en=\"(I study Spanish ___ I live here in Spain.)\" ar=\"(أنا أدرس اللغة الإسبانية ___ أعيش هنا في إسبانيا.)\" uk=\"(Я вивчаю іспанську ___ Я живу тут, в Іспанії.)\" fr=\"(J'étudie l'espagnol ___ Je vis ici en Espagne.)\"/>",
+        options: ["porque", "pero", "y"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex5",
+        question: "No trabajo hoy ___ es domingo. <trans en=\"(I don't work today ___ it's Sunday.)\" ar=\"(أنا لا أعمل اليوم ___ إنه الأحد.)\" uk=\"(Я сьогодні не працюю ___ сьогодні неділя.)\" fr=\"(Je ne travaille pas aujourd'hui ___ c'est dimanche.)\"/>",
+        options: ["porque", "y", "pero"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex6",
+        question: "Voy al médico porque ___ duele el estómago. <trans en=\"(I go to the doctor because ___ my stomach hurts.)\" ar=\"(أذهب إلى الطبيب لأن ___ معدتي تؤلمني.)\" uk=\"(Я йду до лікаря, тому що ___ болить живіт.)\" fr=\"(Je vais chez le médecin parce que ___ j'ai mal au ventre.)\"/>",
+        options: ["me", "te", "le"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex7",
+        question: "El clima de esta ciudad es muy ___. <trans en=\"(The climate of this city is very ___.)\" ar=\"(مناخ هذه المدينة ___ جدا.)\" uk=\"(Клімат цього міста дуже ___.)\" fr=\"(Le climat de cette ville est très ___.)\"/>",
+        options: ["bueno", "bien", "mejor"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex8",
+        question: "Siempre me ___ temprano por la mañana. <trans en=\"(I always ___ early in the morning.)\" ar=\"(أنا دائمًا ___ في الصباح الباكر.)\" uk=\"(Я завжди ___ рано вранці.)\" fr=\"(Je ___ toujours tôt le matin.)\"/>",
+        options: ["levanto", "levantas", "levanta"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex9",
+        question: "— Por favor, ¿me ___ la cuenta? — Sí, un momento. <trans en=\"(— Please, can I ___ the bill? — Yes, wait a moment.)\" ar=\"(— من فضلك، هل يمكنني ___ الفاتورة؟ - نعم، انتظر لحظة.)\" uk=\"(— Будь ласка, можна ___ рахунок? — Так, зачекайте.)\" fr=\"(— S'il vous plaît, puis-je ___ la facture ? — Oui, attends un instant.)\"/>",
+        options: ["traiga", "trae", "tomar"],
+        correctAnswer: 0
+      },
+      {
+        id: "ex10",
+        question: "Tengo que ___ para el examen del colegio. <trans en=\"(I have to ___ for the school exam.)\" ar=\"(لا بد لي من ___ لامتحان المدرسة.)\" uk=\"(Я маю ___ на шкільний іспит.)\" fr=\"(Je dois ___ pour l'examen scolaire.)\"/>",
+        options: ["estudiar", "dormir", "cocinar"],
+        correctAnswer: 0
+      },
+    ]
+  },
+{
     id: "b1-gram-futuro-condicional",
     topic: "Tiempos Verbales",
     title: "El Futuro y el Condicional",
