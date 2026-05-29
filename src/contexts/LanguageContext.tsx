@@ -14,7 +14,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>('es');
-  const [visualMode, setVisualMode] = useState<VisualMode>('photo');
+  const [visualMode, setVisualMode] = useState<VisualMode>('illustration');
 
   const handleSetVisualMode = (mode: VisualMode) => {
     // No-op now that toggle is removed

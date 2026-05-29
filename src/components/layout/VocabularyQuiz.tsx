@@ -3,9 +3,10 @@ import { VocabularyItem } from '../../data/content';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { CheckCircle2, XCircle, ArrowRight, RotateCcw } from 'lucide-react';
+import { lessonTranslations } from '../../data/lessonTranslations';
 
 export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] }) {
-  const { visualMode } = useLanguage();
+  const { language, visualMode } = useLanguage();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [options, setOptions] = useState<string[]>([]);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -62,12 +63,14 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
 
   if (!vocabulary || vocabulary.length < 2) return null;
 
+  const t = lessonTranslations[language];
+
   return (
     <div className="bg-white rounded-2xl p-6 border border-stone-200 mt-6 shadow-sm">
       <div className="mb-6 flex items-center justify-between">
         <div>
-          <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide">Test Rápido</h3>
-          <p className="text-sm text-stone-500">¿Qué palabra corresponde a esta imagen?</p>
+          <h3 className="text-lg font-bold text-[#192A56] uppercase tracking-wide">{t.vocabQuizHeader}</h3>
+          <p className="text-sm text-stone-500">{t.vocabQuizSub}</p>
         </div>
         {!isFinished && (
           <div className="bg-[#f4fbf6] px-3 py-1 rounded-full border border-[#00823B]/20 text-sm font-bold text-[#00823B]">
@@ -92,7 +95,7 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
             >
               {(() => {
                 const item = vocabulary[currentQuestion];
-                const displayImg = visualMode === 'illustration' ? (item.illustrationUrl || item.imageUrl) : item.imageUrl;
+                const displayImg = visualMode === 'illustration' ? item.illustrationUrl : item.imageUrl;
                 if (displayImg) {
                   return <img src={displayImg} alt={item.word} className="w-20 h-20 object-contain drop-shadow-sm rounded-sm" />;
                 }
@@ -145,7 +148,7 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
                   onClick={handleNext}
                   className="px-6 py-3 bg-[#00823B] hover:bg-[#006e32] text-white font-bold rounded-full uppercase tracking-wider flex items-center gap-2 transition-colors"
                 >
-                  {currentQuestion < vocabulary.length - 1 ? 'Siguiente' : 'Terminar'}
+                  {currentQuestion < vocabulary.length - 1 ? t.next : t.finish}
                   <ArrowRight size={18} />
                 </button>
               </motion.div>
@@ -161,9 +164,9 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
             <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-[#f4fbf6] text-[#00823B] mb-6">
               <span className="text-4xl">🏆</span>
             </div>
-            <h3 className="text-2xl font-black text-[#192A56] uppercase mb-2">¡Completado!</h3>
+            <h3 className="text-2xl font-black text-[#192A56] uppercase mb-2">{t.completed}</h3>
             <p className="text-stone-600 mb-6 font-bold text-lg">
-              Puntuación: <span className={score >= vocabulary.length / 2 ? "text-[#00823B]" : "text-[#F5A623]"}>{score} / {vocabulary.length}</span>
+              {t.yourScore} <span className={score >= vocabulary.length / 2 ? "text-[#00823B]" : "text-[#F5A623]"}>{score} / {vocabulary.length}</span>
             </p>
             
             <button 
@@ -171,7 +174,7 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
               className="bg-[#F5A623] hover:bg-[#d48d1a] text-white px-8 py-3 rounded-full font-bold uppercase tracking-wider flex items-center gap-2 mx-auto"
             >
               <RotateCcw size={18} />
-              Intentar de nuevo
+              {t.tryAgain}
             </button>
           </motion.div>
         )}
@@ -179,3 +182,4 @@ export function VocabularyQuiz({ vocabulary }: { vocabulary: VocabularyItem[] })
     </div>
   );
 }
+

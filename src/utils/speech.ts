@@ -24,13 +24,13 @@ export function speakSpanish(text: string) {
     utterance.lang = 'es-ES'; // Spanish (Spain)
     utterance.rate = 0.85;    // Slower rate for clear pronunciation and learning
 
-    // Explicitly search for a Spanish voice if possible
+    // Explicitly search for a Spanish voice, strictly prioritizing Spain (es-ES)
     const voices = window.speechSynthesis.getVoices();
-    const spanishVoice = voices.find(voice => 
-      voice.lang.includes('es-ES') || 
-      voice.lang.includes('es_ES') || 
-      voice.lang.startsWith('es')
-    );
+    const spanishVoice = 
+      voices.find(voice => voice.lang === 'es-ES' || voice.lang === 'es_ES') ||
+      voices.find(voice => voice.lang.includes('es-ES') || voice.lang.includes('es_ES')) ||
+      voices.find(voice => voice.lang.startsWith('es-') || voice.lang.startsWith('es_')) ||
+      voices.find(voice => voice.lang.startsWith('es'));
 
     if (spanishVoice) {
       utterance.voice = spanishVoice;

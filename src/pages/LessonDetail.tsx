@@ -3,13 +3,15 @@ import { useParams, Link } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import { lessons } from '../data/content';
-import { ArrowLeft, CheckCircle2, ChevronRight, XCircle, BookOpen, Volume2 } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, XCircle, BookOpen, Volume2 } from 'lucide-react';
 import { MemoryGame } from '../components/layout/MemoryGame';
 import { FlashcardsGame } from '../components/layout/FlashcardsGame';
 import { VocabularyQuiz } from '../components/layout/VocabularyQuiz';
 import { ListeningQuiz } from '../components/layout/ListeningQuiz';
 import { useLanguage, replaceTransTags, TransText } from '../contexts/LanguageContext';
 import { speakSpanish } from '../utils/speech';
+import { lessonTranslations } from '../data/lessonTranslations';
+import { getLessonMetadata } from '../data/lessonMetadataTranslations';
 
 export function LessonDetail() {
   const { id } = useParams<{ id: string }>();
@@ -62,6 +64,14 @@ export function LessonDetail() {
     );
   }
 
+  // Determine translation language: A1 and A2 are fully translatable, B1+ are Spanish only
+  const isTranslatable = ['A1', 'A2'].includes(lesson.level);
+  const displayLang = isTranslatable ? language : 'es';
+
+  // Get translations
+  const t = lessonTranslations[displayLang];
+  const { title: translatedTitle } = getLessonMetadata(lesson.id, lesson.title, lesson.description, displayLang);
+
   const handleSelectAnswer = (exerciseId: string, optIndex: number) => {
     if (showResults) return; // Prevent changing answers after checking
     setAnswers(prev => ({ ...prev, [exerciseId]: optIndex }));
@@ -79,18 +89,18 @@ export function LessonDetail() {
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <Link to={`/nivel/${lesson.level}`} className="inline-flex items-center text-[10px] font-bold uppercase tracking-widest text-stone-400 hover:text-[#00823B] mb-8 transition-colors">
         <ArrowLeft size={16} className="mr-2" />
-        Volver a Nivel {lesson.level}
+        {t.backToLevel} {lesson.level}
       </Link>
 
       <div className="bg-white rounded-3xl shadow-sm border border-stone-200 overflow-hidden mb-12">
         <div className="h-48 sm:h-64 w-full relative">
           {(() => {
-            const bannerImg = visualMode === 'illustration' ? (lesson.illustrationUrl || lesson.imageUrl) : lesson.imageUrl;
+            const bannerImg = visualMode === 'illustration' ? lesson.illustrationUrl : lesson.imageUrl;
             return bannerImg ? (
               <>
               <img 
                 src={bannerImg} 
-                alt={lesson.title} 
+                alt={translatedTitle} 
                 className="w-full h-full object-cover" 
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
@@ -118,7 +128,7 @@ export function LessonDetail() {
                   Nivel {lesson.level}
                 </span>
                 <span className="bg-white text-[#192A56] font-bold px-3 py-1 rounded-full text-[10px] shadow uppercase tracking-tighter">
-                  {lesson.category}
+                  {t.categories[lesson.category] || lesson.category}
                 </span>
               </div>
             </div>
@@ -127,20 +137,20 @@ export function LessonDetail() {
         <div className="p-5 sm:p-8 md:p-12">
           {/* We use a prose class wrapper to style markdown, we need @tailwindcss/typography but we can do it manually or rely on standard tags if no typography plugin. We'll add custom styles since we didn't install the plugin. */}
           <div className="prose-custom prose prose-stone prose-lg sm:prose-xl max-w-none prose-p:leading-relaxed overflow-x-auto mb-12">
-            <Markdown rehypePlugins={[rehypeRaw]}>{replaceTransTags(lesson.content, language)}</Markdown>
+            <Markdown rehypePlugins={[rehypeRaw]}>{replaceTransTags(lesson.content, displayLang)}</Markdown>
           </div>
           
           {lesson.vocabulary && lesson.vocabulary.length > 0 && (
             <div className="mt-8 border-t border-stone-100 pt-8">
-               <h2 className="text-2xl font-black text-[#192A56] mb-6">Vocabulario y Juegos interactivos</h2>
+               <h2 className="text-2xl font-black text-[#192A56] mb-6">{t.vocabHeader}</h2>
                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3 sm:gap-4 mb-8">
                  {lesson.vocabulary.map((vocab, index) => {
-                   const translatedText = vocab.translations?.[language] || vocab.translation;
+                   const translatedText = isTranslatable ? (vocab.translations?.[displayLang] || vocab.translation) : '';
                    return (
                    <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full relative" style={{ borderColor: vocab.color || '#E2E8F0' }}>
                      <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl relative" style={{ background: vocab.color || '#f4fbf6' }}>
                        {(() => {
-                          const displayImg = visualMode === 'illustration' ? (vocab.illustrationUrl || vocab.imageUrl) : vocab.imageUrl;
+                          const displayImg = visualMode === 'illustration' ? vocab.illustrationUrl : vocab.imageUrl;
                           return displayImg ? (
                             <img src={displayImg} alt={vocab.word} className="w-2/3 h-2/3 object-contain drop-shadow-sm rounded-sm" />
                           ) : (
@@ -153,14 +163,14 @@ export function LessonDetail() {
                             speakSpanish(vocab.word);
                           }}
                           className="absolute bottom-1 right-1 w-7 h-7 rounded-full bg-white shadow flex items-center justify-center text-[#00823B] hover:bg-[#00823B] hover:text-white transition-all active:scale-90"
-                          title="Escuchar"
+                          title={t.listen}
                         >
                           <Volume2 size={14} />
                         </button>
-                     </div>
-                     <span className="font-bold text-[#3C3633] text-xs sm:text-sm leading-tight mt-auto">{vocab.word}</span>
-                     {translatedText && <span className="text-[10px] sm:text-xs text-stone-500 mt-1">({translatedText})</span>}
-                   </div>
+                      </div>
+                      <span className="font-bold text-[#3C3633] text-xs sm:text-sm leading-tight mt-auto">{vocab.word}</span>
+                      {translatedText && <span className="text-[10px] sm:text-xs text-stone-500 mt-1">({translatedText})</span>}
+                    </div>
                    );
                  })}
                </div>
@@ -179,7 +189,7 @@ export function LessonDetail() {
       {/* Exercises Section */}
       {lesson.exercises && lesson.exercises.length > 0 && (
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-stone-200 shadow-sm mb-12">
-          <h2 className="text-xs font-bold text-stone-400 uppercase tracking-widest mb-6 border-b border-stone-200 pb-2">Ponte a prueba</h2>
+          <h2 className="text-xs font-bold text-stone-400 uppercase tracking-widest mb-6 border-b border-stone-200 pb-2">{t.quizHeader}</h2>
           
           <div className="space-y-8">
             {lesson.exercises.map((ex, index) => (
@@ -223,7 +233,7 @@ export function LessonDetail() {
                         disabled={showResults}
                         className={`w-full text-left flex items-center justify-between px-5 sm:px-6 py-4 rounded-xl border transition-all min-h-[60px] active:scale-[0.99] shadow-sm text-base sm:text-lg ${bgClass} ${textClass}`}
                       >
-                        <span className="flex-1">{opt}</span>
+                        <span className="flex-1"><TransText text={opt} /></span>
                         {icon && <span className="ml-3 shrink-0">{icon}</span>}
                       </button>
                     )
@@ -240,18 +250,18 @@ export function LessonDetail() {
                 disabled={Object.keys(answers).length < lesson.exercises.length}
                 className="px-6 py-3 bg-[#00823B] text-white rounded-full text-[11px] font-bold uppercase tracking-widest shadow-sm hover:bg-[#006A30] disabled:bg-stone-200 disabled:text-stone-400 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-2"
               >
-                Comprobar respuestas
+                {t.checkAnswers}
               </button>
             ) : (
               <div className="text-center w-full">
                 <div className="bg-[#FAF9F6] rounded-2xl p-6 border border-stone-200 inline-block mb-6 shadow-sm">
                   <p className="text-xl font-bold text-[#3C3633]">
-                    Tu puntuación: <span className={score === lesson.exercises.length ? 'text-[#00823B]' : 'text-[#F5A623]'}>{score} / {lesson.exercises.length}</span>
+                    {t.yourScore} <span className={score === lesson.exercises.length ? 'text-[#00823B]' : 'text-[#F5A623]'}>{score} / {lesson.exercises.length}</span>
                   </p>
                   {score === lesson.exercises.length ? (
-                    <p className="text-[#00823B] font-medium mt-2 text-sm">¡Excelente trabajo!</p>
+                    <p className="text-[#00823B] font-medium mt-2 text-sm">{t.excellentWork}</p>
                   ) : (
-                    <p className="text-[#F5A623] font-medium mt-2 text-sm">Buen intento, sigue practicando.</p>
+                    <p className="text-[#F5A623] font-medium mt-2 text-sm">{t.keepPracticing}</p>
                   )}
                 </div>
                 <div>
@@ -262,7 +272,7 @@ export function LessonDetail() {
                     }}
                     className="text-[11px] font-bold uppercase tracking-widest text-stone-400 hover:text-[#00823B] transition-colors"
                   >
-                    Repetir ejercicio
+                    {t.repeatExercise}
                   </button>
                 </div>
               </div>
