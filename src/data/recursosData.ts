@@ -21,33 +21,6 @@ export interface ResourceEntry {
 
 export const lecturas: ResourceEntry[] = [
   {
-    id: 'lec-4',
-    title: 'Lectura en PDF: Rutina Diaria',
-    description: 'Ficha de lectura en PDF para descargar o abrir en el navegador con ejercicios sobre las rutinas.',
-    level: 'A1',
-    url: '/docs/rutina_diaria_a1.pdf',
-    emoji: '📄',
-    tags: ['rutina', 'pdf', 'ejercicios'],
-  },
-  {
-    id: 'lec-5',
-    title: 'Noticias en español fácil',
-    description: 'Noticias adaptadas al nivel intermedio con vocabulario explicado.',
-    level: 'B1',
-    url: 'https://www.newsinslowspanish.com/',
-    emoji: '📰',
-    tags: ['noticias', 'actualidad'],
-  },
-  {
-    id: 'lec-completar-texto',
-    title: 'Ficha: Completar Texto',
-    description: 'Completa los huecos con las palabras adecuadas para practicar vocabulario y gramática.',
-    level: 'A1',
-    url: '/docs/completar-texto.jpg',
-    emoji: '📝',
-    tags: ['ejercicios', 'vocabulario', 'gramática'],
-  },
-  {
     id: 'lec-comprension-3',
     title: 'Ficha: Comprensión Lectora 3',
     description: 'Ficha para ejercitar la lectura detallada y responder preguntas básicas en español.',
