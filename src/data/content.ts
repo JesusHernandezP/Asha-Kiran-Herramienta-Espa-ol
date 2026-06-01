@@ -1568,6 +1568,8 @@ Tú: **La cuenta, por favor.** (Para poder pagar). <trans en=\"(You: **The bill,
     description: "Consolida las bases del español y repasa los contenidos clave del nivel A1. <trans en=\"(Consolidate the bases of Spanish and review the key contents of level A1.)\" ar=\"(قم بتوحيد قواعد اللغة الإسبانية ومراجعة المحتويات الأساسية للمستوى A1.)\" uk=\"(Закріпіть основи іспанської мови та повторіть ключовий зміст рівня A1.)\" fr=\"(Consolider les bases d'espagnol et revoir les contenus clés du niveau A1.)\"/>",
     emoji: "📚",
     color: "#E2F3E7",
+    imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
     vocabulary: [],
     content: `
 ## Objetivo del repaso A1 <trans en=\"(Review objective A1)\" ar=\"(هدف المراجعة A1)\" uk=\"(Мета огляду A1)\" fr=\"(Objectif de révision A1)\"/>
@@ -1650,6 +1652,8 @@ Consolidar las bases del español, reforzar confianza comunicativa y preparar el
     description: "Aprende vocabulario sobre el tiempo, el clima, las estaciones y la naturaleza. <trans en=\"(Learn vocabulary about weather, climate, seasons and nature.)\" ar=\"(تعلم المفردات حول الطقس والمناخ والمواسم والطبيعة.)\" uk=\"(Вивчайте словниковий запас про погоду, клімат, пори року та природу.)\" fr=\"(Apprenez le vocabulaire sur la météo, le climat, les saisons et la nature.)\"/>",
     emoji: "☀️",
     color: "#FFF4E5",
+    imageUrl: "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=600&auto=format&fit=crop&q=80",
     vocabulary: [
       { word: "Naturaleza", translations: { en: "Nature", ar: "طبيعة", uk: "природа", fr: "Nature" }, emoji: "🌳", color: "#E2F3E7" },
       { word: "Clima", translations: { en: "Climate", ar: "مناخ", uk: "Клімат", fr: "Climat" }, emoji: "🌤️", color: "#E3EEF9" },
@@ -1785,6 +1789,8 @@ También usamos verbos específicos como **llover** (llueve) o **nevar** (nieva)
     description: "Vocabulario y expresiones útiles para describir síntomas y hablar en el médico u hospital. <trans en=\"(Useful vocabulary and expressions to describe symptoms and speak at the doctor or hospital.)\" ar=\"(مفردات وتعابير مفيدة لوصف الأعراض والتحدث عند الطبيب أو المستشفى.)\" uk=\"(Корисна лексика та вирази для опису симптомів і спілкування з лікарем або в лікарні.)\" fr=\"(Vocabulaire et expressions utiles pour décrire les symptômes et parler chez le médecin ou à l'hôpital.)\"/>",
     emoji: "🏥",
     color: "#EBF8FF",
+    imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&auto=format&fit=crop&q=80",
     vocabulary: [
       { word: "Hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, emoji: "🏥", color: "#E2F3E7" },
       { word: "Centro de salud", translations: { en: "health center", ar: "مركز صحي", uk: "оздоровчий центр", fr: "centre de santé" }, emoji: "🩺", color: "#E3EEF9" },
@@ -1920,6 +1926,8 @@ Para expresar problemas de salud, usamos principalmente dos estructuras: <trans 
     description: "Aprende vocabulario sobre el colegio, las asignaturas, el aula y los estudios. <trans en=\"(Learn vocabulary about school, subjects, the classroom and studies.)\" ar=\"(تعلم المفردات حول المدرسة، والموضوعات، والفصول الدراسية والدراسات.)\" uk=\"(Вивчайте словниковий запас про школу, предмети, клас і навчання.)\" fr=\"(Apprenez le vocabulaire sur l'école, les matières, la classe et les études.)\"/>",
     emoji: "🏫",
     color: "#FFF5F5",
+    imageUrl: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&auto=format&fit=crop&q=80",
     vocabulary: [
       { word: "Colegio", translations: { en: "School", ar: "مدرسة", uk: "Школа", fr: "École" }, emoji: "🏫", color: "#E2F3E7" },
       { word: "Escuela", translations: { en: "School", ar: "مدرسة", uk: "Школа", fr: "École" }, emoji: "🏫", color: "#E3EEF9" },
@@ -2051,6 +2059,8 @@ Para expresar falta de obligación, usamos **No tener que + infinitivo**: <trans
     description: "Vocabulario y verbos reflexivos para describir tus actividades cotidianas y horarios. <trans en=\"(Vocabulary and reflective verbs to describe your daily activities and schedules.)\" ar=\"(المفردات والأفعال الانعكاسية لوصف أنشطتك اليومية وجداولك.)\" uk=\"(Словниковий запас і рефлексивні дієслова для опису вашої щоденної діяльності та розкладу.)\" fr=\"(Vocabulaire et verbes de réflexion pour décrire vos activités et horaires quotidiens.)\"/>",
     emoji: "⏰",
     color: "#F3E8FF",
+    imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
     vocabulary: [
       { word: "Rutina", translations: { en: "Routine", ar: "روتين", uk: "Рутина", fr: "Routine" }, emoji: "🔄", color: "#E2F3E7" },
       { word: "Día", translations: { en: "Day", ar: "يوم", uk: "День", fr: "Jour" }, emoji: "☀️", color: "#E3EEF9" },
@@ -2182,6 +2192,8 @@ Para ordenar las acciones usamos conectores temporales: <trans en=\"(To order th
     description: "Amplía tu vocabulario sobre los miembros de la familia y las relaciones personales. <trans en=\"(Expand your vocabulary about family members and personal relationships.)\" ar=\"(قم بتوسيع مفرداتك حول أفراد الأسرة والعلاقات الشخصية.)\" uk=\"(Розширте свій словниковий запас про членів сім’ї та особисті стосунки.)\" fr=\"(Développez votre vocabulaire sur les membres de la famille et les relations personnelles.)\"/>",
     emoji: "👥",
     color: "#FEFCBF",
+    imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
     vocabulary: [
       { word: "Familia", translations: { en: "Family", ar: "عائلة", uk: "Сім'я", fr: "Famille" }, emoji: "👨‍👩‍👧‍👦", color: "#E2F3E7" },
       { word: "Padres", translations: { en: "Parents", ar: "آباء", uk: "Батьки", fr: "Parents" }, emoji: "👨‍👩‍👦", color: "#E3EEF9" },
@@ -2313,6 +2325,8 @@ Usamos los pronombres de objeto para indicar hacia quién va dirigida la acción
     description: "Vocabulario sobre profesiones, búsqueda de empleo y el entorno laboral. <trans en=\"(Vocabulary about professions, job search and the work environment.)\" ar=\"(مفردات حول المهن والبحث عن عمل وبيئة العمل.)\" uk=\"(Лексика про професії, пошук роботи та робоче середовище.)\" fr=\"(Vocabulaire sur les métiers, la recherche d'emploi et l'environnement de travail.)\"/>",
     emoji: "💼",
     color: "#FFF4E5",
+    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
     vocabulary: [
       { word: "Trabajo", translations: { en: "Job", ar: "وظيفة", uk: "Робота", fr: "Emploi" }, emoji: "💼", color: "#E2F3E7" },
       { word: "Empleo", translations: { en: "Employment", ar: "توظيف", uk: "Працевлаштування", fr: "Emploi" }, emoji: "💼", color: "#E3EEF9" },
@@ -2441,6 +2455,8 @@ Vocabulario clave para desenvolverse en el ámbito del trabajo: <trans en=\"(Key
     description: "Consolida tus conocimientos de nivel A2 con ejercicios interactivos de repaso. <trans en=\"(Consolidate your A2 level knowledge with interactive review exercises.)\" ar=\"(قم بتعزيز معرفتك بمستوى A2 من خلال تمارين المراجعة التفاعلية.)\" uk=\"(Закріпіть свої знання на рівні А2 за допомогою інтерактивних вправ.)\" fr=\"(Consolidez vos connaissances de niveau A2 avec des exercices de révision interactifs.)\"/>",
     emoji: "🎓",
     color: "#E2F3E7",
+    imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
     vocabulary: [],
     content: `
 ## Temas A2 Repasados <trans en=\"(A2 Topics Reviewed)\" ar=\"(تمت مراجعة موضوعات A2)\" uk=\"(Переглянуті теми A2)\" fr=\"(A2 Sujets examinés)\"/>

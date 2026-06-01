@@ -233,7 +233,9 @@ export function Navbar() {
                     >
                       <div className="w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden shadow-sm relative" style={{ backgroundColor: lesson.color || '#f4fbf6' }}>
                         {(() => {
-                          const displayImg = visualMode === 'illustration' ? lesson.illustrationUrl : lesson.imageUrl;
+                          const displayImg = visualMode === 'illustration' 
+                            ? (lesson.illustrationUrl || lesson.imageUrl) 
+                            : (lesson.imageUrl || lesson.illustrationUrl);
                           if (displayImg) {
                             return <img src={displayImg} alt="" className="w-full h-full object-cover" />;
                           }

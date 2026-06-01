@@ -95,7 +95,9 @@ export function LessonDetail() {
       <div className="bg-white rounded-3xl shadow-sm border border-stone-200 overflow-hidden mb-12">
         <div className="h-48 sm:h-64 w-full relative">
           {(() => {
-            const bannerImg = visualMode === 'illustration' ? lesson.illustrationUrl : lesson.imageUrl;
+            const bannerImg = visualMode === 'illustration' 
+              ? (lesson.illustrationUrl || lesson.imageUrl) 
+              : (lesson.imageUrl || lesson.illustrationUrl);
             return bannerImg ? (
               <>
               <img 
@@ -150,7 +152,9 @@ export function LessonDetail() {
                    <div key={index} className="bg-white border rounded-2xl p-3 sm:p-4 text-center shadow-sm transition-colors flex flex-col items-center h-full relative" style={{ borderColor: vocab.color || '#E2E8F0' }}>
                      <div className="w-full aspect-square rounded-xl mb-2 sm:mb-3 flex items-center justify-center text-4xl sm:text-5xl relative" style={{ background: vocab.color || '#f4fbf6' }}>
                        {(() => {
-                          const displayImg = visualMode === 'illustration' ? vocab.illustrationUrl : vocab.imageUrl;
+                          const displayImg = visualMode === 'illustration' 
+                            ? (vocab.illustrationUrl || vocab.imageUrl) 
+                            : (vocab.imageUrl || vocab.illustrationUrl);
                           return displayImg ? (
                             <img src={displayImg} alt={vocab.word} className="w-2/3 h-2/3 object-contain drop-shadow-sm rounded-sm" />
                           ) : (

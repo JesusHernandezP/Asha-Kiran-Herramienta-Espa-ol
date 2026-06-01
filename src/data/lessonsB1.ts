@@ -1054,7 +1054,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b12",
@@ -2139,7 +2141,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b13",
@@ -3164,7 +3168,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b14",
@@ -4109,7 +4115,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b15",
@@ -5124,7 +5132,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b16",
@@ -6149,7 +6159,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b17",
@@ -7164,7 +7176,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b18",
@@ -8179,7 +8193,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b19",
@@ -9294,7 +9310,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "tema-b110",
@@ -10339,7 +10357,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-1",
@@ -10403,7 +10423,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-2",
@@ -10467,7 +10489,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-3",
@@ -10531,7 +10555,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-4",
@@ -10595,7 +10621,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-5",
@@ -10659,7 +10687,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-6",
@@ -10723,7 +10753,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-7",
@@ -10787,7 +10819,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-8",
@@ -10851,7 +10885,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-9",
@@ -10915,7 +10951,9 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=80"
   },
   {
     "id": "b1-comp-texto-10",
@@ -10979,6 +11017,8 @@ export const lessonsB1: Lesson[] = [
         ],
         "correctAnswer": 0
       }
-    ]
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
+    "illustrationUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80"
   }
 ];
