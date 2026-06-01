@@ -421,9 +421,19 @@ export function RecursoDetalle() {
                     </div>
 
                     {/* Action Button */}
-                    {item.url && (
+                    {(item.url || (resourceType === 'videos' && item.embedUrl)) && (
                       <div className="mt-auto pt-4 border-t border-stone-50">
-                        {item.url.startsWith('http') || item.url.startsWith('/docs/') ? (
+                        {resourceType === 'videos' && item.embedUrl ? (
+                          <a
+                            href={item.embedUrl.replace('/embed/', '/watch?v=')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-sm font-black text-[#00823B] hover:text-[#00823B]/80 transition-colors"
+                          >
+                            <span>Ver en YouTube</span>
+                            <ExternalLink size={14} />
+                          </a>
+                        ) : item.url && (item.url.startsWith('http') || item.url.startsWith('/docs/')) ? (
                           <a
                             href={item.url}
                             target="_blank"
@@ -433,7 +443,7 @@ export function RecursoDetalle() {
                             <span>{item.url.startsWith('/docs/') ? 'Abrir Ficha' : 'Visitar Recurso'}</span>
                             <ExternalLink size={14} />
                           </a>
-                        ) : (
+                        ) : item.url ? (
                           <Link
                             to={item.url}
                             className="inline-flex items-center gap-2 text-sm font-black text-[#00823B] hover:text-[#00823B]/80 transition-colors"
@@ -441,7 +451,7 @@ export function RecursoDetalle() {
                             <span>Ir a la Lección</span>
                             <ArrowLeft size={14} className="rotate-180" />
                           </Link>
-                        )}
+                        ) : null}
                       </div>
                     )}
                   </div>
