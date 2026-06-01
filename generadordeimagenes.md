@@ -35,7 +35,7 @@ Cuando el usuario pida continuar con las imágenes (por ejemplo: *"Lee el genera
 | [x] | `a1-gram-verbos` | Verbos Básicos (Ser, Estar, Tener) | `verbos.png` | *Completado* |
 | [x] | `a1-vocab-ropa` | Vocabulario: La Ropa | `ropa.png` | *Completado* |
 | [x] | `a1-gram-genero` | Género: Masculino y Femenino | `genero.png` | *Completado* |
-| [ ] | `a1-gram-posesivos` | Posesivos | `posesivos.png` | Flat vector illustration of a child holding a toy saying 'mio' and pointing in a cartoon 2D style, educational for language learning, minimal background, bright pastel colors, isolated design. |
+| [x] | `a1-gram-posesivos` | Posesivos | `posesivos.png` | *Completado* |
 | [ ] | `a1-gram-negacion` | Afirmación y Negación | `negacion.png` | Flat vector illustration of a thumbs up and thumbs down sign, or check and cross icons in a cartoon 2D style, educational for language learning, minimal background, bright pastel colors, isolated design. |
 | [x] | `a1-vocab-saludos` | Saludos y Presentaciones | `saludos.png` | *Completado* |
 | [x] | `a1-vocab-numeros` | Vocabulario: Los Números (1-10) | `numeros.png` | *Completado* |
