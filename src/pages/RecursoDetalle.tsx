@@ -423,14 +423,14 @@ export function RecursoDetalle() {
                     {/* Action Button */}
                     {item.url && (
                       <div className="mt-auto pt-4 border-t border-stone-50">
-                        {item.url.startsWith('http') ? (
+                        {item.url.startsWith('http') || item.url.startsWith('/docs/') ? (
                           <a
                             href={item.url}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 text-sm font-black text-[#00823B] hover:text-[#00823B]/80 transition-colors"
                           >
-                            <span>Visitar Recurso</span>
+                            <span>{item.url.startsWith('/docs/') ? 'Abrir Ficha' : 'Visitar Recurso'}</span>
                             <ExternalLink size={14} />
                           </a>
                         ) : (
