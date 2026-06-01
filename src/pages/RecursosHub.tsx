@@ -2,14 +2,14 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { glossaryTranslations } from '../data/glossaryTranslations';
 import { allResources, resourceMeta } from '../data/recursosData';
 import type { ResourceType } from '../data/recursosData';
-import { FileText, Video, Headphones, ImageIcon, ArrowRight, ArrowLeft, ExternalLink } from 'lucide-react';
+import { FileText, Video, Headphones, BookOpen, ArrowRight, ArrowLeft, ExternalLink } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 
-const typeIcons: Record<ResourceType, React.ReactNode> = {
+const typeIcons: Record<string, React.ReactNode> = {
   lecturas: <FileText size={28} />,
   videos: <Video size={28} />,
   audios: <Headphones size={28} />,
-  imagenes: <ImageIcon size={28} />,
+  glosario: <BookOpen size={28} />,
 };
 
 export function RecursosHub() {
@@ -18,11 +18,11 @@ export function RecursosHub() {
   const isRtl = language === 'ar';
   const navigate = useNavigate();
 
-  const resourceTypes: { type: ResourceType; label: string; desc: string }[] = [
-    { type: 'lecturas', label: t.lecturas, desc: t.lecturasDesc },
-    { type: 'videos', label: t.videos, desc: t.videosDesc },
-    { type: 'audios', label: t.audios, desc: t.audiosDesc },
-    { type: 'imagenes', label: t.imagenes, desc: t.imagenesDesc },
+  const resourceTypes = [
+    { type: 'lecturas', label: t.lecturas, desc: t.lecturasDesc, path: '/recursos/lecturas' },
+    { type: 'videos', label: t.videos, desc: t.videosDesc, path: '/recursos/videos' },
+    { type: 'audios', label: t.audios, desc: t.audiosDesc, path: '/recursos/audios' },
+    { type: 'glosario', label: t.pageTitle, desc: t.pageSubtitle, path: '/glosario' },
   ];
 
   return (
@@ -49,13 +49,16 @@ export function RecursosHub() {
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {resourceTypes.map(({ type, label, desc }) => {
-              const meta = resourceMeta[type];
-              const count = allResources[type].length;
+            {resourceTypes.map(({ type, label, desc, path }) => {
+              const isGlosario = type === 'glosario';
+              const meta = isGlosario
+                ? { emoji: '📖', color: '#8EAC3E', gradient: 'from-lime-500 to-green-600' }
+                : resourceMeta[type as ResourceType];
+              const count = isGlosario ? 6 : allResources[type as ResourceType].length;
               return (
                 <button
                   key={type}
-                  onClick={() => navigate(`/recursos/${type}`)}
+                  onClick={() => navigate(path)}
                   className="group text-left bg-white rounded-3xl border border-stone-100 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden"
                 >
                   {/* Gradient accent bar */}
@@ -75,7 +78,10 @@ export function RecursosHub() {
 
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-stone-400 bg-stone-100 px-3 py-1 rounded-full">
-                      {count} {language === 'es' ? 'recursos' : 'resources'}
+                      {isGlosario
+                        ? (language === 'es' ? '6 niveles' : '6 levels')
+                        : `${count} ${language === 'es' ? 'recursos' : 'resources'}`
+                      }
                     </span>
                     <ArrowRight size={18} className="text-stone-300 group-hover:text-[#00823B] group-hover:translate-x-1 transition-all" />
                   </div>
@@ -91,43 +97,46 @@ export function RecursosHub() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-black text-[#192A56] mb-8 text-center">{t.recentPosts}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Object.entries(allResources).flatMap(([type, resources]) =>
-              resources.slice(0, 2).map((resource) => {
-                const meta = resourceMeta[type as ResourceType];
-                return (
-                  <div
-                    key={resource.id}
-                    className="bg-[#FAF9F6] rounded-2xl border border-stone-100 p-5 hover:shadow-md transition-all"
-                  >
-                    <div className="flex items-center gap-3 mb-3">
-                      <span className="text-xl">{resource.emoji}</span>
-                      <span
-                        className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full text-white"
-                        style={{ backgroundColor: meta.color }}
-                      >
-                        {type}
-                      </span>
-                      {resource.level && (
-                        <span className="text-[10px] font-bold text-stone-500 bg-stone-100 px-2 py-0.5 rounded-full">{resource.level}</span>
+            {Object.entries(allResources)
+              .filter(([type]) => type !== 'imagenes')
+              .flatMap(([type, resources]) =>
+                resources.slice(0, 2).map((resource) => {
+                  const meta = resourceMeta[type as ResourceType];
+                  return (
+                    <div
+                      key={resource.id}
+                      className="bg-[#FAF9F6] rounded-2xl border border-stone-100 p-5 hover:shadow-md transition-all"
+                    >
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-xl">{resource.emoji}</span>
+                        <span
+                          className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full text-white"
+                          style={{ backgroundColor: meta.color }}
+                        >
+                          {type}
+                        </span>
+                        {resource.level && (
+                          <span className="text-[10px] font-bold text-stone-500 bg-stone-100 px-2 py-0.5 rounded-full">{resource.level}</span>
+                        )}
+                      </div>
+                      <h3 className="font-bold text-[#192A56] mb-1">{resource.title}</h3>
+                      <p className="text-sm text-stone-500 leading-relaxed mb-3">{resource.description}</p>
+                      {resource.url && (
+                        <Link
+                          to={resource.url.startsWith('http') ? resource.url : resource.url}
+                          target={resource.url.startsWith('http') ? '_blank' : undefined}
+                          rel={resource.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+                          className="inline-flex items-center gap-1 text-sm font-bold text-[#00823B] hover:underline"
+                        >
+                          {resource.url.startsWith('http') ? <ExternalLink size={14} /> : <ArrowRight size={14} />}
+                          {t.viewAll}
+                        </Link>
                       )}
                     </div>
-                    <h3 className="font-bold text-[#192A56] mb-1">{resource.title}</h3>
-                    <p className="text-sm text-stone-500 leading-relaxed mb-3">{resource.description}</p>
-                    {resource.url && (
-                      <Link
-                        to={resource.url.startsWith('http') ? resource.url : resource.url}
-                        target={resource.url.startsWith('http') ? '_blank' : undefined}
-                        rel={resource.url.startsWith('http') ? 'noopener noreferrer' : undefined}
-                        className="inline-flex items-center gap-1 text-sm font-bold text-[#00823B] hover:underline"
-                      >
-                        {resource.url.startsWith('http') ? <ExternalLink size={14} /> : <ArrowRight size={14} />}
-                        {t.viewAll}
-                      </Link>
-                    )}
-                  </div>
-                );
-              })
-            )}
+                  );
+                })
+              )
+            }
           </div>
         </div>
       </section>

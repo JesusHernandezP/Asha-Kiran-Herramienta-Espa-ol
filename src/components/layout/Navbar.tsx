@@ -42,7 +42,7 @@ export function Navbar() {
     { name: 'Lecturas', icon: <FileText size={16} />, path: '/recursos/lecturas' },
     { name: 'Videos', icon: <Video size={16} />, path: '/recursos/videos' },
     { name: 'Audios', icon: <Headphones size={16} />, path: '/recursos/audios' },
-    { name: 'Imágenes', icon: <Image size={16} />, path: '/recursos/imagenes' },
+    { name: 'Glosario', icon: <BookOpen size={16} />, path: '/glosario' },
   ];
 
   const recommendedLessons = lessons.slice(0, 3);
@@ -163,19 +163,6 @@ export function Navbar() {
              >
                <X size={20} />
              </button>
-          </div>
-
-          {/* Glosario Section */}
-          <div className="mb-6">
-            <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-3">Vocabulario</h3>
-            <Link
-              to="/glosario"
-              onClick={() => setIsMenuOpen(false)}
-              className="flex items-center gap-3 px-4 py-3 bg-[#f4fbf6] border border-[#00823B]/10 rounded-2xl text-[#00823B] font-bold hover:bg-[#00823B]/20 transition-all hover:scale-[1.02]"
-            >
-              <BookOpen size={20} />
-              <span>Glosario de Términos</span>
-            </Link>
           </div>
 
           {/* Niveles */}
