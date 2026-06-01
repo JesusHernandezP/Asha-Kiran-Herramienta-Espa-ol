@@ -1,0 +1,646 @@
+[
+  [
+    "Avión",
+    ""
+  ],
+  [
+    "Barco",
+    ""
+  ],
+  [
+    "Casa",
+    ""
+  ],
+  [
+    "Dedo",
+    ""
+  ],
+  [
+    "Elefante",
+    ""
+  ],
+  [
+    "Fuego",
+    ""
+  ],
+  [
+    "Gato",
+    ""
+  ],
+  [
+    "Helado",
+    ""
+  ],
+  [
+    "Isla",
+    ""
+  ],
+  [
+    "Jirafa",
+    ""
+  ],
+  [
+    "Koala",
+    ""
+  ],
+  [
+    "Luna",
+    ""
+  ],
+  [
+    "Manzana",
+    ""
+  ],
+  [
+    "Nube",
+    ""
+  ],
+  [
+    "Ñandú",
+    ""
+  ],
+  [
+    "Oso",
+    ""
+  ],
+  [
+    "Perro",
+    ""
+  ],
+  [
+    "Queso",
+    ""
+  ],
+  [
+    "Ratón",
+    ""
+  ],
+  [
+    "Sol",
+    ""
+  ],
+  [
+    "Tren",
+    ""
+  ],
+  [
+    "Uvas",
+    ""
+  ],
+  [
+    "Vaca",
+    ""
+  ],
+  [
+    "Kiwi",
+    ""
+  ],
+  [
+    "Xilófono",
+    ""
+  ],
+  [
+    "Yoyó",
+    ""
+  ],
+  [
+    "Zapato",
+    ""
+  ],
+  [
+    "La cabeza",
+    ""
+  ],
+  [
+    "La mano",
+    ""
+  ],
+  [
+    "El pie",
+    ""
+  ],
+  [
+    "Los ojos",
+    ""
+  ],
+  [
+    "Las piernas",
+    ""
+  ],
+  [
+    "El brazo",
+    ""
+  ],
+  [
+    "Rojo",
+    ""
+  ],
+  [
+    "Azul",
+    ""
+  ],
+  [
+    "Verde",
+    ""
+  ],
+  [
+    "Amarillo",
+    ""
+  ],
+  [
+    "Naranja",
+    ""
+  ],
+  [
+    "Negro",
+    ""
+  ],
+  [
+    "El niño",
+    ""
+  ],
+  [
+    "La niña",
+    ""
+  ],
+  [
+    "Los niños",
+    ""
+  ],
+  [
+    "Las niñas",
+    ""
+  ],
+  [
+    "Yo",
+    ""
+  ],
+  [
+    "Tú",
+    ""
+  ],
+  [
+    "Él / Ella",
+    ""
+  ],
+  [
+    "Nosotros",
+    ""
+  ],
+  [
+    "Vosotros",
+    ""
+  ],
+  [
+    "Ellos / Ellas",
+    ""
+  ],
+  [
+    "Yo soy",
+    ""
+  ],
+  [
+    "Yo estoy",
+    ""
+  ],
+  [
+    "Yo tengo",
+    ""
+  ],
+  [
+    "La camiseta",
+    ""
+  ],
+  [
+    "El pantalón",
+    ""
+  ],
+  [
+    "Los zapatos",
+    ""
+  ],
+  [
+    "La chaqueta",
+    ""
+  ],
+  [
+    "El niño",
+    ""
+  ],
+  [
+    "El cielo",
+    ""
+  ],
+  [
+    "La niña",
+    ""
+  ],
+  [
+    "La manzana",
+    ""
+  ],
+  [
+    "La información",
+    ""
+  ],
+  [
+    "La concentración",
+    ""
+  ],
+  [
+    "Mi",
+    ""
+  ],
+  [
+    "Tu",
+    ""
+  ],
+  [
+    "Su",
+    ""
+  ],
+  [
+    "Nuestro / Nuestra",
+    ""
+  ],
+  [
+    "Vuestro / Vuestra",
+    ""
+  ],
+  [
+    "Sí",
+    ""
+  ],
+  [
+    "No",
+    ""
+  ],
+  [
+    "Me gusta",
+    ""
+  ],
+  [
+    "No me gusta",
+    ""
+  ],
+  [
+    "Hola",
+    ""
+  ],
+  [
+    "¿Cómo estás?",
+    ""
+  ],
+  [
+    "Estoy bien",
+    ""
+  ],
+  [
+    "¿Cómo te llamas?",
+    ""
+  ],
+  [
+    "¿De dónde eres?",
+    ""
+  ],
+  [
+    "Uno (1)",
+    ""
+  ],
+  [
+    "Dos (2)",
+    ""
+  ],
+  [
+    "Tres (3)",
+    ""
+  ],
+  [
+    "Cuatro (4)",
+    ""
+  ],
+  [
+    "Cinco (5)",
+    ""
+  ],
+  [
+    "Seis (6)",
+    ""
+  ],
+  [
+    "Siete (7)",
+    ""
+  ],
+  [
+    "Ocho (8)",
+    ""
+  ],
+  [
+    "Nueve (9)",
+    ""
+  ],
+  [
+    "Diez (10)",
+    ""
+  ],
+  [
+    "España / español",
+    ""
+  ],
+  [
+    "Inglaterra / inglés",
+    ""
+  ],
+  [
+    "Marruecos / marroquí",
+    ""
+  ],
+  [
+    "Francia / francés",
+    ""
+  ],
+  [
+    "Senegal / senegalés",
+    ""
+  ],
+  [
+    "El perro",
+    ""
+  ],
+  [
+    "El gato",
+    ""
+  ],
+  [
+    "El pájaro",
+    ""
+  ],
+  [
+    "El árbol",
+    ""
+  ],
+  [
+    "La montaña",
+    ""
+  ],
+  [
+    "El mar",
+    ""
+  ],
+  [
+    "Marruecos",
+    ""
+  ],
+  [
+    "España",
+    ""
+  ],
+  [
+    "Senegal",
+    ""
+  ],
+  [
+    "El lavabo / baño",
+    ""
+  ],
+  [
+    "El autobús",
+    ""
+  ],
+  [
+    "El metro",
+    ""
+  ],
+  [
+    "La tienda",
+    ""
+  ],
+  [
+    "La farmacia",
+    ""
+  ],
+  [
+    "El hospital",
+    ""
+  ],
+  [
+    "Quiero",
+    ""
+  ],
+  [
+    "Necesito",
+    ""
+  ],
+  [
+    "Comprar",
+    ""
+  ],
+  [
+    "Ir",
+    ""
+  ],
+  [
+    "Ayuda",
+    ""
+  ],
+  [
+    "Tengo hambre",
+    ""
+  ],
+  [
+    "Tengo sed",
+    ""
+  ],
+  [
+    "Tengo frío",
+    ""
+  ],
+  [
+    "Tengo calor",
+    ""
+  ],
+  [
+    "Tengo miedo",
+    ""
+  ],
+  [
+    "Me duele",
+    ""
+  ],
+  [
+    "Me molesta",
+    ""
+  ],
+  [
+    "Me aburre",
+    ""
+  ],
+  [
+    "Me preocupa",
+    ""
+  ],
+  [
+    "Lunes",
+    ""
+  ],
+  [
+    "Martes",
+    ""
+  ],
+  [
+    "Enero",
+    ""
+  ],
+  [
+    "La hora",
+    ""
+  ],
+  [
+    "El médico / La médica",
+    ""
+  ],
+  [
+    "El profesor / La profesora",
+    ""
+  ],
+  [
+    "El cocinero / La cocinera",
+    ""
+  ],
+  [
+    "La madre",
+    ""
+  ],
+  [
+    "El padre",
+    ""
+  ],
+  [
+    "El hermano / La hermana",
+    ""
+  ],
+  [
+    "Alto / Alta",
+    ""
+  ],
+  [
+    "¿Qué?",
+    ""
+  ],
+  [
+    "¿Quién?",
+    ""
+  ],
+  [
+    "¿Dónde?",
+    ""
+  ],
+  [
+    "¿Cuándo?",
+    ""
+  ],
+  [
+    "El pan",
+    ""
+  ],
+  [
+    "El agua",
+    ""
+  ],
+  [
+    "El dormitorio",
+    ""
+  ],
+  [
+    "La cocina",
+    ""
+  ],
+  [
+    "El menú / La carta",
+    ""
+  ],
+  [
+    "La cuenta",
+    ""
+  ],
+  [
+    "Para beber",
+    ""
+  ],
+  [
+    "Para comer",
+    ""
+  ],
+  [
+    "El viaje",
+    ""
+  ],
+  [
+    "El recuerdo",
+    ""
+  ],
+  [
+    "Planificar",
+    ""
+  ],
+  [
+    "Cuando",
+    ""
+  ],
+  [
+    "Aunque",
+    ""
+  ],
+  [
+    "Tan pronto como",
+    ""
+  ],
+  [
+    "El desafío",
+    ""
+  ],
+  [
+    "A largo plazo",
+    ""
+  ],
+  [
+    "El recurso",
+    ""
+  ],
+  [
+    "Soler",
+    ""
+  ],
+  [
+    "Llevar + gerundio",
+    ""
+  ],
+  [
+    "Acabar de",
+    ""
+  ],
+  [
+    "Asegurar",
+    ""
+  ],
+  [
+    "Preguntar",
+    ""
+  ],
+  [
+    "Mencionar",
+    ""
+  ],
+  [
+    "No obstante",
+    ""
+  ],
+  [
+    "Por consiguiente",
+    ""
+  ],
+  [
+    "En resumen",
+    ""
+  ]
+]
