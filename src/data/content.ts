@@ -1376,7 +1376,7 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     level: "A1",
     category: "Vocabulario",
     description: "Aprende el nombre de algunas partes de la casa y alimentos muy comunes.",
-    imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/comida_casa.png",
     emoji: "🍞",
     color: "#EBF8FF",
     vocabulary: [
