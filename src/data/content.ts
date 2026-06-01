@@ -683,7 +683,8 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad). <trans 
     level: "A2",
     category: "Vocabulario",
     description: "Vocabulario sobre árboles, montañas, y animales comunes (perro, gato, pájaro).",
-    imageUrl: "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/animales.png",
+    illustrationUrl: "/images/lessons/animales.png",
     emoji: "🐶",
     color: "#FEFCBF",
     vocabulary: [
@@ -755,7 +756,8 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad). <trans 
     level: "A2",
     category: "Vocabulario",
     description: "Continentes, países comunes, y vocabulario geográfico.",
-    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/mapas.png",
+    illustrationUrl: "/images/lessons/mapas.png",
     emoji: "🌍",
     color: "#E2E8F0",
     vocabulary: [
@@ -799,7 +801,8 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país. <trans en=\
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda.",
-    imageUrl: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/direcciones.png",
+    illustrationUrl: "/images/lessons/direcciones.png",
     emoji: "🗺️",
     color: "#EBF8FF",
     vocabulary: [
