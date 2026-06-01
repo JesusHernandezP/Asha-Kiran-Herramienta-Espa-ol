@@ -21,33 +21,6 @@ export interface ResourceEntry {
 
 export const lecturas: ResourceEntry[] = [
   {
-    id: 'lec-1',
-    title: 'Mi primer día en España',
-    description: 'Una historia sencilla sobre la llegada de Ali a Málaga. Nivel A1-A2.',
-    level: 'A2',
-    url: '/leccion/a2-comp-lectura',
-    emoji: '📖',
-    tags: ['comprensión', 'presentaciones'],
-  },
-  {
-    id: 'lec-2',
-    title: 'Recuerdos de Andalucía',
-    description: 'Narración sobre un viaje por el sur de España con tiempos del pasado.',
-    level: 'B1',
-    url: '/leccion/b1-comp-narracion',
-    emoji: '✈️',
-    tags: ['narración', 'pasado'],
-  },
-  {
-    id: 'lec-3',
-    title: 'Editorial: El porvenir ecológico',
-    description: 'Texto formal sobre el cambio climático para análisis de registros avanzados.',
-    level: 'C1',
-    url: '/leccion/c1-comp-textos-complejos',
-    emoji: '📰',
-    tags: ['formal', 'opinión'],
-  },
-  {
     id: 'lec-4',
     title: 'Lectura en PDF: Rutina Diaria',
     description: 'Ficha de lectura en PDF para descargar o abrir en el navegador con ejercicios sobre las rutinas.',
