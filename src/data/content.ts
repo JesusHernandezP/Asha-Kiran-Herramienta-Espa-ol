@@ -639,7 +639,8 @@ Los primeros 10 son: <trans en=\"(The top 10 are:)\" ar=\"(العشرة الأو
     level: "A1",
     category: "Vocabulario",
     description: "España y español. Inglaterra y británico. Aprende cómo hablar de orígenes.",
-    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/nacionalidades.png",
+    illustrationUrl: "/images/lessons/nacionalidades.png",
     emoji: "🌐",
     color: "#FEFCBF",
     vocabulary: [
@@ -1220,7 +1221,8 @@ Este texto no solo describe el clima (la niebla), sino que lo utiliza como metá
     level: "A1",
     category: "Vocabulario",
     description: "Aprende los días de la semana, los meses y cómo decir la hora en español.",
-    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/horas_fechas.png",
+    illustrationUrl: "/images/lessons/horas_fechas.png",
     emoji: "📅",
     color: "#E3EEF9",
     vocabulary: [
@@ -1259,7 +1261,8 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00). <trans en=\"(To
     level: "A1",
     category: "Vocabulario",
     description: "Aprende nombres de profesiones comunes como médico, profesor o cocinero.",
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/profesiones.png",
+    illustrationUrl: "/images/lessons/profesiones.png",
     emoji: "💼",
     color: "#FCE8E8",
     vocabulary: [
@@ -1289,7 +1292,8 @@ Para hablar de nuestra profesión usamos el verbo SER. <trans en=\"(To talk abou
     level: "A1",
     category: "Vocabulario",
     description: "Habla de tu familia (madre, padre) y describe cómo son (alto, bajo).",
-    imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/familia.png",
+    illustrationUrl: "/images/lessons/familia.png",
     emoji: "👨‍👩‍👦",
     color: "#E2F3E7",
     vocabulary: [
@@ -1331,7 +1335,8 @@ Usamos el verbo SER para describir: <trans en=\"(We use the verb BE to describe:
     level: "A1",
     category: "Gramática",
     description: "Aprende a formular preguntas básicas para pedir información.",
-    imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/preguntas.png",
+    illustrationUrl: "/images/lessons/preguntas.png",
     emoji: "❓",
     color: "#FFF4E5",
     vocabulary: [
