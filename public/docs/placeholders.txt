@@ -1,0 +1,2 @@
+Guarda en esta carpeta los documentos PDF de las lecturas.
+Por ejemplo, si guardas "lectura-a1.pdf", podrás acceder a él desde la web usando la ruta "/docs/lectura-a1.pdf".

@@ -1,3 +1,5 @@
+import { lessonsB1 } from './lessonsB1';
+
 export type Level = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 export type Category = 'Alfabetización' | 'Vocabulario' | 'Gramática' | 'Comprensión' | 'Multimedia';
 
@@ -35,6 +37,7 @@ export interface Lesson {
 }
 
 export const lessons: Lesson[] = [
+  ...lessonsB1,
   {
     id: "a1-alfa-abecedario",
     topic: "El Abecedario",

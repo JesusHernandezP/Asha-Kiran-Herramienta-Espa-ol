@@ -1,0 +1,2 @@
+Guarda en esta carpeta los archivos de audio (como .mp3, .wav, etc.).
+Por ejemplo, si guardas "conversacion-a1.mp3", podrás acceder a él desde la web usando la ruta "/audio/conversacion-a1.mp3".

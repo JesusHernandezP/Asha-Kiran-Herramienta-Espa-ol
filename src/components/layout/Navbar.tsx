@@ -39,10 +39,10 @@ export function Navbar() {
   ];
 
   const recursos = [
-    { name: 'Lecturas', icon: <FileText size={16} /> },
-    { name: 'Videos', icon: <Video size={16} /> },
-    { name: 'Audios', icon: <Headphones size={16} /> },
-    { name: 'Imágenes', icon: <Image size={16} /> },
+    { name: 'Lecturas', icon: <FileText size={16} />, path: '/recursos/lecturas' },
+    { name: 'Videos', icon: <Video size={16} />, path: '/recursos/videos' },
+    { name: 'Audios', icon: <Headphones size={16} />, path: '/recursos/audios' },
+    { name: 'Imágenes', icon: <Image size={16} />, path: '/recursos/imagenes' },
   ];
 
   const recommendedLessons = lessons.slice(0, 3);
@@ -153,7 +153,7 @@ export function Navbar() {
           <div className="flex justify-between items-center mb-8">
              <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3">
                 <div className="flex items-center justify-center w-10 h-10 bg-white shadow-sm border border-stone-100 rounded-lg overflow-hidden shrink-0">
-                  <img src="/images/logo.png" alt="Asha-Kiran" className="w-full h-full object-contain" />
+                   <img src="/images/logo.png" alt="Asha-Kiran" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-lg font-black tracking-tight text-[#00823B]">VÍNCULOS</span>
              </Link>
@@ -163,6 +163,19 @@ export function Navbar() {
              >
                <X size={20} />
              </button>
+          </div>
+
+          {/* Glosario Section */}
+          <div className="mb-6">
+            <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-3">Vocabulario</h3>
+            <Link
+              to="/glosario"
+              onClick={() => setIsMenuOpen(false)}
+              className="flex items-center gap-3 px-4 py-3 bg-[#f4fbf6] border border-[#00823B]/10 rounded-2xl text-[#00823B] font-bold hover:bg-[#00823B]/20 transition-all hover:scale-[1.02]"
+            >
+              <BookOpen size={20} />
+              <span>Glosario de Términos</span>
+            </Link>
           </div>
 
           {/* Niveles */}
@@ -182,14 +195,15 @@ export function Navbar() {
             </div>
           </div>
 
-          {/* Recursos (formerly Formatos, moved below Niveles) */}
+          {/* Recursos */}
           <div className="mb-6">
             <h3 className="text-xs font-black text-stone-400 uppercase tracking-widest mb-4">Recursos</h3>
             <div className="grid grid-cols-2 gap-2">
               {recursos.map((rec, idx) => (
                 <Link
                   key={idx}
-                  to="#"
+                  to={rec.path}
+                  onClick={() => setIsMenuOpen(false)}
                   className="flex items-center gap-2 px-3 py-2.5 rounded-lg hover:bg-stone-50 text-stone-700 text-sm font-medium transition-colors border border-transparent hover:border-stone-100"
                 >
                   <span className="text-[#00823B]">{rec.icon}</span>
