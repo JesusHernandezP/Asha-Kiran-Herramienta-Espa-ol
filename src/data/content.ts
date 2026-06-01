@@ -431,7 +431,8 @@ Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no ter
     level: "A1",
     category: "Gramática",
     description: "Aprende a indicar posesión: mi, tu, nuestro, vuestro, su.",
-    imageUrl: "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/posesivos.png",
+    illustrationUrl: "/images/lessons/posesivos.png",
     emoji: "🎒",
     color: "#FCE8E8",
     vocabulary: [
@@ -483,7 +484,8 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
     level: "A1",
     category: "Gramática",
     description: "Aprende a decir sí o no, y a expresar lo que te gusta y no te gusta.",
-    imageUrl: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "/images/lessons/negacion.png",
+    illustrationUrl: "/images/lessons/negacion.png",
     emoji: "👍",
     color: "#E3EEF9",
     vocabulary: [
