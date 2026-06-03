@@ -49,32 +49,32 @@ export const lessons: Lesson[] = [
     illustrationUrl: "/images/lessons/abecedario.png",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=200&auto=format&fit=crop&q=60", emoji: "✈️", color: "#E2F3E7" },
-      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-1505244208262-19158ab91c13?w=200&auto=format&fit=crop&q=60", emoji: "🚢", color: "#E2F3E7" },
+        { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=200&auto=format&fit=crop&q=60", emoji: "✈️", color: "#E2F3E7" },
+      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-1527685609591-44b0aef2400b?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🚢", color: "#E2F3E7" },
       { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, imageUrl: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=200&auto=format&fit=crop&q=60", emoji: "🏠", color: "#E3EEF9" },
-      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&auto=format&fit=crop&q=60", emoji: "☝️", color: "#FCE8E8" },
-      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-1581850518616-bcb8077fa212?w=200&auto=format&fit=crop&q=60", emoji: "🐘", color: "#E2F3E7" },
-      { word: "Fuego", translations: { en: "Fire", ar: "نار", uk: "Вогонь", fr: "Feu" }, imageUrl: "https://images.unsplash.com/photo-1508873696983-2df519f0397e?w=200&auto=format&fit=crop&q=60", emoji: "🔥", color: "#FFF4E5" },
+      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-1596180316165-0974ef954468?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☝️", color: "#FCE8E8" },
+      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=200&auto=format&fit=crop&q=60", emoji: "🐘", color: "#E2F3E7" },
+      { word: "Fuego", translations: { en: "Fire", ar: "نار", uk: "Вогонь", fr: "Feu" }, imageUrl: "https://plus.unsplash.com/premium_photo-1679954565327-e7e294e68b1c?q=80&w=678&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🔥", color: "#FFF4E5" },
       { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&auto=format&fit=crop&q=60", emoji: "🐱", color: "#F3E8FF" },
       { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, imageUrl: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=200&auto=format&fit=crop&q=60", emoji: "🍦", color: "#FEFCBF" },
       { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "🏝️", color: "#E2F3E7" },
-      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=200&auto=format&fit=crop&q=60", emoji: "🦒", color: "#FEFCBF" },
-      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=200&auto=format&fit=crop&q=60", emoji: "🐨", color: "#E3EEF9" },
+      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=200&auto=format&fit=crop&q=60", emoji: "🦒", color: "#FEFCBF" },
+      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-1579972383667-4894c883d674?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🐨", color: "#E3EEF9" },
       { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, imageUrl: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=200&auto=format&fit=crop&q=60", emoji: "🌙", color: "#F3E8FF" },
       { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#FCE8E8" },
       { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, imageUrl: "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=200&auto=format&fit=crop&q=60", emoji: "☁️", color: "#E3EEF9" },
-      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#F3E8FF" },
+      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-1551085254-e96b210db58a?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#F3E8FF" },
       { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, imageUrl: "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?w=200&auto=format&fit=crop&q=60", emoji: "🐻", color: "#E2F3E7" },
       { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=200&auto=format&fit=crop&q=60", emoji: "🐶", color: "#FEFCBF" },
-      { word: "Queso", translations: { en: "Cheese", ar: "جبن", uk: "Сир", fr: "Fromage" }, imageUrl: "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=200&auto=format&fit=crop&q=60", emoji: "🧀", color: "#FEFCBF" },
+      { word: "Queso", translations: { en: "Cheese", ar: "جبن", uk: "Сир", fr: "Fromage" }, imageUrl: "https://plus.unsplash.com/premium_photo-1691939610797-aba18030c15f?q=80&w=722&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🧀", color: "#FEFCBF" },
       { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, imageUrl: "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=200&auto=format&fit=crop&q=60", emoji: "🐭", color: "#E3EEF9" },
-      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-1581373449483-37449f962b6c?w=200&auto=format&fit=crop&q=60", emoji: "☀️", color: "#FEFCBF" },
-      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-1532103054090-334e6e60ab29?w=200&auto=format&fit=crop&q=60", emoji: "🚆", color: "#FCE8E8" },
-      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=200&auto=format&fit=crop&q=60", emoji: "🍇", color: "#F3E8FF" },
+      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☀️", color: "#FEFCBF" },
+      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=200&auto=format&fit=crop&q=60", emoji: "🚆", color: "#FCE8E8" },
+      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=200&auto=format&fit=crop&q=60", emoji: "🍇", color: "#F3E8FF" },
       { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, imageUrl: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&auto=format&fit=crop&q=60", emoji: "🐮", color: "#E2F3E7" },
       { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, imageUrl: "https://images.unsplash.com/photo-1585059895524-72359e06133a?w=200&auto=format&fit=crop&q=60", emoji: "🥝", color: "#E2F3E7" },
-      { word: "Xilófono", translations: { en: "Xylophone", ar: "إكسيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=200&auto=format&fit=crop&q=60", emoji: "🎹", color: "#F3E8FF" },
-      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=200&auto=format&fit=crop&q=60", emoji: "🪀", color: "#FCE8E8" },
+      { word: "Xilófono", translations: { en: "Xylophone", ar: "إксيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-1711048421235-3fcb9dcf82f7?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🎹", color: "#F3E8FF" },
+      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-1646954843635-126c0fe8f3d7?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🪀", color: "#FCE8E8" },
       { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&auto=format&fit=crop&q=60", emoji: "👞", color: "#FFF4E5" }
     ],
     content: `
@@ -154,12 +154,12 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor. <trans en=
     illustrationUrl: "/images/lessons/colores.png",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "Rojo", translations: { en: "Red", ar: "أحمر", uk: "Червоний", fr: "Rouge" }, imageUrl: "https://images.unsplash.com/photo-1508020963904-3fea35495547?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#E53E3E" },
-      { word: "Azul", translations: { en: "Blue", ar: "أزرق", uk: "Синій", fr: "Bleu" }, imageUrl: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=200&auto=format&fit=crop&q=60", emoji: "💧", color: "#3182CE" },
+      { word: "Rojo", translations: { en: "Red", ar: "أحمر", uk: "Червоний", fr: "Rouge" }, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#E53E3E" },
+      { word: "Azul", translations: { en: "Blue", ar: "أزرق", uk: "Синій", fr: "Bleu" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "💧", color: "#3182CE" },
       { word: "Verde", translations: { en: "Green", ar: "أخضر", uk: "Зелений", fr: "Vert" }, imageUrl: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=200&auto=format&fit=crop&q=60", emoji: "🐸", color: "#38A169" },
-      { word: "Amarillo", translations: { en: "Yellow", ar: "أصفر", uk: "Жовтий", fr: "Jaune" }, imageUrl: "https://images.unsplash.com/photo-1569172122301-bc5008bc09c5?w=200&auto=format&fit=crop&q=60", emoji: "☀️", color: "#ECC94B" },
+      { word: "Amarillo", translations: { en: "Yellow", ar: "أصفر", uk: "Жовтий", fr: "Jaune" }, imageUrl: "https://images.unsplash.com/photo-1508808787069-421e7986016e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☀️", color: "#ECC94B" },
       { word: "Naranja", translations: { en: "Orange", ar: "برتقالي", uk: "Помаранчевий", fr: "Orange" }, imageUrl: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=200&auto=format&fit=crop&q=60", emoji: "🍊", color: "#DD6B20" },
-      { word: "Negro", translations: { en: "Black", ar: "أسود", uk: "Чорний", fr: "Noir" }, imageUrl: "https://images.unsplash.com/photo-1507499739999-097706ad8914?w=200&auto=format&fit=crop&q=60", emoji: "🎩", color: "#1A202C" }
+      { word: "Negro", translations: { en: "Black", ar: "أسود", uk: "Чорний", fr: "Noir" }, imageUrl: "https://plus.unsplash.com/premium_photo-1686727103139-2824d4fa46a3?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🎩", color: "#1A202C" }
     ],
     content: `
 ## ¿De qué color es? <trans en=\"(What colour is it?)\" ar=\"()...)\" uk=\"(## Якого він кольору?)\" fr=\"(– Quelle couleur a-t-elle ?)\"/>
@@ -345,7 +345,7 @@ Aprender la conjugación (la forma) es esencial para comunicarte. <trans en=\"(L
     illustrationUrl: "/images/lessons/ropa.png",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "La camiseta", translations: { en: "T-Shirt", ar: "قميص", uk: "Футболка", fr: "T-shirt" }, imageUrl: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=200&auto=format&fit=crop&q=60", emoji: "👕", color: "#EDF2F7" },
+      { word: "La camiseta", translations: { en: "T-Shirt", ar: "قميص", uk: "Футболка", fr: "T-shirt" }, imageUrl: "https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👕", color: "#EDF2F7" },
       { word: "El pantalón", translations: { en: "Pants", ar: "سروال", uk: "Штани", fr: "Pantalon" }, imageUrl: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=200&auto=format&fit=crop&q=60", emoji: "👖", color: "#EDF2F7" },
       { word: "Los zapatos", translations: { en: "Shoes", ar: "حذاء", uk: "Взуття", fr: "Chaussures" }, imageUrl: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=200&auto=format&fit=crop&q=60", emoji: "👟", color: "#EDF2F7" },
       { word: "La chaqueta", translations: { en: "Jacket", ar: "سترة", uk: "Куртка", fr: "Veste" }, imageUrl: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=200&auto=format&fit=crop&q=60", emoji: "🧥", color: "#EDF2F7" }
@@ -489,10 +489,10 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
     emoji: "👍",
     color: "#E3EEF9",
     vocabulary: [
-      { word: "Sí", translations: { en: "Yes", ar: "نعم", uk: "Так", fr: "Oui" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "✅", color: "#E2F3E7" },
-      { word: "No", translations: { en: "No", ar: "لا", uk: "Ні", fr: "Non" }, imageUrl: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=200&auto=format&fit=crop&q=60", emoji: "❌", color: "#FCE8E8" },
-      { word: "Me gusta", translations: { en: "I like", ar: "يعجبني", uk: "Мені подобається", fr: "J'aime" }, imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=200&auto=format&fit=crop&q=60", emoji: "👍", color: "#E3EEF9" },
-      { word: "No me gusta", translations: { en: "I don't like", ar: "لا يعجبني", uk: "Мені не подобається", fr: "Je n'aime pas" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "👎", color: "#FCE8E8" }
+     { word: "Sí", translations: { en: "Yes", ar: "نعم", uk: "Так", fr: "Oui" }, imageUrl: "https://inhispania.com/storage/2021/05/1.jpg", emoji: "✅", color: "#E2F3E7" },
+      { word: "No", translations: { en: "No", ar: "لا", uk: "Ні", fr: "Non" }, imageUrl: "https://static.vecteezy.com/system/resources/previews/026/322/605/non_2x/no-sign-prohibition-and-restrictions-vector.jpg", emoji: "❌", color: "#FCE8E8" },
+      { word: "Me gusta", translations: { en: "I like", ar: "يعجبني", uk: "Мені подобається", fr: "J'aime" }, imageUrl: "https://images.unsplash.com/photo-1693168058020-fd7445ff87df?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👍", color: "#E3EEF9" },
+      { word: "No me gusta", translations: { en: "I don't like", ar: "لا يعجبني", uk: "Мені не подобається", fr: "Je n'aime pas" }, imageUrl: "https://images.unsplash.com/photo-1693168058063-f8e3474ce214?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👎", color: "#FCE8E8" }
     ],
     content: `
 ## ¿Sí o No? <trans en=\"(Didn't we?)\" ar=\"(نعم أم لا؟)\" uk=\"(Так чи ні)\" fr=\"(OUI OU NON ?)\"/>
@@ -535,10 +535,10 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito. <trans en=\"(We use *
     illustrationUrl: "/images/lessons/saludos.png",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "Hola", translations: { en: "Hello", ar: "مرحباً", uk: "Привіт", fr: "Bonjour" }, imageUrl: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=200&auto=format&fit=crop&q=60", emoji: "👋", color: "#FFF5F5" },
-      { word: "¿Cómo estás?", translations: { en: "How are you?", ar: "كيف حالك؟", uk: "Як справи?", fr: "Comment vas-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&auto=format&fit=crop&q=60", emoji: "🤔", color: "#EBF8FF" },
-      { word: "Estoy bien", translations: { en: "I'm fine", ar: "أنا بخير", uk: "Я в порядку", fr: "Je vais bien" }, imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=60", emoji: "😊", color: "#E2F3E7" },
-      { word: "¿Cómo te llamas?", translations: { en: "What's your name?", ar: "ما اسمك؟", uk: "Як тебе звати?", fr: "Comment t'appelles-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "🏷️", color: "#EBF8FF" },
+        { word: "Hola", translations: { en: "Hello", ar: "مرحباً", uk: "Привіт", fr: "Bonjour" }, imageUrl: "https://images.unsplash.com/photo-1616428362406-4ffd9fcbf023?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👋", color: "#FFF5F5" },
+      { word: "¿Cómo estás?", translations: { en: "How are you?", ar: "كيف حالك؟", uk: "Як справи?", fr: "Comment vas-tu ?" }, imageUrl: "https://plus.unsplash.com/premium_photo-1682310544420-a8d2c8881bba?q=80&w=912&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🤔", color: "#EBF8FF" },
+      { word: "Estoy bien", translations: { en: "I'm fine", ar: "أنا بخير", uk: "Я в порядку", fr: "Je vais bien" }, imageUrl: "https://plus.unsplash.com/premium_photo-1671028545792-f3a4c084f807?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "😊", color: "#E2F3E7" },
+      { word: "¿Cómo te llamas?", translations: { en: "What's your name?", ar: "ما اسمك؟", uk: "Як тебе звати?", fr: "Comment t'appelles-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1590086782974-e6e7b85e738e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🏷️", color: "#EBF8FF" },
       { word: "¿De dónde eres?", translations: { en: "Where are you from?", ar: "من أين أنت؟", uk: "Звідки ти?", fr: "D'où viens-tu ?" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🌍", color: "#FEFCBF" }
     ],
     content: `
@@ -589,16 +589,16 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural: <t
     illustrationUrl: "/images/lessons/numeros.png",
     color: "#EBF8FF",
     vocabulary: [
-      { word: "Uno (1)", translations: { en: "One", ar: "واحد", uk: "Один", fr: "Un" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "1️⃣", color: "#EBF8FF" },
-      { word: "Dos (2)", translations: { en: "Two", ar: "إثنان", uk: "Два", fr: "Deux" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "2️⃣", color: "#EBF8FF" },
-      { word: "Tres (3)", translations: { en: "Three", ar: "ثلاثة", uk: "Три", fr: "Trois" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "3️⃣", color: "#EBF8FF" },
-      { word: "Cuatro (4)", translations: { en: "Four", ar: "أربعة", uk: "Чотири", fr: "Quatre" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "4️⃣", color: "#EBF8FF" },
-      { word: "Cinco (5)", translations: { en: "Five", ar: "خمسة", uk: "П'ять", fr: "Cinq" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "5️⃣", color: "#EBF8FF" },
-      { word: "Seis (6)", translations: { en: "Six", ar: "ستة", uk: "Шість", fr: "Six" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "6️⃣", color: "#EBF8FF" },
-      { word: "Siete (7)", translations: { en: "Seven", ar: "سبعة", uk: "Сім", fr: "Sept" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "7️⃣", color: "#EBF8FF" },
-      { word: "Ocho (8)", translations: { en: "Eight", ar: "ثمانية", uk: "Вісім", fr: "Huit" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "8️⃣", color: "#EBF8FF" },
-      { word: "Nueve (9)", translations: { en: "Nine", ar: "تسعة", uk: "Дев'ять", fr: "Neuf" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "9️⃣", color: "#EBF8FF" },
-      { word: "Diez (10)", translations: { en: "Ten", ar: "عشرة", uk: "Десять", fr: "Dix" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "🔟", color: "#EBF8FF" }
+      { word: "Uno (1)", translations: { en: "One", ar: "واحد", uk: "Один", fr: "Un" }, imageUrl: "https://images.unsplash.com/photo-1560363199-a1264d4ea5fc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "1️⃣", color: "#EBF8FF" },
+      { word: "Dos (2)", translations: { en: "Two", ar: "إثنان", uk: "Два", fr: "Deux" }, imageUrl: "https://images.unsplash.com/photo-1568548527144-383edf5c2728?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "2️⃣", color: "#EBF8FF" },
+      { word: "Tres (3)", translations: { en: "Three", ar: "ثلاثة", uk: "Три", fr: "Trois" }, imageUrl: "https://images.unsplash.com/photo-1584134046510-d193d66e7ae4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "3️⃣", color: "#EBF8FF" },
+      { word: "Cuatro (4)", translations: { en: "Four", ar: "أربعة", uk: "Чотири", fr: "Quatre" }, imageUrl: "https://images.unsplash.com/photo-1725378048982-61eab077b0c0?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "4️⃣", color: "#EBF8FF" },
+      { word: "Cinco (5)", translations: { en: "Five", ar: "خمسة", uk: "П'ять", fr: "Cinq" }, imageUrl: "https://plus.unsplash.com/premium_photo-1670044020191-934d7264fc85?q=80&w=1015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "5️⃣", color: "#EBF8FF" },
+      { word: "Seis (6)", translations: { en: "Six", ar: "ستة", uk: "Шість", fr: "Six" }, imageUrl: "https://images.unsplash.com/photo-1601063186017-1b071b2fb831?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "6️⃣", color: "#EBF8FF" },
+      { word: "Siete (7)", translations: { en: "Seven", ar: "سبعة", uk: "Сім", fr: "Sept" }, imageUrl: "https://images.unsplash.com/photo-1584415942461-0b87dda9cc2b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "7️⃣", color: "#EBF8FF" },
+      { word: "Ocho (8)", translations: { en: "Eight", ar: "ثمانية", uk: "Вісім", fr: "Huit" }, imageUrl: "https://images.unsplash.com/photo-1725378048990-1fb4795d9a46?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "8️⃣", color: "#EBF8FF" },
+      { word: "Nueve (9)", translations: { en: "Nine", ar: "تسعة", uk: "Дев'ять", fr: "Neuf" }, imageUrl: "https://images.unsplash.com/photo-1660684470385-2a062d528b08?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "9️⃣", color: "#EBF8FF" },
+      { word: "Diez (10)", translations: { en: "Ten", ar: "عشرة", uk: "Десять", fr: "Dix" }, imageUrl: "https://images.unsplash.com/photo-1553721433-e42741de3a43?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🔟", color: "#EBF8FF" }
     ],
     content: `
 ## A contar... <trans en=\"(a contar,)\" ar=\"(## أخبرنا...)\" uk=\"(## Розкажіть нам...)\" fr=\"(## À compter...)\"/>
@@ -645,10 +645,10 @@ Los primeros 10 son: <trans en=\"(The top 10 are:)\" ar=\"(العشرة الأو
     color: "#FEFCBF",
     vocabulary: [
       { word: "España / español", translations: { en: "Spain / Spanish", ar: "إسبانيا / إسباني", uk: "Іспанія / іспанець", fr: "Espagne / espagnol" }, imageUrl: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=200&auto=format&fit=crop&q=60", emoji: "🇪🇸", color: "#FFF5F5" },
-      { word: "Inglaterra / inglés", translations: { en: "England / English", ar: "إنجلترا / إنجليزي", uk: "Англія / англієць", fr: "Angleterre / anglais" }, imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ca1ad?w=200&auto=format&fit=crop&q=60", emoji: "🇬🇧", color: "#EBF8FF" },
+      { word: "Inglaterra / inglés", translations: { en: "England / English", ar: "إنجلترا / إنجليزي", uk: "Англія / англієць", fr: "Angleterre / anglais" }, imageUrl: "https://images.unsplash.com/photo-1486299267070-83823f5448dd?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🇬🇧", color: "#EBF8FF" },
       { word: "Marruecos / marroquí", translations: { en: "Morocco / Moroccan", ar: "المغرب / مغربي", uk: "Марокко / марокканець", fr: "Maroc / marocain" }, imageUrl: "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=200&auto=format&fit=crop&q=60", emoji: "🇲🇦", color: "#FCE8E8" },
       { word: "Francia / francés", translations: { en: "France / French", ar: "فرنسا / فرنسي", uk: "Франція / француз", fr: "France / français" }, imageUrl: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=200&auto=format&fit=crop&q=60", emoji: "🇫🇷", color: "#E3EEF9" },
-      { word: "Senegal / senegalés", translations: { en: "Senegal / Senegalese", ar: "السنغال / سنغالي", uk: "Сенегал / сенегалець", fr: "Sénégal / sénégalais" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🇸🇳", color: "#E2F3E7" }
+      { word: "Senegal / senegalés", translations: { en: "Senegal / Senegalese", ar: "السنغال / سنغالي", uk: "Сенегал / сенегалець", fr: "Sénégal / sénégalais" }, imageUrl: "https://images.unsplash.com/photo-1664887248353-48fad226dbe6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🇸🇳", color: "#E2F3E7" }
     ],
     content: `
 ## País y Nacionalidad <trans en=\"(## Country and Nationality)\" ar=\"(## البلد والجنسية)\" uk=\"(## Країна та громадянство)\" fr=\"(Pays, île et nationalité)\"/>
@@ -696,7 +696,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad). <trans 
       { word: "El pájaro", translations: { en: "Bird", ar: "طائر", uk: "Птах", fr: "Oiseau" }, imageUrl: "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#FEFCBF" },
       { word: "El árbol", translations: { en: "Tree", ar: "شجرة", uk: "Дерево", fr: "Arbre" }, imageUrl: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=200&auto=format&fit=crop&q=60", emoji: "🌳", color: "#F0FFF4" },
       { word: "La montaña", translations: { en: "Mountain", ar: "جبل", uk: "Гора", fr: "Montagne" }, imageUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=200&auto=format&fit=crop&q=60", emoji: "⛰️", color: "#F0FFF4" },
-      { word: "El mar", translations: { en: "Sea", ar: "بحر", uk: "Море", fr: "Mer" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🌊", color: "#F0FFF4" }
+      { word: "El mar", translations: { en: "Sea", ar: "بحر", uk: "Море", fr: "Mer" }, imageUrl: "https://plus.unsplash.com/premium_photo-1675620963970-41055a7d6cfc?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🌊", color: "#F0FFF4" }
     ],
     content: `
 ## Mascotas y animales salvajes <trans en=\"(## Pets and wildlife)\" ar=\"(## الحيوانات الأليفة والحياة البرية)\" uk=\"(## Домашні тварини та дика природа)\" fr=\"(## Animaux et animaux sauvages)\"/>
@@ -764,9 +764,9 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad). <trans 
     emoji: "🌍",
     color: "#E2E8F0",
     vocabulary: [
-      { word: "Marruecos", translations: { en: "Morocco", ar: "المغرب", uk: "Марокко", fr: "Maroc" }, imageUrl: "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=200&auto=format&fit=crop&q=60", emoji: "🇲🇦", color: "#FEFCBF" },
+      { word: "Marruecos", translations: { en: "Morocco", ar: "المغرب", uk: "Марокко", fr: "Maroc" }, imageUrl: "https://plus.unsplash.com/premium_photo-1673415819362-c2ca640bfafe?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🇲🇦", color: "#FEFCBF" },
       { word: "España", translations: { en: "Spain", ar: "إسبانيا", uk: "Іспанія", fr: "Espagne" }, imageUrl: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=200&auto=format&fit=crop&q=60", emoji: "🇪🇸", color: "#FFF5F5" },
-      { word: "Senegal", translations: { en: "Senegal", ar: "السنغال", uk: "Сенегал", fr: "Sénégal" }, imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=200&auto=format&fit=crop&q=60", emoji: "🇸🇳", color: "#F0FFF4" }
+      { word: "Senegal", translations: { en: "Senegal", ar: "السنغال", uk: "Сенегал", fr: "Sénégal" }, imageUrl: "https://images.unsplash.com/photo-1664887248353-48fad226dbe6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🇸🇳", color: "#F0FFF4" }
     ],
     content: `
 ## Los Continentes <trans en=\"(## The Continents)\" ar=\"(## القارات)\" uk=\"(## Континенти)\" fr=\"(## Les continents)\"/>
@@ -811,10 +811,10 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país. <trans en=\
     vocabulary: [
       { word: "El lavabo / baño", translations: { en: "Bathroom / Toilet", ar: "الحمام", uk: "Туалет / Ванна", fr: "Toilettes / Salle de bain" }, imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=200&auto=format&fit=crop&q=60", emoji: "🚽", color: "#EBF8FF" },
       { word: "El autobús", translations: { en: "Bus", ar: "حافلة", uk: "Автобус", fr: "Bus" }, imageUrl: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=200&auto=format&fit=crop&q=60", emoji: "🚌", color: "#FFF5F5" },
-      { word: "El metro", translations: { en: "Subway / Metro", ar: "مترو الأنفاق", uk: "Метро", fr: "Métro" }, imageUrl: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=200&auto=format&fit=crop&q=60", emoji: "🚇", color: "#E2F3E7" },
+      { word: "El metro", translations: { en: "Subway / Metro", ar: "مترو الأنفاق", uk: "Метро", fr: "Métro" }, imageUrl: "https://static.visita.malaga.eu/visita/subidas/paginas/5/3/pag_1635_1550x664.jpg", emoji: "🚇", color: "#E2F3E7" },
       { word: "La tienda", translations: { en: "Store / Shop", ar: "متجر", uk: "Магазин", fr: "Magasin" }, imageUrl: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=200&auto=format&fit=crop&q=60", emoji: "🏪", color: "#FEFCBF" },
-      { word: "La farmacia", translations: { en: "Pharmacy", ar: "صيدلية", uk: "Аптека", fr: "Pharmacie" }, imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&auto=format&fit=crop&q=60", emoji: "💊", color: "#FCE8E8" },
-      { word: "El hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=200&auto=format&fit=crop&q=60", emoji: "🏥", color: "#E3EEF9" }
+      { word: "La farmacia", translations: { en: "Pharmacy", ar: "صيدلية", uk: "Аптека", fr: "Pharmacie" }, imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEeXA6GEhKB1ouCM6chE8EmO-aRDxvSoxFPA&s", emoji: "💊", color: "#FCE8E8" },
+      { word: "El hospital", translations: { en: "Hospital", ar: "مستشفى", uk: "Лікарня", fr: "Hôpital" }, imageUrl: "https://www.segurilatam.com/wp-content/uploads/sites/5/2020/04/hospital-dibujo-nueva-web-900x600.jpg", emoji: "🏥", color: "#E3EEF9" }
     ],
     content: `
 ## Preguntar por lugares <trans en=\"(## Ask about places)\" ar=\"(## اسأل عن الأماكن)\" uk=\"(## Запитайте про місця)\" fr=\"(## Renseignez-vous sur les lieux)\"/>
@@ -1226,9 +1226,9 @@ Este texto no solo describe el clima (la niebla), sino que lo utiliza como metá
     emoji: "📅",
     color: "#E3EEF9",
     vocabulary: [
-      { word: "Lunes", translations: { en: "Monday", ar: "الاثنين", uk: "Понеділок", fr: "Lundi" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "1️⃣", color: "#E3EEF9" },
+      { word: "Lunes", translations: { en: "Monday", ar: "الاثنين", uk: "Понеділок", fr: "Lundi" }, imageUrl: "https://plus.unsplash.com/premium_vector-1713902747124-570ecae4350a?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "1️⃣", color: "#E3EEF9" },
       { word: "Martes", translations: { en: "Tuesday", ar: "الثلاثاء", uk: "Вівторок", fr: "Mardi" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "2️⃣", color: "#E3EEF9" },
-      { word: "Enero", translations: { en: "January", ar: "يناير", uk: "Січень", fr: "Janvier" }, imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=200&auto=format&fit=crop&q=60", emoji: "❄️", color: "#E3EEF9" },
+      { word: "Enero", translations: { en: "January", ar: "يناير", uk: "Січень", fr: "Janvier" }, imageUrl: "https://images.unsplash.com/photo-1457269449834-928af64c684d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "❄️", color: "#E3EEF9" },
       { word: "La hora", translations: { en: "The time / hour", ar: "الوقت", uk: "Час", fr: "L'heure" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⌚", color: "#E3EEF9" }
     ],
     content: `
@@ -1266,8 +1266,8 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00). <trans en=\"(To
     emoji: "💼",
     color: "#FCE8E8",
     vocabulary: [
-      { word: "El médico / La médica", translations: { en: "Doctor", ar: "طبيب", uk: "Лікар", fr: "Médecin" }, imageUrl: "https://images.unsplash.com/photo-1584515901387-a7a1a63376B9?w=200&auto=format&fit=crop&q=60", emoji: "🩺", color: "#FCE8E8" },
-      { word: "El profesor / La profesora", translations: { en: "Teacher", ar: "معلم", uk: "Вчитель", fr: "Professeur" }, imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=200&auto=format&fit=crop&q=60", emoji: "👨‍🏫", color: "#FCE8E8" },
+      { word: "El médico / La médica", translations: { en: "Doctor", ar: "طبيب", uk: "Лікар", fr: "Médecin" }, imageUrl: "https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🩺", color: "#FCE8E8" },
+      { word: "El profesor / La profesora", translations: { en: "Teacher", ar: "معلم", uk: "Вчитель", fr: "Professeur" }, imageUrl: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👨‍🏫", color: "#FCE8E8" },
       { word: "El cocinero / La cocinera", translations: { en: "Cook / Chef", ar: "طباخ", uk: "Кухар", fr: "Cuisinier" }, imageUrl: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=200&auto=format&fit=crop&q=60", emoji: "🍳", color: "#FCE8E8" }
     ],
     content: `
@@ -1297,10 +1297,10 @@ Para hablar de nuestra profesión usamos el verbo SER. <trans en=\"(To talk abou
     emoji: "👨‍👩‍👦",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "La madre", translations: { en: "Mother", ar: "أم", uk: "Мати", fr: "Mère" }, imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&auto=format&fit=crop&q=60", emoji: "👩", color: "#E2F3E7" },
-      { word: "El padre", translations: { en: "Father", ar: "أب", uk: "Батько", fr: "Père" }, imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&auto=format&fit=crop&q=60", emoji: "👨", color: "#E2F3E7" },
-      { word: "El hermano / La hermana", translations: { en: "Brother / Sister", ar: "أخ / أخت", uk: "Брат / Сестра", fr: "Frère / Sœur" }, imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&auto=format&fit=crop&q=60", emoji: "👦", color: "#E2F3E7" },
-      { word: "Alto / Alta", translations: { en: "Tall", ar: "طويل", uk: "Високий", fr: "Grand" }, imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&auto=format&fit=crop&q=60", emoji: "📏", color: "#E2F3E7" }
+      { word: "La madre", translations: { en: "Mother", ar: "أم", uk: "Мати", fr: "Mère" }, imageUrl: "https://plus.unsplash.com/premium_photo-1675103827197-b88ff0586d06?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👩", color: "#E2F3E7" },
+      { word: "El padre", translations: { en: "Father", ar: "أب", uk: "Батько", fr: "Père" }, imageUrl: "https://images.unsplash.com/photo-1569870614214-04b2aef402c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👨", color: "#E2F3E7" },
+      { word: "El hermano / La hermana", translations: { en: "Brother / Sister", ar: "أخ / أخت", uk: "Брат / Сестра", fr: "Frère / Sœur" }, imageUrl: "https://plus.unsplash.com/premium_photo-1658527085509-f0afd7fd9e44?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "👦", color: "#E2F3E7" },
+      { word: "Alto / Alta", translations: { en: "Tall", ar: "طويل", uk: "Високий", fr: "Grand" }, imageUrl: "https://plus.unsplash.com/premium_photo-1682308359145-a9b0139e2404?q=80&w=943&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "📏", color: "#E2F3E7" }
     ],
     content: `
 ## Mi Familia <trans en=\"(## My family)\" ar=\"(## عائلتي)\" uk=\"(## Моя сім'я)\" fr=\"(## Ma famille)\"/>
@@ -1340,9 +1340,9 @@ Usamos el verbo SER para describir: <trans en=\"(We use the verb BE to describe:
     emoji: "❓",
     color: "#FFF4E5",
     vocabulary: [
-      { word: "¿Qué?", translations: { en: "What?", ar: "ماذا؟", uk: "Що?", fr: "Quoi ?" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "❓", color: "#FFF4E5" },
-      { word: "¿Quién?", translations: { en: "Who?", ar: "من؟", uk: "Хто?", fr: "Qui ?" }, imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&auto=format&fit=crop&q=60", emoji: "👤", color: "#FFF4E5" },
-      { word: "¿Dónde?", translations: { en: "Where?", ar: "أين؟", uk: "Де?", fr: "Où ?" }, imageUrl: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=200&auto=format&fit=crop&q=60", emoji: "📍", color: "#FFF4E5" },
+      { word: "¿Qué?", translations: { en: "What?", ar: "ماذا؟", uk: "Що?", fr: "Quoi ?" }, imageUrl: "https://www.practiceportuguese.com/cdn-cgi/image/width=800,height=534,fit=crop,quality=90,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2020/06/questions.jpg", emoji: "❓", color: "#FFF4E5" },
+      { word: "¿Quién?", translations: { en: "Who?", ar: "من؟", uk: "Хто?", fr: "Qui ?" }, imageUrl: "https://e01-elmundo.uecdn.es/assets/multimedia/imagenes/2022/09/27/16642900216393.jpg", emoji: "👤", color: "#FFF4E5" },
+      { word: "¿Dónde?", translations: { en: "Where?", ar: "أين؟", uk: "Де?", fr: "Où ?" }, imageUrl: "https://previews.123rf.com/images/mangsaab/mangsaab1403/mangsaab140300028/27347846-businessman-do-not-know-where-to-go-business-concept.jpg", emoji: "📍", color: "#FFF4E5" },
       { word: "¿Cuándo?", translations: { en: "When?", ar: "متى؟", uk: "Коли?", fr: "Quand ?" }, imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=200&auto=format&fit=crop&q=60", emoji: "⏳", color: "#FFF4E5" }
     ],
     content: `
@@ -1381,9 +1381,9 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     color: "#EBF8FF",
     vocabulary: [
       { word: "El pan", translations: { en: "Bread", ar: "خبز", uk: "Хліб", fr: "Pain" }, imageUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&auto=format&fit=crop&q=60", emoji: "🍞", color: "#EBF8FF" },
-      { word: "El agua", translations: { en: "Water", ar: "ماء", uk: "Вода", fr: "Eau" }, imageUrl: "https://images.unsplash.com/photo-1548964856-ac520a4a9f30?w=200&auto=format&fit=crop&q=60", emoji: "💧", color: "#EBF8FF" },
-      { word: "El dormitorio", translations: { en: "Bedroom", ar: "غرفة نوم", uk: "Спальня", fr: "Chambre" }, imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=200&auto=format&fit=crop&q=60", emoji: "🛏️", color: "#EBF8FF" },
-      { word: "La cocina", translations: { en: "Kitchen", ar: "مطبخ", uk: "Кухня", fr: "Cuisine" }, imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=200&auto=format&fit=crop&q=60", emoji: "🍳", color: "#EBF8FF" }
+      { word: "El agua", translations: { en: "Water", ar: "ماء", uk: "Вода", fr: "Eau" }, imageUrl: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "💧", color: "#EBF8FF" },
+      { word: "El dormitorio", translations: { en: "Bedroom", ar: "غرفة نوم", uk: "Спальня", fr: "Chambre" }, imageUrl: "https://plus.unsplash.com/premium_photo-1683120852623-143817d6400b?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🛏️", color: "#EBF8FF" },
+      { word: "La cocina", translations: { en: "Kitchen", ar: "مطبخ", uk: "Кухня", fr: "Cuisine" }, imageUrl: "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🍳", color: "#EBF8FF" }
     ],
     content: `
 ## Comida Básica <trans en=\"(## Basic Food)\" ar=\"(## الأغذية الأساسية)\" uk=\"(## Основне харчування)\" fr=\"(## Aliments de base)\"/>
@@ -1538,9 +1538,9 @@ No decimos "más malo". Decimos **peor**. <trans en=\"(We don't say 'badder.')\"
     emoji: "🍽️",
     color: "#FFF5F5",
     vocabulary: [
-      { word: "El menú / La carta", translations: { en: "Menu", ar: "قائمة الطعام", uk: "Меню", fr: "Menu" }, imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&auto=format&fit=crop&q=60", emoji: "🧾", color: "#FFF5F5" },
-      { word: "La cuenta", translations: { en: "The bill", ar: "الفاتورة", uk: "Рахунок", fr: "L'addition" }, imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&auto=format&fit=crop&q=60", emoji: "💶", color: "#FFF5F5" },
-      { word: "Para beber", translations: { en: "To drink", ar: "للشرب", uk: "Пити", fr: "À boire" }, imageUrl: "https://images.unsplash.com/photo-1548964856-ac520a4a9f30?w=200&auto=format&fit=crop&q=60", emoji: "🥤", color: "#FFF5F5" },
+      { word: "El menú / La carta", translations: { en: "Menu", ar: "قائمة الطعام", uk: "Меню", fr: "Menu" }, imageUrl: "https://images.unsplash.com/photo-1599250300435-b9693f21830d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🧾", color: "#FFF5F5" },
+      { word: "La cuenta", translations: { en: "The bill", ar: "الفاتورة", uk: "Рахунок", fr: "L'addition" }, imageUrl: "https://www.shutterstock.com/image-photo/waiter-giving-bill-customer-restaurant-260nw-2595975451.jpg", emoji: "💶", color: "#FFF5F5" },
+      { word: "Para beber", translations: { en: "To drink", ar: "للشرب", uk: "Пити", fr: "À boire" }, imageUrl: "https://images.unsplash.com/photo-1624340208764-db877c6b9596?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🥤", color: "#FFF5F5" },
       { word: "Para comer", translations: { en: "To eat", ar: "للأكل", uk: "Їсти", fr: "À manger" }, imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&auto=format&fit=crop&q=60", emoji: "🍽️", color: "#FFF5F5" }
     ],
     content: `
