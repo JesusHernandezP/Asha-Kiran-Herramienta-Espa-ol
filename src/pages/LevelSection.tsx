@@ -63,7 +63,9 @@ export function LevelSection() {
             
             <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:grid-cols-3 md:grid-cols-2">
                {levelLessons.filter(l => l.category === category).map(lesson => {
-                 const displayImg = visualMode === 'illustration' ? lesson.illustrationUrl : lesson.imageUrl;
+                 const displayImg = visualMode === 'illustration' 
+                   ? (lesson.illustrationUrl || lesson.imageUrl) 
+                   : (lesson.imageUrl || lesson.illustrationUrl);
                  const { title, description } = getLessonMetadata(lesson.id, lesson.title, lesson.description, displayLang);
                  return (
                    <Link 
