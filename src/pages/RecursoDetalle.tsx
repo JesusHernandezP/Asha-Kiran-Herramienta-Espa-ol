@@ -1,12 +1,193 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { glossaryTranslations } from '../data/glossaryTranslations';
 import { allResources, resourceMeta } from '../data/recursosData';
 import type { ResourceType, ResourceEntry } from '../data/recursosData';
-import { ArrowLeft, Search, ExternalLink, Play, Image as ImageIcon, Volume2, BookOpen } from 'lucide-react';
+import { ArrowLeft, Search, ExternalLink, Play, Pause, Image as ImageIcon, Volume2, VolumeX, BookOpen } from 'lucide-react';
 
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
+
+function AudioCard({ item, meta }: { item: ResourceEntry; meta: any }) {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [isMuted, setIsMuted] = useState(false);
+  const [volume, setVolume] = useState(0.8);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  const togglePlay = () => {
+    if (!audioRef.current) {
+      audioRef.current = new Audio(item.url);
+      audioRef.current.volume = volume;
+      audioRef.current.muted = isMuted;
+
+      audioRef.current.addEventListener('timeupdate', () => {
+        if (audioRef.current) {
+          setCurrentTime(audioRef.current.currentTime);
+        }
+      });
+      audioRef.current.addEventListener('loadedmetadata', () => {
+        if (audioRef.current) {
+          setDuration(audioRef.current.duration);
+        }
+      });
+      audioRef.current.addEventListener('ended', () => {
+        setIsPlaying(false);
+        setCurrentTime(0);
+      });
+    }
+
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      audioRef.current.play().catch((err) => console.error('Error playing audio:', err));
+      setIsPlaying(true);
+    }
+  };
+
+  const handleSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = parseFloat(e.target.value);
+    setCurrentTime(val);
+    if (audioRef.current) {
+      audioRef.current.currentTime = val;
+    }
+  };
+
+  const toggleMute = () => {
+    const nextMuted = !isMuted;
+    setIsMuted(nextMuted);
+    if (audioRef.current) {
+      audioRef.current.muted = nextMuted;
+    }
+  };
+
+  const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = parseFloat(e.target.value);
+    setVolume(val);
+    if (audioRef.current) {
+      audioRef.current.volume = val;
+      audioRef.current.muted = val === 0;
+      setIsMuted(val === 0);
+    }
+  };
+
+  const formatTime = (time: number) => {
+    if (isNaN(time) || !isFinite(time)) return '0:00';
+    const minutes = Math.floor(time / 60);
+    const seconds = Math.floor(time % 60);
+    return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+  };
+
+  return (
+    <div className="bg-white rounded-3xl border border-stone-100 shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+      {/* Visualizer Area */}
+      <div
+        className="aspect-video w-full flex flex-col items-center justify-center relative overflow-hidden"
+        style={{ backgroundColor: `${meta.color}08` }}
+      >
+        <div className="flex items-end gap-1 mb-2 h-8">
+          {[...Array(6)].map((_, i) => (
+            <div
+              key={i}
+              className="w-1 bg-[#8EAC3E] rounded-full transition-all duration-300"
+              style={{
+                height: isPlaying ? '24px' : '4px',
+                animation: isPlaying ? 'soundwave 0.5s ease-in-out infinite alternate' : 'none',
+                animationDelay: `${i * 0.1}s`,
+              }}
+            />
+          ))}
+        </div>
+        <span className="text-5xl z-10">{item.emoji}</span>
+      </div>
+
+      {/* Body Content */}
+      <div className="p-6 flex flex-col flex-grow">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-xl">{item.emoji}</span>
+          {item.level && (
+            <span className="text-xs font-extrabold text-[#00823B] bg-[#f4fbf6] px-2.5 py-0.5 rounded-full">
+              {item.level}
+            </span>
+          )}
+        </div>
+
+        <h3 className="text-lg font-black text-[#192A56] mb-2 leading-snug">
+          {item.title}
+        </h3>
+        <p className="text-stone-500 text-sm leading-relaxed mb-4 flex-grow">
+          {item.description}
+        </p>
+
+        {/* Custom Audio Player Controls */}
+        <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 mb-4">
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <button
+              onClick={togglePlay}
+              className="w-10 h-10 rounded-full flex items-center justify-center bg-[#8EAC3E] text-white hover:scale-105 active:scale-95 transition-transform cursor-pointer"
+            >
+              {isPlaying ? <Pause size={18} /> : <Play size={18} className="ml-0.5" />}
+            </button>
+
+            <div className="flex-1">
+              <input
+                type="range"
+                min={0}
+                max={duration || 100}
+                value={currentTime}
+                onChange={handleSeek}
+                className="w-full h-1 bg-stone-200 rounded-lg appearance-none cursor-pointer accent-[#8EAC3E]"
+              />
+              <div className="flex justify-between text-[10px] text-stone-400 font-bold mt-1">
+                <span>{formatTime(currentTime)}</span>
+                <span>{formatTime(duration)}</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-end gap-2 border-t border-stone-200/50 pt-2 mt-2">
+            <button onClick={toggleMute} className="text-stone-400 hover:text-stone-600 cursor-pointer">
+              {isMuted ? <VolumeX size={14} /> : <Volume2 size={14} />}
+            </button>
+            <input
+              type="range"
+              min={0}
+              max={1}
+              step={0.05}
+              value={isMuted ? 0 : volume}
+              onChange={handleVolumeChange}
+              className="w-16 h-1 bg-stone-200 rounded-lg appearance-none cursor-pointer accent-[#8EAC3E]"
+            />
+          </div>
+        </div>
+
+        {/* Tags */}
+        <div className="flex flex-wrap gap-1.5 mb-2">
+          {item.tags.map((tag) => (
+            <span
+              key={tag}
+              className="text-[10px] font-bold text-stone-400 bg-stone-50 border border-stone-100 px-2 py-0.5 rounded-md"
+            >
+              #{tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 
 export function RecursoDetalle() {
   const { type } = useParams<{ type: string }>();
@@ -151,11 +332,23 @@ export function RecursoDetalle() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {filteredResources.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredResources.map((item) => (
-                <div
-                  key={item.id}
-                  className="bg-white rounded-3xl border border-stone-100 shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full"
-                >
+              {filteredResources.map((item) => {
+                if (
+                  resourceType === 'audios' &&
+                  item.url &&
+                  (item.url.startsWith('/audio/') ||
+                    item.url.endsWith('.mp3') ||
+                    item.url.endsWith('.mpeg') ||
+                    item.url.endsWith('.wav'))
+                ) {
+                  return <AudioCard key={item.id} item={item} meta={meta} />;
+                }
+                return (
+                  <div
+                    key={item.id}
+                    className="bg-white rounded-3xl border border-stone-100 shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full"
+                  >
+
                   {/* Thumbnail / Header Area */}
                   {resourceType === 'videos' && item.embedUrl ? (
                     <div className="aspect-video w-full bg-black relative">
@@ -228,19 +421,29 @@ export function RecursoDetalle() {
                     </div>
 
                     {/* Action Button */}
-                    {item.url && (
+                    {(item.url || (resourceType === 'videos' && item.embedUrl)) && (
                       <div className="mt-auto pt-4 border-t border-stone-50">
-                        {item.url.startsWith('http') ? (
+                        {resourceType === 'videos' && item.embedUrl ? (
+                          <a
+                            href={item.embedUrl.replace('/embed/', '/watch?v=')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-sm font-black text-[#00823B] hover:text-[#00823B]/80 transition-colors"
+                          >
+                            <span>Ver en YouTube</span>
+                            <ExternalLink size={14} />
+                          </a>
+                        ) : item.url && (item.url.startsWith('http') || item.url.startsWith('/docs/')) ? (
                           <a
                             href={item.url}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 text-sm font-black text-[#00823B] hover:text-[#00823B]/80 transition-colors"
                           >
-                            <span>Visitar Recurso</span>
+                            <span>{item.url.startsWith('/docs/') ? 'Abrir Ficha' : 'Visitar Recurso'}</span>
                             <ExternalLink size={14} />
                           </a>
-                        ) : (
+                        ) : item.url ? (
                           <Link
                             to={item.url}
                             className="inline-flex items-center gap-2 text-sm font-black text-[#00823B] hover:text-[#00823B]/80 transition-colors"
@@ -248,12 +451,13 @@ export function RecursoDetalle() {
                             <span>Ir a la Lección</span>
                             <ArrowLeft size={14} className="rotate-180" />
                           </Link>
-                        )}
+                        ) : null}
                       </div>
                     )}
                   </div>
                 </div>
-              ))}
+              );
+            })}
             </div>
           ) : (
             <div className="text-center py-20 bg-white rounded-3xl border border-stone-100 shadow-sm">

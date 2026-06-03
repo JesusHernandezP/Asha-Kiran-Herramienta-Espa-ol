@@ -126,931 +126,941 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b11-1",
-        "question": "Ayer yo ___ al trabajo.",
+        "question": "Ayer yo ___ al trabajo. <trans en=\"(Yesterday I ___ to work.)\" ar=\"(أمس أنا ___ إلى العمل.)\" uk=\"(Вчора я ___ на роботу.)\" fr=\"(Hier, je ___ au travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fui",
+          "fuiste",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-2",
-        "question": "Tú ___ a la ciudad por la mañana.",
+        "question": "Tú ___ a la ciudad por la mañana. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuiste",
+          "fui",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-3",
-        "question": "Él ___ al hospital ayer.",
+        "question": "Él ___ al hospital ayer. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fue",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-4",
-        "question": "Ella ___ a la tienda antes.",
+        "question": "Ella ___ a la tienda antes. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fue",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-5",
-        "question": "Nosotros ___ a casa por la tarde.",
+        "question": "Nosotros ___ a casa por la tarde. <trans en=\"(We ___ house.)\" ar=\"(نحن ___ المنزل.)\" uk=\"(Ми ___ будинку.)\" fr=\"(Nous ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuimos",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-6",
-        "question": "Vosotros ___ al centro ayer.",
+        "question": "Vosotros ___ al centro ayer. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuisteis",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-7",
-        "question": "Ellos ___ a la escuela por la mañana.",
+        "question": "Ellos ___ a la escuela por la mañana. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fueron",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-8",
-        "question": "Yo ___ al mercado ayer.",
+        "question": "Yo ___ al mercado ayer. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fui",
+          "fuiste",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-9",
-        "question": "Tú ___ a la calle por la tarde.",
+        "question": "Tú ___ a la calle por la tarde. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuiste",
+          "fui",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-10",
-        "question": "Ellas ___ al trabajo ayer.",
+        "question": "Ellas ___ al trabajo ayer. <trans en=\"(They ___ work.)\" ar=\"(هم ___ العمل.)\" uk=\"(Вони ___ роботу.)\" fr=\"(Ils ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fueron",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-11",
-        "question": "Ayer yo ___ en casa.",
+        "question": "Ayer yo ___ en casa. <trans en=\"(Yesterday I ___ at home.)\" ar=\"(أمس كنت ___ في المنزل.)\" uk=\"(Вчора я ___ вдома.)\" fr=\"(Hier, j'étais ___ à la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuve",
+          "estuviste",
+          "estuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-12",
-        "question": "Tú ___ en la ciudad.",
+        "question": "Tú ___ en la ciudad. <trans en=\"(You ___ in the city/Madrid.)\" ar=\"(أنت ___ في المدينة/مدريد.)\" uk=\"(Ти ___ у місті/Мадриді.)\" fr=\"(Tu ___ dans la ville/Madrid.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuviste",
+          "estuve",
+          "estuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-13",
-        "question": "Él ___ en el hospital.",
+        "question": "Él ___ en el hospital. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuvo",
+          "estuve",
+          "estuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-14",
-        "question": "Ella ___ en la tienda.",
+        "question": "Ella ___ en la tienda. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuvo",
+          "estuve",
+          "estuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-15",
-        "question": "Nosotros ___ juntos ayer.",
+        "question": "Nosotros ___ juntos ayer. <trans en=\"(We ___ together.)\" ar=\"(نحن ___ معاً.)\" uk=\"(Ми ___ разом.)\" fr=\"(Nous ___ ensemble.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuvimos",
+          "estuve",
+          "estuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-16",
-        "question": "Vosotros ___ en la calle.",
+        "question": "Vosotros ___ en la calle. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuvisteis",
+          "estuve",
+          "estuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-17",
-        "question": "Ellos ___ en el trabajo.",
+        "question": "Ellos ___ en el trabajo. <trans en=\"(They ___ work.)\" ar=\"(هم ___ العمل.)\" uk=\"(Вони ___ роботу.)\" fr=\"(Ils ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuvieron",
+          "estuve",
+          "estuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-18",
-        "question": "Yo ___ allí por la mañana.",
+        "question": "Yo ___ allí por la mañana. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuve",
+          "estuviste",
+          "estuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-19",
-        "question": "Tú ___ aquí ayer.",
+        "question": "Tú ___ aquí ayer. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuviste",
+          "estuve",
+          "estuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-20",
-        "question": "Ellas ___ en la escuela.",
+        "question": "Ellas ___ en la escuela. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estuvieron",
+          "estuve",
+          "estuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-21",
-        "question": "Ayer yo ___ todo el día.",
+        "question": "Ayer yo ___ todo el día. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajé",
+          "trabajaste",
+          "trabajó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-22",
-        "question": "Tú ___ por la mañana.",
+        "question": "Tú ___ por la mañana. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaste",
+          "trabajé",
+          "trabajó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-23",
-        "question": "Él ___ en la tienda.",
+        "question": "Él ___ en la tienda. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajó",
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-24",
-        "question": "Ella ___ en la oficina.",
+        "question": "Ella ___ en la oficina. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajó",
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-25",
-        "question": "Nosotros ___ juntos ayer.",
+        "question": "Nosotros ___ juntos ayer. <trans en=\"(We ___ together.)\" ar=\"(نحن ___ معاً.)\" uk=\"(Ми ___ разом.)\" fr=\"(Nous ___ ensemble.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajamos",
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-26",
-        "question": "Vosotros ___ poco.",
+        "question": "Vosotros ___ poco. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajasteis",
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-27",
-        "question": "Ellos ___ mucho.",
+        "question": "Ellos ___ mucho. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaron",
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-28",
-        "question": "Yo ___ en la ciudad.",
+        "question": "Yo ___ en la ciudad. <trans en=\"(I ___ in the city/Madrid.)\" ar=\"(أنا ___ في المدينة/مدريد.)\" uk=\"(Я ___ у місті/Мадриді.)\" fr=\"(Je ___ dans la ville/Madrid.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajé",
+          "trabajaste",
+          "trabajó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-29",
-        "question": "Tú ___ en casa.",
+        "question": "Tú ___ en casa. <trans en=\"(You ___ house.)\" ar=\"(أنت ___ المنزل.)\" uk=\"(Ти ___ будинку.)\" fr=\"(Tu ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaste",
+          "trabajé",
+          "trabajó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-30",
-        "question": "Ellas ___ en el campo.",
+        "question": "Ellas ___ en el campo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaron",
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-31",
-        "question": "Ayer yo ___ temprano.",
+        "question": "Ayer yo ___ temprano. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegué",
+          "llegaste",
+          "llegó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-32",
-        "question": "Tú ___ tarde al trabajo.",
+        "question": "Tú ___ tarde al trabajo. <trans en=\"(You ___ work.)\" ar=\"(أنت ___ العمل.)\" uk=\"(Ти ___ роботу.)\" fr=\"(Tu ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegaste",
+          "llegué",
+          "llegó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-33",
-        "question": "Él ___ a casa por la noche.",
+        "question": "Él ___ a casa por la noche. <trans en=\"(He/She ___ house.)\" ar=\"(هو/هي ___ المنزل.)\" uk=\"(Він/Вона ___ будинку.)\" fr=\"(Il/Elle ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegó",
+          "llegué",
+          "llegaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-34",
-        "question": "Ella ___ al hospital ayer.",
+        "question": "Ella ___ al hospital ayer. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegó",
+          "llegué",
+          "llegaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-35",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegamos",
+          "llegué",
+          "llegaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-36",
-        "question": "Vosotros ___ a tiempo.",
+        "question": "Vosotros ___ a tiempo. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegasteis",
+          "llegué",
+          "llegaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-37",
-        "question": "Ellos ___ tarde.",
+        "question": "Ellos ___ tarde. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegaron",
+          "llegué",
+          "llegaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-38",
-        "question": "Yo ___ al centro ayer.",
+        "question": "Yo ___ al centro ayer. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegué",
+          "llegaste",
+          "llegó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-39",
-        "question": "Tú ___ a la ciudad.",
+        "question": "Tú ___ a la ciudad. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegaste",
+          "llegué",
+          "llegó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-40",
-        "question": "Ellas ___ por la mañana.",
+        "question": "Ellas ___ por la mañana. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "llegaron",
+          "llegué",
+          "llegaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-41",
-        "question": "Ayer yo ___ de casa.",
+        "question": "Ayer yo ___ de casa. <trans en=\"(I ___ house.)\" ar=\"(أنا ___ المنزل.)\" uk=\"(Я ___ будинку.)\" fr=\"(Je ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salí",
+          "saliste",
+          "salió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-42",
-        "question": "Tú ___ por la mañana.",
+        "question": "Tú ___ por la mañana. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "saliste",
+          "salí",
+          "salió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-43",
-        "question": "Él ___ tarde.",
+        "question": "Él ___ tarde. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salió",
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-44",
-        "question": "Ella ___ al trabajo.",
+        "question": "Ella ___ al trabajo. <trans en=\"(She ___ work.)\" ar=\"(هي ___ العمل.)\" uk=\"(Вона ___ роботу.)\" fr=\"(Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salió",
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-45",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salimos",
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-46",
-        "question": "Vosotros ___ temprano.",
+        "question": "Vosotros ___ temprano. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salisteis",
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-47",
-        "question": "Ellos ___ de la ciudad.",
+        "question": "Ellos ___ de la ciudad. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salieron",
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-48",
-        "question": "Yo ___ por la noche.",
+        "question": "Yo ___ por la noche. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salí",
+          "saliste",
+          "salió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-49",
-        "question": "Tú ___ al centro.",
+        "question": "Tú ___ al centro. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "saliste",
+          "salí",
+          "salió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-50",
-        "question": "Ellas ___ antes.",
+        "question": "Ellas ___ antes. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "salieron",
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-51",
-        "question": "Ayer yo ___ a casa.",
+        "question": "Ayer yo ___ a casa. <trans en=\"(I ___ house.)\" ar=\"(أنا ___ المنزل.)\" uk=\"(Я ___ будинку.)\" fr=\"(Je ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volví",
+          "volviste",
+          "volvió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-52",
-        "question": "Tú ___ tarde.",
+        "question": "Tú ___ tarde. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volviste",
+          "volví",
+          "volvió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-53",
-        "question": "Él ___ del trabajo.",
+        "question": "Él ___ del trabajo. <trans en=\"(He/She ___ work.)\" ar=\"(هو/هي ___ العمل.)\" uk=\"(Він/Вона ___ роботу.)\" fr=\"(Il/Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volvió",
+          "volví",
+          "volviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-54",
-        "question": "Ella ___ por la noche.",
+        "question": "Ella ___ por la noche. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volvió",
+          "volví",
+          "volviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-55",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volvimos",
+          "volví",
+          "volviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-56",
-        "question": "Vosotros ___ temprano.",
+        "question": "Vosotros ___ temprano. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volvisteis",
+          "volví",
+          "volviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-57",
-        "question": "Ellos ___ a la ciudad.",
+        "question": "Ellos ___ a la ciudad. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volvieron",
+          "volví",
+          "volviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-58",
-        "question": "Yo ___ cansado.",
+        "question": "Yo ___ cansado. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volví",
+          "volviste",
+          "volvió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-59",
-        "question": "Tú ___ contento.",
+        "question": "Tú ___ contento. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volviste",
+          "volví",
+          "volvió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-60",
-        "question": "Ellas ___ ayer.",
+        "question": "Ellas ___ ayer. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "volvieron",
+          "volví",
+          "volviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-61",
-        "question": "ayer / fui / trabajo / al",
+        "question": "ayer / fui / trabajo / al <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer fui al trabajo.",
+          "fui al trabajo ayer.",
+          "trabajo. al fui Ayer"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-62",
-        "question": "estuve / casa / en / ayer",
+        "question": "estuve / casa / en / ayer <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer estuve en casa.",
+          "estuve en casa ayer.",
+          "casa. en estuve Ayer"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-63",
-        "question": "trabajé / mañana / la / por",
+        "question": "trabajé / mañana / la / por <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Trabajé por la mañana.",
+          "Trabajé por la mañana ayer.",
+          "mañana. la por Trabajé"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-64",
-        "question": "llegué / tarde / ayer",
+        "question": "llegué / tarde / ayer <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Llegué tarde ayer.",
+          "Llegué tarde ayer ayer.",
+          "ayer. tarde Llegué"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-65",
-        "question": "salí / casa / de / ayer",
+        "question": "salí / casa / de / ayer <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Salí de casa ayer.",
+          "Salí de casa ayer ayer.",
+          "ayer. casa de Salí"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-66",
-        "question": "volví / noche / la / por",
+        "question": "volví / noche / la / por <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Volví por la noche.",
+          "Volví por la noche ayer.",
+          "noche. la por Volví"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-67",
-        "question": "estuve / hospital / el / en",
+        "question": "estuve / hospital / el / en <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Estuve en el hospital.",
+          "Estuve en el hospital ayer.",
+          "hospital. el en Estuve"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-68",
-        "question": "fuimos / ciudad / la / a",
+        "question": "fuimos / ciudad / la / a <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Fuimos a la ciudad.",
+          "Fuimos a la ciudad ayer.",
+          "ciudad. la a Fuimos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-69",
-        "question": "trabajaron / juntos / ayer",
+        "question": "trabajaron / juntos / ayer <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Trabajaron juntos ayer.",
+          "Trabajaron juntos ayer ayer.",
+          "ayer. juntos Trabajaron"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-70",
-        "question": "llegaron / temprano / ayer",
+        "question": "llegaron / temprano / ayer <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Llegaron temprano ayer.",
+          "Llegaron temprano ayer ayer.",
+          "ayer. temprano Llegaron"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-71",
-        "question": "Ayer _______ al trabajo.",
+        "question": "Ayer _______ al trabajo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "fui",
-          "voy"
+          "fuiste",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-72",
-        "question": "El lunes _______ en casa.",
+        "question": "El lunes _______ en casa. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "estuve",
-          "estoy"
+          "estuviste",
+          "estuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-73",
-        "question": "Ayer _______ mucho.",
+        "question": "Ayer _______ mucho. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "trabajé",
-          "trabajo"
+          "trabajaste",
+          "trabajó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-74",
-        "question": "La semana pasada _______.",
+        "question": "La semana pasada _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "salí",
-          "salgo"
+          "saliste",
+          "salió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-75",
-        "question": "Ayer _______ tarde.",
+        "question": "Ayer _______ tarde. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "llegué",
-          "llego"
+          "llegaste",
+          "llegó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-76",
-        "question": "El martes _______ a casa.",
+        "question": "El martes _______ a casa. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "volví",
-          "vuelvo"
+          "volviste",
+          "volvió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-77",
-        "question": "Ayer _______ en la ciudad.",
+        "question": "Ayer _______ en la ciudad. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "estuve",
-          "estoy"
+          "estuviste",
+          "estuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-78",
-        "question": "El viernes _______.",
+        "question": "El viernes _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "trabajaron",
-          "trabajan"
+          "trabajé",
+          "trabajaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-79",
-        "question": "Ayer _______ al hospital.",
+        "question": "Ayer _______ al hospital. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "fuimos",
-          "vamos"
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-80",
-        "question": "La noche pasada _______.",
+        "question": "La noche pasada _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "salieron",
-          "salen"
+          "salí",
+          "saliste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-81",
-        "question": "Completa las frases.",
+        "question": "Completa las frases. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer fui al trabajo por la mañana.",
+          "Ayer voy al trabajo por la mañana.",
+          "Ayer iré al trabajo por la mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-82",
-        "question": "Ayer fui ___.",
+        "question": "Ayer fui ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer fui al trabajo por la mañana..",
+          "Ayer fui trabajando por la mañana..",
+          "Ayer fui al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-83",
-        "question": "Ayer estuve ___.",
+        "question": "Ayer estuve ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer estuve al trabajo por la mañana..",
+          "Ayer estuve trabajando por la mañana..",
+          "Ayer estuve al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-84",
-        "question": "Ayer trabajé ___.",
+        "question": "Ayer trabajé ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer trabajé al trabajo por la mañana..",
+          "Ayer trabajé trabajando por la mañana..",
+          "Ayer trabajé al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-85",
-        "question": "Ayer llegué ___.",
+        "question": "Ayer llegué ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer llegué al trabajo por la mañana..",
+          "Ayer llegué trabajando por la mañana..",
+          "Ayer llegué al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-86",
-        "question": "Ayer salí ___.",
+        "question": "Ayer salí ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer salí al trabajo por la mañana..",
+          "Ayer salí trabajando por la mañana..",
+          "Ayer salí al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-87",
-        "question": "Ayer volví ___.",
+        "question": "Ayer volví ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer volví al trabajo por la mañana..",
+          "Ayer volví trabajando por la mañana..",
+          "Ayer volví al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-88",
-        "question": "Por la mañana ___.",
+        "question": "Por la mañana ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Por la mañana al trabajo por la mañana..",
+          "Por la mañana trabajando por la mañana..",
+          "Por la mañana al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-89",
-        "question": "Por la tarde ___.",
+        "question": "Por la tarde ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Por la tarde al trabajo por la mañana..",
+          "Por la tarde trabajando por la mañana..",
+          "Por la tarde al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-90",
-        "question": "Por la noche ___.",
+        "question": "Por la noche ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Por la noche al trabajo por la mañana..",
+          "Por la noche trabajando por la mañana..",
+          "Por la noche al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-91",
-        "question": "Ese día ___.",
+        "question": "Ese día ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día al trabajo por la mañana..",
+          "Ese día trabajando por la mañana..",
+          "Ese día al trabajo hoy.."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-92",
-        "question": "Escribe 6–8 frases sobre un día del pasado.",
+        "question": "Escribe 6–8 frases sobre un día del pasado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer fui al trabajo por la mañana. Por la tarde estuve en casa. Por la noche volví tarde.",
+          "Ayer voy al trabajo por la mañana. Por la tarde estoy en casa. Por la noche vuelvo tarde.",
+          "Ayer iré al trabajo por la mañana. Por la tarde estaré en casa. Por la noche volveré tarde."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-93",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer fui al trabajo por la mañana. Por la tarde estuve en casa.",
+          "Ayer voy al trabajo por la mañana. Por la tarde estoy en casa.",
+          "Ayer iré al trabajo por la mañana. Por la tarde estaré en casa."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b11-94",
-        "question": "Ayer fui al trabajo por la mañana.Por la tarde estuve en casa.Por la noche volví tarde.",
+        "question": "Ayer fui al trabajo por la mañana.Por la tarde estuve en casa.Por la noche volví tarde. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ayer fui al trabajo por la mañana.Por la tarde estuve en casa.Por la noche volví tarde.",
+          "Ayer fui al trabajo por la mañana.Por la tarde estuve en casa.Por la noche volví tarde.",
+          "Ayer fui al trabajo por la mañana.Por la tarde estuve en casa.Por la noche volví tarde."
         ],
         "correctAnswer": 0
       }
@@ -1183,961 +1193,971 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b12-1",
-        "question": "Ese día yo ___ al hospital.",
+        "question": "Ese día yo ___ al hospital. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fui",
+          "fuiste",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-2",
-        "question": "Tú ___ a la ciudad por la mañana.",
+        "question": "Tú ___ a la ciudad por la mañana. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuiste",
+          "fui",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-3",
-        "question": "Él ___ al trabajo temprano.",
+        "question": "Él ___ al trabajo temprano. <trans en=\"(He/She ___ work.)\" ar=\"(هو/هي ___ العمل.)\" uk=\"(Він/Вона ___ роботу.)\" fr=\"(Il/Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fue",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-4",
-        "question": "Ella ___ a la escuela.",
+        "question": "Ella ___ a la escuela. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fue",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-5",
-        "question": "Nosotros ___ a casa por la tarde.",
+        "question": "Nosotros ___ a casa por la tarde. <trans en=\"(We ___ house.)\" ar=\"(نحن ___ المنزل.)\" uk=\"(Ми ___ будинку.)\" fr=\"(Nous ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuimos",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-6",
-        "question": "Vosotros ___ a la oficina.",
+        "question": "Vosotros ___ a la oficina. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuisteis",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-7",
-        "question": "Ellos ___ a la calle.",
+        "question": "Ellos ___ a la calle. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fueron",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-8",
-        "question": "Yo ___ a buscar ayuda.",
+        "question": "Yo ___ a buscar ayuda. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fui",
+          "fuiste",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-9",
-        "question": "Tú ___ al centro.",
+        "question": "Tú ___ al centro. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fuiste",
+          "fui",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-10",
-        "question": "Ellas ___ a un lugar importante.",
+        "question": "Ellas ___ a un lugar importante. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "fueron",
+          "fui",
+          "fuiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-11",
-        "question": "Mi familia ___ a verme ese día.",
+        "question": "Mi familia ___ a verme ese día. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vine",
+          "viniste",
+          "vino"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-12",
-        "question": "Tú ___ conmigo por la tarde.",
+        "question": "Tú ___ conmigo por la tarde. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viniste",
+          "vine",
+          "vino"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-13",
-        "question": "Él ___ temprano.",
+        "question": "Él ___ temprano. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vino",
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-14",
-        "question": "Ella ___ sola.",
+        "question": "Ella ___ sola. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vino",
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-15",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vinimos",
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-16",
-        "question": "Vosotros ___ más tarde.",
+        "question": "Vosotros ___ más tarde. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vinisteis",
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-17",
-        "question": "Ellos ___ desde la ciudad.",
+        "question": "Ellos ___ desde la ciudad. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vinieron",
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-18",
-        "question": "Yo ___ a casa cansado.",
+        "question": "Yo ___ a casa cansado. <trans en=\"(I ___ house.)\" ar=\"(أنا ___ المنزل.)\" uk=\"(Я ___ будинку.)\" fr=\"(Je ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vine",
+          "viniste",
+          "vino"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-19",
-        "question": "Tú ___ con una idea.",
+        "question": "Tú ___ con una idea. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viniste",
+          "vine",
+          "vino"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-20",
-        "question": "Ellas ___ a ayudarme.",
+        "question": "Ellas ___ a ayudarme. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vinieron",
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-21",
-        "question": "Ese día yo ___ muchas cosas.",
+        "question": "Ese día yo ___ muchas cosas. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hice",
+          "hiciste",
+          "hizo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-22",
-        "question": "Tú ___ un cambio importante.",
+        "question": "Tú ___ un cambio importante. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hiciste",
+          "hice",
+          "hizo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-23",
-        "question": "Él ___ una llamada.",
+        "question": "Él ___ una llamada. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hizo",
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-24",
-        "question": "Ella ___ una pregunta.",
+        "question": "Ella ___ una pregunta. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hizo",
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-25",
-        "question": "Nosotros ___ una decisión.",
+        "question": "Nosotros ___ una decisión. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hicimos",
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-26",
-        "question": "Vosotros ___ el trabajo.",
+        "question": "Vosotros ___ el trabajo. <trans en=\"(You all ___ work.)\" ar=\"(أنتم ___ العمل.)\" uk=\"(Ви всі ___ роботу.)\" fr=\"(Vous ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hicisteis",
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-27",
-        "question": "Ellos ___ un esfuerzo.",
+        "question": "Ellos ___ un esfuerzo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hicieron",
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-28",
-        "question": "Yo ___ lo correcto.",
+        "question": "Yo ___ lo correcto. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hice",
+          "hiciste",
+          "hizo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-29",
-        "question": "Tú ___ lo posible.",
+        "question": "Tú ___ lo posible. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hiciste",
+          "hice",
+          "hizo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-30",
-        "question": "Ellas ___ todo juntas.",
+        "question": "Ellas ___ todo juntas. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hicieron",
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-31",
-        "question": "Ese día yo ___ un problema.",
+        "question": "Ese día yo ___ un problema. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuve",
+          "tuviste",
+          "tuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-32",
-        "question": "Tú ___ una idea.",
+        "question": "Tú ___ una idea. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuviste",
+          "tuve",
+          "tuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-33",
-        "question": "Él ___ una cita.",
+        "question": "Él ___ una cita. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuvo",
+          "tuve",
+          "tuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-34",
-        "question": "Ella ___ miedo.",
+        "question": "Ella ___ miedo. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuvo",
+          "tuve",
+          "tuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-35",
-        "question": "Nosotros ___ poco tiempo.",
+        "question": "Nosotros ___ poco tiempo. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuvimos",
+          "tuve",
+          "tuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-36",
-        "question": "Vosotros ___ una oportunidad.",
+        "question": "Vosotros ___ una oportunidad. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuvisteis",
+          "tuve",
+          "tuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-37",
-        "question": "Ellos ___ ayuda.",
+        "question": "Ellos ___ ayuda. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuvieron",
+          "tuve",
+          "tuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-38",
-        "question": "Yo ___ una decisión difícil.",
+        "question": "Yo ___ una decisión difícil. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuve",
+          "tuviste",
+          "tuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-39",
-        "question": "Tú ___ un recuerdo importante.",
+        "question": "Tú ___ un recuerdo importante. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuviste",
+          "tuve",
+          "tuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-40",
-        "question": "Ellas ___ una experiencia nueva.",
+        "question": "Ellas ___ una experiencia nueva. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tuvieron",
+          "tuve",
+          "tuviste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-41",
-        "question": "El médico me ___ la verdad.",
+        "question": "El médico me ___ la verdad. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dije",
+          "dijiste",
+          "dijo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-42",
-        "question": "Tú me ___ algo importante.",
+        "question": "Tú me ___ algo importante. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijiste",
+          "dije",
+          "dijo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-43",
-        "question": "Él ___ su nombre.",
+        "question": "Él ___ su nombre. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijo",
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-44",
-        "question": "Ella ___ que sí.",
+        "question": "Ella ___ que sí. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijo",
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-45",
-        "question": "Nosotros ___ la respuesta.",
+        "question": "Nosotros ___ la respuesta. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijimos",
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-46",
-        "question": "Vosotros ___ la fecha.",
+        "question": "Vosotros ___ la fecha. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijisteis",
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-47",
-        "question": "Ellos ___ la historia.",
+        "question": "Ellos ___ la historia. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijeron",
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-48",
-        "question": "Yo ___ lo que pasó.",
+        "question": "Yo ___ lo que pasó. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dije",
+          "dijiste",
+          "dijo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-49",
-        "question": "Tú ___ la razón.",
+        "question": "Tú ___ la razón. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijiste",
+          "dije",
+          "dijo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-50",
-        "question": "Ellas ___ lo mismo.",
+        "question": "Ellas ___ lo mismo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "dijeron",
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-51",
-        "question": "Ese día ___ algo importante.",
+        "question": "Ese día ___ algo importante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasé",
+          "pasaste",
+          "pasó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-52",
-        "question": "Todo ___ muy rápido.",
+        "question": "Todo ___ muy rápido. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasé",
+          "pasaste",
+          "pasó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-53",
-        "question": "La mañana ___ tranquila.",
+        "question": "La mañana ___ tranquila. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasó",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-54",
-        "question": "La tarde ___ lenta.",
+        "question": "La tarde ___ lenta. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasó",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-55",
-        "question": "La noche ___ mal.",
+        "question": "La noche ___ mal. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasó",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-56",
-        "question": "Nosotros ___ un momento difícil.",
+        "question": "Nosotros ___ un momento difícil. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasamos",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-57",
-        "question": "Vosotros ___ por la calle.",
+        "question": "Vosotros ___ por la calle. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasasteis",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-58",
-        "question": "Ellos ___ juntos el día.",
+        "question": "Ellos ___ juntos el día. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasaron",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-59",
-        "question": "Yo ___ miedo.",
+        "question": "Yo ___ miedo. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasé",
+          "pasaste",
+          "pasó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-60",
-        "question": "Ellas ___ una experiencia nueva.",
+        "question": "Ellas ___ una experiencia nueva. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pasaron",
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-61",
-        "question": "fui / hospital / al / día / ese",
+        "question": "fui / hospital / al / día / ese <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fui al hospital.",
+          "Ese día al hospital.",
+          "hospital. al fui día Ese"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-62",
-        "question": "tuve / problema / un",
+        "question": "tuve / problema / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema.",
+          "Tuve un problema.",
+          "problema. un Tuve"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-63",
-        "question": "médico / dijo / me / algo",
+        "question": "médico / dijo / me / algo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El médico me dijo algo.",
+          "El médico me dijo algo.",
+          "algo. dijo me médico El"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-64",
-        "question": "hice / decisión / una",
+        "question": "hice / decisión / una <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Hice una decisión.",
+          "Haciendo una decisión.",
+          "decisión. una Hice"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-65",
-        "question": "vino / familia / mi",
+        "question": "vino / familia / mi <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Mi familia vino.",
+          "Mi familia vino.",
+          "vino. familia Mi"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-66",
-        "question": "pasó / importante / algo",
+        "question": "pasó / importante / algo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Algo importante pasó.",
+          "Algo importante pasó.",
+          "pasó. importante Algo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-67",
-        "question": "fuimos / casa / a",
+        "question": "fuimos / casa / a <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Fuimos a casa.",
+          "Fuimos a casa.",
+          "casa. a Fuimos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-68",
-        "question": "dijeron / verdad / la",
+        "question": "dijeron / verdad / la <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Dijeron la verdad.",
+          "Dijeron la verdad.",
+          "verdad. la Dijeron"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-69",
-        "question": "hice / correcto / lo",
+        "question": "hice / correcto / lo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Hice lo correcto.",
+          "Haciendo lo correcto.",
+          "correcto. lo Hice"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-70",
-        "question": "terminó / día / el",
+        "question": "terminó / día / el <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El día terminó.",
+          "El día terminó.",
+          "terminó. día El"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-71",
-        "question": "Ese día _______ al hospital.",
+        "question": "Ese día _______ al hospital. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "fui",
-          "voy"
+          "fuiste",
+          "fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-72",
-        "question": "Ayer _______ un problema.",
+        "question": "Ayer _______ un problema. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "tuve",
-          "tengo"
+          "tuviste",
+          "tuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-73",
-        "question": "El médico _______ algo importante.",
+        "question": "El médico _______ algo importante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "dijo",
-          "dice"
+          "dije",
+          "dijiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-74",
-        "question": "Nosotros _______ una decisión.",
+        "question": "Nosotros _______ una decisión. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
           "hicimos",
-          "hacemos"
+          "hice",
+          "hiciste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-75",
-        "question": "Ellos _______ a ayudar.",
+        "question": "Ellos _______ a ayudar. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
           "vinieron",
-          "vienen"
+          "vine",
+          "viniste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-76",
-        "question": "Todo _______ rápido.",
+        "question": "Todo _______ rápido. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "pasó",
-          "pasa"
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-77",
-        "question": "Yo _______ miedo.",
+        "question": "Yo _______ miedo. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
           "tuve",
-          "tengo"
+          "tuviste",
+          "tuvo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-78",
-        "question": "Tú _______ la verdad.",
+        "question": "Tú _______ la verdad. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
           "dijiste",
-          "dices"
+          "dije",
+          "dijo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-79",
-        "question": "La noche _______ mal.",
+        "question": "La noche _______ mal. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "pasó",
-          "pasa"
+          "pasé",
+          "pasaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-80",
-        "question": "El día _______.",
+        "question": "El día _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "terminó",
-          "termina"
+          "terminómos",
+          "terminómos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-81",
-        "question": "Completa las frases.",
+        "question": "Completa las frases. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-82",
-        "question": "Ese día fui ___.",
+        "question": "Ese día fui ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-83",
-        "question": "Ese día tuve ___.",
+        "question": "Ese día tuve ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-84",
-        "question": "Después hice ___.",
+        "question": "Después hice ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-85",
-        "question": "Al final pasó ___.",
+        "question": "Al final pasó ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-86",
-        "question": "Mi familia vino ___.",
+        "question": "Mi familia vino ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-87",
-        "question": "El médico dijo ___.",
+        "question": "El médico dijo ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-88",
-        "question": "Yo decidí ___.",
+        "question": "Yo decidí ___. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-89",
-        "question": "La mañana pasó ___.",
+        "question": "La mañana pasó ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-90",
-        "question": "La tarde terminó ___.",
+        "question": "La tarde terminó ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-91",
-        "question": "Ese día fue ___.",
+        "question": "Ese día fue ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-92",
-        "question": "Escribe 8–10 frases sobre un día importante del pasado.",
+        "question": "Escribe 8–10 frases sobre un día importante del pasado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-93",
-        "question": "Guía:",
+        "question": "Guía: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-94",
-        "question": "¿Dónde fuiste?",
+        "question": "¿Dónde fuiste? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-95",
-        "question": "¿Qué pasó?",
+        "question": "¿Qué pasó? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-96",
-        "question": "¿Qué hiciste?",
+        "question": "¿Qué hiciste? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b12-97",
-        "question": "¿Cómo terminó el día?",
+        "question": "¿Cómo terminó el día? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ese día fue muy importante para mí.",
+          "Ese día es muy importante para mí.",
+          "Ese día será muy importante para mí."
         ],
         "correctAnswer": 0
       }
@@ -2270,901 +2290,911 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b13-1",
-        "question": "___ viví en otro país, ___ vivo aquí.",
+        "question": "___ viví en otro país, ___ vivo aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-2",
-        "question": "___ trabajé en el campo, ___ trabajo en la ciudad.",
+        "question": "___ trabajé en el campo, ___ trabajo en la ciudad. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-3",
-        "question": "___ estudié poco, ___ estudio español.",
+        "question": "___ estudié poco, ___ estudio español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-4",
-        "question": "___ fui estudiante, ___ soy trabajador.",
+        "question": "___ fui estudiante, ___ soy trabajador. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-5",
-        "question": "___ estuve solo, ___ estoy con mi familia.",
+        "question": "___ estuve solo, ___ estoy con mi familia. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-6",
-        "question": "___ tuve problemas, ___ estoy mejor.",
+        "question": "___ tuve problemas, ___ estoy mejor. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-7",
-        "question": "___ viví lejos, ___ vivo aquí.",
+        "question": "___ viví lejos, ___ vivo aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-8",
-        "question": "___ trabajé mucho, ___ trabajo menos.",
+        "question": "___ trabajé mucho, ___ trabajo menos. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-9",
-        "question": "___ fui nuevo, ___ soy conocido.",
+        "question": "___ fui nuevo, ___ soy conocido. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-10",
-        "question": "___ estuve mal, ___ estoy bien.",
+        "question": "___ estuve mal, ___ estoy bien. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí, ahora vivo aquí.",
+          "Antes vivo allí, ahora viví aquí.",
+          "Antes viviré allí, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-11",
-        "question": "Primera parte: PASADO (indefinido) / Segunda parte: PRESENTE",
+        "question": "Primera parte: PASADO (indefinido) / Segunda parte: PRESENTE <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-12",
-        "question": "Antes ___ (vivir) en el campo, ahora ___ (vivir) in la ciudad.",
+        "question": "Antes ___ (vivir) en el campo, ahora ___ (vivir) in la ciudad. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-13",
-        "question": "Antes ___ (trabajar) poco, ahora ___ (trabajar) más.",
+        "question": "Antes ___ (trabajar) poco, ahora ___ (trabajar) más. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-14",
-        "question": "Antes ___ (estudiar) nada, ahora ___ (estudiar) español.",
+        "question": "Antes ___ (estudiar) nada, ahora ___ (estudiar) español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-15",
-        "question": "Antes ___ (tener) miedo, ahora ___ (tener) más confianza.",
+        "question": "Antes ___ (tener) miedo, ahora ___ (tener) más confianza. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-16",
-        "question": "Antes ___ (ser) estudiante, ahora ___ (ser) trabajador.",
+        "question": "Antes ___ (ser) estudiante, ahora ___ (ser) trabajador. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-17",
-        "question": "Antes ___ (estar) solo, ahora ___ (estar) acompañado.",
+        "question": "Antes ___ (estar) solo, ahora ___ (estar) acompañado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-18",
-        "question": "Antes ___ (vivir) allí, ahora ___ (vivir) aquí.",
+        "question": "Antes ___ (vivir) allí, ahora ___ (vivir) aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-19",
-        "question": "Antes ___ (trabajar) en casa, ahora ___ (trabajar) fuera.",
+        "question": "Antes ___ (trabajar) en casa, ahora ___ (trabajar) fuera. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-20",
-        "question": "Antes ___ (tener) problemas, ahora ___ (estar) mejor.",
+        "question": "Antes ___ (tener) problemas, ahora ___ (estar) mejor. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en el campo, ahora vivo en la ciudad.",
+          "Antes vivo en el campo, ahora viví en la ciudad.",
+          "Antes viviré en el campo, ahora vivo en la ciudad."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-21",
-        "question": "Antes ___ (ser) difícil, ahora ___ (ser) diferente.",
+        "question": "Antes ___ (ser) difícil, ahora ___ (ser) diferente. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-22",
-        "question": "Tiempo verbal indicado",
+        "question": "Tiempo verbal indicado <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-23",
-        "question": "Antes _______ en Marruecos.",
+        "question": "Antes _______ en Marruecos. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "viví",
-          "vivo"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-24",
-        "question": "Ahora _______ en una empresa.",
+        "question": "Ahora _______ en una empresa. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "trabajo",
-          "trabajé"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-25",
-        "question": "Antes _______ estudiante.",
+        "question": "Antes _______ estudiante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "fui",
-          "soy"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-26",
-        "question": "Ahora _______ aquí.",
+        "question": "Ahora _______ aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "estoy",
-          "estuve"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-27",
-        "question": "Antes _______ muchos problemas.",
+        "question": "Antes _______ muchos problemas. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "tuve",
-          "tengo"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-28",
-        "question": "Ahora _______ más tiempo.",
+        "question": "Ahora _______ más tiempo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "tengo",
-          "tuve"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-29",
-        "question": "Antes _______ lejos.",
+        "question": "Antes _______ lejos. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "viví",
-          "vivo"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-30",
-        "question": "Ahora _______ más fuerte.",
+        "question": "Ahora _______ más fuerte. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "soy",
-          "fui"
+          "Antes era difícil, ahora es diferente.",
+          "Antes es difícil, ahora era diferente.",
+          "Antes será difícil, ahora es diferente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-31",
-        "question": "Antes _______ poco español.",
+        "question": "Antes _______ poco español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "estudié",
-          "estudio"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-32",
-        "question": "Ahora _______ todos los días.",
+        "question": "Ahora _______ todos los días. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "estudio",
-          "estudié"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-33",
-        "question": "Ahora ___ trabajo.",
+        "question": "Ahora ___ trabajo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-34",
-        "question": "Ahora ___ no tengo casa.",
+        "question": "Ahora ___ no tengo casa. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-35",
-        "question": "Ahora ___ vivo aquí.",
+        "question": "Ahora ___ vivo aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-36",
-        "question": "Ahora ___ no hablo bien español.",
+        "question": "Ahora ___ no hablo bien español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-37",
-        "question": "Ahora ___ estudio español.",
+        "question": "Ahora ___ estudio español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-38",
-        "question": "Ahora ___ no trabajo por la noche.",
+        "question": "Ahora ___ no trabajo por la noche. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-39",
-        "question": "Ahora ___ tengo amigos aquí.",
+        "question": "Ahora ___ tengo amigos aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-40",
-        "question": "Ahora ___ no entiendo todo.",
+        "question": "Ahora ___ no entiendo todo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco español, ahora estudio más.",
+          "Antes estudio poco español, ahora estudié más.",
+          "Antes estudiaré poco español, ahora estudio más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-41",
-        "question": "Ahora ___ estoy mejor.",
+        "question": "Ahora ___ estoy mejor. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-42",
-        "question": "Ahora ___ no es fácil.",
+        "question": "Ahora ___ no es fácil. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-43",
-        "question": "Relación lógica pasado → presente",
+        "question": "Relación lógica pasado → presente <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-44",
-        "question": "Antes no trabajaba →",
+        "question": "Antes no trabajaba → <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-45",
-        "question": "Antes no vivía aquí →",
+        "question": "Antes no vivía aquí → <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-46",
-        "question": "Antes no estudiaba →",
+        "question": "Antes no estudiaba → <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-47",
-        "question": "Antes no tenía amigos →",
+        "question": "Antes no tenía amigos → <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-48",
-        "question": "Antes no entendía español →",
+        "question": "Antes no entendía español → <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-49",
-        "question": "a. Ahora ya estudio español.b. Ahora ya vivo aquí.c. Ahora ya trabajo.d. Ahora ya tengo amigos.e. Ahora ya entiendo más.",
+        "question": "a. Ahora ya estudio español.b. Ahora ya vivo aquí.c. Ahora ya trabajo.d. Ahora ya tengo amigos.e. Ahora ya entiendo más. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-50",
-        "question": "Tiempo verbal indicado",
+        "question": "Tiempo verbal indicado <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Antes ya trabajo.",
+          "Ahora todavía trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-51",
-        "question": "antes / viví / allí",
+        "question": "antes / viví / allí <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví allí.",
+          "Ahora viví allí.",
+          "allí. viví Antes"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-52",
-        "question": "ahora / vivo / aquí",
+        "question": "ahora / vivo / aquí <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora vivo aquí.",
+          "Ahora vivo aquí.",
+          "aquí. vivo Ahora"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-53",
-        "question": "ya / trabajo / ahora",
+        "question": "ya / trabajo / ahora <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora ya trabajo.",
+          "Ahora ya trabajo.",
+          "trabajo. ya Ahora"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-54",
-        "question": "todavía / no / trabajo",
+        "question": "todavía / no / trabajo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Todavía no trabajo.",
+          "Todavía no trabajo.",
+          "trabajo. no Todavía"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-55",
-        "question": "antes / estudié / poco",
+        "question": "antes / estudié / poco <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes estudié poco.",
+          "Ahora estudié poco.",
+          "poco. estudié Antes"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-56",
-        "question": "ahora / estudio / más",
+        "question": "ahora / estudio / más <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora estudio más.",
+          "Ahora estudio más.",
+          "más. estudio Ahora"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-57",
-        "question": "antes / fui / estudiante",
+        "question": "antes / fui / estudiante <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes fui estudiante.",
+          "Ahora fui estudiante.",
+          "estudiante. fui Antes"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-58",
-        "question": "ahora / soy / trabajador",
+        "question": "ahora / soy / trabajador <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora soy trabajador.",
+          "Ahora soy trabajador.",
+          "trabajador. soy Ahora"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-59",
-        "question": "todavía / no / entiendo / todo",
+        "question": "todavía / no / entiendo / todo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Todavía no entiendo todo.",
+          "Todavía no entiendo todo.",
+          "todo. entiendo no Todavía"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-60",
-        "question": "ahora / estoy / mejor",
+        "question": "ahora / estoy / mejor <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Ahora estoy mejor.",
+          "Ahora estoy mejor.",
+          "mejor. estoy Ahora"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-61",
-        "question": "Antes usa pasado.",
+        "question": "Antes usa pasado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-62",
-        "question": "Ahora usa presente.",
+        "question": "Ahora usa presente. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-63",
-        "question": "Ya habla del pasado.",
+        "question": "Ya habla del pasado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-64",
-        "question": "Todavía habla del presente.",
+        "question": "Todavía habla del presente. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-65",
-        "question": "“Ahora ya trabajo” es correcto.",
+        "question": "“Ahora ya trabajo” es correcto. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-66",
-        "question": "“Antes vivo allí” es correcto.",
+        "question": "“Antes vivo allí” es correcto. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-67",
-        "question": "“Todavía no trabajo” es presente.",
+        "question": "“Todavía no trabajo” es presente. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-68",
-        "question": "Antes y ahora comparan.",
+        "question": "Antes y ahora comparan. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-69",
-        "question": "Ya indica cambio.",
+        "question": "Ya indica cambio. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-70",
-        "question": "Todavía indica que no hay cambio.",
+        "question": "Todavía indica que no hay cambio. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Correcto",
+          "Incorrecto",
+          "No se sabe"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-71",
-        "question": "Tiempo verbal indicado",
+        "question": "Tiempo verbal indicado <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-72",
-        "question": "— ¿Dónde vivías antes? (PASADO)— ___ en otro país.__",
+        "question": "— ¿Dónde vivías antes? (PASADO)— ___ en otro país.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-73",
-        "question": "— ¿Dónde vives ahora? (PRESENTE)— ___ aquí.__",
+        "question": "— ¿Dónde vives ahora? (PRESENTE)— ___ aquí.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-74",
-        "question": "— ¿Trabajas ahora? (PRESENTE)— Sí, ___ trabajo.__",
+        "question": "— ¿Trabajas ahora? (PRESENTE)— Sí, ___ trabajo.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-75",
-        "question": "— ¿Trabajabas antes? (PASADO)— No, no _.",
+        "question": "— ¿Trabajabas antes? (PASADO)— No, no _. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-76",
-        "question": "Comparación pasado / presente",
+        "question": "Comparación pasado / presente <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-77",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-78",
-        "question": "Antes viví ___, ahora vivo ___.",
+        "question": "Antes viví ___, ahora vivo ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-79",
-        "question": "Antes trabajé ___, ahora trabajo ___.",
+        "question": "Antes trabajé ___, ahora trabajo ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-80",
-        "question": "Antes estudié ___, ahora estudio ___.",
+        "question": "Antes estudié ___, ahora estudio ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-81",
-        "question": "Antes fui ___, ahora soy ___.",
+        "question": "Antes fui ___, ahora soy ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-82",
-        "question": "Antes estuve ___, ahora estoy ___.",
+        "question": "Antes estuve ___, ahora estoy ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-83",
-        "question": "PASADO + PRESENTE",
+        "question": "PASADO + PRESENTE <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-84",
-        "question": "Escribe 8–10 frases comparando tu vida antes y ahora.",
+        "question": "Escribe 8–10 frases comparando tu vida antes y ahora. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-85",
-        "question": "Guía:",
+        "question": "Guía: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-86",
-        "question": "país",
+        "question": "país <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-87",
-        "question": "trabajo",
+        "question": "trabajo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-88",
-        "question": "idioma",
+        "question": "idioma <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-89",
-        "question": "situación personal",
+        "question": "situación personal <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-90",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b13-91",
-        "question": "Antes viví en otro país.Ahora vivo aquí y ya trabajo.",
+        "question": "Antes viví en otro país.Ahora vivo aquí y ya trabajo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Antes viví en otro país, ahora vivo aquí.",
+          "Antes vivo en otro país, ahora vivo aquí.",
+          "Antes viviré en otro país, ahora vivo aquí."
         ],
         "correctAnswer": 0
       }
@@ -3297,821 +3327,821 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b14-1",
-        "question": "Yo ___ vivido en otro país.",
+        "question": "Yo ___ vivido en otro país. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "he",
+          "has",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-2",
-        "question": "Tú ___ trabajado antes.",
+        "question": "Tú ___ trabajado antes. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "has",
+          "he",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-3",
-        "question": "Él ___ estudiado español.",
+        "question": "Él ___ estudiado español. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "ha",
+          "he",
+          "han"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-4",
-        "question": "Ella ___ viajado poco.",
+        "question": "Ella ___ viajado poco. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "ha",
+          "he",
+          "han"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-5",
-        "question": "Nosotros ___ aprendido mucho.",
+        "question": "Nosotros ___ aprendido mucho. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "hemos",
+          "he",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-6",
-        "question": "Vosotros ___ cambiado de ciudad.",
+        "question": "Vosotros ___ cambiado de ciudad. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "habéis",
+          "he",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-7",
-        "question": "Ellos ___ empezado una nueva vida.",
+        "question": "Ellos ___ empezado una nueva vida. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "han",
+          "he",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-8",
-        "question": "Yo ___ terminado un trabajo.",
+        "question": "Yo ___ terminado un trabajo. <trans en=\"(I ___ work.)\" ar=\"(أنا ___ العمل.)\" uk=\"(Я ___ роботу.)\" fr=\"(Je ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "he",
+          "has",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-9",
-        "question": "Tú ___ conocido a muchas personas.",
+        "question": "Tú ___ conocido a muchas personas. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "has",
+          "he",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-10",
-        "question": "Ellas ___ ayudado a su familia.",
+        "question": "Ellas ___ ayudado a su familia. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "han",
+          "he",
+          "ha"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-11",
-        "question": "He ___ (vivir) en una ciudad grande.",
+        "question": "He ___ (vivir) en una ciudad grande. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivido",
+          "vivado",
+          "vividoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-12",
-        "question": "He ___ (trabajar) muchos años.",
+        "question": "He ___ (trabajar) muchos años. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajado",
+          "trabajado",
+          "trabajadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-13",
-        "question": "He ___ (estudiar) español.",
+        "question": "He ___ (estudiar) español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiado",
+          "estudiado",
+          "estudiadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-14",
-        "question": "He ___ (viajar) a otro país.",
+        "question": "He ___ (viajar) a otro país. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viajado",
+          "viajado",
+          "viajadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-15",
-        "question": "He ___ (aprender) mucho aquí.",
+        "question": "He ___ (aprender) mucho aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendido",
+          "aprendado",
+          "aprendidoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-16",
-        "question": "He ___ (cambiar) de trabajo.",
+        "question": "He ___ (cambiar) de trabajo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "cambiado",
+          "cambiado",
+          "cambiadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-17",
-        "question": "He ___ (empezar) una nueva etapa.",
+        "question": "He ___ (empezar) una nueva etapa. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezado",
+          "empezado",
+          "empezadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-18",
-        "question": "He ___ (terminar) mis estudios.",
+        "question": "He ___ (terminar) mis estudios. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "terminado",
+          "terminado",
+          "terminadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-19",
-        "question": "He ___ (conocer) a nuevas personas.",
+        "question": "He ___ (conocer) a nuevas personas. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conocido",
+          "conocado",
+          "conocidoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-20",
-        "question": "He ___ (ayudar) a mi familia.",
+        "question": "He ___ (ayudar) a mi familia. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "ayudado",
+          "ayudado",
+          "ayudadoo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-21",
-        "question": "He vivido en otro país.",
+        "question": "He vivido en otro país. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-22",
-        "question": "He trabajado en el campo.",
+        "question": "He trabajado en el campo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-23",
-        "question": "He estudiado español.",
+        "question": "He estudiado español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-24",
-        "question": "He viajado muchas veces.",
+        "question": "He viajado muchas veces. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-25",
-        "question": "He cambiado de ciudad.",
+        "question": "He cambiado de ciudad. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-26",
-        "question": "He ayudado a mi familia.",
+        "question": "He ayudado a mi familia. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-27",
-        "question": "He aprendido cosas nuevas.",
+        "question": "He aprendido cosas nuevas. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-28",
-        "question": "He terminado un trabajo difícil.",
+        "question": "He terminado un trabajo difícil. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-29",
-        "question": "He conocido a personas importantes.",
+        "question": "He conocido a personas importantes. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-30",
-        "question": "He tomado decisiones importantes.",
+        "question": "He tomado decisiones importantes. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Sí, he tenido esta experiencia.",
+          "No, nunca la he tenido.",
+          "Me gustaría tenerla."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-31",
-        "question": "☐ He trabajado muchos años.☐ Trabajé muchos años ayer.",
+        "question": "☐ He trabajado muchos años.☐ Trabajé muchos años ayer. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-32",
-        "question": "☐ He vivido aquí.☐ Viví aquí el lunes.",
+        "question": "☐ He vivido aquí.☐ Viví aquí el lunes. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-33",
-        "question": "☐ Nunca he viajado en avión.☐ Nunca viajé en avión ayer.",
+        "question": "☐ Nunca he viajado en avión.☐ Nunca viajé en avión ayer. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-34",
-        "question": "☐ He estudiado español.☐ Estudié español ayer.",
+        "question": "☐ He estudiado español.☐ Estudié español ayer. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-35",
-        "question": "☐ He cambiado de trabajo.☐ Cambié de trabajo el mes pasado.",
+        "question": "☐ He cambiado de trabajo.☐ Cambié de trabajo el mes pasado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-36",
-        "question": "he / vivido / aquí",
+        "question": "he / vivido / aquí <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-37",
-        "question": "he / trabajado / mucho",
+        "question": "he / trabajado / mucho <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-38",
-        "question": "he / estudiado / español",
+        "question": "he / estudiado / español <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-39",
-        "question": "he / viajado / poco",
+        "question": "he / viajado / poco <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-40",
-        "question": "he / aprendido / mucho",
+        "question": "he / aprendido / mucho <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado muchos años.",
+          "Trabajé muchos años ayer.",
+          "Trabajo muchos años mañana."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-41",
-        "question": "he / cambiado / vida / mi",
+        "question": "he / cambiado / vida / mi <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He cambiado mi vida.",
+          "Yo cambiado mi vida.",
+          "vida. mi cambiado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-42",
-        "question": "he / empezado / algo / nuevo",
+        "question": "he / empezado / algo / nuevo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He empezado algo nuevo.",
+          "Yo empezado algo nuevo.",
+          "nuevo. algo empezado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-43",
-        "question": "he / terminado / trabajo / un",
+        "question": "he / terminado / trabajo / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He terminado un trabajo.",
+          "Yo terminado un trabajo.",
+          "trabajo. un terminado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-44",
-        "question": "he / conocido / personas / muchas",
+        "question": "he / conocido / personas / muchas <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He conocido muchas personas.",
+          "Yo conocido muchas personas.",
+          "personas. muchas conocido He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-45",
-        "question": "he / ayudado / familia / mi",
+        "question": "he / ayudado / familia / mi <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He ayudado a mi familia.",
+          "Yo ayudado a mi familia.",
+          "familia. mi a ayudado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-46",
-        "question": "___ he vivido en otro país.",
+        "question": "___ he vivido en otro país. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He vivido aquí mucho tiempo.",
+          "Yo vivido aquí mucho tiempo.",
+          "tiempo. mucho aquí vivido He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-47",
-        "question": "___ he viajado fuera.",
+        "question": "___ he viajado fuera. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He trabajado mucho en España.",
+          "Yo trabajado mucho en España.",
+          "España. en mucho trabajado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-48",
-        "question": "___ he cambiado de trabajo.",
+        "question": "___ he cambiado de trabajo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He estudiado español con ilusión.",
+          "Yo estudiado español con ilusión.",
+          "ilusión. con español estudiado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-49",
-        "question": "___ he estudiado español.",
+        "question": "___ he estudiado español. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He viajado poco por Europa.",
+          "Yo viajado poco por Europa.",
+          "Europa. por poco viajado He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-50",
-        "question": "___ he trabajado en el campo.",
+        "question": "___ he trabajado en el campo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "He aprendido mucho este año.",
+          "Yo aprendido mucho este año.",
+          "año. este mucho aprendido He"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-51",
-        "question": "___ he conocido a personas nuevas.",
+        "question": "___ he conocido a personas nuevas. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-52",
-        "question": "___ he ayudado a mi familia.",
+        "question": "___ he ayudado a mi familia. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-53",
-        "question": "___ he aprendido algo difícil.",
+        "question": "___ he aprendido algo difícil. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-54",
-        "question": "___ he tomado una decisión importante.",
+        "question": "___ he tomado una decisión importante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-55",
-        "question": "___ he empezado de nuevo.",
+        "question": "___ he empezado de nuevo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-56",
-        "question": "— ¿Has vivido en otro país?— Sí, ___ vivido fuera.__",
+        "question": "— ¿Has vivido en otro país?— Sí, ___ vivido fuera.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-57",
-        "question": "— ¿Has trabajado antes?— Sí, ___ trabajado muchos años.__",
+        "question": "— ¿Has trabajado antes?— Sí, ___ trabajado muchos años.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-58",
-        "question": "— ¿Has estudiado español?— Sí, ___ estudiado aquí.__",
+        "question": "— ¿Has estudiado español?— Sí, ___ estudiado aquí.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-59",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-60",
-        "question": "He vivido ___.",
+        "question": "He vivido ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-61",
-        "question": "He trabajado ___.",
+        "question": "He trabajado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-62",
-        "question": "He estudiado ___.",
+        "question": "He estudiado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-63",
-        "question": "He viajado ___.",
+        "question": "He viajado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-64",
-        "question": "He aprendido ___.",
+        "question": "He aprendido ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-65",
-        "question": "He cambiado ___.",
+        "question": "He cambiado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-66",
-        "question": "He ayudado ___.",
+        "question": "He ayudado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-67",
-        "question": "He conocido ___.",
+        "question": "He conocido ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-68",
-        "question": "He empezado ___.",
+        "question": "He empezado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-69",
-        "question": "He terminado ___.",
+        "question": "He terminado ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-70",
-        "question": "¿Has vivido aquí mucho tiempo?— Sí, ___.",
+        "question": "¿Has vivido aquí mucho tiempo?— Sí, ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-71",
-        "question": "¿Has trabajado antes?— Sí, ___.",
+        "question": "¿Has trabajado antes?— Sí, ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-72",
-        "question": "¿Has viajado a otro país?— No, ___.",
+        "question": "¿Has viajado a otro país?— No, ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-73",
-        "question": "¿Has estudiado español?— Sí, ___.",
+        "question": "¿Has estudiado español?— Sí, ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-74",
-        "question": "¿Has cambiado de trabajo?— No, _.",
+        "question": "¿Has cambiado de trabajo?— No, _. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-75",
-        "question": "Escribe 8–10 frases sobre tus experiencias de vida.",
+        "question": "Escribe 8–10 frases sobre tus experiencias de vida. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-76",
-        "question": "Guía:",
+        "question": "Guía: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-77",
-        "question": "países",
+        "question": "países <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-78",
-        "question": "trabajos",
+        "question": "trabajos <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-79",
-        "question": "estudios",
+        "question": "estudios <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-80",
-        "question": "cambios importantes",
+        "question": "cambios importantes <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-81",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b14-82",
-        "question": "He vivido en dos ciudades.He trabajado muchos años.He aprendido español aquí.",
+        "question": "He vivido en dos ciudades.He trabajado muchos años.He aprendido español aquí. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Nunca he viajado en avión.",
+          "Nunca viajo en avión ayer.",
+          "Nunca viajaré en avión ayer."
         ],
         "correctAnswer": 0
       }
@@ -4244,891 +4274,901 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b15-1",
-        "question": "Yo ___ ayuda ese día.",
+        "question": "Yo ___ ayuda ese día. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "busqué",
+          "buscaste",
+          "buscó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-2",
-        "question": "Tú ___ una solución.",
+        "question": "Tú ___ una solución. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscaste",
+          "busqué",
+          "buscó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-3",
-        "question": "Él ___ trabajo durante semanas.",
+        "question": "Él ___ trabajo durante semanas. <trans en=\"(He/She ___ work.)\" ar=\"(هو/هي ___ العمل.)\" uk=\"(Він/Вона ___ роботу.)\" fr=\"(Il/Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscó",
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-4",
-        "question": "Ella ___ información.",
+        "question": "Ella ___ información. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscó",
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-5",
-        "question": "Nosotros ___ una respuesta.",
+        "question": "Nosotros ___ una respuesta. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscamos",
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-6",
-        "question": "Vosotros ___ un lugar.",
+        "question": "Vosotros ___ un lugar. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscasteis",
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-7",
-        "question": "Ellos ___ apoyo.",
+        "question": "Ellos ___ apoyo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscaron",
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-8",
-        "question": "Yo ___ a una persona.",
+        "question": "Yo ___ a una persona. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "busqué",
+          "buscaste",
+          "buscó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-9",
-        "question": "Tú ___ una explicación.",
+        "question": "Tú ___ una explicación. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscaste",
+          "busqué",
+          "buscó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-10",
-        "question": "Ellas ___ un cambio.",
+        "question": "Ellas ___ un cambio. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "buscaron",
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-11",
-        "question": "Yo ___ ayuda.",
+        "question": "Yo ___ ayuda. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pedí",
+          "pediste",
+          "pidió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-12",
-        "question": "Tú ___ información.",
+        "question": "Tú ___ información. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pediste",
+          "pedí",
+          "pidió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-13",
-        "question": "Él ___ dinero.",
+        "question": "Él ___ dinero. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pidió",
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-14",
-        "question": "Ella ___ un documento.",
+        "question": "Ella ___ un documento. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pidió",
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-15",
-        "question": "Nosotros ___ una cita.",
+        "question": "Nosotros ___ una cita. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pedimos",
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-16",
-        "question": "Vosotros ___ apoyo.",
+        "question": "Vosotros ___ apoyo. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pedisteis",
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-17",
-        "question": "Ellos ___ permiso.",
+        "question": "Ellos ___ permiso. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pidieron",
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-18",
-        "question": "Yo ___ una solución.",
+        "question": "Yo ___ una solución. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pedí",
+          "pediste",
+          "pidió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-19",
-        "question": "Tú ___ una oportunidad.",
+        "question": "Tú ___ una oportunidad. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pediste",
+          "pedí",
+          "pidió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-20",
-        "question": "Ellas ___ ayuda.",
+        "question": "Ellas ___ ayuda. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pidieron",
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-21",
-        "question": "Yo ___ una solución.",
+        "question": "Yo ___ una solución. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontré",
+          "encontraste",
+          "encontró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-22",
-        "question": "Tú ___ el problema.",
+        "question": "Tú ___ el problema. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontraste",
+          "encontré",
+          "encontró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-23",
-        "question": "Él ___ trabajo.",
+        "question": "Él ___ trabajo. <trans en=\"(He/She ___ work.)\" ar=\"(هو/هي ___ العمل.)\" uk=\"(Він/Вона ___ роботу.)\" fr=\"(Il/Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontró",
+          "encontré",
+          "encontraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-24",
-        "question": "Ella ___ ayuda.",
+        "question": "Ella ___ ayuda. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontró",
+          "encontré",
+          "encontraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-25",
-        "question": "Nosotros ___ una respuesta.",
+        "question": "Nosotros ___ una respuesta. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontramos",
+          "encontré",
+          "encontraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-26",
-        "question": "Vosotros ___ un lugar.",
+        "question": "Vosotros ___ un lugar. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontrasteis",
+          "encontré",
+          "encontraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-27",
-        "question": "Ellos ___ apoyo.",
+        "question": "Ellos ___ apoyo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontraron",
+          "encontré",
+          "encontraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-28",
-        "question": "Yo ___ una persona.",
+        "question": "Yo ___ una persona. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontré",
+          "encontraste",
+          "encontró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-29",
-        "question": "Tú ___ el camino.",
+        "question": "Tú ___ el camino. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontraste",
+          "encontré",
+          "encontró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-30",
-        "question": "Ellas ___ una oportunidad.",
+        "question": "Ellas ___ una oportunidad. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "encontraron",
+          "encontré",
+          "encontraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-31",
-        "question": "Yo ___ ayuda.",
+        "question": "Yo ___ ayuda. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibí",
+          "recibiste",
+          "recibió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-32",
-        "question": "Tú ___ una respuesta.",
+        "question": "Tú ___ una respuesta. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibiste",
+          "recibí",
+          "recibió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-33",
-        "question": "Él ___ información.",
+        "question": "Él ___ información. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibió",
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-34",
-        "question": "Ella ___ apoyo.",
+        "question": "Ella ___ apoyo. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibió",
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-35",
-        "question": "Nosotros ___ una solución.",
+        "question": "Nosotros ___ una solución. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibimos",
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-36",
-        "question": "Vosotros ___ un documento.",
+        "question": "Vosotros ___ un documento. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibisteis",
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-37",
-        "question": "Ellos ___ noticias.",
+        "question": "Ellos ___ noticias. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibieron",
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-38",
-        "question": "Yo ___ una llamada.",
+        "question": "Yo ___ una llamada. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibí",
+          "recibiste",
+          "recibió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-39",
-        "question": "Tú ___ un mensaje.",
+        "question": "Tú ___ un mensaje. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibiste",
+          "recibí",
+          "recibió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-40",
-        "question": "Ellas ___ una oportunidad.",
+        "question": "Ellas ___ una oportunidad. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "recibieron",
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-41",
-        "question": "La situación ___ después.",
+        "question": "La situación ___ después. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-42",
-        "question": "El problema ___ poco a poco.",
+        "question": "El problema ___ poco a poco. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-43",
-        "question": "Todo ___ al final.",
+        "question": "Todo ___ al final. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-44",
-        "question": "La vida ___ con ayuda.",
+        "question": "La vida ___ con ayuda. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-45",
-        "question": "El trabajo ___ después.",
+        "question": "El trabajo ___ después. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-46",
-        "question": "La salud ___ mucho.",
+        "question": "La salud ___ mucho. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-47",
-        "question": "Las cosas ___ finalmente.",
+        "question": "Las cosas ___ finalmente. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-48",
-        "question": "El resultado ___ rápido.",
+        "question": "El resultado ___ rápido. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-49",
-        "question": "La situación ___ bastante.",
+        "question": "La situación ___ bastante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-50",
-        "question": "El día ___ al final.",
+        "question": "El día ___ al final. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "mejoró",
+          "mejora",
+          "mejorará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-51",
-        "question": "tuve / problema / un",
+        "question": "tuve / problema / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema.",
+          "Tengo un problema.",
+          "problema. un Tuve"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-52",
-        "question": "busqué / ayuda",
+        "question": "busqué / ayuda <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Busqué ayuda.",
+          "Busqué ayuda.",
+          "ayuda. Busqué"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-53",
-        "question": "pedí / información",
+        "question": "pedí / información <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Pedí información.",
+          "Pedí información.",
+          "información. Pedí"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-54",
-        "question": "encontré / solución / una",
+        "question": "encontré / solución / una <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Encontré una solución.",
+          "Encontré una solución.",
+          "solución. una Encontré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-55",
-        "question": "recibí / apoyo",
+        "question": "recibí / apoyo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Recibí apoyo.",
+          "Recibí apoyo.",
+          "apoyo. Recibí"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-56",
-        "question": "la / situación / mejoró",
+        "question": "la / situación / mejoró <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "La situación mejoró.",
+          "La situación mejoró.",
+          "mejoró. situación La"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-57",
-        "question": "finalmente / todo / pasó",
+        "question": "finalmente / todo / pasó <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Finalmente todo pasó.",
+          "Finalmente todo pasó.",
+          "pasó. todo Finalmente"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-58",
-        "question": "tomé / decisión / una",
+        "question": "tomé / decisión / una <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tomé una decisión.",
+          "Tomé una decisión.",
+          "decisión. una Tomé"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-59",
-        "question": "el / problema / resolví",
+        "question": "el / problema / resolví <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Resolví el problema.",
+          "Resolví el problema.",
+          "problema. el Resolví"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-60",
-        "question": "mejor / sentí / me",
+        "question": "mejor / sentí / me <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me sentí mejor.",
+          "Me sentí mejor.",
+          "mejor. sentí Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-61",
-        "question": "Ayer _______ ayuda.",
+        "question": "Ayer _______ ayuda. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "busqué",
-          "busco"
+          "buscaste",
+          "buscó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-62",
-        "question": "Ese día _______ información.",
+        "question": "Ese día _______ información. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "pedí",
-          "pido"
+          "pediste",
+          "pidió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-63",
-        "question": "Luego _______ una solución.",
+        "question": "Luego _______ una solución. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "encontré",
-          "encuentro"
+          "encontraste",
+          "encontró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-64",
-        "question": "Finalmente _______ todo.",
+        "question": "Finalmente _______ todo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "mejoró",
-          "mejora"
+          "mejoré",
+          "mejoraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-65",
-        "question": "Él _______ apoyo.",
+        "question": "Él _______ apoyo. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
           "recibió",
-          "recibe"
+          "recibí",
+          "recibiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-66",
-        "question": "Nosotros _______ ayuda ayer.",
+        "question": "Nosotros _______ ayuda ayer. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
           "buscamos",
-          "buscamos"
+          "busqué",
+          "buscaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-67",
-        "question": "Ellas _______ permiso.",
+        "question": "Ellas _______ permiso. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
           "pidieron",
-          "piden"
+          "pedí",
+          "pediste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-68",
-        "question": "Tú _______ el camino.",
+        "question": "Tú _______ el camino. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
           "encontraste",
-          "encuentras"
+          "encontré",
+          "encontró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-69",
-        "question": "El problema _______.",
+        "question": "El problema _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "mejoró",
-          "mejora"
+          "mejoré",
+          "mejoraste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-70",
-        "question": "La situación _______.",
+        "question": "La situación _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
           "cambió",
-          "cambia"
+          "cambiómos",
+          "cambiómos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-71",
-        "question": "Completa el texto:",
+        "question": "Completa el texto: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-72",
-        "question": "Ese día yo ___ un problema.Primero ___ ayuda.Después ___ información.Más tarde ___ una solución.Finalmente todo ___ y me ___ mejor.",
+        "question": "Ese día yo ___ un problema.Primero ___ ayuda.Después ___ información.Más tarde ___ una solución.Finalmente todo ___ y me ___ mejor. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-73",
-        "question": "Problema → Solución → Resultado (pasado)",
+        "question": "Problema → Solución → Resultado (pasado) <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-74",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-75",
-        "question": "Tuve un problema con ___.",
+        "question": "Tuve un problema con ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-76",
-        "question": "Busqué ayuda en ___.",
+        "question": "Busqué ayuda en ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-77",
-        "question": "Pedí información a ___.",
+        "question": "Pedí información a ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-78",
-        "question": "Encontré una solución ___.",
+        "question": "Encontré una solución ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-79",
-        "question": "Finalmente la situación _.",
+        "question": "Finalmente la situación _. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-80",
-        "question": "PASADO SIMPLE",
+        "question": "PASADO SIMPLE <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-81",
-        "question": "Escribe 10–12 frases contando:",
+        "question": "Escribe 10–12 frases contando: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-82",
-        "question": "un problema real",
+        "question": "un problema real <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-83",
-        "question": "qué hiciste",
+        "question": "qué hiciste <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-84",
-        "question": "cómo terminó",
+        "question": "cómo terminó <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-85",
-        "question": "Guía:",
+        "question": "Guía: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-86",
-        "question": "problema",
+        "question": "problema <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-87",
-        "question": "acciones",
+        "question": "acciones <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-88",
-        "question": "resultado",
+        "question": "resultado <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-89",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b15-90",
-        "question": "Tuve un problema con mis documentos.Busqué ayuda en una oficina.Pedí información.Finalmente el problema se resolvió.",
+        "question": "Tuve un problema con mis documentos.Busqué ayuda en una oficina.Pedí información.Finalmente el problema se resolvió. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tuve un problema con mis documentos.",
+          "Tengo un problema con mis documentos ayer.",
+          "Tendré un problema con mis documentos ayer."
         ],
         "correctAnswer": 0
       }
@@ -5261,901 +5301,911 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b16-1",
-        "question": "Yo ___ una nueva etapa.",
+        "question": "Yo ___ una nueva etapa. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empecé",
+          "empezaste",
+          "empezó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-2",
-        "question": "Tú ___ un camino diferente.",
+        "question": "Tú ___ un camino diferente. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezaste",
+          "empecé",
+          "empezó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-3",
-        "question": "Él ___ un nuevo trabajo.",
+        "question": "Él ___ un nuevo trabajo. <trans en=\"(He/She ___ work.)\" ar=\"(هو/هي ___ العمل.)\" uk=\"(Він/Вона ___ роботу.)\" fr=\"(Il/Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezó",
+          "empecé",
+          "empezaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-4",
-        "question": "Ella ___ una vida nueva.",
+        "question": "Ella ___ una vida nueva. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezó",
+          "empecé",
+          "empezaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-5",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezamos",
+          "empecé",
+          "empezaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-6",
-        "question": "Vosotros ___ con ilusión.",
+        "question": "Vosotros ___ con ilusión. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezasteis",
+          "empecé",
+          "empezaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-7",
-        "question": "Ellos ___ desde cero.",
+        "question": "Ellos ___ desde cero. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezaron",
+          "empecé",
+          "empezaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-8",
-        "question": "Yo ___ un cambio importante.",
+        "question": "Yo ___ un cambio importante. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empecé",
+          "empezaste",
+          "empezó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-9",
-        "question": "Tú ___ algo positivo.",
+        "question": "Tú ___ algo positivo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezaste",
+          "empecé",
+          "empezó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-10",
-        "question": "Ellas ___ una historia nueva.",
+        "question": "Ellas ___ una historia nueva. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "empezaron",
+          "empecé",
+          "empezaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-11",
-        "question": "Yo ___ mejorar mi situación.",
+        "question": "Yo ___ mejorar mi situación. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intenté",
+          "intentaste",
+          "intentó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-12",
-        "question": "Tú ___ aprender español.",
+        "question": "Tú ___ aprender español. <trans en=\"(You ___ to study/learn.)\" ar=\"(أنت ___ للدراسة/التعلم.)\" uk=\"(Ти ___ вчитися.)\" fr=\"(Tu ___ étudier/apprendre.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentaste",
+          "intenté",
+          "intentó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-13",
-        "question": "Él ___ ayudar a su familia.",
+        "question": "Él ___ ayudar a su familia. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentó",
+          "intenté",
+          "intentaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-14",
-        "question": "Ella ___ hacer lo mejor.",
+        "question": "Ella ___ hacer lo mejor. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentó",
+          "intenté",
+          "intentaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-15",
-        "question": "Nosotros ___ avanzar.",
+        "question": "Nosotros ___ avanzar. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentamos",
+          "intenté",
+          "intentaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-16",
-        "question": "Vosotros ___ cambiar.",
+        "question": "Vosotros ___ cambiar. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentasteis",
+          "intenté",
+          "intentaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-17",
-        "question": "Ellos ___ seguir adelante.",
+        "question": "Ellos ___ seguir adelante. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentaron",
+          "intenté",
+          "intentaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-18",
-        "question": "Yo ___ no rendirme.",
+        "question": "Yo ___ no rendirme. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intenté",
+          "intentaste",
+          "intentó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-19",
-        "question": "Tú ___ buscar apoyo.",
+        "question": "Tú ___ buscar apoyo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentaste",
+          "intenté",
+          "intentó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-20",
-        "question": "Ellas ___ hacerlo bien.",
+        "question": "Ellas ___ hacerlo bien. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "intentaron",
+          "intenté",
+          "intentaste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-21",
-        "question": "Yo ___ muchas cosas.",
+        "question": "Yo ___ muchas cosas. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendí",
+          "aprendiste",
+          "aprendió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-22",
-        "question": "Tú ___ un idioma nuevo.",
+        "question": "Tú ___ un idioma nuevo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendiste",
+          "aprendí",
+          "aprendió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-23",
-        "question": "Él ___ de sus errores.",
+        "question": "Él ___ de sus errores. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendió",
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-24",
-        "question": "Ella ___ con el tiempo.",
+        "question": "Ella ___ con el tiempo. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendió",
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-25",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendimos",
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-26",
-        "question": "Vosotros ___ paso a paso.",
+        "question": "Vosotros ___ paso a paso. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendisteis",
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-27",
-        "question": "Ellos ___ algo importante.",
+        "question": "Ellos ___ algo importante. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendieron",
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-28",
-        "question": "Yo ___ a confiar.",
+        "question": "Yo ___ a confiar. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendí",
+          "aprendiste",
+          "aprendió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-29",
-        "question": "Tú ___ a seguir.",
+        "question": "Tú ___ a seguir. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendiste",
+          "aprendí",
+          "aprendió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-30",
-        "question": "Ellas ___ a avanzar.",
+        "question": "Ellas ___ a avanzar. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "aprendieron",
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-31",
-        "question": "Yo ___ un cambio positivo.",
+        "question": "Yo ___ un cambio positivo. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "logré",
+          "lograste",
+          "logró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-32",
-        "question": "Tú ___ tu objetivo.",
+        "question": "Tú ___ tu objetivo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "lograste",
+          "logré",
+          "logró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-33",
-        "question": "Él ___ mejorar su vida.",
+        "question": "Él ___ mejorar su vida. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "logró",
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-34",
-        "question": "Ella ___ sentirse mejor.",
+        "question": "Ella ___ sentirse mejor. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "logró",
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-35",
-        "question": "Nosotros ___ avanzar juntos.",
+        "question": "Nosotros ___ avanzar juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "logramos",
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-36",
-        "question": "Vosotros ___ terminar el proceso.",
+        "question": "Vosotros ___ terminar el proceso. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "lograsteis",
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-37",
-        "question": "Ellos ___ un buen resultado.",
+        "question": "Ellos ___ un buen resultado. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "lograron",
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-38",
-        "question": "Yo ___ algo importante.",
+        "question": "Yo ___ algo importante. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "logré",
+          "lograste",
+          "logró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-39",
-        "question": "Tú ___ superar el problema.",
+        "question": "Tú ___ superar el problema. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "lograste",
+          "logré",
+          "logró"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-40",
-        "question": "Ellas ___ un final feliz.",
+        "question": "Ellas ___ un final feliz. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "lograron",
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-41",
-        "question": "Yo ___ trabajo.",
+        "question": "Yo ___ trabajo. <trans en=\"(I ___ work.)\" ar=\"(أنا ___ العمل.)\" uk=\"(Я ___ роботу.)\" fr=\"(Je ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conseguí",
+          "conseguiste",
+          "consiguió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-42",
-        "question": "Tú ___ ayuda.",
+        "question": "Tú ___ ayuda. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conseguiste",
+          "conseguí",
+          "consiguió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-43",
-        "question": "Él ___ apoyo.",
+        "question": "Él ___ apoyo. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "consiguió",
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-44",
-        "question": "Ella ___ una oportunidad.",
+        "question": "Ella ___ una oportunidad. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "consiguió",
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-45",
-        "question": "Nosotros ___ estabilidad.",
+        "question": "Nosotros ___ estabilidad. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conseguimos",
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-46",
-        "question": "Vosotros ___ un cambio.",
+        "question": "Vosotros ___ un cambio. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conseguisteis",
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-47",
-        "question": "Ellos ___ avanzar.",
+        "question": "Ellos ___ avanzar. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "consiguieron",
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-48",
-        "question": "Yo ___ mejorar.",
+        "question": "Yo ___ mejorar. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conseguí",
+          "conseguiste",
+          "consiguió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-49",
-        "question": "Tú ___ una solución.",
+        "question": "Tú ___ una solución. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "conseguiste",
+          "conseguí",
+          "consiguió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-50",
-        "question": "Ellas ___ un resultado positivo.",
+        "question": "Ellas ___ un resultado positivo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "consiguieron",
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-51",
-        "question": "empecé / etapa / una / nueva",
+        "question": "empecé / etapa / una / nueva <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Empecé una nueva etapa.",
+          "Empiezo una nueva etapa.",
+          "etapa. nueva una Empecé"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-52",
-        "question": "intenté / mejorar / situación / mi",
+        "question": "intenté / mejorar / situación / mi <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Intenté mejorar mi situación.",
+          "Intenté mejorar mi situación.",
+          "situación. mi mejorar Intenté"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-53",
-        "question": "aprendí / cosas / nuevas",
+        "question": "aprendí / cosas / nuevas <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Aprendí cosas nuevas.",
+          "Aprendí cosas nuevas.",
+          "nuevas. cosas Aprendí"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-54",
-        "question": "conseguí / ayuda",
+        "question": "conseguí / ayuda <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Conseguí ayuda.",
+          "Conseguí ayuda.",
+          "ayuda. Conseguí"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-55",
-        "question": "logré / cambio / un",
+        "question": "logré / cambio / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Logré un cambio.",
+          "Logré un cambio.",
+          "cambio. un Logré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-56",
-        "question": "la / vida / mejoró",
+        "question": "la / vida / mejoró <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "La vida mejoró.",
+          "La vida mejoró.",
+          "mejoró. vida La"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-57",
-        "question": "sentí / orgulloso / me",
+        "question": "sentí / orgulloso / me <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me sentí orgulloso.",
+          "Me sentí orgulloso.",
+          "orgulloso. sentí Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-58",
-        "question": "fue / experiencia / positiva / una",
+        "question": "fue / experiencia / positiva / una <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Fue una experiencia positiva.",
+          "Fue una experiencia positiva.",
+          "positiva. experiencia una Fue"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-59",
-        "question": "finalmente / todo / pasó / bien",
+        "question": "finalmente / todo / pasó / bien <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Finalmente todo pasó bien.",
+          "Finalmente todo pasó bien.",
+          "bien. pasó todo Finalmente"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-60",
-        "question": "terminé / contento",
+        "question": "terminé / contento <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Terminé contento.",
+          "Terminé contento.",
+          "contento. Terminé"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-61",
-        "question": "Yo _______ una etapa nueva.",
+        "question": "Yo _______ una etapa nueva. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
           "empecé",
-          "empiezo"
+          "empezaste",
+          "empezó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-62",
-        "question": "Tú _______ mejorar.",
+        "question": "Tú _______ mejorar. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
           "intentaste",
-          "intentas"
+          "intenté",
+          "intentó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-63",
-        "question": "Él _______ mucho.",
+        "question": "Él _______ mucho. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
           "aprendió",
-          "aprende"
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-64",
-        "question": "Ella _______ un cambio.",
+        "question": "Ella _______ un cambio. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
           "logró",
-          "logra"
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-65",
-        "question": "Nosotros _______ apoyo.",
+        "question": "Nosotros _______ apoyo. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
           "conseguimos",
-          "conseguimos"
+          "conseguí",
+          "conseguiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-66",
-        "question": "Vosotros _______ juntos.",
+        "question": "Vosotros _______ juntos. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
           "aprendisteis",
-          "aprendéis"
+          "aprendí",
+          "aprendiste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-67",
-        "question": "Ellos _______ avanzar.",
+        "question": "Ellos _______ avanzar. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
           "lograron",
-          "logran"
+          "logré",
+          "lograste"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-68",
-        "question": "Yo _______ trabajo.",
+        "question": "Yo _______ trabajo. <trans en=\"(I ___ work.)\" ar=\"(أنا ___ العمل.)\" uk=\"(Я ___ роботу.)\" fr=\"(Je ___ le travail.)\"/>",
         "options": [
           "conseguí",
-          "consigo"
+          "conseguiste",
+          "consiguió"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-69",
-        "question": "Tú _______ de nuevo.",
+        "question": "Tú _______ de nuevo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
           "empezaste",
-          "empiezas"
+          "empecé",
+          "empezó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-70",
-        "question": "Ellas _______ bien.",
+        "question": "Ellas _______ bien. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
           "terminaron",
-          "terminan"
+          "terminaronmos",
+          "terminaronmos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-71",
-        "question": "Un día yo ___ una nueva etapa.Al principio ___ mejorar mi situación.Poco a poco ___ cosas nuevas.Después ___ ayuda.Finalmente ___ un cambio positivo y me ___ feliz.",
+        "question": "Un día yo ___ una nueva etapa.Al principio ___ mejorar mi situación.Poco a poco ___ cosas nuevas.Después ___ ayuda.Finalmente ___ un cambio positivo y me ___ feliz. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-72",
-        "question": "Historia positiva en pasado",
+        "question": "Historia positiva en pasado <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-73",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-74",
-        "question": "Un día empecé ___.",
+        "question": "Un día empecé ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-75",
-        "question": "Intenté ___.",
+        "question": "Intenté ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-76",
-        "question": "Aprendí ___.",
+        "question": "Aprendí ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-77",
-        "question": "Conseguí ___.",
+        "question": "Conseguí ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-78",
-        "question": "Logré ___.",
+        "question": "Logré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-79",
-        "question": "La situación ___.",
+        "question": "La situación ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-80",
-        "question": "Me sentí ___.",
+        "question": "Me sentí ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-81",
-        "question": "Fue una experiencia ___.",
+        "question": "Fue una experiencia ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-82",
-        "question": "Al final todo ___.",
+        "question": "Al final todo ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-83",
-        "question": "Terminé ___.",
+        "question": "Terminé ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-84",
-        "question": "PASADO SIMPLE – TONO POSITIVO",
+        "question": "PASADO SIMPLE – TONO POSITIVO <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-85",
-        "question": "Escribe 12–15 frases contando:",
+        "question": "Escribe 12–15 frases contando: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-86",
-        "question": "una experiencia personal",
+        "question": "una experiencia personal <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-87",
-        "question": "qué hiciste",
+        "question": "qué hiciste <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-88",
-        "question": "cómo mejoró la situación",
+        "question": "cómo mejoró la situación <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-89",
-        "question": "cómo te sentiste al final",
+        "question": "cómo te sentiste al final <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-90",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b16-91",
-        "question": "Un día empecé una nueva etapa en mi vida.Intenté mejorar mi situación.Aprendí cosas nuevas y conseguí ayuda.Finalmente logré un cambio positivo y me sentí orgulloso.",
+        "question": "Un día empecé una nueva etapa en mi vida.Intenté mejorar mi situación.Aprendí cosas nuevas y conseguí ayuda.Finalmente logré un cambio positivo y me sentí orgulloso. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Un día empecé una nueva etapa en mi vida.",
+          "Un día empiezo una nueva etapa en mi vida.",
+          "Un día empezaré una nueva etapa en mi vida."
         ],
         "correctAnswer": 0
       }
@@ -6288,891 +6338,901 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b17-1",
-        "question": "Yo ___ en otra ciudad.",
+        "question": "Yo ___ en otra ciudad. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viviré",
+          "vivirás",
+          "viviá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-2",
-        "question": "Tú ___ aquí más tiempo.",
+        "question": "Tú ___ aquí más tiempo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivirás",
+          "vivirásas",
+          "vivirá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-3",
-        "question": "Él ___ con su familia.",
+        "question": "Él ___ con su familia. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivirá",
+          "viviráas",
+          "viviá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-4",
-        "question": "Ella ___ cerca del trabajo.",
+        "question": "Ella ___ cerca del trabajo. <trans en=\"(She ___ work.)\" ar=\"(هي ___ العمل.)\" uk=\"(Вона ___ роботу.)\" fr=\"(Elle ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivirá",
+          "viviráas",
+          "viviá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-5",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viviremos",
+          "viviremosas",
+          "viviremá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-6",
-        "question": "Vosotros ___ en el mismo país.",
+        "question": "Vosotros ___ en el mismo país. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viviréis",
+          "viviréisas",
+          "viviréá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-7",
-        "question": "Ellos ___ mejor.",
+        "question": "Ellos ___ mejor. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivirán",
+          "viviránas",
+          "vivirá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-8",
-        "question": "Yo ___ tranquilo.",
+        "question": "Yo ___ tranquilo. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "viviré",
+          "vivirás",
+          "viviá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-9",
-        "question": "Tú ___ en una casa nueva.",
+        "question": "Tú ___ en una casa nueva. <trans en=\"(You ___ house.)\" ar=\"(أنت ___ المنزل.)\" uk=\"(Ти ___ будинку.)\" fr=\"(Tu ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivirás",
+          "vivirásas",
+          "vivirá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-10",
-        "question": "Ellas ___ cerca de aquí.",
+        "question": "Ellas ___ cerca de aquí. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "vivirán",
+          "viviránas",
+          "vivirá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-11",
-        "question": "Yo ___ mañana.",
+        "question": "Yo ___ mañana. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaré",
+          "trabajarás",
+          "trabajaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-12",
-        "question": "Tú ___ en una empresa.",
+        "question": "Tú ___ en una empresa. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajarás",
+          "trabajarásas",
+          "trabajará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-13",
-        "question": "Él ___ mucho.",
+        "question": "Él ___ mucho. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajará",
+          "trabajaráas",
+          "trabajaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-14",
-        "question": "Ella ___ por la mañana.",
+        "question": "Ella ___ por la mañana. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajará",
+          "trabajaráas",
+          "trabajaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-15",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaremos",
+          "trabajaremosas",
+          "trabajaremá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-16",
-        "question": "Vosotros ___ en la ciudad.",
+        "question": "Vosotros ___ en la ciudad. <trans en=\"(You all ___ in the city/Madrid.)\" ar=\"(أنتم ___ في المدينة/مدريد.)\" uk=\"(Ви всі ___ у місті/Мадриді.)\" fr=\"(Vous ___ dans la ville/Madrid.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaréis",
+          "trabajaréisas",
+          "trabajaréá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-17",
-        "question": "Ellos ___ duro.",
+        "question": "Ellos ___ duro. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajarán",
+          "trabajaránas",
+          "trabajará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-18",
-        "question": "Yo ___ mejor.",
+        "question": "Yo ___ mejor. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajaré",
+          "trabajarás",
+          "trabajaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-19",
-        "question": "Tú ___ con compañeros.",
+        "question": "Tú ___ con compañeros. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajarás",
+          "trabajarásas",
+          "trabajará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-20",
-        "question": "Ellas ___ en el futuro.",
+        "question": "Ellas ___ en el futuro. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "trabajarán",
+          "trabajaránas",
+          "trabajará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-21",
-        "question": "Yo ___ español.",
+        "question": "Yo ___ español. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiaré",
+          "estudiarás",
+          "estudiaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-22",
-        "question": "Tú ___ más tiempo.",
+        "question": "Tú ___ más tiempo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiarás",
+          "estudiarásas",
+          "estudiará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-23",
-        "question": "Él ___ un curso nuevo.",
+        "question": "Él ___ un curso nuevo. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiará",
+          "estudiaráas",
+          "estudiaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-24",
-        "question": "Ella ___ por la noche.",
+        "question": "Ella ___ por la noche. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiará",
+          "estudiaráas",
+          "estudiaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-25",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiaremos",
+          "estudiaremosas",
+          "estudiaremá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-26",
-        "question": "Vosotros ___ para mejorar.",
+        "question": "Vosotros ___ para mejorar. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiaréis",
+          "estudiaréisas",
+          "estudiaréá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-27",
-        "question": "Ellos ___ más.",
+        "question": "Ellos ___ más. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiarán",
+          "estudiaránas",
+          "estudiará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-28",
-        "question": "Yo ___ cada día.",
+        "question": "Yo ___ cada día. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiaré",
+          "estudiarás",
+          "estudiaá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-29",
-        "question": "Tú ___ para el trabajo.",
+        "question": "Tú ___ para el trabajo. <trans en=\"(You ___ work.)\" ar=\"(أنت ___ العمل.)\" uk=\"(Ти ___ роботу.)\" fr=\"(Tu ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiarás",
+          "estudiarásas",
+          "estudiará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-30",
-        "question": "Ellas ___ con esfuerzo.",
+        "question": "Ellas ___ con esfuerzo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estudiarán",
+          "estudiaránas",
+          "estudiará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-31",
-        "question": "Yo ___ más oportunidades.",
+        "question": "Yo ___ más oportunidades. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendré",
+          "tendrás",
+          "tendá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-32",
-        "question": "Tú ___ trabajo.",
+        "question": "Tú ___ trabajo. <trans en=\"(You ___ work.)\" ar=\"(أنت ___ العمل.)\" uk=\"(Ти ___ роботу.)\" fr=\"(Tu ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendrás",
+          "tendrásas",
+          "tendrá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-33",
-        "question": "Él ___ tiempo.",
+        "question": "Él ___ tiempo. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendrá",
+          "tendráas",
+          "tendá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-34",
-        "question": "Ella ___ ayuda.",
+        "question": "Ella ___ ayuda. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendrá",
+          "tendráas",
+          "tendá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-35",
-        "question": "Nosotros ___ estabilidad.",
+        "question": "Nosotros ___ estabilidad. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendremos",
+          "tendremosas",
+          "tendremá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-36",
-        "question": "Vosotros ___ un plan.",
+        "question": "Vosotros ___ un plan. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendréis",
+          "tendréisas",
+          "tendréá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-37",
-        "question": "Ellos ___ un futuro mejor.",
+        "question": "Ellos ___ un futuro mejor. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendrán",
+          "tendránas",
+          "tendrá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-38",
-        "question": "Yo ___ paciencia.",
+        "question": "Yo ___ paciencia. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendré",
+          "tendrás",
+          "tendá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-39",
-        "question": "Tú ___ suerte.",
+        "question": "Tú ___ suerte. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendrás",
+          "tendrásas",
+          "tendrá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-40",
-        "question": "Ellas ___ confianza.",
+        "question": "Ellas ___ confianza. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "tendrán",
+          "tendránas",
+          "tendrá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-41",
-        "question": "El futuro ___ mejor.",
+        "question": "El futuro ___ mejor. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-42",
-        "question": "Todo ___ diferente.",
+        "question": "Todo ___ diferente. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-43",
-        "question": "La vida ___ más fácil.",
+        "question": "La vida ___ más fácil. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-44",
-        "question": "El camino ___ largo.",
+        "question": "El camino ___ largo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-45",
-        "question": "El cambio ___ positivo.",
+        "question": "El cambio ___ positivo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-46",
-        "question": "La experiencia ___ útil.",
+        "question": "La experiencia ___ útil. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-47",
-        "question": "El esfuerzo ___ importante.",
+        "question": "El esfuerzo ___ importante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-48",
-        "question": "La decisión ___ correcta.",
+        "question": "La decisión ___ correcta. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-49",
-        "question": "El resultado ___ bueno.",
+        "question": "El resultado ___ bueno. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-50",
-        "question": "El final ___ feliz.",
+        "question": "El final ___ feliz. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "seré",
+          "serás",
+          "seá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-51",
-        "question": "viviré / ciudad / otra / en",
+        "question": "viviré / ciudad / otra / en <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Viviré en otra ciudad.",
+          "Viví en otra ciudad.",
+          "ciudad. otra en Viviré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-52",
-        "question": "trabajaré / mañana",
+        "question": "trabajaré / mañana <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Trabajaré mañana por la mañana.",
+          "Trabajé mañana por la mañana.",
+          "mañana. la por mañana Trabajaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-53",
-        "question": "estudiaré / español",
+        "question": "estudiaré / español <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Estudiaré español con ilusión.",
+          "Estudiaré español con ilusión.",
+          "ilusión. con español Estudiaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-54",
-        "question": "tendré / trabajo / un",
+        "question": "tendré / trabajo / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tendré más oportunidades.",
+          "Tendré más oportunidades.",
+          "oportunidades. más Tendré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-55",
-        "question": "será / mejor / todo",
+        "question": "será / mejor / todo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Todo será mejor en el futuro.",
+          "Todo será mejor en el futuro.",
+          "futuro. el en mejor será Todo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-56",
-        "question": "ayudaremos / familia / la",
+        "question": "ayudaremos / familia / la <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Hará buen tiempo mañana.",
+          "Hará buen tiempo mañana.",
+          "mañana. tiempo buen Hará"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-57",
-        "question": "cambiará / vida / mi",
+        "question": "cambiará / vida / mi <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Haremos un esfuerzo juntos.",
+          "Haremos un esfuerzo juntos.",
+          "juntos. esfuerzo un Haremos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-58",
-        "question": "aprenderé / cosas / nuevas",
+        "question": "aprenderé / cosas / nuevas <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Tendremos una casa nueva.",
+          "Tendremos una casa nueva.",
+          "nueva. casa una Tendremos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-59",
-        "question": "seré / fuerte / más",
+        "question": "seré / fuerte / más <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Decidiré mi futuro pronto.",
+          "Decidiré mi futuro pronto.",
+          "pronto. futuro mi Decidiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-60",
-        "question": "tendremos / futuro / mejor / un",
+        "question": "tendremos / futuro / mejor / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Aprenderán muchas cosas.",
+          "Aprenderán muchas cosas.",
+          "cosas. muchas Aprenderán"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-61",
-        "question": "Yo _______ en otra ciudad.",
+        "question": "Yo _______ en otra ciudad. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
           "viviré",
-          "vivo"
+          "viví",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-62",
-        "question": "Tú _______ mañana.",
+        "question": "Tú _______ mañana. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
           "trabajarás",
-          "trabajas"
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-63",
-        "question": "Él _______ más fuerte.",
+        "question": "Él _______ más fuerte. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "será",
-          "es"
+          "estudiará",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-64",
-        "question": "Ella _______ tiempo.",
+        "question": "Ella _______ tiempo. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "tendrá",
-          "tiene"
+          "tendremos",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-65",
-        "question": "Nosotros _______ más.",
+        "question": "Nosotros _______ más. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "estudiaremos",
-          "estudiamos"
+          "será",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-66",
-        "question": "Vosotros _______ un plan.",
+        "question": "Vosotros _______ un plan. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "tendréis",
-          "tenéis"
+          "vivirán",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-67",
-        "question": "Ellos _______ felices.",
+        "question": "Ellos _______ felices. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "serán",
-          "son"
+          "trabajarán",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-68",
-        "question": "Yo _______ español.",
+        "question": "Yo _______ español. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "aprenderé",
-          "aprendo"
+          "tendrá",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-69",
-        "question": "Tú _______ de trabajo.",
+        "question": "Tú _______ de trabajo. <trans en=\"(You ___ work.)\" ar=\"(أنت ___ العمل.)\" uk=\"(Ти ___ роботу.)\" fr=\"(Tu ___ le travail.)\"/>",
         "options": [
-          "cambiarás",
-          "cambias"
+          "serán",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-70",
-        "question": "Ellas _______ mejor.",
+        "question": "Ellas _______ mejor. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "vivirán",
-          "viven"
+          "estudiaremos",
+          "vivo",
+          "viviría"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-71",
-        "question": "En el futuro yo ___ en una ciudad tranquila.___ en un buen trabajo.___ español mejor.___ tiempo para mi familia.Todo ___ mejor poco a poco.__",
+        "question": "En el futuro yo ___ en una ciudad tranquila.___ en un buen trabajo.___ español mejor.___ tiempo para mi familia.Todo ___ mejor poco a poco.__ <trans en=\"(I ___ work.)\" ar=\"(أنا ___ العمل.)\" uk=\"(Я ___ роботу.)\" fr=\"(Je ___ le travail.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-72",
-        "question": "Planes y predicciones",
+        "question": "Planes y predicciones <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-73",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-74",
-        "question": "En el futuro viviré ___.",
+        "question": "En el futuro viviré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-75",
-        "question": "Trabajaré ___.",
+        "question": "Trabajaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-76",
-        "question": "Estudiaré ___.",
+        "question": "Estudiaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-77",
-        "question": "Tendré ___.",
+        "question": "Tendré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-78",
-        "question": "Seré ___.",
+        "question": "Seré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-79",
-        "question": "Aprenderé ___.",
+        "question": "Aprenderé ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-80",
-        "question": "Cambiaré ___.",
+        "question": "Cambiaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-81",
-        "question": "Ayudaré ___.",
+        "question": "Ayudaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-82",
-        "question": "Tendremos ___.",
+        "question": "Tendremos ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-83",
-        "question": "Todo será ___.",
+        "question": "Todo será ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-84",
-        "question": "FUTURO SIMPLE – TONO POSITIVO",
+        "question": "FUTURO SIMPLE – TONO POSITIVO <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-85",
-        "question": "Escribe 12–15 frases sobre:",
+        "question": "Escribe 12–15 frases sobre: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-86",
-        "question": "tu futuro",
+        "question": "tu futuro <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-87",
-        "question": "tus planes",
+        "question": "tus planes <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-88",
-        "question": "lo que cambiará",
+        "question": "lo que cambiará <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-89",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b17-90",
-        "question": "En el futuro viviré en una ciudad tranquila.Trabajaré en un buen empleo.Estudiaré español y tendré más oportunidades.Todo será mejor.",
+        "question": "En el futuro viviré en una ciudad tranquila.Trabajaré en un buen empleo.Estudiaré español y tendré más oportunidades.Todo será mejor. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "En el futuro tendré un buen trabajo.",
+          "En el futuro tuve un buen trabajo.",
+          "En el futuro tengo un buen trabajo."
         ],
         "correctAnswer": 0
       }
@@ -7305,891 +7365,901 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b18-1",
-        "question": "Yo ___ de mi tiempo libre.",
+        "question": "Yo ___ de mi tiempo libre. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-2",
-        "question": "Tú ___ del fin de semana.",
+        "question": "Tú ___ del fin de semana. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-3",
-        "question": "Él ___ de la música.",
+        "question": "Él ___ de la música. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-4",
-        "question": "Ella ___ del descanso.",
+        "question": "Ella ___ del descanso. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-5",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-6",
-        "question": "Vosotros ___ de la naturaleza.",
+        "question": "Vosotros ___ de la naturaleza. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-7",
-        "question": "Ellos ___ de sus hobbies.",
+        "question": "Ellos ___ de sus hobbies. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-8",
-        "question": "Yo ___ del cine.",
+        "question": "Yo ___ del cine. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-9",
-        "question": "Tú ___ de leer en casa.",
+        "question": "Tú ___ de leer en casa. <trans en=\"(You ___ house.)\" ar=\"(أنت ___ المنزل.)\" uk=\"(Ти ___ будинку.)\" fr=\"(Tu ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-10",
-        "question": "Ellas ___ de viajar.",
+        "question": "Ellas ___ de viajar. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "disfrutaré",
+          "disfruté",
+          "disfruto"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-11",
-        "question": "Yo ___ deporte.",
+        "question": "Yo ___ deporte. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-12",
-        "question": "Tú ___ yoga.",
+        "question": "Tú ___ yoga. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-13",
-        "question": "Él ___ fútbol.",
+        "question": "Él ___ fútbol. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-14",
-        "question": "Ella ___ natación.",
+        "question": "Ella ___ natación. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-15",
-        "question": "Nosotros ___ juntos.",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-16",
-        "question": "Vosotros ___ ejercicio.",
+        "question": "Vosotros ___ ejercicio. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-17",
-        "question": "Ellos ___ un hobby nuevo.",
+        "question": "Ellos ___ un hobby nuevo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-18",
-        "question": "Yo ___ fotografía.",
+        "question": "Yo ___ fotografía. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-19",
-        "question": "Tú ___ dibujo.",
+        "question": "Tú ___ dibujo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-20",
-        "question": "Ellas ___ baile.",
+        "question": "Ellas ___ baile. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "haré",
+          "hice",
+          "hago"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-21",
-        "question": "Yo ___ un libro.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-22",
-        "question": "Tú ___ por la noche.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-23",
-        "question": "Él ___ en casa.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-24",
-        "question": "Ella ___ novelas.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-25",
-        "question": "Nosotros ___ juntos.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-26",
-        "question": "Vosotros ___ en silencio.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-27",
-        "question": "Ellos ___ en el parque.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-28",
-        "question": "Yo ___ más.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-29",
-        "question": "Tú ___ cada día.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-30",
-        "question": "Ellas ___ por placer.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-31",
-        "question": "Yo ___ una receta nueva.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-32",
-        "question": "Tú ___ para la familia.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-33",
-        "question": "Él ___ comida sana.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-34",
-        "question": "Ella ___ en casa.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-35",
-        "question": "Nosotros ___ juntos.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-36",
-        "question": "Vosotros ___ el fin de semana.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-37",
-        "question": "Ellos ___ platos nuevos.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-38",
-        "question": "Yo ___ algo diferente.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-39",
-        "question": "Tú ___ con amigos.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-40",
-        "question": "Ellas ___ con ilusión.",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": "ex-tema-b18-41",
-        "question": "Yo _______ un libro.",
+        "question": "Yo ___ un libro. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
           "leeré",
+          "leí",
           "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-42",
-        "question": "Tú _______ deporte.",
+        "id": "ex-tema-b18-22",
+        "question": "Tú ___ por la noche. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "practicarás",
-          "practicas"
+          "leeré",
+          "leí",
+          "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-43",
-        "question": "Él _______ en casa.",
+        "id": "ex-tema-b18-23",
+        "question": "Él ___ en casa. <trans en=\"(He/She ___ house.)\" ar=\"(هو/هي ___ المنزل.)\" uk=\"(Він/Вона ___ будинку.)\" fr=\"(Il/Elle ___ la maison.)\"/>",
         "options": [
-          "cocinará",
-          "cocina"
+          "leeré",
+          "leí",
+          "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-44",
-        "question": "Ella _______ del tiempo libre.",
+        "id": "ex-tema-b18-24",
+        "question": "Ella ___ novelas. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "disfrutará",
-          "disfruta"
+          "leeré",
+          "leí",
+          "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-45",
-        "question": "Nosotros _______ juntos.",
+        "id": "ex-tema-b18-25",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "leeremos",
-          "leemos"
+          "leeré",
+          "leí",
+          "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-46",
-        "question": "Vosotros _______ yoga.",
+        "id": "ex-tema-b18-26",
+        "question": "Vosotros ___ en silencio. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "practicaréis",
-          "practicáis"
+          "leeré",
+          "leí",
+          "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-47",
-        "question": "Ellos _______ del cine.",
+        "id": "ex-tema-b18-27",
+        "question": "Ellos ___ en el parque. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "disfrutarán",
-          "disfrutan"
+          "leeré",
+          "leí",
+          "leo"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-48",
-        "question": "Yo _______ mañana.",
+        "id": "ex-tema-b18-28",
+        "question": "Yo ___ más. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
+        "options": [
+          "leeré",
+          "leí",
+          "leo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-29",
+        "question": "Tú ___ cada día. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
+        "options": [
+          "leeré",
+          "leí",
+          "leo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-30",
+        "question": "Ellas ___ por placer. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
+        "options": [
+          "leeré",
+          "leí",
+          "leo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-31",
+        "question": "Yo ___ una receta nueva. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
           "cocinaré",
+          "cociné",
           "cocino"
         ],
         "correctAnswer": 0
       },
       {
-        "id": "ex-tema-b18-49",
-        "question": "Tú _______ por la noche.",
+        "id": "ex-tema-b18-32",
+        "question": "Tú ___ para la familia. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "leerás",
-          "lees"
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-33",
+        "question": "Él ___ comida sana. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-34",
+        "question": "Ella ___ en casa. <trans en=\"(She ___ house.)\" ar=\"(هي ___ المنزل.)\" uk=\"(Вона ___ будинку.)\" fr=\"(Elle ___ la maison.)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-35",
+        "question": "Nosotros ___ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-36",
+        "question": "Vosotros ___ el fin de semana. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-37",
+        "question": "Ellos ___ platos nuevos. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-38",
+        "question": "Yo ___ algo diferente. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-39",
+        "question": "Tú ___ con amigos. <trans en=\"(You ___ my friend/brother.)\" ar=\"(أنت ___ صديقي/أخي.)\" uk=\"(Ти ___ мій друг/брат.)\" fr=\"(Tu ___ mon ami/frère.)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-40",
+        "question": "Ellas ___ con ilusión. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
+        "options": [
+          "cocinaré",
+          "cociné",
+          "cocino"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-41",
+        "question": "Yo _______ un libro. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-42",
+        "question": "Tú _______ deporte. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-43",
+        "question": "Él _______ en casa. <trans en=\"(He/She ___ house.)\" ar=\"(هو/هي ___ المنزل.)\" uk=\"(Він/Вона ___ будинку.)\" fr=\"(Il/Elle ___ la maison.)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-44",
+        "question": "Ella _______ del tiempo libre. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-45",
+        "question": "Nosotros _______ juntos. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-46",
+        "question": "Vosotros _______ yoga. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-47",
+        "question": "Ellos _______ del cine. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-48",
+        "question": "Yo _______ mañana. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "ex-tema-b18-49",
+        "question": "Tú _______ por la noche. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
+        "options": [
+          "viajaré",
+          "viajé",
+          "viajo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-50",
-        "question": "Ellas _______ baile.",
+        "question": "Ellas _______ baile. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "practicarán",
-          "practican"
+          "viajaré",
+          "viajé",
+          "viajo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-51",
-        "question": "disfrutaré / tiempo / mi / libre",
+        "question": "disfrutaré / tiempo / mi / libre <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Disfrutaré de mi tiempo libre.",
+          "Disfruto de mi tiempo libre.",
+          "libre. tiempo mi de Disfrutaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-52",
-        "question": "practicaré / deporte",
+        "question": "practicaré / deporte <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Haré deporte el fin de semana.",
+          "Haré deporte el fin de semana.",
+          "semana. de fin el deporte Haré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-53",
-        "question": "leeré / libro / un",
+        "question": "leeré / libro / un <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Leeré un libro por la tarde.",
+          "Leeré un libro por la tarde.",
+          "tarde. la por libro un Leeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-54",
-        "question": "cocinaré / casa / en",
+        "question": "cocinaré / casa / en <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Cocinaré una receta nueva.",
+          "Cocinaré una receta nueva.",
+          "nueva. receta una Cocinaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-55",
-        "question": "disfrutaremos / juntos",
+        "question": "disfrutaremos / juntos <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Viajaré a otra ciudad.",
+          "Viajaré a otra ciudad.",
+          "ciudad. otra a Viajaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-56",
-        "question": "practicarán / hobbies / sus",
+        "question": "practicarán / hobbies / sus <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Aprenderé un hobby nuevo.",
+          "Aprenderé un hobby nuevo.",
+          "nuevo. hobby un Aprenderé"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-57",
-        "question": "leeremos / fin / semana / de",
+        "question": "leeremos / fin / semana / de <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Haremos una actividad divertida.",
+          "Haremos una actividad divertida.",
+          "divertida. actividad una Haremos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-58",
-        "question": "cocinarán / algo / nuevo",
+        "question": "cocinarán / algo / nuevo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Pasaremos tiempo en familia.",
+          "Pasaremos tiempo en familia.",
+          "familia. en tiempo Pasaremos"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-59",
-        "question": "disfrutarán / música / la",
+        "question": "disfrutarán / música / la <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Conseguiré más descanso.",
+          "Conseguiré más descanso.",
+          "descanso. más Conseguiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-60",
-        "question": "practicaré / actividad / nueva / una",
+        "question": "practicaré / actividad / nueva / una <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Todo será más divertido.",
+          "Todo será más divertido.",
+          "divertido. más será Todo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-61",
-        "question": "Un hobby es una actividad de ocio.",
+        "question": "Un hobby es una actividad de ocio. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-62",
-        "question": "Leer es un deporte.",
+        "question": "Leer es un deporte. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-63",
-        "question": "Cocinar puede ser un hobby.",
+        "question": "Cocinar puede ser un hobby. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-64",
-        "question": "Practicar ayuda a mejorar.",
+        "question": "Practicar ayuda a mejorar. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-65",
-        "question": "El tiempo libre es importante.",
+        "question": "El tiempo libre es importante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-66",
-        "question": "El cine es una actividad.",
+        "question": "El cine es una actividad. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-67",
-        "question": "El futuro simple habla del pasado.",
+        "question": "El futuro simple habla del pasado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-68",
-        "question": "Disfrutar es algo positivo.",
+        "question": "Disfrutar es algo positivo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-69",
-        "question": "Los hobbies son personales.",
+        "question": "Los hobbies son personales. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-70",
-        "question": "El descanso es ocio.",
+        "question": "El descanso es ocio. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-71",
-        "question": "El fin de semana yo ___ más de mi tiempo libre.___ deporte y ___ libros.___ en casa y ___ con amigos.Todo ___ más divertido.",
+        "question": "El fin de semana yo ___ más de mi tiempo libre.___ deporte y ___ libros.___ en casa y ___ con amigos.Todo ___ más divertido. <trans en=\"(I ___ house.)\" ar=\"(أنا ___ المنزل.)\" uk=\"(Я ___ будинку.)\" fr=\"(Je ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-72",
-        "question": "Hobbies personales",
+        "question": "Hobbies personales <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-73",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-74",
-        "question": "En mi tiempo libre disfrutaré ___.",
+        "question": "En mi tiempo libre disfrutaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-75",
-        "question": "Practicaré ___.",
+        "question": "Practicaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-76",
-        "question": "Leeré ___.",
+        "question": "Leeré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-77",
-        "question": "Cocinaré ___.",
+        "question": "Cocinaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-78",
-        "question": "Disfrutaré con ___.",
+        "question": "Disfrutaré con ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-79",
-        "question": "Practicaré ___.",
+        "question": "Practicaré ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-80",
-        "question": "Leeré más ___.",
+        "question": "Leeré más ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-81",
-        "question": "Cocinaré para ___.",
+        "question": "Cocinaré para ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-82",
-        "question": "Mi hobby será ___.",
+        "question": "Mi hobby será ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-83",
-        "question": "Mi plan es ___.",
+        "question": "Mi plan es ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-84",
-        "question": "FUTURO SIMPLE – OCIO",
+        "question": "FUTURO SIMPLE – OCIO <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-85",
-        "question": "Escribe 12–15 frases sobre:",
+        "question": "Escribe 12–15 frases sobre: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-86",
-        "question": "tus hobbies",
+        "question": "tus hobbies <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-87",
-        "question": "tu tiempo libre",
+        "question": "tu tiempo libre <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-88",
-        "question": "lo que te gusta hacer",
+        "question": "lo que te gusta hacer <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-89",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b18-90",
-        "question": "En mi tiempo libre practicaré deporte.Leeré libros y cocinaré en casa.Disfrutaré más del descanso y del tiempo con amigos.",
+        "question": "En mi tiempo libre practicaré deporte.Leeré libros y cocinaré en casa.Disfrutaré más del descanso y del tiempo con amigos. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El fin de semana haré deporte.",
+          "El fin de semana hice deporte.",
+          "El fin de semana hago deporte."
         ],
         "correctAnswer": 0
       }
@@ -8322,991 +8392,1001 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b19-1",
-        "question": "Uso: EXPRESAR SENTIMIENTOS (PRESENTE)",
+        "question": "Uso: EXPRESAR SENTIMIENTOS (PRESENTE) <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-2",
-        "question": "Yo ___ tranquilo hoy.",
+        "question": "Yo ___ tranquilo hoy. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-3",
-        "question": "Tú ___ contento.",
+        "question": "Tú ___ contento. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-4",
-        "question": "Él ___ cansado.",
+        "question": "Él ___ cansado. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-5",
-        "question": "Ella ___ motivada.",
+        "question": "Ella ___ motivada. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-6",
-        "question": "Nosotros ___ bien.",
+        "question": "Nosotros ___ bien. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-7",
-        "question": "Vosotros ___ nerviosos.",
+        "question": "Vosotros ___ nerviosos. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-8",
-        "question": "Ellos ___ seguros.",
+        "question": "Ellos ___ seguros. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-9",
-        "question": "Yo ___ preocupado.",
+        "question": "Yo ___ preocupado. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-10",
-        "question": "Tú ___ feliz.",
+        "question": "Tú ___ feliz. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "estoy",
+          "estaba",
+          "estaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-11",
-        "question": "Ellas ___ orgullosas.",
+        "question": "Ellas ___ orgullosas. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-12",
-        "question": "Uso: VOCABULARIO EMOCIONAL",
+        "question": "Uso: VOCABULARIO EMOCIONAL <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-13",
-        "question": "Me siento ___.",
+        "question": "Me siento ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-14",
-        "question": "Estoy ___.",
+        "question": "Estoy ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-15",
-        "question": "Me siento con ___.",
+        "question": "Me siento con ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-16",
-        "question": "Estoy muy ___.",
+        "question": "Estoy muy ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-17",
-        "question": "Me siento un poco ___.",
+        "question": "Me siento un poco ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-18",
-        "question": "Ahora estoy ___.",
+        "question": "Ahora estoy ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-19",
-        "question": "Me siento más ___.",
+        "question": "Me siento más ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-20",
-        "question": "Estoy menos ___.",
+        "question": "Estoy menos ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "parece",
+          "pareció",
+          "parecerá"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-21",
-        "question": "Me siento bastante ___.",
+        "question": "Me siento bastante ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-22",
-        "question": "Hoy me siento ___.",
+        "question": "Hoy me siento ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-23",
-        "question": "Uso: OPINIÓN (PRESENTE)",
+        "question": "Uso: OPINIÓN (PRESENTE) <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-24",
-        "question": "Yo ___ que es importante.",
+        "question": "Yo ___ que es importante. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-25",
-        "question": "Tú ___ que es normal.",
+        "question": "Tú ___ que es normal. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-26",
-        "question": "Él ___ que está bien.",
+        "question": "Él ___ que está bien. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-27",
-        "question": "Ella ___ que es mejor así.",
+        "question": "Ella ___ que es mejor así. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-28",
-        "question": "Nosotros ___ que es posible.",
+        "question": "Nosotros ___ que es posible. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-29",
-        "question": "Vosotros ___ que es difícil.",
+        "question": "Vosotros ___ que es difícil. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-30",
-        "question": "Ellos ___ que es correcto.",
+        "question": "Ellos ___ que es correcto. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "siento",
+          "sentí",
+          "sentiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-31",
-        "question": "Yo ___ que todo mejora.",
+        "question": "Yo ___ que todo mejora. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-32",
-        "question": "Tú ___ que es suficiente.",
+        "question": "Tú ___ que es suficiente. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-33",
-        "question": "Ellas ___ que es necesario.",
+        "question": "Ellas ___ que es necesario. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-34",
-        "question": "Uso: OPINIÓN (PRESENTE)",
+        "question": "Uso: OPINIÓN (PRESENTE) <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-35",
-        "question": "Yo ___ que es buena idea.",
+        "question": "Yo ___ que es buena idea. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-36",
-        "question": "Tú ___ que está mal.",
+        "question": "Tú ___ que está mal. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-37",
-        "question": "Él ___ que es mejor.",
+        "question": "Él ___ que es mejor. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-38",
-        "question": "Ella ___ que es normal.",
+        "question": "Ella ___ que es normal. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-39",
-        "question": "Nosotros ___ que funciona.",
+        "question": "Nosotros ___ que funciona. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-40",
-        "question": "Vosotros ___ que es importante.",
+        "question": "Vosotros ___ que es importante. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "creo",
+          "creí",
+          "creeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-41",
-        "question": "Ellos ___ que cambia.",
+        "question": "Ellos ___ que cambia. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-42",
-        "question": "Yo ___ que ayuda.",
+        "question": "Yo ___ que ayuda. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-43",
-        "question": "Tú ___ que es justo.",
+        "question": "Tú ___ que es justo. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-44",
-        "question": "Ellas ___ que es positivo.",
+        "question": "Ellas ___ que es positivo. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-45",
-        "question": "Uso: OPINIÓN (PRESENTE)",
+        "question": "Uso: OPINIÓN (PRESENTE) <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-46",
-        "question": "___ bien la idea.",
+        "question": "___ bien la idea. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-47",
-        "question": "___ importante este tema.",
+        "question": "___ importante este tema. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-48",
-        "question": "___ mejor así.",
+        "question": "___ mejor así. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-49",
-        "question": "___ normal sentirse así.",
+        "question": "___ normal sentirse así. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-50",
-        "question": "___ correcto el cambio.",
+        "question": "___ correcto el cambio. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "pienso",
+          "pensé",
+          "pensaré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-51",
-        "question": "___ difícil el problema.",
+        "question": "___ difícil el problema. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-52",
-        "question": "___ posible la solución.",
+        "question": "___ posible la solución. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-53",
-        "question": "___ buena la decisión.",
+        "question": "___ buena la decisión. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-54",
-        "question": "___ claro el resultado.",
+        "question": "___ claro el resultado. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-55",
-        "question": "___ justo lo que dices.",
+        "question": "___ justo lo que dices. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-56",
-        "question": "Uso: SENTIMIENTOS Y OPINIONES",
+        "question": "Uso: SENTIMIENTOS Y OPINIONES <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-57",
-        "question": "Me siento _______.",
+        "question": "Me siento _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "tranquilo",
-          "tranquilidad"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-58",
-        "question": "Creo que es _______.",
+        "question": "Creo que es _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "importante",
-          "importancia"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-59",
-        "question": "Estoy _______.",
+        "question": "Estoy _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "contento",
-          "contentar"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-60",
-        "question": "Pienso que es _______.",
+        "question": "Pienso que es _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "normal",
-          "normalmente"
+          "Es un problema difícil.",
+          "Era un problema difícil.",
+          "Será un problema difícil."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-61",
-        "question": "Me parece _______.",
+        "question": "Me parece _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "bien",
-          "bueno"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-62",
-        "question": "Me siento _______.",
+        "question": "Me siento _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "feliz",
-          "felicidad"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-63",
-        "question": "Creo que está _______.",
+        "question": "Creo que está _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "mal",
-          "malo"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-64",
-        "question": "Estoy _______.",
+        "question": "Estoy _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "preocupado",
-          "preocupación"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-65",
-        "question": "Pienso que es _______.",
+        "question": "Pienso que es _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "mejor",
-          "mejora"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-66",
-        "question": "Me parece _______.",
+        "question": "Me parece _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "correcto",
-          "correctamente"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-67",
-        "question": "Uso: PRESENTE",
+        "question": "Uso: PRESENTE <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-68",
-        "question": "siento / me / tranquilo",
+        "question": "siento / me / tranquilo <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-69",
-        "question": "creo / es / importante / que",
+        "question": "creo / es / importante / que <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-70",
-        "question": "pienso / mejor / es / que",
+        "question": "pienso / mejor / es / que <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me parece bien.",
+          "Me pareció bien.",
+          "Me parecerá bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-71",
-        "question": "parece / me / bien",
+        "question": "parece / me / bien <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me parece bien el cambio.",
+          "Yo parece bien el cambio.",
+          "cambio. el bien parece Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-72",
-        "question": "nos / sentimos / contentos",
+        "question": "nos / sentimos / contentos <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que es una buena idea.",
+          "Creo que es una buena idea.",
+          "idea. buena una es que Creo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-73",
-        "question": "parece / le / difícil",
+        "question": "parece / le / difícil <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Pienso que es mejor así.",
+          "Pienso que es mejor así.",
+          "así. mejor es que Pienso"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-74",
-        "question": "estoy / preocupado",
+        "question": "estoy / preocupado <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me siento feliz aquí.",
+          "Yo siento feliz aquí.",
+          "aquí. feliz siento Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-75",
-        "question": "creemos / posible / es / que",
+        "question": "creemos / posible / es / que <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Estoy orgulloso de mi trabajo.",
+          "Estoy orgulloso de mi trabajo.",
+          "trabajo. mi de orgulloso Estoy"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-76",
-        "question": "parece / normal / te",
+        "question": "parece / normal / te <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Es importante tomar decisiones.",
+          "Es importante tomar decisiones.",
+          "decisiones. tomar importante Es"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-77",
-        "question": "se / siente / seguro",
+        "question": "se / siente / seguro <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "La situación me parece positiva.",
+          "La situación me parece positiva.",
+          "positiva. parece me situación La"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-78",
-        "question": "Uso: SENTIMIENTOS Y OPINIONES",
+        "question": "Uso: SENTIMIENTOS Y OPINIONES <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Siento que todo mejora.",
+          "Siento que todo mejora.",
+          "mejora. todo que Siento"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-79",
-        "question": "— ¿Cómo te sientes hoy?— ___ tranquilo.__",
+        "question": "— ¿Cómo te sientes hoy?— ___ tranquilo.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me siento más tranquilo hoy.",
+          "Yo siento más tranquilo hoy.",
+          "hoy. tranquilo más siento Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-80",
-        "question": "— ¿Qué piensas de la situación?— ___ que es difícil.__",
+        "question": "— ¿Qué piensas de la situación?— ___ que es difícil.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Todo saldrá bien pronto.",
+          "Todo saldrá bien pronto.",
+          "pronto. bien saldrá Todo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-81",
-        "question": "— ¿Te parece bien el cambio?— Sí, ___ bien.__",
+        "question": "— ¿Te parece bien el cambio?— Sí, ___ bien.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-82",
-        "question": "— ¿Estás contento?— Sí, ___ contento.__",
+        "question": "— ¿Estás contento?— Sí, ___ contento.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-83",
-        "question": "Sentimientos y opiniones",
+        "question": "Sentimientos y opiniones <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-84",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-85",
-        "question": "Hoy me siento ___.",
+        "question": "Hoy me siento ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-86",
-        "question": "Me siento ___ porque ___.",
+        "question": "Me siento ___ porque ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-87",
-        "question": "Creo que ___.",
+        "question": "Creo que ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-88",
-        "question": "Pienso que ___.",
+        "question": "Pienso que ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-89",
-        "question": "Me parece ___.",
+        "question": "Me parece ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-90",
-        "question": "En esta situación me siento ___.",
+        "question": "En esta situación me siento ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-91",
-        "question": "Mi opinión es que ___.",
+        "question": "Mi opinión es que ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-92",
-        "question": "Para mí es ___.",
+        "question": "Para mí es ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-93",
-        "question": "Me siento más ___ ahora.",
+        "question": "Me siento más ___ ahora. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-94",
-        "question": "Creo que todo _.",
+        "question": "Creo que todo _. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-95",
-        "question": "SENTIMIENTOS Y OPINIONES – PRESENTE",
+        "question": "SENTIMIENTOS Y OPINIONES – PRESENTE <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-96",
-        "question": "Escribe 12–15 frases sobre:",
+        "question": "Escribe 12–15 frases sobre: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-97",
-        "question": "cómo te sientes en este momento",
+        "question": "cómo te sientes en este momento <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-98",
-        "question": "qué opinas de una situación general (vida, trabajo, estudios, cambio)",
+        "question": "qué opinas de una situación general (vida, trabajo, estudios, cambio) <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-99",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b19-100",
-        "question": "Hoy me siento tranquilo.Creo que los cambios son normales.Me parece importante aprender cosas nuevas.Pienso que todo mejora con el tiempo.",
+        "question": "Hoy me siento tranquilo.Creo que los cambios son normales.Me parece importante aprender cosas nuevas.Pienso que todo mejora con el tiempo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Creo que todo va a salir bien.",
+          "Creí que todo va a salir bien.",
+          "Creeré que todo va a salir bien."
         ],
         "correctAnswer": 0
       }
@@ -9439,921 +9519,931 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-tema-b110-1",
-        "question": "___ la pasta.",
+        "question": "___ la pasta. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-2",
-        "question": "___ las verduras.",
+        "question": "___ las verduras. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-3",
-        "question": "No ___ la comida muy picante.",
+        "question": "No ___ la comida muy picante. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-4",
-        "question": "No ___ los sabores amargos.",
+        "question": "No ___ los sabores amargos. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-5",
-        "question": "___ el arroz.",
+        "question": "___ el arroz. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-6",
-        "question": "___ los postres.",
+        "question": "___ los postres. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-7",
-        "question": "No ___ la sopa fría.",
+        "question": "No ___ la sopa fría. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-8",
-        "question": "___ la comida casera.",
+        "question": "___ la comida casera. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-9",
-        "question": "___ los platos sencillos.",
+        "question": "___ los platos sencillos. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-10",
-        "question": "No ___ los sabores muy fuertes.",
+        "question": "No ___ los sabores muy fuertes. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "gusta",
+          "gustan",
+          "gustó"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-11",
-        "question": "Yo ___ comida casera.",
+        "question": "Yo ___ comida casera. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-12",
-        "question": "Tú ___ platos simples.",
+        "question": "Tú ___ platos simples. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-13",
-        "question": "Él ___ sabores suaves.",
+        "question": "Él ___ sabores suaves. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-14",
-        "question": "Ella ___ comida picante.",
+        "question": "Ella ___ comida picante. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-15",
-        "question": "Nosotros ___ arroz a pasta.",
+        "question": "Nosotros ___ arroz a pasta. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-16",
-        "question": "Vosotros ___ comer en casa.",
+        "question": "Vosotros ___ comer en casa. <trans en=\"(You all ___ house.)\" ar=\"(أنتم ___ المنزل.)\" uk=\"(Ви всі ___ будинку.)\" fr=\"(Vous ___ la maison.)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-17",
-        "question": "Ellos ___ verduras.",
+        "question": "Ellos ___ verduras. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-18",
-        "question": "Yo ___ comer temprano.",
+        "question": "Yo ___ comer temprano. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-19",
-        "question": "Tú ___ postre.",
+        "question": "Tú ___ postre. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-20",
-        "question": "Ellas ___ sopa caliente.",
+        "question": "Ellas ___ sopa caliente. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "como",
+          "comí",
+          "comeré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-21",
-        "question": "Yo ___ el menú del día.",
+        "question": "Yo ___ el menú del día. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-22",
-        "question": "Tú ___ un plato ligero.",
+        "question": "Tú ___ un plato ligero. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-23",
-        "question": "Él ___ pescado.",
+        "question": "Él ___ pescado. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-24",
-        "question": "Ella ___ verdura.",
+        "question": "Ella ___ verdura. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-25",
-        "question": "Nosotros ___ comida sana.",
+        "question": "Nosotros ___ comida sana. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-26",
-        "question": "Vosotros ___ algo dulce.",
+        "question": "Vosotros ___ algo dulce. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-27",
-        "question": "Ellos ___ platos diferentes.",
+        "question": "Ellos ___ platos diferentes. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-28",
-        "question": "Yo ___ lo que me gusta.",
+        "question": "Yo ___ lo que me gusta. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-29",
-        "question": "Tú ___ ingredientes frescos.",
+        "question": "Tú ___ ingredientes frescos. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-30",
-        "question": "Ellas ___ postre.",
+        "question": "Ellas ___ postre. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "prefiero",
+          "preferí",
+          "preferiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-31",
-        "question": "Yo ___ platos nuevos.",
+        "question": "Yo ___ platos nuevos. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-32",
-        "question": "Tú ___ comida diferente.",
+        "question": "Tú ___ comida diferente. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-33",
-        "question": "Él ___ sabores fuertes.",
+        "question": "Él ___ sabores fuertes. <trans en=\"(He/She ___)\" ar=\"(هو/هي ___)\" uk=\"(Він/Вона ___)\" fr=\"(Il/Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-34",
-        "question": "Ella ___ recetas nuevas.",
+        "question": "Ella ___ recetas nuevas. <trans en=\"(She ___)\" ar=\"(هي ___)\" uk=\"(Вона ___)\" fr=\"(Elle ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-35",
-        "question": "Nosotros ___ comida internacional.",
+        "question": "Nosotros ___ comida internacional. <trans en=\"(We ___)\" ar=\"(نحن ___)\" uk=\"(Ми ___)\" fr=\"(Nous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-36",
-        "question": "Vosotros ___ cosas nuevas.",
+        "question": "Vosotros ___ cosas nuevas. <trans en=\"(You all ___)\" ar=\"(أنتم ___)\" uk=\"(Ви всі ___)\" fr=\"(Vous ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-37",
-        "question": "Ellos ___ platos variados.",
+        "question": "Ellos ___ platos variados. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-38",
-        "question": "Yo ___ algo nuevo a veces.",
+        "question": "Yo ___ algo nuevo a veces. <trans en=\"(I ___)\" ar=\"(أنا ___)\" uk=\"(Я ___)\" fr=\"(Je ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-39",
-        "question": "Tú ___ nuevos ingredientes.",
+        "question": "Tú ___ nuevos ingredientes. <trans en=\"(You ___)\" ar=\"(أنت ___)\" uk=\"(Ти ___)\" fr=\"(Tu ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-40",
-        "question": "Ellas ___ sabores distintos.",
+        "question": "Ellas ___ sabores distintos. <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "elijo",
+          "elegí",
+          "elegiré"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-41",
-        "question": "_______ la fruta.",
+        "question": "_______ la fruta. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Me gusta",
-          "Me gustan"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-42",
-        "question": "_______ los postres.",
+        "question": "_______ los postres. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Me gusta",
-          "Me gustan"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-43",
-        "question": "Prefiero arroz _______ pasta.",
+        "question": "Prefiero arroz _______ pasta. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "que",
-          "a"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-44",
-        "question": "Elijo lo que _______.",
+        "question": "Elijo lo que _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "me gusta",
-          "gusto"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-45",
-        "question": "Pruebo cosas nuevas _______.",
+        "question": "Pruebo cosas nuevas _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "a veces",
-          "ayer"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-46",
-        "question": "No me gusta la comida muy _______.",
+        "question": "No me gusta la comida muy _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "fuerte",
-          "fuerza"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-47",
-        "question": "Me gustan los sabores _______.",
+        "question": "Me gustan los sabores _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "suave",
-          "suaves"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-48",
-        "question": "Prefiero comida _______.",
+        "question": "Prefiero comida _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "casera",
-          "casero"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-49",
-        "question": "Elijo platos _______.",
+        "question": "Elijo platos _______. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "ligero",
-          "ligeros"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-50",
-        "question": "Me gusta cocinar _______ casa.",
+        "question": "Me gusta cocinar _______ casa. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "en",
-          "a"
+          "gusta la fruta",
+          "gustan la fruta",
+          "gustó la fruta"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-51",
-        "question": "gusta / me / la / pasta",
+        "question": "gusta / me / la / pasta <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta mucho la pasta.",
+          "Yo gusta mucho la pasta.",
+          "pasta. la mucho gusta Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-52",
-        "question": "prefiero / arroz / pasta / a",
+        "question": "prefiero / arroz / pasta / a <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Prefiero la comida casera.",
+          "Prefiero la comida casera.",
+          "casera. comida la Prefiero"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-53",
-        "question": "elijo / lo / gusta / me / que",
+        "question": "elijo / lo / gusta / me / que <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Elijo el menú del día.",
+          "Elijo el menú del día.",
+          "día. del menú el Elijo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-54",
-        "question": "pruebo / nuevas / cosas",
+        "question": "pruebo / nuevas / cosas <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Como verduras frescas.",
+          "Como verduras frescas.",
+          "frescas. verduras Como"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-55",
-        "question": "no / gustan / me / sabores / fuertes",
+        "question": "no / gustan / me / sabores / fuertes <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Pruebo platos nuevos siempre.",
+          "Pruebo platos nuevos siempre.",
+          "siempre. nuevos platos Pruebo"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-56",
-        "question": "prefiero / comer / casa / en",
+        "question": "prefiero / comer / casa / en <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gustan las frutas dulces.",
+          "Yo gustan las frutas dulces.",
+          "dulces. frutas las gustan Me"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-57",
-        "question": "eligen / platos / ellos / simples",
+        "question": "eligen / platos / ellos / simples <trans en=\"(They ___)\" ar=\"(هم ___)\" uk=\"(Вони ___)\" fr=\"(Ils ___)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "No me gusta la comida picante.",
+          "No me gusta la comida picante.",
+          "picante. comida la gusta me No"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-58",
-        "question": "probamos / recetas / nuevas",
+        "question": "probamos / recetas / nuevas <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Prefiero beber agua fría.",
+          "Prefiero beber agua fría.",
+          "fría. agua beber Prefiero"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-59",
-        "question": "gusta / me / cocinar",
+        "question": "gusta / me / cocinar <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Cocino platos sencillos.",
+          "Cocino platos sencillos.",
+          "sencillos. platos Cocino"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-60",
-        "question": "elijo / ingredientes / frescos",
+        "question": "elijo / ingredientes / frescos <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "El plato tiene verduras.",
+          "El plato tiene verduras.",
+          "verduras. tiene plato El"
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-61",
-        "question": "“Me gusta” se usa con singular.",
+        "question": "“Me gusta” se usa con singular. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-62",
-        "question": "“Me gustan” se usa con plural.",
+        "question": "“Me gustan” se usa con plural. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-63",
-        "question": "Preferir es elegir entre opciones.",
+        "question": "Preferir es elegir entre opciones. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-64",
-        "question": "Probar es repetir siempre lo mismo.",
+        "question": "Probar es repetir siempre lo mismo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-65",
-        "question": "Los gustos son personales.",
+        "question": "Los gustos son personales. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-66",
-        "question": "No me gusta es una opinión.",
+        "question": "No me gusta es una opinión. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-67",
-        "question": "Elegir es decidir.",
+        "question": "Elegir es decidir. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-68",
-        "question": "Los sabores pueden ser diferentes.",
+        "question": "Los sabores pueden ser diferentes. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-69",
-        "question": "A todos les gusta lo mismo.",
+        "question": "A todos les gusta lo mismo. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-70",
-        "question": "Hablar de comida es cotidiano.",
+        "question": "Hablar de comida es cotidiano. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-71",
-        "question": "— ¿Qué te gusta comer?— ___ la pasta.__",
+        "question": "— ¿Qué te gusta comer?— ___ la pasta.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-72",
-        "question": "— ¿Te gusta la comida picante?— No, ___ gusta.__",
+        "question": "— ¿Te gusta la comida picante?— No, ___ gusta.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-73",
-        "question": "— ¿Qué prefieres, arroz o pasta?— ___ arroz.__",
+        "question": "— ¿Qué prefieres, arroz o pasta?— ___ arroz.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-74",
-        "question": "— ¿Pruebas platos nuevos?— Sí, ___ platos nuevos.__",
+        "question": "— ¿Pruebas platos nuevos?— Sí, ___ platos nuevos.__ <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-75",
-        "question": "Completa:",
+        "question": "Completa: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-76",
-        "question": "Me gusta ___.",
+        "question": "Me gusta ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-77",
-        "question": "No me gusta ___.",
+        "question": "No me gusta ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-78",
-        "question": "Prefiero ___ a ___.",
+        "question": "Prefiero ___ a ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-79",
-        "question": "Elijo ___.",
+        "question": "Elijo ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-80",
-        "question": "Pruebo ___ a veces.",
+        "question": "Pruebo ___ a veces. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-81",
-        "question": "Me gustan ___.",
+        "question": "Me gustan ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-82",
-        "question": "No me gustan ___.",
+        "question": "No me gustan ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-83",
-        "question": "Prefiero comida ___.",
+        "question": "Prefiero comida ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-84",
-        "question": "Elijo platos ___.",
+        "question": "Elijo platos ___. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-85",
-        "question": "La comida que más me gusta es _.",
+        "question": "La comida que más me gusta es _. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-86",
-        "question": "GUSTOS REALES",
+        "question": "GUSTOS REALES <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-87",
-        "question": "Escribe 12–15 frases sobre:",
+        "question": "Escribe 12–15 frases sobre: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-88",
-        "question": "qué comida te gusta",
+        "question": "qué comida te gusta <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-89",
-        "question": "qué no te gusta",
+        "question": "qué no te gusta <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-90",
-        "question": "qué prefieres",
+        "question": "qué prefieres <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-91",
-        "question": "qué te gusta probar",
+        "question": "qué te gusta probar <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-92",
-        "question": "Ejemplo:",
+        "question": "Ejemplo: <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-tema-b110-93",
-        "question": "Me gusta la pasta y el arroz.No me gusta la comida muy picante.Prefiero platos sencillos.A veces pruebo recetas nuevas.",
+        "question": "Me gusta la pasta y el arroz.No me gusta la comida muy picante.Prefiero platos sencillos.A veces pruebo recetas nuevas. <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C"
+          "Me gusta la pasta y el arroz.",
+          "Me gustan la pasta y el arroz.",
+          "Gusto la pasta y el arroz."
         ],
         "correctAnswer": 0
       }
@@ -10375,51 +10465,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-1-0",
-        "question": "¿Por qué María se apuntó a un curso de cocina?",
+        "question": "¿Por qué María se apuntó a un curso de cocina? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Porque siempre tuvo curiosidad por la cocina.",
+          "Porque su madre la obligó.",
+          "Porque quería abrir su propio restaurante."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-1-1",
-        "question": "¿Cómo se sintió el primer día?",
+        "question": "¿Cómo se sintió el primer día? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Nerviosa pero también con ilusión.",
+          "Muy tranquila y confiada.",
+          "Aburrida y con ganas de volver a casa."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-1-2",
-        "question": "¿Qué plato preparó?",
+        "question": "¿Qué plato preparó? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Arroz con verduras.",
+          "Pollo asado.",
+          "Pasta con marisco."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-1-3",
-        "question": "¿Le gustó el resultado?",
+        "question": "¿Le gustó el resultado? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Sí, le gustó el sabor del plato.",
+          "No, no le gustó nada.",
+          "No pudo probarlo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-1-4",
-        "question": "¿Qué quiere hacer en el futuro?",
+        "question": "¿Qué quiere hacer en el futuro? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Aprender platos de otros países.",
+          "Comprar un restaurante.",
+          "Dejar de cocinar por completo."
         ],
         "correctAnswer": 0
       }
@@ -10441,51 +10531,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-2-0",
-        "question": "¿Qué hacía Pedro antes los sábados?",
+        "question": "¿Qué hacía Pedro antes los sábados? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Se quedaba en casa descansando.",
+          "Iba a trabajar a la oficina.",
+          "Hacía deporte con amigos."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-2-1",
-        "question": "¿A dónde fue el sábado pasado?",
+        "question": "¿A dónde fue el sábado pasado? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Al mercado de su barrio.",
+          "A un centro comercial grande.",
+          "A otra ciudad de viaje."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-2-2",
-        "question": "¿Qué probó en el mercado?",
+        "question": "¿Qué probó en el mercado? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Una sopa caliente y pan fresco.",
+          "Fruta fresca y ensalada.",
+          "Pescado frito."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-2-3",
-        "question": "¿Qué le gusta hacer ahora en su tiempo libre?",
+        "question": "¿Qué le gusta hacer ahora en su tiempo libre? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Caminar, elegir buenos productos y cocinar.",
+          "Ver la televisión toda la tarde.",
+          "Trabajar horas extra."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-2-4",
-        "question": "¿Qué hará el próximo fin de semana?",
+        "question": "¿Qué hará el próximo fin de semana? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Probar una receta nueva y compartirla con amigos.",
+          "Ir de viaje a la playa.",
+          "Quedarse durmiendo en casa."
         ],
         "correctAnswer": 0
       }
@@ -10507,51 +10597,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-3-0",
-        "question": "¿Qué tipo de comida no le gustaba a Ana?",
+        "question": "¿Qué tipo de comida no le gustaba a Ana? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Los sabores fuertes y la comida picante.",
+          "La comida dulce.",
+          "Los platos sencillos como arroz."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-3-1",
-        "question": "¿Dónde probó un plato nuevo?",
+        "question": "¿Dónde probó un plato nuevo? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "En casa de una amiga.",
+          "En un restaurante nuevo.",
+          "En el curso de cocina."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-3-2",
-        "question": "¿Le gustó el plato?",
+        "question": "¿Le gustó el plato? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Sí, le gustó mucho para su sorpresa.",
+          "No, le pareció demasiado picante.",
+          "No quiso probarlo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-3-3",
-        "question": "¿Qué hace ahora cuando sale a comer?",
+        "question": "¿Qué hace ahora cuando sale a comer? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Elige platos diferentes a veces.",
+          "Pide siempre lo mismo.",
+          "No come fuera nunca más."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-3-4",
-        "question": "¿Qué piensa sobre probar nuevos sabores?",
+        "question": "¿Qué piensa sobre probar nuevos sabores? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Que probar nuevos sabores es una buena experiencia.",
+          "Que es mejor comer siempre lo conocido.",
+          "Que es una pérdida de tiempo."
         ],
         "correctAnswer": 0
       }
@@ -10573,51 +10663,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-4-0",
-        "question": "¿Cómo fue la semana de Luis?",
+        "question": "¿Cómo fue la semana de Luis? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Fue una semana muy larga y con mucho trabajo.",
+          "Fue una semana tranquila y de vacaciones.",
+          "Fue una semana aburrida sin hacer nada."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-4-1",
-        "question": "¿Qué decidió hacer el viernes?",
+        "question": "¿Qué decidió hacer el viernes? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Ir al cine a ver una película.",
+          "Quedarse en la oficina trabajando.",
+          "Salir a correr por el parque."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-4-2",
-        "question": "¿Cómo se sintió durante la película?",
+        "question": "¿Cómo se sintió durante la película? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Cómodo, tranquilo y concentrado en la historia.",
+          "Nervioso y con ganas de salir.",
+          "Dormido todo el tiempo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-4-3",
-        "question": "¿Qué intenta hacer ahora Luis?",
+        "question": "¿Qué intenta hacer ahora Luis? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Tener tiempo de ocio todas las semanas.",
+          "Trabajar los fines de semana.",
+          "Ver películas todos los días."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-4-4",
-        "question": "¿Qué planes tiene para el próximo mes?",
+        "question": "¿Qué planes tiene para el próximo mes? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Volver al cine y probar una actividad diferente.",
+          "Cambiar de trabajo.",
+          "Mudarse a otra ciudad."
         ],
         "correctAnswer": 0
       }
@@ -10639,51 +10729,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-5-0",
-        "question": "¿Qué hacía Carmen antes en el supermercado?",
+        "question": "¿Qué hacía Carmen antes en el supermercado? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Compraba siempre lo mismo sin pensar mucho.",
+          "Compraba solo productos muy caros.",
+          "Leía todas las etiquetas detenidamente."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-5-1",
-        "question": "¿Qué decidió cambiar?",
+        "question": "¿Qué decidió cambiar? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Leer las etiquetas y elegir productos frescos.",
+          "Comprar comida rápida ya preparada.",
+          "Gastar menos dinero."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-5-2",
-        "question": "¿Qué empezó a probar?",
+        "question": "¿Qué empezó a probar? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Verduras nuevas y cocinar platos sencillos.",
+          "Postres dulces y platos complejos.",
+          "Comida de otros países."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-5-3",
-        "question": "¿Qué prefiere ahora?",
+        "question": "¿Qué prefiere ahora? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "La comida casera hecha por ella misma.",
+          "La comida de los restaurantes.",
+          "Los platos congelados."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-5-4",
-        "question": "¿Cómo se siente ahora?",
+        "question": "¿Cómo se siente ahora? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Mejor y con más energía, sintiéndose sana.",
+          "Muy cansada por cocinar tanto.",
+          "Igual que antes sin cambios."
         ],
         "correctAnswer": 0
       }
@@ -10705,51 +10795,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-6-0",
-        "question": "¿Qué prefirió Jorge para su cumpleaños?",
+        "question": "¿Qué prefirió Jorge para su cumpleaños? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Una comida tranquila con pocas personas.",
+          "Una gran fiesta con música y muchos invitados.",
+          "Ir de viaje solo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-6-1",
-        "question": "¿Qué plato cocinó?",
+        "question": "¿Qué plato cocinó? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Pasta con verduras.",
+          "Carne asada.",
+          "Una tarta de cumpleaños grande."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-6-2",
-        "question": "¿Cómo fue el ambiente?",
+        "question": "¿Cómo fue el ambiente? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Tranquilo, hablaron, rieron y compartieron historias.",
+          "Muy ruidoso y estresante.",
+          "Silencioso y aburrido."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-6-3",
-        "question": "¿Cómo se sintió Jorge?",
+        "question": "¿Cómo se sintió Jorge? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Cómodo y feliz.",
+          "Triste y cansado.",
+          "Nervioso y preocupado."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-6-4",
-        "question": "¿Qué quiere hacer en el futuro?",
+        "question": "¿Qué quiere hacer en el futuro? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Celebrar otros días especiales de forma sencilla.",
+          "Hacer una fiesta enorme.",
+          "No volver a celebrar su cumpleaños."
         ],
         "correctAnswer": 0
       }
@@ -10771,51 +10861,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-7-0",
-        "question": "¿Qué hacía Elena antes en el restaurante?",
+        "question": "¿Qué hacía Elena antes en el restaurante? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Pedía siempre el mismo plato por costumbre.",
+          "Probaba platos diferentes cada vez.",
+          "Nunca iba a restaurantes."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-7-1",
-        "question": "¿Qué decidió hacer un día?",
+        "question": "¿Qué decidió hacer un día? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Probar un plato diferente con ingredientes nuevos.",
+          "Ir a cocinar con el chef.",
+          "Quejarse de la comida."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-7-2",
-        "question": "¿Cómo reaccionó al probar el plato?",
+        "question": "¿Cómo reaccionó al probar el plato? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Le gustó mucho y descubrió nuevos sabores.",
+          "No le gustó y no pudo comerlo.",
+          "Le pareció demasiado picante."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-7-3",
-        "question": "¿Qué hace ahora cuando sale a comer?",
+        "question": "¿Qué hace ahora cuando sale a comer? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Busca opciones diferentes y ya no pide lo mismo.",
+          "Sigue pidiendo el plato de siempre.",
+          "Prefiere no comer fuera."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-7-4",
-        "question": "¿Qué piensa sobre elegir cosas diferentes?",
+        "question": "¿Qué piensa sobre elegir cosas diferentes? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Que es una buena oportunidad para aprender.",
+          "Que es muy arriesgado.",
+          "Que es mejor comer en casa."
         ],
         "correctAnswer": 0
       }
@@ -10837,51 +10927,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-8-0",
-        "question": "¿Cómo se levanta Marta los domingos?",
+        "question": "¿Cómo se levanta Marta los domingos? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Sin prisa, disfrutando de la mañana tranquila.",
+          "Muy temprano para ir a trabajar.",
+          "Tarde y con mucho estrés."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-8-1",
-        "question": "¿Qué le gusta desayunar?",
+        "question": "¿Qué le gusta desayunar? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Café caliente y pan con aceite.",
+          "Fruta y yogur.",
+          "Un desayuno muy abundante de restaurante."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-8-2",
-        "question": "¿Qué hace mientras desayuna?",
+        "question": "¿Qué hace mientras desayuna? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Mira por la ventana y piensa en sus cosas.",
+          "Lee el periódico y las noticias.",
+          "Habla por teléfono."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-8-3",
-        "question": "¿Cómo le ayuda ese momento?",
+        "question": "¿Cómo le ayuda ese momento? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Le ayuda a empezar el día con energía y calma.",
+          "Le da dolor de cabeza.",
+          "Le hace perder tiempo."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-8-4",
-        "question": "¿Qué piensa Marta sobre esos momentos?",
+        "question": "¿Qué piensa Marta sobre esos momentos? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Que son pequeños detalles que mejoran la vida.",
+          "Que son aburridos.",
+          "Que son necesarios solo a veces."
         ],
         "correctAnswer": 0
       }
@@ -10903,51 +10993,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-9-0",
-        "question": "¿Qué hizo Carlos en el restaurante?",
+        "question": "¿Qué hizo Carlos en el restaurante? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Miró el menú con atención.",
+          "Pidió la cuenta directamente.",
+          "Habló con el cocinero."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-9-1",
-        "question": "¿Qué tipo de plato eligió?",
+        "question": "¿Qué tipo de plato eligió? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Un plato sencillo y una ensalada.",
+          "El plato más caro del menú.",
+          "Comida rápida para llevar."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-9-2",
-        "question": "¿Qué tipo de comida prefiere?",
+        "question": "¿Qué tipo de comida prefiere? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Comida ligera y sabores suaves.",
+          "Platos muy complejos y picantes.",
+          "Platos preparados."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-9-3",
-        "question": "¿Qué no necesita para disfrutar?",
+        "question": "¿Qué no necesita para disfrutar? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Platos especiales ni complicados.",
+          "Compañía para comer.",
+          "Agua para beber."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-9-4",
-        "question": "¿Qué cree Carlos sobre elegir bien?",
+        "question": "¿Qué cree Carlos sobre elegir bien? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Que elegir bien es saber lo que a uno le gusta.",
+          "Que es mejor pedir lo que recomiende el camarero.",
+          "Que siempre hay que elegir lo más caro."
         ],
         "correctAnswer": 0
       }
@@ -10969,51 +11059,51 @@ export const lessonsB1: Lesson[] = [
     "exercises": [
       {
         "id": "ex-read-10-0",
-        "question": "¿Qué le gusta hacer a Laura?",
+        "question": "¿Qué le gusta hacer a Laura? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Aprender cosas nuevas constantemente.",
+          "Quedarse en casa viendo películas.",
+          "Trabajar sin descanso."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-10-1",
-        "question": "¿Qué busca en su vida?",
+        "question": "¿Qué busca en su vida? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Oportunidades de cambio y crecimiento personal.",
+          "Mucho dinero y lujos.",
+          "Tranquilidad sin hacer nada."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-10-2",
-        "question": "¿Qué hace ahora con su tiempo?",
+        "question": "¿Qué hace ahora con su tiempo? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Estudia, asiste a cursos y lee sobre temas nuevos.",
+          "Trabaja horas extra todos los días.",
+          "Duerme muchas horas."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-10-3",
-        "question": "¿Qué quiere para el futuro?",
+        "question": "¿Qué quiere para el futuro? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Seguir aprendiendo y tal vez cambiar de trabajo.",
+          "Mudarse de país.",
+          "Comprarse una casa grande."
         ],
         "correctAnswer": 0
       },
       {
         "id": "ex-read-10-4",
-        "question": "¿Qué cree sobre las decisiones pequeñas?",
+        "question": "¿Qué cree sobre las decisiones pequeñas? <trans en=\"(Practice sentence)\" ar=\"(جملة تدريبية)\" uk=\"(Речення для практики)\" fr=\"(Phrase de pratique)\"/>",
         "options": [
-          "Respuesta correcta basada en el texto",
-          "Opción incorrecta A",
-          "Opción incorrecta B"
+          "Que te llevan a lugares interesantes y te ayudan a avanzar.",
+          "Que no tienen ninguna importancia.",
+          "Que es mejor no tomarlas."
         ],
         "correctAnswer": 0
       }
