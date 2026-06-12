@@ -1,0 +1,84 @@
+# Guía de Generación de Ilustraciones con IA para Asha-Kiran
+
+Esta guía contiene las instrucciones, el estilo visual exacto y un script automatizado para que cualquier agente de IA pueda generar de manera secuencial las ilustraciones profesionales que faltan y vincularlas en `content.ts`.
+
+---
+
+## 1. Guía de Estilo Visual (Style Guide)
+
+Para que las nuevas imágenes tengan el mismo estilo que las ya generadas, las peticiones a la IA deben seguir estas reglas:
+
+> [!IMPORTANT]
+> **Consistencia del Estilo de Dibujo (Enfoque en Jóvenes y Adultos):**
+> - **Público objetivo**: Principalmente adultos y jóvenes que ya no asisten a la escuela regular (inmigrantes y refugiados).
+> - **Tono y Estilo**: El arte debe ser **profesional, limpio, sobrio y moderno**. Evitar caricaturas infantiles o personajes de apariencia infantil/bebé. Debe ser un diseño vectorial limpio que resulte respetuoso y adecuado para un adulto.
+> - **Tipo de arte**: Ilustración vectorial plana (Flat Vector Art) o iconos de estilo plano (Flat Icon Style), estilizados e informativos.
+> - **Fondo**: Blanco puro o transparente (`solid white background` o `isolated on white background`). Sin elementos decorativos distractores ni degradados complejos de fondo.
+> - **Líneas y trazo**: Trazo fino y limpio (clean thin outlines), sin detalles 3D ni fotorrealismo.
+> - **Colores**: Tonos suaves y coordinados (colores pastel y planos, evitando estridencias), inspirados en los colores corporativos de Asha-Kiran: verde esmeralda, naranja cálido y azul suave.
+
+---
+
+## 2. Prompt Maestro para Generar una Imagen
+
+Cuando le pidas al agente que genere una ilustración (usando la herramienta `generate_image`), usa este prompt estructurado:
+
+```text
+Generate a clean, modern flat vector illustration of [DESCRIPCIÓN DEL OBJETO/CONCEPTO, ej: 'a professional smartphone showing a map route'] for a language learning app designed for adult students.
+
+Style rules:
+- Clean vector flat design, modern minimalist outline style
+- Respectful, mature, and professional tone (strictly avoid childish cartoon characters or infantile designs)
+- No 3D effects, no realistic shading, no gradients
+- Main colors: flat friendly colors (pastels, soft blues, soft greens)
+- Background: isolated on a clean solid white background
+- Composition: single main subject, centered, high contrast, clean edges
+
+Save the image as [FILENAME, ej: 'telefono_vocab.png']
+```
+
+---
+
+## 3. Automatización de Generación y Registro
+
+Para no hacerlo a mano, un Agente de IA con acceso a terminal y a la herramienta de generación de imágenes puede seguir estos pasos:
+
+### Paso A: Identificar los items sin ilustración
+El agente puede ejecutar este script en la raíz del proyecto para generar un JSON con la lista exacta de lo que falta:
+
+```bash
+node c:/Users/jahp8/.gemini/antigravity/brain/ab09e6f7-2d15-49c4-be13-80f6be924a77/scratch/find_missing.js
+```
+
+### Paso B: Bucle de generación y guardado
+Para cada item de la lista (por ejemplo, el vocabulario "El autobús"):
+1. Llama al generador con el prompt de estilo:
+   - **Objeto**: `a modern city bus, clean design`
+   - **Nombre de archivo**: `public/images/vocab/autobus.png`
+2. Modifica el archivo `src/data/content.ts` agregando la propiedad `illustrationUrl: "/images/vocab/autobus.png"` al vocabulario correspondiente.
+
+---
+
+## 4. Prompt para el Agente (Copiar y Pegar)
+
+Puedes darle exactamente la siguiente instrucción al agente para que empiece el trabajo automático:
+
+```text
+Por favor, automatiza la generación de las ilustraciones que faltan en la plataforma Asha-Kiran. Para ello:
+
+1. Ejecuta el script de diagnóstico en:
+   c:/Users/jahp8/.gemini/antigravity/brain/ab09e6f7-2d15-49c4-be13-80f6be924a77/scratch/find_missing.js
+   para ver cuáles son los temas (lessons) y palabras (vocabulary items) que aún no tienen "illustrationUrl".
+
+2. Por cada uno de ellos, genera una ilustración vectorial plana, limpia, moderna y profesional (apropiada para estudiantes adultos, evitando caricaturas infantiles) en formato PNG, con fondo blanco sólido, usando la herramienta generate_image.
+   - Si es de una lección, guárdalo en: public/images/lessons/[nombre_leccion].png
+   - Si es de vocabulario, guárdalo en: public/images/vocab/[nombre_palabra].png
+
+3. Modifica c:/PracticaUcademy/PracticasDAM_AshaKiran/web-herramienta-español/src/data/content.ts añadiendo la propiedad:
+   illustrationUrl: "/images/lessons/[nombre_leccion].png"
+   o
+   illustrationUrl: "/images/vocab/[nombre_palabra].png"
+   en el objeto correspondiente.
+
+4. Realiza esto por lotes pequeños (por ejemplo, 5 a 10 imágenes a la vez) para asegurar la máxima calidad y consistencia del estilo vectorial plano sin fotorrealismo ni 3D, manteniendo un tono formal y respetuoso para adultos.
+```
