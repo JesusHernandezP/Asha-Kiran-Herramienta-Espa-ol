@@ -14933,207 +14933,2191 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
     ]
   },
   {
-    id: "b1-lectura-piso",
-    topic: "Buscar Piso",
-    title: "Comprensión Lectora: Buscando Piso en Málaga",
-    level: "B1",
-    category: "Comprensión",
-    description: "Lee sobre la experiencia de encontrar un piso de alquiler en Málaga y responde a las preguntas de comprensión.",
-    imageUrl: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&auto=format&fit=crop&q=80",
-    illustrationUrl: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&auto=format&fit=crop&q=80",
-    emoji: "🏠",
-    color: "#E3EEF9",
-    vocabulary: [
-      { word: "Alquiler", translations: { en: "Rent", ar: "إيجar", uk: "Оренда", fr: "Loyer" }, emoji: "🔑", color: "#E3EEF9" },
-      { word: "Gastos incluidos", translations: { en: "Utilities included", ar: "الخدمات مشمولة", uk: "Комунальні послуги включені", fr: "Charges comprises" }, emoji: "💡", color: "#E3EEF9" },
-      { word: "Fianza", translations: { en: "Deposit", ar: "عربون / تأمين", uk: "Депозит", fr: "Caution" }, emoji: "💵", color: "#E3EEF9" },
-      { word: "Compañero de piso", translations: { en: "Flatmate", ar: "شريك السكن", uk: "Співмешканець", fr: "Colocataire" }, emoji: "👥", color: "#E3EEF9" }
-    ],
-    content: `
-## Buscando Piso en Málaga
-
-Marta acaba de llegar a Málaga para estudiar y trabajar. Su mayor prioridad es encontrar una habitación en un piso compartido cerca del centro o bien comunicada en transporte público (autobús o metro).
-
-Ayer vio un anuncio en una web: *"Se alquila habitación para estudiante o joven trabajador en la zona de Teatinos. 350 euros al mes, gastos de luz y agua incluidos. El piso tiene tres habitaciones, dos baños, cocina totalmente equipada y salón amplio. Se pide un mes de fianza. No se admiten mascotas."*
-
-Decidió llamar por teléfono y habló con Carlos, uno de los chicos que ya vive allí:
-—Hola, Marta. El piso está muy bien, somos un chico y una chica de 24 años. Buscamos a alguien limpio, respetuoso y responsable. Compartimos los gastos de internet a partes iguales. La habitación estará disponible a partir del próximo mes.
-
-Marta ha quedado hoy por la tarde para ver el piso y conocer a sus futuros compañeros. Espera que todo salga bien porque le encanta la zona de Teatinos, que está llena de vida, cafeterías y zonas universitarias.
-    `,
-    exercises: [
-      {
-        id: "ex1",
-        question: "¿Cuál es el precio mensual de la habitación en Teatinos?",
-        options: ["300 euros", "350 euros", "400 euros"],
-        correctAnswer: 1
+  "id": "b1-lecturas-vida",
+  "topic": "Comprensión B1",
+  "title": "Comprensión Lectora: Vivencias y Orígenes (B1)",
+  "level": "B1",
+  "category": "Comprensión",
+  "description": "Lecturas sobre el cambio de vida de Marta, el origen del chocolate y los beneficios de viajar solo, con 30 términos de vocabulario y 20 preguntas.",
+  "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+  "emoji": "📖",
+  "color": "#E3EEF9",
+  "vocabulary": [
+    {
+      "word": "Gran ciudad",
+      "translations": {
+        "en": "Big city",
+        "ar": "مدينة كبيرة",
+        "uk": "Велике місто",
+        "fr": "Grande ville"
       },
-      {
-        id: "ex2",
-        question: "¿Qué gastos NO están incluidos en el precio del alquiler?",
-        options: ["Los gastos de luz y agua", "Los gastos de internet", "La fianza"],
-        correctAnswer: 1
+      "emoji": "🏙️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Oficina de finanzas",
+      "translations": {
+        "en": "Finance office",
+        "ar": "مكتب المالية",
+        "uk": "Фінансовий офіс",
+        "fr": "Bureau des finances"
       },
-      {
-        id: "ex3",
-        question: "¿Quiénes viven actualmente en el piso?",
-        options: ["Carlos y otra chica", "Marta y Carlos", "Dos estudiantes de intercambio"],
-        correctAnswer: 0
-      }
-    ]
-  },
-  {
-    id: "b2-lectura-entrevista",
-    topic: "Entrevista de Trabajo",
-    title: "Comprensión Lectora: Mi Primera Entrevista de Trabajo",
-    level: "B2",
-    category: "Comprensión",
-    description: "Acompaña a Sofía en su primera entrevista laboral en España y practica el vocabulario del ámbito del empleo.",
-    imageUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&auto=format&fit=crop&q=80",
-    illustrationUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&auto=format&fit=crop&q=80",
-    emoji: "💼",
-    color: "#FAF9F6",
-    vocabulary: [
-      { word: "Puesto de trabajo", translations: { en: "Job position", ar: "وظيفة / منصب", uk: "Посада", fr: "Poste de travail" }, emoji: "📌", color: "#FAF9F6" },
-      { word: "Experiencia laboral", translations: { en: "Work experience", ar: "خبرة عمل", uk: "Досвід роботи", fr: "Expérience professionnelle" }, emoji: "📈", color: "#FAF9F6" },
-      { word: "Contrato indefinido", translations: { en: "Permanent contract", ar: "عقد غير محدد المدة", uk: "Безстроковий контракт", fr: "Contrat à durée indéterminée" }, emoji: "📝", color: "#FAF9F6" },
-      { word: "Sueldo bruto", translations: { en: "Gross salary", ar: "الراتب الإجمالي", uk: "Валова зарплата", fr: "Salaire brut" }, emoji: "💰", color: "#FAF9F6" }
-    ],
-    content: `
-## Mi Primera Entrevista de Trabajo en España
-
-Sofía ha sido seleccionada para una entrevista en una empresa de servicios turísticos en el centro de Málaga. El puesto es de *recepcionista bilingüe*. Sofía habla italiano, español e inglés, lo que la convierte en una gran candidata.
-
-Al llegar, la responsable de recursos humanos, Elena, la recibe con una sonrisa:
-—Hola, Sofía. Cuéntame un poco sobre tu experiencia previa. Veo en tu currículum que has trabajado en hoteles en Italia.
-
-Sofía explica con confianza:
-—Sí, trabajé durante dos temporadas de verano en la recepción de un hotel en Florencia. Me encargaba de la entrada y salida de clientes, gestionar las reservas telefónicas y resolver las dudas de los huéspedes. Me considero una persona proactiva y comunicativa.
-
-Elena asiente con interés y le describe las condiciones de la oferta:
-—Ofrecemos un contrato de jornada completa con turnos rotativos de mañana y tarde. El sueldo bruto es de 18.000 euros anuales, con posibilidad de pasar a contrato indefinido tras un periodo de prueba de tres meses. ¿Qué te parece?
-
-Sofía responde que las condiciones se adaptan perfectamente a sus expectativas. Tras la entrevista, Sofía se siente optimista y espera recibir noticias la próxima semana.
-    `,
-    exercises: [
-      {
-        id: "ex1",
-        question: "¿Para qué puesto de trabajo está optando Sofía?",
-        options: ["Directora de hotel", "Guía turística", "Recepcionista bilingüe"],
-        correctAnswer: 2
+      "emoji": "🏢",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Buen sueldo",
+      "translations": {
+        "en": "Good salary",
+        "ar": "راتب جيد",
+        "uk": "Хороша зарплата",
+        "fr": "Bon salaire"
       },
-      {
-        id: "ex2",
-        question: "¿Cuáles son las condiciones del contrato que le ofrece Elena?",
-        options: ["Media jornada y sueldo neto de 20.000€", "Jornada completa con turnos rotativos", "Contrato indefinido sin periodo de prueba"],
-        correctAnswer: 1
+      "emoji": "💰",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cansada",
+      "translations": {
+        "en": "Tired",
+        "ar": "متعبة",
+        "uk": "Втомлена",
+        "fr": "Fatiguée"
       },
-      {
-        id: "ex3",
-        question: "¿Dónde obtuvo Sofía su experiencia laboral previa?",
-        options: ["En un hotel en Italia", "En una oficina de turismo en Málaga", "En una escuela de idiomas"],
-        correctAnswer: 0
-      }
-    ]
-  },
-  {
-    id: "c1-lectura-ayuntamiento",
-    topic: "El Ayuntamiento",
-    title: "Comprensión Lectora: Trámites en el Ayuntamiento",
-    level: "C1",
-    category: "Comprensión",
-    description: "Aprende los conceptos clave para realizar gestiones administrativas en las oficinas municipales.",
-    imageUrl: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=600&auto=format&fit=crop&q=80",
-    illustrationUrl: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=600&auto=format&fit=crop&q=80",
-    emoji: "🏛️",
-    color: "#E2F3E7",
-    vocabulary: [
-      { word: "Empadronamiento", translations: { en: "Town registry", ar: "تسجيل السكن / النفوس", uk: "Реєстрація місця проживання", fr: "Recensement municipal" }, emoji: "📋", color: "#E2F3E7" },
-      { word: "Cita previa", translations: { en: "Prior appointment", ar: "موعد مسبق", uk: "Попередній запис", fr: "Rendez-vous préalable" }, emoji: "📅", color: "#E2F3E7" },
-      { word: "Padrón municipal", translations: { en: "Municipal register", ar: "السجل البلدي", uk: "Муніципальний реєстр", fr: "Registre municipal" }, emoji: "📂", color: "#E2F3E7" },
-      { word: "Solicitud", translations: { en: "Application / Request", ar: "طلب", uk: "Заява", fr: "Demande / Formulaire" }, emoji: "🖊️", color: "#E2F3E7" }
-    ],
-    content: `
-## Trámites Administrativos: El Empadronamiento
-
-El empadronamiento es el trámite administrativo mediante el cual una persona se registra en el padrón municipal de la localidad donde reside habitualmente. Es una gestión obligatoria para todos los ciudadanos en España y sirve para acreditar el tiempo de permanencia en territorio español y acceder a múltiples servicios públicos esenciales.
-
-Yousef acaba de mudarse a su nuevo apartamento de alquiler en el centro de Málaga. Para formalizar su situación legal, ha solicitado una **cita previa** en la Oficina de Atención al Ciudadano del Ayuntamiento de Málaga (OAC).
-
-Los documentos requeridos para completar el trámite son:
-1. **Documento de Identidad**: Pasaporte en vigor, Tarjeta de Identidad de Extranjero (TIE) o documento nacional de identidad para ciudadanos de la Unión Europea.
-2. **Justificante de Vivienda**: Si se trata de un piso de alquiler, debe presentar el contrato de arrendamiento original firmado por ambas partes y el último recibo de alquiler o autorización del propietario.
-
-Gracias al empadronamiento, Yousef podrá solicitar su tarjeta sanitaria en el centro de salud de su barrio, escolarizar a sus hijos y realizar otros trámites como la convalidación de su carné de conducir.
-    `,
-    exercises: [
-      {
-        id: "ex1",
-        question: "¿Qué es el empadronamiento en el contexto administrativo español?",
-        options: ["Un seguro médico privado", "El registro en el padrón del municipio donde se reside", "Un contrato de compraventa de una vivienda"],
-        correctAnswer: 1
+      "emoji": "😴",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Estresada",
+      "translations": {
+        "en": "Stressed",
+        "ar": "مجهدة",
+        "uk": "Стресована",
+        "fr": "Stressée"
       },
-      {
-        id: "ex2",
-        question: "¿Qué documento debe llevar Yousef para justificar su residencia en régimen de alquiler?",
-        options: ["Su currículum vitae", "El contrato de arrendamiento original firmado", "Una carta del banco"],
-        correctAnswer: 1
+      "emoji": "😰",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Tráfico",
+      "translations": {
+        "en": "Traffic",
+        "ar": "حركة المرور",
+        "uk": "Дорожній рух",
+        "fr": "Trafic"
       },
-      {
-        id: "ex3",
-        question: "¿Cuál de las siguientes es una ventaja directa del empadronamiento?",
-        options: ["Viajar sin pasaporte", "Solicitar la tarjeta sanitaria del centro de salud correspondiente", "Comprar un coche con descuento"],
-        correctAnswer: 1
-      }
-    ]
-  },
-  {
-    id: "c2-lectura-salud",
-    topic: "El Sistema de Salud",
-    title: "Comprensión Lectora: Salud y Sistema Sanitario",
-    level: "C2",
-    category: "Comprensión",
-    description: "Una lectura detallada sobre el funcionamiento de la atención primaria y de especialistas médicos en España.",
-    imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&auto=format&fit=crop&q=80",
-    illustrationUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&auto=format&fit=crop&q=80",
-    emoji: "🏥",
-    color: "#FFF4E5",
-    vocabulary: [
-      { word: "Médico de cabecera", translations: { en: "General practitioner", ar: "طبيب العائلة", uk: "Сімейний лікар", fr: "Médecin de famille" }, emoji: "🩺", color: "#FFF4E5" },
-      { word: "Receta electrónica", translations: { en: "Electronic prescription", ar: "وصفة طبية إلكترونية", uk: "Електронний рецепт", fr: "Ordonnance électronique" }, emoji: "💊", color: "#FFF4E5" },
-      { word: "Urgencias", translations: { en: "Emergency room", ar: "الطوارئ", uk: "Невідкладна допомога", fr: "Urgences" }, emoji: "🚨", color: "#FFF4E5" },
-      { word: "Derivación", translations: { en: "Referral", ar: "إحالة طبية", uk: "Направлення", fr: "Orientation médicale" }, emoji: "📋", color: "#FFF4E5" }
-    ],
-    content: `
-## El Acceso al Sistema Sanitario Público
-
-El Sistema Nacional de Salud en España garantiza la asistencia sanitaria pública, financiada a través de impuestos, a todos los ciudadanos y extranjeros empadronados. El primer nivel de acceso es la **Atención Primaria**, que se ofrece en los **Centros de Salud** (ambulatorios) situados en cada vecindario.
-
-Al registrarse en su centro de salud local, a cada ciudadano se le asigna un **médico de cabecera** (o de familia), quien realiza el seguimiento ordinario de su salud y receta los medicamentos necesarios mediante la **receta electrónica**. Este sistema vincula las recetas directamente a la tarjeta sanitaria del paciente, permitiendo su retirada en cualquier farmacia autorizada.
-
-Si el paciente requiere una consulta detallada para una patología específica, el médico de cabecera redacta una **derivación** al médico especialista correspondiente en el hospital de referencia. Excepto en casos de accidentes o crisis sanitarias graves que se atienden por el servicio de **Urgencias**, los ciudadanos no pueden acudir al especialista directamente sin esta derivación.
-
-Esta estructura jerárquica garantiza la sostenibilidad del sistema evitando el colapso hospitalario y promoviendo la prevención como pilar principal de la salud comunitaria.
-    `,
-    exercises: [
-      {
-        id: "ex1",
-        question: "¿Cuál es el primer punto de contacto ordinario del ciudadano con el sistema público de salud?",
-        options: ["El hospital de especialidades", "El médico de cabecera en el Centro de Salud", "La farmacia de guardia"],
-        correctAnswer: 1
+      "emoji": "🚗",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Ruido",
+      "translations": {
+        "en": "Noise",
+        "ar": "ضوضاء",
+        "uk": "Шум",
+        "fr": "Bruit"
       },
-      {
-        id: "ex2",
-        question: "¿Cómo funciona el sistema de receta electrónica en España?",
-        options: ["Los medicamentos se envían por correo a domicilio", "Se asocia la prescripción a la tarjeta sanitaria para poder recogerla en la farmacia", "Se necesita imprimir un folleto en papel firmado por el farmacéutico"],
-        correctAnswer: 1
+      "emoji": "🔊",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cambio radical",
+      "translations": {
+        "en": "Radical change",
+        "ar": "تغيير جذري",
+        "uk": "Радикальні зміни",
+        "fr": "Changement radical"
       },
-      {
-        id: "ex3",
-        question: "¿Qué trámite es imprescindible para poder ser atendido por un médico especialista en el hospital de forma programada?",
-        options: ["Llamar directamente al hospital para reservar", "Obtener una derivación del médico de cabecera", "Ir directamente a la consulta del especialista sin cita"],
-        correctAnswer: 1
-      }
-    ]
-  }
+      "emoji": "🔄",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Mudarse",
+      "translations": {
+        "en": "To move (house)",
+        "ar": "ينتقل",
+        "uk": "Переїжджати",
+        "fr": "Déménager"
+      },
+      "emoji": "📦",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Gestionar",
+      "translations": {
+        "en": "To manage",
+        "ar": "يدير / يسيّر",
+        "uk": "Керувати",
+        "fr": "Gérer"
+      },
+      "emoji": "📊",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Casa rural",
+      "translations": {
+        "en": "Country house",
+        "ar": "بيت ريفي",
+        "uk": "Сільський будинок",
+        "fr": "Gîte rural"
+      },
+      "emoji": "🏡",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cultivar",
+      "translations": {
+        "en": "To cultivate / grow",
+        "ar": "يزرع",
+        "uk": "Вирощувати",
+        "fr": "Cultiver"
+      },
+      "emoji": "🌱",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Verduras",
+      "translations": {
+        "en": "Vegetables",
+        "ar": "خضار",
+        "uk": "Овочі",
+        "fr": "Légumes"
+      },
+      "emoji": "🥕",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Vecinos",
+      "translations": {
+        "en": "Neighbors",
+        "ar": "جيران",
+        "uk": "Сусіди",
+        "fr": "Voisins"
+      },
+      "emoji": "👥",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Pasear",
+      "translations": {
+        "en": "To walk / stroll",
+        "ar": "يتنزه",
+        "uk": "Прогулюватися",
+        "fr": "Se promener"
+      },
+      "emoji": "🚶",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Bosque",
+      "translations": {
+        "en": "Forest",
+        "ar": "غابة",
+        "uk": "Ліс",
+        "fr": "Forêt"
+      },
+      "emoji": "🌲",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Chocolate",
+      "translations": {
+        "en": "Chocolate",
+        "ar": "شوكولاتة",
+        "uk": "Шоколад",
+        "fr": "Chocolat"
+      },
+      "emoji": "🍫",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cacao",
+      "translations": {
+        "en": "Cocoa",
+        "ar": "كاكاو",
+        "uk": "Какао",
+        "fr": "Cacao"
+      },
+      "emoji": "🍒",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Regalo de los dioses",
+      "translations": {
+        "en": "Gift of the gods",
+        "ar": "هدية الآلهة",
+        "uk": "Подарунок богів",
+        "fr": "Cadeau des dieux"
+      },
+      "emoji": "🎁",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Bebida amarga",
+      "translations": {
+        "en": "Bitter drink",
+        "ar": "مشروب مر",
+        "uk": "Гіркий напій",
+        "fr": "Boisson amère"
+      },
+      "emoji": "☕",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Especias",
+      "translations": {
+        "en": "Spices",
+        "ar": "توابل",
+        "uk": "Спеції",
+        "fr": "Épices"
+      },
+      "emoji": "🌶️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Sabor",
+      "translations": {
+        "en": "Flavor / Taste",
+        "ar": "نكهة / طعم",
+        "uk": "Смак",
+        "fr": "Saveur"
+      },
+      "emoji": "👅",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Azúcar",
+      "translations": {
+        "en": "Sugar",
+        "ar": "سكر",
+        "uk": "Цукор",
+        "fr": "Sucre"
+      },
+      "emoji": "🍬",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Lujo",
+      "translations": {
+        "en": "Luxury",
+        "ar": "ترف / رفاهية",
+        "uk": "Розкіш",
+        "fr": "Luxe"
+      },
+      "emoji": "💎",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Viajar solo",
+      "translations": {
+        "en": "To travel alone",
+        "ar": "السفر بمفردك",
+        "uk": "Подорожувати наодинці",
+        "fr": "Voyager seul"
+      },
+      "emoji": "🧳",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Aburrido",
+      "translations": {
+        "en": "Boring",
+        "ar": "ممل",
+        "uk": "ملل",
+        "fr": "Ennuyeux"
+      },
+      "emoji": "🥱",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Peligroso",
+      "translations": {
+        "en": "Dangerous",
+        "ar": "خطير",
+        "uk": "Небезпечний",
+        "fr": "Dangereux"
+      },
+      "emoji": "⚠️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Compañía",
+      "translations": {
+        "en": "Company / Companion",
+        "ar": "صحبة / رفقاء",
+        "uk": "Компанія",
+        "fr": "Compagnie"
+      },
+      "emoji": "👥",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Itinerario",
+      "translations": {
+        "en": "Itinerary",
+        "ar": "مسار الرحلة",
+        "uk": "Маршрут",
+        "fr": "Itinéraire"
+      },
+      "emoji": "🗺️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Confianza en sí mismo",
+      "translations": {
+        "en": "Self-confidence",
+        "ar": "الثقة بالنفس",
+        "uk": "Впевненість у собі",
+        "fr": "Confiance en soi"
+      },
+      "emoji": "🦁",
+      "color": "#E3EEF9"
+    }
+  ],
+  "content": "\n## Lectura 1: El cambio de vida de Marta\n\nMarta vivía en una gran ciudad y trabajaba en una oficina de finanzas. Tenía un buen sueldo, pero siempre estaba cansada y estresada por el tráfico y el ruido. Un día, decidió que necesitaba un cambio radical. Dejó su trabajo, vendió su coche y se mudó a un pequeño pueblo en las montañas del norte de España.  \nAhora, Marta gestiona una pequeña casa rural y cultiva sus propias verduras. Aunque gana menos dinero que antes, asegura que es mucho más feliz. Los vecinos la recibieron con los brazos abiertos y cada tarde pasea por el bosque con su perro. Siente que por fin ha recuperado el control de su tiempo y de su vida.\n\n---\n\n## Lectura 2: El origen del chocolate\n\nHoy en día, el chocolate es uno de los dulces más populares del mundo, pero su historia comenzó hace miles de años en Mesoamérica. Los mayas y los aztecas consideraban que el cacao era un regalo de los dioses. Sin embargo, no lo consumían como nosotros: ellos preparaban una bebida amarga y picante mezclada con agua, maíz y especias.  \nCuando los españoles llegaron a América en el siglo XVI, llevaron el cacao a Europa. Al principio, a la corte española no le gustó el sabor amargo, pero todo cambió cuando decidieron añadirle azúcar y canela. A partir de ese momento, la bebida se convirtió en un lujo para la nobleza europea antes de transformarse en las tabletas que conocemos hoy.\n\n---\n\n## Lectura 3: Beneficios de viajar solo\n\nMucha gente piensa que viajar solo es aburrido o peligroso, pero cada vez más personas eligen esta aventura. Viajar sin compañía te obliga a salir de tu zona de confort y a tomar tus propias decisiones. No tienes que negociar el itinerario con nadie; si te apetece quedarte leyendo en un café toda la mañana, puedes hacerlo.  \nAdemás, cuando viajas solo, eres mucho más accesible para los demás. Es más fácil que los habitantes locales te hablen o que conozcas a otros viajeros en la misma situación. Al final del viaje, la mayoría de las personas vuelven a casa con una mayor confianza en sí mismas y con amigos de diferentes partes del mundo.\n  ",
+  "exercises": [
+    {
+      "id": "b1-ex1",
+      "question": "¿Por qué decidió Marta cambiar de vida?",
+      "options": [
+        "Porque quería ganar más dinero",
+        "Porque estaba cansada y estresada por el tráfico y el ruido",
+        "Porque no le gustaban sus compañeros de trabajo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex2",
+      "question": "¿A qué se dedica Marta en la actualidad?",
+      "options": [
+        "Gestiona una casa rural y cultiva verduras",
+        "Trabaja en una oficina de finanzas en el pueblo",
+        "Es veterinaria de animales en el bosque"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b1-ex3",
+      "question": "¿Cómo la trataron los vecinos al llegar al pueblo?",
+      "options": [
+        "No le hablaron al principio",
+        "La recibieron con los brazos abiertos",
+        "Le pidieron que se marchara"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex4",
+      "question": "¿Cómo consumían originalmente el chocolate los mayas y aztecas?",
+      "options": [
+        "En tabletas dulces",
+        "Como una bebida amarga, picante y fría",
+        "Mezclado con leche caliente"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex5",
+      "question": "¿Qué ingrediente añadieron los europeos que popularizó el chocolate?",
+      "options": [
+        "Sal y pimienta",
+        "Azúcar y canela",
+        "Hielo y frutas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex6",
+      "question": "¿Quiénes eran los únicos que consumían chocolate en Europa al principio?",
+      "options": [
+        "Los campesinos",
+        "La nobleza europea",
+        "Los marineros"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex7",
+      "question": "¿Qué ventaja tiene viajar solo respecto al itinerario?",
+      "options": [
+        "Es más barato planificarlo",
+        "No tienes que negociarlo con nadie",
+        "Las agencias de viaje te lo regalan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex8",
+      "question": "¿Por qué es más fácil hacer amigos cuando viajas solo?",
+      "options": [
+        "Porque eres más accesible para los locales y otros viajeros",
+        "Porque tienes más dinero para invitarlos",
+        "Porque viajas en un grupo organizado"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b1-ex9",
+      "question": "¿Con qué beneficio personal suelen regresar a casa estos viajeros?",
+      "options": [
+        "Con más cansancio",
+        "Con una mayor confianza en sí mismos",
+        "Con ganas de no volver a viajar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex10",
+      "question": "Completa la frase con la palabra correcta: 'Carlos decidió _______ de ciudad para buscar trabajo.'",
+      "options": [
+        "mudarse",
+        "gestionar",
+        "cultivar"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b1-ex11",
+      "question": "El antónimo de 'amargo' es...",
+      "options": [
+        "picante",
+        "salado",
+        "dulce"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b1-ex12",
+      "question": "Marta pasea con su perro cada tarde. El sinónimo de 'pasear' es...",
+      "options": [
+        "correr",
+        "caminar / dar una vuelta",
+        "descansar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex13",
+      "question": "Completa: 'El chocolate se convirtió en un _______ para la nobleza europea.'",
+      "options": [
+        "sueldo",
+        "lujo",
+        "ruido"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex14",
+      "question": "¿Qué significa 'cambio radical'?",
+      "options": [
+        "Un cambio pequeño y lento",
+        "Un cambio completo y profundo",
+        "No hacer ningún cambio"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex15",
+      "question": "Completa: 'Cuando viajas sin _______, tienes total libertad.'",
+      "options": [
+        "itinerario",
+        "compañía",
+        "coche"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex16",
+      "question": "¿Cuál de estos alimentos pertenece al grupo de las 'verduras'?",
+      "options": [
+        "La manzana",
+        "La canela",
+        "La zanahoria"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b1-ex17",
+      "question": "Completa la frase: 'El dinero mensual que recibe un trabajador se llama _______.'",
+      "options": [
+        "fianza",
+        "sueldo",
+        "lujo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex18",
+      "question": "Las personas que viven cerca de tu casa son tus...",
+      "options": [
+        "dioses",
+        "vecinos",
+        "compañeros de viaje"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b1-ex19",
+      "question": "El cacao era considerado por los mayas como un regalo de los...",
+      "options": [
+        "nobles",
+        "españoles",
+        "dioses"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b1-ex20",
+      "question": "Completa: 'Tengo mucha _______ en mí mismo para superar la entrevista.'",
+      "options": [
+        "fianza",
+        "confianza",
+        "especias"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+},
+{
+  "id": "b2-lecturas-vida",
+  "topic": "Comprensión B2",
+  "title": "Comprensión Lectora: Sociedad y Entorno (B2)",
+  "level": "B2",
+  "category": "Comprensión",
+  "description": "Lecturas sobre el teletrabajo, las estatuas de la isla de Pascua y la biodiversidad urbana, con 30 términos de vocabulario y 20 preguntas.",
+  "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=80",
+  "emoji": "📖",
+  "color": "#FAF9F6",
+  "vocabulary": [
+    {
+      "word": "Auge",
+      "translations": {
+        "en": "Rise / Boom",
+        "ar": "ذروة / صعود",
+        "uk": "Сплеск / Бум",
+        "fr": "Essor"
+      },
+      "emoji": "📈",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Teletrabajo",
+      "translations": {
+        "en": "Teleworking / Remote work",
+        "ar": "العمل عن بعد",
+        "uk": "Дистанційна робота",
+        "fr": "Télétravail"
+      },
+      "emoji": "💻",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Panorama laboral",
+      "translations": {
+        "en": "Labor landscape",
+        "ar": "المشهد العمالي",
+        "uk": "Ринок праці",
+        "fr": "Paysage professionnel"
+      },
+      "emoji": "💼",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Flexibilidad horaria",
+      "translations": {
+        "en": "Flexible hours",
+        "ar": "مرونة الوقت",
+        "uk": "Гнучкий графік",
+        "fr": "Flexibilité horaire"
+      },
+      "emoji": "⏰",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Ahorro",
+      "translations": {
+        "en": "Savings",
+        "ar": "توفير",
+        "uk": "Заощадження",
+        "fr": "Économie"
+      },
+      "emoji": "🐷",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desplazamiento",
+      "translations": {
+        "en": "Commuting / Travel",
+        "ar": "التنقل",
+        "uk": "التنقل",
+        "fr": "Déplacement"
+      },
+      "emoji": "🚌",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Obstáculo",
+      "translations": {
+        "en": "Obstacle / Hurdle",
+        "ar": "عائق",
+        "uk": "Перешкода",
+        "fr": "Obstacle"
+      },
+      "emoji": "🚧",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Difuso",
+      "translations": {
+        "en": "Blurry / Diffuse",
+        "ar": "غامض / غير واضح",
+        "uk": "Розмитий",
+        "fr": "Flou"
+      },
+      "emoji": "🌫️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desconectar",
+      "translations": {
+        "en": "To disconnect",
+        "ar": "فصل / قطع الاتصال",
+        "uk": "Відключитися",
+        "fr": "Se déconnecter"
+      },
+      "emoji": "🔌",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Aislamiento social",
+      "translations": {
+        "en": "Social isolation",
+        "ar": "عزلة اجتماعية",
+        "uk": "Соціальна ізоляція",
+        "fr": "Isolement social"
+      },
+      "emoji": "👤",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Mitigar",
+      "translations": {
+        "en": "To mitigate / Ease",
+        "ar": "تخفيف / تسكين",
+        "uk": "Пом'якшувати",
+        "fr": "Mitiger / Atténuer"
+      },
+      "emoji": "🩹",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Integración",
+      "translations": {
+        "en": "Integration",
+        "ar": "دمج",
+        "uk": "Інтеграція",
+        "fr": "Intégration"
+      },
+      "emoji": "🤝",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Moáis",
+      "translations": {
+        "en": "Moai statues",
+        "ar": "تماثيل مواي",
+        "uk": "Статуї моаї",
+        "fr": "Moaïs"
+      },
+      "emoji": "🗿",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Escultura de piedra",
+      "translations": {
+        "en": "Stone sculpture",
+        "ar": "منحوتة حجرية",
+        "uk": "Кам'яна скульптура",
+        "fr": "Sculpture en pierre"
+      },
+      "emoji": "🗿",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desconcertar",
+      "translations": {
+        "en": "To puzzle / Baffle",
+        "ar": "يربك / يحير",
+        "uk": "Бентежити",
+        "fr": "Déconcerter"
+      },
+      "emoji": "😕",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Arqueólogos",
+      "translations": {
+        "en": "Archaeologists",
+        "ar": "علماء الآثار",
+        "uk": "Археологи",
+        "fr": "Archéologues"
+      },
+      "emoji": "🤠",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Toneladas",
+      "translations": {
+        "en": "Tons",
+        "ar": "أطنان",
+        "uk": "Тонни",
+        "fr": "Tonnes"
+      },
+      "emoji": "🏋️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Troncos de árboles",
+      "translations": {
+        "en": "Tree trunks",
+        "ar": "جذوع الأشجار",
+        "uk": "Стовбури дерев",
+        "fr": "Troncs d'arbres"
+      },
+      "emoji": "🪵",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Deforestación",
+      "translations": {
+        "en": "Deforestation",
+        "ar": "إزالة الغابات",
+        "uk": "Вирубка лісів",
+        "fr": "Déforestation"
+      },
+      "emoji": "🪓",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Escasear",
+      "translations": {
+        "en": "To grow scarce",
+        "ar": "يشح / يقل",
+        "uk": "Бути в дефіциті",
+        "fr": "Se raréfier"
+      },
+      "emoji": "📉",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Colapso",
+      "translations": {
+        "en": "Collapse",
+        "ar": "انهيار",
+        "uk": "Колапс",
+        "fr": "Effondrement"
+      },
+      "emoji": "💥",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Conservación",
+      "translations": {
+        "en": "Conservation",
+        "ar": "حفظ / صيانة",
+        "uk": "Збереження",
+        "fr": "Conservation"
+      },
+      "emoji": "🛡️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Asfalto",
+      "translations": {
+        "en": "Asphalt",
+        "ar": "أسفلت",
+        "uk": "Асфальт",
+        "fr": "Asphalte"
+      },
+      "emoji": "🛣️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Hormigón",
+      "translations": {
+        "en": "Concrete",
+        "ar": "خرسانة",
+        "uk": "Бетон",
+        "fr": "Béton"
+      },
+      "emoji": "🧱",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Biodiversidad urbana",
+      "translations": {
+        "en": "Urban biodiversity",
+        "ar": "التنوع البيولوجي الحضري",
+        "uk": "Міське біорізноманіття",
+        "fr": "Biodiversité urbaine"
+      },
+      "emoji": "🦋",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Corredor verde",
+      "translations": {
+        "en": "Green corridor",
+        "ar": "ممر أخضر",
+        "uk": "Зелений коридор",
+        "fr": "Corridor vert"
+      },
+      "emoji": "🌳",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Refugio",
+      "translations": {
+        "en": "Refuge / Shelter",
+        "ar": "ملجأ",
+        "uk": "Притулок",
+        "fr": "Refuge"
+      },
+      "emoji": "🏠",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Cortisol",
+      "translations": {
+        "en": "Cortisol",
+        "ar": "كورتيزول",
+        "uk": "Кортизол",
+        "fr": "Cortisol"
+      },
+      "emoji": "🧬",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Estrés",
+      "translations": {
+        "en": "Stress",
+        "ar": "توتر / ضغط عصبي",
+        "uk": "Стрес",
+        "fr": "Stress"
+      },
+      "emoji": "🤯",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Habitable",
+      "translations": {
+        "en": "Livable / Habitable",
+        "ar": "صالح للسكن",
+        "uk": "Придатний для життя",
+        "fr": "Habitable"
+      },
+      "emoji": "🛋️",
+      "color": "#FAF9F6"
+    }
+  ],
+  "content": "\n## Lectura 1: El auge del teletrabajo y sus desafíos\n\nLa adopción masiva del teletrabajo ha transformado por completo el panorama laboral contemporáneo. En un principio, tanto empresas como empleados aplaudieron esta modalidad debido a la flexibilidad horaria y al ahorro de tiempo en desplazamientos. Sin embargo, a medida que el modelo se ha consolidado, han comenzado a surgir desafíos psicológicos y logísticos que no se habían previsto adecuadamente.  \nEl principal obstáculo es la difusa línea que separa la vida laboral de la personal. Al trabajar en el mismo espacio donde se descansa, muchos profesionales confiesan que les resulta casi imposible \"desconectar\" al final de la jornada. Esto ha provocado un incremento en los casos de estrés laboral y una sensación de aislamiento social que las empresas intentan mitigar mediante reuniones híbridas y actividades de integración.\n\n---\n\n## Lectura 2: El misterio de la isla de Pascua\n\nLa isla de Pascua, ubicada en el océano Pacífico, es famosa mundialmente por sus imponentes estatuas de piedra conocidas como moáis. Estas gigantescas esculturas, talladas por los antiguos habitantes de la isla entre los siglos VIII y XVI, han desconcertado a los arqueólogos durante generaciones. La gran pregunta sigue siendo cómo una sociedad con tecnología limitada logró transportar bloques de piedra de varias toneladas a lo largo de kilómetros.  \nUna de las teorías más aceptadas sugiere que los isleños utilizaban troncos de árboles como rodillos para mover las estructuras. Lamentablemente, esta intensa actividad, sumada a la sobrepoblación, provocó una deforestación severa en la isla. Sin árboles, los recursos escasearon, lo que desencadenó una crisis social que colapsó la civilización antes de la llegada de los primeros exploradores europeos.\n\n---\n\n## Lectura 3: La importancia de la biodiversidad urbana\n\nCuando pensamos en la conservación de la naturaleza, solemos imaginar selvas tropicales o zonas montañosas remotas. Sin embargo, los científicos están prestando cada vez más atención a los ecosistemas urbanos. Las ciudades no son solo asfalto y hormigón; albergan una sorprendente variedad de aves, insectos y plantas que desempeñan un papel crucial en la calidad del aire y la regulación de la temperatura local.  \nCrear y mantener corredores verdes —como parques conectados o techos vegetales— ayuda a preservar esta biodiversidad. Estos espacios no solo ofrecen un refugio a los animales, sino que también mejoran significativamente la salud mental de los ciudadanos, reduciendo los niveles de cortisol, la hormona del estrés. Una ciudad verde es, en definitiva, una ciudad más habitable.\n  ",
+  "exercises": [
+    {
+      "id": "b2-ex1",
+      "question": "@[Textos Plataforma B1-C2.md] indica que las ventajas iniciales del teletrabajo son:",
+      "options": [
+        "La falta de control de las empresas",
+        "La flexibilidad horaria y el ahorro de tiempo en traslados",
+        "La reducción de los salarios ordinarios"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex2",
+      "question": "¿Cuál es el principal obstáculo psicológico mencionado sobre el teletrabajo?",
+      "options": [
+        "La difusa línea entre la vida laboral y la personal",
+        "No saber encender el ordenador portátil",
+        "Tener demasiadas reuniones presenciales"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b2-ex3",
+      "question": "¿Cómo intentan las empresas solucionar el problema del aislamiento social?",
+      "options": [
+        "Prohibiendo el teletrabajo por completo",
+        "Mediante reuniones híbridas y actividades de integración",
+        "Aumentando las horas laborables diarias"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex4",
+      "question": "¿En qué época aproximada se tallaron los moáis de la isla de Pascua?",
+      "options": [
+        "En el siglo XX",
+        "Entre los siglos VIII y XVI",
+        "Hace más de dos mil años"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex5",
+      "question": "¿Cuál es el enigma arqueológico principal que rodea a estas estatuas?",
+      "options": [
+        "Cómo lograron esculpir la roca blanda",
+        "Cómo las transportaron a lo largo de kilómetros sin tecnología avanzada",
+        "De qué dios representaban las caras"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex6",
+      "question": "¿Qué consecuencia ambiental provocó el uso excesivo de madera para mover los moáis?",
+      "options": [
+        "La contaminación del mar circundante",
+        "Una deforestación severa en toda la isla",
+        "La extinción de aves acuáticas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex7",
+      "question": "¿Qué funciones cruciales cumple la biodiversidad en las ciudades?",
+      "options": [
+        "Aumentar el tráfico vehicular nocturno",
+        "Mejorar la calidad del aire y regular la temperatura local",
+        "Facilitar la construcción de rascacielos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex8",
+      "question": "¿Qué es un 'corredor verde' según la lectura?",
+      "options": [
+        "Una carretera para coches eléctricos",
+        "Espacios verdes como parques conectados o techos vegetales",
+        "Una zona peatonal pintada de verde"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex9",
+      "question": "¿Qué impacto tiene la presencia de áreas verdes sobre la hormona cortisol?",
+      "options": [
+        "La incrementa notablemente",
+        "Reduce sus niveles, bajando el estrés de los ciudadanos",
+        "No ejerce ninguna influencia médica"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex10",
+      "question": "El antónimo de 'ahorro' es...",
+      "options": [
+        "gasto / despilfarro",
+        "inversión",
+        "presupuesto"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b2-ex11",
+      "question": "El sinónimo de la palabra 'mitigar' es...",
+      "options": [
+        "aumentar",
+        "atenuar / suavizar",
+        "provocar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex12",
+      "question": "Completa la frase: 'El hormigón y el _______ son materiales comunes en la arquitectura urbana.'",
+      "options": [
+        "cacao",
+        "asfalto",
+        "rodillo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex13",
+      "question": "Si los recursos en la isla eran limitados, significa que empezaron a...",
+      "options": [
+        "aumentar",
+        "escasear",
+        "consolidarse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex14",
+      "question": "El profesional que se encarga del estudio de civilizaciones antiguas a través de restos materiales es el...",
+      "options": [
+        "geólogo",
+        "arqueólogo",
+        "psicólogo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex15",
+      "question": "Completa la frase: 'La crisis social desencadenó el _______ total del sistema.'",
+      "options": [
+        "refugio",
+        "colapso",
+        "desplazamiento"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex16",
+      "question": "¿Qué hormona está asociada con los niveles de estrés humano?",
+      "options": [
+        "Adrenalina",
+        "Cortisol",
+        "Insulina"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex17",
+      "question": "Un obstáculo que es 'difuso' se caracteriza por ser...",
+      "options": [
+        "muy claro y preciso",
+        "poco definido o confuso",
+        "sencillo de resolver"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex18",
+      "question": "El término 'habitable' se aplica a una casa que...",
+      "options": [
+        "está en ruinas",
+        "reúne las condiciones para vivir en ella",
+        "es extremadamente cara"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2-ex19",
+      "question": "Completa: 'El teletrabajo ha transformado el _______ laboral contemporáneo.'",
+      "options": [
+        "asfalto",
+        "auge",
+        "panorama"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b2-ex20",
+      "question": "Para mover las piedras gigantes, los isleños utilizaban troncos como...",
+      "options": [
+        "rodillos",
+        "moáis",
+        "corredores"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "c1-lecturas-vida",
+  "topic": "Comprensión C1",
+  "title": "Comprensión Lectora: Ética, Urbanismo y Ciencia (C1)",
+  "level": "C1",
+  "category": "Comprensión",
+  "description": "Lecturas sobre el dilema ético de la IA en el arte, el fenómeno de la gentrificación y el descubrimiento de la neuroplasticidad, con 30 términos de vocabulario y 20 preguntas.",
+  "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
+  "emoji": "📖",
+  "color": "#E2F3E7",
+  "vocabulary": [
+    {
+      "word": "Irrupción",
+      "translations": {
+        "en": "Emergence / Onset",
+        "ar": "اقتحام / ظهور مفاجئ",
+        "uk": "Поява / Вторгнення",
+        "fr": "Irruption"
+      },
+      "emoji": "🌊",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Algoritmos",
+      "translations": {
+        "en": "Algorithms",
+        "ar": "خوارزميات",
+        "uk": "Алгоритми",
+        "fr": "Algorithmes"
+      },
+      "emoji": "🔢",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Encarnizado",
+      "translations": {
+        "en": "Fierce / Bitter",
+        "ar": "ضاري / محتدم",
+        "uk": "Запеклий",
+        "fr": "Acharné"
+      },
+      "emoji": "⚔️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Democratización",
+      "translations": {
+        "en": "Democratization",
+        "ar": "إرساء الديمقراطية",
+        "uk": "Демократизація",
+        "fr": "Démocratisation"
+      },
+      "emoji": "🗳️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Plagio sistemático",
+      "translations": {
+        "en": "Systematic plagiarism",
+        "ar": "سرقة أدبية ممنهجة",
+        "uk": "Систематичний плагіат",
+        "fr": "Plagiat systématique"
+      },
+      "emoji": "📋",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Consentimiento",
+      "translations": {
+        "en": "Consent",
+        "ar": "موافقة",
+        "uk": "Згода",
+        "fr": "Consentement"
+      },
+      "emoji": "✍️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Autoría",
+      "translations": {
+        "en": "Authorship",
+        "ar": "تأليف / ملكية العمل",
+        "uk": "Авторство",
+        "fr": "Auteur / Paternité"
+      },
+      "emoji": "✒️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Emular",
+      "translations": {
+        "en": "To emulate",
+        "ar": "يقلد / يحاكي",
+        "uk": "Емулювати",
+        "fr": "Émuler"
+      },
+      "emoji": "👥",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Detrimento",
+      "translations": {
+        "en": "Detriment / Harm",
+        "ar": "ضرر / أذى",
+        "uk": "Шкода",
+        "fr": "Détriment"
+      },
+      "emoji": "📉",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Propiedad intelectual",
+      "translations": {
+        "en": "Intellectual property",
+        "ar": "الملكية الفكرية",
+        "uk": "Інтелектуальна власність",
+        "fr": "Propriété intellectuelle"
+      },
+      "emoji": "🧠",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Gentrificación",
+      "translations": {
+        "en": "Gentrification",
+        "ar": "الgentrification (تغيير طبيعة الحي)",
+        "uk": "Джентрифікація",
+        "fr": "Gentrification"
+      },
+      "emoji": "🏢",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Controvertido",
+      "translations": {
+        "en": "Controversial",
+        "ar": "مثير للجدل",
+        "uk": "Суперечливий",
+        "fr": "Controversé"
+      },
+      "emoji": "🗣️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Rehabilitación",
+      "translations": {
+        "en": "Rehabilitation / Renovation",
+        "ar": "إعادة تأهيل",
+        "uk": "Реконструкція",
+        "fr": "Réhabilitation"
+      },
+      "emoji": "🛠️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Afluencia de capital",
+      "translations": {
+        "en": "Capital inflow",
+        "ar": "تدفق رأس المال",
+        "uk": "Приплив капіталу",
+        "fr": "Afflux de capitaux"
+      },
+      "emoji": "💵",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Estética",
+      "translations": {
+        "en": "Aesthetics",
+        "ar": "علم الجمال / جمالية",
+        "uk": "Естетика",
+        "fr": "Esthétique"
+      },
+      "emoji": "🎨",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Encarecimiento",
+      "translations": {
+        "en": "Price increase",
+        "ar": "ارتفاع الأسعار",
+        "uk": "Подорожчання",
+        "fr": "Renchérissement"
+      },
+      "emoji": "📈",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Expulsión",
+      "translations": {
+        "en": "Expulsion / Displacement",
+        "ar": "طرد / تهجير",
+        "uk": "Виселення",
+        "fr": "Expulsion"
+      },
+      "emoji": "🚪",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Homogéneas",
+      "translations": {
+        "en": "Homogeneous",
+        "ar": "متجانسة",
+        "uk": "Однорідні",
+        "fr": "Homogènes"
+      },
+      "emoji": "🥛",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Erosión",
+      "translations": {
+        "en": "Erosion",
+        "ar": "تآكل",
+        "uk": "Ерозія",
+        "fr": "Érosion"
+      },
+      "emoji": "🏔️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Tejido social",
+      "translations": {
+        "en": "Social fabric",
+        "ar": "النسيج الاجتماعي",
+        "uk": "Соціальна тканина",
+        "fr": "Tissu social"
+      },
+      "emoji": "🧶",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Desarraigo",
+      "translations": {
+        "en": "Uprooting / Alienation",
+        "ar": "اقتلاع من الجذور / الغربة",
+        "uk": "Відчуження / Втрата коріння",
+        "fr": "Déracinement"
+      },
+      "emoji": "🥀",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Neuroplasticidad",
+      "translations": {
+        "en": "Neuroplasticity",
+        "ar": "المرونة العصبية",
+        "uk": "Нейропластичність",
+        "fr": "Neuroplasticité"
+      },
+      "emoji": "🧠",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Estática",
+      "translations": {
+        "en": "Static",
+        "ar": "ساكنة / غير متغيرة",
+        "uk": "Статична",
+        "fr": "Statique"
+      },
+      "emoji": "⏸️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Inmutable",
+      "translations": {
+        "en": "Immutable",
+        "ar": "ثابتة لا تتغير",
+        "uk": "Незмінна",
+        "fr": "Immuable"
+      },
+      "emoji": "🔒",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Deteriorar",
+      "translations": {
+        "en": "To deteriorate",
+        "ar": "يتدهور",
+        "uk": "Погіршуватися",
+        "fr": "Se détériorer"
+      },
+      "emoji": "📉",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Sinapsis",
+      "translations": {
+        "en": "Synapses",
+        "ar": "مواضع التشابك العصبي",
+        "uk": "Синапси",
+        "fr": "Synapses"
+      },
+      "emoji": "⚡",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Flexible",
+      "translations": {
+        "en": "Flexible",
+        "ar": "مرن",
+        "uk": "Гнучкий",
+        "fr": "Flexible"
+      },
+      "emoji": "🤸",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Catalizadores",
+      "translations": {
+        "en": "Catalysts",
+        "ar": "محفزات",
+        "uk": "Каталізатори",
+        "fr": "Catalyseurs"
+      },
+      "emoji": "🧪",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Maleable",
+      "translations": {
+        "en": "Malleable / Adaptable",
+        "ar": "قابل للتشكيل",
+        "uk": "Пластичний",
+        "fr": "Malléable"
+      },
+      "emoji": "🏺",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Derechos de autor",
+      "translations": {
+        "en": "Copyright",
+        "ar": "حقوق الطبع والنشر",
+        "uk": "Авторські права",
+        "fr": "Droits d'auteur"
+      },
+      "emoji": "©️",
+      "color": "#E2F3E7"
+    }
+  ],
+  "content": "\n## Lectura 1: El dilema ético de la inteligencia artificial en el arte\n\nLa irrupción de algoritmos de inteligencia artificial capaces de generar imágenes, música y textos literarios de alta calidad ha desatado un debate encarnizado en el sector cultural. Mientras algunos tecnólogos celebran estas herramientas como una democratización de la creatividad, la comunidad artística denuncia de manera unánime el plagio sistemático que subyace en el entrenamiento de estos modelos de lenguaje, nutridos con millones de obras protegidas por derechos de autor sin consentimiento previo.  \nEl debate no es únicamente legal, sino también filosófico. Nos obliga a cuestionar la esencia misma de la autoría: ¿puede una máquina poseer intención artística o solo emula patrones probabilísticos? La falta de una legislación internacional clara deja a los creadores desprotegidos frente a un mercado que empieza a priorizar la inmediatez y el bajo coste de la producción automatizada en detrimento de la propiedad intelectual y el valor del trabajo humano.\n\n---\n\n## Lectura 2: El fenómeno de la gentrificación y el tejido social\n\nLa gentrificación se ha consolidado como uno de los procesos urbanísticos más controvertidos del siglo XXI. Este fenómeno, caracterizado por la rehabilitación de barrios históricos degradados y la consecuente afluencia de capital, suele traducirse a primera vista en una mejora estética y comercial de la zona. No obstante, este lavado de cara esconde una reality descarnada: el encarecimiento desorbitado de la vivienda y la expulsión residencial de los vecinos de toda la vida.  \nAl sustituir el comercio local tradicional por franquicias homogéneas y pisos turísticos, se erosiona la identidad cultural y el tejido social que daban vida al barrio. Los lazos de solidaridad vecinal se rompen, transformando vecindarios vibrantes en meros escaparates turísticos carentes de alma. El reto actual de las administraciones estriba en fomentar la inversión urbana sin que ello implique el desarraigo de las clases populares.\n\n---\n\n## Lectura 3: La importancia de la neuroplasticidad: el cerebro en constante evolución\n\nDurante décadas, la neurociencia sostuvo el dogma de que el cerebro humano adulto era una estructura estática e inmutable, cuyas conexiones neuronales se deterioraban irreversiblemente con la edad. Sin embargo, el descubrimiento de la neuroplasticidad revolucionó este paradigma al demostrar que el cerebro posee una capacidad asombrosa para reorganizarse, crear nuevas sinapsis e incluso generar neuronas a lo largo de toda la existencia en respuesta al aprendizaje y la experiencia.  \nEsta flexibilidad cognitiva implica que nuestras acciones y pensamientos moldean de forma literal la estructura física de nuestra mente. Actividades intelectualmente exigentes, el aprendizaje de un nuevo idioma o la práctica de la meditación actúan como catalizadores de esta remodelación arquitectónica cerebral. Por consiguiente, el envejecimiento cognitivo ya no se percibe como una decadencia pasiva, sino como un proceso maleable sobre el cual el individuo ejerce una influencia directa.\n  ",
+  "exercises": [
+    {
+      "id": "c1-ex1",
+      "question": "¿Cuál es el principal reproche legal de la comunidad artística al desarrollo de la IA?",
+      "options": [
+        "El alto coste energético de los servidores",
+        "El plagio sistemático al entrenar modelos sin consentimiento previo",
+        "La baja resolución de las ilustraciones generadas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex2",
+      "question": "¿Qué interrogante filosófico plantea la generación de arte por algoritmos?",
+      "options": [
+        "Si el arte digital debe costar impuestos adicionales",
+        "Si una máquina puede poseer intención artística o solo emula patrones",
+        "Cuál será la siguiente versión de los algoritmos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex3",
+      "question": "¿Por qué se encuentran desprotegidos los creadores frente a la IA?",
+      "options": [
+        "Políticamente no tienen derecho al voto",
+        "Por la falta de una legislación internacional clara",
+        "Porque no saben pintar al óleo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex4",
+      "question": "¿Qué efectos positivos y negativos contrapone el texto sobre la gentrificación?",
+      "options": [
+        "La reducción de la delincuencia y la escasez de vehículos",
+        "La mejora estética/comercial contra el encarecimiento y expulsión de vecinos",
+        "La creación de zonas verdes y el aumento del asfalto"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex5",
+      "question": "¿Qué ocurre con la identidad de un barrio bajo este proceso de gentrificación?",
+      "options": [
+        "Se mantiene intacta y se fortalece",
+        "Se erosiona al sustituir el comercio local por franquicias y pisos turísticos",
+        "Se traslada a museos nacionales"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex6",
+      "question": "¿Cuál es el desafío principal para las administraciones según la gentrificación?",
+      "options": [
+        "Atraer inversión urbana sin desarraigar a las clases populares",
+        "Prohibir totalmente las visitas turísticas",
+        "Subsanar todas las deudas de los ayuntamientos"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "c1-ex7",
+      "question": "¿Qué dogma compartía la neurociencia clásica antes del descubrimiento de la neuroplasticidad?",
+      "options": [
+        "Que el cerebro es una red de agua",
+        "Que el cerebro adulto es estático, inmutable y se deteriora irreversiblemente",
+        "Que las neuronas se multiplican indefinidamente"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex8",
+      "question": "¿Qué actividades estimulan la remodelación arquitectónica del cerebro?",
+      "options": [
+        "Mirar televisión pasivamente",
+        "El aprendizaje de idiomas, la meditación y las actividades exigentes",
+        "Dormir más de doce horas al día"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex9",
+      "question": "¿Cómo se percibe el envejecimiento mental tras conocer la neuroplasticidad?",
+      "options": [
+        "Como un declive inevitable y pasivo",
+        "Como un proceso maleable sobre el cual ejercemos influencia directa",
+        "Como una enfermedad imposible de paliar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex10",
+      "question": "El sinónimo de 'debate encarnizado' es...",
+      "options": [
+        "conversación de cortesía",
+        "discusión feroz / violenta",
+        "acuerdo de paz"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex11",
+      "question": "Si algo se hace sin 'consentimiento', significa que...",
+      "options": [
+        "se solicitó permiso formal",
+        "se hizo sin el acuerdo o autorización de la persona",
+        "es totalmente gratuito"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex12",
+      "question": "Completa la frase: 'El encarecimiento de la vivienda provoca la _______ de los vecinos tradicionales.'",
+      "options": [
+        "gentrificación",
+        "expulsión",
+        "sinapsis"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex13",
+      "question": "El antónimo de 'homogéneas' es...",
+      "options": [
+        "iguales",
+        "heterogéneas / variadas",
+        "estáticas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex14",
+      "question": "Completa la frase: 'El desarraigo de los residentes daña gravemente el _______ del vecindario.'",
+      "options": [
+        "algoritmo",
+        "consentimiento",
+        "tejido social"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "c1-ex15",
+      "question": "Un cambio en la estructura física del cerebro se describe como una remodelación...",
+      "options": [
+        "inmutable",
+        "arquitectónica",
+        "estética"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex16",
+      "question": "Las conexiones funcionales entre las células nerviosas cerebrales se llaman...",
+      "options": [
+        "sinapsis",
+        "algoritmos",
+        "catalizadores"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "c1-ex17",
+      "question": "El término 'inmutable' se refiere a algo que...",
+      "options": [
+        "cambia con gran facilidad",
+        "no se puede alterar o cambiar",
+        "está roto"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c1-ex18",
+      "question": "Completa: 'El aprendizaje y la experiencia actúan como _______ de la remodelación cerebral.'",
+      "options": [
+        "plagios",
+        "desarraigos",
+        "catalizadores"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "c1-ex19",
+      "question": "¿Qué concepto define la propiedad sobre creaciones de la mente?",
+      "options": [
+        "Propiedad intelectual",
+        "Gentrificación",
+        "Consentimiento"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "c1-ex20",
+      "question": "El cerebro posee capacidad para reorganizarse gracias a que es...",
+      "options": [
+        "estático",
+        "maleable",
+        "inmutable"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+},
+{
+  "id": "c2-lecturas-vida",
+  "topic": "Comprensión C2",
+  "title": "Comprensión Lectora: Filosofía, Cultura y Epistemología (C2)",
+  "level": "C2",
+  "category": "Comprensión",
+  "description": "Lecturas sobre el eclipse de la oratoria, el coleccionismo y la epistemología de la posverdad, con 30 términos de vocabulario y 20 preguntas.",
+  "imageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=80",
+  "emoji": "📖",
+  "color": "#FFF4E5",
+  "vocabulary": [
+    {
+      "word": "Impasible",
+      "translations": {
+        "en": "Impassive / Unmoved",
+        "ar": "لا مبالٍ / هادئ",
+        "uk": "Байдужий",
+        "fr": "Impassible"
+      },
+      "emoji": "😐",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Declive",
+      "translations": {
+        "en": "Decline",
+        "ar": "تدهور / انحدar",
+        "uk": "Занепад",
+        "fr": "Déclin"
+      },
+      "emoji": "📉",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Retórica clásica",
+      "translations": {
+        "en": "Classical rhetoric",
+        "ar": "البلاغة الكلاسيكية",
+        "uk": "Класична риторика",
+        "fr": "Rhétorique classique"
+      },
+      "emoji": "🗣️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Vacuidad",
+      "translations": {
+        "en": "Emptiness / Vacuity",
+        "ar": "فراغ",
+        "uk": "Пустота",
+        "fr": "Vacuité"
+      },
+      "emoji": "🕳️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Eslogan efectista",
+      "translations": {
+        "en": "Sensational slogan",
+        "ar": "شعار مؤثر",
+        "uk": "Сенсаційне гасло",
+        "fr": "Slogan accrocheur"
+      },
+      "emoji": "📢",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Ponderación de matices",
+      "translations": {
+        "en": "Nuances weighing",
+        "ar": "وزن الفروق الدقيقة",
+        "uk": "Зважування нюансів",
+        "fr": "Pondération des nuances"
+      },
+      "emoji": "⚖️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Rigor dialéctico",
+      "translations": {
+        "en": "Dialectical rigor",
+        "ar": "الصرامة الجدلية",
+        "uk": "Діалектична строгість",
+        "fr": "Rigueur dialectique"
+      },
+      "emoji": "🧠",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Anacronismo",
+      "translations": {
+        "en": "Anachronism",
+        "ar": "مغالطة تاريخية",
+        "uk": "Анахронізм",
+        "fr": "Anachronisme"
+      },
+      "emoji": "⏳",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Trivialización",
+      "translations": {
+        "en": "Trivialization",
+        "ar": "تبسيط مبتذل / تسخيف",
+        "uk": "Тривіалізація",
+        "fr": "Trivialisation"
+      },
+      "emoji": "🎈",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Tribalismo ideológico",
+      "translations": {
+        "en": "Ideological tribalism",
+        "ar": "القبلية الأيديولوجية",
+        "uk": "Ідеологічний трибалізм",
+        "fr": "Tribalisme idéologique"
+      },
+      "emoji": "🏹",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Coleccionismo",
+      "translations": {
+        "en": "Collecting / Collectism",
+        "ar": "جمع المقتنيات",
+        "uk": "Колекціонування",
+        "fr": "Collectionnisme"
+      },
+      "emoji": "📦",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Meticuloso",
+      "translations": {
+        "en": "Meticulous",
+        "ar": "دقيق للغاية / وسواسي",
+        "uk": "Ретельний",
+        "fr": "Meticuleux"
+      },
+      "emoji": "🔍",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Sacralización",
+      "translations": {
+        "en": "Sacralization",
+        "ar": "تقديس",
+        "uk": "Сакралізація",
+        "fr": "Sacralisation"
+      },
+      "emoji": "⛪",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Taxonomía",
+      "translations": {
+        "en": "Taxonomy / Classification",
+        "ar": "علم التصنيف",
+        "uk": "Таксономія",
+        "fr": "Taxonomie"
+      },
+      "emoji": "📂",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Atávico",
+      "translations": {
+        "en": "Atavistic / Ancestral",
+        "ar": "قديم / موروث عن الأجداد",
+        "uk": "Атавістичний",
+        "fr": "Atavique"
+      },
+      "emoji": "🦖",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Fetiche material",
+      "translations": {
+        "en": "Material fetish / Token",
+        "ar": "رمز مادي",
+        "uk": "Матеріальний фетиш",
+        "fr": "Fétiche matériel"
+      },
+      "emoji": "🧿",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Finitud",
+      "translations": {
+        "en": "Finitude / Mortality",
+        "ar": "محدودية / فناء",
+        "uk": "Скінченність",
+        "fr": "Finitude"
+      },
+      "emoji": "⏳",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Aplacar",
+      "translations": {
+        "en": "To appease / Quell",
+        "ar": "يهدئ / يسكن",
+        "uk": "Заспокоювати",
+        "fr": "Apaiser"
+      },
+      "emoji": "🌊",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Bucle infinito",
+      "translations": {
+        "en": "Infinite loop",
+        "ar": "حلقة لا نهائية",
+        "uk": "Нескінченний цикл",
+        "fr": "Boucle infinie"
+      },
+      "emoji": "🔁",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Nostalgia",
+      "translations": {
+        "en": "Nostalgia",
+        "ar": "حنين إلى الماضي",
+        "uk": "Ностальгія",
+        "fr": "Nostalgie"
+      },
+      "emoji": "🕰️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Epistemología",
+      "translations": {
+        "en": "Epistemology",
+        "ar": "نظرية المعرفة",
+        "uk": "Епістемологія",
+        "fr": "Épistémologie"
+      },
+      "emoji": "📖",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Posverdad",
+      "translations": {
+        "en": "Post-truth",
+        "ar": "ما بعد الحقيقة",
+        "uk": "Постправда",
+        "fr": "Post-vérité"
+      },
+      "emoji": "🎭",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Fractura epistemológica",
+      "translations": {
+        "en": "Epistemological fracture",
+        "ar": "شرخ معرفي",
+        "uk": "Епістемологічний розрив",
+        "fr": "Fracture épistémologique"
+      },
+      "emoji": "⚡",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Realidad fáctica",
+      "translations": {
+        "en": "Factual reality",
+        "ar": "الواقع الفعلي / القائم على الحقائق",
+        "uk": "Фактична реальність",
+        "fr": "Réalité factuelle"
+      },
+      "emoji": "⚖️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Burbujas informativas",
+      "translations": {
+        "en": "Filter bubbles",
+        "ar": "فقاعات المعلومات",
+        "uk": "Інформаційні бульбашки",
+        "fr": "Bulles d'information"
+      },
+      "emoji": "🫧",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Escrutinio empírico",
+      "translations": {
+        "en": "Empirical scrutiny",
+        "ar": "التدقيق التجريبي",
+        "uk": "Емпіричне дослідження",
+        "fr": "Scrutin empirique"
+      },
+      "emoji": "🔬",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Cosmovisión",
+      "translations": {
+        "en": "Worldview",
+        "ar": "رؤية العالم / الكونية",
+        "uk": "Світогляд",
+        "fr": "Vision du monde"
+      },
+      "emoji": "🌍",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Disonancia cognitiva",
+      "translations": {
+        "en": "Cognitive dissonance",
+        "ar": "التنافر المعرفي",
+        "uk": "Когнітивний дисонанс",
+        "fr": "Dissonance cognitive"
+      },
+      "emoji": "🧠",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Hipertrofia informativa",
+      "translations": {
+        "en": "Information overload",
+        "ar": "تضخم المعلومات",
+        "uk": "Інформаційне перевантаження",
+        "fr": "Surcharge informationnelle"
+      },
+      "emoji": "📚",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Atomizar",
+      "translations": {
+        "en": "To atomize / Fragment",
+        "ar": "يجزئ / يفتت",
+        "uk": "Атомізувати / Розщеплювати",
+        "fr": "Atomiser"
+      },
+      "emoji": "⚛️",
+      "color": "#FFF4E5"
+    }
+  ],
+  "content": "\n## Lectura 1: El eclipse de la oratoria en la era de la inmediatez digital\n\nAsistimos de manera impasible al paulatino declive de la retórica clásica en el discurso público contemporáneo. En un entorno comunicativo hiperconectado, tiranizado por el algoritmo y la brevedad del *clickbait*, el debate político e intelectual ha sucumbido a la vacuidad del eslogan efectista y la polarización extrema. La argumentación prolija, fundamentada en la ponderación de matices y el rigor dialéctico, se percibe hoy en día como un anacronismo tedioso que ahuyenta a una audiencia aquejada de un déficit de atención crónico.  \nEsta devaluación de la palabra no es un mero asunto estético; hiere de gravedad la calidad democrática. Cuando la persuasión apela exclusivamente al sesgo cognitivo visceral y prescinde de la lógica formal, el ciudadano queda inerme ante la demagogia. Restaurar el prestigio del discurso articulado se erige, por ende, en un imperativo ético inaplazable si pretendemos salvaguardar el ágora pública de la trivialización y el tribalismo ideológico.\n\n---\n\n## Lectura 2: El coleccionismo y la quimera de la posesión\n\nEl coleccionismo trasciende la mera acumulación suntuaria de objetos para adentrarse en los intrincados recovecos de la psicología humana. El coleccionista meticuloso no busca la utilidad práctica de la pieza adquirida, sino la sacralización de la misma dentro de una taxonomía personal y subjetiva. Existe en este impulso un intento atávico de conferir orden al caos cósmico, de compartimentar la realidad para hacerla aprehensible a través de fetiches materiales que actúan como diques de contención contra el olvido y la finitud.  \nParadójicamente, la aparente satisfacción que depara el hallazgo de la pieza largamente codiciada es tan efímera como ilusoria. Lejos de aplacar el deseo, la completitud de la serie espolea una nueva carencia, reanudando un bucle infinito donde el objeto ausente tiraniza al poseedor. Así, el coleccionismo se revela no como el disfrute de lo que se detenta, sino como una perenne nostalgia de lo que falta; una quimera donde el sujeto acaba siendo poseído por su propia colección.\n\n---\n\n## Lectura 3: Epistemología de la posverdad: la verdad como constructo de consumo\n\nEl advenimiento de la denominada sociedad de la posverdad ha supuesto una fractura epistemológica de magnitudes inéditas. Ya no se trata de la clásica mentira política —coherente en su deliberada ocultación de los hechos—, sino de la instauración de un régimen de indiferencia absoluta hacia la realidad fáctica. En este nuevo ecosistema, los hechos objetivos ejercen una influencia notablemente inferior a la hora de modelar la opinión pública que las apelaciones a las emociones de la masa o a las creencias firmemente arraigadas en burbujas informativas autorreferenciales.  \nLa verdad ha dejado de ser un consenso descubierto mediante el escrutinio empírico para transformarse en un bien de consumo personalizado. El individuo contemporáneo exige que la información valide su cosmovisión preexistente, penalizando cognitivamente cualquier disonancia que ose perturbar su zona de confort ideológico. Nos enfrentamos, por tanto, no a una falta de información, sino a una hipertrofia informativa que satura el juicio crítico y atomiza la realidad en tantas verdades como comunidades virtuales existan.\n  ",
+  "exercises": [
+    {
+      "id": "c2-ex1",
+      "question": "¿Qué factores del entorno digital actual han propiciado el declive de la retórica tradicional?",
+      "options": [
+        "La falta de conexiones de fibra óptica",
+        "El algoritmo, la brevedad del clickbait y la hiperconectividad",
+        "La proliferación de audiolibros gratuitos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex2",
+      "question": "¿Por qué el autor argumenta que la pérdida de la oratoria rigurosa afecta directamente a la democracia?",
+      "options": [
+        "Porque los políticos hablan con voz demasiado baja",
+        "Porque deja al ciudadano inerme ante la demagogia al apelar al sesgo cognitivo visceral",
+        "Porque disminuyen los presupuestos públicos destinados a debates"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex3",
+      "question": "¿A qué resortes humanos apela la comunicación actual en lugar de recurrir a la lógica formal?",
+      "options": [
+        "A la lógica matemática formal",
+        "Al sesgo cognitivo visceral y emocional de la masa",
+        "A la memorización de discursos clásicos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex4",
+      "question": "Según el texto, ¿cuál es el trasfondo psicológico que motiva el impulso de coleccionar?",
+      "options": [
+        "El deseo de revender los objetos con beneficio económico",
+        "Un intento atávico de ordenar el caos y contener el olvido y la finitud",
+        "La falta de espacio para almacenar objetos comunes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex5",
+      "question": "Explique la paradoja que se manifiesta cuando un coleccionista consigue la pieza que tanto deseaba.",
+      "options": [
+        "El valor comercial disminuye drásticamente",
+        "La completitud espolea una nueva carencia, reanudando el bucle del deseo",
+        "El coleccionista decide donar la colección a un museo municipal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex6",
+      "question": "¿Qué significado encierra la frase final afirmando que el sujeto 'acaba siendo poseído por su propia colección'?",
+      "options": [
+        "Que la colección adquiere poderes sobrenaturales",
+        "Que el coleccionista pierde autonomía subordinado a la tiranía de la colección",
+        "Que los objetos ocupan su cama habitual"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex7",
+      "question": "¿En qué se diferencia conceptualmente la 'posverdad' de la mentira política tradicional?",
+      "options": [
+        "La mentira tradicional requería papel impreso",
+        "La posverdad instaura un régimen de indiferencia absoluta hacia la realidad fáctica",
+        "La mentira era más fácil de memorizar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex8",
+      "question": "¿Cómo interactúa el ciudadano de la sociedad de la posverdad con la información que contradice sus creencias?",
+      "options": [
+        "La analiza críticamente y cambia de opinión",
+        "La penaliza cognitivamente para proteger su zona de confort ideológico",
+        "La comparte con todos sus contactos de forma neutral"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex9",
+      "question": "¿Qué consecuencia tiene la 'hipertrofia informativa' sobre el juicio crítico y la noción colectiva de la realidad?",
+      "options": [
+        "Facilita un consenso científico unánime",
+        "Satura el juicio crítico y atomiza la realidad en múltiples verdades estancas",
+        "Reduce el coste de los dispositivos informáticos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex10",
+      "question": "El antónimo de 'impasible' es...",
+      "options": [
+        "tranquilo",
+        "conmovido / alterado",
+        "apático"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex11",
+      "question": "La 'vacuidad' de una propuesta se refiere a su...",
+      "options": [
+        "riqueza conceptual",
+        "falta de contenido o profundidad",
+        "complejidad gramatical"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex12",
+      "question": "Un coleccionista que trabaja de forma extremadamente cuidadosa y detallada es...",
+      "options": [
+        "impasible",
+        "meticuloso",
+        "atávico"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex13",
+      "question": "Completa la frase: 'El impulso de coleccionar responde a un deseo _______ heredado de los ancestros.'",
+      "options": [
+        "fáctico",
+        "atávico",
+        "tedioso"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex14",
+      "question": "El estudio del origen, alcance y validez del conocimiento científico es la...",
+      "options": [
+        "epistemología",
+        "retórica",
+        "taxonomía"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "c2-ex15",
+      "question": "Completa: 'La sociedad de la posverdad ha causado una _______ epistemológica inédita.'",
+      "options": [
+        "finitud",
+        "nostalgia",
+        "fractura"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "c2-ex16",
+      "question": "La realidad que se basa estrictamente en hechos reales y demostrables es la realidad...",
+      "options": [
+        "fáctica",
+        "vacua",
+        "anacrónica"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "c2-ex17",
+      "question": "Completa la frase: 'Las comunidades de internet suelen encerrarse en sus propias _______ informativas.'",
+      "options": [
+        "taxonomías",
+        "burbujas",
+        "matices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex18",
+      "question": "Un examen minucioso y empírico de un hecho se denomina...",
+      "options": [
+        "eslogan",
+        "escrutinio",
+        "anacronismo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex19",
+      "question": "La cosmovisión de una persona representa su...",
+      "options": [
+        "situación financiera",
+        "manera de ver e interpretar el mundo",
+        "capacidad de oratoria"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "c2-ex20",
+      "question": "Cuando una realidad unificada se divide en múltiples partes desconectadas, se dice que se ha...",
+      "options": [
+        "aplacado",
+        "atomizado",
+        "sacralizado"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
 ];
