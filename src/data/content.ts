@@ -46,33 +46,33 @@ export const lessons: Lesson[] = [
     illustrationUrl: "/images/lessons/abecedario.png",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "✈️", color: "#E2F3E7" },
-      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🚢", color: "#E2F3E7" },
-      { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🏠", color: "#E3EEF9" },
-      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "☝️", color: "#FCE8E8" },
-      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐘", color: "#E2F3E7" },
+      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "/images/lessons/abecedario.png", emoji: "✈️", color: "#E2F3E7" },
+      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-1527685609591-44b0aef2400b?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🚢", color: "#E2F3E7" },
+      { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, imageUrl: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=200&auto=format&fit=crop&q=60", emoji: "🏠", color: "#E3EEF9" },
+      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-1596180316165-0974ef954468?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☝️", color: "#FCE8E8" },
+      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=200&auto=format&fit=crop&q=60", emoji: "🐘", color: "#E2F3E7" },
       { word: "Fuego", translations: { en: "Fire", ar: "نار", uk: "Вогонь", fr: "Feu" }, imageUrl: "https://plus.unsplash.com/premium_photo-1679954565327-e7e294e68b1c?q=80&w=678&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🔥", color: "#FFF4E5" },
-      { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐱", color: "#F3E8FF" },
-      { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🍦", color: "#FEFCBF" },
-      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🏝️", color: "#E2F3E7" },
-      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🦒", color: "#FEFCBF" },
-      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐨", color: "#E3EEF9" },
-      { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🌙", color: "#F3E8FF" },
-      { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🍎", color: "#FCE8E8" },
-      { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "☁️", color: "#E3EEF9" },
-      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐦", color: "#F3E8FF" },
-      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐻", color: "#E2F3E7" },
-      { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐶", color: "#FEFCBF" },
+      { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://plus.unsplash.com/premium_photo-1679954565327-e7e294e68b1c?q=80&w=678&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🐱", color: "#F3E8FF" },
+      { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, imageUrl: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=200&auto=format&fit=crop&q=60", emoji: "🍦", color: "#FEFCBF" },
+      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "🏝️", color: "#E2F3E7" },
+      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=200&auto=format&fit=crop&q=60", emoji: "🦒", color: "#FEFCBF" },
+      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-1579972383667-4894c883d674?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🐨", color: "#E3EEF9" },
+      { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, imageUrl: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=200&auto=format&fit=crop&q=60", emoji: "🌙", color: "#F3E8FF" },
+      { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#FCE8E8" },
+      { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, imageUrl: "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=200&auto=format&fit=crop&q=60", emoji: "☁️", color: "#E3EEF9" },
+      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-1551085254-e96b210db58a?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#F3E8FF" },
+      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, imageUrl: "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?w=200&auto=format&fit=crop&q=60", emoji: "🐻", color: "#E2F3E7" },
+      { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=200&auto=format&fit=crop&q=60", emoji: "🐶", color: "#FEFCBF" },
       { word: "Queso", translations: { en: "Cheese", ar: "جبن", uk: "Сир", fr: "Fromage" }, imageUrl: "https://plus.unsplash.com/premium_photo-1691939610797-aba18030c15f?q=80&w=722&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🧀", color: "#FEFCBF" },
-      { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐭", color: "#E3EEF9" },
-      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "☀️", color: "#FEFCBF" },
-      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🚆", color: "#FCE8E8" },
-      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🍇", color: "#F3E8FF" },
-      { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐮", color: "#E2F3E7" },
-      { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🥝", color: "#E2F3E7" },
-      { word: "Xilófono", translations: { en: "Xylophone", ar: "إксيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🎹", color: "#F3E8FF" },
-      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🪀", color: "#FCE8E8" },
-      { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "👞", color: "#FFF4E5" }
+      { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, imageUrl: "https://plus.unsplash.com/premium_photo-1691939610797-aba18030c15f?q=80&w=722&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🐭", color: "#E3EEF9" },
+      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☀️", color: "#FEFCBF" },
+      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=200&auto=format&fit=crop&q=60", emoji: "🚆", color: "#FCE8E8" },
+      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=200&auto=format&fit=crop&q=60", emoji: "🍇", color: "#F3E8FF" },
+      { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, imageUrl: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&auto=format&fit=crop&q=60", emoji: "🐮", color: "#E2F3E7" },
+      { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, imageUrl: "https://images.unsplash.com/photo-1585059895524-72359e06133a?w=200&auto=format&fit=crop&q=60", emoji: "🥝", color: "#E2F3E7" },
+      { word: "Xilófono", translations: { en: "Xylophone", ar: "إксيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-1711048421235-3fcb9dcf82f7?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🎹", color: "#F3E8FF" },
+      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-1646954843635-126c0fe8f3d7?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🪀", color: "#FCE8E8" },
+      { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&auto=format&fit=crop&q=60", emoji: "👞", color: "#FFF4E5" }
     ],
     content: `
 ## Vamos a aprender el abecedario de la A a la Z
@@ -212,7 +212,7 @@ Usa el botón de abajo si estuviera disponible el audio (simulación).
     level: "A1",
     category: "Vocabulario",
     description: "Imágenes y vocabulario básico sobre las partes principales de nuestro cuerpo.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/cuerpo.png",
     color: "#EBF8FF",
     vocabulary: [
@@ -684,7 +684,7 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     level: "A1",
     category: "Vocabulario",
     description: "Vocabulario con tonos de colores. Rojo, azul, verde, amarillo, naranja.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/colores.png",
     color: "#FFF5F5",
     vocabulary: [
@@ -1154,7 +1154,7 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     level: "A1",
     category: "Gramática",
     description: "Aprende a usar los artículos (el, la, los, las) y a formar el plural añadiendo 'S' o 'ES'.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/articulos.png",
     color: "#EBF8FF",
     vocabulary: [
@@ -1634,7 +1634,7 @@ Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añ
     level: "A1",
     category: "Gramática",
     description: "Aprende los pronombres para referirte a personas: yo, tú, él, ella, nosotros, vosotros, ellos.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/pronombres.png",
     color: "#E2F3E7",
     vocabulary: [
@@ -2112,7 +2112,7 @@ Para hablar de quién hace la acción, usamos los pronombres personales. ¡Apren
     level: "A1",
     category: "Gramática",
     description: "Aprende los tres verbos más importantes en español para poder presentarte.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/verbos.png",
     color: "#E2E8F0",
     vocabulary: [
@@ -2597,7 +2597,7 @@ Se usa para posesión y para expresar la edad en español.
     level: "A1",
     category: "Vocabulario",
     description: "¿Qué te pones cada día? Aprende palabras como camisa, pantalones y zapatos.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/ropa.png",
     color: "#E2E8F0",
     vocabulary: [
@@ -3066,7 +3066,7 @@ Se usa para posesión y para expresar la edad en español.
     level: "A1",
     category: "Gramática",
     description: "Aprende las reglas básicas para saber si una palabra es masculina (termina en 'o') o femenina (termina en 'a'), y algunas excepciones.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/genero.png",
     color: "#E2F3E7",
     vocabulary: [
@@ -3555,7 +3555,7 @@ Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no ter
     level: "A1",
     category: "Gramática",
     description: "Aprende a indicar posesión: mi, tu, nuestro, vuestro, su.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?w=600&auto=format&fit=crop&q=80",
     emoji: "🎒",
     color: "#FCE8E8",
     vocabulary: [
@@ -4035,7 +4035,7 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
     level: "A1",
     category: "Gramática",
     description: "Aprende a decir sí o no, y a expresar lo que te gusta y no te gusta.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&auto=format&fit=crop&q=80",
     emoji: "👍",
     color: "#E3EEF9",
     vocabulary: [
@@ -4516,7 +4516,7 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito.
     level: "A1",
     category: "Vocabulario",
     description: "Hola, ¿cómo estás? Aprende las preguntas y respuestas más importantes para conocer a alguien.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/saludos.png",
     color: "#FFF5F5",
     vocabulary: [
@@ -4998,7 +4998,7 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
     level: "A1",
     category: "Vocabulario",
     description: "Aprende a contar del uno al diez.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/numeros.png",
     color: "#EBF8FF",
     vocabulary: [
@@ -5481,7 +5481,7 @@ Los primeros 10 son:
     level: "A1",
     category: "Vocabulario",
     description: "España y español. Inglaterra y británico. Aprende cómo hablar de orígenes.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=600&auto=format&fit=crop&q=80",
     emoji: "🌐",
     color: "#FEFCBF",
     vocabulary: [
@@ -5961,7 +5961,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Vocabulario",
     description: "Vocabulario sobre árboles, montañas, y animales comunes (perro, gato, pájaro).",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     emoji: "🐶",
     color: "#FEFCBF",
     vocabulary: [
@@ -6432,7 +6432,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Comprensión",
     description: "Una lectura corta para entender frases simples y practicar preguntas.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=80",
     emoji: "📖",
     color: "#EBF8FF",
     content: `
@@ -6575,7 +6575,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Vocabulario",
     description: "Continentes, países comunes, y vocabulario geográfico.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
     emoji: "🌍",
     color: "#E2E8F0",
     vocabulary: [
@@ -7055,7 +7055,7 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país.
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&auto=format&fit=crop&q=80",
     emoji: "🗺️",
     color: "#EBF8FF",
     vocabulary: [
@@ -7531,7 +7531,7 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
     level: "A2",
     category: "Gramática",
     description: "Aprende a expresar tus deseos y necesidades: quiero comprar, necesito ayuda, quiero ir a...",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=600&auto=format&fit=crop&q=80",
     emoji: "🛒",
     color: "#F3E8FF",
     vocabulary: [
@@ -8976,7 +8976,7 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     level: "A2",
     category: "Comprensión",
     description: "Lee sobre una visita al supermercado y practica el vocabulario de alimentos y compras.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1674675646613-819adc35b9ef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     emoji: "🛒",
     color: "#E2F3E7",
     content: `
@@ -9119,7 +9119,7 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     level: "A2",
     category: "Comprensión",
     description: "Una pequeña conversación en la farmacia para practicar cómo pedir medicamentos.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1661779204668-1453dc7435ae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     emoji: "🏥",
     color: "#FFF5F5",
     content: `
@@ -9266,7 +9266,7 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     level: "B1",
     category: "Gramática",
     description: "Aprende a hablar de acciones terminadas en un momento específico del pasado.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⏳",
     color: "#FEFCBF",
     content: `
@@ -9413,7 +9413,7 @@ Los verbos **SER** (ser de profesión, origen, etc.) e **IR** (moverse a un luga
     level: "B2",
     category: "Gramática",
     description: "Expresa deseos, dudas, emociones y probabilidades usando el presente de subjuntivo.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=600&auto=format&fit=crop&q=80",
     emoji: "💭",
     color: "#E3EEF9",
     content: `
@@ -9565,7 +9565,7 @@ Algunos verbos clave tienen formas completamente irregulares en presente de subj
     level: "C1",
     category: "Vocabulario",
     description: "Aprende expresiones idiomáticas comunes para hablar con gran naturalidad y entender a los nativos.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80",
     emoji: "🗣️",
     color: "#F3E8FF",
     content: `
@@ -9604,7 +9604,7 @@ Para hablar como un nativo, es esencial conocer las frases hechas que se usan en
     level: "C2",
     category: "Comprensión",
     description: "Lee textos literarios complejos, comprende dobles sentidos, ironía y vocabulario muy avanzado.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&auto=format&fit=crop&q=80",
     color: "#FFF4E5",
     content: `
 ## Lectura Avanzada
@@ -9638,7 +9638,7 @@ Este texto no solo describe el clima (la niebla), sino que lo utiliza como metá
     level: "A1",
     category: "Vocabulario",
     description: "Aprende los días de la semana, los meses y cómo decir la hora en español.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
     emoji: "📅",
     color: "#E3EEF9",
     vocabulary: [
@@ -10112,7 +10112,7 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00).
     level: "A1",
     category: "Vocabulario",
     description: "Aprende nombres de profesiones comunes como médico, profesor o cocinero.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
     emoji: "💼",
     color: "#FCE8E8",
     vocabulary: [
@@ -10584,7 +10584,7 @@ Para hablar de nuestra profesión usamos el verbo SER.
     level: "A1",
     category: "Vocabulario",
     description: "Habla de tu familia (madre, padre) y describe cómo son (alto, bajo).",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
     emoji: "👨‍👩‍👦",
     color: "#E2F3E7",
     vocabulary: [
@@ -11536,7 +11536,7 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     level: "A1",
     category: "Vocabulario",
     description: "Aprende el nombre de algunas partes de la casa y alimentos muy comunes.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1678048604398-f42dda6997bd?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     emoji: "🍞",
     color: "#EBF8FF",
     vocabulary: [
@@ -12010,7 +12010,7 @@ La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina*
     level: "A2",
     category: "Gramática",
     description: "Habla sobre cosas que has hecho hoy, esta semana o en tu vida en general.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop&q=80",
     emoji: "📅",
     color: "#FEFCBF",
     content: `
@@ -12165,7 +12165,7 @@ Usamos este tiempo verbal para hablar de acciones pasadas que ocurrieron en un m
     level: "A2",
     category: "Gramática",
     description: "Habla de tus planes y de cosas que van a pasar usando 'IR + a + infinitivo'.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     emoji: "🔮",
     color: "#E2F3E7",
     content: `
@@ -12309,7 +12309,7 @@ Para hablar de planes inmediatos o decisiones tomadas para el futuro (ej. "maña
     level: "A2",
     category: "Gramática",
     description: "Aprende a comparar cosas: más alto que, menos grande que, tan bueno como...",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=80",
     emoji: "⚖️",
     color: "#F3E8FF",
     content: `
@@ -12460,7 +12460,7 @@ No decimos "más malo". Decimos **peor**.
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a pedir comida y pagar en un bar o restaurante.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
     emoji: "🍽️",
     color: "#FFF5F5",
     vocabulary: [
@@ -12937,7 +12937,7 @@ Tú: **La cuenta, por favor.** (Para poder pagar).
     level: "B1",
     category: "Gramática",
     description: "Aprende a hacer predicciones y a hablar de situaciones hipotéticas o deseos.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
     emoji: "🚀",
     color: "#E2F3E7",
     content: `
@@ -13085,7 +13085,7 @@ Se forma añadiendo las desinencias al infinitivo. Las terminaciones también so
     level: "B1",
     category: "Vocabulario",
     description: "Expresa lo que piensas sobre diferentes temas y da recomendaciones a otros.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&auto=format&fit=crop&q=80",
     emoji: "💡",
     color: "#FFF4E5",
     content: `
@@ -13233,7 +13233,7 @@ Cuando alguien tiene un problema:
     level: "B1",
     category: "Gramática",
     description: "Conecta tus ideas usando 'porque', 'aunque', 'sin embargo' para hablar mejor.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&auto=format&fit=crop&q=80",
     emoji: "🔗",
     color: "#EBF8FF",
     content: `
@@ -13376,7 +13376,7 @@ Los conectores son palabras que unen ideas y hacen que hables de forma más comp
     level: "B2",
     category: "Gramática",
     description: "Aprende a formular suposiciones complejas usando el condicional y el subjuntivo.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&auto=format&fit=crop&q=80",
     emoji: "🎲",
     color: "#F3E8FF",
     content: `
@@ -13525,7 +13525,7 @@ Situaciones que no son reales en el presente:
     level: "B2",
     category: "Comprensión",
     description: "Comprende textos de nivel avanzado y practica cómo defender una postura sobre temas sociales.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=80",
     emoji: "⚖️",
     color: "#FFF5F5",
     content: `
@@ -13666,7 +13666,7 @@ En B2 debes identificar las **dos posturas** en un debate y los conectores que e
     level: "B2",
     category: "Vocabulario",
     description: "Adapta tu forma de hablar al contexto: escribir un email formal vs charlar con amigos.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
     emoji: "👔",
     color: "#E2E8F0",
     content: `
@@ -13813,7 +13813,7 @@ En un nivel alto, debes saber cambiar de vocabulario dependiendo de con quién h
     level: "B1",
     category: "Comprensión",
     description: "Aprende a narrar sucesos del pasado y a seguir el hilo de una historia.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&auto=format&fit=crop&q=80",
     emoji: "✈️",
     color: "#FFF4E5",
     vocabulary: [
@@ -14289,7 +14289,7 @@ Para contar historias, combinamos los pasados:
     level: "B2",
     category: "Gramática",
     description: "Usa el subjuntivo para hablar del futuro con 'cuando' y expresar contraste con 'aunque'.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
     emoji: "⏳",
     color: "#EBF8FF",
     vocabulary: [
@@ -14767,13 +14767,13 @@ En el nivel B2, aprendemos que ciertas conjunciones cambian de modo (indicativo 
     level: "C1",
     category: "Comprensión",
     description: "Analiza un texto formal sobre el cambio climático para comprender sutilezas y registros.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=80",
     emoji: "📰",
     color: "#E2F3E7",
     vocabulary: [
       { word: "El desafío", translations: { en: "The challenge", ar: "التحدي", uk: "Виклик", fr: "Le défi" }, imageUrl: "https://plus.unsplash.com/premium_photo-1720568151357-f4dbe4f54b40?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "⛰️", color: "#E2F3E7" },
       { word: "A largo plazo", translations: { en: "Long term", ar: "على المدى الطويل", uk: "على المدى البعيد", fr: "À long terme" }, imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYkgQJTyHB_wHV8JWxUPVJTl5VVDo9NZXlw&s", emoji: "📈", color: "#E2F3E7" },
-      { word: "El recurso", translations: { en: "The resource", ar: "المورد", uk: "Ресурс", fr: "La ressource" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "💧", color: "#E2F3E7" }
+      { word: "El recurso", translations: { en: "The resource", ar: "المورد", uk: "Ресурс", fr: "La ressource" }, imageUrl: "https://plus.unsplash.com/premium_photo-1720568151357-f4dbe4f54b40?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "💧", color: "#E2F3E7" }
     ],
     content: `
 ## LECTURA: El porvenir ecológico
@@ -14807,7 +14807,7 @@ En este nivel, debes comprender:
     level: "C1",
     category: "Gramática",
     description: "Aprende a usar construcciones verbales precisas como 'soler', 'acabar de' o 'llevar + gerundio'.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
     emoji: "⚙️",
     color: "#F3E8FF",
     vocabulary: [
@@ -14854,7 +14854,7 @@ Las perífrasis son uniones de dos o más verbos que funcionan como una sola uni
     level: "C1",
     category: "Gramática",
     description: "Aprende a reportar lo que otros dijeron cambiando los tiempos verbales adecuadamente.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://españolextranjeros.com/wp-content/uploads/2025/02/EL-VERBO-SOLER-EN-ESPANOL-espanol-extranjeros-www.espanolextranjeros.com-Victoria-Monera.jpg",
     emoji: "💬",
     color: "#FFF5F5",
     vocabulary: [
@@ -14896,7 +14896,7 @@ Cuando queremos contar a alguien lo que otra persona ha dicho, usamos verbos de 
     level: "C1",
     category: "Vocabulario",
     description: "Organiza tus ideas de forma fluida y profesional usando conectores de nivel avanzado.",
-    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://img.freepik.com/vector-premium/asegurar-icono-bloqueado-vector-simbolo-supervision_883533-342.jpg",
     emoji: "🧠",
     color: "#FEFCBF",
     vocabulary: [
@@ -14939,8 +14939,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "B1",
   "category": "Comprensión",
   "description": "Marta vivía en una gran ciudad pero decidió mudarse a un pueblo rural en busca de tranquilidad.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
   "emoji": "🏡",
   "color": "#E2F3E7",
   "vocabulary": [
@@ -15486,8 +15486,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "B1",
   "category": "Comprensión",
   "description": "La historia del chocolate desde Mesoamérica hasta convertirse en un dulce popular en todo el mundo.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1548907040-4d42b52125e1?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1548907040-4d42b52125e1?w=600&auto=format&fit=crop&q=80",
   "emoji": "🍫",
   "color": "#FFF4E5",
   "vocabulary": [
@@ -16033,8 +16033,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "B1",
   "category": "Comprensión",
   "description": "Viajar solo nos ayuda a salir de la zona de confort, tomar decisiones y hacer nuevos amigos.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
   "emoji": "✈️",
   "color": "#E3EEF9",
   "vocabulary": [
@@ -16580,8 +16580,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "B2",
   "category": "Comprensión",
   "description": "Los desafíos logísticos y psicológicos del teletrabajo en el panorama laboral contemporáneo.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=80",
   "emoji": "💻",
   "color": "#E3EEF9",
   "vocabulary": [
@@ -17127,8 +17127,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "B2",
   "category": "Comprensión",
   "description": "La historia de las estatuas moáis y cómo su construcción provocó una crisis ambiental.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1510018572596-e40e2c19e412?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1510018572596-e40e2c19e412?w=600&auto=format&fit=crop&q=80",
   "emoji": "🗿",
   "color": "#FEFCBF",
   "vocabulary": [
@@ -17674,8 +17674,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "B2",
   "category": "Comprensión",
   "description": "Cómo las zonas verdes y la biodiversidad en las ciudades mejoran la salud mental de los ciudadanos.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
   "emoji": "🌳",
   "color": "#E2F3E7",
   "vocabulary": [
@@ -18221,8 +18221,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "C1",
   "category": "Comprensión",
   "description": "El debate encarnizado sobre los derechos de autor, el plagio y el valor del trabajo artístico humano.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
   "emoji": "🤖",
   "color": "#FFF4E5",
   "vocabulary": [
@@ -18768,8 +18768,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "C1",
   "category": "Comprensión",
   "description": "El proceso urbanístico que renueva barrios pero expulsa a los residentes históricos y destruye la identidad.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
   "emoji": "🏙️",
   "color": "#E3EEF9",
   "vocabulary": [
@@ -19315,8 +19315,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "C1",
   "category": "Comprensión",
   "description": "Cómo las experiencias y el aprendizaje continuo moldean y regeneran físicamente el cerebro adulto.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
   "emoji": "🧠",
   "color": "#F3E8FF",
   "vocabulary": [
@@ -19862,8 +19862,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "C2",
   "category": "Comprensión",
   "description": "El declive de la retórica clásica en la era del clickbait y cómo afecta a la calidad democrática.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?w=600&auto=format&fit=crop&q=80",
   "emoji": "🗣️",
   "color": "#FFF4E5",
   "vocabulary": [
@@ -20409,8 +20409,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "C2",
   "category": "Comprensión",
   "description": "Análisis psicológico de la necesidad humana de coleccionar y la efímera quimera del deseo.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&auto=format&fit=crop&q=80",
   "emoji": "📦",
   "color": "#E2F3E7",
   "vocabulary": [
@@ -20956,8 +20956,8 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
   "level": "C2",
   "category": "Comprensión",
   "description": "El consumo personalizado de verdades de conveniencia y su impacto crítico en la sociedad.",
-  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=80",
   "emoji": "🔍",
   "color": "#E3EEF9",
   "vocabulary": [
