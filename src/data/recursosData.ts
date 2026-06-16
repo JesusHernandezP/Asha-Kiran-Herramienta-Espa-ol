@@ -188,6 +188,7 @@ export const videos: ResourceEntry[] = [
   // VOCABULARIO
   {
     id: 'vid-vocab-presentaciones',
+    level: 'A1',
     title: 'Vocabulario: Presentaciones',
     description: 'Aprende cómo presentarte y dar información básica en español.',
     embedUrl: 'https://www.youtube.com/embed/EjA3J-daoOU',
@@ -197,6 +198,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-profesiones',
+    level: 'A1',
     title: 'Vocabulario: Profesiones',
     description: 'Nombres de los trabajos y profesiones más comunes en español.',
     embedUrl: 'https://www.youtube.com/embed/Dh080J0m6Ak',
@@ -206,6 +208,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-saludos',
+    level: 'A1',
     title: 'Vocabulario: Saludos y Despedidas',
     description: 'Fórmulas comunes para saludar y despedirse en diferentes situaciones.',
     embedUrl: 'https://www.youtube.com/embed/m6MqMC7HSII',
@@ -215,6 +218,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-hora',
+    level: 'A1',
     title: 'Vocabulario: La Hora',
     description: 'Aprende a preguntar y decir la hora en español de forma sencilla.',
     embedUrl: 'https://www.youtube.com/embed/AXjBNHBHL9I',
@@ -224,6 +228,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-ropa',
+    level: 'A1',
     title: 'Vocabulario: La Ropa y los Complementos',
     description: 'Nombres de las prendas de vestir y los accesorios habituales.',
     embedUrl: 'https://www.youtube.com/embed/tfW9hH9wsEA',
@@ -233,6 +238,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-deportes',
+    level: 'A2',
     title: 'Vocabulario: Los Deportes',
     description: 'Vocabulario y expresiones relacionadas con las actividades deportivas.',
     embedUrl: 'https://www.youtube.com/embed/0Ysq-CX2qro',
@@ -242,6 +248,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-animales',
+    level: 'A1',
     title: 'Vocabulario: Los Animales',
     description: 'Vocabulario básico sobre los animales domésticos y salvajes.',
     embedUrl: 'https://www.youtube.com/embed/3nMC8xf-MWE',
@@ -251,6 +258,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-paises',
+    level: 'A2',
     title: 'Vocabulario: Países, Lenguas y Nacionalidades',
     description: 'Aprende los nombres de países, sus idiomas y las nacionalidades.',
     embedUrl: 'https://www.youtube.com/embed/wRJur240B5U',
@@ -260,6 +268,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-electrodomesticos',
+    level: 'A2',
     title: 'Vocabulario: Electrodomésticos',
     description: 'Aparatos eléctricos de la casa y del día a día.',
     embedUrl: 'https://www.youtube.com/embed/4oLOEtNDqCs',
@@ -269,6 +278,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-utensilios',
+    level: 'A2',
     title: 'Vocabulario: Utensilios de Cocina',
     description: 'Nombres de las herramientas que usamos para cocinar y comer.',
     embedUrl: 'https://www.youtube.com/embed/zvnovBTyTNQ',
@@ -278,6 +288,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-verano',
+    level: 'A1',
     title: 'Vocabulario: El Verano',
     description: 'Palabras y frases útiles para hablar sobre las vacaciones de verano.',
     embedUrl: 'https://www.youtube.com/embed/Rv7kWCLuUWk',
@@ -287,6 +298,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-colores',
+    level: 'A1',
     title: 'Vocabulario: Los Colores',
     description: 'Aprende y repasa los colores en español con ejemplos prácticos.',
     embedUrl: 'https://www.youtube.com/embed/kilEt7CoZic',
@@ -296,6 +308,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-vocab-cuerpo',
+    level: 'A2',
     title: 'Vocabulario: El Cuerpo Humano',
     description: 'Nombres de las partes del cuerpo y la anatomía básica.',
     embedUrl: 'https://www.youtube.com/embed/Wzd-tPcUN-0',
@@ -307,6 +320,7 @@ export const videos: ResourceEntry[] = [
   // GRAMÁTICA
   {
     id: 'vid-gram-marcadores',
+    level: 'B2',
     title: 'Gramática: Marcadores Discursivos',
     description: 'Conectores y palabras para organizar tus textos y conversaciones.',
     embedUrl: 'https://www.youtube.com/embed/7tkZcwS9-wc',
@@ -316,6 +330,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-preposiciones',
+    level: 'A2',
     title: 'Gramática: Preposiciones y Adverbios de Lugar',
     description: 'Cómo indicar la ubicación de objetos and personas en el espacio.',
     embedUrl: 'https://www.youtube.com/embed/b94oPNe2xds',
@@ -325,6 +340,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-acentos',
+    level: 'B1',
     title: 'Gramática: Acentos (Agudas, Llanas, Esdrújulas)',
     description: 'Reglas fundamentales de acentuación y ortografía en español.',
     embedUrl: 'https://www.youtube.com/embed/CillD6os2OA',
@@ -334,6 +350,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-genero',
+    level: 'A1',
     title: 'Gramática: El Género en los Sustantivos',
     description: 'Reglas para diferenciar palabras masculinas y femeninas.',
     embedUrl: 'https://www.youtube.com/embed/8Ykwtg6grtk',
@@ -343,6 +360,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-gustar-personas',
+    level: 'B1',
     title: 'Gramática: El Verbo Gustar con Personas',
     description: 'Uso correcto del verbo gustar cuando nos referimos a personas.',
     embedUrl: 'https://www.youtube.com/embed/UF_DMOf30bI',
@@ -352,6 +370,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-demostrativos',
+    level: 'A1',
     title: 'Gramática: Los Demostrativos',
     description: 'Palabras para señalar y ubicar cosas (este, ese, aquel).',
     embedUrl: 'https://www.youtube.com/embed/P7_y66DUmBc',
@@ -361,6 +380,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-irregular1',
+    level: 'A2',
     title: 'Gramática: Presente Irregular 1',
     description: 'Primera parte sobre la conjugación de verbos irregulares en presente.',
     embedUrl: 'https://www.youtube.com/embed/bHv4nixD70k',
@@ -370,6 +390,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-irregular2',
+    level: 'A2',
     title: 'Gramática: Presente Irregular 2',
     description: 'Segunda parte sobre la conjugación de verbos irregulares en presente.',
     embedUrl: 'https://www.youtube.com/embed/3xryMiaNXuI',
@@ -379,6 +400,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-singular-plural',
+    level: 'A1',
     title: 'Gramática: Singular y Plural',
     description: 'Reglas para formar el plural de los sustantivos y adjetivos.',
     embedUrl: 'https://www.youtube.com/embed/aMjf5rDys4w',
@@ -388,6 +410,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-regular',
+    level: 'A1',
     title: 'Gramática: Presente Regular',
     description: 'Aprende a conjugar los verbos regulares en presente (-ar, -er, -ir).',
     embedUrl: 'https://www.youtube.com/embed/mw_b3ho0sbA',
@@ -397,6 +420,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-gustar',
+    level: 'A1',
     title: 'Gramática: Expresar Gustos (Me Gusta / No Me Gusta)',
     description: 'Estructura básica para hablar de lo que te gusta y lo que no.',
     embedUrl: 'https://www.youtube.com/embed/rTJQvOqsFqo',
@@ -406,6 +430,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-articulos',
+    level: 'A1',
     title: 'Gramática: Artículos Definidos e Indefinidos',
     description: 'Uso de el, la, los, las y un, una, unos, unas.',
     embedUrl: 'https://www.youtube.com/embed/9pgIPyQBPv4',
@@ -415,6 +440,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-imperativo',
+    level: 'B1',
     title: 'Gramática: El Imperativo',
     description: 'Formación y uso del imperativo para dar órdenes, consejos e instrucciones.',
     embedUrl: 'https://www.youtube.com/embed/j_z3QAZjiIU',
@@ -424,6 +450,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-futuro',
+    level: 'B1',
     title: 'Gramática: El Futuro',
     description: 'Estructuras para hablar de planes y acciones futuras.',
     embedUrl: 'https://www.youtube.com/embed/RtBsU75Ng0s',
@@ -433,6 +460,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-haber-estar',
+    level: 'A2',
     title: 'Gramática: Haber, Estar y Tener',
     description: 'Diferencias clave entre estos tres verbos esenciales.',
     embedUrl: 'https://www.youtube.com/embed/Z3e9SzkMkAo',
@@ -442,6 +470,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-llevar-traer',
+    level: 'B1',
     title: 'Gramática: Ir/Venir y Llevar/Traer',
     description: 'Aprende a diferenciar estos verbos de movimiento que suelen confundir.',
     embedUrl: 'https://www.youtube.com/embed/jANWvxxYFSs',
@@ -451,6 +480,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-adjetivos',
+    level: 'A1',
     title: 'Gramática: Los Adjetivos',
     description: 'Cómo describir cosas y personas concordando en género y número.',
     embedUrl: 'https://www.youtube.com/embed/UbD7O8-8Xww',
@@ -460,6 +490,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-gram-posesivos',
+    level: 'A2',
     title: 'Gramática: Posesivos Tónicos',
     description: 'Uso de los posesivos fuertes (mío, tuyo, suyo, etc.).',
     embedUrl: 'https://www.youtube.com/embed/E6vCcUtvutU',
@@ -471,6 +502,7 @@ export const videos: ResourceEntry[] = [
   // ORAL / CULTURA
   {
     id: 'vid-oral-expresiones',
+    level: 'B2',
     title: 'Práctica Oral: Expresiones Coloquiales',
     description: 'Frases hechas y expresiones cotidianas que usan los nativos.',
     embedUrl: 'https://www.youtube.com/embed/5dBuogMMCno',
@@ -480,6 +512,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-sonidos',
+    level: 'A1',
     title: 'Práctica Oral: Letras y Sonidos en Español',
     description: 'Guía de pronunciación de las letras y sonidos característicos.',
     embedUrl: 'https://www.youtube.com/embed/XUSPrvbiTa4',
@@ -489,6 +522,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-info-personal',
+    level: 'A1',
     title: 'Práctica Oral: Dar y Pedir Información Personal',
     description: 'Preguntas y respuestas clave para entablar una conversación inicial.',
     embedUrl: 'https://www.youtube.com/embed/6andNXyxssM',
@@ -498,6 +532,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-trabalenguas',
+    level: 'A2',
     title: 'Práctica Oral: Trabalenguas',
     description: 'Ejercicios divertidos para mejorar la agilidad al hablar y pronunciar.',
     embedUrl: 'https://www.youtube.com/embed/h_vEQSWARz0',
@@ -507,6 +542,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-navidad',
+    level: 'B1',
     title: 'Cultura: La Navidad en España',
     description: 'Tradiciones y vocabulario relacionado con las fiestas navideñas.',
     embedUrl: 'https://www.youtube.com/embed/rZItrjaw9cI',
@@ -516,6 +552,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-espana',
+    level: 'B1',
     title: 'Cultura: Descubriendo España',
     description: 'Un recorrido por la geografía, cultura y datos interesantes de España.',
     embedUrl: 'https://www.youtube.com/embed/HzFDgCOnVGI',
@@ -525,6 +562,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-camino',
+    level: 'C2',
     title: 'Cultura: El Camino de Santiago',
     description: 'Descubre la historia y detalles sobre esta famosa ruta de peregrinación.',
     embedUrl: 'https://www.youtube.com/embed/_5wBpqi3rYg',
@@ -534,6 +572,7 @@ export const videos: ResourceEntry[] = [
   },
   {
     id: 'vid-oral-picasso',
+    level: 'C1',
     title: 'Cultura: Pablo Picasso',
     description: 'Vida y obra de uno de los artistas más influyentes nacidos en Málaga.',
     embedUrl: 'https://www.youtube.com/embed/imlVc3DD9M8',

@@ -14931,4 +14931,209 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
         correctAnswer: 1
       }
     ]
-  }];
+  },
+  {
+    id: "b1-lectura-piso",
+    topic: "Buscar Piso",
+    title: "Comprensión Lectora: Buscando Piso en Málaga",
+    level: "B1",
+    category: "Comprensión",
+    description: "Lee sobre la experiencia de encontrar un piso de alquiler en Málaga y responde a las preguntas de comprensión.",
+    imageUrl: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&auto=format&fit=crop&q=80",
+    emoji: "🏠",
+    color: "#E3EEF9",
+    vocabulary: [
+      { word: "Alquiler", translations: { en: "Rent", ar: "إيجar", uk: "Оренда", fr: "Loyer" }, emoji: "🔑", color: "#E3EEF9" },
+      { word: "Gastos incluidos", translations: { en: "Utilities included", ar: "الخدمات مشمولة", uk: "Комунальні послуги включені", fr: "Charges comprises" }, emoji: "💡", color: "#E3EEF9" },
+      { word: "Fianza", translations: { en: "Deposit", ar: "عربون / تأمين", uk: "Депозит", fr: "Caution" }, emoji: "💵", color: "#E3EEF9" },
+      { word: "Compañero de piso", translations: { en: "Flatmate", ar: "شريك السكن", uk: "Співмешканець", fr: "Colocataire" }, emoji: "👥", color: "#E3EEF9" }
+    ],
+    content: `
+## Buscando Piso en Málaga
+
+Marta acaba de llegar a Málaga para estudiar y trabajar. Su mayor prioridad es encontrar una habitación en un piso compartido cerca del centro o bien comunicada en transporte público (autobús o metro).
+
+Ayer vio un anuncio en una web: *"Se alquila habitación para estudiante o joven trabajador en la zona de Teatinos. 350 euros al mes, gastos de luz y agua incluidos. El piso tiene tres habitaciones, dos baños, cocina totalmente equipada y salón amplio. Se pide un mes de fianza. No se admiten mascotas."*
+
+Decidió llamar por teléfono y habló con Carlos, uno de los chicos que ya vive allí:
+—Hola, Marta. El piso está muy bien, somos un chico y una chica de 24 años. Buscamos a alguien limpio, respetuoso y responsable. Compartimos los gastos de internet a partes iguales. La habitación estará disponible a partir del próximo mes.
+
+Marta ha quedado hoy por la tarde para ver el piso y conocer a sus futuros compañeros. Espera que todo salga bien porque le encanta la zona de Teatinos, que está llena de vida, cafeterías y zonas universitarias.
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "¿Cuál es el precio mensual de la habitación en Teatinos?",
+        options: ["300 euros", "350 euros", "400 euros"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex2",
+        question: "¿Qué gastos NO están incluidos en el precio del alquiler?",
+        options: ["Los gastos de luz y agua", "Los gastos de internet", "La fianza"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex3",
+        question: "¿Quiénes viven actualmente en el piso?",
+        options: ["Carlos y otra chica", "Marta y Carlos", "Dos estudiantes de intercambio"],
+        correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: "b2-lectura-entrevista",
+    topic: "Entrevista de Trabajo",
+    title: "Comprensión Lectora: Mi Primera Entrevista de Trabajo",
+    level: "B2",
+    category: "Comprensión",
+    description: "Acompaña a Sofía en su primera entrevista laboral en España y practica el vocabulario del ámbito del empleo.",
+    imageUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&auto=format&fit=crop&q=80",
+    emoji: "💼",
+    color: "#FAF9F6",
+    vocabulary: [
+      { word: "Puesto de trabajo", translations: { en: "Job position", ar: "وظيفة / منصب", uk: "Посада", fr: "Poste de travail" }, emoji: "📌", color: "#FAF9F6" },
+      { word: "Experiencia laboral", translations: { en: "Work experience", ar: "خبرة عمل", uk: "Досвід роботи", fr: "Expérience professionnelle" }, emoji: "📈", color: "#FAF9F6" },
+      { word: "Contrato indefinido", translations: { en: "Permanent contract", ar: "عقد غير محدد المدة", uk: "Безстроковий контракт", fr: "Contrat à durée indéterminée" }, emoji: "📝", color: "#FAF9F6" },
+      { word: "Sueldo bruto", translations: { en: "Gross salary", ar: "الراتب الإجمالي", uk: "Валова зарплата", fr: "Salaire brut" }, emoji: "💰", color: "#FAF9F6" }
+    ],
+    content: `
+## Mi Primera Entrevista de Trabajo en España
+
+Sofía ha sido seleccionada para una entrevista en una empresa de servicios turísticos en el centro de Málaga. El puesto es de *recepcionista bilingüe*. Sofía habla italiano, español e inglés, lo que la convierte en una gran candidata.
+
+Al llegar, la responsable de recursos humanos, Elena, la recibe con una sonrisa:
+—Hola, Sofía. Cuéntame un poco sobre tu experiencia previa. Veo en tu currículum que has trabajado en hoteles en Italia.
+
+Sofía explica con confianza:
+—Sí, trabajé durante dos temporadas de verano en la recepción de un hotel en Florencia. Me encargaba de la entrada y salida de clientes, gestionar las reservas telefónicas y resolver las dudas de los huéspedes. Me considero una persona proactiva y comunicativa.
+
+Elena asiente con interés y le describe las condiciones de la oferta:
+—Ofrecemos un contrato de jornada completa con turnos rotativos de mañana y tarde. El sueldo bruto es de 18.000 euros anuales, con posibilidad de pasar a contrato indefinido tras un periodo de prueba de tres meses. ¿Qué te parece?
+
+Sofía responde que las condiciones se adaptan perfectamente a sus expectativas. Tras la entrevista, Sofía se siente optimista y espera recibir noticias la próxima semana.
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "¿Para qué puesto de trabajo está optando Sofía?",
+        options: ["Directora de hotel", "Guía turística", "Recepcionista bilingüe"],
+        correctAnswer: 2
+      },
+      {
+        id: "ex2",
+        question: "¿Cuáles son las condiciones del contrato que le ofrece Elena?",
+        options: ["Media jornada y sueldo neto de 20.000€", "Jornada completa con turnos rotativos", "Contrato indefinido sin periodo de prueba"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex3",
+        question: "¿Dónde obtuvo Sofía su experiencia laboral previa?",
+        options: ["En un hotel en Italia", "En una oficina de turismo en Málaga", "En una escuela de idiomas"],
+        correctAnswer: 0
+      }
+    ]
+  },
+  {
+    id: "c1-lectura-ayuntamiento",
+    topic: "El Ayuntamiento",
+    title: "Comprensión Lectora: Trámites en el Ayuntamiento",
+    level: "C1",
+    category: "Comprensión",
+    description: "Aprende los conceptos clave para realizar gestiones administrativas en las oficinas municipales.",
+    imageUrl: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=600&auto=format&fit=crop&q=80",
+    emoji: "🏛️",
+    color: "#E2F3E7",
+    vocabulary: [
+      { word: "Empadronamiento", translations: { en: "Town registry", ar: "تسجيل السكن / النفوس", uk: "Реєстрація місця проживання", fr: "Recensement municipal" }, emoji: "📋", color: "#E2F3E7" },
+      { word: "Cita previa", translations: { en: "Prior appointment", ar: "موعد مسبق", uk: "Попередній запис", fr: "Rendez-vous préalable" }, emoji: "📅", color: "#E2F3E7" },
+      { word: "Padrón municipal", translations: { en: "Municipal register", ar: "السجل البلدي", uk: "Муніципальний реєстр", fr: "Registre municipal" }, emoji: "📂", color: "#E2F3E7" },
+      { word: "Solicitud", translations: { en: "Application / Request", ar: "طلب", uk: "Заява", fr: "Demande / Formulaire" }, emoji: "🖊️", color: "#E2F3E7" }
+    ],
+    content: `
+## Trámites Administrativos: El Empadronamiento
+
+El empadronamiento es el trámite administrativo mediante el cual una persona se registra en el padrón municipal de la localidad donde reside habitualmente. Es una gestión obligatoria para todos los ciudadanos en España y sirve para acreditar el tiempo de permanencia en territorio español y acceder a múltiples servicios públicos esenciales.
+
+Yousef acaba de mudarse a su nuevo apartamento de alquiler en el centro de Málaga. Para formalizar su situación legal, ha solicitado una **cita previa** en la Oficina de Atención al Ciudadano del Ayuntamiento de Málaga (OAC).
+
+Los documentos requeridos para completar el trámite son:
+1. **Documento de Identidad**: Pasaporte en vigor, Tarjeta de Identidad de Extranjero (TIE) o documento nacional de identidad para ciudadanos de la Unión Europea.
+2. **Justificante de Vivienda**: Si se trata de un piso de alquiler, debe presentar el contrato de arrendamiento original firmado por ambas partes y el último recibo de alquiler o autorización del propietario.
+
+Gracias al empadronamiento, Yousef podrá solicitar su tarjeta sanitaria en el centro de salud de su barrio, escolarizar a sus hijos y realizar otros trámites como la convalidación de su carné de conducir.
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "¿Qué es el empadronamiento en el contexto administrativo español?",
+        options: ["Un seguro médico privado", "El registro en el padrón del municipio donde se reside", "Un contrato de compraventa de una vivienda"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex2",
+        question: "¿Qué documento debe llevar Yousef para justificar su residencia en régimen de alquiler?",
+        options: ["Su currículum vitae", "El contrato de arrendamiento original firmado", "Una carta del banco"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex3",
+        question: "¿Cuál de las siguientes es una ventaja directa del empadronamiento?",
+        options: ["Viajar sin pasaporte", "Solicitar la tarjeta sanitaria del centro de salud correspondiente", "Comprar un coche con descuento"],
+        correctAnswer: 1
+      }
+    ]
+  },
+  {
+    id: "c2-lectura-salud",
+    topic: "El Sistema de Salud",
+    title: "Comprensión Lectora: Salud y Sistema Sanitario",
+    level: "C2",
+    category: "Comprensión",
+    description: "Una lectura detallada sobre el funcionamiento de la atención primaria y de especialistas médicos en España.",
+    imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&auto=format&fit=crop&q=80",
+    illustrationUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&auto=format&fit=crop&q=80",
+    emoji: "🏥",
+    color: "#FFF4E5",
+    vocabulary: [
+      { word: "Médico de cabecera", translations: { en: "General practitioner", ar: "طبيب العائلة", uk: "Сімейний лікар", fr: "Médecin de famille" }, emoji: "🩺", color: "#FFF4E5" },
+      { word: "Receta electrónica", translations: { en: "Electronic prescription", ar: "وصفة طبية إلكترونية", uk: "Електронний рецепт", fr: "Ordonnance électronique" }, emoji: "💊", color: "#FFF4E5" },
+      { word: "Urgencias", translations: { en: "Emergency room", ar: "الطوارئ", uk: "Невідкладна допомога", fr: "Urgences" }, emoji: "🚨", color: "#FFF4E5" },
+      { word: "Derivación", translations: { en: "Referral", ar: "إحالة طبية", uk: "Направлення", fr: "Orientation médicale" }, emoji: "📋", color: "#FFF4E5" }
+    ],
+    content: `
+## El Acceso al Sistema Sanitario Público
+
+El Sistema Nacional de Salud en España garantiza la asistencia sanitaria pública, financiada a través de impuestos, a todos los ciudadanos y extranjeros empadronados. El primer nivel de acceso es la **Atención Primaria**, que se ofrece en los **Centros de Salud** (ambulatorios) situados en cada vecindario.
+
+Al registrarse en su centro de salud local, a cada ciudadano se le asigna un **médico de cabecera** (o de familia), quien realiza el seguimiento ordinario de su salud y receta los medicamentos necesarios mediante la **receta electrónica**. Este sistema vincula las recetas directamente a la tarjeta sanitaria del paciente, permitiendo su retirada en cualquier farmacia autorizada.
+
+Si el paciente requiere una consulta detallada para una patología específica, el médico de cabecera redacta una **derivación** al médico especialista correspondiente en el hospital de referencia. Excepto en casos de accidentes o crisis sanitarias graves que se atienden por el servicio de **Urgencias**, los ciudadanos no pueden acudir al especialista directamente sin esta derivación.
+
+Esta estructura jerárquica garantiza la sostenibilidad del sistema evitando el colapso hospitalario y promoviendo la prevención como pilar principal de la salud comunitaria.
+    `,
+    exercises: [
+      {
+        id: "ex1",
+        question: "¿Cuál es el primer punto de contacto ordinario del ciudadano con el sistema público de salud?",
+        options: ["El hospital de especialidades", "El médico de cabecera en el Centro de Salud", "La farmacia de guardia"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex2",
+        question: "¿Cómo funciona el sistema de receta electrónica en España?",
+        options: ["Los medicamentos se envían por correo a domicilio", "Se asocia la prescripción a la tarjeta sanitaria para poder recogerla en la farmacia", "Se necesita imprimir un folleto en papel firmado por el farmacéutico"],
+        correctAnswer: 1
+      },
+      {
+        id: "ex3",
+        question: "¿Qué trámite es imprescindible para poder ser atendido por un médico especialista en el hospital de forma programada?",
+        options: ["Llamar directamente al hospital para reservar", "Obtener una derivación del médico de cabecera", "Ir directamente a la consulta del especialista sin cita"],
+        correctAnswer: 1
+      }
+    ]
+  }
+];

@@ -13,6 +13,59 @@ import { speakSpanish } from '../utils/speech';
 import { lessonTranslations } from '../data/lessonTranslations';
 import { getLessonMetadata } from '../data/lessonMetadataTranslations';
 
+const ALPHABET = [
+  { letter: 'A', name: 'a' },
+  { letter: 'B', name: 'be' },
+  { letter: 'C', name: 'ce' },
+  { letter: 'D', name: 'de' },
+  { letter: 'E', name: 'e' },
+  { letter: 'F', name: 'efe' },
+  { letter: 'G', name: 'ge' },
+  { letter: 'H', name: 'hache' },
+  { letter: 'I', name: 'i' },
+  { letter: 'J', name: 'jota' },
+  { letter: 'K', name: 'ka' },
+  { letter: 'L', name: 'ele' },
+  { letter: 'M', name: 'eme' },
+  { letter: 'N', name: 'ene' },
+  { letter: 'Ñ', name: 'eñe' },
+  { letter: 'O', name: 'o' },
+  { letter: 'P', name: 'pe' },
+  { letter: 'Q', name: 'cu' },
+  { letter: 'R', name: 'erre' },
+  { letter: 'S', name: 'ese' },
+  { letter: 'T', name: 'te' },
+  { letter: 'U', name: 'u' },
+  { letter: 'V', name: 'uve' },
+  { letter: 'W', name: 'uve doble' },
+  { letter: 'X', name: 'equis' },
+  { letter: 'Y', name: 'i griega' },
+  { letter: 'Z', name: 'zeta' }
+];
+
+const alphabetLabels: Record<string, { title: string; subtitle: string }> = {
+  es: {
+    title: 'Abecedario Común',
+    subtitle: 'Haz clic en cada letra para escuchar su pronunciación en español.'
+  },
+  en: {
+    title: 'Common Alphabet',
+    subtitle: 'Click on each letter to hear its pronunciation in Spanish.'
+  },
+  ar: {
+    title: 'الأبجدية الشائعة',
+    subtitle: 'انقر على كل حرف لسماع نطقها باللغة الإسبانية.'
+  },
+  uk: {
+    title: 'Звичайний алфавіт',
+    subtitle: 'Натисніть на кожну літеру, щоб почути її вимову іспанською.'
+  },
+  fr: {
+    title: 'Alphabet Commun',
+    subtitle: 'Cliquez sur chaque lettre pour écouter sa prononciation en espagnol.'
+  }
+};
+
 export function LessonDetail() {
   const { id } = useParams<{ id: string }>();
   const lesson = lessons.find(l => l.id === id);
@@ -141,7 +194,34 @@ export function LessonDetail() {
           <div className="prose-custom prose prose-stone prose-lg sm:prose-xl max-w-none prose-p:leading-relaxed overflow-x-auto mb-12">
             <Markdown rehypePlugins={[rehypeRaw]}>{replaceTransTags(lesson.content, displayLang)}</Markdown>
           </div>
-          
+
+          {lesson.id === 'a1-alfa-abecedario' && (
+            <div className="mb-12 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl font-black text-[#192A56] mb-2">
+                {alphabetLabels[displayLang]?.title || alphabetLabels.es.title}
+              </h2>
+              <p className="text-stone-500 text-sm mb-6">
+                {alphabetLabels[displayLang]?.subtitle || alphabetLabels.es.subtitle}
+              </p>
+              <div className="grid grid-cols-4 sm:grid-cols-7 md:grid-cols-9 gap-3">
+                {ALPHABET.map((item) => (
+                  <button
+                    key={item.letter}
+                    onClick={() => speakSpanish(item.name)}
+                    className="flex flex-col items-center justify-center p-4 bg-white border border-stone-200 rounded-2xl hover:border-[#00823B] hover:shadow-md hover:scale-105 active:scale-95 transition-all shadow-sm group cursor-pointer"
+                  >
+                    <span className="text-3xl font-black text-[#192A56] group-hover:text-[#00823B]">
+                      {item.letter}
+                    </span>
+                    <span className="text-[10px] font-bold text-stone-400 mt-1 uppercase group-hover:text-stone-600">
+                      {item.name}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {lesson.vocabulary && lesson.vocabulary.length > 0 && (
             <div className="mt-8 border-t border-stone-100 pt-8">
                <h2 className="text-2xl font-black text-[#192A56] mb-6">{t.vocabHeader}</h2>

@@ -315,17 +315,6 @@ export function RecursosMalaga() {
                               </div>
                             )}
 
-                            {/* Contact Person */}
-                            {resource.contact && (
-                              <div className="flex items-start gap-2.5 text-stone-600">
-                                <User size={16} className="mt-1 flex-shrink-0 text-stone-400" />
-                                <div>
-                                  <span className="font-bold text-stone-700 block text-xs uppercase tracking-wider mb-0.5">{t.contactLabel}</span>
-                                  <span className="text-stone-600 text-[13px]">{resource.contact}</span>
-                                </div>
-                              </div>
-                            )}
-
                             {/* Activities & Services */}
                             {resource.activities && (
                               <div className="flex items-start gap-2.5 text-stone-600">
@@ -333,17 +322,6 @@ export function RecursosMalaga() {
                                 <div>
                                   <span className="font-bold text-stone-700 block text-xs uppercase tracking-wider mb-0.5">{t.activitiesLabel}</span>
                                   <span className="text-stone-600 text-[13px]">{resource.activities}</span>
-                                </div>
-                              </div>
-                            )}
-
-                            {/* Connection status */}
-                            {resource.status && (
-                              <div className="flex items-start gap-2.5 text-stone-600">
-                                <Info size={16} className="mt-1 flex-shrink-0 text-stone-400" />
-                                <div>
-                                  <span className="font-bold text-stone-700 block text-xs uppercase tracking-wider mb-0.5">{t.statusLabel}</span>
-                                  <span className="text-stone-600 text-[13px] italic">{resource.status}</span>
                                 </div>
                               </div>
                             )}
