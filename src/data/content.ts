@@ -84,124 +84,125 @@ Usa el botón de abajo si estuviera disponible el audio (simulación).
     exercises: [
       {
         id: "ex1",
-        question: "¿Con qué letra empieza la palabra 'Avión'?",
-        options: ["E", "O", "A"],
+        question: `¿Con qué letra empieza la palabra 'Avión'? <trans en="(What letter does the word 'Airplane' begin with?)" ar="(ما هو الحرف الذي تبدأ به كلمة "طائرة"؟)" uk="(З якої літери починається слово «Літак»?)" fr="(Par quelle lettre commence le mot « Avion » ?)"/>`,
+        options: ["E <trans en=\"(E)\" ar=\"(ه)\" uk=\"(E)\" fr=\"(E)\"/>", "O <trans en=\"(Or)\" ar=\"(أو)\" uk=\"(Або)\" fr=\"(Ou)\"/>", "A <trans en=\"(A)\" ar=\"(أ)\" uk=\"(А)\" fr=\"(Un)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "¿Qué imagen empieza con la letra 'B'?",
-        options: ["Casa", "Barco", "Dedo"],
+        question: `¿Qué imagen empieza con la letra 'B'? <trans en="(Which image starts with the letter 'B'?)" ar="(ما هي الصورة التي تبدأ بحرف "ب"؟)" uk="(Яке зображення починається з літери «В»?)" fr="(Quelle image commence par la lettre 'B' ?)"/>`,
+        options: ["Casa <trans en=\"(House)\" ar=\"(البيت)\" uk=\"(Будинок)\" fr=\"(Maison)\"/>", "Barco <trans en=\"(Ship)\" ar=\"(السفينة)\" uk=\"(Корабель)\" fr=\"(Navire)\"/>", "Dedo <trans en=\"(Finger)\" ar=\"(الاصبع)\" uk=\"(Палець)\" fr=\"(Doigt)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "¿Con qué letra empieza la palabra 'Sol'?",
-        options: ["S", "T", "R"],
+        question: `¿Con qué letra empieza la palabra 'Sol'? <trans en="(What letter does the word 'Sun' begin with?)" ar="(ما هو الحرف الذي تبدأ به كلمة شمس؟)" uk="(З якої літери починається слово «Сонечко»?)" fr="(Par quelle lettre commence le mot « Soleil » ?)"/>`,
+        options: ["S <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "T <trans en=\"(T)\" ar=\"(ت)\" uk=\"(Т)\" fr=\"(T)\"/>", "R <trans en=\"(R)\" ar=\"(ر)\" uk=\"(Р)\" fr=\"(R)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "¿Con qué letra empieza 'Gato'?",
-        options: ["C","G","J"],
+        question: `¿Con qué letra empieza 'Gato'? <trans en="(What letter does 'Gato' begin with?)" ar="(ما هو الحرف الذي يبدأ به "جاتو"؟)" uk="(З якої літери починається "Gato"?)" fr="(Par quelle lettre commence « Gato » ?)"/>`,
+        options: ["C <trans en=\"(C)\" ar=\"(ج)\" uk=\"(C)\" fr=\"(C)\"/>", "G <trans en=\"(G)\" ar=\"(ز)\" uk=\"(G)\" fr=\"(G)\"/>", "J <trans en=\"(J)\" ar=\"(ج)\" uk=\"(Дж)\" fr=\"(J)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex5",
-        question: "¿Qué letra va después de la 'M'?",
-        options: ["N","L","O"],
+        question: `¿Qué letra va después de la 'M'? <trans en="(What letter comes after 'M'?)" ar="(ما هو الحرف الذي يأتي بعد "م"؟)" uk="(Яка буква стоїть після «М»?)" fr="(Quelle lettre vient après 'M' ?)"/>`,
+        options: ["N <trans en=\"(N)\" ar=\"(ن)\" uk=\"(Н)\" fr=\"(N)\"/>", "L <trans en=\"(L)\" ar=\"(ل)\" uk=\"(Л)\" fr=\"(L)\"/>", "O <trans en=\"(Or)\" ar=\"(أو)\" uk=\"(Або)\" fr=\"(Ou)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿Cuál es una vocal?",
-        options: ["P","E","S"],
+        question: `¿Cuál es una vocal? <trans en="(What is a vowel?)" ar="(ما هو حرف العلة؟)" uk="(Що таке голосний звук?)" fr="(Qu'est-ce qu'une voyelle ?)"/>`,
+        options: ["P <trans en=\"(P)\" ar=\"(ص)\" uk=\"(П)\" fr=\"(P)\"/>", "E <trans en=\"(E)\" ar=\"(ه)\" uk=\"(E)\" fr=\"(E)\"/>", "S <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex7",
-        question: "¿Con qué letra termina 'Reloj'?",
-        options: ["J","G","X"],
+        question: `¿Con qué letra termina 'Reloj'? <trans en="(What letter does 'Clock' end with?)" ar="(ما هو الحرف الذي تنتهي به "الساعة"؟)" uk="(На яку букву закінчується «Годинник»?)" fr="(Par quelle lettre se termine « Clock » ?)"/>`,
+        options: ["J <trans en=\"(J)\" ar=\"(ج)\" uk=\"(Дж)\" fr=\"(J)\"/>", "G <trans en=\"(G)\" ar=\"(ز)\" uk=\"(G)\" fr=\"(G)\"/>", "X <trans en=\"(X)\" ar=\"(X)\" uk=\"(X)\" fr=\"(X)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "¿Cuál no es una vocal?",
-        options: ["A","I","R"],
+        question: `¿Cuál no es una vocal? <trans en="(Which is not a vowel?)" ar="(ما هو ليس حرف علة؟)" uk="(Що не є голосним?)" fr="(Laquelle n'est pas une voyelle ?)"/>`,
+        options: ["A <trans en=\"(A)\" ar=\"(أ)\" uk=\"(А)\" fr=\"(Un)\"/>", "I <trans en=\"(I)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(Je)\"/>", "R <trans en=\"(R)\" ar=\"(ر)\" uk=\"(Р)\" fr=\"(R)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex9",
-        question: "¿Qué letra va antes de la 'C'?",
-        options: ["B","D","A"],
+        question: `¿Qué letra va antes de la 'C'? <trans en="(What letter comes before 'C'?)" ar="(ما هو الحرف الذي يأتي قبل "C"؟)" uk="(Яка буква стоїть перед «С»?)" fr="(Quelle lettre précède le « C » ?)"/>`,
+        options: ["B <trans en=\"(B)\" ar=\"(ب)\" uk=\"(Б)\" fr=\"(B)\"/>", "D <trans en=\"(D)\" ar=\"(د)\" uk=\"(D)\" fr=\"(D)\"/>", "A <trans en=\"(A)\" ar=\"(أ)\" uk=\"(А)\" fr=\"(Un)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Con qué letra empieza 'Zapato'?",
-        options: ["S","Z","C"],
+        question: `¿Con qué letra empieza 'Zapato'? <trans en="(What letter does 'Zapato' begin with?)" ar="(ما هو الحرف الذي يبدأ به "زاباتو"؟)" uk="(З якої літери починається "Zapato"?)" fr="(Par quelle lettre commence « Zapato » ?)"/>`,
+        options: ["S <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "Z <trans en=\"(Z)\" ar=\"(ز)\" uk=\"(З)\" fr=\"(Z)\"/>", "C <trans en=\"(C)\" ar=\"(ج)\" uk=\"(C)\" fr=\"(C)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex11",
-        question: "¿Qué letra suena fuerte en 'Perro'?",
-        options: ["P","RR","O"],
+        question: `¿Qué letra suena fuerte en 'Perro'? <trans en="(What lyrics sound strong in 'Perro'?)" ar="(ما هي الكلمات التي تبدو قوية في "Perro"؟)" uk="(Який текст звучить сильно в "Perro"?)" fr="(Quelles paroles semblent fortes dans « Perro » ?)"/>`,
+        options: ["P <trans en=\"(P)\" ar=\"(ص)\" uk=\"(П)\" fr=\"(P)\"/>", "RR <trans en=\"(RR)\" ar=\"(ر.ر)\" uk=\"(RR)\" fr=\"(RR)\"/>", "O <trans en=\"(Or)\" ar=\"(أو)\" uk=\"(Або)\" fr=\"(Ou)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex12",
-        question: "¿Qué letra falta en '_asa' (House)?",
-        options: ["K","S","C"],
+        question: `¿Qué letra falta en '_asa' (House)? <trans en="(What letter is missing in '_asa' (House)?)" ar="(ما هو الحرف المفقود في '_asa' (البيت)؟)" uk="(Якої літери не вистачає в '_asa' (Будинок)?)" fr="(Quelle lettre manque dans '_asa' (Maison) ?)"/>`,
+        options: ["K <trans en=\"(K)\" ar=\"(ك)\" uk=\"(К)\" fr=\"(K)\"/>", "S <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "C <trans en=\"(C)\" ar=\"(ج)\" uk=\"(C)\" fr=\"(C)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex13",
-        question: "¿Cómo se escribe 'Water' en español?",
-        options: ["Agua","Ajua","Awa"],
+        question: `¿Cómo se escribe 'Water' en español? <trans en="(How do you write 'Water' in Spanish?)" ar="(كيف تكتب "الماء" بالإسبانية؟)" uk="(Як писати «Вода» іспанською?)" fr="(Comment écrit-on « Eau » en espagnol ?)"/>`,
+        options: ["Agua <trans en=\"(Water)\" ar=\"(ماء)\" uk=\"(Вода)\" fr=\"(Eau)\"/>", "Ajua <trans en=\"(Ajua)\" ar=\"(أجوا)\" uk=\"(Аджуа)\" fr=\"(Ajua)\"/>", "Awa <trans en=\"(Awa)\" ar=\"(عوا)\" uk=\"(Ава)\" fr=\"(Awa)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Con qué letra empieza 'Hola'?",
-        options: ["O","H","J"],
+        question: `¿Con qué letra empieza 'Hola'? <trans en="(What letter does 'Hello' begin with?)" ar="(ما هو الحرف الذي تبدأ به كلمة "Hello"؟)" uk="(З якої літери починається «Привіт»?)" fr="(Par quelle lettre commence « Bonjour » ?)"/>`,
+        options: ["O <trans en=\"(Or)\" ar=\"(أو)\" uk=\"(Або)\" fr=\"(Ou)\"/>", "H <trans en=\"(H)\" ar=\"(ح)\" uk=\"(H)\" fr=\"(H)\"/>", "J <trans en=\"(J)\" ar=\"(ج)\" uk=\"(Дж)\" fr=\"(J)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex15",
-        question: "¿Qué letra sigue a la 'T'?",
-        options: ["S","U","V"],
+        question: `¿Qué letra sigue a la 'T'? <trans en="(What letter follows 'T'?)" ar="(ما هو الحرف الذي يلي حرف "T"؟)" uk="(Яка буква стоїть після «Т»?)" fr="(Quelle lettre suit 'T' ?)"/>`,
+        options: ["S <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "U <trans en=\"(U)\" ar=\"(ش)\" uk=\"(U)\" fr=\"(U)\"/>", "V <trans en=\"(V)\" ar=\"(V)\" uk=\"(В)\" fr=\"(V)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex16",
-        question: "¿Cuál es la primera letra del abecedario?",
-        options: ["A","E","O"],
+        question: `¿Cuál es la primera letra del abecedario? <trans en="(What is the first letter of the alphabet?)" ar="(ما هو الحرف الأول من الأبجدية؟)" uk="(Яка перша буква алфавіту?)" fr="(Quelle est la première lettre de l'alphabet ?)"/>`,
+        options: ["A <trans en=\"(A)\" ar=\"(أ)\" uk=\"(А)\" fr=\"(Un)\"/>", "E <trans en=\"(E)\" ar=\"(ه)\" uk=\"(E)\" fr=\"(E)\"/>", "O <trans en=\"(Or)\" ar=\"(أو)\" uk=\"(Або)\" fr=\"(Ou)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "¿Cuál es la última letra del abecedario?",
-        options: ["Y","X","Z"],
+        question: `¿Cuál es la última letra del abecedario? <trans en="(What is the last letter of the alphabet?)" ar="(ما هو الحرف الأخير من الأبجدية؟)" uk="(Яка остання буква алфавіту?)" fr="(Quelle est la dernière lettre de l'alphabet ?)"/>`,
+        options: ["Y <trans en=\"(And)\" ar=\"(و)\" uk=\"(І)\" fr=\"(Et)\"/>", "X <trans en=\"(X)\" ar=\"(X)\" uk=\"(X)\" fr=\"(X)\"/>", "Z <trans en=\"(Z)\" ar=\"(ز)\" uk=\"(З)\" fr=\"(Z)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex18",
-        question: "¿Con qué letra empieza 'Queso'?",
-        options: ["C","K","Q"],
+        question: `¿Con qué letra empieza 'Queso'? <trans en="(What letter does 'Queso' begin with?)" ar="(ما هو الحرف الذي يبدأ به "Queso"؟)" uk="(З якої літери починається «Queso»?)" fr="(Par quelle lettre commence « Queso » ?)"/>`,
+        options: ["C <trans en=\"(C)\" ar=\"(ج)\" uk=\"(C)\" fr=\"(C)\"/>", "K <trans en=\"(K)\" ar=\"(ك)\" uk=\"(К)\" fr=\"(K)\"/>", "Q <trans en=\"(Q)\" ar=\"(س)\" uk=\"(Q)\" fr=\"(Q)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex19",
-        question: "¿Qué letra es la 'H' en 'Hola'?",
-        options: ["Fuerte","Muda","Suave"],
+        question: `¿Qué letra es la 'H' en 'Hola'? <trans en="(What letter is the 'H' in 'Hello'?)" ar="(ما هو الحرف "H" في "Hello"؟)" uk="(Яка літера "H" у "Hello"?)" fr="(Quelle lettre est le « H » dans « Bonjour » ?)"/>`,
+        options: ["Fuerte <trans en=\"(Strong)\" ar=\"(قوي)\" uk=\"(Сильний)\" fr=\"(Fort)\"/>", "Muda <trans en=\"(Moult)\" ar=\"(مولت)\" uk=\"(Линька)\" fr=\"(Mue)\"/>", "Suave <trans en=\"(Soft)\" ar=\"(ناعمة)\" uk=\"(М'який)\" fr=\"(Doux)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex20",
-        question: "¿Cómo se llama la letra 'Ñ'?",
-        options: ["Ene","Eñe","Eme"],
+        question: `¿Cómo se llama la letra 'Ñ'? <trans en="(What is the name of the letter 'Ñ'?)" ar="(ما إسم حرف " ن " ؟)" uk="(Як називається буква «Ñ»?)" fr="(Quel est le nom de la lettre 'Ñ' ?)"/>`,
+        options: ["Ene <trans en=\"(Jan)\" ar=\"(يناير)\" uk=\"(Січ)\" fr=\"(Janvier)\"/>", "Eñe <trans en=\"(Eñe)\" ar=\"(إيني)\" uk=\"(Eñe)\" fr=\"(Oui)\"/>", "Eme <trans en=\"(Eme)\" ar=\"(ايمي)\" uk=\"(Еме)\" fr=\"(Eme)\"/>"],
         correctAnswer: 1
       }
+    
     ]
   },
   {
@@ -555,123 +556,125 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
       {
         id: "ex1",
         question: `¿Cómo se dice <trans en="'Hand'" ar="'يد'" uk="'Рука'" fr="'Main'"/> en Español?`,
-        options: ["La pierna", "La mano", "El pie"],
+        options: ["La pierna <trans en=\"(The leg)\" ar=\"(الساق)\" uk=\"(Нога)\" fr=\"(La jambe)\"/>", "La mano <trans en=\"(The hand)\" ar=\"(اليد)\" uk=\"(Руку)\" fr=\"(La main)\"/>", "El pie <trans en=\"(The foot)\" ar=\"(القدم)\" uk=\"(Стопа)\" fr=\"(Le pied)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Usas estos para ver:",
-        options: ["Los ojos", "El brazo", "La cabeza"],
+        question: `Usas estos para ver: <trans en="(You use these to see:)" ar="(يمكنك استخدام هذه لرؤية:)" uk="(Ви використовуєте їх, щоб побачити:)" fr="(Vous les utilisez pour voir :)"/>`,
+        options: ["Los ojos <trans en=\"(The eyes)\" ar=\"(العيون)\" uk=\"(Очі)\" fr=\"(Les yeux)\"/>", "El brazo <trans en=\"(The arm)\" ar=\"(الذراع)\" uk=\"(Рука)\" fr=\"(Le bras)\"/>", "La cabeza <trans en=\"(The head)\" ar=\"(الرأس)\" uk=\"(Голова)\" fr=\"(La tête)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "¿Qué usamos para ver?",
-        options: ["Las orejas","Los ojos","La nariz"],
+        question: `¿Qué usamos para ver? <trans en="(What do we use to see?)" ar="(ماذا نستخدم لنرى؟)" uk="(Що ми використовуємо, щоб побачити?)" fr="(Qu'est-ce qu'on utilise pour voir ?)"/>`,
+        options: ["Las orejas <trans en=\"(The ears)\" ar=\"(الأذنين)\" uk=\"(Вуха)\" fr=\"(Les oreilles)\"/>", "Los ojos <trans en=\"(The eyes)\" ar=\"(العيون)\" uk=\"(Очі)\" fr=\"(Les yeux)\"/>", "La nariz <trans en=\"(The nose)\" ar=\"(الأنف)\" uk=\"(Ніс)\" fr=\"(Le nez)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex4",
-        question: "¿Qué usamos para caminar?",
-        options: ["Las piernas","Los brazos","Las manos"],
+        question: `¿Qué usamos para caminar? <trans en="(What do we use to walk?)" ar="(ماذا نستخدم للمشي؟)" uk="(Чим ми гуляємо?)" fr="(Qu'utilise-t-on pour marcher ?)"/>`,
+        options: ["Las piernas <trans en=\"(The legs)\" ar=\"(الساقين)\" uk=\"(Ноги)\" fr=\"(Les jambes)\"/>", "Los brazos <trans en=\"(The arms)\" ar=\"(الأسلحة)\" uk=\"(Руки)\" fr=\"(Les bras)\"/>", "Las manos <trans en=\"(The hands)\" ar=\"(الأيدي)\" uk=\"(Руки)\" fr=\"(Les mains)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "¿Dónde está el pelo?",
-        options: ["En el pie","En la cabeza","En el brazo"],
+        question: `¿Dónde está el pelo? <trans en="(Where is the hair?)" ar="(أين الشعر؟)" uk="(Де волосся?)" fr="(Où sont les cheveux ?)"/>`,
+        options: ["En el pie <trans en=\"(On the foot)\" ar=\"(على القدم)\" uk=\"(На нозі)\" fr=\"(Au pied)\"/>", "En la cabeza <trans en=\"(In the head)\" ar=\"(في الرأس)\" uk=\"(В голові)\" fr=\"(Dans la tête)\"/>", "En el brazo <trans en=\"(In the arm)\" ar=\"(في الذراع)\" uk=\"(В руці)\" fr=\"(Dans le bras)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex6",
-        question: "¿Qué usamos para escuchar?",
-        options: ["Los ojos","La boca","Las orejas"],
+        question: `¿Qué usamos para escuchar? <trans en="(What do we use to listen?)" ar="(ماذا نستخدم للاستماع؟)" uk="(Що ми використовуємо, щоб слухати?)" fr="(Qu'utilise-t-on pour écouter ?)"/>`,
+        options: ["Los ojos <trans en=\"(The eyes)\" ar=\"(العيون)\" uk=\"(Очі)\" fr=\"(Les yeux)\"/>", "La boca <trans en=\"(The mouth)\" ar=\"(الفم)\" uk=\"(Рот)\" fr=\"(La bouche)\"/>", "Las orejas <trans en=\"(The ears)\" ar=\"(الأذنين)\" uk=\"(Вуха)\" fr=\"(Les oreilles)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex7",
-        question: "¿Cuántos dedos hay en una mano?",
-        options: ["Cinco","Seis","Cuatro"],
+        question: `¿Cuántos dedos hay en una mano? <trans en="(How many fingers are there on a hand?)" ar="(كم عدد الأصابع الموجودة في اليد؟)" uk="(Скільки пальців на руці?)" fr="(Combien y a-t-il de doigts dans une main ?)"/>`,
+        options: ["Cinco <trans en=\"(Five)\" ar=\"(خمسة)\" uk=\"(П'ять)\" fr=\"(Cinq)\"/>", "Seis <trans en=\"(Six)\" ar=\"(ستة)\" uk=\"(Шість)\" fr=\"(Six)\"/>", "Cuatro <trans en=\"(Four)\" ar=\"(أربعة)\" uk=\"(Чотири)\" fr=\"(Quatre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "¿Qué parte conecta la cabeza con el cuerpo?",
-        options: ["El cuello","La espalda","El pecho"],
+        question: `¿Qué parte conecta la cabeza con el cuerpo? <trans en="(What part connects the head to the body?)" ar="(ما هو الجزء الذي يربط الرأس بالجسم؟)" uk="(Яка частина з’єднує голову з тулубом?)" fr="(Quelle partie relie la tête au corps ?)"/>`,
+        options: ["El cuello <trans en=\"(The neck)\" ar=\"(الرقبة)\" uk=\"(Шия)\" fr=\"(Le cou)\"/>", "La espalda <trans en=\"(The back)\" ar=\"(الظهر)\" uk=\"(Спина)\" fr=\"(Le dos)\"/>", "El pecho <trans en=\"(The chest)\" ar=\"(الصدر)\" uk=\"(Скриня)\" fr=\"(La poitrine)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "El plural de 'El pie' es...",
-        options: ["Los pies","Los pie","Las pies"],
+        question: `El plural de 'El pie' es... <trans en="(The plural of 'The foot' is...)" ar="(جمع "القدم" هو...)" uk="(Множина «стопи» є...)" fr="(Le pluriel de « Le pied » est...)"/>`,
+        options: ["Los pies <trans en=\"(The feet)\" ar=\"(القدمين)\" uk=\"(Ноги)\" fr=\"(Les pieds)\"/>", "Los pie <trans en=\"(The feet)\" ar=\"(القدمين)\" uk=\"(Ноги)\" fr=\"(Les pieds)\"/>", "Las pies <trans en=\"(The feet)\" ar=\"(القدمين)\" uk=\"(Ноги)\" fr=\"(Les pieds)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Qué está en la cara?",
-        options: ["El codo","La nariz","La rodilla"],
+        question: `¿Qué está en la cara? <trans en="(What is on the face?)" ar="(ماذا يوجد على الوجه؟)" uk="(Що на обличчі?)" fr="(Qu'y a-t-il sur le visage ?)"/>`,
+        options: ["El codo <trans en=\"(The elbow)\" ar=\"(الكوع)\" uk=\"(Лікоть)\" fr=\"(Le coude)\"/>", "La nariz <trans en=\"(The nose)\" ar=\"(الأنف)\" uk=\"(Ніс)\" fr=\"(Le nez)\"/>", "La rodilla <trans en=\"(The knee)\" ar=\"(الركبة)\" uk=\"(Коліно)\" fr=\"(Le genou)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex11",
-        question: "¿Con qué saboreamos la comida?",
-        options: ["Con la lengua","Con los dientes","Con el cuello"],
+        question: `¿Con qué saboreamos la comida? <trans en="(What do we taste food with?)" ar="(بماذا نتذوق الطعام؟)" uk="(Чим ми смакуємо їжу?)" fr="(Avec quoi goûte-t-on les aliments ?)"/>`,
+        options: ["Con la lengua <trans en=\"(With the tongue)\" ar=\"(مع اللسان)\" uk=\"(З язиком)\" fr=\"(Avec la langue)\"/>", "Con los dientes <trans en=\"(With teeth)\" ar=\"(مع الأسنان)\" uk=\"(З зубами)\" fr=\"(Avec des dents)\"/>", "Con el cuello <trans en=\"(With the neck)\" ar=\"(مع الرقبة)\" uk=\"(З шиєю)\" fr=\"(Avec le cou)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Tenemos dos...",
-        options: ["Narices","Cabezas","Manos"],
+        question: `Tenemos dos... <trans en="(We have two...)" ar="(لدينا اثنان...)" uk="(У нас два...)" fr="(Nous en avons deux...)"/>`,
+        options: ["Narices <trans en=\"(Nose)\" ar=\"(أنف)\" uk=\"(Ніс)\" fr=\"(Nez)\"/>", "Cabezas <trans en=\"(Heads)\" ar=\"(رؤساء)\" uk=\"(Голови)\" fr=\"(Têtes)\"/>", "Manos <trans en=\"(Hands)\" ar=\"(الأيدي)\" uk=\"(Руки)\" fr=\"(Mains)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex13",
-        question: "¿Qué doblamos al caminar?",
-        options: ["La rodilla","El codo","El hombro"],
+        question: `¿Qué doblamos al caminar? <trans en="(What do we bend when we walk?)" ar="(ماذا نثني عندما نسير؟)" uk="(Що ми згинаємо, коли йдемо?)" fr="(Que plie-t-on quand on marche ?)"/>`,
+        options: ["La rodilla <trans en=\"(The knee)\" ar=\"(الركبة)\" uk=\"(Коліно)\" fr=\"(Le genou)\"/>", "El codo <trans en=\"(The elbow)\" ar=\"(الكوع)\" uk=\"(Лікоть)\" fr=\"(Le coude)\"/>", "El hombro <trans en=\"(The shoulder)\" ar=\"(الكتف)\" uk=\"(Плече)\" fr=\"(L'épaule)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Qué usamos para comer?",
-        options: ["La boca","La oreja","El ojo"],
+        question: `¿Qué usamos para comer? <trans en="(What do we use to eat?)" ar="(ماذا نستخدم للأكل؟)" uk="(Що ми використовуємо для їжі?)" fr="(Qu'est-ce qu'on utilise pour manger ?)"/>`,
+        options: ["La boca <trans en=\"(The mouth)\" ar=\"(الفم)\" uk=\"(Рот)\" fr=\"(La bouche)\"/>", "La oreja <trans en=\"(The ear)\" ar=\"(الأذن)\" uk=\"(Вухо)\" fr=\"(L'oreille)\"/>", "El ojo <trans en=\"(The eye)\" ar=\"(العين)\" uk=\"(Око)\" fr=\"(L'oeil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "¿Dónde ponemos los zapatos?",
-        options: ["En las manos","En los pies","En la cabeza"],
+        question: `¿Dónde ponemos los zapatos? <trans en="(Where do we put the shoes?)" ar="(أين نضع الأحذية؟)" uk="(Куди ми покладемо взуття?)" fr="(Où met-on les chaussures ?)"/>`,
+        options: ["En las manos <trans en=\"(In the hands)\" ar=\"(في اليدين)\" uk=\"(В руках)\" fr=\"(Dans les mains)\"/>", "En los pies <trans en=\"(On the feet)\" ar=\"(على القدمين)\" uk=\"(На ногах)\" fr=\"(Aux pieds)\"/>", "En la cabeza <trans en=\"(In the head)\" ar=\"(في الرأس)\" uk=\"(В голові)\" fr=\"(Dans la tête)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex16",
-        question: "El corazón está en...",
-        options: ["El pecho","La pierna","La cara"],
+        question: `El corazón está en... <trans en="(The heart is in...)" ar="(القلب فيه ...)" uk="(Серце в...)" fr="(Le cœur est dans...)"/>`,
+        options: ["El pecho <trans en=\"(The chest)\" ar=\"(الصدر)\" uk=\"(Скриня)\" fr=\"(La poitrine)\"/>", "La pierna <trans en=\"(The leg)\" ar=\"(الساق)\" uk=\"(Нога)\" fr=\"(La jambe)\"/>", "La cara <trans en=\"(The face)\" ar=\"(الوجه)\" uk=\"(Обличчя)\" fr=\"(Le visage)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Después de la mano viene el...",
-        options: ["Pie","Brazo","Cuello"],
+        question: `Después de la mano viene el... <trans en="(After the hand comes the...)" ar="(وبعد أن تأتي اليد...)" uk="(Після руки йде...)" fr="(Après la main vient le...)"/>`,
+        options: ["Pie <trans en=\"(Foot)\" ar=\"(قدم)\" uk=\"(Стопа)\" fr=\"(Pied)\"/>", "Brazo <trans en=\"(Arm)\" ar=\"(ذراع)\" uk=\"(Рука)\" fr=\"(Bras)\"/>", "Cuello <trans en=\"(Neck)\" ar=\"(رقبة)\" uk=\"(Шия)\" fr=\"(Cou)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex18",
-        question: "¿Qué nos duele si pensamos mucho?",
-        options: ["La cabeza","El pie","La mano"],
+        question: `¿Qué nos duele si pensamos mucho? <trans en="(What hurts us if we think a lot?)" ar="(ماذا يضرنا لو فكرنا كثيراً؟)" uk="(Що нам шкодить, якщо ми багато думаємо?)" fr="(Qu'est-ce qui nous fait mal si nous réfléchissons beaucoup ?)"/>`,
+        options: ["La cabeza <trans en=\"(The head)\" ar=\"(الرأس)\" uk=\"(Голова)\" fr=\"(La tête)\"/>", "El pie <trans en=\"(The foot)\" ar=\"(القدم)\" uk=\"(Стопа)\" fr=\"(Le pied)\"/>", "La mano <trans en=\"(The hand)\" ar=\"(اليد)\" uk=\"(Руку)\" fr=\"(La main)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Qué usamos para escribir?",
-        options: ["El pie","La mano","La oreja"],
+        question: `¿Qué usamos para escribir? <trans en="(What do we use to write?)" ar="(ماذا نستخدم في الكتابة؟)" uk="(Що ми використовуємо для написання?)" fr="(Qu'utilise-t-on pour écrire ?)"/>`,
+        options: ["El pie <trans en=\"(The foot)\" ar=\"(القدم)\" uk=\"(Стопа)\" fr=\"(Le pied)\"/>", "La mano <trans en=\"(The hand)\" ar=\"(اليد)\" uk=\"(Руку)\" fr=\"(La main)\"/>", "La oreja <trans en=\"(The ear)\" ar=\"(الأذن)\" uk=\"(Вухо)\" fr=\"(L'oreille)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex20",
-        question: "¿Qué usamos para ver? (Extra)",
-        options: ["Las orejas","Los ojos","La nariz"],
+        question: `¿Qué usamos para ver? (Extra) <trans en="(What do we use to see? )" ar="(ماذا نستخدم لنرى؟ (إضافي))" uk="(Що ми використовуємо, щоб побачити? (Додатково))" fr="(Qu'est-ce qu'on utilise pour voir ? (Supplémentaire))"/>`,
+        options: ["Las orejas <trans en=\"(The ears)\" ar=\"(الأذنين)\" uk=\"(Вуха)\" fr=\"(Les oreilles)\"/>", "Los ojos <trans en=\"(The eyes)\" ar=\"(العيون)\" uk=\"(Очі)\" fr=\"(Les yeux)\"/>", "La nariz <trans en=\"(The nose)\" ar=\"(الأنف)\" uk=\"(Ніс)\" fr=\"(Le nez)\"/>"],
         correctAnswer: 1
       }
+    
+    
     ]
   },
   {
@@ -1022,124 +1025,126 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     exercises: [
       {
         id: "ex1",
-        question: "El cielo es...",
-        options: ["Rojo", "Azul", "Amarillo"],
+        question: `El cielo es... <trans en="(Heaven is...)" ar="(الجنة...)" uk="(Небо - це...)" fr="(Le paradis est...)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Una manzana normalmente es...",
-        options: ["Verde o Roja", "Azul o Negra", "Naranja"],
+        question: `Una manzana normalmente es... <trans en="(An apple is usually...)" ar="(التفاحة عادة...)" uk="(Яблуко зазвичай...)" fr="(Une pomme est généralement...)"/>`,
+        options: ["Verde o Roja <trans en=\"(Green or Red)\" ar=\"(أخضر أو أحمر)\" uk=\"(Зелений або Червоний)\" fr=\"(Vert ou Rouge)\"/>", "Azul o Negra <trans en=\"(Blue or Black)\" ar=\"(أزرق أو أسود)\" uk=\"(Синій або чорний)\" fr=\"(Bleu ou Noir)\"/>", "Naranja <trans en=\"(Orange)\" ar=\"(برتقالي)\" uk=\"(Апельсин)\" fr=\"(Orange)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "¿De qué color es la hierba?",
-        options: ["Rojo","Verde","Azul"],
+        question: `¿De qué color es la hierba? <trans en="(What color is the grass?)" ar="(ما هو لون العشب؟)" uk="(Якого кольору трава?)" fr="(De quelle couleur est l'herbe ?)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex4",
-        question: "¿De qué color es la nieve?",
-        options: ["Negro","Amarillo","Blanco"],
+        question: `¿De qué color es la nieve? <trans en="(What color is the snow?)" ar="(ما هو لون الثلج؟)" uk="(Якого кольору сніг?)" fr="(De quelle couleur est la neige ?)"/>`,
+        options: ["Negro <trans en=\"(Black)\" ar=\"(أسود)\" uk=\"(Чорний)\" fr=\"(Noir)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>", "Blanco <trans en=\"(White)\" ar=\"(أبيض)\" uk=\"(Білий)\" fr=\"(Blanc)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex5",
-        question: "¿De qué color es el carbón?",
-        options: ["Negro","Blanco","Gris"],
+        question: `¿De qué color es el carbón? <trans en="(What color is charcoal?)" ar="(ما هو لون الفحم؟)" uk="(Якого кольору вугілля?)" fr="(De quelle couleur est le charbon de bois ?)"/>`,
+        options: ["Negro <trans en=\"(Black)\" ar=\"(أسود)\" uk=\"(Чорний)\" fr=\"(Noir)\"/>", "Blanco <trans en=\"(White)\" ar=\"(أبيض)\" uk=\"(Білий)\" fr=\"(Blanc)\"/>", "Gris <trans en=\"(Gray)\" ar=\"(رمادي)\" uk=\"(Сірий)\" fr=\"(Gris)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿De qué color es un plátano?",
-        options: ["Rojo","Amarillo","Azul"],
+        question: `¿De qué color es un plátano? <trans en="(What color is a banana?)" ar="(ما هو لون الموز؟)" uk="(Якого кольору банан?)" fr="(De quelle couleur est une banane ?)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex7",
-        question: "¿De qué color es la leche?",
-        options: ["Blanca","Negra","Roja"],
+        question: `¿De qué color es la leche? <trans en="(What color is the milk?)" ar="(ما هو لون الحليب؟)" uk="(Якого кольору молоко?)" fr="(De quelle couleur est le lait ?)"/>`,
+        options: ["Blanca <trans en=\"(White)\" ar=\"(ابيض)\" uk=\"(Білий)\" fr=\"(Blanc)\"/>", "Negra <trans en=\"(Black)\" ar=\"(اسود)\" uk=\"(Чорний)\" fr=\"(Noir)\"/>", "Roja <trans en=\"(Red)\" ar=\"(أحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "El color del mar es generalmente...",
-        options: ["Azul","Verde","Rojo"],
+        question: `El color del mar es generalmente... <trans en="(The color of the sea is generally...)" ar="(لون البحر عموما...)" uk="(Колір моря зазвичай...)" fr="(La couleur de la mer est généralement...)"/>`,
+        options: ["Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Una rosa suele ser de color...",
-        options: ["Rojo","Negro","Azul"],
+        question: `Una rosa suele ser de color... <trans en="(A rose is usually colored...)" ar="(الوردة عادة تكون ملونة...)" uk="(Троянда зазвичай кольорова...)" fr="(Une rose est généralement colorée...)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Negro <trans en=\"(Black)\" ar=\"(أسود)\" uk=\"(Чорний)\" fr=\"(Noir)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Qué color resulta de mezclar blanco y negro?",
-        options: ["Marrón","Gris","Rosa"],
+        question: `¿Qué color resulta de mezclar blanco y negro? <trans en="(What color results from mixing black and white?)" ar="(ما اللون الناتج عن خلط الأبيض والأسود؟)" uk="(Який колір виходить у результаті змішування чорного та білого?)" fr="(Quelle couleur résulte du mélange du noir et du blanc ?)"/>`,
+        options: ["Marrón <trans en=\"(Brown)\" ar=\"(بني)\" uk=\"(Коричневий)\" fr=\"(Marron)\"/>", "Gris <trans en=\"(Gray)\" ar=\"(رمادي)\" uk=\"(Сірий)\" fr=\"(Gris)\"/>", "Rosa <trans en=\"(Pink)\" ar=\"(وردي)\" uk=\"(Рожевий)\" fr=\"(Rose)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex11",
-        question: "El chocolate es...",
-        options: ["Verde","Marrón","Blanco"],
+        question: `El chocolate es... <trans en="(Chocolate is...)" ar="(الشوكولاتة...)" uk="(Шоколад - це...)" fr="(Le chocolat est...)"/>`,
+        options: ["Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Marrón <trans en=\"(Brown)\" ar=\"(بني)\" uk=\"(Коричневий)\" fr=\"(Marron)\"/>", "Blanco <trans en=\"(White)\" ar=\"(أبيض)\" uk=\"(Білий)\" fr=\"(Blanc)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex12",
-        question: "¿De qué color es el cielo nocturno?",
-        options: ["Azul oscuro / Negro","Blanco","Amarillo"],
+        question: `¿De qué color es el cielo nocturno? <trans en="(What color is the night sky?)" ar="(ما هو لون السماء ليلا؟)" uk="(Якого кольору нічне небо?)" fr="(De quelle couleur est le ciel nocturne ?)"/>`,
+        options: ["Azul oscuro / Negro <trans en=\"(Dark blue/Black)\" ar=\"(أزرق داكن/أسود)\" uk=\"(Темно-синій/чорний)\" fr=\"(Bleu foncé/noir)\"/>", "Blanco <trans en=\"(White)\" ar=\"(أبيض)\" uk=\"(Білий)\" fr=\"(Blanc)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "¿Qué color significa 'Peligro' o 'Parar' en un semáforo?",
-        options: ["Verde","Amarillo","Rojo"],
+        question: `¿Qué color significa 'Peligro' o 'Parar' en un semáforo? <trans en="(What color means 'Danger' or 'Stop' at a traffic light?)" ar="(ما هو اللون الذي يعني "خطر" أو "توقف" عند إشارة المرور؟)" uk="(Який колір означає «Небезпека» або «Стоп» на світлофорі?)" fr="(Quelle couleur signifie « Danger » ou « Stop » à un feu tricolore ?)"/>`,
+        options: ["Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>", "Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex14",
-        question: "¿Qué color significa 'Avanzar' en un semáforo?",
-        options: ["Rojo","Verde","Azul"],
+        question: `¿Qué color significa 'Avanzar' en un semáforo? <trans en="(What color means 'Go' on a traffic light?)" ar="(ما هو اللون الذي يعني "انطلق" في إشارة المرور؟)" uk="(Який колір означає «Йди» на світлофорі?)" fr="(Quelle couleur signifie « Go » sur un feu de circulation ?)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex15",
-        question: "¿De qué color es una naranja?",
-        options: ["Naranja","Amarillo","Rojo"],
+        question: `¿De qué color es una naranja? <trans en="(What color is an orange?)" ar="(ما هو اللون البرتقالي؟)" uk="(Якого кольору апельсин?)" fr="(De quelle couleur est une orange ?)"/>`,
+        options: ["Naranja <trans en=\"(Orange)\" ar=\"(برتقالي)\" uk=\"(Апельсин)\" fr=\"(Orange)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>", "Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Un cerdo de juguete suele ser...",
-        options: ["Negro","Rosa","Verde"],
+        question: `Un cerdo de juguete suele ser... <trans en="(A toy pig is usually...)" ar="(لعبة الخنزير عادة ما تكون...)" uk="(Іграшкова свинка зазвичай...)" fr="(Un cochon jouet est généralement...)"/>`,
+        options: ["Negro <trans en=\"(Black)\" ar=\"(أسود)\" uk=\"(Чорний)\" fr=\"(Noir)\"/>", "Rosa <trans en=\"(Pink)\" ar=\"(وردي)\" uk=\"(Рожевий)\" fr=\"(Rose)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex17",
-        question: "¿De qué color es la sangre?",
-        options: ["Roja","Azul","Verde"],
+        question: `¿De qué color es la sangre? <trans en="(What color is the blood?)" ar="(ما هو لون الدم؟)" uk="(Якого кольору кров?)" fr="(De quelle couleur est le sang ?)"/>`,
+        options: ["Roja <trans en=\"(Red)\" ar=\"(أحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "¿De qué color es el sol?",
-        options: ["Verde","Morado","Amarillo"],
+        question: `¿De qué color es el sol? <trans en="(What color is the sun?)" ar="(ما هو لون الشمس؟)" uk="(Якого кольору сонечко?)" fr="(De quelle couleur est le soleil ?)"/>`,
+        options: ["Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Morado <trans en=\"(Purple)\" ar=\"(بنفسجي)\" uk=\"(Фіолетовий)\" fr=\"(Violet)\"/>", "Amarillo <trans en=\"(Yellow)\" ar=\"(أصفر)\" uk=\"(Жовтий)\" fr=\"(Jaune)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex19",
-        question: "El cielo despejado es...",
-        options: ["Rojo","Marrón","Azul"],
+        question: `El cielo despejado es... <trans en="(The clear sky is...)" ar="(السماء صافية...)" uk="(Чисте небо - це...)" fr="(Le ciel clair est...)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Marrón <trans en=\"(Brown)\" ar=\"(بني)\" uk=\"(Коричневий)\" fr=\"(Marron)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex20",
-        question: "¿De qué color es la hierba? (Extra)",
-        options: ["Rojo","Verde","Azul"],
+        question: `¿De qué color es la hierba? (Extra) <trans en="(What color is the grass? (Bonus))" ar="(ما هو لون العشب؟ (مكافأة))" uk="(Якого кольору трава? (Бонус))" fr="(De quelle couleur est l'herbe ? (Prime))"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Azul <trans en=\"(Blue)\" ar=\"(الأزرق)\" uk=\"(Блакитний)\" fr=\"(Bleu)\"/>"],
         correctAnswer: 1
       }
+    
+    
     ]
   },
   {
@@ -1501,124 +1506,125 @@ Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añ
     exercises: [
       {
         id: "ex1",
-        question: "___ mesa <trans en='(table)' ar='(طاولة)' uk='(стіл)' fr='(table)'/>",
-        options: ["El", "La", "Los", "Las"],
+        question: `___ mesa <trans en='(table)' ar='(طاولة)' uk='(стіл)' fr='(table)'/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Cuál es el plural de 'perro' <trans en='(dog)' ar='(كلب)' uk='(собака)' fr='(chien)'/>?",
-        options: ["perros", "perroes", "perro"],
+        question: `¿Cuál es el plural de 'perro' <trans en='(dog)' ar='(كلب)' uk='(собака)' fr='(chien)'/>?`,
+        options: ["perros <trans en=\"(dogs)\" ar=\"(كلاب)\" uk=\"(собаки)\" fr=\"(les chiens)\"/>", "perroes <trans en=\"(dogs)\" ar=\"(الكلاب)\" uk=\"(собаки)\" fr=\"(chiens)\"/>", "perro <trans en=\"(dog)\" ar=\"(كلب)\" uk=\"(собака)\" fr=\"(chien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "___ amigos <trans en='(friends)' ar='(أصدقاء)' uk='(друзі)' fr='(amis)'/>",
-        options: ["La", "El", "Las", "Los"],
+        question: `___ amigos <trans en='(friends)' ar='(أصدقاء)' uk='(друзі)' fr='(amis)'/>`,
+        options: ["La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 3
       },
       {
         id: "ex4",
-        question: "___ chico",
-        options: ["El","La","Los","Las"],
+        question: `___ chico <trans en="(___ boy)" ar="(___ ولد)" uk="(___ хлопчик)" fr="(___ garçon)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "___ chicas",
-        options: ["El","La","Los","Las"],
+        question: `___ chicas <trans en="(___ girls)" ar="(___ بنات)" uk="(___ дівчат)" fr="(___ les filles)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 3
       },
       {
         id: "ex6",
-        question: "___ gatos",
-        options: ["El","La","Los","Las"],
+        question: `___ gatos <trans en="(___ cats)" ar="(___ القطط)" uk="(___ котів)" fr="(___ chats)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex7",
-        question: "___ libro",
-        options: ["El","La","Los","Las"],
+        question: `___ libro <trans en="(___ book)" ar="(___ كتاب)" uk="(___ книга)" fr="(___ livre)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "___ mochilas",
-        options: ["El","La","Los","Las"],
+        question: `___ mochilas <trans en="(___ backpacks)" ar="(___ حقائب الظهر)" uk="(___ рюкзаків)" fr="(___ sacs à dos)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 3
       },
       {
         id: "ex9",
-        question: "___ profesora",
-        options: ["El","La","Los","Las"],
+        question: `___ profesora <trans en="(___ teacher)" ar="(___ معلم)" uk="(___ викладач)" fr="(___ professeur)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex10",
-        question: "___ perros",
-        options: ["El","La","Los","Las"],
+        question: `___ perros <trans en="(___ dogs)" ar="(___ كلاب)" uk="(___ собак)" fr="(___ chiens)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex11",
-        question: "___ agua (excepción)",
-        options: ["El","La","Los","Las"],
+        question: `___ agua (excepción) <trans en="(___ water (exception))" ar="(___ الماء (استثناء))" uk="(___ вода (виняток))" fr="(___ eau (exception))"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "___ manos",
-        options: ["El","La","Los","Las"],
+        question: `___ manos <trans en="(___ hands)" ar="(___ الأيدي)" uk="(___ рук)" fr="(___ mains)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 3
       },
       {
         id: "ex13",
-        question: "___ flor",
-        options: ["El","La","Los","Las"],
+        question: `___ flor <trans en="(___ flower)" ar="(___ زهرة)" uk="(___ квітка)" fr="(___ fleur)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex14",
-        question: "___ zapatos",
-        options: ["El","La","Los","Las"],
+        question: `___ zapatos <trans en="(___ shoes)" ar="(___ حذاء)" uk="(___ взуття)" fr="(___ chaussures)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex15",
-        question: "___ hombre",
-        options: ["El","La","Los","Las"],
+        question: `___ hombre <trans en="(___ man)" ar="(___ رجل)" uk="(___ людина)" fr="(___ mec)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "___ mujer",
-        options: ["El","La","Los","Las"],
+        question: `___ mujer <trans en="(___ woman)" ar="(___ امرأة)" uk="(___ жінка)" fr="(___ femme)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex17",
-        question: "___ día (excepción)",
-        options: ["El","La","Los","Las"],
+        question: `___ día (excepción) <trans en="(___ day (exception))" ar="(___ يوم (استثناء))" uk="(___ день (виняток))" fr="(___ jour (exception))"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "___ problemas (excepción)",
-        options: ["El","La","Los","Las"],
+        question: `___ problemas (excepción) <trans en="(___ problems (exception))" ar="(___ مشاكل (استثناء))" uk="(___ проблем (виняток))" fr="(___ problèmes (exception))"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex19",
-        question: "___ ciudades",
-        options: ["El","La","Los","Las"],
+        question: `___ ciudades <trans en="(___ cities)" ar="(___ المدن)" uk="(___ міст)" fr="(___ villes)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 3
       },
       {
         id: "ex20",
-        question: "___ universidad",
-        options: ["El","La","Los","Las"],
+        question: `___ universidad <trans en="(___ university)" ar="(___ الجامعة)" uk="(___ університет)" fr="(___ université)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Los <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "Las <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       }
+    
     ]
   },
   {
@@ -1978,124 +1984,125 @@ Para hablar de quién hace la acción, usamos los pronombres personales. ¡Apren
     exercises: [
       {
         id: "ex1",
-        question: "Cuando hablo de mí mismo <trans en='(When I talk about myself)' ar='(عندما أتحدث عن نفسي)' uk='(Коли я говорю про себе)' fr='(Quand je parle de moi-même)'/>, uso:",
-        options: ["Tú", "Yo", "Él"],
+        question: `Cuando hablo de mí mismo <trans en='(When I talk about myself)' ar='(عندما أتحدث عن نفسي)' uk='(Коли я говорю про себе)' fr='(Quand je parle de moi-même)'/>, uso:`,
+        options: ["Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>", "Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Ana y yo <trans en='(Ana and I)' ar='(آنا وأنا)' uk='(Ана і я)' fr='(Ana et moi)'/> somos...",
-        options: ["Ellos", "Vosotros", "Nosotros"],
+        question: `Ana y yo <trans en='(Ana and I)' ar='(آنا وأنا)' uk='(Ана і я)' fr='(Ana et moi)'/> somos...`,
+        options: ["Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Vosotros <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex3",
-        question: "Cuando hablo con mi amigo <trans en='(When I talk to my friend)' ar='(عندما أتحدث مع صديقي)' uk='(Коли я говорю зі своїм другом)' fr='(Quand je parle à mon ami)'/>, le digo:",
-        options: ["Nosotros", "Tú", "Él"],
+        question: `Cuando hablo con mi amigo <trans en='(When I talk to my friend)' ar='(عندما أتحدث مع صديقي)' uk='(Коли я говорю зі своїм другом)' fr='(Quand je parle à mon ami)'/>, le digo:`,
+        options: ["Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>", "Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex4",
-        question: "___ soy estudiante.",
-        options: ["Él","Tú","Yo"],
+        question: `___ soy estudiante. <trans en="(___ I am a student.)" ar="(___ أنا طالب.)" uk="(___ Я студент.)" fr="(___ Je suis étudiant.)"/>`,
+        options: ["Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>", "Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex5",
-        question: "___ es mi amigo Carlos.",
-        options: ["Ella","Él","Nosotros"],
+        question: `___ es mi amigo Carlos. <trans en="(___ is my friend Carlos.)" ar="(___ هو صديقي كارلوس.)" uk="(___ це мій друг Карлос.)" fr="(___ est mon ami Carlos.)"/>`,
+        options: ["Ella <trans en=\"(She)\" ar=\"(هي)\" uk=\"(Вона)\" fr=\"(Elle)\"/>", "Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex6",
-        question: "___ comemos paella.",
-        options: ["Ellos","Nosotros","Yo"],
+        question: `___ comemos paella. <trans en="(___ we eat paella.)" ar="(___ نحن نأكل الباييلا.)" uk="(___ ми їмо паелью.)" fr="(___ on mange de la paella.)"/>`,
+        options: ["Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex7",
-        question: "___ tienes un coche rojo.",
-        options: ["Tú","Él","Nosotros"],
+        question: `___ tienes un coche rojo. <trans en="(___ you have a red car.)" ar="(___ لديك سيارة حمراء.)" uk="(___ у вас червона машина.)" fr="(___ tu as une voiture rouge.)"/>`,
+        options: ["Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "___ son de Madrid.",
-        options: ["Ellos","Él","Nosotros"],
+        question: `___ son de Madrid. <trans en="(___ are from Madrid.)" ar="(___ من مدريد.)" uk="(___ з Мадрида.)" fr="(___ viennent de Madrid.)"/>`,
+        options: ["Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "___ (vosotros) sois hermanos.",
-        options: ["Vosotros","Nosotros","Ellos"],
+        question: `___ (vosotros) sois hermanos. <trans en="(___ (you) are brothers.)" ar="(___ (أنتم) إخوة.)" uk="(___ (ви) брати.)" fr="(___ (vous) êtes frères.)"/>`,
+        options: ["Vosotros <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>", "Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "___ es mi madre.",
-        options: ["Él","Ella","Yo"],
+        question: `___ es mi madre. <trans en="(___ is my mother.)" ar="(___ هي أمي.)" uk="(___ моя мама.)" fr="(___ est ma mère.)"/>`,
+        options: ["Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>", "Ella <trans en=\"(She)\" ar=\"(هي)\" uk=\"(Вона)\" fr=\"(Elle)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex11",
-        question: "Juan y yo somos estudiantes. ___ estudiamos español.",
-        options: ["Ellos","Nosotros","Vosotros"],
+        question: `Juan y yo somos estudiantes. ___ estudiamos español. <trans en="(Juan and I are students. ___ we study Spanish.)" ar="(أنا وخوان طلاب. ___ ندرس اللغة الإسبانية.)" uk="(Хуан і я студенти. ___ вивчаємо іспанську мову.)" fr="(Juan et moi sommes étudiants. ___ nous étudions l'espagnol.)"/>`,
+        options: ["Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>", "Vosotros <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex12",
-        question: "María y tú. ___ cantáis muy bien.",
-        options: ["Ellas","Vosotros","Nosotras"],
+        question: `María y tú. ___ cantáis muy bien. <trans en="(Maria and you. ___ you sing very well.)" ar="(ماريا وأنت. ___ أنت تغني بشكل جيد للغاية.)" uk="(Марія і ти. ___ ти дуже гарно співаєш.)" fr="(Maria et toi. ___ tu chantes très bien.)"/>`,
+        options: ["Ellas <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Vosotros <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Nosotras <trans en=\"(We)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex13",
-        question: "Luis y Pedro están allí. ___ son amigos.",
-        options: ["Ellos","Vosotros","Nosotros"],
+        question: `Luis y Pedro están allí. ___ son amigos. <trans en="(Luis and Pedro are there. ___ are friends.)" ar="(لويس وبيدرو هناك. ___ أصدقاء.)" uk="(Луїс і Педро там. ___ друзі.)" fr="(Luis et Pedro sont là. ___ sont amis.)"/>`,
+        options: ["Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Vosotros <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "___ tengo frío.",
-        options: ["Yo","Él","Tú"],
+        question: `___ tengo frío. <trans en="(___ I'm cold.)" ar="(___ أنا بارد.)" uk="(___ Мені холодно.)" fr="(___ J'ai froid.)"/>`,
+        options: ["Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>", "Él <trans en=\"(He)\" ar=\"(هو)\" uk=\"(Він)\" fr=\"(Il)\"/>", "Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "___ eres simpático.",
-        options: ["Tú","Nosotros","Yo"],
+        question: `___ eres simpático. <trans en="(___ you are nice.)" ar="(___ أنت لطيف.)" uk="(___ ти хороший.)" fr="(___ tu es gentil.)"/>`,
+        options: ["Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "___ estamos cansados.",
-        options: ["Vosotros","Ellos","Nosotros"],
+        question: `___ estamos cansados. <trans en="(___ we are tired.)" ar="(___ لقد تعبنا.)" uk="(___ ми втомилися.)" fr="(___ nous sommes fatigués.)"/>`,
+        options: ["Vosotros <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>", "Nosotros <trans en=\"(Us)\" ar=\"(نحن)\" uk=\"(Ми)\" fr=\"(Nous)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex17",
-        question: "___ habla italiano.",
-        options: ["Él / Ella","Yo","Tú"],
+        question: `___ habla italiano. <trans en="(___ speaks Italian.)" ar="(___ يتحدث الإيطالية.)" uk="(___ розмовляє італійською.)" fr="(___ parle italien.)"/>`,
+        options: ["Él / Ella <trans en=\"(He/She)\" ar=\"(هو / هي)\" uk=\"(Він/вона)\" fr=\"(Il/Elle)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>", "Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "___ vivo en Barcelona.",
-        options: ["Tú","Yo","Ellos"],
+        question: `___ vivo en Barcelona. <trans en="(___ I live in Barcelona.)" ar="(___ أعيش في برشلونة.)" uk="(___ Я живу в Барселоні.)" fr="(___ J'habite à Barcelone.)"/>`,
+        options: ["Tú <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Yo <trans en=\"(Me)\" ar=\"(انا)\" uk=\"(Я)\" fr=\"(Moi)\"/>", "Ellos <trans en=\"(They)\" ar=\"(هم)\" uk=\"(Вони)\" fr=\"(Ils)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex19",
-        question: "Paco, ___ eres muy alto.",
-        options: ["él","tú","yo"],
+        question: `Paco, ___ eres muy alto. <trans en="(Paco, ___ you are very tall.)" ar="(باكو، ___ أنت طويل جدًا.)" uk="(Пако, ___ ти дуже високий.)" fr="(Paco, ___ tu es très grand.)"/>`,
+        options: ["él <trans en=\"(he)\" ar=\"(هو)\" uk=\"(він)\" fr=\"(il)\"/>", "tú <trans en=\"(you)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu)\"/>", "yo <trans en=\"(me)\" ar=\"(انا)\" uk=\"(я)\" fr=\"(moi)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex20",
-        question: "Mis padres no están, ___ están trabajando.",
-        options: ["ellos","nosotros","vosotros"],
+        question: `Mis padres no están, ___ están trabajando. <trans en="(My parents are not here, ___ are working.)" ar="(والدي ليسا هنا، ___ يعملون.)" uk="(Батьків тут немає, ___ працюють.)" fr="(Mes parents ne sont pas là, ___ travaillent.)"/>`,
+        options: ["ellos <trans en=\"(them)\" ar=\"(لهم)\" uk=\"(їх)\" fr=\"(eux)\"/>", "nosotros <trans en=\"(us)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous)\"/>", "vosotros <trans en=\"(you)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -2462,124 +2469,125 @@ Se usa para posesión y para expresar la edad en español.
     exercises: [
       {
         id: "ex1",
-        question: "Completa: 'Yo _______ feliz hoy.'",
-        options: ["soy", "tengo", "estoy"],
+        question: `Completa: 'Yo _______ feliz hoy.' <trans en="(Complete: 'I _______ happy today.')" ar="(أكمل: "أنا _______ سعيد اليوم.")" uk="(Заповніть: «Сьогодні я _______ щасливий».)" fr="(Compléter : 'Je _______ heureux aujourd'hui.')"/>`,
+        options: ["soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>", "estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "Completa: 'Ella _______ de Senegal.'",
-        options: ["es", "tiene", "está"],
+        question: `Completa: 'Ella _______ de Senegal.' <trans en="(Complete: 'She _______ from Senegal.')" ar="(أكمل: "هي _______ من السنغال.")" uk="(Заповніть: «Вона _______ із Сенегалу».)" fr="(Compléter : "Elle _______ du Sénégal.")"/>`,
+        options: ["es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Completa: 'Nosotros _______ 20 años.'",
-        options: ["somos", "estamos", "tenemos"],
+        question: `Completa: 'Nosotros _______ 20 años.' <trans en="(Complete: 'We _______ 20 years.')" ar="(أكمل: 'نحن _______ 20 عامًا.')" uk="(Заповніть: «Нам _______ 20 років».)" fr="(Compléter : « Nous _______ 20 ans. »)"/>`,
+        options: ["somos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>", "estamos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>", "tenemos <trans en=\"(we have)\" ar=\"(لدينا)\" uk=\"(маємо)\" fr=\"(nous avons)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex4",
-        question: "Yo ___ español.",
-        options: ["soy","estoy","hablo"],
+        question: `Yo ___ español. <trans en="(I ___ Spanish.)" ar="(أنا ___ الإسبانية.)" uk="(Я ___ іспанська.)" fr="(Je ___ espagnol.)"/>`,
+        options: ["soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "hablo <trans en=\"(I speak)\" ar=\"(اتكلم)\" uk=\"(Я говорю)\" fr=\"(je parle)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex5",
-        question: "Tú ___ en casa.",
-        options: ["eres","estás","tienes"],
+        question: `Tú ___ en casa. <trans en="(You ___ at home.)" ar="(أنت ___ في المنزل.)" uk="(Ви ___ вдома.)" fr="(Vous ___ à la maison.)"/>`,
+        options: ["eres <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "estás <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "tienes <trans en=\"(you have)\" ar=\"(لديك)\" uk=\"(маєш)\" fr=\"(tu as)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex6",
-        question: "Él ___ 20 años.",
-        options: ["es","tiene","está"],
+        question: `Él ___ 20 años. <trans en="(He ___ 20 years old.)" ar="(هو ___ 20 سنة.)" uk="(Йому ___ 20 років.)" fr="(Il ___ 20 ans.)"/>`,
+        options: ["es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex7",
-        question: "Nosotros ___ estudiantes.",
-        options: ["somos","estamos","tenemos"],
+        question: `Nosotros ___ estudiantes. <trans en="(We ___ students.)" ar="(نحن ___ الطلاب.)" uk="(Ми ___ студенти.)" fr="(Nous ___ étudiants.)"/>`,
+        options: ["somos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>", "estamos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>", "tenemos <trans en=\"(we have)\" ar=\"(لدينا)\" uk=\"(маємо)\" fr=\"(nous avons)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Ellos ___ hambre.",
-        options: ["son","tienen","están"],
+        question: `Ellos ___ hambre. <trans en="(They ___ hungry.)" ar="(إنهم ___ جائعون.)" uk="(Вони ___ голодні.)" fr="(Ils ___ ont faim.)"/>`,
+        options: ["son <trans en=\"(are)\" ar=\"(هي)\" uk=\"(є)\" fr=\"(sont)\"/>", "tienen <trans en=\"(have)\" ar=\"(لديك)\" uk=\"(мати)\" fr=\"(avoir)\"/>", "están <trans en=\"(are)\" ar=\"(هي)\" uk=\"(є)\" fr=\"(sont)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex9",
-        question: "Yo ___ muy feliz hoy.",
-        options: ["estoy","soy","tengo"],
+        question: `Yo ___ muy feliz hoy. <trans en="(I ___ very happy today.)" ar="(أنا ___ سعيد جدًا اليوم.)" uk="(Я ___ сьогодні дуже щасливий.)" fr="(Je ___ très heureux aujourd'hui.)"/>`,
+        options: ["estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Ella ___ doctora.",
-        options: ["está","tiene","es"],
+        question: `Ella ___ doctora. <trans en="(She ___ doctor.)" ar="(هي ___ دكتورة.)" uk="(Вона ___ лікар.)" fr="(Elle ___ docteur.)"/>`,
+        options: ["está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex11",
-        question: "¿Dónde ___ el baño?",
-        options: ["es","está","tiene"],
+        question: `¿Dónde ___ el baño? <trans en="(Where ___ the bathroom?)" ar="(أين ___ الحمام؟)" uk="(Де ___ ванна?)" fr="(Où ___ la salle de bain ?)"/>`,
+        options: ["es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex12",
-        question: "Tú ___ un perro.",
-        options: ["eres","estás","tienes"],
+        question: `Tú ___ un perro. <trans en="(You ___ a dog.)" ar="(أنت ___ كلب.)" uk="(Ти ___ собака.)" fr="(Vous ___ un chien.)"/>`,
+        options: ["eres <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "estás <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "tienes <trans en=\"(you have)\" ar=\"(لديك)\" uk=\"(маєш)\" fr=\"(tu as)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex13",
-        question: "Nosotros ___ sed.",
-        options: ["somos","tenemos","estamos"],
+        question: `Nosotros ___ sed. <trans en="(We ___ thirsty.)" ar="(نحن ___ عطشان.)" uk="(Ми ___ хочемо спраги.)" fr="(Nous ___ avons soif.)"/>`,
+        options: ["somos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>", "tenemos <trans en=\"(we have)\" ar=\"(لدينا)\" uk=\"(маємо)\" fr=\"(nous avons)\"/>", "estamos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex14",
-        question: "La mesa ___ de madera.",
-        options: ["es","está","tiene"],
+        question: `La mesa ___ de madera. <trans en="(The ___ wooden table.)" ar="(الطاولة ___ الخشبية.)" uk="(Дерев'яний стіл ___.)" fr="(La table ___ en bois.)"/>`,
+        options: ["es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "La sopa ___ caliente.",
-        options: ["es","está","tiene"],
+        question: `La sopa ___ caliente. <trans en="(The soup ___ hot.)" ar="(الشوربة ___ ساخنة.)" uk="(Суп ___ гарячий.)" fr="(La soupe ___ chaude.)"/>`,
+        options: ["es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex16",
-        question: "Yo ___ dos hermanos.",
-        options: ["soy","tengo","estoy"],
+        question: `Yo ___ dos hermanos. <trans en="(I ___ two brothers.)" ar="(أنا ___ شقيقان.)" uk="(Я ___ два брати.)" fr="(Je ___ deux frères.)"/>`,
+        options: ["soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>", "estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex17",
-        question: "Vosotros ___ de México.",
-        options: ["sois","estáis","tenéis"],
+        question: `Vosotros ___ de México. <trans en="(You ___ from Mexico.)" ar="(أنت ___ من المكسيك.)" uk="(Ви ___ з Мексики.)" fr="(Vous ___ du Mexique.)"/>`,
+        options: ["sois <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "estáis <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "tenéis <trans en=\"(you have)\" ar=\"(لديك)\" uk=\"(маєш)\" fr=\"(tu as)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Hoy ___ lunes.",
-        options: ["es","está","tiene"],
+        question: `Hoy ___ lunes. <trans en="(Today ___ Monday.)" ar="(اليوم ___ الاثنين.)" uk="(Сьогодні ___ понеділок.)" fr="(Aujourd'hui ___ lundi.)"/>`,
+        options: ["es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Qué hora ___?",
-        options: ["está","tiene","es"],
+        question: `¿Qué hora ___? <trans en="(What time ___?)" ar="(في أي وقت ___؟)" uk="(О котрій годині ___?)" fr="(À quelle heure ___ ?)"/>`,
+        options: ["está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex20",
-        question: "Yo ___ enfermo.",
-        options: ["soy","estoy","tengo"],
+        question: `Yo ___ enfermo. <trans en="(I ___ sick.)" ar="(أنا ___ مريض.)" uk="(Я ___ хворий.)" fr="(Je ___ malade.)"/>`,
+        options: ["soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>"],
         correctAnswer: 1
       }
+    
     ]
   },
   {
@@ -2931,123 +2939,124 @@ Se usa para posesión y para expresar la edad en español.
       {
         id: "ex1",
         question: `Si hace frío <trans en="(cold)" ar="(بارد)" uk="(холодно)" fr="(froid)"/>, te pones:`,
-        options: ["Una camiseta corta", "Una chaqueta", "Un pantalón corto"],
+        options: ["Una camiseta corta <trans en=\"(A short T-shirt)\" ar=\"(تيشيرت قصير)\" uk=\"(Коротка футболка)\" fr=\"(Un tee-shirt court)\"/>", "Una chaqueta <trans en=\"(A jacket)\" ar=\"(سترة)\" uk=\"(Куртка)\" fr=\"(Une veste)\"/>", "Un pantalón corto <trans en=\"(A pair of shorts)\" ar=\"(زوج من السراويل)\" uk=\"(Шорти)\" fr=\"(Un short)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Me pongo la ___ en la cabeza.",
-        options: ["Gorra","Bufanda","Camiseta"],
+        question: `Me pongo la ___ en la cabeza. <trans en="(I put the ___ on my head.)" ar="(أضع ___ على رأسي.)" uk="(Я одягнув ___ на голову.)" fr="(J'ai mis le ___ sur ma tête.)"/>`,
+        options: ["Gorra <trans en=\"(Cap)\" ar=\"(كاب)\" uk=\"(Кап)\" fr=\"(Casquette)\"/>", "Bufanda <trans en=\"(Scarf)\" ar=\"(وشاح)\" uk=\"(Шарф)\" fr=\"(Écharpe)\"/>", "Camiseta <trans en=\"(T-shirt)\" ar=\"(تي شيرت)\" uk=\"(Футболка)\" fr=\"(T-shirt)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Llevo los ___ en las piernas.",
-        options: ["Pantalones","Guantes","Zapatos"],
+        question: `Llevo los ___ en las piernas. <trans en="(I wear the ___ on my legs.)" ar="(أرتدي ___ على ساقي.)" uk="(Я ношу ___ на ногах.)" fr="(Je porte le ___ sur mes jambes.)"/>`,
+        options: ["Pantalones <trans en=\"(Pants)\" ar=\"(السراويل)\" uk=\"(Штани)\" fr=\"(Pantalon)\"/>", "Guantes <trans en=\"(Gloves)\" ar=\"(قفازات)\" uk=\"(Рукавички)\" fr=\"(Gants)\"/>", "Zapatos <trans en=\"(Shoes)\" ar=\"(أحذية)\" uk=\"(Взуття)\" fr=\"(Chaussures)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "En invierno uso una ___ para el frío.",
-        options: ["Chaqueta","Camiseta","Falda"],
+        question: `En invierno uso una ___ para el frío. <trans en="(In winter I use a ___ for the cold.)" ar="(في الشتاء أستخدم ___ للبرد.)" uk="(Взимку я використовую ___ для холоду.)" fr="(En hiver j'utilise un ___ pour le froid.)"/>`,
+        options: ["Chaqueta <trans en=\"(Jacket)\" ar=\"(سترة)\" uk=\"(Куртка)\" fr=\"(Veste)\"/>", "Camiseta <trans en=\"(T-shirt)\" ar=\"(تي شيرت)\" uk=\"(Футболка)\" fr=\"(T-shirt)\"/>", "Falda <trans en=\"(Skirt)\" ar=\"(تنورة)\" uk=\"(Спідниця)\" fr=\"(Jupe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Me pongo los ___ en los pies.",
-        options: ["Sombreros","Zapatos","Cinturones"],
+        question: `Me pongo los ___ en los pies. <trans en="(I put the ___ on my feet.)" ar="(أضع ___ على قدمي.)" uk="(Я поставив ___ на ноги.)" fr="(J'ai mis le ___ sur mes pieds.)"/>`,
+        options: ["Sombreros <trans en=\"(Hats)\" ar=\"(القبعات)\" uk=\"(Головні убори)\" fr=\"(Chapeaux)\"/>", "Zapatos <trans en=\"(Shoes)\" ar=\"(أحذية)\" uk=\"(Взуття)\" fr=\"(Chaussures)\"/>", "Cinturones <trans en=\"(Belts)\" ar=\"(أحزمة)\" uk=\"(Ремені)\" fr=\"(Ceintures)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex6",
-        question: "Para nadar uso el ___.",
-        options: ["Bañador","Abrigo","Vestido"],
+        question: `Para nadar uso el ___. <trans en="(To swim I use the ___.)" ar="(للسباحة أستخدم ___.)" uk="(Для плавання я використовую ___.)" fr="(Pour nager j'utilise le ___.)"/>`,
+        options: ["Bañador <trans en=\"(Swimsuit)\" ar=\"(ملابس السباحة)\" uk=\"(Купальник)\" fr=\"(Maillot de bain)\"/>", "Abrigo <trans en=\"(Coat)\" ar=\"(معطف)\" uk=\"(Пальто)\" fr=\"(Manteau)\"/>", "Vestido <trans en=\"(Dress)\" ar=\"(فستان)\" uk=\"(Сукня)\" fr=\"(Robe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Para dormir me pongo el ___.",
-        options: ["Pijama","Vaquero","Jersey"],
+        question: `Para dormir me pongo el ___. <trans en="(To sleep I wear ___.)" ar="(للنوم أرتدي ___.)" uk="(Для сну я одягаю ___.)" fr="(Pour dormir, je porte ___.)"/>`,
+        options: ["Pijama <trans en=\"(Pajamas)\" ar=\"(بيجامة)\" uk=\"(Піжами)\" fr=\"(Pyjamas)\"/>", "Vaquero <trans en=\"(Cowboy)\" ar=\"(كاوبوي)\" uk=\"(Ковбой)\" fr=\"(Cowboy)\"/>", "Jersey <trans en=\"(Jersey)\" ar=\"(جيرسي)\" uk=\"(Джерсі)\" fr=\"(Jersey)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Llevo una ___ en el cuello porque hace frío.",
-        options: ["Bufanda","Corbata","Gorra"],
+        question: `Llevo una ___ en el cuello porque hace frío. <trans en="(I wear a ___ on my neck because it's cold.)" ar="(أرتدي ___ على رقبتي لأن الجو بارد.)" uk="(Я ношу ___ на шиї, бо холодно.)" fr="(Je porte un ___ au cou parce qu'il fait froid.)"/>`,
+        options: ["Bufanda <trans en=\"(Scarf)\" ar=\"(وشاح)\" uk=\"(Шарф)\" fr=\"(Écharpe)\"/>", "Corbata <trans en=\"(Tie)\" ar=\"(ربطة عنق)\" uk=\"(Краватка)\" fr=\"(Cravate)\"/>", "Gorra <trans en=\"(Cap)\" ar=\"(كاب)\" uk=\"(Кап)\" fr=\"(Casquette)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Uso ___ en las manos en invierno.",
-        options: ["Guantes","Calcetines","Zapatos"],
+        question: `Uso ___ en las manos en invierno. <trans en="(I use ___ on my hands in winter.)" ar="(أستخدم ___ على يدي في الشتاء.)" uk="(Я використовую ___ на руках взимку.)" fr="(J'utilise ___ sur mes mains en hiver.)"/>`,
+        options: ["Guantes <trans en=\"(Gloves)\" ar=\"(قفازات)\" uk=\"(Рукавички)\" fr=\"(Gants)\"/>", "Calcetines <trans en=\"(Socks)\" ar=\"(الجوارب)\" uk=\"(Шкарпетки)\" fr=\"(Chaussettes)\"/>", "Zapatos <trans en=\"(Shoes)\" ar=\"(أحذية)\" uk=\"(Взуття)\" fr=\"(Chaussures)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Llevo ___ debajo de los zapatos.",
-        options: ["Calcetines","Guantes","Bufandas"],
+        question: `Llevo ___ debajo de los zapatos. <trans en="(I wear ___ under my shoes.)" ar="(أرتدي ___ تحت حذائي.)" uk="(Я ношу ___ під взуттям.)" fr="(Je porte ___ sous mes chaussures.)"/>`,
+        options: ["Calcetines <trans en=\"(Socks)\" ar=\"(الجوارب)\" uk=\"(Шкарпетки)\" fr=\"(Chaussettes)\"/>", "Guantes <trans en=\"(Gloves)\" ar=\"(قفازات)\" uk=\"(Рукавички)\" fr=\"(Gants)\"/>", "Bufandas <trans en=\"(Scarves)\" ar=\"(الأوشحة)\" uk=\"(Шарфи)\" fr=\"(Foulards)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Las mujeres a veces llevan una ___ en lugar de pantalones.",
-        options: ["Falda","Camisa","Gorra"],
+        question: `Las mujeres a veces llevan una ___ en lugar de pantalones. <trans en="(Women sometimes wear a ___ instead of pants.)" ar="(ترتدي النساء أحيانًا ___ بدلاً من السراويل.)" uk="(Жінки іноді носять ___ замість штанів.)" fr="(Les femmes portent parfois un ___ au lieu d'un pantalon.)"/>`,
+        options: ["Falda <trans en=\"(Skirt)\" ar=\"(تنورة)\" uk=\"(Спідниця)\" fr=\"(Jupe)\"/>", "Camisa <trans en=\"(Shirt)\" ar=\"(قميص)\" uk=\"(Сорочка)\" fr=\"(Chemise)\"/>", "Gorra <trans en=\"(Cap)\" ar=\"(كاب)\" uk=\"(Кап)\" fr=\"(Casquette)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Un ___ es muy elegante para una boda.",
-        options: ["Traje","Pijama","Bañador"],
+        question: `Un ___ es muy elegante para una boda. <trans en="(A ___ is very elegant for a wedding.)" ar="(A ___ أنيق جدًا لحفل الزفاف.)" uk="(___ дуже елегантний варіант для весілля.)" fr="(Un ___ est très élégant pour un mariage.)"/>`,
+        options: ["Traje <trans en=\"(Suit)\" ar=\"(البدلة)\" uk=\"(Костюм)\" fr=\"(Costume)\"/>", "Pijama <trans en=\"(Pajamas)\" ar=\"(بيجامة)\" uk=\"(Піжами)\" fr=\"(Pyjamas)\"/>", "Bañador <trans en=\"(Swimsuit)\" ar=\"(ملابس السباحة)\" uk=\"(Купальник)\" fr=\"(Maillot de bain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Llevo una ___ de manga corta en verano.",
-        options: ["Camiseta","Bufanda","Chaqueta"],
+        question: `Llevo una ___ de manga corta en verano. <trans en="(I wear a short-sleeved ___ in summer.)" ar="(أرتدي ___ بأكمام قصيرة في الصيف.)" uk="(Влітку я ношу ___ з короткими рукавами.)" fr="(Je porte un ___ à manches courtes en été.)"/>`,
+        options: ["Camiseta <trans en=\"(T-shirt)\" ar=\"(تي شيرت)\" uk=\"(Футболка)\" fr=\"(T-shirt)\"/>", "Bufanda <trans en=\"(Scarf)\" ar=\"(وشاح)\" uk=\"(Шарф)\" fr=\"(Écharpe)\"/>", "Chaqueta <trans en=\"(Jacket)\" ar=\"(سترة)\" uk=\"(Куртка)\" fr=\"(Veste)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Los pantalones que usamos mucho se llaman...",
-        options: ["Vaqueros","Camisas","Zapatos"],
+        question: `Los pantalones que usamos mucho se llaman... <trans en="(The pants that we wear a lot are called...)" ar="(البنطلون الذي نرتديه كثيراً يسمى...)" uk="(Штани, які ми часто носимо, називаються...)" fr="(Les pantalons que l'on porte beaucoup s'appellent...)"/>`,
+        options: ["Vaqueros <trans en=\"(Jeans)\" ar=\"(جينز)\" uk=\"(Джинси)\" fr=\"(Jeans)\"/>", "Camisas <trans en=\"(Shirts)\" ar=\"(قمصان)\" uk=\"(Сорочки)\" fr=\"(Chemises)\"/>", "Zapatos <trans en=\"(Shoes)\" ar=\"(أحذية)\" uk=\"(Взуття)\" fr=\"(Chaussures)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Para hacer deporte uso...",
-        options: ["Ropa deportiva / Chándal","Traje","Vestido"],
+        question: `Para hacer deporte uso... <trans en="(To play sports I use...)" ar="(لممارسة الرياضة أستخدم...)" uk="(Для занять спортом використовую...)" fr="(Pour faire du sport j'utilise...)"/>`,
+        options: ["Ropa deportiva / Chándal <trans en=\"(Sportswear / Tracksuit)\" ar=\"(ملابس رياضية/بدلة رياضية)\" uk=\"(Спортивний одяг / Спортивний костюм)\" fr=\"(Vêtements de sport / Survêtement)\"/>", "Traje <trans en=\"(Suit)\" ar=\"(البدلة)\" uk=\"(Костюм)\" fr=\"(Costume)\"/>", "Vestido <trans en=\"(Dress)\" ar=\"(فستان)\" uk=\"(Сукня)\" fr=\"(Robe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Se pone en la cintura para sujetar el pantalón:",
-        options: ["Cinturón","Corbata","Bufanda"],
+        question: `Se pone en la cintura para sujetar el pantalón: <trans en="(It is placed at the waist to hold the pants:)" ar="(يوضع عند الخصر لتثبيت البنطلون :)" uk="(Розміщується на талії, щоб утримувати штани:)" fr="(Il se place à la taille pour maintenir le pantalon :)"/>`,
+        options: ["Cinturón <trans en=\"(Belt)\" ar=\"(الحزام)\" uk=\"(Пояс)\" fr=\"(Ceinture)\"/>", "Corbata <trans en=\"(Tie)\" ar=\"(ربطة عنق)\" uk=\"(Краватка)\" fr=\"(Cravate)\"/>", "Bufanda <trans en=\"(Scarf)\" ar=\"(وشاح)\" uk=\"(Шарф)\" fr=\"(Écharpe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Para no mojarme si llueve, uso un...",
-        options: ["Impermeable","Bañador","Pijama"],
+        question: `Para no mojarme si llueve, uso un... <trans en="(To avoid getting wet if it rains, I use a...)" ar="(لتجنب البلل في حالة هطول المطر، أستخدم...)" uk="(Щоб не промокнути під час дощу, я використовую...)" fr="(Pour éviter de me mouiller s'il pleut, j'utilise un...)"/>`,
+        options: ["Impermeable <trans en=\"(Waterproof)\" ar=\"(مقاوم للماء)\" uk=\"(Водонепроникний)\" fr=\"(Étanche)\"/>", "Bañador <trans en=\"(Swimsuit)\" ar=\"(ملابس السباحة)\" uk=\"(Купальник)\" fr=\"(Maillot de bain)\"/>", "Pijama <trans en=\"(Pajamas)\" ar=\"(بيجامة)\" uk=\"(Піжами)\" fr=\"(Pyjamas)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Las ___ son calzado abierto para el verano.",
-        options: ["Sandalias","Botas","Zapatillas deportivas"],
+        question: `Las ___ son calzado abierto para el verano. <trans en="(The ___ are open shoes for summer.)" ar="(___ أحذية مفتوحة للصيف.)" uk="(___ — відкрите літнє взуття.)" fr="(Les ___ sont des chaussures ouvertes pour l'été.)"/>`,
+        options: ["Sandalias <trans en=\"(Sandals)\" ar=\"(صنادل)\" uk=\"(Босоніжки)\" fr=\"(Sandales)\"/>", "Botas <trans en=\"(Boots)\" ar=\"(أحذية)\" uk=\"(Черевики)\" fr=\"(Bottes)\"/>", "Zapatillas deportivas <trans en=\"(Sports shoes)\" ar=\"(احذية رياضية)\" uk=\"(Спортивне взуття)\" fr=\"(Chaussures de sport)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Me pongo la ___ en la cabeza. (Extra)",
-        options: ["Gorra","Bufanda","Camiseta"],
+        question: `Me pongo la ___ en la cabeza. (Extra) <trans en="(I put the ___ on my head. (Bonus))" ar="(أضع ___ على رأسي. (مكافأة))" uk="(Я одягнув ___ на голову. (Бонус))" fr="(J'ai mis le ___ sur ma tête. (Prime))"/>`,
+        options: ["Gorra <trans en=\"(Cap)\" ar=\"(كاب)\" uk=\"(Кап)\" fr=\"(Casquette)\"/>", "Bufanda <trans en=\"(Scarf)\" ar=\"(وشاح)\" uk=\"(Шарф)\" fr=\"(Écharpe)\"/>", "Camiseta <trans en=\"(T-shirt)\" ar=\"(تي شيرت)\" uk=\"(Футболка)\" fr=\"(T-shirt)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Llevo los ___ en las piernas. (Extra)",
-        options: ["Pantalones","Guantes","Zapatos"],
+        question: `Llevo los ___ en las piernas. (Extra) <trans en="(I wear the ___ on my legs. (Bonus))" ar="(أرتدي ___ على ساقي. (مكافأة))" uk="(Я ношу ___ на ногах. (Бонус))" fr="(Je porte le ___ sur mes jambes. (Prime))"/>`,
+        options: ["Pantalones <trans en=\"(Pants)\" ar=\"(السراويل)\" uk=\"(Штани)\" fr=\"(Pantalon)\"/>", "Guantes <trans en=\"(Gloves)\" ar=\"(قفازات)\" uk=\"(Рукавички)\" fr=\"(Gants)\"/>", "Zapatos <trans en=\"(Shoes)\" ar=\"(أحذية)\" uk=\"(Взуття)\" fr=\"(Chaussures)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -3418,124 +3427,125 @@ Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no ter
     exercises: [
       {
         id: "ex1",
-        question: "___ teléfono <trans en='(phone - ends in o)' ar='(هاتف)' uk='(телефон)' fr='(téléphone)'/>",
-        options: ["El", "La"],
+        question: `___ teléfono <trans en='(phone - ends in o)' ar='(هاتف)' uk='(телефон)' fr='(téléphone)'/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "___ canción <trans en='(song - ends in ción)' ar='(أغنية)' uk='(пісня)' fr='(chanson)'/>",
-        options: ["El", "La"],
+        question: `___ canción <trans en='(song - ends in ción)' ar='(أغنية)' uk='(пісня)' fr='(chanson)'/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "___ casa <trans en='(house - ends in a)' ar='(منزل)' uk='(будинок)' fr='(maison)'/>",
-        options: ["El", "La"],
+        question: `___ casa <trans en='(house - ends in a)' ar='(منزل)' uk='(будинок)' fr='(maison)'/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex4",
-        question: "___ problema",
-        options: ["El","La"],
+        question: `___ problema <trans en="(___ problem)" ar="(___ مشكلة)" uk="(___ проблема)" fr="(___ problème)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "___ solución",
-        options: ["El","La"],
+        question: `___ solución <trans en="(___ solution)" ar="(___ الحل)" uk="(___ рішення)" fr="(___ solution)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex6",
-        question: "___ mapa",
-        options: ["El","La"],
+        question: `___ mapa <trans en="(___ map)" ar="(___ الخريطة)" uk="(___ карта)" fr="(___ carte)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "___ universidad",
-        options: ["El","La"],
+        question: `___ universidad <trans en="(___ university)" ar="(___ الجامعة)" uk="(___ університет)" fr="(___ université)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex8",
-        question: "___ idioma",
-        options: ["El","La"],
+        question: `___ idioma <trans en="(___ language)" ar="(___ اللغة)" uk="(___ мова)" fr="(___ langue)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "___ mano",
-        options: ["El","La"],
+        question: `___ mano <trans en="(___ hand)" ar="(___ يد)" uk="(___ рука)" fr="(___ main)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex10",
-        question: "___ día",
-        options: ["El","La"],
+        question: `___ día <trans en="(___ day)" ar="(___ اليوم)" uk="(___ день)" fr="(___ jour)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "___ moto(cicleta)",
-        options: ["El","La"],
+        question: `___ moto(cicleta) <trans en="(___ motorcycle (cycle))" ar="(___ دراجة نارية (دراجة))" uk="(___ мотоцикл (велосипед))" fr="(___ moto (cycle))"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex12",
-        question: "___ foto(grafía)",
-        options: ["El","La"],
+        question: `___ foto(grafía) <trans en="(___ photo(graphy))" ar="(___ صورة (رسم بياني))" uk="(___ фото(графіка))" fr="(___ photo(graphie))"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex13",
-        question: "___ agua (singular)",
-        options: ["El","La"],
+        question: `___ agua (singular) <trans en="(___ water (singular))" ar="(___ ماء (مفرد))" uk="(___ вода (однина))" fr="(___ eau (singulier))"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "___ planeta",
-        options: ["El","La"],
+        question: `___ planeta <trans en="(___ planet)" ar="(___ الكوكب)" uk="(___ планета)" fr="(___ planète)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "___ ciudad",
-        options: ["El","La"],
+        question: `___ ciudad <trans en="(___ city)" ar="(___ المدينة)" uk="(___ місто)" fr="(___ ville)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex16",
-        question: "___ clima",
-        options: ["El","La"],
+        question: `___ clima <trans en="(___ weather)" ar="(___ الطقس)" uk="(___ погода)" fr="(___ météo)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "___ sofá",
-        options: ["El","La"],
+        question: `___ sofá <trans en="(___ sofa)" ar="(___ أريكة)" uk="(___ диван)" fr="(___ canapé)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "___ clase",
-        options: ["El","La"],
+        question: `___ clase <trans en="(___ class)" ar="(___ الصف)" uk="(___ клас)" fr="(___ classe)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex19",
-        question: "___ flor",
-        options: ["El","La"],
+        question: `___ flor <trans en="(___ flower)" ar="(___ زهرة)" uk="(___ квітка)" fr="(___ fleur)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex20",
-        question: "___ árbol",
-        options: ["El","La"],
+        question: `___ árbol <trans en="(___ tree)" ar="(___ شجرة)" uk="(___ дерево)" fr="(___ arbre)"/>`,
+        options: ["El <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>", "La <trans en=\"(The)\" ar=\"(ال)\" uk=\"(The)\" fr=\"(Le)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -3897,124 +3907,125 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
     exercises: [
       {
         id: "ex1",
-        question: "______ nombre es Ali. <trans en='(His name)' ar='(اسمه)' uk='(Його ім\`я)' fr='(Son nom)'/>",
-        options: ["Mi", "Tu", "Su"],
+        question: `______ nombre es Ali. <trans en='(His name)' ar='(اسمه)' uk='(Його ім\`я)' fr='(Son nom)'/>`,
+        options: ["Mi <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>", "Tu <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "______ familia <trans en='(Our family)' ar='(عائلتنا)' uk='(Наша сім\`я)' fr='(Notre famille)'/>",
-        options: ["Nuestro", "Nuestra", "Mi"],
+        question: `______ familia <trans en='(Our family)' ar='(عائلتنا)' uk='(Наша сім\`я)' fr='(Notre famille)'/>`,
+        options: ["Nuestro <trans en=\"(Our)\" ar=\"(لدينا)\" uk=\"(Наші)\" fr=\"(Notre)\"/>", "Nuestra <trans en=\"(Our)\" ar=\"(لدينا)\" uk=\"(Наші)\" fr=\"(Notre)\"/>", "Mi <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "Yo tengo una bicicleta. Es ______ bicicleta.",
-        options: ["mi", "tu", "su"],
+        question: `Yo tengo una bicicleta. Es ______ bicicleta. <trans en="(I have a bicycle. It is ______ bicycle.)" ar="(لدي دراجة هوائية. إنها ______ دراجة.)" uk="(У мене є велосипед. Це ______ велосипед.)" fr="(J'ai un vélo. C'est ______ vélo.)"/>`,
+        options: ["mi <trans en=\"(my)\" ar=\"(بلدي)\" uk=\"(мій)\" fr=\"(mon)\"/>", "tu <trans en=\"(you)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu)\"/>", "su <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "___ (yo) libro es nuevo.",
-        options: ["Mi","Tu","Su"],
+        question: `___ (yo) libro es nuevo. <trans en="(___ (I) book is new.)" ar="(___ كتاب (أنا) جديد.)" uk="(___ (I) книга нова.)" fr="(___ (I) le livre est nouveau.)"/>`,
+        options: ["Mi <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>", "Tu <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "___ (tú) casa es grande.",
-        options: ["Mi","Tu","Su"],
+        question: `___ (tú) casa es grande. <trans en="(___ (your) house is big.)" ar="(___ (منزلك) كبير.)" uk="(___ (ваш) будинок великий.)" fr="(___ (votre) maison est grande.)"/>`,
+        options: ["Mi <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>", "Tu <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex6",
-        question: "___ (él) coche es rojo.",
-        options: ["Su","Tu","Mi"],
+        question: `___ (él) coche es rojo. <trans en="(___ (his) car is red.)" ar="(___ سيارته حمراء.)" uk="(___ (його) автомобіль червоний.)" fr="(___ (sa) voiture est rouge.)"/>`,
+        options: ["Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Tu <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Mi <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "___ (nosotros) amigos son simpáticos.",
-        options: ["Nuestros","Vuestros","Sus"],
+        question: `___ (nosotros) amigos son simpáticos. <trans en="(___ (we) friends are nice.)" ar="(___ (نحن) أصدقاء لطيفون.)" uk="(___ (ми) друзі добрі.)" fr="(___ (nous) les amis sommes gentils.)"/>`,
+        options: ["Nuestros <trans en=\"(Ours)\" ar=\"(لنا)\" uk=\"(Наші)\" fr=\"(Le nôtre)\"/>", "Vuestros <trans en=\"(Yours)\" ar=\"(لك)\" uk=\"(Ваш)\" fr=\"(Le vôtre)\"/>", "Sus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "___ (ella) perro se llama Max.",
-        options: ["Su","Tu","Mi"],
+        question: `___ (ella) perro se llama Max. <trans en="(___ (her) dog's name is Max.)" ar="(___ اسم كلبها هو ماكس.)" uk="(___ (її) собаку звати Макс.)" fr="(___ (son) chien s'appelle Max.)"/>`,
+        options: ["Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Tu <trans en=\"(You)\" ar=\"(أنت)\" uk=\"(Ти)\" fr=\"(Vous)\"/>", "Mi <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "___ (vosotros) madre es profesora.",
-        options: ["Vuestra","Nuestra","Su"],
+        question: `___ (vosotros) madre es profesora. <trans en="(___ (you) mother is a teacher.)" ar="(___ (أنت) والدتك معلمة.)" uk="(___ (ваша) мама вчителька.)" fr="(___ (votre) mère est enseignante.)"/>`,
+        options: ["Vuestra <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Nuestra <trans en=\"(Our)\" ar=\"(لدينا)\" uk=\"(Наші)\" fr=\"(Notre)\"/>", "Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "___ (ellos) zapatos están limpios.",
-        options: ["Sus","Tus","Mis"],
+        question: `___ (ellos) zapatos están limpios. <trans en="(___ (their) shoes are clean.)" ar="(___ أحذيتهم نظيفة.)" uk="(___ (їхнє) взуття чисте.)" fr="(___ (leurs) chaussures sont propres.)"/>`,
+        options: ["Sus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Tus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Mis <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "¿Es esta ___ (tú) mochila?",
-        options: ["tu","su","mi"],
+        question: `¿Es esta ___ (tú) mochila? <trans en="(Is this ___ (your) backpack?)" ar="(هل هذه ___ (حقيبة ظهرك)؟)" uk="(Це ___ (ваш) рюкзак?)" fr="(Est-ce ___ (votre) sac à dos ?)"/>`,
+        options: ["tu <trans en=\"(you)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu)\"/>", "su <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>", "mi <trans en=\"(my)\" ar=\"(بلدي)\" uk=\"(мій)\" fr=\"(mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "___ (yo) hermanos viven en París.",
-        options: ["Mis","Tus","Sus"],
+        question: `___ (yo) hermanos viven en París. <trans en="(___ (I) brothers live in Paris.)" ar="(___ (أنا) أخوة يعيشون في باريس.)" uk="(___ (I) брати живуть у Парижі.)" fr="(___ (Moi) mes frères habitent à Paris.)"/>`,
+        options: ["Mis <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>", "Tus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Sus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "No encuentro ___ (yo) llaves.",
-        options: ["mis","tus","sus"],
+        question: `No encuentro ___ (yo) llaves. <trans en="(I can't find ___ (me) keys.)" ar="(لا أستطيع العثور على مفاتيح ___ (أنا).)" uk="(Я не можу знайти ___ (мене) ключі.)" fr="(Je ne trouve pas les clés de ___ (moi).)"/>`,
+        options: ["mis <trans en=\"(my)\" ar=\"(بلدي)\" uk=\"(мій)\" fr=\"(mon)\"/>", "tus <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>", "sus <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "___ (nosotros) ciudad es muy bonita.",
-        options: ["Nuestra","Vuestra","Su"],
+        question: `___ (nosotros) ciudad es muy bonita. <trans en="(___ (we) city is very beautiful.)" ar="(___ (نحن) المدينة جميلة جدًا.)" uk="(___ (ми) місто дуже красиве.)" fr="(___ (nous) la ville est très belle.)"/>`,
+        options: ["Nuestra <trans en=\"(Our)\" ar=\"(لدينا)\" uk=\"(Наші)\" fr=\"(Notre)\"/>", "Vuestra <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Su <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Pedro y ___ (él) hermana son altos.",
-        options: ["su","tu","mi"],
+        question: `Pedro y ___ (él) hermana son altos. <trans en="(Pedro and ___ (his) sister are tall.)" ar="(بيدرو و___ (أخته) طويلان.)" uk="(Педро та ___ (його) сестра високі.)" fr="(Pedro et ___ (sa) sœur sont grands.)"/>`,
+        options: ["su <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>", "tu <trans en=\"(you)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu)\"/>", "mi <trans en=\"(my)\" ar=\"(بلدي)\" uk=\"(мій)\" fr=\"(mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Señor, ¿es este ___ (usted) abrigo?",
-        options: ["su","tu","mi"],
+        question: `Señor, ¿es este ___ (usted) abrigo? <trans en="(Sir, is this ___ (you) coat?)" ar="(سيدي، هل هذا معطف ___ (أنت)؟)" uk="(Сер, це ___ (ви) пальто?)" fr="(Monsieur, est-ce que c'est ___ (vous) manteau ?)"/>`,
+        options: ["su <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>", "tu <trans en=\"(you)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu)\"/>", "mi <trans en=\"(my)\" ar=\"(بلدي)\" uk=\"(мій)\" fr=\"(mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "___ (nosotros) abuelos tienen 80 años.",
-        options: ["Nuestros","Vuestros","Mis"],
+        question: `___ (nosotros) abuelos tienen 80 años. <trans en="(___ (we) grandparents are 80 years old.)" ar="(___ (نحن) الأجداد عمرنا 80 عامًا.)" uk="(___ (нам) бабусі та дідусю 80 років.)" fr="(___ (nous) grands-parents avons 80 ans.)"/>`,
+        options: ["Nuestros <trans en=\"(Ours)\" ar=\"(لنا)\" uk=\"(Наші)\" fr=\"(Le nôtre)\"/>", "Vuestros <trans en=\"(Yours)\" ar=\"(لك)\" uk=\"(Ваш)\" fr=\"(Le vôtre)\"/>", "Mis <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "___ (tú) ojos son azules.",
-        options: ["Tus","Sus","Mis"],
+        question: `___ (tú) ojos son azules. <trans en="(___ (your) eyes are blue.)" ar="(___ (عيناك) زرقاء.)" uk="(___ (твої) очі блакитні.)" fr="(___ (vos) yeux sont bleus.)"/>`,
+        options: ["Tus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Sus <trans en=\"(Your)\" ar=\"(الخاص بك)\" uk=\"(Ваш)\" fr=\"(Votre)\"/>", "Mis <trans en=\"(My)\" ar=\"(بلادي)\" uk=\"(Мій)\" fr=\"(Mon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Me gusta ___ (vosotros) casa.",
-        options: ["vuestra","nuestra","su"],
+        question: `Me gusta ___ (vosotros) casa. <trans en="(I like ___ (you) house.)" ar="(أحب ___ (أنت) المنزل.)" uk="(Мені подобається ___ (ваш) будинок.)" fr="(J'aime ___ (toi) la maison.)"/>`,
+        options: ["vuestra <trans en=\"(yours)\" ar=\"(لك)\" uk=\"(ваш)\" fr=\"(le vôtre)\"/>", "nuestra <trans en=\"(our)\" ar=\"(لدينا)\" uk=\"(наш)\" fr=\"(notre)\"/>", "su <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Ana y ___ (ella) hijos van al parque.",
-        options: ["sus","tus","mis"],
+        question: `Ana y ___ (ella) hijos van al parque. <trans en="(Ana and ___ (her) children go to the park.)" ar="(آنا و___ أطفالها يذهبون إلى الحديقة.)" uk="(Ана та ___ (її) діти йдуть у парк.)" fr="(Ana et ___ (ses) enfants vont au parc.)"/>`,
+        options: ["sus <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>", "tus <trans en=\"(your)\" ar=\"(الخاص بك)\" uk=\"(ваш)\" fr=\"(votre)\"/>", "mis <trans en=\"(my)\" ar=\"(بلدي)\" uk=\"(мій)\" fr=\"(mon)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -4377,124 +4388,125 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito.
     exercises: [
       {
         id: "ex1",
-        question: "___, me llamo Juan.",
-        options: ["No", "Sí"],
+        question: `___, me llamo Juan. <trans en="(___, my name is Juan.)" ar="(___، اسمي خوان.)" uk="(___, мене звати Хуан.)" fr="(___, je m'appelle Juan.)"/>`,
+        options: ["No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "A mí ___ me gusta el pescado. Prefiero la carne.",
-        options: ["no", "sí", "también"],
+        question: `A mí ___ me gusta el pescado. Prefiero la carne. <trans en="(I ___ like fish. I prefer meat.)" ar="(أنا ___ أحب السمك. أنا أفضل اللحوم.)" uk="(Я ___ люблю рибу. Я віддаю перевагу м'ясу.)" fr="(Je ___ aime le poisson. Je préfère la viande.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "también <trans en=\"(also)\" ar=\"(ايضا)\" uk=\"(також)\" fr=\"(aussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Yo ___ como carne, soy vegetariano.",
-        options: ["no","sí","también"],
+        question: `Yo ___ como carne, soy vegetariano. <trans en="(I ___ eat meat, I'm a vegetarian.)" ar="(أنا ___ آكل اللحوم، أنا نباتي.)" uk="(Я ___ їм м'ясо, я вегетаріанець.)" fr="(Je ___ mange de la viande, je suis végétarien.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "también <trans en=\"(also)\" ar=\"(ايضا)\" uk=\"(також)\" fr=\"(aussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "A mí ___ me gusta el fútbol. ¡Lo odio!",
-        options: ["no","sí","nunca"],
+        question: `A mí ___ me gusta el fútbol. ¡Lo odio! <trans en="(I ___ like football. I hate it!)" ar="(أنا ___ أحب كرة القدم. أنا أكره ذلك!)" uk="(Я ___ люблю футбол. Я ненавиджу це!)" fr="(Je ___ aime le football. Je déteste ça!)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "nunca <trans en=\"(never)\" ar=\"(أبدا)\" uk=\"(ніколи)\" fr=\"(jamais)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "¿Te gusta el café? - ___, mucho.",
-        options: ["Sí","No","Tampoco"],
+        question: `¿Te gusta el café? - ___, mucho. <trans en="(Do you like coffee? - ___, a lot.)" ar="(هل تحب القهوة؟ - ___، كثيراً.)" uk="(Ви любите каву? - ___, багато.)" fr="(Aimez-vous le café ? - ___, beaucoup.)"/>`,
+        options: ["Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Tampoco <trans en=\"(Neither)\" ar=\"(ولا)\" uk=\"(Ні)\" fr=\"(Ni l'un ni l'autre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Ellos ___ hablan ruso, solo español.",
-        options: ["no","sí","siempre"],
+        question: `Ellos ___ hablan ruso, solo español. <trans en="(They ___ speak Russian, only Spanish.)" ar="(إنهم ___ يتحدثون الروسية، والإسبانية فقط.)" uk="(Вони ___ говорять російською, тільки іспанською.)" fr="(Ils ___ parlent russe, seulement espagnol.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "siempre <trans en=\"(always)\" ar=\"(دائما)\" uk=\"(завжди)\" fr=\"(toujours)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "No me gusta el frío, y a ti ___.",
-        options: ["tampoco","también","sí"],
+        question: `No me gusta el frío, y a ti ___. <trans en="(I don't like the cold, and you ___.)" ar="(أنا لا أحب البرد، وأنت ___.)" uk="(Я не люблю холоду, а ти ___.)" fr="(Je n'aime pas le froid, et toi ___.)"/>`,
+        options: ["tampoco <trans en=\"(neither)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(ni l'un ni l'autre)\"/>", "también <trans en=\"(also)\" ar=\"(ايضا)\" uk=\"(також)\" fr=\"(aussi)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Me gusta la pizza. - A mí ___.",
-        options: ["también","tampoco","no"],
+        question: `Me gusta la pizza. - A mí ___. <trans en="(I like pizza. - Me ___.)" ar="(أحب البيتزا. - أنا ___.)" uk="(Я люблю піцу. - Я ___.)" fr="(J'aime la pizza. - Moi ___.)"/>`,
+        options: ["también <trans en=\"(also)\" ar=\"(ايضا)\" uk=\"(також)\" fr=\"(aussi)\"/>", "tampoco <trans en=\"(neither)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(ni l'un ni l'autre)\"/>", "no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "___, no quiero ir.",
-        options: ["No","Sí","También"],
+        question: `___, no quiero ir. <trans en="(___, I don't want to go.)" ar="(___، لا أريد أن أذهب.)" uk="(___, я не хочу йти.)" fr="(___, je ne veux pas y aller.)"/>`,
+        options: ["No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "También <trans en=\"(Also)\" ar=\"(ايضا)\" uk=\"(Також)\" fr=\"(Aussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Nosotros ___ estamos cansados.",
-        options: ["no","sí","y"],
+        question: `Nosotros ___ estamos cansados. <trans en="(We ___ are tired.)" ar="(نحن ___ متعبون.)" uk="(Ми ___ втомилися.)" fr="(Nous ___ sommes fatigués.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "y <trans en=\"(and)\" ar=\"(و)\" uk=\"(і)\" fr=\"(et)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Él ___ tiene dinero.",
-        options: ["no","sí","con"],
+        question: `Él ___ tiene dinero. <trans en="(He ___ has money.)" ar="(هو ___ لديه المال.)" uk="(Він ___ має гроші.)" fr="(Il ___ a de l'argent.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "con <trans en=\"(with)\" ar=\"(مع)\" uk=\"(с)\" fr=\"(avec)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿Vienes a la fiesta? - ___, no puedo.",
-        options: ["No","Sí","Tampoco"],
+        question: `¿Vienes a la fiesta? - ___, no puedo. <trans en="(Are you coming to the party? - ___, I can't.)" ar="(هل ستأتي إلى الحفلة؟ - ___، لا أستطبع.)" uk="(Ви йдете на вечірку? - ___, я не можу.)" fr="(Tu viens à la fête ? - ___, Je ne peux pas.)"/>`,
+        options: ["No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "Tampoco <trans en=\"(Neither)\" ar=\"(ولا)\" uk=\"(Ні)\" fr=\"(Ni l'un ni l'autre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "___, gracias. Ya he comido.",
-        options: ["No","Sí","También"],
+        question: `___, gracias. Ya he comido. <trans en="(___, thank you. I've already eaten.)" ar="(___، شكرا لك. لقد أكلت بالفعل.)" uk="(___, дякую. Я вже поїв.)" fr="(___, merci. J'ai déjà mangé.)"/>`,
+        options: ["No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "También <trans en=\"(Also)\" ar=\"(ايضا)\" uk=\"(Також)\" fr=\"(Aussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Tienes hambre? - ___, quiero comer ya.",
-        options: ["Sí","No","Tampoco"],
+        question: `¿Tienes hambre? - ___, quiero comer ya. <trans en="(Are you hungry? - ___, I want to eat now.)" ar="(هل أنت جائع؟ - ___، أريد أن آكل الآن.)" uk="(Ви голодні? - ___, я зараз хочу їсти.)" fr="(As-tu faim ? - ___, je veux manger maintenant.)"/>`,
+        options: ["Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Tampoco <trans en=\"(Neither)\" ar=\"(ولا)\" uk=\"(Ні)\" fr=\"(Ni l'un ni l'autre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "A María ___ le gusta leer.",
-        options: ["no","sí","tampoco"],
+        question: `A María ___ le gusta leer. <trans en="(María ___ likes to read.)" ar="(ماريا ___ تحب القراءة.)" uk="(María ___ любить читати.)" fr="(María ___ aime lire.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "tampoco <trans en=\"(neither)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(ni l'un ni l'autre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "A mi perro ___ le gusta bañarse.",
-        options: ["no","sí","también"],
+        question: `A mi perro ___ le gusta bañarse. <trans en="(My dog ___ likes to bathe.)" ar="(كلبي ___ يحب الاستحمام.)" uk="(Моя собака ___ любить купатися.)" fr="(Mon chien ___ aime se baigner.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "también <trans en=\"(also)\" ar=\"(ايضا)\" uk=\"(також)\" fr=\"(aussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Nosotros ___ trabajamos los domingos. Descansamos.",
-        options: ["no","sí","tampoco"],
+        question: `Nosotros ___ trabajamos los domingos. Descansamos. <trans en="(We ___ work on Sundays. We rest.)" ar="(نحن ___ نعمل يوم الأحد. نحن نرتاح.)" uk="(Ми ___ працюємо по неділях. Ми відпочиваємо.)" fr="(Nous ___ travaillons le dimanche. Nous nous reposons.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "tampoco <trans en=\"(neither)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(ni l'un ni l'autre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "___ me gusta llegar tarde.",
-        options: ["No","Sí","También"],
+        question: `___ me gusta llegar tarde. <trans en="(___ I like to be late.)" ar="(___ أحب أن أتأخر.)" uk="(___ Я люблю спізнюватися.)" fr="(___ J'aime être en retard.)"/>`,
+        options: ["No <trans en=\"(No)\" ar=\"(لا)\" uk=\"(Ні)\" fr=\"(Non)\"/>", "Sí <trans en=\"(Yes)\" ar=\"(نعم)\" uk=\"(Так)\" fr=\"(Oui)\"/>", "También <trans en=\"(Also)\" ar=\"(ايضا)\" uk=\"(Також)\" fr=\"(Aussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "No veo nada, ___ hay luz.",
-        options: ["no","sí","tampoco"],
+        question: `No veo nada, ___ hay luz. <trans en="(I don't see anything, ___ there is light.)" ar="(لا أرى شيئًا، ___ هناك ضوء.)" uk="(Я нічого не бачу, ___ там світло.)" fr="(Je ne vois rien, ___ il y a de la lumière.)"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "tampoco <trans en=\"(neither)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(ni l'un ni l'autre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Yo ___ como carne, soy vegetariano. (Extra)",
-        options: ["no","sí","también"],
+        question: `Yo ___ como carne, soy vegetariano. (Extra) <trans en="(I ___ eat meat, I'm a vegetarian. (Bonus))" ar="(أنا ___ آكل اللحوم، أنا نباتي. (مكافأة))" uk="(Я ___ їм м'ясо, я вегетаріанець. (Бонус))" fr="(Je ___ mange de la viande, je suis végétarien. (Prime))"/>`,
+        options: ["no <trans en=\"(no)\" ar=\"(لا)\" uk=\"(ні)\" fr=\"(non)\"/>", "sí <trans en=\"(yes)\" ar=\"(نعم)\" uk=\"(так)\" fr=\"(oui)\"/>", "también <trans en=\"(also)\" ar=\"(ايضا)\" uk=\"(також)\" fr=\"(aussi)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -4858,124 +4870,125 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
     exercises: [
       {
         id: "ex1",
-        question: "Responde a la pregunta: '¿Cómo te llamas?'",
-        options: ["Tengo 20 años", "Me llamo Sara", "Soy de Málaga"],
+        question: `Responde a la pregunta: '¿Cómo te llamas?' <trans en="(Answers the question: 'What is your name?')" ar="(يجيب على السؤال: ما اسمك؟)" uk="(Відповідає на запитання: «Як тебе звати?»)" fr="(Répond à la question : « Quel est votre nom ? »)"/>`,
+        options: ["Tengo 20 años <trans en=\"(I am 20 years old)\" ar=\"(عمري 20 سنة)\" uk=\"(Мені 20 років)\" fr=\"(J'ai 20 ans)\"/>", "Me llamo Sara <trans en=\"(My name is Sara)\" ar=\"(اسمي سارة)\" uk=\"(Мене звати Сара)\" fr=\"(Je m'appelle Sara)\"/>", "Soy de Málaga <trans en=\"(I am from Malaga)\" ar=\"(أنا من ملقة)\" uk=\"(Я з Малаги)\" fr=\"(Je viens de Malaga)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Responde a la pregunta: '¿De dónde eres?'",
-        options: ["Soy de Senegal", "Estoy bien", "Llevo tres semanas"],
+        question: `Responde a la pregunta: '¿De dónde eres?' <trans en="(Answers the question: 'Where are you from?')" ar="(يجيب على السؤال: من أين أنت؟)" uk="(Відповідає на запитання: «Звідки ти?»)" fr="(Répond à la question : « D'où venez-vous ? »)"/>`,
+        options: ["Soy de Senegal <trans en=\"(I am from Senegal)\" ar=\"(أنا من السنغال)\" uk=\"(Я з Сенегалу)\" fr=\"(Je viens du Sénégal)\"/>", "Estoy bien <trans en=\"(I'm fine)\" ar=\"(أنا بخير)\" uk=\"(Я в порядку)\" fr=\"(Je vais bien)\"/>", "Llevo tres semanas <trans en=\"(I've been there for three weeks)\" ar=\"(لقد كنت هناك لمدة ثلاثة أسابيع)\" uk=\"(Я там три тижні)\" fr=\"(J'y suis depuis trois semaines)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Responde a la pregunta: '¿Cuántos años tienes?'",
-        options: ["Tengo mucho frío", "Tengo 25 años", "Me llamo Luis"],
+        question: `Responde a la pregunta: '¿Cuántos años tienes?' <trans en="(Answers the question: 'How old are you?')" ar="(يجيب على السؤال: "كم عمرك؟")" uk="(Відповідає на запитання: «Скільки тобі років?»)" fr="(Répond à la question : « Quel âge as-tu ? »)"/>`,
+        options: ["Tengo mucho frío <trans en=\"(I'm very cold)\" ar=\"(أنا بارد جدا)\" uk=\"(Мені дуже холодно)\" fr=\"(J'ai très froid)\"/>", "Tengo 25 años <trans en=\"(I am 25 years old)\" ar=\"(عمري 25 سنة)\" uk=\"(Мені 25 років)\" fr=\"(J'ai 25 ans)\"/>", "Me llamo Luis <trans en=\"(My name is Luis)\" ar=\"(اسمي لويس)\" uk=\"(Мене звати Луїс)\" fr=\"(Je m'appelle Luis)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex4",
-        question: "¿Cómo se dice 'Good morning'?",
-        options: ["Buenos días","Buenas tardes","Buenas noches"],
+        question: `¿Cómo se dice 'Good morning'? <trans en="(How do you say 'Good morning'?)" ar="(كيف تقول "صباح الخير"؟)" uk="(Як сказати "Доброго ранку"?)" fr="(Comment dit-on « Bonjour » ?)"/>`,
+        options: ["Buenos días <trans en=\"(Good morning)\" ar=\"(صباح الخير)\" uk=\"(Доброго ранку)\" fr=\"(Bonjour)\"/>", "Buenas tardes <trans en=\"(Good afternoon)\" ar=\"(مساء الخير)\" uk=\"(Доброго дня)\" fr=\"(Bonjour)\"/>", "Buenas noches <trans en=\"(Good evening)\" ar=\"(مساء الخير)\" uk=\"(Добрий вечір)\" fr=\"(Bonsoir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "¿Cómo se dice 'Good night'?",
-        options: ["Buenas noches","Buenos días","Hola"],
+        question: `¿Cómo se dice 'Good night'? <trans en="(How do you say 'Good night'?)" ar="(كيف تقول "ليلة سعيدة"؟)" uk="(Як сказати "На добраніч"?)" fr="(Comment dit-on « Bonne nuit » ?)"/>`,
+        options: ["Buenas noches <trans en=\"(Good evening)\" ar=\"(مساء الخير)\" uk=\"(Добрий вечір)\" fr=\"(Bonsoir)\"/>", "Buenos días <trans en=\"(Good morning)\" ar=\"(صباح الخير)\" uk=\"(Доброго ранку)\" fr=\"(Bonjour)\"/>", "Hola <trans en=\"(Hello)\" ar=\"(مرحبا)\" uk=\"(Привіт)\" fr=\"(Bonjour)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Para despedirte dices:",
-        options: ["Adiós","Hola","Buenos días"],
+        question: `Para despedirte dices: <trans en="(To say goodbye you say:)" ar="(لتقول وداعا تقول:)" uk="(На прощання ви говорите:)" fr="(Pour dire au revoir tu dis :)"/>`,
+        options: ["Adiós <trans en=\"(Goodbye)\" ar=\"(وداعا)\" uk=\"(До побачення)\" fr=\"(Au revoir)\"/>", "Hola <trans en=\"(Hello)\" ar=\"(مرحبا)\" uk=\"(Привіт)\" fr=\"(Bonjour)\"/>", "Buenos días <trans en=\"(Good morning)\" ar=\"(صباح الخير)\" uk=\"(Доброго ранку)\" fr=\"(Bonjour)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "¿Qué dices a las 16:00 h?",
-        options: ["Buenas tardes","Buenos días","Buenas noches"],
+        question: `¿Qué dices a las 16:00 h? <trans en="(What do you say at 4:00 p.m.?)" ar="(ماذا تقول في الساعة 4:00 مساءً؟)" uk="(Що скажеш о 16:00?)" fr="(Que dis-tu à 16h00 ?)"/>`,
+        options: ["Buenas tardes <trans en=\"(Good afternoon)\" ar=\"(مساء الخير)\" uk=\"(Доброго дня)\" fr=\"(Bonjour)\"/>", "Buenos días <trans en=\"(Good morning)\" ar=\"(صباح الخير)\" uk=\"(Доброго ранку)\" fr=\"(Bonjour)\"/>", "Buenas noches <trans en=\"(Good night)\" ar=\"(مساء الخير)\" uk=\"(Добрий вечір)\" fr=\"(Bonsoir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "- 'Encantado de conocerte' - '________'",
-        options: ["Igualmente","Adiós","Bien"],
+        question: `- 'Encantado de conocerte' - '________' <trans en="(- 'Nice to meet you' - '________')" ar="(- "تشرفت بلقائك" - "________")" uk="(- "Приємно познайомитися" - "________")" fr="(- 'Enchanté de vous rencontrer' - '________')"/>`,
+        options: ["Igualmente <trans en=\"(Likewise)\" ar=\"(كذلك)\" uk=\"(Так само)\" fr=\"(De même)\"/>", "Adiós <trans en=\"(Goodbye)\" ar=\"(وداعا)\" uk=\"(До побачення)\" fr=\"(Au revoir)\"/>", "Bien <trans en=\"(Good)\" ar=\"(جيد)\" uk=\"(Добре)\" fr=\"(Bien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Si alguien estornuda dices:",
-        options: ["¡Salud!","¡Adiós!","¡Gracias!"],
+        question: `Si alguien estornuda dices: <trans en="(If someone sneezes you say:)" ar="(إذا عطس أحد فقل:)" uk="(Якщо хтось чхає, ви скажете:)" fr="(Si quelqu'un éternue, dites :)"/>`,
+        options: ["¡Salud! <trans en=\"(Cheers!)\" ar=\"(هتاف!)\" uk=\"(На здоров'я!)\" fr=\"(Bravo!)\"/>", "¡Adiós! <trans en=\"(Bye bye!)\" ar=\"(وداعا وداعا!)\" uk=\"(До побачення!)\" fr=\"(Au revoir !)\"/>", "¡Gracias! <trans en=\"(Thank you!)\" ar=\"(شكرًا لك!)\" uk=\"(Дякую!)\" fr=\"(Merci!)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Cómo pides un favor?",
-        options: ["Por favor","De nada","Adiós"],
+        question: `¿Cómo pides un favor? <trans en="(How do you ask for a favor?)" ar="(كيف تطلب معروفا؟)" uk="(Як ви просите про послугу?)" fr="(Comment demander une faveur ?)"/>`,
+        options: ["Por favor <trans en=\"(Please)\" ar=\"(من فضلك)\" uk=\"(Будь ласка)\" fr=\"(S'il vous plaît)\"/>", "De nada <trans en=\"(You're welcome)\" ar=\"(مرحبًا بك)\" uk=\"(Ні за що)\" fr=\"(De rien)\"/>", "Adiós <trans en=\"(Goodbye)\" ar=\"(وداعا)\" uk=\"(До побачення)\" fr=\"(Au revoir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Si te dicen 'Gracias', tú respondes:",
-        options: ["De nada","Por favor","Hola"],
+        question: `Si te dicen 'Gracias', tú respondes: <trans en="(If they say 'Thank you', you respond:)" ar="(إذا قالوا "شكرًا لك"، فإنك تجيب:)" uk="(Якщо вони кажуть «Дякую», ви відповідаєте:)" fr="(S'ils vous disent « Merci », vous répondez :)"/>`,
+        options: ["De nada <trans en=\"(You're welcome)\" ar=\"(مرحبًا بك)\" uk=\"(Ні за що)\" fr=\"(De rien)\"/>", "Por favor <trans en=\"(Please)\" ar=\"(من فضلك)\" uk=\"(Будь ласка)\" fr=\"(S'il vous plaît)\"/>", "Hola <trans en=\"(Hello)\" ar=\"(مرحبا)\" uk=\"(Привіт)\" fr=\"(Bonjour)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "- '¿Qué tal?' - '________'",
-        options: ["Muy bien","Me llamo Juan","Soy de Perú"],
+        question: `- '¿Qué tal?' - '________' <trans en="(- 'How are you?' - '________')" ar="(- "كيف حالك؟" - '________')" uk="(- "Як справи?" - '________')" fr="(- 'Comment vas-tu ?' - '________')"/>`,
+        options: ["Muy bien <trans en=\"(Very good)\" ar=\"(جيد جدا)\" uk=\"(Дуже добре)\" fr=\"(Très bien)\"/>", "Me llamo Juan <trans en=\"(My name is Juan)\" ar=\"(اسمي خوان)\" uk=\"(Мене звати Хуан)\" fr=\"(Je m'appelle Juan)\"/>", "Soy de Perú <trans en=\"(I am from Peru)\" ar=\"(أنا من بيرو)\" uk=\"(Я з Перу)\" fr=\"(Je viens du Pérou)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Antes de ir a dormir dices:",
-        options: ["Buenas noches","Buenos días","Hasta luego"],
+        question: `Antes de ir a dormir dices: <trans en="(Before going to sleep you say:)" ar="(قبل النوم تقول:)" uk="(Перед сном ви говорите:)" fr="(Avant d'aller dormir tu dis :)"/>`,
+        options: ["Buenas noches <trans en=\"(Good evening)\" ar=\"(مساء الخير)\" uk=\"(Добрий вечір)\" fr=\"(Bonsoir)\"/>", "Buenos días <trans en=\"(Good morning)\" ar=\"(صباح الخير)\" uk=\"(Доброго ранку)\" fr=\"(Bonjour)\"/>", "Hasta luego <trans en=\"(See you later)\" ar=\"(أراك لاحقا)\" uk=\"(До зустрічі)\" fr=\"(A plus tard)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Otra forma de decir 'Adiós' es:",
-        options: ["Hasta luego","Hola","Por favor"],
+        question: `Otra forma de decir 'Adiós' es: <trans en="(Another way to say 'Goodbye' is:)" ar="(هناك طريقة أخرى لقول "وداعا" وهي:)" uk="(Ще один спосіб сказати «До побачення»:)" fr="(Une autre façon de dire « Au revoir » est :)"/>`,
+        options: ["Hasta luego <trans en=\"(See you later)\" ar=\"(أراك لاحقا)\" uk=\"(До зустрічі)\" fr=\"(A plus tard)\"/>", "Hola <trans en=\"(Hello)\" ar=\"(مرحبا)\" uk=\"(Привіт)\" fr=\"(Bonjour)\"/>", "Por favor <trans en=\"(Please)\" ar=\"(من فضلك)\" uk=\"(Будь ласка)\" fr=\"(S'il vous plaît)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Para preguntar la edad dices:",
-        options: ["¿Cuántos años tienes?","¿Cómo te llamas?","¿De dónde eres?"],
+        question: `Para preguntar la edad dices: <trans en="(To ask the age you say:)" ar="(للسؤال عن العمر تقول:)" uk="(Щоб запитати вік, ви скажете:)" fr="(Pour demander l'âge vous dites :)"/>`,
+        options: ["¿Cuántos años tienes? <trans en=\"(How old are you?)\" ar=\"(كم عمرك؟)\" uk=\"(Скільки тобі років?)\" fr=\"(Quel âge as-tu ?)\"/>", "¿Cómo te llamas? <trans en=\"(What is your name?)\" ar=\"(ما اسمك؟)\" uk=\"(Як тебе звати?)\" fr=\"(Quel est ton nom?)\"/>", "¿De dónde eres? <trans en=\"(Where are you from?)\" ar=\"(من أين أنت؟)\" uk=\"(Ви звідки?)\" fr=\"(D'où venez-vous?)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "- '¿Dónde vives?' - '________'",
-        options: ["Vivo en Madrid","Soy de Madrid","Tengo 20 años"],
+        question: `- '¿Dónde vives?' - '________' <trans en="(- 'Where do you live?' - '________')" ar="(- 'أين تعيش؟' - '________')" uk="(- "Де ти живеш?" - '________')" fr="(- 'Où  habites-tu?' - '________')"/>`,
+        options: ["Vivo en Madrid <trans en=\"(I live in Madrid)\" ar=\"(أعيش في مدريد)\" uk=\"(Я живу в Мадриді)\" fr=\"(J'habite à Madrid)\"/>", "Soy de Madrid <trans en=\"(I'm from Madrid)\" ar=\"(أنا من مدريد)\" uk=\"(Я з Мадрида)\" fr=\"(Je viens de Madrid)\"/>", "Tengo 20 años <trans en=\"(I am 20 years old)\" ar=\"(عمري 20 سنة)\" uk=\"(Мені 20 років)\" fr=\"(J'ai 20 ans)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Para preguntar el nombre de alguien:",
-        options: ["¿Cómo te llamas?","¿Qué tal?","¿De dónde eres?"],
+        question: `Para preguntar el nombre de alguien: <trans en="(To ask someone's name:)" ar="(للسؤال عن اسم شخص ما:)" uk="(Щоб запитати чиєсь ім'я:)" fr="(Pour demander le nom de quelqu'un :)"/>`,
+        options: ["¿Cómo te llamas? <trans en=\"(What is your name?)\" ar=\"(ما اسمك؟)\" uk=\"(Як тебе звати?)\" fr=\"(Quel est ton nom ?)\"/>", "¿Qué tal? <trans en=\"(How are you?)\" ar=\"(كيف حالك؟)\" uk=\"(Як справи?)\" fr=\"(Comment vas-tu?)\"/>", "¿De dónde eres? <trans en=\"(Where are you from?)\" ar=\"(من أين أنت؟)\" uk=\"(Ви звідки?)\" fr=\"(D'où venez-vous?)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Si chocas con alguien sin querer dices:",
-        options: ["Perdón / Lo siento","De nada","Gracias"],
+        question: `Si chocas con alguien sin querer dices: <trans en="(If you accidentally bump into someone you say:)" ar="(إذا اصطدمت بشخص بالخطأ فقل:)" uk="(Якщо ви випадково натрапите на когось, ви скажете:)" fr="(Si vous tombez accidentellement sur quelqu'un, vous dites :)"/>`,
+        options: ["Perdón / Lo siento <trans en=\"(Sorry / I'm sorry)\" ar=\"(آسف / أنا آسف)\" uk=\"(Вибачте / мені шкода)\" fr=\"(Désolé / je suis désolé)\"/>", "De nada <trans en=\"(You're welcome)\" ar=\"(مرحبًا بك)\" uk=\"(Ні за що)\" fr=\"(De rien)\"/>", "Gracias <trans en=\"(Thank you)\" ar=\"(شكرا لك)\" uk=\"(Дякую)\" fr=\"(Merci)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Un saludo muy informal entre amigos:",
-        options: ["¡Qué pasa!","¡Buenos días señor!","¡Adiós!"],
+        question: `Un saludo muy informal entre amigos: <trans en="(A very informal greeting between friends:)" ar="(تحية غير رسمية بين الأصدقاء:)" uk="(Дуже неформальне привітання між друзями:)" fr="(Une salutation très informelle entre amis :)"/>`,
+        options: ["¡Qué pasa! <trans en=\"(What's up!)\" ar=\"(ما الأمر!)\" uk=\"(Що там!)\" fr=\"(Quoi de neuf !)\"/>", "¡Buenos días señor! <trans en=\"(Good morning sir!)\" ar=\"(صباح الخير سيدي!)\" uk=\"(Доброго ранку, сер!)\" fr=\"(Bonjour Monsieur!)\"/>", "¡Adiós! <trans en=\"(Bye bye!)\" ar=\"(وداعا وداعا!)\" uk=\"(До побачення!)\" fr=\"(Au revoir !)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Si vas a ver a alguien mañana dices:",
-        options: ["Hasta mañana","Hasta luego","Adiós para siempre"],
+        question: `Si vas a ver a alguien mañana dices: <trans en="(If you are going to see someone tomorrow you say:)" ar="(إذا كنت ستقابل شخصًا غدًا فقل:)" uk="(Якщо ви збираєтеся зустрітися з кимось завтра, ви говорите:)" fr="(Si tu vas voir quelqu'un demain tu dis :)"/>`,
+        options: ["Hasta mañana <trans en=\"(See you tomorrow)\" ar=\"(أراك غدا)\" uk=\"(До завтра)\" fr=\"(A demain)\"/>", "Hasta luego <trans en=\"(See you later)\" ar=\"(أراك لاحقا)\" uk=\"(До зустрічі)\" fr=\"(A plus tard)\"/>", "Adiós para siempre <trans en=\"(Goodbye forever)\" ar=\"(وداعا إلى الأبد)\" uk=\"(До побачення назавжди)\" fr=\"(Au revoir pour toujours)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -5340,124 +5353,125 @@ Los primeros 10 son:
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué número es el 'Cinco'?",
-        options: ["6", "5", "10"],
+        question: `¿Qué número es el 'Cinco'? <trans en="(What number is 'Five'?)" ar="(ما هو الرقم "خمسة"؟)" uk="(Яке число "п'ять"?)" fr="(Quel nombre est « Cinq » ?)"/>`,
+        options: ["6 <trans en=\"(6)\" ar=\"(6)\" uk=\"(6)\" fr=\"(6)\"/>", "5 <trans en=\"(5)\" ar=\"(5)\" uk=\"(5)\" fr=\"(5)\"/>", "10 <trans en=\"(10)\" ar=\"(10)\" uk=\"(10)\" fr=\"(10)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "3 en español es...",
-        options: ["Tres", "Dos", "Uno"],
+        question: `3 en español es... <trans en="(3 in Spanish is...)" ar="(3 بالإسبانية...)" uk="(3 іспанською - це...)" fr="(3 en espagnol c'est...)"/>`,
+        options: ["Tres <trans en=\"(Three)\" ar=\"(ثلاثة)\" uk=\"(Три)\" fr=\"(Trois)\"/>", "Dos <trans en=\"(Two)\" ar=\"(اثنان)\" uk=\"(Два)\" fr=\"(Deux)\"/>", "Uno <trans en=\"(One)\" ar=\"(واحد)\" uk=\"(Один)\" fr=\"(Un)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "10 + 5 = ?",
-        options: ["Quince","Catorce","Dieciséis"],
+        question: `10 + 5 = ? <trans en="(10 + 5 = ?)" ar="(10 + 5 = ؟)" uk="(10 + 5 = ?)" fr="(10 + 5 = ?)"/>`,
+        options: ["Quince <trans en=\"(Fifteen)\" ar=\"(خمسة عشر)\" uk=\"(П'ятнадцять)\" fr=\"(Quinze)\"/>", "Catorce <trans en=\"(Fourteen)\" ar=\"(أربعة عشر)\" uk=\"(Чотирнадцять)\" fr=\"(Quatorze)\"/>", "Dieciséis <trans en=\"(Sixteen)\" ar=\"(ستة عشر)\" uk=\"(Шістнадцять)\" fr=\"(Seize)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "20",
-        options: ["Veinte","Doce","Diez"],
+        question: `20 <trans en="(20)" ar="(20)" uk="(20)" fr="(20)"/>`,
+        options: ["Veinte <trans en=\"(Twenty)\" ar=\"(عشرين)\" uk=\"(Двадцять)\" fr=\"(Vingt)\"/>", "Doce <trans en=\"(Twelve)\" ar=\"(اثنا عشر)\" uk=\"(Дванадцять)\" fr=\"(Douze)\"/>", "Diez <trans en=\"(Ten)\" ar=\"(عشرة)\" uk=\"(Десять)\" fr=\"(Dix)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "El número antes de diez es...",
-        options: ["Nueve","Once","Ocho"],
+        question: `El número antes de diez es... <trans en="(The number before ten is...)" ar="(الرقم قبل العشرة هو...)" uk="(Число до десяти є...)" fr="(Le nombre avant dix est...)"/>`,
+        options: ["Nueve <trans en=\"(Nine)\" ar=\"(تسعة)\" uk=\"(Дев'ять)\" fr=\"(Neuf)\"/>", "Once <trans en=\"(Eleven)\" ar=\"(أحد عشر)\" uk=\"(Одинадцять)\" fr=\"(Onze)\"/>", "Ocho <trans en=\"(Eight)\" ar=\"(ثمانية)\" uk=\"(Вісім)\" fr=\"(Huit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "El número '15' se dice:",
-        options: ["Quince","Cinco","Cincuenta"],
+        question: `El número '15' se dice: <trans en="(The number '15' is said:)" ar="(يقال الرقم "15":)" uk="(Число '15' говориться:)" fr="(Le nombre '15' se dit :)"/>`,
+        options: ["Quince <trans en=\"(Fifteen)\" ar=\"(خمسة عشر)\" uk=\"(П'ятнадцять)\" fr=\"(Quinze)\"/>", "Cinco <trans en=\"(Five)\" ar=\"(خمسة)\" uk=\"(П'ять)\" fr=\"(Cinq)\"/>", "Cincuenta <trans en=\"(Fifty)\" ar=\"(خمسون)\" uk=\"(П'ятдесят)\" fr=\"(Cinquante)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "50",
-        options: ["Cincuenta","Cinco","Quince"],
+        question: `50 <trans en="(50)" ar="(50)" uk="(50)" fr="(50)"/>`,
+        options: ["Cincuenta <trans en=\"(Fifty)\" ar=\"(خمسون)\" uk=\"(П'ятдесят)\" fr=\"(Cinquante)\"/>", "Cinco <trans en=\"(Five)\" ar=\"(خمسة)\" uk=\"(П'ять)\" fr=\"(Cinq)\"/>", "Quince <trans en=\"(Fifteen)\" ar=\"(خمسة عشر)\" uk=\"(П'ятнадцять)\" fr=\"(Quinze)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "100",
-        options: ["Cien","Cero","Cincuenta"],
+        question: `100 <trans en="(100)" ar="(100)" uk="(100)" fr="(100)"/>`,
+        options: ["Cien <trans en=\"(One hundred)\" ar=\"(مائة)\" uk=\"(Сто)\" fr=\"(Cent)\"/>", "Cero <trans en=\"(Zero)\" ar=\"(صفر)\" uk=\"(Нуль)\" fr=\"(Zéro)\"/>", "Cincuenta <trans en=\"(Fifty)\" ar=\"(خمسون)\" uk=\"(П'ятдесят)\" fr=\"(Cinquante)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "30",
-        options: ["Treinta","Tres","Trece"],
+        question: `30 <trans en="(30)" ar="(30)" uk="(30)" fr="(30)"/>`,
+        options: ["Treinta <trans en=\"(Thirty)\" ar=\"(ثلاثون)\" uk=\"(Тридцять)\" fr=\"(Trente)\"/>", "Tres <trans en=\"(Three)\" ar=\"(ثلاثة)\" uk=\"(Три)\" fr=\"(Trois)\"/>", "Trece <trans en=\"(Thirteen)\" ar=\"(ثلاثة عشر)\" uk=\"(Тринадцять)\" fr=\"(Treize)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "El número después de 'veintinueve' es:",
-        options: ["Treinta","Veintiocho","Cuarenta"],
+        question: `El número después de 'veintinueve' es: <trans en="(The number after 'twenty-nine' is:)" ar="(الرقم بعد "تسعة وعشرون" هو:)" uk="(Число після "двадцяти дев'яти" таке:)" fr="(Le nombre après « vingt-neuf » est :)"/>`,
+        options: ["Treinta <trans en=\"(Thirty)\" ar=\"(ثلاثون)\" uk=\"(Тридцять)\" fr=\"(Trente)\"/>", "Veintiocho <trans en=\"(Twenty-eight)\" ar=\"(ثمانية وعشرون)\" uk=\"(Двадцять вісім)\" fr=\"(Vingt-huit)\"/>", "Cuarenta <trans en=\"(Forty)\" ar=\"(أربعون)\" uk=\"(Сорок)\" fr=\"(Quarante)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "2 + 2 = ?",
-        options: ["Cuatro","Cinco","Seis"],
+        question: `2 + 2 = ? <trans en="(2 + 2 = ?)" ar="(2 + 2 = ؟)" uk="(2 + 2 = ?)" fr="(2 + 2 = ?)"/>`,
+        options: ["Cuatro <trans en=\"(Four)\" ar=\"(أربعة)\" uk=\"(Чотири)\" fr=\"(Quatre)\"/>", "Cinco <trans en=\"(Five)\" ar=\"(خمسة)\" uk=\"(П'ять)\" fr=\"(Cinq)\"/>", "Seis <trans en=\"(Six)\" ar=\"(ستة)\" uk=\"(Шість)\" fr=\"(Six)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "12",
-        options: ["Doce","Dos","Veinte"],
+        question: `12 <trans en="(12)" ar="(12)" uk="(12)" fr="(12)"/>`,
+        options: ["Doce <trans en=\"(Twelve)\" ar=\"(اثنا عشر)\" uk=\"(Дванадцять)\" fr=\"(Douze)\"/>", "Dos <trans en=\"(Two)\" ar=\"(اثنان)\" uk=\"(Два)\" fr=\"(Deux)\"/>", "Veinte <trans en=\"(Twenty)\" ar=\"(عشرين)\" uk=\"(Двадцять)\" fr=\"(Vingt)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "¿Cuántos meses tiene un año?",
-        options: ["Doce","Diez","Once"],
+        question: `¿Cuántos meses tiene un año? <trans en="(How many months are in a year?)" ar="(كم عدد الشهور في السنة؟)" uk="(Скільки місяців у році?)" fr="(Combien de mois y a-t-il dans une année ?)"/>`,
+        options: ["Doce <trans en=\"(Twelve)\" ar=\"(اثنا عشر)\" uk=\"(Дванадцять)\" fr=\"(Douze)\"/>", "Diez <trans en=\"(Ten)\" ar=\"(عشرة)\" uk=\"(Десять)\" fr=\"(Dix)\"/>", "Once <trans en=\"(Eleven)\" ar=\"(أحد عشر)\" uk=\"(Одинадцять)\" fr=\"(Onze)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Cuántos días tiene una semana?",
-        options: ["Siete","Cinco","Seis"],
+        question: `¿Cuántos días tiene una semana? <trans en="(How many days are there in a week?)" ar="(كم عدد أيام الأسبوع؟)" uk="(Скільки днів у тижні?)" fr="(Combien y a-t-il de jours dans une semaine ?)"/>`,
+        options: ["Siete <trans en=\"(Seven)\" ar=\"(سبعة)\" uk=\"(Сім)\" fr=\"(Sept)\"/>", "Cinco <trans en=\"(Five)\" ar=\"(خمسة)\" uk=\"(П'ять)\" fr=\"(Cinq)\"/>", "Seis <trans en=\"(Six)\" ar=\"(ستة)\" uk=\"(Шість)\" fr=\"(Six)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "El número '40' se escribe:",
-        options: ["Cuarenta","Cuatro","Catorce"],
+        question: `El número '40' se escribe: <trans en="(The number '40' is written:)" ar="(يتم كتابة الرقم "40":)" uk="(Число «40» пишеться:)" fr="(Le nombre '40' s'écrit :)"/>`,
+        options: ["Cuarenta <trans en=\"(Forty)\" ar=\"(أربعون)\" uk=\"(Сорок)\" fr=\"(Quarante)\"/>", "Cuatro <trans en=\"(Four)\" ar=\"(أربعة)\" uk=\"(Чотири)\" fr=\"(Quatre)\"/>", "Catorce <trans en=\"(Fourteen)\" ar=\"(أربعة عشر)\" uk=\"(Чотирнадцять)\" fr=\"(Quatorze)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "¿Cómo se dice 'zero' en español?",
-        options: ["Cero","Uno","Nada"],
+        question: `¿Cómo se dice 'zero' en español? <trans en="(How do you say 'zero' in Spanish?)" ar="(كيف تقول "صفر" بالإسبانية؟)" uk="(Як сказати «нуль» іспанською?)" fr="(Comment dit-on « zéro » en espagnol ?)"/>`,
+        options: ["Cero <trans en=\"(Zero)\" ar=\"(صفر)\" uk=\"(Нуль)\" fr=\"(Zéro)\"/>", "Uno <trans en=\"(One)\" ar=\"(واحد)\" uk=\"(Один)\" fr=\"(Un)\"/>", "Nada <trans en=\"(Nothing)\" ar=\"(لا شيء)\" uk=\"(Нічого)\" fr=\"(Rien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "21",
-        options: ["Veintiuno","Veinte uno","Veinte y uno"],
+        question: `21 <trans en="(21)" ar="(21)" uk="(21)" fr="(21)"/>`,
+        options: ["Veintiuno <trans en=\"(Twenty-one)\" ar=\"(واحد وعشرون)\" uk=\"(Двадцять один)\" fr=\"(Vingt et un)\"/>", "Veinte uno <trans en=\"(Twenty one)\" ar=\"(واحد وعشرون)\" uk=\"(Двадцять один)\" fr=\"(Vingt et un)\"/>", "Veinte y uno <trans en=\"(Twenty-one)\" ar=\"(واحد وعشرون)\" uk=\"(Двадцять один)\" fr=\"(Vingt et un)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "11",
-        options: ["Once","Diez y uno","Unce"],
+        question: `11 <trans en="(11)" ar="(11)" uk="(11)" fr="(11)"/>`,
+        options: ["Once <trans en=\"(Eleven)\" ar=\"(أحد عشر)\" uk=\"(Одинадцять)\" fr=\"(Onze)\"/>", "Diez y uno <trans en=\"(Ten and one)\" ar=\"(عشرة وواحد)\" uk=\"(Десять і один)\" fr=\"(Dix et un)\"/>", "Unce <trans en=\"(Unce)\" ar=\"(أونس)\" uk=\"(Unce)\" fr=\"(Une fois)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Cuántas horas tiene un día?",
-        options: ["Veinticuatro","Doce","Treinta"],
+        question: `¿Cuántas horas tiene un día? <trans en="(How many hours are there in a day?)" ar="(كم عدد الساعات الموجودة في اليوم الواحد؟)" uk="(Скільки годин у добі?)" fr="(Combien d'heures y a-t-il dans une journée ?)"/>`,
+        options: ["Veinticuatro <trans en=\"(Twenty-four)\" ar=\"(أربعة وعشرون)\" uk=\"(Двадцять чотири)\" fr=\"(Vingt-quatre)\"/>", "Doce <trans en=\"(Twelve)\" ar=\"(اثنا عشر)\" uk=\"(Дванадцять)\" fr=\"(Douze)\"/>", "Treinta <trans en=\"(Thirty)\" ar=\"(ثلاثون)\" uk=\"(Тридцять)\" fr=\"(Trente)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "10 + 5 = ? (Extra)",
-        options: ["Quince","Catorce","Dieciséis"],
+        question: `10 + 5 = ? (Extra) <trans en="(10 + 5 = ? (Bonus))" ar="(10 + 5 = ؟ (مكافأة))" uk="(10 + 5 = ? (Бонус))" fr="(10 + 5 = ? (Prime))"/>`,
+        options: ["Quince <trans en=\"(Fifteen)\" ar=\"(خمسة عشر)\" uk=\"(П'ятнадцять)\" fr=\"(Quinze)\"/>", "Catorce <trans en=\"(Fourteen)\" ar=\"(أربعة عشر)\" uk=\"(Чотирнадцять)\" fr=\"(Quatorze)\"/>", "Dieciséis <trans en=\"(Sixteen)\" ar=\"(ستة عشر)\" uk=\"(Шістнадцять)\" fr=\"(Seize)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -5819,124 +5833,125 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     exercises: [
       {
         id: "ex1",
-        question: "Una persona de Francia es...",
-        options: ["francés", "franco", "francia"],
+        question: `Una persona de Francia es... <trans en="(A person from France is...)" ar="(شخص من فرنسا...)" uk="(Людина з Франції...)" fr="(Une personne de France est...)"/>`,
+        options: ["francés <trans en=\"(french)\" ar=\"(الفرنسية)\" uk=\"(французька)\" fr=\"(français)\"/>", "franco <trans en=\"(frank)\" ar=\"(صريح)\" uk=\"(відверто)\" fr=\"(franc)\"/>", "francia <trans en=\"(france)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(france)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "Fátima es de Marruecos. Ella es...",
-        options: ["marrueca", "marroquí", "marruecos"],
+        question: `Fátima es de Marruecos. Ella es... <trans en="(Fatima is from Morocco. She is...)" ar="(فاطمة من المغرب. هي...)" uk="(Фатіма з Марокко. вона...)" fr="(Fatima vient du Maroc. Elle est...)"/>`,
+        options: ["marrueca <trans en=\"(morocco)\" ar=\"(المغرب)\" uk=\"(Марокко)\" fr=\"(maroc)\"/>", "marroquí <trans en=\"(Moroccan)\" ar=\"(مغربية)\" uk=\"(Марокканський)\" fr=\"(Marocain)\"/>", "marruecos <trans en=\"(morocco)\" ar=\"(المغرب)\" uk=\"(Марокко)\" fr=\"(maroc)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "Él es de Francia. Él es...",
-        options: ["Francés","Francia","Francésa"],
+        question: `Él es de Francia. Él es... <trans en="(He is from France. He is...)" ar="(هو من فرنسا. هو...)" uk="(Він із Франції. Він...)" fr="(Il vient de France. Il est...)"/>`,
+        options: ["Francés <trans en=\"(French)\" ar=\"(الفرنسية)\" uk=\"(Французька)\" fr=\"(Français)\"/>", "Francia <trans en=\"(France)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(France)\"/>", "Francésa <trans en=\"(French)\" ar=\"(الفرنسية)\" uk=\"(Французька)\" fr=\"(Français)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Ella es de España. Ella es...",
-        options: ["Española","Español","España"],
+        question: `Ella es de España. Ella es... <trans en="(She is from Spain. She is...)" ar="(هي من اسبانيا. هي...)" uk="(Вона з Іспанії. вона...)" fr="(Elle vient d'Espagne. Elle est...)"/>`,
+        options: ["Española <trans en=\"(Spanish)\" ar=\"(الاسبانية)\" uk=\"(Іспанська)\" fr=\"(Espagnol)\"/>", "Español <trans en=\"(Spanish)\" ar=\"(الاسبانية)\" uk=\"(Іспанська)\" fr=\"(Espagnol)\"/>", "España <trans en=\"(Spain)\" ar=\"(اسبانيا)\" uk=\"(Іспанія)\" fr=\"(Espagne)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Ellos son de Alemania. Son...",
-        options: ["Alemanes","Alemán","Alemanias"],
+        question: `Ellos son de Alemania. Son... <trans en="(They are from Germany. They are...)" ar="(وهم من ألمانيا. هم...)" uk="(Вони з Німеччини. Вони...)" fr="(Ils viennent d'Allemagne. Ils sont...)"/>`,
+        options: ["Alemanes <trans en=\"(Germans)\" ar=\"(الألمان)\" uk=\"(Німці)\" fr=\"(Allemands)\"/>", "Alemán <trans en=\"(German)\" ar=\"(الألمانية)\" uk=\"(Німецька)\" fr=\"(Allemand)\"/>", "Alemanias <trans en=\"(Germanys)\" ar=\"(المانيا)\" uk=\"(Німеччини)\" fr=\"(Allemagne)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Yo soy de Italia. Yo soy...",
-        options: ["Italiano/a","Italia","Italio"],
+        question: `Yo soy de Italia. Yo soy... <trans en="(I am from Italy. I am...)" ar="(أنا من إيطاليا. انا...)" uk="(Я з Італії. я...)" fr="(Je viens d'Italie. je suis...)"/>`,
+        options: ["Italiano/a <trans en=\"(Italian)\" ar=\"(ايطالي)\" uk=\"(Італійська)\" fr=\"(Italien)\"/>", "Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>", "Italio <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Ella es de Estados Unidos. Es...",
-        options: ["Estadounidense","Americana","Las dos son correctas"],
+        question: `Ella es de Estados Unidos. Es... <trans en="(She is from the United States. It's...)" ar="(هي من الولايات المتحدة. انها...)" uk="(Вона зі Сполучених Штатів. Це...)" fr="(Elle vient des États-Unis. C'est...)"/>`,
+        options: ["Estadounidense <trans en=\"(United States)\" ar=\"(أمريكي)\" uk=\"(Американський)\" fr=\"(Américain)\"/>", "Americana <trans en=\"(American)\" ar=\"(أمريكي)\" uk=\"(Американський)\" fr=\"(Américain)\"/>", "Las dos son correctas <trans en=\"(Both are correct)\" ar=\"(كلاهما صحيح)\" uk=\"(Обидва правильні)\" fr=\"(Les deux sont corrects)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex8",
-        question: "Él es de Japón. Él es...",
-        options: ["Japonés","Japón","Japonesa"],
+        question: `Él es de Japón. Él es... <trans en="(He is from Japan. He is...)" ar="(هو من اليابان. هو...)" uk="(Він з Японії. Він...)" fr="(Il vient du Japon. Il est...)"/>`,
+        options: ["Japonés <trans en=\"(Japanese)\" ar=\"(اليابانية)\" uk=\"(Японська)\" fr=\"(Japonais)\"/>", "Japón <trans en=\"(Japan)\" ar=\"(اليابان)\" uk=\"(Японія)\" fr=\"(Japon)\"/>", "Japonesa <trans en=\"(Japanese)\" ar=\"(يابانية)\" uk=\"(Японська)\" fr=\"(Japonais)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Nosotros somos de México. Somos...",
-        options: ["Mexicanos","México","Mexicano"],
+        question: `Nosotros somos de México. Somos... <trans en="(We are from Mexico. We are...)" ar="(نحن من المكسيك. نحن...)" uk="(Ми з Мексики. ми...)" fr="(Nous venons du Mexique. Nous sommes...)"/>`,
+        options: ["Mexicanos <trans en=\"(Mexicans)\" ar=\"(المكسيكيون)\" uk=\"(Мексиканці)\" fr=\"(Mexicains)\"/>", "México <trans en=\"(Mexico)\" ar=\"(المكسيك)\" uk=\"(Мексика)\" fr=\"(Mexique)\"/>", "Mexicano <trans en=\"(Mexican)\" ar=\"(مكسيكي)\" uk=\"(Мексиканська)\" fr=\"(Mexicain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Ella es de Inglaterra. Ella es...",
-        options: ["Inglesa","Inglés","Inglaterra"],
+        question: `Ella es de Inglaterra. Ella es... <trans en="(She is from England. She is...)" ar="(إنها من إنجلترا. هي...)" uk="(Вона з Англії. вона...)" fr="(Elle vient d'Angleterre. Elle est...)"/>`,
+        options: ["Inglesa <trans en=\"(English)\" ar=\"(الانجليزية)\" uk=\"(Англійська)\" fr=\"(Anglais)\"/>", "Inglés <trans en=\"(English)\" ar=\"(الإنجليزية)\" uk=\"(Англійська)\" fr=\"(Anglais)\"/>", "Inglaterra <trans en=\"(England)\" ar=\"(انجلترا)\" uk=\"(Англія)\" fr=\"(Angleterre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Él es de China. Él es...",
-        options: ["Chino","China","Chinesco"],
+        question: `Él es de China. Él es... <trans en="(He is from China. He is...)" ar="(وهو من الصين. هو...)" uk="(Він з Китаю. Він...)" fr="(Il vient de Chine. Il est...)"/>`,
+        options: ["Chino <trans en=\"(Chinese)\" ar=\"(الصينية)\" uk=\"(Китайська)\" fr=\"(Chinois)\"/>", "China <trans en=\"(China)\" ar=\"(الصين)\" uk=\"(Китай)\" fr=\"(Chine)\"/>", "Chinesco <trans en=\"(Chinese)\" ar=\"(صيني)\" uk=\"(Китайська)\" fr=\"(Chinois)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Ella es de Marruecos. Ella es...",
-        options: ["Marroquí","Marrueca","Marroquesa"],
+        question: `Ella es de Marruecos. Ella es... <trans en="(She is from Morocco. She is...)" ar="(هي من المغرب. هي...)" uk="(Вона з Марокко. вона...)" fr="(Elle vient du Maroc. Elle est...)"/>`,
+        options: ["Marroquí <trans en=\"(Moroccan)\" ar=\"(مغربية)\" uk=\"(Марокканський)\" fr=\"(Marocain)\"/>", "Marrueca <trans en=\"(Morocco)\" ar=\"(المغرب)\" uk=\"(Марокко)\" fr=\"(Maroc)\"/>", "Marroquesa <trans en=\"(Moroccan)\" ar=\"(مغربية)\" uk=\"(Марокканський)\" fr=\"(Marocain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Ellos son de Brasil. Son...",
-        options: ["Brasileños","Brasil","Brasileros"],
+        question: `Ellos son de Brasil. Son... <trans en="(They are from Brazil. They are...)" ar="(وهم من البرازيل. هم...)" uk="(Вони з Бразилії. Вони...)" fr="(Ils viennent du Brésil. Ils sont...)"/>`,
+        options: ["Brasileños <trans en=\"(Brazilians)\" ar=\"(البرازيليين)\" uk=\"(Бразильці)\" fr=\"(Brésiliens)\"/>", "Brasil <trans en=\"(Brazil)\" ar=\"(البرازيل)\" uk=\"(Бразилія)\" fr=\"(Brésil)\"/>", "Brasileros <trans en=\"(Brazilians)\" ar=\"(البرازيليين)\" uk=\"(Бразильці)\" fr=\"(Brésiliens)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Él es de Portugal. Él es...",
-        options: ["Portugués","Portugal","Portuguesa"],
+        question: `Él es de Portugal. Él es... <trans en="(He is from Portugal. He is...)" ar="(هو من البرتغال. هو...)" uk="(Він з Португалії. Він...)" fr="(Il vient du Portugal. Il est...)"/>`,
+        options: ["Portugués <trans en=\"(Portuguese)\" ar=\"(البرتغالية)\" uk=\"(Португальська)\" fr=\"(Portugais)\"/>", "Portugal <trans en=\"(Portugal)\" ar=\"(البرتغال)\" uk=\"(Португалія)\" fr=\"(Portugal)\"/>", "Portuguesa <trans en=\"(Portuguese)\" ar=\"(البرتغالية)\" uk=\"(Португальська)\" fr=\"(Portugais)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Ella es de Rusia. Ella es...",
-        options: ["Rusa","Ruso","Rusias"],
+        question: `Ella es de Rusia. Ella es... <trans en="(She is from Russia. She is...)" ar="(هي من روسيا. هي...)" uk="(Вона з Росії. вона...)" fr="(Elle vient de Russie. Elle est...)"/>`,
+        options: ["Rusa <trans en=\"(Russian)\" ar=\"(روسي)\" uk=\"(Російська)\" fr=\"(Russe)\"/>", "Ruso <trans en=\"(Russian)\" ar=\"(روسي)\" uk=\"(Російська)\" fr=\"(Russe)\"/>", "Rusias <trans en=\"(Russia)\" ar=\"(روسيا)\" uk=\"(Росія)\" fr=\"(Russie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Él es de Argentina. Él es...",
-        options: ["Argentino","Argentina","Argentinés"],
+        question: `Él es de Argentina. Él es... <trans en="(He is from Argentina. He is...)" ar="(هو من الأرجنتين. هو...)" uk="(Він з Аргентини. Він...)" fr="(Il vient d'Argentine. Il est...)"/>`,
+        options: ["Argentino <trans en=\"(Argentinian)\" ar=\"(أرجنتيني)\" uk=\"(Аргентинець)\" fr=\"(Argentin)\"/>", "Argentina <trans en=\"(Argentina)\" ar=\"(الارجنتين)\" uk=\"(Аргентина)\" fr=\"(Argentine)\"/>", "Argentinés <trans en=\"(Argentinian)\" ar=\"(أرجنتيني)\" uk=\"(Аргентинець)\" fr=\"(Argentin)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Ella es de Canadá. Ella es...",
-        options: ["Canadiense","Canadá","Canadiensa"],
+        question: `Ella es de Canadá. Ella es... <trans en="(She is from Canada. She is...)" ar="(هي من كندا. هي...)" uk="(Вона з Канади. вона...)" fr="(Elle vient du Canada. Elle est...)"/>`,
+        options: ["Canadiense <trans en=\"(Canadian)\" ar=\"(كندي)\" uk=\"(Канадський)\" fr=\"(Canadien)\"/>", "Canadá <trans en=\"(Canada)\" ar=\"(كندا)\" uk=\"(Канада)\" fr=\"(Canada)\"/>", "Canadiensa <trans en=\"(Canadian)\" ar=\"(كندي)\" uk=\"(Канадський)\" fr=\"(Canadien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Él es de India. Él es...",
-        options: ["Indio","Hindu","Indies"],
+        question: `Él es de India. Él es... <trans en="(He is from India. He is...)" ar="(هو من الهند. هو...)" uk="(Він з Індії. Він...)" fr="(Il vient d'Inde. Il est...)"/>`,
+        options: ["Indio <trans en=\"(Indian)\" ar=\"(هندي)\" uk=\"(Індіанець)\" fr=\"(Indien)\"/>", "Hindu <trans en=\"(Hindu)\" ar=\"(هندوسية)\" uk=\"(Індус)\" fr=\"(Hindou)\"/>", "Indies <trans en=\"(Indies)\" ar=\"(الهند)\" uk=\"(Інді)\" fr=\"(Indes)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Ella es de Colombia. Ella es...",
-        options: ["Colombiana","Colombiano","Colombia"],
+        question: `Ella es de Colombia. Ella es... <trans en="(She is from Colombia. She is...)" ar="(هي من كولومبيا. هي...)" uk="(Вона з Колумбії. вона...)" fr="(Elle vient de Colombie. Elle est...)"/>`,
+        options: ["Colombiana <trans en=\"(Colombian)\" ar=\"(كولومبي)\" uk=\"(Колумбійський)\" fr=\"(Colombien)\"/>", "Colombiano <trans en=\"(Colombian)\" ar=\"(كولومبي)\" uk=\"(Колумбійський)\" fr=\"(Colombien)\"/>", "Colombia <trans en=\"(Colombia)\" ar=\"(كولومبيا)\" uk=\"(Колумбія)\" fr=\"(Colombie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Él es de Francia. Él es... (Extra)",
-        options: ["Francés","Francia","Francésa"],
+        question: `Él es de Francia. Él es... (Extra) <trans en="(He is from France. He is... (Extra))" ar="(هو من فرنسا. هو... (إضافي))" uk="(Він із Франції. Він... (Екстра))" fr="(Il vient de France. Il est... (Extra))"/>`,
+        options: ["Francés <trans en=\"(French)\" ar=\"(الفرنسية)\" uk=\"(Французька)\" fr=\"(Français)\"/>", "Francia <trans en=\"(France)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(France)\"/>", "Francésa <trans en=\"(French)\" ar=\"(الفرنسية)\" uk=\"(Французька)\" fr=\"(Français)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -6289,124 +6304,125 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     exercises: [
       {
         id: "ex1",
-        question: "¿Cuál es una mascota común en casa?",
-        options: ["La montaña", "El perro", "El árbol"],
+        question: `¿Cuál es una mascota común en casa? <trans en="(What is a common pet at home?)" ar="(ما هو الحيوان الأليف الشائع في المنزل؟)" uk="(Який звичайний домашній улюбленець?)" fr="(Qu'est-ce qu'un animal de compagnie commun à la maison ?)"/>`,
+        options: ["La montaña <trans en=\"(The mountain)\" ar=\"(الجبل)\" uk=\"(Гора)\" fr=\"(La montagne)\"/>", "El perro <trans en=\"(The dog)\" ar=\"(الكلب)\" uk=\"(Собака)\" fr=\"(Le chien)\"/>", "El árbol <trans en=\"(The tree)\" ar=\"(الشجرة)\" uk=\"(Дерево)\" fr=\"(L'arbre)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Qué animal produce leche?",
-        options: ["La vaca","El perro","El pez"],
+        question: `¿Qué animal produce leche? <trans en="(What animal produces milk?)" ar="(ما هو الحيوان الذي ينتج الحليب؟)" uk="(Яка тварина дає молоко?)" fr="(Quel animal produit du lait ?)"/>`,
+        options: ["La vaca <trans en=\"(The cow)\" ar=\"(البقرة)\" uk=\"(Корова)\" fr=\"(La vache)\"/>", "El perro <trans en=\"(The dog)\" ar=\"(الكلب)\" uk=\"(Собака)\" fr=\"(Le chien)\"/>", "El pez <trans en=\"(The fish)\" ar=\"(السمك)\" uk=\"(Риба)\" fr=\"(Le poisson)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Este animal tiene cuello largo:",
-        options: ["Jirafa","Elefante","Caballo"],
+        question: `Este animal tiene cuello largo: <trans en="(This animal has a long neck:)" ar="(هذا الحيوان له رقبة طويلة :)" uk="(Ця тварина має довгу шию:)" fr="(Cet animal a un long cou :)"/>`,
+        options: ["Jirafa <trans en=\"(Giraffe)\" ar=\"(زرافة)\" uk=\"(Жираф)\" fr=\"(Girafe)\"/>", "Elefante <trans en=\"(Elephant)\" ar=\"(الفيل)\" uk=\"(Слон)\" fr=\"(Éléphant)\"/>", "Caballo <trans en=\"(Horse)\" ar=\"(حصان)\" uk=\"(Кінь)\" fr=\"(Cheval)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Es el rey de la selva:",
-        options: ["León","Tigre","Mono"],
+        question: `Es el rey de la selva: <trans en="(He is the king of the jungle:)" ar="(هو ملك الغابة:)" uk="(Він король джунглів:)" fr="(C'est le roi de la jungle :)"/>`,
+        options: ["León <trans en=\"(Leon)\" ar=\"(ليون)\" uk=\"(Леон)\" fr=\"(Léon)\"/>", "Tigre <trans en=\"(Tiger)\" ar=\"(النمر)\" uk=\"(Тигр)\" fr=\"(Tigre)\"/>", "Mono <trans en=\"(Monkey)\" ar=\"(قرد)\" uk=\"(Мавпа)\" fr=\"(Singe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "¿Qué animal ladra?",
-        options: ["El perro","El gato","El pájaro"],
+        question: `¿Qué animal ladra? <trans en="(What animal barks?)" ar="(ما الحيوان الذي ينبح؟)" uk="(Яка тварина гавкає?)" fr="(Quel animal aboie ?)"/>`,
+        options: ["El perro <trans en=\"(The dog)\" ar=\"(الكلب)\" uk=\"(Собака)\" fr=\"(Le chien)\"/>", "El gato <trans en=\"(The cat)\" ar=\"(القطة)\" uk=\"(Кішка)\" fr=\"(Le chat)\"/>", "El pájaro <trans en=\"(The bird)\" ar=\"(الطير)\" uk=\"(Птах)\" fr=\"(L'oiseau)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿Qué animal vuela?",
-        options: ["El pájaro","La tortuga","El pez"],
+        question: `¿Qué animal vuela? <trans en="(What animal flies?)" ar="(ما هو الحيوان الذي يطير؟)" uk="(Яка тварина літає?)" fr="(Quel animal vole ?)"/>`,
+        options: ["El pájaro <trans en=\"(The bird)\" ar=\"(الطير)\" uk=\"(Птах)\" fr=\"(L'oiseau)\"/>", "La tortuga <trans en=\"(The turtle)\" ar=\"(السلحفاة)\" uk=\"(Черепаха)\" fr=\"(La tortue)\"/>", "El pez <trans en=\"(The fish)\" ar=\"(السمك)\" uk=\"(Риба)\" fr=\"(Le poisson)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Vive en el agua y nada:",
-        options: ["Pez","Pájaro","Conejo"],
+        question: `Vive en el agua y nada: <trans en="(Lives in water and swims:)" ar="(يعيش في الماء ويسبح:)" uk="(Живе у воді і плаває:)" fr="(Vit dans l'eau et nage :)"/>`,
+        options: ["Pez <trans en=\"(Fish)\" ar=\"(سمك)\" uk=\"(Риба)\" fr=\"(Poisson)\"/>", "Pájaro <trans en=\"(Bird)\" ar=\"(طير)\" uk=\"(Пташка)\" fr=\"(Oiseau)\"/>", "Conejo <trans en=\"(Rabbit)\" ar=\"(أرنب)\" uk=\"(Кролик)\" fr=\"(Lapin)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "El animal que maúlla es...",
-        options: ["El gato","El perro","La vaca"],
+        question: `El animal que maúlla es... <trans en="(The animal that meows is...)" ar="(الحيوان الذي يموء هو...)" uk="(Тварина, яка нявкає, це...)" fr="(L'animal qui miaule est...)"/>`,
+        options: ["El gato <trans en=\"(The cat)\" ar=\"(القطة)\" uk=\"(Кішка)\" fr=\"(Le chat)\"/>", "El perro <trans en=\"(The dog)\" ar=\"(الكلب)\" uk=\"(Собака)\" fr=\"(Le chien)\"/>", "La vaca <trans en=\"(The cow)\" ar=\"(البقرة)\" uk=\"(Корова)\" fr=\"(La vache)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Es un animal muy lento y lleva su casa:",
-        options: ["Tortuga","Conejo","León"],
+        question: `Es un animal muy lento y lleva su casa: <trans en="(It is a very slow animal and it carries its house:)" ar="(وهو حيوان بطيء جداً ويحمل بيته:)" uk="(Це дуже повільна тварина і вона несе свій будинок:)" fr="(C'est un animal très lent et il porte sa maison :)"/>`,
+        options: ["Tortuga <trans en=\"(Turtle)\" ar=\"(سلحفاة)\" uk=\"(Черепаха)\" fr=\"(Tortue)\"/>", "Conejo <trans en=\"(Rabbit)\" ar=\"(أرنب)\" uk=\"(Кролик)\" fr=\"(Lapin)\"/>", "León <trans en=\"(Leon)\" ar=\"(ليون)\" uk=\"(Леон)\" fr=\"(Léon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Qué animal tiene orejas largas y salta?",
-        options: ["Conejo","Caballo","Elefante"],
+        question: `¿Qué animal tiene orejas largas y salta? <trans en="(What animal has long ears and jumps?)" ar="(ما هو الحيوان الذي له آذان طويلة ويقفز؟)" uk="(У якої тварини довгі вуха і стрибки?)" fr="(Quel animal a de longues oreilles et saute ?)"/>`,
+        options: ["Conejo <trans en=\"(Rabbit)\" ar=\"(أرنب)\" uk=\"(Кролик)\" fr=\"(Lapin)\"/>", "Caballo <trans en=\"(Horse)\" ar=\"(حصان)\" uk=\"(Кінь)\" fr=\"(Cheval)\"/>", "Elefante <trans en=\"(Elephant)\" ar=\"(الفيل)\" uk=\"(Слон)\" fr=\"(Éléphant)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Es grande, gris y tiene trompa:",
-        options: ["Elefante","Jirafa","Tigre"],
+        question: `Es grande, gris y tiene trompa: <trans en="(It is big, gray and has a trunk:)" ar="(وهو كبير الحجم، رمادي اللون، وله جذع:)" uk="(Він великий, сірий і має стовбур:)" fr="(Il est grand, gris et possède une trompe :)"/>`,
+        options: ["Elefante <trans en=\"(Elephant)\" ar=\"(الفيل)\" uk=\"(Слон)\" fr=\"(Éléphant)\"/>", "Jirafa <trans en=\"(Giraffe)\" ar=\"(زرافة)\" uk=\"(Жираф)\" fr=\"(Girafe)\"/>", "Tigre <trans en=\"(Tiger)\" ar=\"(النمر)\" uk=\"(Тигр)\" fr=\"(Tigre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Animal que produce miel:",
-        options: ["Abeja","Mosca","Mariposa"],
+        question: `Animal que produce miel: <trans en="(Animal that produces honey:)" ar="(الحيوان الذي ينتج العسل :)" uk="(Тварини, що виробляють мед:)" fr="(Animal producteur de miel :)"/>`,
+        options: ["Abeja <trans en=\"(Bee)\" ar=\"(النحلة)\" uk=\"(Бджола)\" fr=\"(Abeille)\"/>", "Mosca <trans en=\"(Fly)\" ar=\"(يطير)\" uk=\"(Літати)\" fr=\"(Voler)\"/>", "Mariposa <trans en=\"(Butterfly)\" ar=\"(الفراشة)\" uk=\"(Метелик)\" fr=\"(Papillon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "¿Cuál de estos animales es un ave?",
-        options: ["Pingüino","Mono","Caballo"],
+        question: `¿Cuál de estos animales es un ave? <trans en="(Which of these animals is a bird?)" ar="(أي من هذه الحيوانات يعتبر طائرا؟)" uk="(Хто з цих тварин належить до птахів?)" fr="(Lequel de ces animaux est un oiseau ?)"/>`,
+        options: ["Pingüino <trans en=\"(Penguin)\" ar=\"(البطريق)\" uk=\"(Пінгвін)\" fr=\"(Pingouin)\"/>", "Mono <trans en=\"(Monkey)\" ar=\"(قرد)\" uk=\"(Мавпа)\" fr=\"(Singe)\"/>", "Caballo <trans en=\"(Horse)\" ar=\"(حصان)\" uk=\"(Кінь)\" fr=\"(Cheval)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Qué animal corre muy rápido?",
-        options: ["Guepardo / Tigre","Tortuga","Oso"],
+        question: `¿Qué animal corre muy rápido? <trans en="(What animal runs very fast?)" ar="(ما هو الحيوان الذي يركض بسرعة كبيرة؟)" uk="(Яка тварина дуже швидко бігає?)" fr="(Quel animal court très vite ?)"/>`,
+        options: ["Guepardo / Tigre <trans en=\"(Cheetah/Tiger)\" ar=\"(الفهد/النمر)\" uk=\"(Гепард/Тигр)\" fr=\"(Guépard/Tigre)\"/>", "Tortuga <trans en=\"(Turtle)\" ar=\"(سلحفاة)\" uk=\"(Черепаха)\" fr=\"(Tortue)\"/>", "Oso <trans en=\"(Bear)\" ar=\"(الدب)\" uk=\"(Ведмідь)\" fr=\"(Ours)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Animal que come plátanos y trepa árboles:",
-        options: ["Mono","Perro","Jirafa"],
+        question: `Animal que come plátanos y trepa árboles: <trans en="(Animal that eats bananas and climbs trees:)" ar="(الحيوان الذي يأكل الموز ويتسلق الأشجار :)" uk="(Тварина, яка їсть банани та лазить по деревах:)" fr="(Animal qui mange des bananes et grimpe aux arbres :)"/>`,
+        options: ["Mono <trans en=\"(Monkey)\" ar=\"(قرد)\" uk=\"(Мавпа)\" fr=\"(Singe)\"/>", "Perro <trans en=\"(Dog)\" ar=\"(كلب)\" uk=\"(Собака)\" fr=\"(Chien)\"/>", "Jirafa <trans en=\"(Giraffe)\" ar=\"(زرافة)\" uk=\"(Жираф)\" fr=\"(Girafe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Es verde y salta cerca del agua:",
-        options: ["Rana","Pez","Araña"],
+        question: `Es verde y salta cerca del agua: <trans en="(It is green and jumps near the water:)" ar="(وهو أخضر ويقفز بالقرب من الماء:)" uk="(Він зелений і стрибає біля води:)" fr="(Il est vert et saute près de l'eau :)"/>`,
+        options: ["Rana <trans en=\"(Frog)\" ar=\"(الضفدع)\" uk=\"(Жаба)\" fr=\"(Grenouille)\"/>", "Pez <trans en=\"(Fish)\" ar=\"(سمك)\" uk=\"(Риба)\" fr=\"(Poisson)\"/>", "Araña <trans en=\"(Spider)\" ar=\"(العنكبوت)\" uk=\"(Павук)\" fr=\"(Araignée)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Produce lana para la ropa:",
-        options: ["Oveja","Vaca","Cerdo"],
+        question: `Produce lana para la ropa: <trans en="(Produces wool for clothing:)" ar="(إنتاج الصوف للملابس :)" uk="(Виробляє вовну для одягу:)" fr="(Produit de la laine pour l'habillement :)"/>`,
+        options: ["Oveja <trans en=\"(Sheep)\" ar=\"(غنم)\" uk=\"(Вівці)\" fr=\"(Moutons)\"/>", "Vaca <trans en=\"(Cow)\" ar=\"(بقرة)\" uk=\"(Корова)\" fr=\"(Vache)\"/>", "Cerdo <trans en=\"(Pig)\" ar=\"(خنزير)\" uk=\"(Свиня)\" fr=\"(Cochon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Animal que cacarea y pone huevos:",
-        options: ["Gallina","Vaca","Pájaro"],
+        question: `Animal que cacarea y pone huevos: <trans en="(Animal that crows and lays eggs:)" ar="(الحيوان الذي يصيح ويضع البيض :)" uk="(Тварина, яка кукурікає і несе яйця:)" fr="(Animal qui chante et pond des œufs :)"/>`,
+        options: ["Gallina <trans en=\"(Hen)\" ar=\"(دجاجة)\" uk=\"(Курка)\" fr=\"(Poule)\"/>", "Vaca <trans en=\"(Cow)\" ar=\"(بقرة)\" uk=\"(Корова)\" fr=\"(Vache)\"/>", "Pájaro <trans en=\"(Bird)\" ar=\"(طير)\" uk=\"(Пташка)\" fr=\"(Oiseau)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Qué animal produce leche? (Extra)",
-        options: ["La vaca","El perro","El pez"],
+        question: `¿Qué animal produce leche? (Extra) <trans en="(What animal produces milk? (Bonus))" ar="(ما هو الحيوان الذي ينتج الحليب؟ (مكافأة))" uk="(Яка тварина дає молоко? (Бонус))" fr="(Quel animal produit du lait ? (Prime))"/>`,
+        options: ["La vaca <trans en=\"(The cow)\" ar=\"(البقرة)\" uk=\"(Корова)\" fr=\"(La vache)\"/>", "El perro <trans en=\"(The dog)\" ar=\"(الكلب)\" uk=\"(Собака)\" fr=\"(Le chien)\"/>", "El pez <trans en=\"(The fish)\" ar=\"(السمك)\" uk=\"(Риба)\" fr=\"(Le poisson)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Este animal tiene cuello largo: (Extra)",
-        options: ["Jirafa","Elefante","Caballo"],
+        question: `Este animal tiene cuello largo: (Extra) <trans en="(This animal has a long neck: (Extra))" ar="(هذا الحيوان له رقبة طويلة: (إضافي))" uk="(Ця тварина має довгу шию: (Екстра))" fr="(Cet animal a un long cou : (Extra))"/>`,
+        options: ["Jirafa <trans en=\"(Giraffe)\" ar=\"(زرافة)\" uk=\"(Жираф)\" fr=\"(Girafe)\"/>", "Elefante <trans en=\"(Elephant)\" ar=\"(الفيل)\" uk=\"(Слон)\" fr=\"(Éléphant)\"/>", "Caballo <trans en=\"(Horse)\" ar=\"(حصان)\" uk=\"(Кінь)\" fr=\"(Cheval)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -6431,124 +6447,125 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     exercises: [
       {
         id: "ex1",
-        question: "¿De dónde es Ali?",
-        options: ["Es de Málaga", "Es de Marruecos", "Es de Francia"],
+        question: `¿De dónde es Ali? <trans en="(Where is Ali from?)" ar="(من أين علي؟)" uk="(Звідки Алі?)" fr="(D'où vient Ali ?)"/>`,
+        options: ["Es de Málaga <trans en=\"(He is from Malaga)\" ar=\"(وهو من ملقة)\" uk=\"(Він із Малаги)\" fr=\"(Il est de Malaga)\"/>", "Es de Marruecos <trans en=\"(He is from Morocco)\" ar=\"(هو من المغرب)\" uk=\"(Він з Марокко)\" fr=\"(Il vient du Maroc)\"/>", "Es de Francia <trans en=\"(He is from France)\" ar=\"(هو من فرنسا)\" uk=\"(Він із Франції)\" fr=\"(Il vient de France)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿De qué quiere trabajar Ali?",
-        options: ["De profesor", "De cocinero", "De conductor"],
+        question: `¿De qué quiere trabajar Ali? <trans en="(What does Ali want to work on?)" ar="(ما الذي يريد علي أن يعمل عليه؟)" uk="(Над чим Алі хоче працювати?)" fr="(Sur quoi Ali veut-il travailler ?)"/>`,
+        options: ["De profesor <trans en=\"(As a teacher)\" ar=\"(كمدرس)\" uk=\"(Як вчитель)\" fr=\"(En tant qu'enseignant)\"/>", "De cocinero <trans en=\"(As a cook)\" ar=\"(كطباخ)\" uk=\"(Як кухар)\" fr=\"(En tant que cuisinier)\"/>", "De conductor <trans en=\"(Driver)\" ar=\"(سائق)\" uk=\"(Водій)\" fr=\"(Chauffeur)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "¿Dónde está Ali ahora?",
-        options: ["En Marruecos", "En Málaga", "En Madrid"],
+        question: `¿Dónde está Ali ahora? <trans en="(Where is Ali now?)" ar="(أين علي الآن؟)" uk="(Де зараз Алі?)" fr="(Où est Ali maintenant ?)"/>`,
+        options: ["En Marruecos <trans en=\"(In Morocco)\" ar=\"(في المغرب)\" uk=\"(У Марокко)\" fr=\"(Au Maroc)\"/>", "En Málaga <trans en=\"(In Malaga)\" ar=\"(في ملقة)\" uk=\"(У Малазі)\" fr=\"(À Málaga)\"/>", "En Madrid <trans en=\"(In Madrid)\" ar=\"(في مدريد)\" uk=\"(У Мадриді)\" fr=\"(À Madrid)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex4",
-        question: "En un texto, 'ayer' se refiere a...",
-        options: ["El pasado","El presente","El futuro"],
+        question: `En un texto, 'ayer' se refiere a... <trans en="(In a text, 'yesterday' refers to...)" ar="(في النص، تشير كلمة "أمس" إلى ...)" uk="(У тексті «вчора» стосується...)" fr="(Dans un texte, « hier » fait référence à...)"/>`,
+        options: ["El pasado <trans en=\"(The past)\" ar=\"(الماضي)\" uk=\"(Минуле)\" fr=\"(Le passé)\"/>", "El presente <trans en=\"(The present)\" ar=\"(الحاضر)\" uk=\"(Сучасність)\" fr=\"(Le présent)\"/>", "El futuro <trans en=\"(The future)\" ar=\"(المستقبل)\" uk=\"(Майбутнє)\" fr=\"(L'avenir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Si alguien dice 'estoy muy cansado', ¿cómo se siente?",
-        options: ["Sin energía","Feliz","Enfadado"],
+        question: `Si alguien dice 'estoy muy cansado', ¿cómo se siente? <trans en="(If someone says 'I'm very tired', how do you feel?)" ar="(إذا قال لك أحدهم "أنا متعب جدًا"، ما هو شعورك؟)" uk="(Якщо хтось каже: «Я дуже втомився», що ви відчуваєте?)" fr="(Si quelqu'un vous dit « Je suis très fatigué », comment vous sentez-vous ?)"/>`,
+        options: ["Sin energía <trans en=\"(No power)\" ar=\"(لا قوة)\" uk=\"(Немає живлення)\" fr=\"(Pas de courant)\"/>", "Feliz <trans en=\"(Happy)\" ar=\"(سعيد)\" uk=\"(Щасливий)\" fr=\"(Heureux)\"/>", "Enfadado <trans en=\"(Angry)\" ar=\"(غاضب)\" uk=\"(Злий)\" fr=\"(En colère)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Si la lectura dice 'Mañana lloverá', ¿cuándo ocurrirá?",
-        options: ["En el futuro","En el pasado","Hoy"],
+        question: `Si la lectura dice 'Mañana lloverá', ¿cuándo ocurrirá? <trans en="(If the reading says 'Tomorrow it will rain', when will it happen?)" ar="(إذا كانت القراءة تقول "غداً ستمطر" متى سيحدث ذلك؟)" uk="(Якщо на екрані написано: «Завтра буде дощ», коли це станеться?)" fr="(Si la lecture dit « Demain il pleuvra », quand cela arrivera-t-il ?)"/>`,
+        options: ["En el futuro <trans en=\"(In the future)\" ar=\"(في المستقبل)\" uk=\"(У майбутньому)\" fr=\"(Dans le futur)\"/>", "En el pasado <trans en=\"(In the past)\" ar=\"(في الماضي)\" uk=\"(У минулому)\" fr=\"(Dans le passé)\"/>", "Hoy <trans en=\"(Today)\" ar=\"(اليوم)\" uk=\"(Сьогодні)\" fr=\"(Aujourd'hui)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "¿Qué significa 'leer un cuento'?",
-        options: ["Leer una historia corta","Escribir una carta","Comprar un libro"],
+        question: `¿Qué significa 'leer un cuento'? <trans en="(What does 'read a story' mean?)" ar="(ماذا تعني عبارة "اقرأ قصة"؟)" uk="(Що означає «прочитати історію»?)" fr="(Que signifie « lire une histoire » ?)"/>`,
+        options: ["Leer una historia corta <trans en=\"(Read a short story)\" ar=\"(قراءة قصة قصيرة)\" uk=\"(Прочитайте коротке оповідання)\" fr=\"(Lire une nouvelle)\"/>", "Escribir una carta <trans en=\"(Write a letter)\" ar=\"(اكتب رسالة)\" uk=\"(Напишіть листа)\" fr=\"(Écrivez une lettre)\"/>", "Comprar un libro <trans en=\"(Buy a book)\" ar=\"(شراء كتاب)\" uk=\"(Купити книгу)\" fr=\"(Acheter un livre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Si alguien tiene hambre, normalmente...",
-        options: ["Come","Duerme","Corre"],
+        question: `Si alguien tiene hambre, normalmente... <trans en="(If someone is hungry, usually...)" ar="(إذا كان شخص ما جائعا، عادة...)" uk="(Якщо хтось голодний, зазвичай...)" fr="(Si quelqu'un a faim, généralement...)"/>`,
+        options: ["Come <trans en=\"(Eat)\" ar=\"(أكل)\" uk=\"(Їсти)\" fr=\"(Manger)\"/>", "Duerme <trans en=\"(Sleep)\" ar=\"(النوم)\" uk=\"(Спати)\" fr=\"(Dormir)\"/>", "Corre <trans en=\"(Run)\" ar=\"(تشغيل)\" uk=\"(Біжи)\" fr=\"(Courir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Si en el texto dice 'Juan corre rápido', ¿qué hace Juan?",
-        options: ["Va a mucha velocidad","Duerme","Camina lento"],
+        question: `Si en el texto dice 'Juan corre rápido', ¿qué hace Juan? <trans en="(If the text says 'John runs fast', what does John do?)" ar="(إذا كان النص يقول "جون يجري بسرعة"، فماذا يفعل جون؟)" uk="(Якщо в тексті сказано «Іван швидко біжить», що робить Джон?)" fr="(Si le texte dit « John court vite », que fait John ?)"/>`,
+        options: ["Va a mucha velocidad <trans en=\"(It goes very fast)\" ar=\"(يذهب بسرعة كبيرة)\" uk=\"(Це йде дуже швидко)\" fr=\"(Ça va très vite)\"/>", "Duerme <trans en=\"(Sleep)\" ar=\"(النوم)\" uk=\"(Спати)\" fr=\"(Dormir)\"/>", "Camina lento <trans en=\"(Walk slowly)\" ar=\"(المشي ببطء)\" uk=\"(Ходи повільно)\" fr=\"(Marchez lentement)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Cuando un personaje 'se despide', significa que...",
-        options: ["Dice adiós","Dice hola","Llora"],
+        question: `Cuando un personaje 'se despide', significa que... <trans en="(When a character 'says goodbye', it means that...)" ar="(عندما تقول الشخصية "وداعًا"، فهذا يعني أن...)" uk="(Коли персонаж «прощається», це означає, що...)" fr="(Quand un personnage « dit au revoir », cela signifie que...)"/>`,
+        options: ["Dice adiós <trans en=\"(Says goodbye)\" ar=\"(يقول وداعا)\" uk=\"(Прощається)\" fr=\"(Dit au revoir)\"/>", "Dice hola <trans en=\"(Says hello)\" ar=\"(يقول مرحبا)\" uk=\"(Вітається)\" fr=\"(Dit bonjour)\"/>", "Llora <trans en=\"(Cry)\" ar=\"(البكاء)\" uk=\"(Плакати)\" fr=\"(Pleurer)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Si la tienda está 'cerrada', tú...",
-        options: ["No puedes comprar","Puedes entrar","Compras pan"],
+        question: `Si la tienda está 'cerrada', tú... <trans en="(If the store is 'closed', you...)" ar="(إذا كان المتجر "مغلقًا"، فأنت...)" uk="(Якщо магазин «зачинено», ви...)" fr="(Si le magasin est « fermé », vous...)"/>`,
+        options: ["No puedes comprar <trans en=\"(You can't buy)\" ar=\"(لا يمكنك الشراء)\" uk=\"(Не можна купити)\" fr=\"(Vous ne pouvez pas acheter)\"/>", "Puedes entrar <trans en=\"(You can enter)\" ar=\"(يمكنك الدخول)\" uk=\"(Ви можете входити)\" fr=\"(Vous pouvez entrer)\"/>", "Compras pan <trans en=\"(You buy bread)\" ar=\"(تشتري الخبز)\" uk=\"(Купуєш хліб)\" fr=\"(Vous achetez du pain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "'Había una vez' se usa al principio de...",
-        options: ["Un cuento","Una carta formal","Una noticia"],
+        question: `'Había una vez' se usa al principio de... <trans en="('Once upon a time' is used at the beginning of...)" ar="(يتم استخدام عبارة "كان ياما كان" في بداية ...)" uk="(«Одного разу» використовується на початку...)" fr="(« Il était une fois » est utilisé au début de...)"/>`,
+        options: ["Un cuento <trans en=\"(A story)\" ar=\"(قصة)\" uk=\"(Розповідь)\" fr=\"(Une histoire)\"/>", "Una carta formal <trans en=\"(A formal letter)\" ar=\"(خطاب رسمي)\" uk=\"(Офіційний лист)\" fr=\"(Une lettre formelle)\"/>", "Una noticia <trans en=\"(A news)\" ar=\"(خبر)\" uk=\"(Новина)\" fr=\"(Une nouvelle)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Si el protagonista 'encuentra' un tesoro, ¿qué significa?",
-        options: ["Lo halla o lo ve","Lo pierde","Lo esconde"],
+        question: `Si el protagonista 'encuentra' un tesoro, ¿qué significa? <trans en="(If the protagonist 'finds' a treasure, what does it mean?)" ar="(إذا "عثر" بطل الرواية على كنز، فماذا يعني ذلك؟)" uk="(Якщо герой «знаходить» скарб, що це означає?)" fr="(Si le protagoniste « trouve » un trésor, qu'est-ce que cela signifie ?)"/>`,
+        options: ["Lo halla o lo ve <trans en=\"(Find it or see it)\" ar=\"(ابحث عنه أو شاهده)\" uk=\"(Знайдіть або подивіться)\" fr=\"(Trouvez-le ou voyez-le)\"/>", "Lo pierde <trans en=\"(Loses it)\" ar=\"(يخسره)\" uk=\"(Втрачає його)\" fr=\"(Le perd)\"/>", "Lo esconde <trans en=\"(Hides it)\" ar=\"(يخفيه)\" uk=\"(Приховує це)\" fr=\"(Le cache)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Qué es un 'resumen'?",
-        options: ["La idea principal breve","Un cuento largo","Una pregunta"],
+        question: `¿Qué es un 'resumen'? <trans en="(What is a 'summary'?)" ar="(ما هو "الملخص"؟)" uk="(Що таке «резюме»?)" fr="(Qu'est-ce qu'un « résumé » ?)"/>`,
+        options: ["La idea principal breve <trans en=\"(Brief main idea)\" ar=\"(فكرة رئيسية مختصرة)\" uk=\"(Коротка основна думка)\" fr=\"(Brève idée principale)\"/>", "Un cuento largo <trans en=\"(A long story)\" ar=\"(قصة طويلة)\" uk=\"(Довга історія)\" fr=\"(Une longue histoire)\"/>", "Una pregunta <trans en=\"(A question)\" ar=\"(سؤال)\" uk=\"(Питання)\" fr=\"(Une question)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Si alguien dice 'No entiendo', necesita...",
-        options: ["Una explicación","Comida","Dormir"],
+        question: `Si alguien dice 'No entiendo', necesita... <trans en="(If someone says 'I don't understand', they need...)" ar="(إذا قال شخص ما "لا أفهم"، فهو بحاجة إلى...)" uk="(Якщо хтось каже "Я не розумію", їм потрібно...)" fr="(Si quelqu'un dit 'Je ne comprends pas', il lui faut...)"/>`,
+        options: ["Una explicación <trans en=\"(An explanation)\" ar=\"(شرح)\" uk=\"(Пояснення)\" fr=\"(Une explication)\"/>", "Comida <trans en=\"(Food)\" ar=\"(الغذاء)\" uk=\"(Харчування)\" fr=\"(Nourriture)\"/>", "Dormir <trans en=\"(Sleep)\" ar=\"(النوم)\" uk=\"(Спати)\" fr=\"(Dormir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Si el texto habla del 'invierno', probablemente mencione...",
-        options: ["Nieve y frío","Playa y sol","Mucho calor"],
+        question: `Si el texto habla del 'invierno', probablemente mencione... <trans en="(If the text talks about 'winter', it probably mentions...)" ar="(إذا كان النص يتحدث عن "الشتاء"، فمن المحتمل أنه يذكر...)" uk="(Якщо в тексті йдеться про «зиму», то, мабуть, згадується...)" fr="(Si le texte parle d'hiver, il mentionne probablement...)"/>`,
+        options: ["Nieve y frío <trans en=\"(Snow and cold)\" ar=\"(الثلج والبرد)\" uk=\"(Сніг і холод)\" fr=\"(Neige et froid)\"/>", "Playa y sol <trans en=\"(Beach and sun)\" ar=\"(الشاطئ والشمس)\" uk=\"(Пляж і сонце)\" fr=\"(Plage et soleil)\"/>", "Mucho calor <trans en=\"(Very hot)\" ar=\"(حار جدا)\" uk=\"(Дуже жарко)\" fr=\"(Très chaud)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "¿Qué significa 'subrayar' una palabra?",
-        options: ["Poner una línea debajo","Borrarla","Ignorarla"],
+        question: `¿Qué significa 'subrayar' una palabra? <trans en="(What does it mean to 'underline' a word?)" ar="(ما معنى وضع خط تحت الكلمة؟)" uk="(Що означає «підкреслити» слово?)" fr="(Que signifie « souligner » un mot ?)"/>`,
+        options: ["Poner una línea debajo <trans en=\"(Put a line below)\" ar=\"(ضع خطا أدناه)\" uk=\"(Поставте рядок нижче)\" fr=\"(Mettez une ligne ci-dessous)\"/>", "Borrarla <trans en=\"(Delete it)\" ar=\"(احذفه)\" uk=\"(Видалити)\" fr=\"(Supprimez-le)\"/>", "Ignorarla <trans en=\"(Ignore her)\" ar=\"(تجاهلها)\" uk=\"(Ігноруйте її)\" fr=\"(Ignore-la)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Si María 'estudió toda la noche', ella...",
-        options: ["Está cansada hoy","Durmió muy bien","No sabe nada"],
+        question: `Si María 'estudió toda la noche', ella... <trans en="(If María 'studied all night', she...)" ar="(إذا كانت ماريا "تدرس طوال الليل"، فهي...)" uk="(Якщо Марія «вчилася всю ніч», вона...)" fr="(Si María « étudiait toute la nuit », elle...)"/>`,
+        options: ["Está cansada hoy <trans en=\"(She is tired today)\" ar=\"(إنها متعبة اليوم)\" uk=\"(Вона сьогодні втомилася)\" fr=\"(Elle est fatiguée aujourd'hui)\"/>", "Durmió muy bien <trans en=\"(He slept very well)\" ar=\"(كان ينام جيدا)\" uk=\"(Він дуже добре спав)\" fr=\"(Il a très bien dormi)\"/>", "No sabe nada <trans en=\"(He doesn't know anything)\" ar=\"(لا يعرف شيئا)\" uk=\"(Він нічого не знає)\" fr=\"(Il ne sait rien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "En un diálogo, '—' significa que...",
-        options: ["Alguien habla","El texto terminó","Es un título"],
+        question: `En un diálogo, '—' significa que... <trans en="(In a dialogue, '—' means that...)" ar="(في الحوار، "-" تعني أن...)" uk="(У діалозі «—» означає, що...)" fr="(Dans un dialogue, '—' signifie que...)"/>`,
+        options: ["Alguien habla <trans en=\"(Someone speaks)\" ar=\"(شخص ما يتحدث)\" uk=\"(Хтось говорить)\" fr=\"(Quelqu'un parle)\"/>", "El texto terminó <trans en=\"(The text ended)\" ar=\"(انتهى النص)\" uk=\"(Текст закінчено)\" fr=\"(Le texte est terminé)\"/>", "Es un título <trans en=\"(It's a title)\" ar=\"(إنه عنوان)\" uk=\"(Це назва)\" fr=\"(C'est un titre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Si el texto dice 'Al final, fueron felices', es...",
-        options: ["La conclusión","La introducción","El título"],
+        question: `Si el texto dice 'Al final, fueron felices', es... <trans en="(If the text says 'In the end, they were happy', it is...)" ar="(إذا كان النص يقول "في النهاية، كانوا سعداء"، فهو...)" uk="(Якщо в тексті написано «Зрештою вони були щасливі», це...)" fr="(Si le texte dit 'Au final, ils étaient contents', c'est...)"/>`,
+        options: ["La conclusión <trans en=\"(The conclusion)\" ar=\"(الخاتمة)\" uk=\"(Висновок)\" fr=\"(La conclusion)\"/>", "La introducción <trans en=\"(The introduction)\" ar=\"(المقدمة)\" uk=\"(Вступ)\" fr=\"(L'introduction)\"/>", "El título <trans en=\"(The title)\" ar=\"(العنوان)\" uk=\"(Назва)\" fr=\"(Le titre)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -6910,124 +6927,125 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país.
     exercises: [
       {
         id: "ex1",
-        question: "España está en:",
-        options: ["Asia", "África", "Europa"],
+        question: `España está en: <trans en="(Spain is in:)" ar="(اسبانيا في:)" uk="(Іспанія знаходиться в:)" fr="(L'Espagne est dans :)"/>`,
+        options: ["Asia <trans en=\"(Asia)\" ar=\"(آسيا)\" uk=\"(Азія)\" fr=\"(Asie)\"/>", "África <trans en=\"(Africa)\" ar=\"(أفريقيا)\" uk=\"(Африка)\" fr=\"(Afrique)\"/>", "Europa <trans en=\"(Europe)\" ar=\"(أوروبا)\" uk=\"(Європа)\" fr=\"(Europe)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "¿Cómo se llama el continente con muchos desiertos al sur de Europa?",
-        options: ["África", "América", "Oceanía"],
+        question: `¿Cómo se llama el continente con muchos desiertos al sur de Europa? <trans en="(What is the name of the continent with many deserts south of Europe?)" ar="(ما اسم القارة التي بها صحاري كثيرة جنوب أوروبا؟)" uk="(Як називається материк з багатьма пустелями на південь від Європи?)" fr="(Quel est le nom du continent qui compte de nombreux déserts au sud de l'Europe ?)"/>`,
+        options: ["África <trans en=\"(Africa)\" ar=\"(أفريقيا)\" uk=\"(Африка)\" fr=\"(Afrique)\"/>", "América <trans en=\"(America)\" ar=\"(امريكا)\" uk=\"(Америка)\" fr=\"(Amérique)\"/>", "Oceanía <trans en=\"(Oceania)\" ar=\"(أوقيانوسيا)\" uk=\"(Океанія)\" fr=\"(Océanie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "El país al sur de España es...",
-        options: ["Marruecos","Francia","Italia"],
+        question: `El país al sur de España es... <trans en="(The country south of Spain is...)" ar="(الدولة الواقعة جنوب إسبانيا هي...)" uk="(Країна на південь від Іспанії...)" fr="(Le pays au sud de l'Espagne est...)"/>`,
+        options: ["Marruecos <trans en=\"(Morocco)\" ar=\"(المغرب)\" uk=\"(Марокко)\" fr=\"(Maroc)\"/>", "Francia <trans en=\"(France)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(France)\"/>", "Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "La capital de Francia es...",
-        options: ["París","Madrid","Roma"],
+        question: `La capital de Francia es... <trans en="(The capital of France is...)" ar="(عاصمة فرنسا ...)" uk="(Столицею Франції є...)" fr="(La capitale de la France est...)"/>`,
+        options: ["París <trans en=\"(Paris)\" ar=\"(باريس)\" uk=\"(Париж)\" fr=\"(Paris)\"/>", "Madrid <trans en=\"(Madrid)\" ar=\"(مدريد)\" uk=\"(Мадрид)\" fr=\"(Madrid)\"/>", "Roma <trans en=\"(Rome)\" ar=\"(روما)\" uk=\"(Рим)\" fr=\"(Rome)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "País situado al norte de México:",
-        options: ["Estados Unidos","Brasil","Argentina"],
+        question: `País situado al norte de México: <trans en="(Country located north of Mexico:)" ar="(دولة تقع شمال المكسيك :)" uk="(Країна на північ від Мексики:)" fr="(Pays situé au nord du Mexique :)"/>`,
+        options: ["Estados Unidos <trans en=\"(United States)\" ar=\"(الولايات المتحدة)\" uk=\"(Сполучені Штати)\" fr=\"(États-Unis)\"/>", "Brasil <trans en=\"(Brazil)\" ar=\"(البرازيل)\" uk=\"(Бразилія)\" fr=\"(Brésil)\"/>", "Argentina <trans en=\"(Argentina)\" ar=\"(الارجنتين)\" uk=\"(Аргентина)\" fr=\"(Argentine)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿Dónde está la Torre Eiffel?",
-        options: ["Francia","Italia","España"],
+        question: `¿Dónde está la Torre Eiffel? <trans en="(Where is the Eiffel Tower?)" ar="(أين يقع برج إيفل؟)" uk="(Де знаходиться Ейфелева вежа?)" fr="(Où est la Tour Eiffel ?)"/>`,
+        options: ["Francia <trans en=\"(France)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(France)\"/>", "Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>", "España <trans en=\"(Spain)\" ar=\"(اسبانيا)\" uk=\"(Іспанія)\" fr=\"(Espagne)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "¿En qué continente está China?",
-        options: ["Asia","Europa","América"],
+        question: `¿En qué continente está China? <trans en="(What continent is China on?)" ar="(في أي قارة تقع الصين؟)" uk="(На якому континенті розташований Китай?)" fr="(Sur quel continent se trouve la Chine ?)"/>`,
+        options: ["Asia <trans en=\"(Asia)\" ar=\"(آسيا)\" uk=\"(Азія)\" fr=\"(Asie)\"/>", "Europa <trans en=\"(Europe)\" ar=\"(أوروبا)\" uk=\"(Європа)\" fr=\"(Europe)\"/>", "América <trans en=\"(America)\" ar=\"(امريكا)\" uk=\"(Америка)\" fr=\"(Amérique)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "¿En qué país se encuentra Roma?",
-        options: ["Italia","Grecia","Portugal"],
+        question: `¿En qué país se encuentra Roma? <trans en="(In which country is Rome located?)" ar="(في أي بلد تقع روما؟)" uk="(У якій країні розташований Рим?)" fr="(Dans quel pays se trouve Rome ?)"/>`,
+        options: ["Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>", "Grecia <trans en=\"(Greece)\" ar=\"(اليونان)\" uk=\"(Греція)\" fr=\"(Grèce)\"/>", "Portugal <trans en=\"(Portugal)\" ar=\"(البرتغال)\" uk=\"(Португалія)\" fr=\"(Portugal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "La capital de España es...",
-        options: ["Madrid","Barcelona","Sevilla"],
+        question: `La capital de España es... <trans en="(The capital of Spain is...)" ar="(عاصمة اسبانيا ...)" uk="(Столицею Іспанії є...)" fr="(La capitale de l'Espagne est...)"/>`,
+        options: ["Madrid <trans en=\"(Madrid)\" ar=\"(مدريد)\" uk=\"(Мадрид)\" fr=\"(Madrid)\"/>", "Barcelona <trans en=\"(Barcelona)\" ar=\"(برشلونة)\" uk=\"(Барселона)\" fr=\"(Barcelone)\"/>", "Sevilla <trans en=\"(Seville)\" ar=\"(إشبيلية)\" uk=\"(Севілья)\" fr=\"(Séville)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "El país más grande de Sudamérica es...",
-        options: ["Brasil","Chile","Perú"],
+        question: `El país más grande de Sudamérica es... <trans en="(The largest country in South America is...)" ar="(أكبر دولة في أمريكا الجنوبية هي ...)" uk="(Найбільшою країною Південної Америки є...)" fr="(Le plus grand pays d'Amérique du Sud est...)"/>`,
+        options: ["Brasil <trans en=\"(Brazil)\" ar=\"(البرازيل)\" uk=\"(Бразилія)\" fr=\"(Brésil)\"/>", "Chile <trans en=\"(Chile)\" ar=\"(تشيلي)\" uk=\"(Чилі)\" fr=\"(Chili)\"/>", "Perú <trans en=\"(Peru)\" ar=\"(بيرو)\" uk=\"(Перу)\" fr=\"(Pérou)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "¿Qué país comparte la península Ibérica con España?",
-        options: ["Portugal","Francia","Italia"],
+        question: `¿Qué país comparte la península Ibérica con España? <trans en="(What country shares the Iberian Peninsula with Spain?)" ar="(ما هي الدولة التي تشترك في شبه الجزيرة الأيبيرية مع إسبانيا؟)" uk="(Яка країна поділяє Піренейський півострів з Іспанією?)" fr="(Quel pays partage la péninsule ibérique avec l'Espagne ?)"/>`,
+        options: ["Portugal <trans en=\"(Portugal)\" ar=\"(البرتغال)\" uk=\"(Португалія)\" fr=\"(Portugal)\"/>", "Francia <trans en=\"(France)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(France)\"/>", "Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿En qué continente está Egipto?",
-        options: ["África","Asia","Europa"],
+        question: `¿En qué continente está Egipto? <trans en="(What continent is Egypt on?)" ar="(في أي قارة تقع مصر؟)" uk="(На якому континенті розташований Єгипет?)" fr="(Sur quel continent se trouve l'Egypte ?)"/>`,
+        options: ["África <trans en=\"(Africa)\" ar=\"(أفريقيا)\" uk=\"(Африка)\" fr=\"(Afrique)\"/>", "Asia <trans en=\"(Asia)\" ar=\"(آسيا)\" uk=\"(Азія)\" fr=\"(Asie)\"/>", "Europa <trans en=\"(Europe)\" ar=\"(أوروبا)\" uk=\"(Європа)\" fr=\"(Europe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Londres es la capital de...",
-        options: ["Inglaterra / Reino Unido","Irlanda","Alemania"],
+        question: `Londres es la capital de... <trans en="(London is the capital of...)" ar="(لندن عاصمة...)" uk="(Лондон є столицею...)" fr="(Londres est la capitale de...)"/>`,
+        options: ["Inglaterra / Reino Unido <trans en=\"(England / United Kingdom)\" ar=\"(انجلترا / المملكة المتحدة)\" uk=\"(Англія / Великобританія)\" fr=\"(Angleterre / Royaume-Uni)\"/>", "Irlanda <trans en=\"(Ireland)\" ar=\"(ايرلندا)\" uk=\"(Ірландія)\" fr=\"(Irlande)\"/>", "Alemania <trans en=\"(Germany)\" ar=\"(ألمانيا)\" uk=\"(Німеччина)\" fr=\"(Allemagne)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Qué océano está entre América y Europa?",
-        options: ["Atlántico","Pacífico","Índico"],
+        question: `¿Qué océano está entre América y Europa? <trans en="(What ocean is between America and Europe?)" ar="(ما هو المحيط الذي يقع بين أمريكا وأوروبا؟)" uk="(Який океан знаходиться між Америкою та Європою?)" fr="(Quel océan se trouve entre l'Amérique et l'Europe ?)"/>`,
+        options: ["Atlántico <trans en=\"(Atlantic)\" ar=\"(الأطلسي)\" uk=\"(Атлантика)\" fr=\"(Atlantique)\"/>", "Pacífico <trans en=\"(Pacific)\" ar=\"(المحيط الهادئ)\" uk=\"(Тихий океан)\" fr=\"(Pacifique)\"/>", "Índico <trans en=\"(Indian)\" ar=\"(هندي)\" uk=\"(Індіанець)\" fr=\"(Indien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "¿En qué continente está Argentina?",
-        options: ["América","África","Europa"],
+        question: `¿En qué continente está Argentina? <trans en="(What continent is Argentina on?)" ar="(في أي قارة تقع الأرجنتين؟)" uk="(На якому континенті розташована Аргентина?)" fr="(Sur quel continent se trouve l'Argentine ?)"/>`,
+        options: ["América <trans en=\"(America)\" ar=\"(امريكا)\" uk=\"(Америка)\" fr=\"(Amérique)\"/>", "África <trans en=\"(Africa)\" ar=\"(أفريقيا)\" uk=\"(Африка)\" fr=\"(Afrique)\"/>", "Europa <trans en=\"(Europe)\" ar=\"(أوروبا)\" uk=\"(Європа)\" fr=\"(Europe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "¿Dónde está Tokio?",
-        options: ["Japón","China","Corea"],
+        question: `¿Dónde está Tokio? <trans en="(Where is Tokyo?)" ar="(أين تقع طوكيو؟)" uk="(Де Токіо?)" fr="(Où est Tokyo ?)"/>`,
+        options: ["Japón <trans en=\"(Japan)\" ar=\"(اليابان)\" uk=\"(Японія)\" fr=\"(Japon)\"/>", "China <trans en=\"(China)\" ar=\"(الصين)\" uk=\"(Китай)\" fr=\"(Chine)\"/>", "Corea <trans en=\"(Korea)\" ar=\"(كوريا)\" uk=\"(Корея)\" fr=\"(Corée)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Marruecos está en el continente de...",
-        options: ["África","Europa","Asia"],
+        question: `Marruecos está en el continente de... <trans en="(Morocco is on the continent of...)" ar="(يقع المغرب في قارة...)" uk="(Марокко знаходиться на континенті...)" fr="(Le Maroc est sur le continent de...)"/>`,
+        options: ["África <trans en=\"(Africa)\" ar=\"(أفريقيا)\" uk=\"(Африка)\" fr=\"(Afrique)\"/>", "Europa <trans en=\"(Europe)\" ar=\"(أوروبا)\" uk=\"(Європа)\" fr=\"(Europe)\"/>", "Asia <trans en=\"(Asia)\" ar=\"(آسيا)\" uk=\"(Азія)\" fr=\"(Asie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Rusia está situada en...",
-        options: ["Europa y Asia","Solo Asia","Solo Europa"],
+        question: `Rusia está situada en... <trans en="(Russia is located in...)" ar="(تقع روسيا في ...)" uk="(Росія розташована в...)" fr="(La Russie est située dans...)"/>`,
+        options: ["Europa y Asia <trans en=\"(Europe and Asia)\" ar=\"(أوروبا وآسيا)\" uk=\"(Європа та Азія)\" fr=\"(Europe et Asie)\"/>", "Solo Asia <trans en=\"(Asia only)\" ar=\"(آسيا فقط)\" uk=\"(Тільки Азія)\" fr=\"(Asie uniquement)\"/>", "Solo Europa <trans en=\"(Europe only)\" ar=\"(أوروبا فقط)\" uk=\"(Тільки Європа)\" fr=\"(Europe uniquement)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Qué país tiene forma de bota?",
-        options: ["Italia","España","Grecia"],
+        question: `¿Qué país tiene forma de bota? <trans en="(What country is shaped like a boot?)" ar="(ما هي الدولة التي على شكل الحذاء؟)" uk="(Яка країна має форму чобота?)" fr="(Quel pays a la forme d'une botte ?)"/>`,
+        options: ["Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>", "España <trans en=\"(Spain)\" ar=\"(اسبانيا)\" uk=\"(Іспанія)\" fr=\"(Espagne)\"/>", "Grecia <trans en=\"(Greece)\" ar=\"(اليونان)\" uk=\"(Греція)\" fr=\"(Grèce)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "El país al sur de España es... (Extra)",
-        options: ["Marruecos","Francia","Italia"],
+        question: `El país al sur de España es... (Extra) <trans en="(The country south of Spain is... (Extra))" ar="(الدولة الواقعة جنوب إسبانيا هي... (إضافي))" uk="(Країна на південь від Іспанії... (Додатково))" fr="(Le pays au sud de l'Espagne est... (Extra))"/>`,
+        options: ["Marruecos <trans en=\"(Morocco)\" ar=\"(المغرب)\" uk=\"(Марокко)\" fr=\"(Maroc)\"/>", "Francia <trans en=\"(France)\" ar=\"(فرنسا)\" uk=\"(Франція)\" fr=\"(France)\"/>", "Italia <trans en=\"(Italy)\" ar=\"(إيطاليا)\" uk=\"(Італія)\" fr=\"(Italie)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -7385,124 +7403,125 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
     exercises: [
       {
         id: "ex1",
-        question: "Necesitas lavarte las manos. Preguntas: ¿Dónde está...?",
-        options: ["el metro", "el lavabo", "el autobús"],
+        question: `Necesitas lavarte las manos. Preguntas: ¿Dónde está...? <trans en="(You need to wash your hands. Questions: Where is...?)" ar="(أنت بحاجة إلى غسل يديك. الأسئلة: أين...؟)" uk="(Треба вимити руки. Запитання: Де...?)" fr="(Vous devez vous laver les mains. Questions : Où est... ?)"/>`,
+        options: ["el metro <trans en=\"(the meter)\" ar=\"(المتر)\" uk=\"(лічильник)\" fr=\"(le compteur)\"/>", "el lavabo <trans en=\"(the sink)\" ar=\"(الحوض)\" uk=\"(раковина)\" fr=\"(l'évier)\"/>", "el autobús <trans en=\"(the bus)\" ar=\"(الحافلة)\" uk=\"(автобус)\" fr=\"(le bus)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Quieres comprar algo de comida. Preguntas: ¿Dónde está...?",
-        options: ["la tienda", "el hospital", "el mar"],
+        question: `Quieres comprar algo de comida. Preguntas: ¿Dónde está...? <trans en="(You want to buy some food. Questions: Where is...?)" ar="(تريد شراء بعض الطعام. الأسئلة: أين...؟)" uk="(Ви хочете купити трохи їжі. Запитання: Де...?)" fr="(Vous voulez acheter de la nourriture. Questions : Où est... ?)"/>`,
+        options: ["la tienda <trans en=\"(the store)\" ar=\"(المتجر)\" uk=\"(магазин)\" fr=\"(le magasin)\"/>", "el hospital <trans en=\"(the hospital)\" ar=\"(المستشفى)\" uk=\"(лікарня)\" fr=\"(l'hôpital)\"/>", "el mar <trans en=\"(the sea)\" ar=\"(البحر)\" uk=\"(море)\" fr=\"(la mer)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Para indicar que vayas en la misma dirección, dices:",
-        options: ["Sigue todo recto","Gira a la izquierda","Ve hacia atrás"],
+        question: `Para indicar que vayas en la misma dirección, dices: <trans en="(To indicate that you are going in the same direction, you say:)" ar="(للإشارة إلى أنك تسير في نفس الاتجاه تقول:)" uk="(Щоб вказати, що ви йдете в тому самому напрямку, скажіть:)" fr="(Pour indiquer que vous allez dans la même direction, vous dites :)"/>`,
+        options: ["Sigue todo recto <trans en=\"(Go straight ahead)\" ar=\"(المضي قدما مباشرة)\" uk=\"(Іди прямо вперед)\" fr=\"(Allez tout droit)\"/>", "Gira a la izquierda <trans en=\"(Turn left)\" ar=\"(اتجه إلى اليسار)\" uk=\"(Поверніть ліворуч)\" fr=\"(Tournez à gauche)\"/>", "Ve hacia atrás <trans en=\"(Go back)\" ar=\"(ارجع)\" uk=\"(Повернись назад)\" fr=\"(Retourner)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Lo contrario de 'derecha' es...",
-        options: ["Izquierda","Arriba","Recto"],
+        question: `Lo contrario de 'derecha' es... <trans en="(The opposite of 'right' is...)" ar="(عكس كلمة "الحق" هو ...)" uk="(Протилежністю до "право" є...)" fr="(Le contraire de « droit » est...)"/>`,
+        options: ["Izquierda <trans en=\"(Left)\" ar=\"(اليسار)\" uk=\"(Ліворуч)\" fr=\"(Gauche)\"/>", "Arriba <trans en=\"(Up)\" ar=\"(فوق)\" uk=\"(Вгору)\" fr=\"(Vers le haut)\"/>", "Recto <trans en=\"(Straight)\" ar=\"(مستقيم)\" uk=\"(Прямо)\" fr=\"(Hétéro)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Si el banco no está lejos, está...",
-        options: ["Cerca","Allí","A la vuelta"],
+        question: `Si el banco no está lejos, está... <trans en="(If the bank is not far away, it is...)" ar="(إذا لم يكن البنك بعيدًا، فهو...)" uk="(Якщо банк недалеко, це...)" fr="(Si la banque n'est pas loin, c'est...)"/>`,
+        options: ["Cerca <trans en=\"(Nearby)\" ar=\"(قريب)\" uk=\"(Поруч)\" fr=\"(À proximité)\"/>", "Allí <trans en=\"(There)\" ar=\"(هناك)\" uk=\"(Там)\" fr=\"(Là)\"/>", "A la vuelta <trans en=\"(On the way back)\" ar=\"(في طريق العودة)\" uk=\"(На зворотному шляху)\" fr=\"(Sur le chemin du retour)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿Cómo preguntas dónde está el metro?",
-        options: ["¿Dónde está el metro?","¿Qué es el metro?","¿Cuándo es el metro?"],
+        question: `¿Cómo preguntas dónde está el metro? <trans en="(How do you ask where the subway is?)" ar="(كيف تسأل أين مترو الانفاق؟)" uk="(Як запитати де метро?)" fr="(Comment demande-t-on où est le métro ?)"/>`,
+        options: ["¿Dónde está el metro? <trans en=\"(Where is the subway?)\" ar=\"(أين هو مترو الانفاق؟)\" uk=\"(Де знаходиться метро?)\" fr=\"(Où est le métro ?)\"/>", "¿Qué es el metro? <trans en=\"(What is the meter?)\" ar=\"(ما هو المتر؟)\" uk=\"(Що таке лічильник?)\" fr=\"(Qu'est-ce que le compteur ?)\"/>", "¿Cuándo es el metro? <trans en=\"(When is the subway?)\" ar=\"(متى مترو الانفاق؟)\" uk=\"(Коли метро?)\" fr=\"(Quand est le métro ?)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Si necesitas cambiar de calle, debes...",
-        options: ["Girar / Torcer","Seguir recto","Parar"],
+        question: `Si necesitas cambiar de calle, debes... <trans en="(If you need to change streets, you must...)" ar="(إذا كنت بحاجة إلى تغيير الشوارع، يجب عليك...)" uk="(Якщо вам потрібно змінити вулицю, ви повинні...)" fr="(Si vous devez changer de rue, vous devez...)"/>`,
+        options: ["Girar / Torcer <trans en=\"(Twist / Twist)\" ar=\"(تويست / تويست)\" uk=\"(Крутити / Крутити)\" fr=\"(Torsion / Torsion)\"/>", "Seguir recto <trans en=\"(Go straight)\" ar=\"(اذهب مباشرة)\" uk=\"(Йди прямо)\" fr=\"(Allez tout droit)\"/>", "Parar <trans en=\"(Stop)\" ar=\"(توقف)\" uk=\"(Стоп)\" fr=\"(Arrêtez)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "El lugar donde dos calles se cruzan es la...",
-        options: ["Esquina / Cruce","Avenida","Plaza"],
+        question: `El lugar donde dos calles se cruzan es la... <trans en="(The place where two streets intersect is the...)" ar="(المكان الذي يتقاطع فيه شارعان هو...)" uk="(Місце перетину двох вулиць - це...)" fr="(L'endroit où deux rues se croisent est le...)"/>`,
+        options: ["Esquina / Cruce <trans en=\"(Corner / Crossing)\" ar=\"(ركن / معبر)\" uk=\"(Кут / Перетин)\" fr=\"(Coin / Traversée)\"/>", "Avenida <trans en=\"(Avenue)\" ar=\"(الجادة)\" uk=\"(Просп)\" fr=\"(Avenue)\"/>", "Plaza <trans en=\"(Square)\" ar=\"(ساحة)\" uk=\"(Квадрат)\" fr=\"(Carré)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Si pasas la plaza, significa que la dejas...",
-        options: ["Atrás","Delante","Arriba"],
+        question: `Si pasas la plaza, significa que la dejas... <trans en="(If you pass the square, it means you leave it...)" ar="(إذا تجاوزت المربع فهذا يعني أنك تركته...)" uk="(Якщо ви проходите повз площу, значить виходите з неї...)" fr="(Si vous passez la place, cela signifie que vous la quittez...)"/>`,
+        options: ["Atrás <trans en=\"(Back)\" ar=\"(العودة)\" uk=\"(Назад)\" fr=\"(Retour)\"/>", "Delante <trans en=\"(Front)\" ar=\"(الجبهة)\" uk=\"(Спереду)\" fr=\"(Avant)\"/>", "Arriba <trans en=\"(Up)\" ar=\"(فوق)\" uk=\"(Вгору)\" fr=\"(Vers le haut)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Para subir a la planta 2, usas el...",
-        options: ["Ascensor / Escaleras","Sótano","Coche"],
+        question: `Para subir a la planta 2, usas el... <trans en="(To go up to floor 2, use the...)" ar="(للصعود إلى الطابق الثاني، استخدم...)" uk="(Щоб піднятися на 2 поверх, використовуйте...)" fr="(Pour monter à l'étage 2, utilisez le...)"/>`,
+        options: ["Ascensor / Escaleras <trans en=\"(Elevator / Stairs)\" ar=\"(مصعد / سلالم)\" uk=\"(Ліфт / Сходи)\" fr=\"(Ascenseur / Escaliers)\"/>", "Sótano <trans en=\"(Basement)\" ar=\"(الطابق السفلي)\" uk=\"(Підвал)\" fr=\"(Sous-sol)\"/>", "Coche <trans en=\"(Car)\" ar=\"(سيارة)\" uk=\"(Автомобіль)\" fr=\"(Voiture)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "El parque está 'enfrente' significa que está...",
-        options: ["Cara a cara","Al lado","Detrás"],
+        question: `El parque está 'enfrente' significa que está... <trans en="(The park is 'in front' means it is...)" ar="(الحديقة "أمام" تعني أنها...)" uk="(Парк «попереду» означає, що це...)" fr="(Le parc est 'devant' signifie qu'il est...)"/>`,
+        options: ["Cara a cara <trans en=\"(Face to face)\" ar=\"(وجها لوجه)\" uk=\"(Віч-на-віч)\" fr=\"(Face à face)\"/>", "Al lado <trans en=\"(Next door)\" ar=\"(المجاور)\" uk=\"(По сусідству)\" fr=\"(À côté)\"/>", "Detrás <trans en=\"(Behind)\" ar=\"(خلف)\" uk=\"(Позаду)\" fr=\"(Derrière)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Un lugar para caminar al lado de la calle es...",
-        options: ["La acera","La carretera","El semáforo"],
+        question: `Un lugar para caminar al lado de la calle es... <trans en="(A place to walk next to the street is...)" ar="(مكان للمشي بجوار الشارع ...)" uk="(Місце для прогулянок біля вулиці - це...)" fr="(Un endroit pour se promener à côté de la rue est...)"/>`,
+        options: ["La acera <trans en=\"(The sidewalk)\" ar=\"(الرصيف)\" uk=\"(Тротуар)\" fr=\"(Le trottoir)\"/>", "La carretera <trans en=\"(The road)\" ar=\"(الطريق)\" uk=\"(Дорога)\" fr=\"(La route)\"/>", "El semáforo <trans en=\"(The traffic light)\" ar=\"(إشارة المرور)\" uk=\"(Світлофор)\" fr=\"(Le feu tricolore)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Lo opuesto a 'Cerca' es...",
-        options: ["Lejos","Dentro","Encima"],
+        question: `Lo opuesto a 'Cerca' es... <trans en="(The opposite of 'Near' is...)" ar="(عكس "القريب" هو ...)" uk="(Протилежністю до "Поруч" є...)" fr="(Le contraire de « Proche » est...)"/>`,
+        options: ["Lejos <trans en=\"(Far away)\" ar=\"(بعيدا)\" uk=\"(Далеко)\" fr=\"(Loin)\"/>", "Dentro <trans en=\"(Inside)\" ar=\"(داخل)\" uk=\"(Всередині)\" fr=\"(À l'intérieur)\"/>", "Encima <trans en=\"(Above)\" ar=\"(فوق)\" uk=\"(Вище)\" fr=\"(Ci-dessus)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Qué haces en un paso de cebra?",
-        options: ["Cruzar la calle","Aparcar el coche","Girar"],
+        question: `¿Qué haces en un paso de cebra? <trans en="(What do you do at a zebra crossing?)" ar="(ماذا تفعل عند معبر حمار وحشي؟)" uk="(Що ви робите на зебрі?)" fr="(Que faites-vous à un passage piéton ?)"/>`,
+        options: ["Cruzar la calle <trans en=\"(Cross the street)\" ar=\"(عبور الشارع)\" uk=\"(Перейти вулицю)\" fr=\"(Traverser la rue)\"/>", "Aparcar el coche <trans en=\"(Park the car)\" ar=\"(ركن السيارة)\" uk=\"(Припаркуйте автомобіль)\" fr=\"(Garez la voiture)\"/>", "Girar <trans en=\"(Turn)\" ar=\"(بدوره)\" uk=\"(Поворот)\" fr=\"(Tourner)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "El museo está 'al lado de' la iglesia, significa...",
-        options: ["Muy cerca, contiguo","Lejos","Detrás"],
+        question: `El museo está 'al lado de' la iglesia, significa... <trans en="(The museum is 'next to' the church, it means...)" ar="(المتحف "بجانب" الكنيسة يعني...)" uk="(Музей «поруч» з церквою, значить...)" fr="(Le musée est 'à côté' de l'église, ça veut dire...)"/>`,
+        options: ["Muy cerca, contiguo <trans en=\"(Very close, adjacent)\" ar=\"(قريب جدًا، مجاور)\" uk=\"(Зовсім близько, по сусідству)\" fr=\"(Très proche, adjacent)\"/>", "Lejos <trans en=\"(Far away)\" ar=\"(بعيدا)\" uk=\"(Далеко)\" fr=\"(Loin)\"/>", "Detrás <trans en=\"(Behind)\" ar=\"(خلف)\" uk=\"(Позаду)\" fr=\"(Derrière)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Si te dicen 'Coge la primera calle a la derecha', tú...",
-        options: ["Giras en la primera calle a la derecha","Vas recto","Giras a la izquierda"],
+        question: `Si te dicen 'Coge la primera calle a la derecha', tú... <trans en="(If they tell you 'Take the first street on the right', you...)" ar="(إذا قالوا لك خذ أول شارع على اليمين فأنت...)" uk="(Якщо вам скажуть «Поїдьте на першу вулицю праворуч», ви...)" fr="(S'ils vous disent 'Prenez la première rue à droite', vous...)"/>`,
+        options: ["Giras en la primera calle a la derecha <trans en=\"(You turn into the first street on the right)\" ar=\"(تتجه إلى أول شارع على اليمين)\" uk=\"(Ви повертаєте на першу вулицю праворуч)\" fr=\"(Vous tournez dans la première rue à droite)\"/>", "Vas recto <trans en=\"(You go straight)\" ar=\"(تذهب مباشرة)\" uk=\"(Йди прямо)\" fr=\"(Tu vas tout droit)\"/>", "Giras a la izquierda <trans en=\"(You turn left)\" ar=\"(تستدير لليسار)\" uk=\"(Ви повертаєте ліворуч)\" fr=\"(Vous tournez à gauche)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Lo contrario de 'Subir' es...",
-        options: ["Bajar","Entrar","Cruzar"],
+        question: `Lo contrario de 'Subir' es... <trans en="(The opposite of 'Up' is...)" ar="(عكس "أعلى" هو ...)" uk="(Протилежністю "Вгору" є...)" fr="(Le contraire de « Up » est...)"/>`,
+        options: ["Bajar <trans en=\"(Download)\" ar=\"(تحميل)\" uk=\"(Завантажити)\" fr=\"(Télécharger)\"/>", "Entrar <trans en=\"(Enter)\" ar=\"(أدخل)\" uk=\"(Введіть)\" fr=\"(Entrez)\"/>", "Cruzar <trans en=\"(Cross)\" ar=\"(صليب)\" uk=\"(Хрест)\" fr=\"(Croix)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Un coche debe parar si el semáforo está en...",
-        options: ["Rojo","Verde","Ámbar"],
+        question: `Un coche debe parar si el semáforo está en... <trans en="(A car must stop if the traffic light is on...)" ar="(يجب أن تتوقف السيارة إذا كانت إشارة المرور مضاءة...)" uk="(Автомобіль повинен зупинитися, якщо горить світлофор...)" fr="(Une voiture doit s'arrêter si le feu est allumé...)"/>`,
+        options: ["Rojo <trans en=\"(Red)\" ar=\"(الأحمر)\" uk=\"(Червоний)\" fr=\"(Rouge)\"/>", "Verde <trans en=\"(Green)\" ar=\"(أخضر)\" uk=\"(Зелений)\" fr=\"(Vert)\"/>", "Ámbar <trans en=\"(Amber)\" ar=\"(العنبر)\" uk=\"(Бурштин)\" fr=\"(Ambre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "'Sigue hasta el final de la calle' significa...",
-        options: ["No gires hasta llegar al final","Date la vuelta","Cruza ahora"],
+        question: `'Sigue hasta el final de la calle' significa... <trans en="('Go to the end of the street' means...)" ar="("اذهب إلى نهاية الشارع" تعني...)" uk="(«Іти в кінець вулиці» означає...)" fr="('Aller jusqu'au bout de la rue' signifie...)"/>`,
+        options: ["No gires hasta llegar al final <trans en=\"(Don't turn until you reach the end)\" ar=\"(لا تلتفت حتى تصل إلى النهاية)\" uk=\"(Не обертай, поки не дійдеш до кінця)\" fr=\"(Ne vous retournez pas avant d'avoir atteint la fin)\"/>", "Date la vuelta <trans en=\"(Turn around)\" ar=\"(يستدير)\" uk=\"(Повернись)\" fr=\"(Retournez-vous)\"/>", "Cruza ahora <trans en=\"(Cross now)\" ar=\"(اعبر الآن)\" uk=\"(Хрест зараз)\" fr=\"(Traversez maintenant)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Para indicar que vayas en la misma dirección, dices: (Extra)",
-        options: ["Sigue todo recto","Gira a la izquierda","Ve hacia atrás"],
+        question: `Para indicar que vayas en la misma dirección, dices: (Extra) <trans en="(To indicate that you are going in the same direction, you say: (Extra))" ar="(للإشارة إلى أنك تسير في نفس الاتجاه تقول: (زيادة))" uk="(Щоб вказати, що ви йдете в тому ж напрямку, ви скажете: (Додатково))" fr="(Pour indiquer que vous allez dans la même direction, vous dites : (Extra))"/>`,
+        options: ["Sigue todo recto <trans en=\"(Go straight ahead)\" ar=\"(المضي قدما مباشرة)\" uk=\"(Іди прямо вперед)\" fr=\"(Allez tout droit)\"/>", "Gira a la izquierda <trans en=\"(Turn left)\" ar=\"(اتجه إلى اليسار)\" uk=\"(Поверніть ліворуч)\" fr=\"(Tournez à gauche)\"/>", "Ve hacia atrás <trans en=\"(Go back)\" ar=\"(ارجع)\" uk=\"(Повернись назад)\" fr=\"(Retourner)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -7863,124 +7882,125 @@ Para pedir cosas o decir qué queremos hacer o qué necesitamos, usamos los verb
     exercises: [
       {
         id: "ex1",
-        question: "No tienes agua y tienes mucha sed. Dices: '______ comprar agua'.",
-        options: ["Dónde", "Necesito", "Hola"],
+        question: `No tienes agua y tienes mucha sed. Dices: '______ comprar agua'. <trans en="(You have no water and you are very thirsty. You say: '______ buy water.')" ar="(ليس لديك ماء وأنت عطشان جداً. تقول: ______ شراء الماء.)" uk="(У вас немає води, і ви відчуваєте сильну спрагу. Ви говорите: «______ купіть воду».)" fr="(Vous n'avez pas d'eau et vous avez très soif. Vous dites : « ______ achète de l'eau ».)"/>`,
+        options: ["Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>", "Necesito <trans en=\"(I need)\" ar=\"(أحتاج)\" uk=\"(Мені потрібно)\" fr=\"(J'ai besoin)\"/>", "Hola <trans en=\"(Hello)\" ar=\"(مرحبا)\" uk=\"(Привіт)\" fr=\"(Bonjour)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Cómo pides que alguien te asista?",
-        options: ["Necesito ayuda", "Quiero ir", "El lavabo"],
+        question: `¿Cómo pides que alguien te asista? <trans en="(How do you ask someone to assist you?)" ar="(كيف تطلب من أحد أن يساعدك؟)" uk="(Як попросити когось допомогти вам?)" fr="(Comment demander à quelqu'un de vous aider ?)"/>`,
+        options: ["Necesito ayuda <trans en=\"(I need help)\" ar=\"(أحتاج للمساعدة)\" uk=\"(Мені потрібна допомога)\" fr=\"(J'ai besoin d'aide)\"/>", "Quiero ir <trans en=\"(I want to go)\" ar=\"(أريد أن أذهب)\" uk=\"(Я хочу піти)\" fr=\"(Je veux y aller)\"/>", "El lavabo <trans en=\"(The sink)\" ar=\"(الحوض)\" uk=\"(Раковина)\" fr=\"(L'évier)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Para vivir, el ser humano ___ beber agua.",
-        options: ["necesita","quiere","odia"],
+        question: `Para vivir, el ser humano ___ beber agua. <trans en="(To live, human beings ___ drink water.)" ar="(لكي يعيش أيها الإنسان ___ يشرب الماء.)" uk="(Щоб жити, люди ___ п’ють воду.)" fr="(Pour vivre, les êtres humains ___ boivent de l'eau.)"/>`,
+        options: ["necesita <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>", "quiere <trans en=\"(wants)\" ar=\"(يريد)\" uk=\"(хоче)\" fr=\"(veut)\"/>", "odia <trans en=\"(hate)\" ar=\"(الكراهية)\" uk=\"(ненавиджу)\" fr=\"(déteste)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Si estás cansado, ___ dormir.",
-        options: ["tienes que / necesitas","puedes","sabes"],
+        question: `Si estás cansado, ___ dormir. <trans en="(If you are tired, ___ sleep.)" ar="(إذا كنت متعباً، ___ نم.)" uk="(Якщо ти втомився, ___ спи.)" fr="(Si vous êtes fatigué, ___ dormez.)"/>`,
+        options: ["tienes que / necesitas <trans en=\"(you have to / need)\" ar=\"(عليك / تحتاج)\" uk=\"(ти повинен / потрібно)\" fr=\"(tu dois / besoin)\"/>", "puedes <trans en=\"(you can)\" ar=\"(يمكنك)\" uk=\"(ти можеш)\" fr=\"(tu peux)\"/>", "sabes <trans en=\"(you know)\" ar=\"(تعلمون)\" uk=\"(ти знаєш)\" fr=\"(tu sais)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Yo ___ comprar pan, no hay en casa.",
-        options: ["tengo que","soy","estoy"],
+        question: `Yo ___ comprar pan, no hay en casa. <trans en="(I ___ buy bread, there isn't any at home.)" ar="(أنا ___ أشتري الخبز، لا يوجد خبز في المنزل.)" uk="(Я ___ хліб купую, вдома нема.)" fr="(Je ___achète du pain, il n'y en a pas à la maison.)"/>`,
+        options: ["tengo que <trans en=\"(I have to)\" ar=\"(لا بد لي من ذلك)\" uk=\"(Я повинен)\" fr=\"(je dois)\"/>", "soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Nosotros ___ estudiar para el examen.",
-        options: ["debemos","somos","tenemos"],
+        question: `Nosotros ___ estudiar para el examen. <trans en="(We ___ study for the exam.)" ar="(نحن ___ ندرس للامتحان.)" uk="(Ми ___ готуємося до іспиту.)" fr="(Nous ___ étudions pour l'examen.)"/>`,
+        options: ["debemos <trans en=\"(we must)\" ar=\"(يجب علينا)\" uk=\"(ми повинні)\" fr=\"(nous devons)\"/>", "somos <trans en=\"(we are)\" ar=\"(نحن)\" uk=\"(ми)\" fr=\"(nous sommes)\"/>", "tenemos <trans en=\"(we have)\" ar=\"(لدينا)\" uk=\"(маємо)\" fr=\"(nous avons)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "¿Qué ___ hacer mañana?",
-        options: ["tienes que","eres","estás"],
+        question: `¿Qué ___ hacer mañana? <trans en="(What ___ to do tomorrow?)" ar="(ماذا ___ تفعل غدا؟)" uk="(Що ___ робити завтра?)" fr="(Que ___ faire demain ?)"/>`,
+        options: ["tienes que <trans en=\"(you have to)\" ar=\"(عليك بذلك)\" uk=\"(ти повинен)\" fr=\"(tu dois)\"/>", "eres <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>", "estás <trans en=\"(you are)\" ar=\"(أنت)\" uk=\"(ти)\" fr=\"(tu es)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Para viajar a otro país, a veces ___ pasaporte.",
-        options: ["necesitas","comes","lees"],
+        question: `Para viajar a otro país, a veces ___ pasaporte. <trans en="(To travel to another country, sometimes ___ passport.)" ar="(للسفر إلى بلد آخر، أحيانًا ___ جواز السفر.)" uk="(Щоб поїхати в іншу країну, іноді ___ паспорт.)" fr="(Pour voyager dans un autre pays, parfois ___ passeport.)"/>`,
+        options: ["necesitas <trans en=\"(you need)\" ar=\"(تحتاج)\" uk=\"(вам потрібно)\" fr=\"(tu as besoin)\"/>", "comes <trans en=\"(you eat)\" ar=\"(تأكل)\" uk=\"(ти їси)\" fr=\"(tu manges)\"/>", "lees <trans en=\"(you read)\" ar=\"(تقرأ)\" uk=\"(ти читаєш)\" fr=\"(tu lis)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Ella ___ trabajar todos los días.",
-        options: ["tiene que","tengo que","tienes que"],
+        question: `Ella ___ trabajar todos los días. <trans en="(She ___ work every day.)" ar="(هي ___ تعمل كل يوم.)" uk="(Вона ___ працює щодня.)" fr="(Elle ___ travaille tous les jours.)"/>`,
+        options: ["tiene que <trans en=\"(has to)\" ar=\"(يجب)\" uk=\"(повинен)\" fr=\"(doit)\"/>", "tengo que <trans en=\"(I have to)\" ar=\"(لا بد لي من ذلك)\" uk=\"(Я повинен)\" fr=\"(je dois)\"/>", "tienes que <trans en=\"(you have to)\" ar=\"(عليك بذلك)\" uk=\"(ти повинен)\" fr=\"(tu dois)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "___ silencio en la biblioteca. (Obligación general)",
-        options: ["Hay que hacer","Tengo que","Necesitas"],
+        question: `___ silencio en la biblioteca. (Obligación general) <trans en="(___ silence in the library. (General obligation))" ar="(___ الصمت في المكتبة. (الالتزام العام))" uk="(___ тиша в бібліотеці. (Загальне зобов'язання))" fr="(___ silence dans la bibliothèque. (Obligation générale))"/>`,
+        options: ["Hay que hacer <trans en=\"(It must be done)\" ar=\"(يجب أن يتم ذلك)\" uk=\"(Це треба зробити)\" fr=\"(Il faut le faire)\"/>", "Tengo que <trans en=\"(I have to)\" ar=\"(لا بد لي من ذلك)\" uk=\"(Я повинен)\" fr=\"(Je dois)\"/>", "Necesitas <trans en=\"(You need)\" ar=\"(تحتاج)\" uk=\"(Вам потрібно)\" fr=\"(Vous avez besoin)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Para aprender español, ___ practicar mucho.",
-        options: ["hay que","tengo","debo de"],
+        question: `Para aprender español, ___ practicar mucho. <trans en="(To learn Spanish, ___ practice a lot.)" ar="(لتعلم اللغة الإسبانية، ___ تدرب كثيرًا.)" uk="(Щоб вивчити іспанську, ___ багато тренуйтеся.)" fr="(Pour apprendre l'espagnol, ___ pratiquez beaucoup.)"/>`,
+        options: ["hay que <trans en=\"(you have to)\" ar=\"(عليك بذلك)\" uk=\"(ти повинен)\" fr=\"(tu dois)\"/>", "tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>", "debo de <trans en=\"(I must)\" ar=\"(لا بد لي من ذلك)\" uk=\"(Я повинен)\" fr=\"(je dois)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Yo no ___ ir, no es obligatorio.",
-        options: ["tengo que","necesito","debo"],
+        question: `Yo no ___ ir, no es obligatorio. <trans en="(I don't ___ go, it's not mandatory.)" ar="(أنا لا ___ أذهب، هذا ليس إلزاميا.)" uk="(Я не ___ ходжу, це не обов'язково.)" fr="(Je n'y vais pas ___, ce n'est pas obligatoire.)"/>`,
+        options: ["tengo que <trans en=\"(I have to)\" ar=\"(لا بد لي من ذلك)\" uk=\"(Я повинен)\" fr=\"(je dois)\"/>", "necesito <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>", "debo <trans en=\"(I must)\" ar=\"(لا بد لي من ذلك)\" uk=\"(Я повинен)\" fr=\"(je dois)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "¿Tú ___ ayuda?",
-        options: ["necesitas","necesito","necesita"],
+        question: `¿Tú ___ ayuda? <trans en="(Do you ___ help?)" ar="(هل ___ مساعدة؟)" uk="(Ви ___ допомагаєте?)" fr="(Est-ce que vous ___ aidez ?)"/>`,
+        options: ["necesitas <trans en=\"(you need)\" ar=\"(تحتاج)\" uk=\"(вам потрібно)\" fr=\"(tu as besoin)\"/>", "necesito <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>", "necesita <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Ellos ___ descansar después del partido.",
-        options: ["necesitan","tienen","deben de"],
+        question: `Ellos ___ descansar después del partido. <trans en="(They ___ rest after the game.)" ar="(إنهم ___ يستريحون بعد المباراة.)" uk="(Вони ___ відпочивають після гри.)" fr="(Ils ___ se reposent après le match.)"/>`,
+        options: ["necesitan <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>", "tienen <trans en=\"(have)\" ar=\"(لديك)\" uk=\"(мати)\" fr=\"(avoir)\"/>", "deben de <trans en=\"(must)\" ar=\"(يجب)\" uk=\"(треба)\" fr=\"(doit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Para comprar, ___ dinero.",
-        options: ["hace falta","tiene","es"],
+        question: `Para comprar, ___ dinero. <trans en="(To buy, ___ money.)" ar="(لشراء، ___ المال.)" uk="(Купити, ___ грошей.)" fr="(Pour acheter, ___ de l'argent.)"/>`,
+        options: ["hace falta <trans en=\"(it is necessary)\" ar=\"(فمن الضروري)\" uk=\"(треба)\" fr=\"(c'est nécessaire)\"/>", "tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "___ comer más verduras para estar sano.",
-        options: ["Debes","Tienes","Haces"],
+        question: `___ comer más verduras para estar sano. <trans en="(___ eat more vegetables to be healthy.)" ar="(___ تناول المزيد من الخضار لتكون بصحة جيدة.)" uk="(___ їжте більше овочів, щоб бути здоровим.)" fr="(___ mangez plus de légumes pour être en bonne santé.)"/>`,
+        options: ["Debes <trans en=\"(You must)\" ar=\"(يجب عليك)\" uk=\"(Ви повинні)\" fr=\"(Vous devez)\"/>", "Tienes <trans en=\"(You have)\" ar=\"(لديك)\" uk=\"(Ви маєте)\" fr=\"(Vous avez)\"/>", "Haces <trans en=\"(You do)\" ar=\"(أنت تفعل)\" uk=\"(Ви робите)\" fr=\"(Vous le faites)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Me duele la cabeza, ___ una aspirina.",
-        options: ["necesito","tengo","quiero que"],
+        question: `Me duele la cabeza, ___ una aspirina. <trans en="(My head hurts, ___ an aspirin.)" ar="(رأسي يؤلمني، ___ حبة أسبرين.)" uk="(Голова болить, ___ аспірин.)" fr="(J'ai mal à la tête, ___ une aspirine.)"/>`,
+        options: ["necesito <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>", "tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>", "quiero que <trans en=\"(I want you)\" ar=\"(أريدك)\" uk=\"(Я хочу тебе)\" fr=\"(je te veux)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Nosotros no ___ dinero, es gratis.",
-        options: ["necesitamos","debemos","tenemos que"],
+        question: `Nosotros no ___ dinero, es gratis. <trans en="(We don't ___ money, it's free.)" ar="(نحن لا ___ المال، فهو مجاني.)" uk="(Ми не ___ грошей, це безкоштовно.)" fr="(Nous ne ___ pas d'argent, c'est gratuit.)"/>`,
+        options: ["necesitamos <trans en=\"(we need)\" ar=\"(نحتاج)\" uk=\"(нам потрібно)\" fr=\"(nous avons besoin)\"/>", "debemos <trans en=\"(we must)\" ar=\"(يجب علينا)\" uk=\"(ми повинні)\" fr=\"(nous devons)\"/>", "tenemos que <trans en=\"(we have to)\" ar=\"(علينا أن)\" uk=\"(ми повинні)\" fr=\"(nous devons)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Vosotros ___ hacer los deberes.",
-        options: ["tenéis que","tenéis","debéis de"],
+        question: `Vosotros ___ hacer los deberes. <trans en="(You ___ do your homework.)" ar="(أنت ___ تقوم بواجبك المنزلي.)" uk="(Ви ___ виконуєте домашнє завдання.)" fr="(Vous ___ faites vos devoirs.)"/>`,
+        options: ["tenéis que <trans en=\"(you have to)\" ar=\"(عليك بذلك)\" uk=\"(ти повинен)\" fr=\"(tu dois)\"/>", "tenéis <trans en=\"(you have)\" ar=\"(لديك)\" uk=\"(маєш)\" fr=\"(tu as)\"/>", "debéis de <trans en=\"(you must)\" ar=\"(يجب عليك)\" uk=\"(ти повинен)\" fr=\"(tu dois)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Para vivir, el ser humano ___ beber agua. (Extra)",
-        options: ["necesita","quiere","odia"],
+        question: `Para vivir, el ser humano ___ beber agua. (Extra) <trans en="(To live, human beings ___ drink water. (Bonus))" ar="(لكي يعيش أيها الإنسان ___ يشرب الماء. (مكافأة))" uk="(Щоб жити, люди ___ п’ють воду. (Бонус))" fr="(Pour vivre, les êtres humains ___ boivent de l'eau. (Prime))"/>`,
+        options: ["necesita <trans en=\"(need)\" ar=\"(الحاجة)\" uk=\"(потреба)\" fr=\"(besoin)\"/>", "quiere <trans en=\"(wants)\" ar=\"(يريد)\" uk=\"(хоче)\" fr=\"(veut)\"/>", "odia <trans en=\"(hate)\" ar=\"(الكراهية)\" uk=\"(ненавиджу)\" fr=\"(déteste)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -8340,124 +8360,125 @@ Usamos **Tengo** para decir las cosas que son nuestras, pero *también* para có
     exercises: [
       {
         id: "ex1",
-        question: "Si quieres comer porque tu estómago está vacío, dices:",
-        options: ["Tengo frío", "Tengo hambre", "Tengo dinero"],
+        question: `Si quieres comer porque tu estómago está vacío, dices: <trans en="(If you want to eat because your stomach is empty, you say:)" ar="(إذا أردت أن تأكل لأن معدتك فارغة فقل:)" uk="(Якщо ви хочете їсти, тому що ваш шлунок порожній, ви говорите:)" fr="(Si tu veux manger parce que ton estomac est vide, tu dis :)"/>`,
+        options: ["Tengo frío <trans en=\"(I'm cold)\" ar=\"(أنا بارد)\" uk=\"(Мені холодно)\" fr=\"(J'ai froid)\"/>", "Tengo hambre <trans en=\"(I'm hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(J'ai faim)\"/>", "Tengo dinero <trans en=\"(I have money)\" ar=\"(لدي المال)\" uk=\"(У мене є гроші)\" fr=\"(J'ai de l'argent)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Para decir 'I don't have money', en español es:",
-        options: ["No tengo dinero", "Necesito dinero", "Dónde está el dinero"],
+        question: `Para decir 'I don't have money', en español es: <trans en="(To say 'I don't have money', in Spanish it is:)" ar="(القول "ليس لدي مال" هو بالإسبانية:)" uk="(Сказати «у мене немає грошей» іспанською:)" fr="(Pour dire 'Je n'ai pas d'argent', en espagnol c'est :)"/>`,
+        options: ["No tengo dinero <trans en=\"(I don't have money)\" ar=\"(ليس لدي المال)\" uk=\"(У мене немає грошей)\" fr=\"(Je n'ai pas d'argent)\"/>", "Necesito dinero <trans en=\"(I need money)\" ar=\"(أنا بحاجة إلى المال)\" uk=\"(Мені потрібні гроші)\" fr=\"(J'ai besoin d'argent)\"/>", "Dónde está el dinero <trans en=\"(Where is the money)\" ar=\"(أين المال)\" uk=\"(Де гроші)\" fr=\"(Où est l'argent)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Si hace 40 grados, yo ___.",
-        options: ["tengo calor","tengo frío","tengo miedo"],
+        question: `Si hace 40 grados, yo ___. <trans en="(If it's 40 degrees, I ___.)" ar="(إذا كانت درجة الحرارة 40 درجة، فأنا ___.)" uk="(Якщо 40 градусів, я ___.)" fr="(S'il fait 40 degrés, je ___.)"/>`,
+        options: ["tengo calor <trans en=\"(I'm hot)\" ar=\"(أنا ساخن)\" uk=\"(Мені жарко)\" fr=\"(j'ai chaud)\"/>", "tengo frío <trans en=\"(I'm cold)\" ar=\"(أنا بارد)\" uk=\"(Мені холодно)\" fr=\"(j'ai froid)\"/>", "tengo miedo <trans en=\"(I'm afraid)\" ar=\"(أخشى)\" uk=\"(Я боюся)\" fr=\"(j'ai peur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Si hace -5 grados, nosotros ___.",
-        options: ["tenemos frío","tenemos calor","tenemos sueño"],
+        question: `Si hace -5 grados, nosotros ___. <trans en="(If it's -5 degrees, we ___.)" ar="(إذا كانت -5 درجات، فإننا ___.)" uk="(Якщо -5 градусів, ми ___.)" fr="(S'il fait -5 degrés, nous ___.)"/>`,
+        options: ["tenemos frío <trans en=\"(we are cold)\" ar=\"(نحن باردون)\" uk=\"(нам холодно)\" fr=\"(nous avons froid)\"/>", "tenemos calor <trans en=\"(we are hot)\" ar=\"(نحن ساخنون)\" uk=\"(нам жарко)\" fr=\"(nous sommes chauds)\"/>", "tenemos sueño <trans en=\"(we are sleepy)\" ar=\"(نحن نعسان)\" uk=\"(ми сонні)\" fr=\"(nous avons sommeil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "No he comido nada hoy, ___.",
-        options: ["tengo hambre","tengo sed","tengo frío"],
+        question: `No he comido nada hoy, ___. <trans en="(I haven't eaten anything today, ___.)" ar="(لم آكل شيئًا اليوم، ___.)" uk="(Я сьогодні нічого не їв, ___.)" fr="(Je n'ai rien mangé aujourd'hui, ___.)"/>`,
+        options: ["tengo hambre <trans en=\"(I'm hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(j'ai faim)\"/>", "tengo sed <trans en=\"(I'm thirsty)\" ar=\"(أنا عطشان)\" uk=\"(Я спраглий)\" fr=\"(j'ai soif)\"/>", "tengo frío <trans en=\"(I'm cold)\" ar=\"(أنا بارد)\" uk=\"(Мені холодно)\" fr=\"(j'ai froid)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "He caminado por el desierto, ___.",
-        options: ["tengo sed","tengo hambre","tengo sueño"],
+        question: `He caminado por el desierto, ___. <trans en="(I have walked through the desert, ___.)" ar="(لقد مشيت عبر الصحراء، ___.)" uk="(Я пройшов через пустелю, ___.)" fr="(J'ai traversé le désert, ___.)"/>`,
+        options: ["tengo sed <trans en=\"(I'm thirsty)\" ar=\"(أنا عطشان)\" uk=\"(Я спраглий)\" fr=\"(j'ai soif)\"/>", "tengo hambre <trans en=\"(I'm hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(j'ai faim)\"/>", "tengo sueño <trans en=\"(I'm sleepy)\" ar=\"(أنا نعسان)\" uk=\"(Я сонний)\" fr=\"(j'ai sommeil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Son las 3 de la madrugada, ___.",
-        options: ["tengo sueño","tengo calor","tengo hambre"],
+        question: `Son las 3 de la madrugada, ___. <trans en="(It's 3 in the morning, ___.)" ar="(الساعة الثالثة صباحًا، ___.)" uk="(Зараз 3 ранку, ___.)" fr="(Il est 3 heures du matin, ___.)"/>`,
+        options: ["tengo sueño <trans en=\"(I'm sleepy)\" ar=\"(أنا نعسان)\" uk=\"(Я сонний)\" fr=\"(j'ai sommeil)\"/>", "tengo calor <trans en=\"(I'm hot)\" ar=\"(أنا ساخن)\" uk=\"(Мені жарко)\" fr=\"(j'ai chaud)\"/>", "tengo hambre <trans en=\"(I'm hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(j'ai faim)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Veo un león en la calle, ___.",
-        options: ["tengo miedo","tengo sed","tengo frío"],
+        question: `Veo un león en la calle, ___. <trans en="(I see a lion on the street, ___.)" ar="(أرى أسدًا في الشارع، ___.)" uk="(Я бачу лева на вулиці, ___.)" fr="(Je vois un lion dans la rue, ___.)"/>`,
+        options: ["tengo miedo <trans en=\"(I'm afraid)\" ar=\"(أخشى)\" uk=\"(Я боюся)\" fr=\"(j'ai peur)\"/>", "tengo sed <trans en=\"(I'm thirsty)\" ar=\"(أنا عطشان)\" uk=\"(Я спраглий)\" fr=\"(j'ai soif)\"/>", "tengo frío <trans en=\"(I'm cold)\" ar=\"(أنا بارد)\" uk=\"(Мені холодно)\" fr=\"(j'ai froid)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Necesito ir al baño, ___.",
-        options: ["tengo prisa / urgencia","tengo frío","tengo hambre"],
+        question: `Necesito ir al baño, ___. <trans en="(I need to go to the bathroom, ___.)" ar="(أريد أن أذهب إلى الحمام، ___.)" uk="(Мені потрібно в туалет, ___.)" fr="(Je dois aller aux toilettes, ___.)"/>`,
+        options: ["tengo prisa / urgencia <trans en=\"(I'm in a hurry / urgency)\" ar=\"(أنا مستعجل/عاجل)\" uk=\"(Я поспішаю / терміново)\" fr=\"(je suis pressé / urgence)\"/>", "tengo frío <trans en=\"(I'm cold)\" ar=\"(أنا بارد)\" uk=\"(Мені холодно)\" fr=\"(j'ai froid)\"/>", "tengo hambre <trans en=\"(I'm hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(j'ai faim)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Llego tarde al trabajo, ___.",
-        options: ["tengo prisa","tengo miedo","tengo sueño"],
+        question: `Llego tarde al trabajo, ___. <trans en="(I'm late for work, ___.)" ar="(لقد تأخرت عن العمل، ___.)" uk="(Я запізнююсь на роботу, ___.)" fr="(Je suis en retard au travail, ___.)"/>`,
+        options: ["tengo prisa <trans en=\"(I'm in a hurry)\" ar=\"(أنا في عجلة من أمري)\" uk=\"(Я поспішаю)\" fr=\"(je suis pressé)\"/>", "tengo miedo <trans en=\"(I'm afraid)\" ar=\"(أخشى)\" uk=\"(Я боюся)\" fr=\"(j'ai peur)\"/>", "tengo sueño <trans en=\"(I'm sleepy)\" ar=\"(أنا نعسان)\" uk=\"(Я сонний)\" fr=\"(j'ai sommeil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Ella ___ razón, 2 + 2 son 4.",
-        options: ["tiene","es","está"],
+        question: `Ella ___ razón, 2 + 2 son 4. <trans en="(She ___ reason, 2 + 2 is 4.)" ar="(هي ___ السبب، 2 + 2 يساوي 4.)" uk="(Вона ___ причина, 2 + 2 це 4.)" fr="(Elle ___ raisonne, 2 + 2 font 4.)"/>`,
+        options: ["tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿___ hambre vosotros?",
-        options: ["Tenéis","Estáis","Sois"],
+        question: `¿___ hambre vosotros? <trans en="(Are you ___ hungry?)" ar="(هل أنت ___ جائع؟)" uk="(Ти ___ голодний?)" fr="(Avez-vous ___ faim ?)"/>`,
+        options: ["Tenéis <trans en=\"(You have)\" ar=\"(لديك)\" uk=\"(Ви маєте)\" fr=\"(Vous avez)\"/>", "Estáis <trans en=\"(You are)\" ar=\"(أنت)\" uk=\"(Ви)\" fr=\"(Vous êtes)\"/>", "Sois <trans en=\"(You are)\" ar=\"(أنت)\" uk=\"(Ви)\" fr=\"(Vous êtes)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Si trabajas mucho sin parar, tú ___.",
-        options: ["tienes cansancio","estás cansado","Las dos son comunes"],
+        question: `Si trabajas mucho sin parar, tú ___. <trans en="(If you work hard without stopping, you ___.)" ar="(إذا عملت بجد دون توقف، فإنك ___.)" uk="(Якщо ви наполегливо працюєте без зупинки, ви ___.)" fr="(Si vous travaillez dur sans vous arrêter, vous ___.)"/>`,
+        options: ["tienes cansancio <trans en=\"(you are tired)\" ar=\"(أنت متعب)\" uk=\"(ти втомився)\" fr=\"(tu es fatigué)\"/>", "estás cansado <trans en=\"(you are tired)\" ar=\"(أنت متعب)\" uk=\"(ти втомився)\" fr=\"(tu es fatigué)\"/>", "Las dos son comunes <trans en=\"(Both are common)\" ar=\"(كلاهما شائع)\" uk=\"(Обидва поширені)\" fr=\"(Les deux sont communs)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex14",
-        question: "Ellos no han bebido agua, ___.",
-        options: ["tienen sed","tienen hambre","tienen prisa"],
+        question: `Ellos no han bebido agua, ___. <trans en="(They have not drunk water, ___.)" ar="(لم يشربوا الماء، ___.)" uk="(Води не напились, ___.)" fr="(Ils n'ont pas bu d'eau, ___.)"/>`,
+        options: ["tienen sed <trans en=\"(they are thirsty)\" ar=\"(إنهم عطشانون)\" uk=\"(вони відчувають спрагу)\" fr=\"(ils ont soif)\"/>", "tienen hambre <trans en=\"(they are hungry)\" ar=\"(إنهم جائعون)\" uk=\"(вони голодні)\" fr=\"(ils ont faim)\"/>", "tienen prisa <trans en=\"(they are in a hurry)\" ar=\"(إنهم في عجلة من أمرهم)\" uk=\"(вони поспішають)\" fr=\"(ils sont pressés)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "¡Abre la ventana! ___ mucho calor.",
-        options: ["Tengo","Estoy","Soy"],
+        question: `¡Abre la ventana! ___ mucho calor. <trans en="(Open the window! ___ very hot.)" ar="(افتح النافذة! ___ حار جدًا.)" uk="(Відчиніть вікно! ___ дуже жарко.)" fr="(Ouvrez la fenêtre ! ___ très chaud.)"/>`,
+        options: ["Tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(J'ai)\"/>", "Estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(Je suis)\"/>", "Soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(Je suis)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "¡Cierra la puerta! ___ frío.",
-        options: ["Tengo","Hace","Ambas pueden ser correctas"],
+        question: `¡Cierra la puerta! ___ frío. <trans en="(Close the door! ___ cold.)" ar="(أغلق الباب! ___ بارد.)" uk="(Зачини двері! ___ холодно.)" fr="(Fermez la porte ! ___ froid.)"/>`,
+        options: ["Tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(J'ai)\"/>", "Hace <trans en=\"(Ago)\" ar=\"(منذ)\" uk=\"(Тому)\" fr=\"(Il y a)\"/>", "Ambas pueden ser correctas <trans en=\"(Both can be correct)\" ar=\"(كلاهما يمكن أن يكون صحيحا)\" uk=\"(І те, і інше може бути правильним)\" fr=\"(Les deux peuvent être corrects)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex17",
-        question: "El bebé llora porque ___ sueño.",
-        options: ["tiene","está","es"],
+        question: `El bebé llora porque ___ sueño. <trans en="(The baby cries because ___ sleep.)" ar="(الطفل يبكي بسبب ___ النوم.)" uk="(Дитина плаче, бо ___ спить.)" fr="(Le bébé pleure parce que ___ dort.)"/>`,
+        options: ["tiene <trans en=\"(has)\" ar=\"(لديه)\" uk=\"(має)\" fr=\"(a)\"/>", "está <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>", "es <trans en=\"(is)\" ar=\"(هو)\" uk=\"(є)\" fr=\"(est)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Yo nunca ___ miedo de los perros.",
-        options: ["tengo","soy","estoy"],
+        question: `Yo nunca ___ miedo de los perros. <trans en="(I never ___ afraid of dogs.)" ar="(أنا لا ___ أخاف من الكلاب أبدًا.)" uk="(Я ніколи ___ не боюся собак.)" fr="(Je n'ai jamais ___ peur des chiens.)"/>`,
+        options: ["tengo <trans en=\"(I have)\" ar=\"(لقد)\" uk=\"(Маю)\" fr=\"(j'ai)\"/>", "soy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>", "estoy <trans en=\"(I am)\" ar=\"(أنا)\" uk=\"(Я)\" fr=\"(je suis)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Cuando no como en todo el día, ___.",
-        options: ["tengo mucha hambre","soy hambre","estoy hambre"],
+        question: `Cuando no como en todo el día, ___. <trans en="(When I don't eat all day, ___.)" ar="(عندما لا آكل طوال اليوم، ___.)" uk="(Коли я не їм цілий день, ___.)" fr="(Quand je ne mange pas toute la journée, ___.)"/>`,
+        options: ["tengo mucha hambre <trans en=\"(I'm very hungry)\" ar=\"(أنا جائع جدا)\" uk=\"(Я дуже голодний)\" fr=\"(j'ai très faim)\"/>", "soy hambre <trans en=\"(I am hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(j'ai faim)\"/>", "estoy hambre <trans en=\"(I'm hungry)\" ar=\"(أنا جائع)\" uk=\"(Я голодний)\" fr=\"(j'ai faim)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Si hace 40 grados, yo ___. (Extra)",
-        options: ["tengo calor","tengo frío","tengo miedo"],
+        question: `Si hace 40 grados, yo ___. (Extra) <trans en="(If it's 40 degrees, I ___. (Bonus))" ar="(إذا كانت درجة الحرارة 40 درجة، فأنا ___. (مكافأة))" uk="(Якщо 40 градусів, я ___. (Бонус))" fr="(S'il fait 40 degrés, je ___. (Prime))"/>`,
+        options: ["tengo calor <trans en=\"(I'm hot)\" ar=\"(أنا ساخن)\" uk=\"(Мені жарко)\" fr=\"(j'ai chaud)\"/>", "tengo frío <trans en=\"(I'm cold)\" ar=\"(أنا بارد)\" uk=\"(Мені холодно)\" fr=\"(j'ai froid)\"/>", "tengo miedo <trans en=\"(I'm afraid)\" ar=\"(أخشى)\" uk=\"(Я боюся)\" fr=\"(j'ai peur)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -8827,124 +8848,125 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     exercises: [
       {
         id: "ex1",
-        question: "Si tu cabeza no está bien y sientes dolor, dices:",
-        options: ["Me gusta la cabeza", "Tengo cabeza", "Me duele la cabeza"],
+        question: `Si tu cabeza no está bien y sientes dolor, dices: <trans en="(If your head is not well and you feel pain, you say:)" ar="(إذا كان رأسك ليس بخير وتشعر بالألم فقل:)" uk="(Якщо ваша голова погана і ви відчуваєте біль, ви говорите:)" fr="(Si votre tête ne va pas bien et que vous ressentez de la douleur, vous dites :)"/>`,
+        options: ["Me gusta la cabeza <trans en=\"(I like the head)\" ar=\"(أنا أحب الرأس)\" uk=\"(Мені подобається голова)\" fr=\"(J'aime la tête)\"/>", "Tengo cabeza <trans en=\"(I have a head)\" ar=\"(لدي رأس)\" uk=\"(У мене є голова)\" fr=\"(J'ai une tête)\"/>", "Me duele la cabeza <trans en=\"(My head hurts)\" ar=\"(رأسي يؤلمني)\" uk=\"(Голова болить)\" fr=\"(J'ai mal à la tête)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "Si algo es muy ruidoso y no te deja dormir:",
-        options: ["Me molesta el ruido", "Me aburre el ruido", "Me gusta el ruido"],
+        question: `Si algo es muy ruidoso y no te deja dormir: <trans en="(If something is very noisy and doesn't let you sleep:)" ar="(إذا كان هناك شيء صاخب جدًا ولا يسمح لك بالنوم:)" uk="(Якщо щось дуже шумне і не дає вам спати:)" fr="(Si quelque chose est très bruyant et ne vous permet pas de dormir :)"/>`,
+        options: ["Me molesta el ruido <trans en=\"(The noise bothers me)\" ar=\"(الضجيج يزعجني)\" uk=\"(Мене турбує шум)\" fr=\"(Le bruit me dérange)\"/>", "Me aburre el ruido <trans en=\"(Noise bores me)\" ar=\"(الضجيج يضايقني)\" uk=\"(Мене шум набридає)\" fr=\"(Le bruit m'ennuie)\"/>", "Me gusta el ruido <trans en=\"(I like noise)\" ar=\"(أحب الضوضاء)\" uk=\"(Я люблю шум)\" fr=\"(J'aime le bruit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Si como mucho caramelo, me duele ___.",
-        options: ["la barriga / el estómago","la rodilla","el pelo"],
+        question: `Si como mucho caramelo, me duele ___. <trans en="(If I eat a lot of candy, it hurts ___.)" ar="(إذا أكلت الكثير من الحلوى، فهذا يؤلمني ___.)" uk="(Якщо я їм багато цукерок, це боляче ___.)" fr="(Si je mange beaucoup de bonbons, ça fait mal ___.)"/>`,
+        options: ["la barriga / el estómago <trans en=\"(the belly / stomach)\" ar=\"(البطن / المعدة)\" uk=\"(живіт / живіт)\" fr=\"(le ventre/estomac)\"/>", "la rodilla <trans en=\"(the knee)\" ar=\"(الركبة)\" uk=\"(коліно)\" fr=\"(le genou)\"/>", "el pelo <trans en=\"(hair)\" ar=\"(شعر)\" uk=\"(волосся)\" fr=\"(cheveux)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Si escucho música muy alta, me duelen ___.",
-        options: ["los oídos","los ojos","los pies"],
+        question: `Si escucho música muy alta, me duelen ___. <trans en="(If I listen to music too loud, it hurts ___.)" ar="(إذا استمعت إلى الموسيقى بصوت عالٍ جدًا، فهذا يؤلمني ___.)" uk="(Якщо я слухаю музику занадто голосно, мені стає боляче ___.)" fr="(Si j'écoute de la musique trop fort, ça fait mal ___.)"/>`,
+        options: ["los oídos <trans en=\"(ears)\" ar=\"(آذان)\" uk=\"(вуха)\" fr=\"(oreilles)\"/>", "los ojos <trans en=\"(the eyes)\" ar=\"(العيون)\" uk=\"(очі)\" fr=\"(les yeux)\"/>", "los pies <trans en=\"(feet)\" ar=\"(قدم)\" uk=\"(ноги)\" fr=\"(pieds)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "He corrido 20 km, me duelen ___.",
-        options: ["las piernas","las manos","las orejas"],
+        question: `He corrido 20 km, me duelen ___. <trans en="(I have run 20 km, they hurt me ___.)" ar="(لقد ركضت 20 كم، لقد آذوني ___.)" uk="(Я пробіг 20 км, мені боляче ___.)" fr="(J'ai couru 20 km, ils m'ont fait mal ___.)"/>`,
+        options: ["las piernas <trans en=\"(the legs)\" ar=\"(الساقين)\" uk=\"(ноги)\" fr=\"(les jambes)\"/>", "las manos <trans en=\"(hands)\" ar=\"(الأيدي)\" uk=\"(руки)\" fr=\"(les mains)\"/>", "las orejas <trans en=\"(the ears)\" ar=\"(الأذنين)\" uk=\"(вуха)\" fr=\"(les oreilles)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Llevo gafas porque me duelen ___ al leer.",
-        options: ["los ojos","los dientes","los brazos"],
+        question: `Llevo gafas porque me duelen ___ al leer. <trans en="(I wear glasses because they hurt ___ when reading.)" ar="(أرتدي النظارات لأنها تؤلمني ___ عند القراءة.)" uk="(Я ношу окуляри, тому що вони болять ___ під час читання.)" fr="(Je porte des lunettes parce qu'elles font mal ___ en lisant.)"/>`,
+        options: ["los ojos <trans en=\"(the eyes)\" ar=\"(العيون)\" uk=\"(очі)\" fr=\"(les yeux)\"/>", "los dientes <trans en=\"(teeth)\" ar=\"(أسنان)\" uk=\"(зуби)\" fr=\"(les dents)\"/>", "los brazos <trans en=\"(the arms)\" ar=\"(الأسلحة)\" uk=\"(руки)\" fr=\"(les bras)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "¿A ti ___ la garganta?",
-        options: ["te duele","me duele","le duele"],
+        question: `¿A ti ___ la garganta? <trans en="(Do you ___ your throat?)" ar="(هل ___ حلقك؟)" uk="(Ви ___ своє горло?)" fr="(Est-ce que tu ___ ta gorge ?)"/>`,
+        options: ["te duele <trans en=\"(it hurts you)\" ar=\"(يؤذيك)\" uk=\"(тобі боляче)\" fr=\"(ça te fait mal)\"/>", "me duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "le duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "A Juan ___ la cabeza.",
-        options: ["le duele","me duele","te duele"],
+        question: `A Juan ___ la cabeza. <trans en="(To Juan ___ the head.)" ar="(إلى خوان ___ الرأس.)" uk="(Хуану ___ голову.)" fr="(À Juan ___ le chef.)"/>`,
+        options: ["le duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "me duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "te duele <trans en=\"(it hurts you)\" ar=\"(يؤذيك)\" uk=\"(тобі боляче)\" fr=\"(ça te fait mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "A nosotros ___ los pies.",
-        options: ["nos duelen","nos duele","me duelen"],
+        question: `A nosotros ___ los pies. <trans en="(To us ___ the feet.)" ar="(لنا ___ القدمين.)" uk="(Нам ___ ноги.)" fr="(A nous ___ les pieds.)"/>`,
+        options: ["nos duelen <trans en=\"(they hurt us)\" ar=\"(لقد آذونا)\" uk=\"(вони завдають нам шкоди)\" fr=\"(ils nous ont fait du mal)\"/>", "nos duele <trans en=\"(it hurts us)\" ar=\"(يؤذينا)\" uk=\"(нам боляче)\" fr=\"(ça nous fait mal)\"/>", "me duelen <trans en=\"(they hurt me)\" ar=\"(لقد جرحوني)\" uk=\"(вони зробили мені боляче)\" fr=\"(ils m'ont blessé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "A ellos ___ la espalda.",
-        options: ["les duele","le duelen","les duelen"],
+        question: `A ellos ___ la espalda. <trans en="(To them ___ the back.)" ar="(لهم ___ الظهر.)" uk="(До них ___ спиною.)" fr="(À eux ___ le dos.)"/>`,
+        options: ["les duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "le duelen <trans en=\"(they hurt)\" ar=\"(يؤلمون)\" uk=\"(вони болять)\" fr=\"(ils ont mal)\"/>", "les duelen <trans en=\"(they hurt)\" ar=\"(يؤلمون)\" uk=\"(вони болять)\" fr=\"(ils ont mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "A mí ___ el estómago.",
-        options: ["me duele","te duele","me duelen"],
+        question: `A mí ___ el estómago. <trans en="(I ___ my stomach.)" ar="(أنا ___ معدتي.)" uk="(Я ___ живіт.)" fr="(Je ___ mon ventre.)"/>`,
+        options: ["me duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "te duele <trans en=\"(it hurts you)\" ar=\"(يؤذيك)\" uk=\"(тобі боляче)\" fr=\"(ça te fait mal)\"/>", "me duelen <trans en=\"(they hurt me)\" ar=\"(لقد جرحوني)\" uk=\"(вони зробили мені боляче)\" fr=\"(ils m'ont blessé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿Qué te pasa? - ___ la muela.",
-        options: ["Me duele","Me duelen","Te duele"],
+        question: `¿Qué te pasa? - ___ la muela. <trans en="(What's wrong with you? - ___ the tooth.)" ar="(ما بك؟ - ___ السن.)" uk="(Що з тобою? - ___ зуб.)" fr="(Qu'est-ce qui ne va pas chez toi ? - ___ la dent.)"/>`,
+        options: ["Me duele <trans en=\"(It hurts me)\" ar=\"(يؤذيني)\" uk=\"(Мені боляче)\" fr=\"(Ça me fait mal)\"/>", "Me duelen <trans en=\"(They hurt me)\" ar=\"(لقد جرحوني)\" uk=\"(Вони зробили мені боляче)\" fr=\"(Ils m'ont blessé)\"/>", "Te duele <trans en=\"(It hurts you)\" ar=\"(يؤذيك)\" uk=\"(Вам боляче)\" fr=\"(Ça te fait mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Si algo está en plural usamos:",
-        options: ["duelen","duele","doler"],
+        question: `Si algo está en plural usamos: <trans en="(If something is plural we use:)" ar="(إذا كان الشيء بصيغة الجمع نستخدم:)" uk="(Якщо щось у множині, ми використовуємо:)" fr="(Si quelque chose est au pluriel, nous utilisons :)"/>`,
+        options: ["duelen <trans en=\"(hurt)\" ar=\"(يجرح)\" uk=\"(боляче)\" fr=\"(blessé)\"/>", "duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "doler <trans en=\"(hurt)\" ar=\"(يجرح)\" uk=\"(боляче)\" fr=\"(blessé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "A ella ___ los brazos hoy.",
-        options: ["le duelen","le duele","les duelen"],
+        question: `A ella ___ los brazos hoy. <trans en="(To her ___ arms today.)" ar="(لها ___ ذراعيها اليوم.)" uk="(До її ___ рук сьогодні.)" fr="(Dans ses ___ bras aujourd'hui.)"/>`,
+        options: ["le duelen <trans en=\"(they hurt)\" ar=\"(يؤلمون)\" uk=\"(вони болять)\" fr=\"(ils ont mal)\"/>", "le duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "les duelen <trans en=\"(they hurt)\" ar=\"(يؤلمون)\" uk=\"(вони болять)\" fr=\"(ils ont mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Si trabajas mucho frente al ordenador, te duele...",
-        options: ["La espalda / los ojos","Los pies","Las rodillas"],
+        question: `Si trabajas mucho frente al ordenador, te duele... <trans en="(If you work a lot in front of the computer, it hurts...)" ar="(إذا كنت تعمل كثيرًا أمام الكمبيوتر، فهذا مؤلم...)" uk="(Якщо ви багато працюєте за комп'ютером, це боляче...)" fr="(Si vous travaillez beaucoup devant l'ordinateur, ça fait mal...)"/>`,
+        options: ["La espalda / los ojos <trans en=\"(The back / eyes)\" ar=\"(الظهر / العيون)\" uk=\"(Спина / очі)\" fr=\"(Le dos/les yeux)\"/>", "Los pies <trans en=\"(Feet)\" ar=\"(قدم)\" uk=\"(Ноги)\" fr=\"(Pieds)\"/>", "Las rodillas <trans en=\"(The knees)\" ar=\"(الركبتين)\" uk=\"(Коліна)\" fr=\"(Les genoux)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Doctor, ___ mucho el pecho.",
-        options: ["me duele","le duele","te duele"],
+        question: `Doctor, ___ mucho el pecho. <trans en="(Doctor, ___ a lot of chest.)" ar="(دكتور، ___ صدر كبير.)" uk="(Лікарю, ___ багато грудей.)" fr="(Docteur, ___ beaucoup de poitrine.)"/>`,
+        options: ["me duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "le duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "te duele <trans en=\"(it hurts you)\" ar=\"(يؤذيك)\" uk=\"(тобі боляче)\" fr=\"(ça te fait mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "A vosotros ___ las piernas de jugar al fútbol.",
-        options: ["os duelen","nos duelen","les duelen"],
+        question: `A vosotros ___ las piernas de jugar al fútbol. <trans en="(You ___ legs from playing soccer.)" ar="(أنت ___ ساقيك من لعب كرة القدم.)" uk="(Ви ___ ноги від гри у футбол.)" fr="(Vous ___ jambes après avoir joué au football.)"/>`,
+        options: ["os duelen <trans en=\"(they hurt you)\" ar=\"(يؤذونك)\" uk=\"(вони завдають вам шкоди)\" fr=\"(ils t'ont blessé)\"/>", "nos duelen <trans en=\"(they hurt us)\" ar=\"(لقد آذونا)\" uk=\"(вони завдають нам шкоди)\" fr=\"(ils nous ont fait du mal)\"/>", "les duelen <trans en=\"(they hurt)\" ar=\"(يؤلمون)\" uk=\"(вони болять)\" fr=\"(ils ont mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "¿A quién ___ la cabeza?",
-        options: ["le duele","me duele","les duelen"],
+        question: `¿A quién ___ la cabeza? <trans en="(Whose head ___?)" ar="(رأس من ___؟)" uk="(Чия голова ___?)" fr="(La tête de qui ___ ?)"/>`,
+        options: ["le duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "me duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "les duelen <trans en=\"(they hurt)\" ar=\"(يؤلمون)\" uk=\"(вони болять)\" fr=\"(ils ont mal)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Me he caído, me ___ todo el cuerpo.",
-        options: ["duele","duelen","doler"],
+        question: `Me he caído, me ___ todo el cuerpo. <trans en="(I fell, I ___ my whole body.)" ar="(لقد وقعت، لقد ___ جسدي كله.)" uk="(Я впав, я ___ всім тілом.)" fr="(Je suis tombé, je ___ tout mon corps.)"/>`,
+        options: ["duele <trans en=\"(it hurts)\" ar=\"(يؤلم)\" uk=\"(боляче)\" fr=\"(ça fait mal)\"/>", "duelen <trans en=\"(hurt)\" ar=\"(يجرح)\" uk=\"(боляче)\" fr=\"(blessé)\"/>", "doler <trans en=\"(hurt)\" ar=\"(يجرح)\" uk=\"(боляче)\" fr=\"(blessé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Si como mucho caramelo, me duele ___. (Extra)",
-        options: ["la barriga / el estómago","la rodilla","el pelo"],
+        question: `Si como mucho caramelo, me duele ___. (Extra) <trans en="(If I eat a lot of candy, it hurts ___. (Bonus))" ar="(إذا أكلت الكثير من الحلوى، فهذا يؤلمني ___. (مكافأة))" uk="(Якщо я їм багато цукерок, це боляче ___. (Бонус))" fr="(Si je mange beaucoup de bonbons, ça fait mal ___. (Prime))"/>`,
+        options: ["la barriga / el estómago <trans en=\"(the belly / stomach)\" ar=\"(البطن / المعدة)\" uk=\"(живіт / живіт)\" fr=\"(le ventre/estomac)\"/>", "la rodilla <trans en=\"(the knee)\" ar=\"(الركبة)\" uk=\"(коліно)\" fr=\"(le genou)\"/>", "el pelo <trans en=\"(hair)\" ar=\"(شعر)\" uk=\"(волосся)\" fr=\"(cheveux)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -8969,124 +8991,125 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué día va Ana al supermercado?",
-        options: ["El lunes", "El sábado", "El domingo"],
+        question: `¿Qué día va Ana al supermercado? <trans en="(What day does Ana go to the supermarket?)" ar="(في أي يوم تذهب آنا إلى السوبر ماركت؟)" uk="(У який день Ана йде в супермаркет?)" fr="(Quel jour Ana va-t-elle au supermarché ?)"/>`,
+        options: ["El lunes <trans en=\"(Monday)\" ar=\"(الاثنين)\" uk=\"(Понеділок)\" fr=\"(Lundi)\"/>", "El sábado <trans en=\"(Saturday)\" ar=\"(السبت)\" uk=\"(Субота)\" fr=\"(Samedi)\"/>", "El domingo <trans en=\"(Sunday)\" ar=\"(الأحد)\" uk=\"(Неділя)\" fr=\"(Dimanche)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Qué compra primero Ana?",
-        options: ["Frutas (manzanas)", "Leche", "Carne"],
+        question: `¿Qué compra primero Ana? <trans en="(What does Ana buy first?)" ar="(ماذا تشتري آنا أولاً؟)" uk="(Що Аня купує в першу чергу?)" fr="(Qu'est-ce qu'Ana achète en premier ?)"/>`,
+        options: ["Frutas (manzanas) <trans en=\"(Fruits (apples))\" ar=\"(فواكه (تفاح))\" uk=\"(Фрукти (яблука))\" fr=\"(Fruits (pommes))\"/>", "Leche <trans en=\"(Milk)\" ar=\"(حليب)\" uk=\"(Молоко)\" fr=\"(Lait)\"/>", "Carne <trans en=\"(Meat)\" ar=\"(لحم)\" uk=\"(М'ясо)\" fr=\"(Viande)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "¿Cómo paga Ana?",
-        options: ["Con tarjeta", "Con el teléfono", "Con dinero en efectivo"],
+        question: `¿Cómo paga Ana? <trans en="(How does Ana pay?)" ar="(كيف تدفع آنا؟)" uk="(Як Ана платить?)" fr="(Comment Ana paie-t-elle ?)"/>`,
+        options: ["Con tarjeta <trans en=\"(With card)\" ar=\"(بالبطاقة)\" uk=\"(З карткою)\" fr=\"(Avec carte)\"/>", "Con el teléfono <trans en=\"(With the phone)\" ar=\"(مع الهاتف)\" uk=\"(З телефону)\" fr=\"(Avec le téléphone)\"/>", "Con dinero en efectivo <trans en=\"(With cash)\" ar=\"(بالنقود)\" uk=\"(Готівкою)\" fr=\"(En espèces)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex4",
-        question: "¿Dónde compras la fruta y verdura?",
-        options: ["En la frutería / supermercado","En la farmacia","En la zapatería"],
+        question: `¿Dónde compras la fruta y verdura? <trans en="(Where do you buy fruit and vegetables?)" ar="(أين تشتري الفواكه والخضروات؟)" uk="(Де ви купуєте фрукти та овочі?)" fr="(Où achetez-vous les fruits et légumes ?)"/>`,
+        options: ["En la frutería / supermercado <trans en=\"(At the fruit shop/supermarket)\" ar=\"(في متجر الفاكهة/السوبر ماركت)\" uk=\"(У фруктовому магазині/супермаркеті)\" fr=\"(Au fruiterie/supermarché)\"/>", "En la farmacia <trans en=\"(At the pharmacy)\" ar=\"(في الصيدلية)\" uk=\"(В аптеці)\" fr=\"(A la pharmacie)\"/>", "En la zapatería <trans en=\"(In the shoe store)\" ar=\"(في محل الأحذية)\" uk=\"(У взуттєвому магазині)\" fr=\"(Dans le magasin de chaussures)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Para comprar carne voy a...",
-        options: ["La carnicería","La panadería","La pescadería"],
+        question: `Para comprar carne voy a... <trans en="(To buy meat I am going to...)" ar="(لشراء اللحوم سأذهب ...)" uk="(Щоб купити м'ясо, збираюся...)" fr="(Pour acheter de la viande, je vais...)"/>`,
+        options: ["La carnicería <trans en=\"(The butcher shop)\" ar=\"(محل الجزارة)\" uk=\"(М'ясний магазин)\" fr=\"(La boucherie)\"/>", "La panadería <trans en=\"(The bakery)\" ar=\"(المخبز)\" uk=\"(Пекарня)\" fr=\"(La boulangerie)\"/>", "La pescadería <trans en=\"(The fishmonger)\" ar=\"(بائع السمك)\" uk=\"(Рибний продавець)\" fr=\"(Le poissonnier)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "El lugar donde pagas en el supermercado es...",
-        options: ["La caja","La puerta","El baño"],
+        question: `El lugar donde pagas en el supermercado es... <trans en="(The place where you pay at the supermarket is...)" ar="(المكان الذي تدفع فيه في السوبر ماركت هو...)" uk="(Місце, де ви платите в супермаркеті, це...)" fr="(L'endroit où vous payez au supermarché est...)"/>`,
+        options: ["La caja <trans en=\"(The box)\" ar=\"(الصندوق)\" uk=\"(Коробка)\" fr=\"(La boîte)\"/>", "La puerta <trans en=\"(The door)\" ar=\"(الباب)\" uk=\"(Двері)\" fr=\"(La porte)\"/>", "El baño <trans en=\"(The bathroom)\" ar=\"(الحمام)\" uk=\"(Ванна кімната)\" fr=\"(La salle de bain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "¿Qué usamos para llevar los productos en la tienda?",
-        options: ["Un carrito o cesta","Una mochila","Una maleta"],
+        question: `¿Qué usamos para llevar los productos en la tienda? <trans en="(What do we use to carry the products in the store?)" ar="(ماذا نستخدم لحمل المنتجات في المتجر؟)" uk="(Що ми використовуємо для транспортування продуктів у магазині?)" fr="(Qu'utilisons-nous pour transporter les produits dans le magasin ?)"/>`,
+        options: ["Un carrito o cesta <trans en=\"(A cart or basket)\" ar=\"(عربة أو سلة)\" uk=\"(Візок або кошик)\" fr=\"(Un chariot ou un panier)\"/>", "Una mochila <trans en=\"(A backpack)\" ar=\"(حقيبة ظهر)\" uk=\"(Рюкзак)\" fr=\"(Un sac à dos)\"/>", "Una maleta <trans en=\"(A suitcase)\" ar=\"(حقيبة)\" uk=\"(Валіза)\" fr=\"(Une valise)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "¿Qué compras en la pescadería?",
-        options: ["Pescado","Pollo","Queso"],
+        question: `¿Qué compras en la pescadería? <trans en="(What do you buy at the fishmonger?)" ar="(ماذا تشتري من بائع السمك؟)" uk="(Що ви купуєте в рибному магазині?)" fr="(Qu'est-ce qu'on achète chez le poissonnier ?)"/>`,
+        options: ["Pescado <trans en=\"(Fish)\" ar=\"(سمك)\" uk=\"(Риба)\" fr=\"(Poisson)\"/>", "Pollo <trans en=\"(Chicken)\" ar=\"(دجاج)\" uk=\"(Курка)\" fr=\"(Poulet)\"/>", "Queso <trans en=\"(Cheese)\" ar=\"(جبن)\" uk=\"(Сир)\" fr=\"(Fromage)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "El pan se compra en...",
-        options: ["La panadería","La ferretería","La librería"],
+        question: `El pan se compra en... <trans en="(Bread is bought in...)" ar="(يُشترى الخبز في...)" uk="(Хліб купують у...)" fr="(Le pain s'achète à...)"/>`,
+        options: ["La panadería <trans en=\"(The bakery)\" ar=\"(المخبز)\" uk=\"(Пекарня)\" fr=\"(La boulangerie)\"/>", "La ferretería <trans en=\"(The hardware store)\" ar=\"(محل الأجهزة)\" uk=\"(Будівельний магазин)\" fr=\"(La quincaillerie)\"/>", "La librería <trans en=\"(The bookstore)\" ar=\"(محل بيع الكتب)\" uk=\"(Книгарня)\" fr=\"(La librairie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Si quieres comprar yogures o leche, buscas la sección de...",
-        options: ["Lácteos","Limpieza","Bebidas"],
+        question: `Si quieres comprar yogures o leche, buscas la sección de... <trans en="(If you want to buy yogurt or milk, look for the... section)" ar="(إذا أردت شراء الزبادي أو الحليب ابحث عن قسم...)" uk="(Якщо ви хочете купити йогурт або молоко, шукайте розділ...)" fr="(Si vous souhaitez acheter du yaourt ou du lait, cherchez la rubrique...)"/>`,
+        options: ["Lácteos <trans en=\"(Dairy)\" ar=\"(الألبان)\" uk=\"(Молочні)\" fr=\"(Produits laitiers)\"/>", "Limpieza <trans en=\"(Cleaning)\" ar=\"(التنظيف)\" uk=\"(Прибирання)\" fr=\"(Nettoyage)\"/>", "Bebidas <trans en=\"(Drinks)\" ar=\"(المشروبات)\" uk=\"(Напої)\" fr=\"(Boissons)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "¿Qué frase usas para preguntar el precio?",
-        options: ["¿Cuánto cuesta?","¿Dónde está?","¿Cómo se llama?"],
+        question: `¿Qué frase usas para preguntar el precio? <trans en="(What phrase do you use to ask the price?)" ar="(ما هي العبارة التي تستخدمها للسؤال عن السعر؟)" uk="(Яку фразу ви використовуєте, щоб запитати ціну?)" fr="(Quelle phrase utilisez-vous pour demander le prix ?)"/>`,
+        options: ["¿Cuánto cuesta? <trans en=\"(How much does it cost?)\" ar=\"(كم يكلف؟)\" uk=\"(Скільки це коштує?)\" fr=\"(Combien ça coûte?)\"/>", "¿Dónde está? <trans en=\"(Where is?)\" ar=\"(أين هو؟)\" uk=\"(Де?)\" fr=\"(Où est?)\"/>", "¿Cómo se llama? <trans en=\"(What's it called?)\" ar=\"(ماذا يسمى؟)\" uk=\"(Як це називається?)\" fr=\"(Comment ça s'appelle ?)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "La lista de cosas que necesitas comprar es...",
-        options: ["La lista de la compra","El recibo","La factura"],
+        question: `La lista de cosas que necesitas comprar es... <trans en="(The list of things you need to buy is...)" ar="(قائمة الأشياء التي تحتاج إلى شرائها هي...)" uk="(Список речей, які вам потрібно купити, це...)" fr="(La liste des choses que vous devez acheter est...)"/>`,
+        options: ["La lista de la compra <trans en=\"(The shopping list)\" ar=\"(قائمة التسوق)\" uk=\"(Список покупок)\" fr=\"(La liste de courses)\"/>", "El recibo <trans en=\"(The receipt)\" ar=\"(الإيصال)\" uk=\"(Квитанція)\" fr=\"(Le reçu)\"/>", "La factura <trans en=\"(The invoice)\" ar=\"(الفاتورة)\" uk=\"(Рахунок-фактура)\" fr=\"(La facture)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Cuando pagas, te dan un papel que se llama...",
-        options: ["Ticket / Recibo","Billete","Libro"],
+        question: `Cuando pagas, te dan un papel que se llama... <trans en="(When you pay, they give you a piece of paper called...)" ar="(عندما تدفع، يعطونك قطعة من الورق تسمى...)" uk="(Коли ви платите, вам дають папірець, який називається...)" fr="(Quand vous payez, ils vous donnent un morceau de papier appelé...)"/>`,
+        options: ["Ticket / Recibo <trans en=\"(Ticket / Receipt)\" ar=\"(تذكرة/إيصال)\" uk=\"(Квиток / Квитанція)\" fr=\"(Billet / Reçu)\"/>", "Billete <trans en=\"(Ticket)\" ar=\"(تذكرة)\" uk=\"(Квиток)\" fr=\"(Billet)\"/>", "Libro <trans en=\"(Book)\" ar=\"(كتاب)\" uk=\"(Книга)\" fr=\"(Réserver)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿Qué artículo NO está en la sección de limpieza?",
-        options: ["Cebollas","Jabón","Lejía"],
+        question: `¿Qué artículo NO está en la sección de limpieza? <trans en="(What item is NOT in the cleaning section?)" ar="(ما هو العنصر غير الموجود في قسم التنظيف؟)" uk="(Якого пункту НЕ входить до розділу прибирання?)" fr="(Quel article ne se trouve PAS dans la section nettoyage ?)"/>`,
+        options: ["Cebollas <trans en=\"(Onions)\" ar=\"(بصل)\" uk=\"(Цибуля)\" fr=\"(Oignons)\"/>", "Jabón <trans en=\"(Soap)\" ar=\"(صابون)\" uk=\"(Мило)\" fr=\"(Savon)\"/>", "Lejía <trans en=\"(Bleach)\" ar=\"(مبيض)\" uk=\"(Відбілювач)\" fr=\"(Eau de Javel)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "En la charcutería puedes comprar...",
-        options: ["Jamón y queso","Pescado","Zapatos"],
+        question: `En la charcutería puedes comprar... <trans en="(At the delicatessen you can buy...)" ar="(في محل بيع الأطعمة المعلبة يمكنك شراء ...)" uk="(У магазині делікатесів можна купити...)" fr="(A l'épicerie fine vous pouvez acheter...)"/>`,
+        options: ["Jamón y queso <trans en=\"(Ham and cheese)\" ar=\"(لحم الخنزير والجبن)\" uk=\"(Шинка і сир)\" fr=\"(Jambon et fromage)\"/>", "Pescado <trans en=\"(Fish)\" ar=\"(سمك)\" uk=\"(Риба)\" fr=\"(Poisson)\"/>", "Zapatos <trans en=\"(Shoes)\" ar=\"(أحذية)\" uk=\"(Взуття)\" fr=\"(Chaussures)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Para comprar medicina vas a...",
-        options: ["La farmacia","La panadería","La carnicería"],
+        question: `Para comprar medicina vas a... <trans en="(To buy medicine you go to...)" ar="(لشراء الدواء تذهب إليه...)" uk="(За ліками ви йдете в...)" fr="(Pour acheter des médicaments, tu vas à...)"/>`,
+        options: ["La farmacia <trans en=\"(The pharmacy)\" ar=\"(الصيدلية)\" uk=\"(Аптека)\" fr=\"(La pharmacie)\"/>", "La panadería <trans en=\"(The bakery)\" ar=\"(المخبز)\" uk=\"(Пекарня)\" fr=\"(La boulangerie)\"/>", "La carnicería <trans en=\"(The butcher shop)\" ar=\"(محل الجزارة)\" uk=\"(М'ясний магазин)\" fr=\"(La boucherie)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "El agua y los zumos están en la sección de...",
-        options: ["Bebidas","Lácteos","Carnes"],
+        question: `El agua y los zumos están en la sección de... <trans en="(Water and juices are in the...)" ar="(الماء والعصائر موجودة في...)" uk="(Вода та соки в...)" fr="(L'eau et les jus sont dans le...)"/>`,
+        options: ["Bebidas <trans en=\"(Drinks)\" ar=\"(المشروبات)\" uk=\"(Напої)\" fr=\"(Boissons)\"/>", "Lácteos <trans en=\"(Dairy)\" ar=\"(الألبان)\" uk=\"(Молочні)\" fr=\"(Produits laitiers)\"/>", "Carnes <trans en=\"(Meats)\" ar=\"(اللحوم)\" uk=\"(М'ясо)\" fr=\"(Viandes)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Para pagar con tarjeta necesitas...",
-        options: ["Una tarjeta de crédito/débito","Efectivo","Un cheque"],
+        question: `Para pagar con tarjeta necesitas... <trans en="(To pay by card you need...)" ar="(للدفع عن طريق البطاقة تحتاج...)" uk="(Для оплати карткою потрібно...)" fr="(Pour payer par carte il vous faut...)"/>`,
+        options: ["Una tarjeta de crédito/débito <trans en=\"(A credit/debit card)\" ar=\"(بطاقة الائتمان/الخصم)\" uk=\"(Кредитна/дебетова картка)\" fr=\"(Une carte de crédit/débit)\"/>", "Efectivo <trans en=\"(Cash)\" ar=\"(نقدا)\" uk=\"(Готівка)\" fr=\"(Espèces)\"/>", "Un cheque <trans en=\"(A check)\" ar=\"(شيك)\" uk=\"(Чек)\" fr=\"(Un chèque)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Qué compras por docenas?",
-        options: ["Huevos","Leche","Carne"],
+        question: `¿Qué compras por docenas? <trans en="(What do you buy by the dozen?)" ar="(ماذا تشتري بالدرزن؟)" uk="(Що ви купуєте десятками?)" fr="(Qu'est-ce qu'on achète à la douzaine ?)"/>`,
+        options: ["Huevos <trans en=\"(Eggs)\" ar=\"(البيض)\" uk=\"(Яйця)\" fr=\"(Oeufs)\"/>", "Leche <trans en=\"(Milk)\" ar=\"(حليب)\" uk=\"(Молоко)\" fr=\"(Lait)\"/>", "Carne <trans en=\"(Meat)\" ar=\"(لحم)\" uk=\"(М'ясо)\" fr=\"(Viande)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Si el producto pesa mucho, el supermercado lo vende por...",
-        options: ["Kilos","Litros","Metros"],
+        question: `Si el producto pesa mucho, el supermercado lo vende por... <trans en="(If the product weighs a lot, the supermarket sells it for...)" ar="(إذا كان المنتج يزن كثيرًا، فإن السوبر ماركت يبيعه بـ...)" uk="(Якщо товар важить багато, супермаркет продає його за...)" fr="(Si le produit pèse beaucoup, le supermarché le vend pour...)"/>`,
+        options: ["Kilos <trans en=\"(Kilos)\" ar=\"(كيلو)\" uk=\"(Кілограми)\" fr=\"(Kilos)\"/>", "Litros <trans en=\"(Liters)\" ar=\"(لتر)\" uk=\"(Літри)\" fr=\"(Litres)\"/>", "Metros <trans en=\"(Meters)\" ar=\"(متر)\" uk=\"(Метри)\" fr=\"(Mètres)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -9115,124 +9138,125 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué le pasa a Carlos?",
-        options: ["Le duele la cabeza y tiene fiebre", "Le duele el estómago", "Tiene hambre y necesita comer"],
+        question: `¿Qué le pasa a Carlos? <trans en="(What's wrong with Carlos?)" ar="(ما هو الخطأ في كارلوس؟)" uk="(Що не так з Карлосом?)" fr="(Qu'est-ce qui ne va pas avec Carlos ?)"/>`,
+        options: ["Le duele la cabeza y tiene fiebre <trans en=\"(You have a headache and a fever)\" ar=\"(لديك صداع وحمى)\" uk=\"(У вас головний біль і висока температура)\" fr=\"(Vous avez mal à la tête et de la fièvre)\"/>", "Le duele el estómago <trans en=\"(Your stomach hurts)\" ar=\"(معدتك تؤلمك)\" uk=\"(Болить живіт)\" fr=\"(Tu as mal au ventre)\"/>", "Tiene hambre y necesita comer <trans en=\"(You are hungry and need to eat)\" ar=\"(أنت جائع وتحتاج إلى تناول الطعام)\" uk=\"(Ви голодні і вам потрібно поїсти)\" fr=\"(Vous avez faim et avez besoin de manger)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "¿Cada cuántas horas tiene que tomar las pastillas?",
-        options: ["Cada 5 horas", "Cada 8 horas", "Cada 10 horas"],
+        question: `¿Cada cuántas horas tiene que tomar las pastillas? <trans en="(How often do you have to take the pills?)" ar="(كم مرة يجب عليك تناول الحبوب؟)" uk="(Як часто потрібно приймати таблетки?)" fr="(À quelle fréquence devez-vous prendre les pilules ?)"/>`,
+        options: ["Cada 5 horas <trans en=\"(Every 5 hours)\" ar=\"(كل 5 ساعات)\" uk=\"(Кожні 5 годин)\" fr=\"(Toutes les 5 heures)\"/>", "Cada 8 horas <trans en=\"(Every 8 hours)\" ar=\"(كل 8 ساعات)\" uk=\"(Кожні 8 годин)\" fr=\"(Toutes les 8 heures)\"/>", "Cada 10 horas <trans en=\"(Every 10 hours)\" ar=\"(كل 10 ساعات)\" uk=\"(Кожні 10 годин)\" fr=\"(Toutes les 10 heures)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "¿Cuánto dinero paga Carlos?",
-        options: ["Diez euros", "Ocho euros", "Cinco euros"],
+        question: `¿Cuánto dinero paga Carlos? <trans en="(How much money does Carlos pay?)" ar="(كم من المال يدفع كارلوس؟)" uk="(Скільки грошей платить Карлос?)" fr="(Combien d'argent Carlos paie-t-il ?)"/>`,
+        options: ["Diez euros <trans en=\"(Ten euros)\" ar=\"(عشرة يورو)\" uk=\"(Десять євро)\" fr=\"(Dix euros)\"/>", "Ocho euros <trans en=\"(Eight euros)\" ar=\"(ثمانية يورو)\" uk=\"(Вісім євро)\" fr=\"(Huit euros)\"/>", "Cinco euros <trans en=\"(Five euros)\" ar=\"(خمسة يورو)\" uk=\"(П'ять євро)\" fr=\"(Cinq euros)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex4",
-        question: "El lugar al que vas si estás enfermo es...",
-        options: ["El médico / El hospital","El supermercado","La escuela"],
+        question: `El lugar al que vas si estás enfermo es... <trans en="(The place you go if you're sick is...)" ar="(المكان الذي تذهب إليه إذا كنت مريضاً هو...)" uk="(Куди ви йдете, якщо захворіли, це...)" fr="(L'endroit où vous allez si vous êtes malade est...)"/>`,
+        options: ["El médico / El hospital <trans en=\"(The doctor / The hospital)\" ar=\"(الطبيب / المستشفى)\" uk=\"(Лікар / Лікарня)\" fr=\"(Le médecin / L'hôpital)\"/>", "El supermercado <trans en=\"(The supermarket)\" ar=\"(السوبر ماركت)\" uk=\"(Супермаркет)\" fr=\"(Le supermarché)\"/>", "La escuela <trans en=\"(The school)\" ar=\"(المدرسة)\" uk=\"(Школа)\" fr=\"(L'école)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "La persona que te receta medicinas es...",
-        options: ["El doctor / La doctora","El profesor","El policía"],
+        question: `La persona que te receta medicinas es... <trans en="(The person who prescribes medicines for you is...)" ar="(الشخص الذي يصف لك الأدوية هو...)" uk="(Людина, яка виписує вам ліки, це...)" fr="(La personne qui vous prescrit des médicaments est...)"/>`,
+        options: ["El doctor / La doctora <trans en=\"(The doctor / The doctor)\" ar=\"(الطبيب / الطبيب)\" uk=\"(Лікар / Лікар)\" fr=\"(Le docteur / Le docteur)\"/>", "El profesor <trans en=\"(The teacher)\" ar=\"(المعلم)\" uk=\"(Учитель)\" fr=\"(Le professeur)\"/>", "El policía <trans en=\"(The policeman)\" ar=\"(الشرطي)\" uk=\"(Поліцейський)\" fr=\"(Le policier)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Si tienes fiebre, el médico te toma la...",
-        options: ["Temperatura","Altura","Edad"],
+        question: `Si tienes fiebre, el médico te toma la... <trans en="(If you have a fever, the doctor takes your...)" ar="(إذا كنت تعاني من الحمى، يقوم الطبيب بأخذ...)" uk="(Якщо у вас температура, лікар приймає...)" fr="(Si vous avez de la fièvre, le médecin prend votre...)"/>`,
+        options: ["Temperatura <trans en=\"(Temperature)\" ar=\"(درجة الحرارة)\" uk=\"(Температура)\" fr=\"(Température)\"/>", "Altura <trans en=\"(Height)\" ar=\"(الارتفاع)\" uk=\"(Висота)\" fr=\"(Hauteur)\"/>", "Edad <trans en=\"(Age)\" ar=\"(العمر)\" uk=\"(Вік)\" fr=\"(Âge)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Si te duele la garganta y toses, tienes...",
-        options: ["Tos / Resfriado","Alergia al sol","Hambre"],
+        question: `Si te duele la garganta y toses, tienes... <trans en="(If your throat hurts and you cough, you have...)" ar="(إذا كان حلقك يؤلمك وتسعل، فهذا يعني...)" uk="(Якщо у вас болить горло і ви кашляєте, у вас...)" fr="(Si vous avez mal à la gorge et que vous toussez, vous avez...)"/>`,
+        options: ["Tos / Resfriado <trans en=\"(Cough / Cold)\" ar=\"(السعال/البرد)\" uk=\"(Кашель / Застуда)\" fr=\"(Toux / Rhume)\"/>", "Alergia al sol <trans en=\"(Sun allergy)\" ar=\"(حساسية الشمس)\" uk=\"(Сонячна алергія)\" fr=\"(Allergie au soleil)\"/>", "Hambre <trans en=\"(Hunger)\" ar=\"(الجوع)\" uk=\"(Голод)\" fr=\"(La faim)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "El papel que el médico te da para comprar medicina se llama...",
-        options: ["Receta","Factura","Carta"],
+        question: `El papel que el médico te da para comprar medicina se llama... <trans en="(The paper that the doctor gives you to buy medicine is called...)" ar="(الورقة التي يعطيك إياها الطبيب لشراء الدواء تسمى...)" uk="(Папір, який дає лікар, щоб купити ліки, називається...)" fr="(Le papier que le médecin vous donne pour acheter des médicaments s'appelle...)"/>`,
+        options: ["Receta <trans en=\"(Recipe)\" ar=\"(وصفة)\" uk=\"(Рецепт)\" fr=\"(Recette)\"/>", "Factura <trans en=\"(Invoice)\" ar=\"(الفاتورة)\" uk=\"(Рахунок-фактура)\" fr=\"(Facture)\"/>", "Carta <trans en=\"(Letter)\" ar=\"(رسالة)\" uk=\"(Лист)\" fr=\"(Lettre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Si te rompes un brazo, te ponen...",
-        options: ["Una escayola / yeso","Una tirita","Una bufanda"],
+        question: `Si te rompes un brazo, te ponen... <trans en="(If you break your arm, they put you...)" ar="(إذا كسرت ذراعك، فسيضعونك...)" uk="(Зламаєш руку, кладуть...)" fr="(Si tu te casses le bras, ils te mettent...)"/>`,
+        options: ["Una escayola / yeso <trans en=\"(A plaster cast)\" ar=\"(قالب من الجبس)\" uk=\"(Гіпсова пов'язка)\" fr=\"(Un plâtre)\"/>", "Una tirita <trans en=\"(A band-aid)\" ar=\"(إسعافات أولية)\" uk=\"(Пластир)\" fr=\"(Un pansement)\"/>", "Una bufanda <trans en=\"(A scarf)\" ar=\"(وشاح)\" uk=\"(Шарф)\" fr=\"(Un foulard)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Cómo te sientes si estás resfriado?",
-        options: ["Cansado y con dolor de cabeza","Con mucha energía","Muy feliz"],
+        question: `¿Cómo te sientes si estás resfriado? <trans en="(How do you feel if you have a cold?)" ar="(ما هو شعورك إذا أصبت بالبرد؟)" uk="(Що ви відчуваєте, якщо застудилися?)" fr="(Comment vous sentez-vous si vous avez un rhume ?)"/>`,
+        options: ["Cansado y con dolor de cabeza <trans en=\"(Tired and with a headache)\" ar=\"(متعب ومعه صداع)\" uk=\"(Втомлений і з головним болем)\" fr=\"(Fatigué et mal à la tête)\"/>", "Con mucha energía <trans en=\"(With a lot of energy)\" ar=\"(مع الكثير من الطاقة)\" uk=\"(З великою кількістю енергії)\" fr=\"(Avec beaucoup d'énergie)\"/>", "Muy feliz <trans en=\"(Very happy)\" ar=\"(سعيد جدا)\" uk=\"(Дуже щаслива)\" fr=\"(Très heureux)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Para curar un corte pequeño te pones...",
-        options: ["Una tirita","Una escayola","Una inyección"],
+        question: `Para curar un corte pequeño te pones... <trans en="(To heal a small cut you put...)" ar="(لشفاء قطع صغير وضعته...)" uk="(Щоб залікувати невеликий поріз, ви наносите...)" fr="(Pour soigner une petite coupure vous mettez...)"/>`,
+        options: ["Una tirita <trans en=\"(A band-aid)\" ar=\"(إسعافات أولية)\" uk=\"(Пластир)\" fr=\"(Un pansement)\"/>", "Una escayola <trans en=\"(A plaster)\" ar=\"(جص)\" uk=\"(Пластир)\" fr=\"(Un plâtre)\"/>", "Una inyección <trans en=\"(An injection)\" ar=\"(حقنة)\" uk=\"(Укол)\" fr=\"(Une injection)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿Qué te pones en la axila para medir la fiebre?",
-        options: ["Un termómetro","Una venda","Un fonendoscopio"],
+        question: `¿Qué te pones en la axila para medir la fiebre? <trans en="(What do you put in your armpit to measure fever?)" ar="(ماذا تضع في إبطك لقياس الحمى؟)" uk="(Що ви кладете під пахву, щоб виміряти температуру?)" fr="(Que mets-tu sous ton aisselle pour mesurer la fièvre ?)"/>`,
+        options: ["Un termómetro <trans en=\"(A thermometer)\" ar=\"(ميزان حرارة)\" uk=\"(Термометр)\" fr=\"(Un thermomètre)\"/>", "Una venda <trans en=\"(A bandage)\" ar=\"(ضمادة)\" uk=\"(Пов'язка)\" fr=\"(Un pansement)\"/>", "Un fonendoscopio <trans en=\"(A stethoscope)\" ar=\"(سماعة الطبيب)\" uk=\"(Стетоскоп)\" fr=\"(Un stéthoscope)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "¿Qué preguntas al llegar a la consulta?",
-        options: ["¿Quién es el último?","¿Cuánto cuesta?","¿Qué hora es?"],
+        question: `¿Qué preguntas al llegar a la consulta? <trans en="(What questions do you ask when you arrive for the consultation?)" ar="(ما هي الأسئلة التي تطرحها عند وصولك للاستشارة؟)" uk="(Які питання ви задаєте, коли приходите на консультацію?)" fr="(Quelles questions posez-vous en arrivant à la consultation ?)"/>`,
+        options: ["¿Quién es el último? <trans en=\"(Who is the last one?)\" ar=\"(من هو الأخير؟)\" uk=\"(Хто останній?)\" fr=\"(Qui est le dernier ?)\"/>", "¿Cuánto cuesta? <trans en=\"(How much does it cost?)\" ar=\"(كم يكلف؟)\" uk=\"(Скільки це коштує?)\" fr=\"(Combien ça coûte?)\"/>", "¿Qué hora es? <trans en=\"(What time is it?)\" ar=\"(أي ساعة؟)\" uk=\"(Котра година?)\" fr=\"(Quelle heure est-il?)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Si un alimento te hace daño siempre, tienes...",
-        options: ["Alergia o intolerancia","Fiebre","Gripe"],
+        question: `Si un alimento te hace daño siempre, tienes... <trans en="(If a food always hurts you, you have...)" ar="(إذا كان الطعام يؤذيك دائمًا، فلديك...)" uk="(Якщо їжа завжди шкодить вам, у вас є...)" fr="(Si un aliment vous fait toujours mal, vous avez...)"/>`,
+        options: ["Alergia o intolerancia <trans en=\"(Allergy or intolerance)\" ar=\"(الحساسية أو عدم التحمل)\" uk=\"(Алергія або непереносимість)\" fr=\"(Allergie ou intolérance)\"/>", "Fiebre <trans en=\"(Fever)\" ar=\"(حمى)\" uk=\"(Лихоманка)\" fr=\"(Fièvre)\"/>", "Gripe <trans en=\"(Flu)\" ar=\"(الانفلونزا)\" uk=\"(Грип)\" fr=\"(Grippe)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "La enfermera te puede poner una...",
-        options: ["Inyección / Vacuna","Tirita en el zapato","Gorra"],
+        question: `La enfermera te puede poner una... <trans en="(The nurse can give you a...)" ar="(يمكن للممرضة أن تعطيك...)" uk="(Медсестра може дати вам...)" fr="(L'infirmière peut vous donner un...)"/>`,
+        options: ["Inyección / Vacuna <trans en=\"(Injection/Vaccine)\" ar=\"(الحقن/اللقاح)\" uk=\"(Ін'єкція/вакцина)\" fr=\"(Injection/Vaccin)\"/>", "Tirita en el zapato <trans en=\"(Band-aid on the shoe)\" ar=\"(ضمادة على الحذاء)\" uk=\"(Пластир на черевику)\" fr=\"(Pansement sur la chaussure)\"/>", "Gorra <trans en=\"(Cap)\" ar=\"(كاب)\" uk=\"(Кап)\" fr=\"(Casquette)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Las pastillas y jarabes son...",
-        options: ["Medicamentos","Comida","Bebidas"],
+        question: `Las pastillas y jarabes son... <trans en="(Pills and syrups are...)" ar="(الحبوب والعصائر...)" uk="(Таблетки та сиропи - це...)" fr="(Les pilules et les sirops sont...)"/>`,
+        options: ["Medicamentos <trans en=\"(Medications)\" ar=\"(الأدوية)\" uk=\"(Ліки)\" fr=\"(Médicaments)\"/>", "Comida <trans en=\"(Food)\" ar=\"(الغذاء)\" uk=\"(Харчування)\" fr=\"(Nourriture)\"/>", "Bebidas <trans en=\"(Drinks)\" ar=\"(المشروبات)\" uk=\"(Напої)\" fr=\"(Boissons)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "¿Qué médico cuida los dientes?",
-        options: ["El dentista","El pediatra","El cirujano"],
+        question: `¿Qué médico cuida los dientes? <trans en="(Which doctor takes care of your teeth?)" ar="(من هو الطبيب الذي يعتني بأسنانك؟)" uk="(Який лікар займається вашими зубами?)" fr="(Quel médecin s'occupe de vos dents ?)"/>`,
+        options: ["El dentista <trans en=\"(The dentist)\" ar=\"(طبيب الأسنان)\" uk=\"(Стоматолог)\" fr=\"(Le dentiste)\"/>", "El pediatra <trans en=\"(The pediatrician)\" ar=\"(طبيب الأطفال)\" uk=\"(Педіатр)\" fr=\"(Le pédiatre)\"/>", "El cirujano <trans en=\"(The surgeon)\" ar=\"(الجراح)\" uk=\"(Хірург)\" fr=\"(Le chirurgien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "¿Qué médico cuida a los niños?",
-        options: ["El pediatra","El dentista","El oftalmólogo"],
+        question: `¿Qué médico cuida a los niños? <trans en="(Which doctor takes care of the children?)" ar="(من هو الطبيب الذي يعتني بالأطفال؟)" uk="(Який лікар займається дітьми?)" fr="(Quel médecin s'occupe des enfants ?)"/>`,
+        options: ["El pediatra <trans en=\"(The pediatrician)\" ar=\"(طبيب الأطفال)\" uk=\"(Педіатр)\" fr=\"(Le pédiatre)\"/>", "El dentista <trans en=\"(The dentist)\" ar=\"(طبيب الأسنان)\" uk=\"(Стоматолог)\" fr=\"(Le dentiste)\"/>", "El oftalmólogo <trans en=\"(The ophthalmologist)\" ar=\"(طبيب العيون)\" uk=\"(Лікар-офтальмолог)\" fr=\"(L'ophtalmologiste)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Si te duele el estómago, quizás tengas un dolor de...",
-        options: ["Barriga","Cabeza","Espalda"],
+        question: `Si te duele el estómago, quizás tengas un dolor de... <trans en="(If your stomach hurts, you may have a...)" ar="(إذا كانت معدتك تؤلمك، فقد يكون لديك...)" uk="(Якщо у вас болить живіт, можливо, у вас...)" fr="(Si vous avez mal au ventre, vous pourriez avoir un...)"/>`,
+        options: ["Barriga <trans en=\"(Belly)\" ar=\"(البطن)\" uk=\"(Живіт)\" fr=\"(Ventre)\"/>", "Cabeza <trans en=\"(Head)\" ar=\"(الرأس)\" uk=\"(Голова)\" fr=\"(Tête)\"/>", "Espalda <trans en=\"(Back)\" ar=\"(العودة)\" uk=\"(Назад)\" fr=\"(Retour)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "¿Qué necesitas pedir antes de ir al médico?",
-        options: ["Cita previa","Permiso de conducir","La cuenta"],
+        question: `¿Qué necesitas pedir antes de ir al médico? <trans en="(What do you need to ask for before going to the doctor?)" ar="(ما الذي يجب أن تسأل عنه قبل الذهاب إلى الطبيب؟)" uk="(Що потрібно запитати перед походом до лікаря?)" fr="(Que faut-il demander avant d'aller chez le médecin ?)"/>`,
+        options: ["Cita previa <trans en=\"(Appointment)\" ar=\"(موعد)\" uk=\"(Призначення)\" fr=\"(Rendez-vous)\"/>", "Permiso de conducir <trans en=\"(Driving license)\" ar=\"(رخصة القيادة)\" uk=\"(Водійські права)\" fr=\"(Permis de conduire)\"/>", "La cuenta <trans en=\"(The account)\" ar=\"(الحساب)\" uk=\"(Рахунок)\" fr=\"(Le compte)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -9960,124 +9984,125 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00).
     exercises: [
       {
         id: "ex1",
-        question: "¿Qué día va después del lunes?",
-        options: ["Miércoles", "Martes", "Sábado"],
+        question: `¿Qué día va después del lunes? <trans en="(What day comes after Monday?)" ar="(ما هو اليوم الذي يأتي بعد يوم الاثنين؟)" uk="(Який день наступає після понеділка?)" fr="(Quel jour vient après lundi ?)"/>`,
+        options: ["Miércoles <trans en=\"(Wednesday)\" ar=\"(الاربعاء)\" uk=\"(Середа)\" fr=\"(Mercredi)\"/>", "Martes <trans en=\"(Tuesday)\" ar=\"(الثلاثاء)\" uk=\"(Вівторок)\" fr=\"(Mardi)\"/>", "Sábado <trans en=\"(Saturday)\" ar=\"(السبت)\" uk=\"(Субота)\" fr=\"(Samedi)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "¿Cómo preguntas la hora?",
-        options: ["¿Cómo te llamas?", "¿Dónde estás?", "¿Qué hora es?"],
+        question: `¿Cómo preguntas la hora? <trans en="(How do you ask the time?)" ar="(كيف تسأل عن الوقت؟)" uk="(Як ви питаєте час?)" fr="(Comment demandez-vous l'heure ?)"/>`,
+        options: ["¿Cómo te llamas? <trans en=\"(What is your name?)\" ar=\"(ما اسمك؟)\" uk=\"(Як тебе звати?)\" fr=\"(Quel est ton nom?)\"/>", "¿Dónde estás? <trans en=\"(Where are you?)\" ar=\"(أين أنت؟)\" uk=\"(Де ти?)\" fr=\"(Où es-tu?)\"/>", "¿Qué hora es? <trans en=\"(What time is it?)\" ar=\"(أي ساعة؟)\" uk=\"(Котра година?)\" fr=\"(Quelle heure est-il?)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex3",
-        question: "¿Qué día es hoy?",
-        options: ["Lunes","Enero","Mañana"],
+        question: `¿Qué día es hoy? <trans en="(What day is today?)" ar="(ما هو اليوم؟)" uk="(Який сьогодні день?)" fr="(Quel jour sommes-nous aujourd'hui?)"/>`,
+        options: ["Lunes <trans en=\"(Monday)\" ar=\"(الاثنين)\" uk=\"(Понеділок)\" fr=\"(Lundi)\"/>", "Enero <trans en=\"(January)\" ar=\"(يناير)\" uk=\"(Січень)\" fr=\"(Janvier)\"/>", "Mañana <trans en=\"(Tomorrow)\" ar=\"(غدا)\" uk=\"(Завтра)\" fr=\"(Demain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "¿En qué mes estamos?",
-        options: ["Octubre","Martes","Primavera"],
+        question: `¿En qué mes estamos? <trans en="(What month are we in?)" ar="(في أي شهر نحن؟)" uk="(У якому ми місяці?)" fr="(Dans quel mois sommes-nous ?)"/>`,
+        options: ["Octubre <trans en=\"(October)\" ar=\"(أكتوبر)\" uk=\"(Жовтень)\" fr=\"(Octobre)\"/>", "Martes <trans en=\"(Tuesday)\" ar=\"(الثلاثاء)\" uk=\"(Вівторок)\" fr=\"(Mardi)\"/>", "Primavera <trans en=\"(Spring)\" ar=\"(الربيع)\" uk=\"(Весна)\" fr=\"(Printemps)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "El primer día de la semana es...",
-        options: ["Lunes","Domingo","Martes"],
+        question: `El primer día de la semana es... <trans en="(The first day of the week is...)" ar="(أول يوم في الأسبوع هو...)" uk="(Перший день тижня...)" fr="(Le premier jour de la semaine est...)"/>`,
+        options: ["Lunes <trans en=\"(Monday)\" ar=\"(الاثنين)\" uk=\"(Понеділок)\" fr=\"(Lundi)\"/>", "Domingo <trans en=\"(Sunday)\" ar=\"(الأحد)\" uk=\"(Неділя)\" fr=\"(Dimanche)\"/>", "Martes <trans en=\"(Tuesday)\" ar=\"(الثلاثاء)\" uk=\"(Вівторок)\" fr=\"(Mardi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "El último mes del año es...",
-        options: ["Diciembre","Enero","Noviembre"],
+        question: `El último mes del año es... <trans en="(The last month of the year is...)" ar="(آخر شهر في السنة هو...)" uk="(Останній місяць року...)" fr="(Le dernier mois de l'année est...)"/>`,
+        options: ["Diciembre <trans en=\"(December)\" ar=\"(ديسمبر)\" uk=\"(Грудень)\" fr=\"(Décembre)\"/>", "Enero <trans en=\"(January)\" ar=\"(يناير)\" uk=\"(Січень)\" fr=\"(Janvier)\"/>", "Noviembre <trans en=\"(November)\" ar=\"(نوفمبر)\" uk=\"(Листопад)\" fr=\"(Novembre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "El día después de 'Martes' es...",
-        options: ["Miércoles","Jueves","Lunes"],
+        question: `El día después de 'Martes' es... <trans en="(The day after 'Tuesday' is...)" ar="(اليوم الذي يلي "الثلاثاء" هو ...)" uk="(Наступний день після "вівторка"...)" fr="(Le lendemain de « mardi » est...)"/>`,
+        options: ["Miércoles <trans en=\"(Wednesday)\" ar=\"(الاربعاء)\" uk=\"(Середа)\" fr=\"(Mercredi)\"/>", "Jueves <trans en=\"(Thursday)\" ar=\"(الخميس)\" uk=\"(Четвер)\" fr=\"(Jeudi)\"/>", "Lunes <trans en=\"(Monday)\" ar=\"(الاثنين)\" uk=\"(Понеділок)\" fr=\"(Lundi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "¿Qué estación hace mucho calor?",
-        options: ["Verano","Invierno","Otoño"],
+        question: `¿Qué estación hace mucho calor? <trans en="(What season is very hot?)" ar="(ما هو الموسم حار جدا؟)" uk="(Яка пора року дуже спекотна?)" fr="(Quelle saison est très chaude ?)"/>`,
+        options: ["Verano <trans en=\"(Summer)\" ar=\"(الصيف)\" uk=\"(Літо)\" fr=\"(Été)\"/>", "Invierno <trans en=\"(Winter)\" ar=\"(الشتاء)\" uk=\"(Зима)\" fr=\"(Hiver)\"/>", "Otoño <trans en=\"(Autumn)\" ar=\"(الخريف)\" uk=\"(Осінь)\" fr=\"(Automne)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "¿Qué estación hace mucho frío?",
-        options: ["Invierno","Primavera","Verano"],
+        question: `¿Qué estación hace mucho frío? <trans en="(What season is very cold?)" ar="(ما هو الموسم بارد جدا؟)" uk="(Яка пора року дуже холодна?)" fr="(Quelle saison est très froide ?)"/>`,
+        options: ["Invierno <trans en=\"(Winter)\" ar=\"(الشتاء)\" uk=\"(Зима)\" fr=\"(Hiver)\"/>", "Primavera <trans en=\"(Spring)\" ar=\"(الربيع)\" uk=\"(Весна)\" fr=\"(Printemps)\"/>", "Verano <trans en=\"(Summer)\" ar=\"(الصيف)\" uk=\"(Літо)\" fr=\"(Été)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "¿Qué hora es? '14:00'",
-        options: ["Son las dos de la tarde","Son las catorce de la mañana","Es la dos"],
+        question: `¿Qué hora es? '14:00' <trans en="(What time is it? '14:00')" ar="(ما هو الوقت؟ '14:00')" uk="(Котра година? '14:00')" fr="(Quelle heure est-il ? '14h00')"/>`,
+        options: ["Son las dos de la tarde <trans en=\"(It's two in the afternoon)\" ar=\"(الساعة الثانية بعد الظهر)\" uk=\"(Друга година дня)\" fr=\"(Il est deux heures de l'après-midi)\"/>", "Son las catorce de la mañana <trans en=\"(It's fourteen in the morning)\" ar=\"(إنها الرابعة عشرة صباحاً)\" uk=\"(Зараз чотирнадцята ранку)\" fr=\"(Il est quatorze heures du matin)\"/>", "Es la dos <trans en=\"(It's two)\" ar=\"(إنه اثنان)\" uk=\"(Це два)\" fr=\"(Il est deux)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Si son las '13:30', decimos que es la una y...",
-        options: ["media","cuarto","treinta"],
+        question: `Si son las '13:30', decimos que es la una y... <trans en="(If it is '13:30', we say it is one and...)" ar="(إذا كانت الساعة "13:30" نقول أنها واحدة و...)" uk="(Якщо це "13:30", ми кажемо, що це один і...)" fr="(S'il est '13h30', on dit qu'il est une et...)"/>`,
+        options: ["media <trans en=\"(average)\" ar=\"(متوسط)\" uk=\"(середній)\" fr=\"(moyen)\"/>", "cuarto <trans en=\"(fourth)\" ar=\"(رابعا)\" uk=\"(четвертий)\" fr=\"(quatrième)\"/>", "treinta <trans en=\"(thirty)\" ar=\"(ثلاثون)\" uk=\"(тридцять)\" fr=\"(trente)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Si son las '15:15', decimos que son las tres y...",
-        options: ["cuarto","quince","media"],
+        question: `Si son las '15:15', decimos que son las tres y... <trans en="(If it is '15:15', we say it is three and...)" ar="(إذا كانت "15:15" نقول أنها ثلاثة و...)" uk="(Якщо це "15:15", ми кажемо, що це три і...)" fr="(S'il est '15h15', on dit qu'il est trois heures et...)"/>`,
+        options: ["cuarto <trans en=\"(fourth)\" ar=\"(رابعا)\" uk=\"(четвертий)\" fr=\"(quatrième)\"/>", "quince <trans en=\"(fifteen)\" ar=\"(خمسة عشر)\" uk=\"(п'ятнадцять)\" fr=\"(quinze)\"/>", "media <trans en=\"(average)\" ar=\"(متوسط)\" uk=\"(середній)\" fr=\"(moyen)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "El día antes de hoy fue...",
-        options: ["Ayer","Mañana","Luego"],
+        question: `El día antes de hoy fue... <trans en="(The day before today was...)" ar="(أول من اليوم كان...)" uk="(Напередодні було...)" fr="(Avant-hier, c'était...)"/>`,
+        options: ["Ayer <trans en=\"(Yesterday)\" ar=\"(أمس)\" uk=\"(Вчора)\" fr=\"(Hier)\"/>", "Mañana <trans en=\"(Tomorrow)\" ar=\"(غدا)\" uk=\"(Завтра)\" fr=\"(Demain)\"/>", "Luego <trans en=\"(Then)\" ar=\"(ثم)\" uk=\"(Тоді)\" fr=\"(Alors)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "El día después de hoy será...",
-        options: ["Mañana","Ayer","Pronto"],
+        question: `El día después de hoy será... <trans en="(The day after today will be...)" ar="(سيكون بعد اليوم...)" uk="(Післязавтра буде...)" fr="(Après-demain sera...)"/>`,
+        options: ["Mañana <trans en=\"(Tomorrow)\" ar=\"(غدا)\" uk=\"(Завтра)\" fr=\"(Demain)\"/>", "Ayer <trans en=\"(Yesterday)\" ar=\"(أمس)\" uk=\"(Вчора)\" fr=\"(Hier)\"/>", "Pronto <trans en=\"(Soon)\" ar=\"(قريبا)\" uk=\"(Скоро)\" fr=\"(Bientôt)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "El fin de semana son los días...",
-        options: ["Sábado y Domingo","Lunes y Martes","Viernes y Sábado"],
+        question: `El fin de semana son los días... <trans en="(The weekend is the days...)" ar="(عطلة نهاية الأسبوع هي الأيام ...)" uk="(Вихідні - це дні...)" fr="(Le week-end, ce sont les jours...)"/>`,
+        options: ["Sábado y Domingo <trans en=\"(Saturday and Sunday)\" ar=\"(السبت والأحد)\" uk=\"(Субота та неділя)\" fr=\"(Samedi et dimanche)\"/>", "Lunes y Martes <trans en=\"(Monday and Tuesday)\" ar=\"(الاثنين والثلاثاء)\" uk=\"(Понеділок і вівторок)\" fr=\"(Lundi et mardi)\"/>", "Viernes y Sábado <trans en=\"(Friday and Saturday)\" ar=\"(الجمعة والسبت)\" uk=\"(П'ятниця та субота)\" fr=\"(Vendredi et samedi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "¿En qué mes celebramos la Navidad?",
-        options: ["Diciembre","Agosto","Febrero"],
+        question: `¿En qué mes celebramos la Navidad? <trans en="(In what month do we celebrate Christmas?)" ar="(في أي شهر نحتفل بعيد الميلاد؟)" uk="(В якому місяці ми святкуємо Різдво?)" fr="(En quel mois fête-t-on Noël ?)"/>`,
+        options: ["Diciembre <trans en=\"(December)\" ar=\"(ديسمبر)\" uk=\"(Грудень)\" fr=\"(Décembre)\"/>", "Agosto <trans en=\"(August)\" ar=\"(أغسطس)\" uk=\"(Серпень)\" fr=\"(Août)\"/>", "Febrero <trans en=\"(February)\" ar=\"(فبراير)\" uk=\"(Лютий)\" fr=\"(Février)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Si son las '8:45', decimos que son las nueve menos...",
-        options: ["cuarto","quince","media"],
+        question: `Si son las '8:45', decimos que son las nueve menos... <trans en="(If it is '8:45', we say it is nine to nine...)" ar="(إذا كانت الساعة 8:45 نقول أنها الساعة التاسعة إلى التاسعة...)" uk="(Якщо це "8:45", ми кажемо, що це дев'ять на дев'ять...)" fr="(S'il est '8h45', on dit qu'il est neuf heures moins neuf...)"/>`,
+        options: ["cuarto <trans en=\"(fourth)\" ar=\"(رابعا)\" uk=\"(четвертий)\" fr=\"(quatrième)\"/>", "quince <trans en=\"(fifteen)\" ar=\"(خمسة عشر)\" uk=\"(п'ятнадцять)\" fr=\"(quinze)\"/>", "media <trans en=\"(average)\" ar=\"(متوسط)\" uk=\"(середній)\" fr=\"(moyen)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "¿Cuántos minutos tiene una hora?",
-        options: ["Sesenta","Cien","Treinta"],
+        question: `¿Cuántos minutos tiene una hora? <trans en="(How many minutes are in an hour?)" ar="(كم دقيقة في الساعة؟)" uk="(Скільки хвилин у годині?)" fr="(Combien de minutes y a-t-il dans une heure ?)"/>`,
+        options: ["Sesenta <trans en=\"(Sixty)\" ar=\"(ستين)\" uk=\"(Шістдесят)\" fr=\"(Soixante)\"/>", "Cien <trans en=\"(One hundred)\" ar=\"(مائة)\" uk=\"(Сто)\" fr=\"(Cent)\"/>", "Treinta <trans en=\"(Thirty)\" ar=\"(ثلاثون)\" uk=\"(Тридцять)\" fr=\"(Trente)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Cuántos segundos tiene un minuto?",
-        options: ["Sesenta","Diez","Cien"],
+        question: `¿Cuántos segundos tiene un minuto? <trans en="(How many seconds are in a minute?)" ar="(كم ثانية في الدقيقة؟)" uk="(Скільки секунд у хвилині?)" fr="(Combien de secondes compte une minute ?)"/>`,
+        options: ["Sesenta <trans en=\"(Sixty)\" ar=\"(ستين)\" uk=\"(Шістдесят)\" fr=\"(Soixante)\"/>", "Diez <trans en=\"(Ten)\" ar=\"(عشرة)\" uk=\"(Десять)\" fr=\"(Dix)\"/>", "Cien <trans en=\"(One hundred)\" ar=\"(مائة)\" uk=\"(Сто)\" fr=\"(Cent)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "¿Qué día es hoy? (Extra)",
-        options: ["Lunes","Enero","Mañana"],
+        question: `¿Qué día es hoy? (Extra) <trans en="(What day is today? (Bonus))" ar="(ما هو اليوم؟ (مكافأة))" uk="(Який сьогодні день? (Бонус))" fr="(Quel jour on est aujourd'hui ? (Prime))"/>`,
+        options: ["Lunes <trans en=\"(Monday)\" ar=\"(الاثنين)\" uk=\"(Понеділок)\" fr=\"(Lundi)\"/>", "Enero <trans en=\"(January)\" ar=\"(يناير)\" uk=\"(Січень)\" fr=\"(Janvier)\"/>", "Mañana <trans en=\"(Tomorrow)\" ar=\"(غدا)\" uk=\"(Завтра)\" fr=\"(Demain)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -10431,124 +10456,125 @@ Para hablar de nuestra profesión usamos el verbo SER.
     exercises: [
       {
         id: "ex1",
-        question: "La persona que hace la comida es el...",
-        options: ["Médico", "Profesor", "Cocinero"],
+        question: `La persona que hace la comida es el... <trans en="(The person who makes the food is the...)" ar="(الشخص الذي يصنع الطعام هو...)" uk="(Людина, яка готує їжу, є...)" fr="(La personne qui prépare la nourriture est la...)"/>`,
+        options: ["Médico <trans en=\"(Doctor)\" ar=\"(دكتور)\" uk=\"(Лікар)\" fr=\"(Docteur)\"/>", "Profesor <trans en=\"(Professor)\" ar=\"(أستاذ)\" uk=\"(Професор)\" fr=\"(Professeur)\"/>", "Cocinero <trans en=\"(Cook)\" ar=\"(كوك)\" uk=\"(Кухар)\" fr=\"(Cuisiner)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "La persona que enseña en la escuela es...",
-        options: ["Profesor / Profesora","Médico","Policía"],
+        question: `La persona que enseña en la escuela es... <trans en="(The person who teaches at the school is...)" ar="(الشخص الذي يدرس في المدرسة هو ...)" uk="(У школі викладає...)" fr="(La personne qui enseigne à l'école est...)"/>`,
+        options: ["Profesor / Profesora <trans en=\"(Teacher)\" ar=\"(المعلم)\" uk=\"(Учитель)\" fr=\"(Professeur)\"/>", "Médico <trans en=\"(Doctor)\" ar=\"(دكتور)\" uk=\"(Лікар)\" fr=\"(Docteur)\"/>", "Policía <trans en=\"(Police)\" ar=\"(الشرطة)\" uk=\"(Поліція)\" fr=\"(Police)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "La persona que cura a los enfermos es...",
-        options: ["Médico / Doctor","Bombero","Cocinero"],
+        question: `La persona que cura a los enfermos es... <trans en="(The person who heals the sick is...)" ar="(الشخص الذي يشفي المرضى هو...)" uk="(Людина, яка зцілює хворих, це...)" fr="(Celui qui guérit les malades est...)"/>`,
+        options: ["Médico / Doctor <trans en=\"(Doctor / Doctor)\" ar=\"(دكتور/ دكتور)\" uk=\"(Лікар / Доктор)\" fr=\"(Docteur / Docteur)\"/>", "Bombero <trans en=\"(Firefighter)\" ar=\"(رجل إطفاء)\" uk=\"(Пожежний)\" fr=\"(Pompier)\"/>", "Cocinero <trans en=\"(Cook)\" ar=\"(كوك)\" uk=\"(Кухар)\" fr=\"(Cuisiner)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "La persona que hace pan es...",
-        options: ["Panadero","Carpintero","Peluquero"],
+        question: `La persona que hace pan es... <trans en="(The person who makes bread is...)" ar="(الشخص الذي يصنع الخبز هو...)" uk="(Людина, яка готує хліб, це...)" fr="(La personne qui fait le pain est...)"/>`,
+        options: ["Panadero <trans en=\"(Baker)\" ar=\"(بيكر)\" uk=\"(Пекар)\" fr=\"(Boulanger)\"/>", "Carpintero <trans en=\"(Carpenter)\" ar=\"(نجار)\" uk=\"(Столяр)\" fr=\"(Charpentier)\"/>", "Peluquero <trans en=\"(Hairdresser)\" ar=\"(كوافير)\" uk=\"(Перукар)\" fr=\"(Coiffeur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "La persona que apaga el fuego es...",
-        options: ["Bombero","Policía","Cartero"],
+        question: `La persona que apaga el fuego es... <trans en="(The person who puts out the fire is...)" ar="(الذي يطفئ النار هو...)" uk="(Людина, яка гасить пожежу, це...)" fr="(La personne qui éteint le feu est...)"/>`,
+        options: ["Bombero <trans en=\"(Firefighter)\" ar=\"(رجل إطفاء)\" uk=\"(Пожежний)\" fr=\"(Pompier)\"/>", "Policía <trans en=\"(Police)\" ar=\"(الشرطة)\" uk=\"(Поліція)\" fr=\"(Police)\"/>", "Cartero <trans en=\"(Postman)\" ar=\"(ساعي البريد)\" uk=\"(Листоноша)\" fr=\"(Facteur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "La persona que corta el pelo es...",
-        options: ["Peluquero","Abogado","Mecánico"],
+        question: `La persona que corta el pelo es... <trans en="(The person who cuts the hair is...)" ar="(الشخص الذي يقص الشعر هو...)" uk="(Людина, яка стриже волосся - це...)" fr="(La personne qui coupe les cheveux est...)"/>`,
+        options: ["Peluquero <trans en=\"(Hairdresser)\" ar=\"(كوافير)\" uk=\"(Перукар)\" fr=\"(Coiffeur)\"/>", "Abogado <trans en=\"(Lawyer)\" ar=\"(محامي)\" uk=\"(Юрист)\" fr=\"(Avocat)\"/>", "Mecánico <trans en=\"(Mechanic)\" ar=\"(ميكانيكي)\" uk=\"(Механік)\" fr=\"(Mécanicien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "La persona que prepara la comida en un restaurante es...",
-        options: ["Cocinero","Camarero","Panadero"],
+        question: `La persona que prepara la comida en un restaurante es... <trans en="(The person who prepares food in a restaurant is...)" ar="(الشخص الذي يعد الطعام في المطعم هو...)" uk="(Людина, яка готує їжу в ресторані, це...)" fr="(La personne qui prépare les plats dans un restaurant est...)"/>`,
+        options: ["Cocinero <trans en=\"(Cook)\" ar=\"(كوك)\" uk=\"(Кухар)\" fr=\"(Cuisiner)\"/>", "Camarero <trans en=\"(Waiter)\" ar=\"(النادل)\" uk=\"(Офіціант)\" fr=\"(Serveur)\"/>", "Panadero <trans en=\"(Baker)\" ar=\"(بيكر)\" uk=\"(Пекар)\" fr=\"(Boulanger)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "La persona que sirve la comida en un restaurante es...",
-        options: ["Camarero","Cocinero","Policía"],
+        question: `La persona que sirve la comida en un restaurante es... <trans en="(The person who serves food in a restaurant is...)" ar="(الشخص الذي يقدم الطعام في المطعم هو...)" uk="(Людина, яка подає їжу в ресторані, це...)" fr="(La personne qui sert de la nourriture dans un restaurant est...)"/>`,
+        options: ["Camarero <trans en=\"(Waiter)\" ar=\"(النادل)\" uk=\"(Офіціант)\" fr=\"(Serveur)\"/>", "Cocinero <trans en=\"(Cook)\" ar=\"(كوك)\" uk=\"(Кухар)\" fr=\"(Cuisiner)\"/>", "Policía <trans en=\"(Police)\" ar=\"(الشرطة)\" uk=\"(Поліція)\" fr=\"(Police)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "La persona que arregla los coches es...",
-        options: ["Mecánico","Carpintero","Médico"],
+        question: `La persona que arregla los coches es... <trans en="(The person who fixes the cars is...)" ar="(الشخص الذي يصلح السيارات هو...)" uk="(Людина, яка ремонтує машини, це...)" fr="(La personne qui répare les voitures est...)"/>`,
+        options: ["Mecánico <trans en=\"(Mechanic)\" ar=\"(ميكانيكي)\" uk=\"(Механік)\" fr=\"(Mécanicien)\"/>", "Carpintero <trans en=\"(Carpenter)\" ar=\"(نجار)\" uk=\"(Столяр)\" fr=\"(Charpentier)\"/>", "Médico <trans en=\"(Doctor)\" ar=\"(دكتور)\" uk=\"(Лікар)\" fr=\"(Docteur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "La persona que defiende a alguien en un juicio es...",
-        options: ["Abogado","Juez","Policía"],
+        question: `La persona que defiende a alguien en un juicio es... <trans en="(The person who defends someone in a trial is...)" ar="(الشخص الذي يدافع عن شخص ما في المحاكمة هو...)" uk="(Людина, яка захищає когось у суді, є...)" fr="(La personne qui défend quelqu'un dans un procès est...)"/>`,
+        options: ["Abogado <trans en=\"(Lawyer)\" ar=\"(محامي)\" uk=\"(Юрист)\" fr=\"(Avocat)\"/>", "Juez <trans en=\"(Judge)\" ar=\"(القاضي)\" uk=\"(Суддя)\" fr=\"(Juge)\"/>", "Policía <trans en=\"(Police)\" ar=\"(الشرطة)\" uk=\"(Поліція)\" fr=\"(Police)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "La persona que trae las cartas a casa es...",
-        options: ["Cartero","Bombero","Panadero"],
+        question: `La persona que trae las cartas a casa es... <trans en="(The person who brings the letters home is...)" ar="(الشخص الذي يحضر الرسائل إلى المنزل هو...)" uk="(Людина, яка приносить листи додому, це...)" fr="(La personne qui ramène les lettres à la maison est...)"/>`,
+        options: ["Cartero <trans en=\"(Postman)\" ar=\"(ساعي البريد)\" uk=\"(Листоноша)\" fr=\"(Facteur)\"/>", "Bombero <trans en=\"(Firefighter)\" ar=\"(رجل إطفاء)\" uk=\"(Пожежний)\" fr=\"(Pompier)\"/>", "Panadero <trans en=\"(Baker)\" ar=\"(بيكر)\" uk=\"(Пекар)\" fr=\"(Boulanger)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "La persona que construye casas es...",
-        options: ["Albañil / Constructor","Mecánico","Peluquero"],
+        question: `La persona que construye casas es... <trans en="(The person who builds houses is...)" ar="(من يبني البيوت هو...)" uk="(Людина, яка будує будинки, це...)" fr="(La personne qui construit des maisons est...)"/>`,
+        options: ["Albañil / Constructor <trans en=\"(Mason / Builder)\" ar=\"(ميسون/باني)\" uk=\"(Муляр / Будівельник)\" fr=\"(Maçon / Constructeur)\"/>", "Mecánico <trans en=\"(Mechanic)\" ar=\"(ميكانيكي)\" uk=\"(Механік)\" fr=\"(Mécanicien)\"/>", "Peluquero <trans en=\"(Hairdresser)\" ar=\"(كوافير)\" uk=\"(Перукар)\" fr=\"(Coiffeur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "La persona que diseña edificios es...",
-        options: ["Arquitecto","Abogado","Médico"],
+        question: `La persona que diseña edificios es... <trans en="(The person who designs buildings is...)" ar="(الشخص الذي يصمم المباني هو...)" uk="(Людина, яка проектує будівлі, це...)" fr="(La personne qui conçoit les bâtiments est...)"/>`,
+        options: ["Arquitecto <trans en=\"(Architect)\" ar=\"(مهندس معماري)\" uk=\"(Архітектор)\" fr=\"(Architecte)\"/>", "Abogado <trans en=\"(Lawyer)\" ar=\"(محامي)\" uk=\"(Юрист)\" fr=\"(Avocat)\"/>", "Médico <trans en=\"(Doctor)\" ar=\"(دكتور)\" uk=\"(Лікар)\" fr=\"(Docteur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "La persona que toca música es...",
-        options: ["Músico","Actor","Pintor"],
+        question: `La persona que toca música es... <trans en="(The person who plays music is...)" ar="(الشخص الذي يعزف الموسيقى هو...)" uk="(Людина, яка грає музику, це...)" fr="(La personne qui joue de la musique est...)"/>`,
+        options: ["Músico <trans en=\"(Musician)\" ar=\"(موسيقي)\" uk=\"(Музикант)\" fr=\"(Musicien)\"/>", "Actor <trans en=\"(Actor)\" ar=\"(ممثل)\" uk=\"(Актор)\" fr=\"(Acteur)\"/>", "Pintor <trans en=\"(Painter)\" ar=\"(رسام)\" uk=\"(Художник)\" fr=\"(Peintre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "La persona que actúa en películas es...",
-        options: ["Actor / Actriz","Cantante","Escritor"],
+        question: `La persona que actúa en películas es... <trans en="(The person who acts in movies is...)" ar="(الشخص الذي يمثل في الأفلام هو...)" uk="(Людина, яка знімається в кіно, це...)" fr="(La personne qui joue dans les films est...)"/>`,
+        options: ["Actor / Actriz <trans en=\"(Actor/Actress)\" ar=\"(ممثل/ممثلة)\" uk=\"(Актор/Актриса)\" fr=\"(Acteur/Actrice)\"/>", "Cantante <trans en=\"(Singer)\" ar=\"(مغني)\" uk=\"(Співак)\" fr=\"(Chanteur)\"/>", "Escritor <trans en=\"(Writer)\" ar=\"(كاتب)\" uk=\"(Письменник)\" fr=\"(Écrivain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "La persona que escribe libros es...",
-        options: ["Escritor","Pintor","Periodista"],
+        question: `La persona que escribe libros es... <trans en="(The person who writes books is...)" ar="(الشخص الذي يكتب الكتب هو...)" uk="(Людина, яка пише книги, це...)" fr="(La personne qui écrit des livres est...)"/>`,
+        options: ["Escritor <trans en=\"(Writer)\" ar=\"(كاتب)\" uk=\"(Письменник)\" fr=\"(Écrivain)\"/>", "Pintor <trans en=\"(Painter)\" ar=\"(رسام)\" uk=\"(Художник)\" fr=\"(Peintre)\"/>", "Periodista <trans en=\"(Journalist)\" ar=\"(صحفي)\" uk=\"(Журналіст)\" fr=\"(Journaliste)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "La persona que informa de las noticias es...",
-        options: ["Periodista","Actor","Músico"],
+        question: `La persona que informa de las noticias es... <trans en="(The person who reports the news is...)" ar="(من ينقل الخبر هو...)" uk="(Людина, яка повідомляє новини, це...)" fr="(La personne qui rapporte la nouvelle est...)"/>`,
+        options: ["Periodista <trans en=\"(Journalist)\" ar=\"(صحفي)\" uk=\"(Журналіст)\" fr=\"(Journaliste)\"/>", "Actor <trans en=\"(Actor)\" ar=\"(ممثل)\" uk=\"(Актор)\" fr=\"(Acteur)\"/>", "Músico <trans en=\"(Musician)\" ar=\"(موسيقي)\" uk=\"(Музикант)\" fr=\"(Musicien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "La persona que trabaja en una tienda vendiendo es...",
-        options: ["Dependiente","Camarero","Cartero"],
+        question: `La persona que trabaja en una tienda vendiendo es... <trans en="(The person who works in a store selling is...)" ar="(الشخص الذي يعمل في محل بيع هو...)" uk="(Людина, яка працює в магазині з продажу, це...)" fr="(La personne qui travaille dans un magasin vendant est...)"/>`,
+        options: ["Dependiente <trans en=\"(Dependent)\" ar=\"(معال)\" uk=\"(Залежний)\" fr=\"(Dépendant)\"/>", "Camarero <trans en=\"(Waiter)\" ar=\"(النادل)\" uk=\"(Офіціант)\" fr=\"(Serveur)\"/>", "Cartero <trans en=\"(Postman)\" ar=\"(ساعي البريد)\" uk=\"(Листоноша)\" fr=\"(Facteur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "La persona que enseña en la escuela es... (Extra)",
-        options: ["Profesor / Profesora","Médico","Policía"],
+        question: `La persona que enseña en la escuela es... (Extra) <trans en="(The person who teaches at the school is... (Extra))" ar="(الشخص الذي يقوم بالتدريس في المدرسة هو... (إضافي))" uk="(Людина, яка викладає в школі... (Додатково))" fr="(La personne qui enseigne à l'école est... (Extra))"/>`,
+        options: ["Profesor / Profesora <trans en=\"(Teacher)\" ar=\"(المعلم)\" uk=\"(Учитель)\" fr=\"(Professeur)\"/>", "Médico <trans en=\"(Doctor)\" ar=\"(دكتور)\" uk=\"(Лікар)\" fr=\"(Docteur)\"/>", "Policía <trans en=\"(Police)\" ar=\"(الشرطة)\" uk=\"(Поліція)\" fr=\"(Police)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "La persona que cura a los enfermos es... (Extra)",
-        options: ["Médico / Doctor","Bombero","Cocinero"],
+        question: `La persona que cura a los enfermos es... (Extra) <trans en="(The person who heals the sick is... (Extra))" ar="(الشخص الذي يشفي المرضى هو... (إضافة))" uk="(Людина, яка зцілює хворих, це... (Додатково))" fr="(La personne qui guérit les malades est... (Extra))"/>`,
+        options: ["Médico / Doctor <trans en=\"(Doctor / Doctor)\" ar=\"(دكتور/ دكتور)\" uk=\"(Лікар / Доктор)\" fr=\"(Docteur / Docteur)\"/>", "Bombero <trans en=\"(Firefighter)\" ar=\"(رجل إطفاء)\" uk=\"(Пожежний)\" fr=\"(Pompier)\"/>", "Cocinero <trans en=\"(Cook)\" ar=\"(كوك)\" uk=\"(Кухар)\" fr=\"(Cuisiner)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -10907,124 +10933,125 @@ Usamos el verbo SER para describir:
     exercises: [
       {
         id: "ex1",
-        question: "El papá en español se dice también...",
-        options: ["El padre", "El hermano", "El abuelo"],
+        question: `El papá en español se dice también... <trans en="(Dad in Spanish is also said...)" ar="(يُقال "أبي" بالإسبانية أيضًا...)" uk="(Тато іспанською також кажуть...)" fr="(Papa en espagnol se dit aussi...)"/>`,
+        options: ["El padre <trans en=\"(The father)\" ar=\"(الأب)\" uk=\"(Батько)\" fr=\"(Le père)\"/>", "El hermano <trans en=\"(The brother)\" ar=\"(الأخ)\" uk=\"(Брат)\" fr=\"(Le frère)\"/>", "El abuelo <trans en=\"(Grandfather)\" ar=\"(جد)\" uk=\"(Дід)\" fr=\"(Grand-père)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "Para decir que tu hermana tiene mucha altura dices: Mi hermana es...",
-        options: ["alta", "alto", "baja"],
+        question: `Para decir que tu hermana tiene mucha altura dices: Mi hermana es... <trans en="(To say that your sister is very tall you say: My sister is...)" ar="(لكي تقول أن أختك طويلة جداً تقول: أختي...)" uk="(Щоб сказати, що твоя сестра дуже висока, ти скажеш: Моя сестра...)" fr="(Pour dire que ta sœur est très grande tu dis : Ma sœur est...)"/>`,
+        options: ["alta <trans en=\"(high)\" ar=\"(عالية)\" uk=\"(висока)\" fr=\"(élevé)\"/>", "alto <trans en=\"(high)\" ar=\"(عالية)\" uk=\"(висока)\" fr=\"(élevé)\"/>", "baja <trans en=\"(low)\" ar=\"(منخفض)\" uk=\"(низький)\" fr=\"(faible)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "El padre de mi padre es mi...",
-        options: ["Abuelo","Tío","Hermano"],
+        question: `El padre de mi padre es mi... <trans en="(My father's father is my...)" ar="(والد والدي هو ...)" uk="(Батько мого батька - мій...)" fr="(Le père de mon père est mon...)"/>`,
+        options: ["Abuelo <trans en=\"(Grandfather)\" ar=\"(جد)\" uk=\"(Дід)\" fr=\"(Grand-père)\"/>", "Tío <trans en=\"(Uncle)\" ar=\"(عم)\" uk=\"(Дядько)\" fr=\"(Oncle)\"/>", "Hermano <trans en=\"(Brother)\" ar=\"(أخي)\" uk=\"(Брате)\" fr=\"(Frère)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "La madre de mi madre es mi...",
-        options: ["Abuela","Tía","Prima"],
+        question: `La madre de mi madre es mi... <trans en="(My mother's mother is my...)" ar="(أم أمي هي...)" uk="(Мама моєї мами моя...)" fr="(La mère de ma mère est ma...)"/>`,
+        options: ["Abuela <trans en=\"(Grandma)\" ar=\"(الجدة)\" uk=\"(Бабуся)\" fr=\"(Grand-mère)\"/>", "Tía <trans en=\"(Aunt)\" ar=\"(عمة)\" uk=\"(Тітка)\" fr=\"(Tante)\"/>", "Prima <trans en=\"(Premium)\" ar=\"(قسط)\" uk=\"(Преміум)\" fr=\"(Prime)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "El hermano de mi padre es mi...",
-        options: ["Tío","Primo","Abuelo"],
+        question: `El hermano de mi padre es mi... <trans en="(My father's brother is my...)" ar="(أخي والدي هو ...)" uk="(Батьків брат мій...)" fr="(Le frère de mon père est mon...)"/>`,
+        options: ["Tío <trans en=\"(Uncle)\" ar=\"(عم)\" uk=\"(Дядько)\" fr=\"(Oncle)\"/>", "Primo <trans en=\"(Cousin)\" ar=\"(ابن عم)\" uk=\"(Двоюрідний брат)\" fr=\"(Cousine)\"/>", "Abuelo <trans en=\"(Grandfather)\" ar=\"(جد)\" uk=\"(Дід)\" fr=\"(Grand-père)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "La hermana de mi madre es mi...",
-        options: ["Tía","Prima","Abuela"],
+        question: `La hermana de mi madre es mi... <trans en="(My mother's sister is my...)" ar="(أخت أمي هي...)" uk="(Мамина сестра моя...)" fr="(La sœur de ma mère est ma...)"/>`,
+        options: ["Tía <trans en=\"(Aunt)\" ar=\"(عمة)\" uk=\"(Тітка)\" fr=\"(Tante)\"/>", "Prima <trans en=\"(Premium)\" ar=\"(قسط)\" uk=\"(Преміум)\" fr=\"(Prime)\"/>", "Abuela <trans en=\"(Grandma)\" ar=\"(الجدة)\" uk=\"(Бабуся)\" fr=\"(Grand-mère)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "El hijo de mi tío es mi...",
-        options: ["Primo","Hermano","Sobrino"],
+        question: `El hijo de mi tío es mi... <trans en="(My uncle's son is my...)" ar="(ابن عمي هو ...)" uk="(Дядьків син мій...)" fr="(Le fils de mon oncle est mon...)"/>`,
+        options: ["Primo <trans en=\"(Cousin)\" ar=\"(ابن عم)\" uk=\"(Двоюрідний брат)\" fr=\"(Cousine)\"/>", "Hermano <trans en=\"(Brother)\" ar=\"(أخي)\" uk=\"(Брате)\" fr=\"(Frère)\"/>", "Sobrino <trans en=\"(Nephew)\" ar=\"(ابن أخ)\" uk=\"(Племінник)\" fr=\"(Neveu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "El hijo de mi hermano es mi...",
-        options: ["Sobrino","Primo","Tío"],
+        question: `El hijo de mi hermano es mi... <trans en="(My brother's son is my...)" ar="(ابن أخي هو...)" uk="(Син мого брата - мій...)" fr="(Le fils de mon frère est mon...)"/>`,
+        options: ["Sobrino <trans en=\"(Nephew)\" ar=\"(ابن أخ)\" uk=\"(Племінник)\" fr=\"(Neveu)\"/>", "Primo <trans en=\"(Cousin)\" ar=\"(ابن عم)\" uk=\"(Двоюрідний брат)\" fr=\"(Cousine)\"/>", "Tío <trans en=\"(Uncle)\" ar=\"(عم)\" uk=\"(Дядько)\" fr=\"(Oncle)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "La hija de mi hermana es mi...",
-        options: ["Sobrina","Prima","Tía"],
+        question: `La hija de mi hermana es mi... <trans en="(My sister's daughter is my...)" ar="(بنت أختي ...)" uk="(Дочка моєї сестри моя...)" fr="(La fille de ma sœur est ma...)"/>`,
+        options: ["Sobrina <trans en=\"(Niece)\" ar=\"(ابنة)\" uk=\"(Племінниця)\" fr=\"(Nièce)\"/>", "Prima <trans en=\"(Premium)\" ar=\"(قسط)\" uk=\"(Преміум)\" fr=\"(Prime)\"/>", "Tía <trans en=\"(Aunt)\" ar=\"(عمة)\" uk=\"(Тітка)\" fr=\"(Tante)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Mi padre y mi madre son mis...",
-        options: ["Padres","Abuelos","Tíos"],
+        question: `Mi padre y mi madre son mis... <trans en="(My father and my mother are my...)" ar="(أبي وأمي هما...)" uk="(Мій батько і моя мати - це мої...)" fr="(Mon père et ma mère sont mes...)"/>`,
+        options: ["Padres <trans en=\"(Parents)\" ar=\"(الوالدين)\" uk=\"(Батьки)\" fr=\"(Parents)\"/>", "Abuelos <trans en=\"(Grandparents)\" ar=\"(الأجداد)\" uk=\"(Дідусь і бабуся)\" fr=\"(Grands-parents)\"/>", "Tíos <trans en=\"(Uncles)\" ar=\"(أعمام)\" uk=\"(Дядьки)\" fr=\"(Oncles)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "El marido de mi madre es mi...",
-        options: ["Padre","Tío","Abuelo"],
+        question: `El marido de mi madre es mi... <trans en="(My mother's husband is my...)" ar="(زوج أمي هو...)" uk="(Чоловік моєї мами - мій...)" fr="(Le mari de ma mère est mon...)"/>`,
+        options: ["Padre <trans en=\"(Father)\" ar=\"(الأب)\" uk=\"(Батько)\" fr=\"(Père)\"/>", "Tío <trans en=\"(Uncle)\" ar=\"(عم)\" uk=\"(Дядько)\" fr=\"(Oncle)\"/>", "Abuelo <trans en=\"(Grandfather)\" ar=\"(جد)\" uk=\"(Дід)\" fr=\"(Grand-père)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "La mujer de mi padre es mi...",
-        options: ["Madre","Tía","Abuela"],
+        question: `La mujer de mi padre es mi... <trans en="(My father's wife is my...)" ar="(زوجة أبي هي...)" uk="(Дружина мого батька - моя...)" fr="(La femme de mon père est ma...)"/>`,
+        options: ["Madre <trans en=\"(Mother)\" ar=\"(الأم)\" uk=\"(Мати)\" fr=\"(Mère)\"/>", "Tía <trans en=\"(Aunt)\" ar=\"(عمة)\" uk=\"(Тітка)\" fr=\"(Tante)\"/>", "Abuela <trans en=\"(Grandma)\" ar=\"(الجدة)\" uk=\"(Бабуся)\" fr=\"(Grand-mère)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Yo soy el ___ de mis padres.",
-        options: ["Hijo","Sobrino","Nieto"],
+        question: `Yo soy el ___ de mis padres. <trans en="(I am the ___ of my parents.)" ar="(أنا ___ والدي.)" uk="(Я ___ моїх батьків.)" fr="(Je suis le ___ de mes parents.)"/>`,
+        options: ["Hijo <trans en=\"(Son)\" ar=\"(الابن)\" uk=\"(Син)\" fr=\"(Fils)\"/>", "Sobrino <trans en=\"(Nephew)\" ar=\"(ابن أخ)\" uk=\"(Племінник)\" fr=\"(Neveu)\"/>", "Nieto <trans en=\"(Grandson)\" ar=\"(حفيد)\" uk=\"(Онук)\" fr=\"(Petit-fils)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Yo soy el ___ de mis abuelos.",
-        options: ["Nieto","Hijo","Sobrino"],
+        question: `Yo soy el ___ de mis abuelos. <trans en="(I am the ___ of my grandparents.)" ar="(أنا ___ أجدادي.)" uk="(Я ___ моїх дідуся та бабусі.)" fr="(Je suis le ___ de mes grands-parents.)"/>`,
+        options: ["Nieto <trans en=\"(Grandson)\" ar=\"(حفيد)\" uk=\"(Онук)\" fr=\"(Petit-fils)\"/>", "Hijo <trans en=\"(Son)\" ar=\"(الابن)\" uk=\"(Син)\" fr=\"(Fils)\"/>", "Sobrino <trans en=\"(Nephew)\" ar=\"(ابن أخ)\" uk=\"(Племінник)\" fr=\"(Neveu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "El hermano de mi marido es mi...",
-        options: ["Cuñado","Suegro","Yerno"],
+        question: `El hermano de mi marido es mi... <trans en="(My husband's brother is my...)" ar="(أخ زوجي هو ...)" uk="(Брат мого чоловіка мій...)" fr="(Le frère de mon mari est mon...)"/>`,
+        options: ["Cuñado <trans en=\"(Brother-in-law)\" ar=\"(أخي)\" uk=\"(Свягер)\" fr=\"(Beau-frère)\"/>", "Suegro <trans en=\"(Father-in-law)\" ar=\"(حمو)\" uk=\"(Свекор)\" fr=\"(Beau-père)\"/>", "Yerno <trans en=\"(Son-in-law)\" ar=\"(صهر)\" uk=\"(Зять)\" fr=\"(Gendre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "El padre de mi mujer es mi...",
-        options: ["Suegro","Cuñado","Yerno"],
+        question: `El padre de mi mujer es mi... <trans en="(My wife's father is my...)" ar="(والد زوجتي هو...)" uk="(Батько моєї дружини - мій...)" fr="(Le père de ma femme est mon...)"/>`,
+        options: ["Suegro <trans en=\"(Father-in-law)\" ar=\"(حمو)\" uk=\"(Свекор)\" fr=\"(Beau-père)\"/>", "Cuñado <trans en=\"(Brother-in-law)\" ar=\"(أخي)\" uk=\"(Свягер)\" fr=\"(Beau-frère)\"/>", "Yerno <trans en=\"(Son-in-law)\" ar=\"(صهر)\" uk=\"(Зять)\" fr=\"(Gendre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Si no tengo hermanos, soy hijo...",
-        options: ["Único","Solo","Primero"],
+        question: `Si no tengo hermanos, soy hijo... <trans en="(If I don't have brothers, I'm a son...)" ar="(إذا لم يكن لدي إخوة فأنا ابن...)" uk="(Якщо в мене немає братів, я син...)" fr="(Si je n'ai pas de frères, je suis un fils...)"/>`,
+        options: ["Único <trans en=\"(Unique)\" ar=\"(فريدة من نوعها)\" uk=\"(Унікальний)\" fr=\"(Unique)\"/>", "Solo <trans en=\"(Only)\" ar=\"(فقط)\" uk=\"(Тільки)\" fr=\"(Seulement)\"/>", "Primero <trans en=\"(First)\" ar=\"(أولا)\" uk=\"(Перший)\" fr=\"(D'abord)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Los hijos que nacen el mismo día de la misma madre son...",
-        options: ["Gemelos o Mellizos","Primos","Sobrinos"],
+        question: `Los hijos que nacen el mismo día de la misma madre son... <trans en="(Children born on the same day to the same mother are...)" ar="(الأطفال الذين يولدون في نفس اليوم من نفس الأم هم...)" uk="(Діти, народжені в один день від однієї матері, є...)" fr="(Les enfants nés le même jour de la même mère sont...)"/>`,
+        options: ["Gemelos o Mellizos <trans en=\"(Twins or Twins)\" ar=\"(التوائم أو التوائم)\" uk=\"(Близнюки або Близнюки)\" fr=\"(Jumeaux ou jumeaux)\"/>", "Primos <trans en=\"(Cousins)\" ar=\"(أبناء العمومة)\" uk=\"(Кузени)\" fr=\"(Cousines)\"/>", "Sobrinos <trans en=\"(Nephews)\" ar=\"(أبناء الإخوة)\" uk=\"(Племінники)\" fr=\"(Neveux)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "La persona con la que me caso es mi...",
-        options: ["Marido / Mujer","Hermano","Primo"],
+        question: `La persona con la que me caso es mi... <trans en="(The person I am marrying is my...)" ar="(الشخص الذي سأتزوجه هو...)" uk="(Людина, з якою я виходжу заміж, моя...)" fr="(La personne que j'épouse est ma...)"/>`,
+        options: ["Marido / Mujer <trans en=\"(Husband/Wife)\" ar=\"(الزوج/الزوجة)\" uk=\"(Чоловік/Дружина)\" fr=\"(Mari/Femme)\"/>", "Hermano <trans en=\"(Brother)\" ar=\"(أخي)\" uk=\"(Брате)\" fr=\"(Frère)\"/>", "Primo <trans en=\"(Cousin)\" ar=\"(ابن عم)\" uk=\"(Двоюрідний брат)\" fr=\"(Cousine)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "El padre de mi padre es mi... (Extra)",
-        options: ["Abuelo","Tío","Hermano"],
+        question: `El padre de mi padre es mi... (Extra) <trans en="(My father's father is my... (Extra))" ar="(والد والدي هو... (إضافي))" uk="(Батько мого батька - мій... (Додатково))" fr="(Le père de mon père est mon... (Extra))"/>`,
+        options: ["Abuelo <trans en=\"(Grandfather)\" ar=\"(جد)\" uk=\"(Дід)\" fr=\"(Grand-père)\"/>", "Tío <trans en=\"(Uncle)\" ar=\"(عم)\" uk=\"(Дядько)\" fr=\"(Oncle)\"/>", "Hermano <trans en=\"(Brother)\" ar=\"(أخي)\" uk=\"(Брате)\" fr=\"(Frère)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -11381,124 +11408,125 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     exercises: [
       {
         id: "ex1",
-        question: "Si quieres saber el lugar, preguntas...",
-        options: ["¿Quién?", "¿Qué?", "¿Dónde?"],
+        question: `Si quieres saber el lugar, preguntas... <trans en="(If you want to know the place, ask...)" ar="(إذا أردت أن تعرف المكان فاسأل...)" uk="(Якщо ви хочете знати місце, запитайте...)" fr="(Si vous voulez connaître l'endroit, demandez...)"/>`,
+        options: ["¿Quién? <trans en=\"(Who?)\" ar=\"(من؟)\" uk=\"(Хто?)\" fr=\"(Qui ?)\"/>", "¿Qué? <trans en=\"(That?)\" ar=\"(الذي - التي؟)\" uk=\"(Це?)\" fr=\"(Que?)\"/>", "¿Dónde? <trans en=\"(Where?)\" ar=\"(أين؟)\" uk=\"(Де?)\" fr=\"(Où?)\"/>"],
         correctAnswer: 2
       },
       {
         id: "ex2",
-        question: "Para preguntar por una persona usas:",
-        options: ["¿Qué?", "¿Quién?", "¿Cuándo?"],
+        question: `Para preguntar por una persona usas: <trans en="(To ask about a person you use:)" ar="(للسؤال عن شخص تستخدمه:)" uk="(Щоб запитати про особу, яку ви використовуєте:)" fr="(Pour poser des questions sur une personne que vous utilisez :)"/>`,
+        options: ["¿Qué? <trans en=\"(What?)\" ar=\"(ماذا؟)\" uk=\"(Що?)\" fr=\"(Quoi ?)\"/>", "¿Quién? <trans en=\"(Who?)\" ar=\"(من؟)\" uk=\"(ВООЗ?)\" fr=\"(OMS?)\"/>", "¿Cuándo? <trans en=\"(When?)\" ar=\"(متى؟)\" uk=\"(Коли?)\" fr=\"(Quand?)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "___ te llamas?",
-        options: ["Cómo","Qué","Dónde"],
+        question: `___ te llamas? <trans en="(___ your name is?)" ar="(___ اسمك؟)" uk="(___ тебе звати?)" fr="(___ tu t'appelles ?)"/>`,
+        options: ["Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "___ años tienes?",
-        options: ["Cuántos","Qué","Cuándo"],
+        question: `___ años tienes? <trans en="(___ years old are you?)" ar="(___ سنة عمرك؟)" uk="(Тобі ___ років?)" fr="(___ ans, as-tu ?)"/>`,
+        options: ["Cuántos <trans en=\"(How many)\" ar=\"(كم)\" uk=\"(Скільки)\" fr=\"(Combien)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Cuándo <trans en=\"(When)\" ar=\"(متى)\" uk=\"(Коли)\" fr=\"(Quand)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "___ vives?",
-        options: ["Dónde","Cómo","Por qué"],
+        question: `___ vives? <trans en="(___ do you live?)" ar="(___ هل تعيش؟)" uk="(___ ти живеш?)" fr="(___ tu vis ?)"/>`,
+        options: ["Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>", "Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>", "Por qué <trans en=\"(Why)\" ar=\"(لماذا)\" uk=\"(Чому)\" fr=\"(Pourquoi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "___ es esto? - Es un libro.",
-        options: ["Qué","Quién","Cuál"],
+        question: `___ es esto? - Es un libro. <trans en="(___ is this? - It's a book.)" ar="(___ هل هذا؟ - إنه كتاب.)" uk="(___ це? - Це книга.)" fr="(___ c'est ça ? - C'est un livre.)"/>`,
+        options: ["Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Quién <trans en=\"(Who)\" ar=\"(من)\" uk=\"(Хто)\" fr=\"(Qui)\"/>", "Cuál <trans en=\"(Which)\" ar=\"(التي)\" uk=\"(Які)\" fr=\"(Lequel)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "___ es él? - Es mi hermano.",
-        options: ["Quién","Qué","Dónde"],
+        question: `___ es él? - Es mi hermano. <trans en="(___ is he? - He's my brother.)" ar="(___ هل هو؟ - إنه أخي.)" uk="(___ він? - Він мій брат.)" fr="(___ c'est vrai ? - C'est mon frère.)"/>`,
+        options: ["Quién <trans en=\"(Who)\" ar=\"(من)\" uk=\"(Хто)\" fr=\"(Qui)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "___ llegas? - Mañana.",
-        options: ["Cuándo","Dónde","Por qué"],
+        question: `___ llegas? - Mañana. <trans en="(___ are you arriving? - Tomorrow.)" ar="(___ هل ستصل؟ - غداً.)" uk="(___ ти приїжджаєш? - Завтра.)" fr="(___ tu arrive ? - Demain.)"/>`,
+        options: ["Cuándo <trans en=\"(When)\" ar=\"(متى)\" uk=\"(Коли)\" fr=\"(Quand)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>", "Por qué <trans en=\"(Why)\" ar=\"(لماذا)\" uk=\"(Чому)\" fr=\"(Pourquoi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "___ estudias español? - Porque me gusta.",
-        options: ["Por qué","Cuándo","Dónde"],
+        question: `___ estudias español? - Porque me gusta. <trans en="(___ do you study Spanish? - Because I like it.)" ar="(___ هل تدرس اللغة الاسبانية؟ - لأنني أحب ذلك.)" uk="(___ ти вивчаєш іспанську? - Тому що мені подобається.)" fr="(___ étudiez-vous l'espagnol ? - Parce que j'aime ça.)"/>`,
+        options: ["Por qué <trans en=\"(Why)\" ar=\"(لماذا)\" uk=\"(Чому)\" fr=\"(Pourquoi)\"/>", "Cuándo <trans en=\"(When)\" ar=\"(متى)\" uk=\"(Коли)\" fr=\"(Quand)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "___ de estos prefieres?",
-        options: ["Cuál","Qué","Quién"],
+        question: `___ de estos prefieres? <trans en="(___ of these do you prefer?)" ar="(___ من هذه تفضل؟)" uk="(___ із них ви віддаєте перевагу?)" fr="(___ parmi ceux-ci, préférez-vous ?)"/>`,
+        options: ["Cuál <trans en=\"(Which)\" ar=\"(التي)\" uk=\"(Які)\" fr=\"(Lequel)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Quién <trans en=\"(Who)\" ar=\"(من)\" uk=\"(Хто)\" fr=\"(Qui)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "___ cuesta esto?",
-        options: ["Cuánto","Cómo","Qué"],
+        question: `___ cuesta esto? <trans en="(___ does this cost?)" ar="(___ هل هذا يكلف؟)" uk="(___ це коштує?)" fr="(___ est-ce que ça coûte ?)"/>`,
+        options: ["Cuánto <trans en=\"(How much)\" ar=\"(كم)\" uk=\"(Скільки)\" fr=\"(Combien)\"/>", "Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿___ hora es?",
-        options: ["Qué","Cuál","Cómo"],
+        question: `¿___ hora es? <trans en="(___ time is it?)" ar="(____ هل هذا هو الوقت؟)" uk="(___ час?)" fr="(___ il est temps ?)"/>`,
+        options: ["Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Cuál <trans en=\"(Which)\" ar=\"(التي)\" uk=\"(Які)\" fr=\"(Lequel)\"/>", "Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "¿___ vas? - Voy al supermercado.",
-        options: ["A dónde","De dónde","Dónde"],
+        question: `¿___ vas? - Voy al supermercado. <trans en="(Are you ____ going? - I'm going to the supermarket.)" ar="(هل أنت ____ ذاهب؟ - أنا ذاهب إلى السوبر ماركت.)" uk="(Ви ____ йдете? - Я йду в супермаркет.)" fr="(Est-ce que tu ____ y vas ? - Je vais au supermarché.)"/>`,
+        options: ["A dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>", "De dónde <trans en=\"(From where)\" ar=\"(من أين)\" uk=\"(Звідки)\" fr=\"(D'où)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "¿___ eres? - Soy de Marruecos.",
-        options: ["De dónde","Dónde","A dónde"],
+        question: `¿___ eres? - Soy de Marruecos. <trans en="(___ are you? - I'm from Morocco.)" ar="(____ هل أنت؟ - أنا من المغرب.)" uk="(___ ти? - Я з Марокко.)" fr="(___ et toi ? - Je viens du Maroc.)"/>`,
+        options: ["De dónde <trans en=\"(From where)\" ar=\"(من أين)\" uk=\"(Звідки)\" fr=\"(D'où)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>", "A dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "¿___ hermanos tienes?",
-        options: ["Cuántos","Cuánto","Cuántas"],
+        question: `¿___ hermanos tienes? <trans en="(Do you have ____ brothers?)" ar="(هل لديك ____ إخوة؟)" uk="(У вас є ____ братів?)" fr="(Avez-vous ____ frères ?)"/>`,
+        options: ["Cuántos <trans en=\"(How many)\" ar=\"(كم)\" uk=\"(Скільки)\" fr=\"(Combien)\"/>", "Cuánto <trans en=\"(How much)\" ar=\"(كم)\" uk=\"(Скільки)\" fr=\"(Combien)\"/>", "Cuántas <trans en=\"(How many)\" ar=\"(كم)\" uk=\"(Скільки)\" fr=\"(Combien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "¿___ está el baño?",
-        options: ["Dónde","Cómo","Qué"],
+        question: `¿___ está el baño? <trans en="(___ is the bathroom?)" ar="(____ هو الحمام؟)" uk="(___ ванна кімната?)" fr="(___ c'est la salle de bain ?)"/>`,
+        options: ["Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>", "Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "¿___ se dice 'house' en español?",
-        options: ["Cómo","Qué","Por qué"],
+        question: `¿___ se dice 'house' en español? <trans en="(Is ___ said 'house' in Spanish?)" ar="(هل يُقال ___ "منزل" باللغة الإسبانية؟)" uk="(___ каже «будинок» іспанською?)" fr="(Est-ce que ___ se dit « maison » en espagnol ?)"/>`,
+        options: ["Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Por qué <trans en=\"(Why)\" ar=\"(لماذا)\" uk=\"(Чому)\" fr=\"(Pourquoi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "¿___ es tu número de teléfono?",
-        options: ["Cuál","Qué","Cuánto"],
+        question: `¿___ es tu número de teléfono? <trans en="(___ is your phone number?)" ar="(___ هو رقم هاتفك؟)" uk="(___ твій номер телефону?)" fr="(___ est votre numéro de téléphone ?)"/>`,
+        options: ["Cuál <trans en=\"(Which)\" ar=\"(التي)\" uk=\"(Які)\" fr=\"(Lequel)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Cuánto <trans en=\"(How much)\" ar=\"(كم)\" uk=\"(Скільки)\" fr=\"(Combien)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "En español, usamos los signos de interrogación...",
-        options: ["Al principio y al final (¿?)","Solo al final (?)","Solo al principio (¿)"],
+        question: `En español, usamos los signos de interrogación... <trans en="(In Spanish, we use question marks...)" ar="(في اللغة الاسبانية نستخدم علامات الاستفهام...)" uk="(В іспанській мові ми використовуємо знаки питання...)" fr="(En espagnol, on utilise des points d'interrogation...)"/>`,
+        options: ["Al principio y al final (¿?) <trans en=\"(At the beginning and at the end (?))\" ar=\"(في البداية والنهاية (؟))\" uk=\"(На початку і в кінці (?))\" fr=\"(Au début et à la fin (?))\"/>", "Solo al final (?) <trans en=\"(Only at the end (?))\" ar=\"(فقط في النهاية (؟))\" uk=\"(Тільки в кінці (?))\" fr=\"(Seulement à la fin (?))\"/>", "Solo al principio (¿) <trans en=\"(Only at the beginning ())\" ar=\"(فقط في البداية ())\" uk=\"(Тільки на початку ())\" fr=\"(Seulement au début ())\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "___ te llamas? (Extra)",
-        options: ["Cómo","Qué","Dónde"],
+        question: `___ te llamas? (Extra) <trans en="(___ your name is? (Bonus))" ar="(___ اسمك؟ (مكافأة))" uk="(___ тебе звати? (Бонус))" fr="(___ tu t'appelles ? (Prime))"/>`,
+        options: ["Cómo <trans en=\"(How)\" ar=\"(كيف)\" uk=\"(Як)\" fr=\"(Comment)\"/>", "Qué <trans en=\"(What)\" ar=\"(ماذا)\" uk=\"(Що)\" fr=\"(Quoi)\"/>", "Dónde <trans en=\"(Where)\" ar=\"(أين)\" uk=\"(Де)\" fr=\"(Où)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -11854,124 +11882,125 @@ La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina*
     exercises: [
       {
         id: "ex1",
-        question: "El lugar donde duermes se llama:",
-        options: ["El dormitorio", "La cocina", "El pan"],
+        question: `El lugar donde duermes se llama: <trans en="(The place where you sleep is called:)" ar="(المكان الذي تنام فيه يسمى :)" uk="(Місце, де ти спиш, називається:)" fr="(L'endroit où vous dormez s'appelle :)"/>`,
+        options: ["El dormitorio <trans en=\"(The bedroom)\" ar=\"(غرفة النوم)\" uk=\"(Спальня)\" fr=\"(La chambre)\"/>", "La cocina <trans en=\"(The kitchen)\" ar=\"(المطبخ)\" uk=\"(Кухня)\" fr=\"(La cuisine)\"/>", "El pan <trans en=\"(The bread)\" ar=\"(الخبز)\" uk=\"(Хліб)\" fr=\"(Le pain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "La comida de la mañana se llama...",
-        options: ["Desayuno","Almuerzo","Cena"],
+        question: `La comida de la mañana se llama... <trans en="(The morning meal is called...)" ar="(تسمى الوجبة الصباحية...)" uk="(Ранковий прийом їжі називається...)" fr="(Le repas du matin s'appelle...)"/>`,
+        options: ["Desayuno <trans en=\"(Breakfast)\" ar=\"(الإفطار)\" uk=\"(Сніданок)\" fr=\"(Petit-déjeuner)\"/>", "Almuerzo <trans en=\"(Lunch)\" ar=\"(الغداء)\" uk=\"(Обід)\" fr=\"(Déjeuner)\"/>", "Cena <trans en=\"(Dinner)\" ar=\"(العشاء)\" uk=\"(Вечеря)\" fr=\"(Dîner)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "La comida de la noche se llama...",
-        options: ["Cena","Desayuno","Comida"],
+        question: `La comida de la noche se llama... <trans en="(The evening meal is called...)" ar="(تسمى وجبة المساء...)" uk="(Вечеря називається...)" fr="(Le repas du soir s'appelle...)"/>`,
+        options: ["Cena <trans en=\"(Dinner)\" ar=\"(العشاء)\" uk=\"(Вечеря)\" fr=\"(Dîner)\"/>", "Desayuno <trans en=\"(Breakfast)\" ar=\"(الإفطار)\" uk=\"(Сніданок)\" fr=\"(Petit-déjeuner)\"/>", "Comida <trans en=\"(Food)\" ar=\"(الغذاء)\" uk=\"(Харчування)\" fr=\"(Nourriture)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Para cortar la carne usamos un...",
-        options: ["Cuchillo","Tenedor","Cuchara"],
+        question: `Para cortar la carne usamos un... <trans en="(To cut the meat we use a...)" ar="(لتقطيع اللحم نستخدم...)" uk="(Для нарізки м'яса використовуємо...)" fr="(Pour couper la viande, nous utilisons un...)"/>`,
+        options: ["Cuchillo <trans en=\"(Knife)\" ar=\"(سكين)\" uk=\"(Ніж)\" fr=\"(Couteau)\"/>", "Tenedor <trans en=\"(Fork)\" ar=\"(شوكة)\" uk=\"(Виделка)\" fr=\"(Fourchette)\"/>", "Cuchara <trans en=\"(Spoon)\" ar=\"(ملعقة)\" uk=\"(Ложка)\" fr=\"(Cuillère)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Para tomar sopa usamos una...",
-        options: ["Cuchara","Tenedor","Cuchillo"],
+        question: `Para tomar sopa usamos una... <trans en="(To eat soup we use a...)" ar="(لتناول الحساء نستخدم...)" uk="(Для споживання супу ми використовуємо...)" fr="(Pour manger de la soupe on utilise un...)"/>`,
+        options: ["Cuchara <trans en=\"(Spoon)\" ar=\"(ملعقة)\" uk=\"(Ложка)\" fr=\"(Cuillère)\"/>", "Tenedor <trans en=\"(Fork)\" ar=\"(شوكة)\" uk=\"(Виделка)\" fr=\"(Fourchette)\"/>", "Cuchillo <trans en=\"(Knife)\" ar=\"(سكين)\" uk=\"(Ніж)\" fr=\"(Couteau)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Bebemos agua en un...",
-        options: ["Vaso","Plato","Tenedor"],
+        question: `Bebemos agua en un... <trans en="(We drink water in a...)" ar="(نشرب الماء في...)" uk="(П'ємо воду в...)" fr="(Nous buvons de l'eau dans un...)"/>`,
+        options: ["Vaso <trans en=\"(Glass)\" ar=\"(زجاج)\" uk=\"(Скло)\" fr=\"(Verre)\"/>", "Plato <trans en=\"(Plate)\" ar=\"(لوحة)\" uk=\"(Тарілка)\" fr=\"(Assiette)\"/>", "Tenedor <trans en=\"(Fork)\" ar=\"(شوكة)\" uk=\"(Виделка)\" fr=\"(Fourchette)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Dormimos en una...",
-        options: ["Cama","Mesa","Silla"],
+        question: `Dormimos en una... <trans en="(We slept in a...)" ar="(لقد نمنا في...)" uk="(Ми спали в...)" fr="(Nous avons dormi dans un...)"/>`,
+        options: ["Cama <trans en=\"(Bed)\" ar=\"(السرير)\" uk=\"(Ліжко)\" fr=\"(Lit)\"/>", "Mesa <trans en=\"(Table)\" ar=\"(الجدول)\" uk=\"(Таблиця)\" fr=\"(Tableau)\"/>", "Silla <trans en=\"(Chair)\" ar=\"(كرسي)\" uk=\"(Стілець)\" fr=\"(Chaise)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Nos sentamos en una...",
-        options: ["Silla","Mesa","Cama"],
+        question: `Nos sentamos en una... <trans en="(We sat in a...)" ar="(جلسنا في...)" uk="(Ми сиділи в...)" fr="(Nous nous sommes assis dans un...)"/>`,
+        options: ["Silla <trans en=\"(Chair)\" ar=\"(كرسي)\" uk=\"(Стілець)\" fr=\"(Chaise)\"/>", "Mesa <trans en=\"(Table)\" ar=\"(الجدول)\" uk=\"(Таблиця)\" fr=\"(Tableau)\"/>", "Cama <trans en=\"(Bed)\" ar=\"(السرير)\" uk=\"(Ліжко)\" fr=\"(Lit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Guardamos la comida fría en...",
-        options: ["La nevera / El frigorífico","El horno","El microondas"],
+        question: `Guardamos la comida fría en... <trans en="(We store cold food in...)" ar="(نقوم بتخزين الأطعمة الباردة في...)" uk="(Ми зберігаємо холодні продукти в...)" fr="(Nous stockons des aliments froids dans...)"/>`,
+        options: ["La nevera / El frigorífico <trans en=\"(The refrigerator / The refrigerator)\" ar=\"(الثلاجة / الثلاجة)\" uk=\"(Холодильник / Холодильник)\" fr=\"(Le réfrigérateur / Le réfrigérateur)\"/>", "El horno <trans en=\"(The oven)\" ar=\"(الفرن)\" uk=\"(Піч)\" fr=\"(Le four)\"/>", "El microondas <trans en=\"(The microwave)\" ar=\"(الميكروويف)\" uk=\"(Мікрохвильова піч)\" fr=\"(Le micro-onde)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Cocinamos en...",
-        options: ["La cocina","El dormitorio","El baño"],
+        question: `Cocinamos en... <trans en="(We cook in...)" ar="(نحن نطبخ في...)" uk="(Готуємо в...)" fr="(Nous cuisinons à...)"/>`,
+        options: ["La cocina <trans en=\"(The kitchen)\" ar=\"(المطبخ)\" uk=\"(Кухня)\" fr=\"(La cuisine)\"/>", "El dormitorio <trans en=\"(The bedroom)\" ar=\"(غرفة النوم)\" uk=\"(Спальня)\" fr=\"(La chambre)\"/>", "El baño <trans en=\"(The bathroom)\" ar=\"(الحمام)\" uk=\"(Ванна кімната)\" fr=\"(La salle de bain)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Nos duchamos en...",
-        options: ["El baño","El salón","La cocina"],
+        question: `Nos duchamos en... <trans en="(We showered in...)" ar="(استحممنا...)" uk="(Ми приймали душ у...)" fr="(Nous avons pris une douche...)"/>`,
+        options: ["El baño <trans en=\"(The bathroom)\" ar=\"(الحمام)\" uk=\"(Ванна кімната)\" fr=\"(La salle de bain)\"/>", "El salón <trans en=\"(The living room)\" ar=\"(غرفة المعيشة)\" uk=\"(Вітальня)\" fr=\"(Le salon)\"/>", "La cocina <trans en=\"(The kitchen)\" ar=\"(المطبخ)\" uk=\"(Кухня)\" fr=\"(La cuisine)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "Vemos la televisión en...",
-        options: ["El salón","El pasillo","El balcón"],
+        question: `Vemos la televisión en... <trans en="(We watch television on...)" ar="(نشاهد التلفاز على...)" uk="(Ми дивимося телевізор на...)" fr="(Nous regardons la télévision sur...)"/>`,
+        options: ["El salón <trans en=\"(The living room)\" ar=\"(غرفة المعيشة)\" uk=\"(Вітальня)\" fr=\"(Le salon)\"/>", "El pasillo <trans en=\"(The hallway)\" ar=\"(الردهة)\" uk=\"(Передпокій)\" fr=\"(Le couloir)\"/>", "El balcón <trans en=\"(The balcony)\" ar=\"(البلكونة)\" uk=\"(Балкон)\" fr=\"(Le balcon)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Ponemos la ropa en el...",
-        options: ["Armario","Baño","Frigorífico"],
+        question: `Ponemos la ropa en el... <trans en="(We put the clothes in the...)" ar="(نضع الملابس في...)" uk="(Одяг складаємо в...)" fr="(On met les vêtements dans le...)"/>`,
+        options: ["Armario <trans en=\"(Wardrobe)\" ar=\"(خزانة الملابس)\" uk=\"(Шафа)\" fr=\"(Armoire)\"/>", "Baño <trans en=\"(Bathroom)\" ar=\"(الحمام)\" uk=\"(Ванна кімната)\" fr=\"(Salle de bain)\"/>", "Frigorífico <trans en=\"(Refrigerator)\" ar=\"(ثلاجة)\" uk=\"(Холодильник)\" fr=\"(Réfrigérateur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Abrimos la ___ para entrar en casa.",
-        options: ["Puerta","Ventana","Pared"],
+        question: `Abrimos la ___ para entrar en casa. <trans en="(We open the ___ to enter the house.)" ar="(نفتح ___ للدخول إلى المنزل.)" uk="(Ми відкриваємо ___, щоб увійти в будинок.)" fr="(On ouvre le ___ pour entrer dans la maison.)"/>`,
+        options: ["Puerta <trans en=\"(Door)\" ar=\"(الباب)\" uk=\"(Двері)\" fr=\"(Porte)\"/>", "Ventana <trans en=\"(Window)\" ar=\"(نافذة)\" uk=\"(Вікно)\" fr=\"(Fenêtre)\"/>", "Pared <trans en=\"(Wall)\" ar=\"(الجدار)\" uk=\"(Стіна)\" fr=\"(Mur)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Miramos por la ___ para ver la calle.",
-        options: ["Ventana","Puerta","Mesa"],
+        question: `Miramos por la ___ para ver la calle. <trans en="(We look down the ___ to see the street.)" ar="(ننظر إلى أسفل ___ لرؤية الشارع.)" uk="(Ми дивимося вниз по ___, щоб побачити вулицю.)" fr="(Nous regardons le ___ pour voir la rue.)"/>`,
+        options: ["Ventana <trans en=\"(Window)\" ar=\"(نافذة)\" uk=\"(Вікно)\" fr=\"(Fenêtre)\"/>", "Puerta <trans en=\"(Door)\" ar=\"(الباب)\" uk=\"(Двері)\" fr=\"(Porte)\"/>", "Mesa <trans en=\"(Table)\" ar=\"(الجدول)\" uk=\"(Таблиця)\" fr=\"(Tableau)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "La fruta amarilla y alargada es...",
-        options: ["Un plátano","Una manzana","Una naranja"],
+        question: `La fruta amarilla y alargada es... <trans en="(The yellow and elongated fruit is...)" ar="(الثمرة صفراء ومستطيلة ...)" uk="(Жовтий і подовжений плід...)" fr="(Le fruit jaune et allongé est...)"/>`,
+        options: ["Un plátano <trans en=\"(A banana)\" ar=\"(موزة)\" uk=\"(Банан)\" fr=\"(Une banane)\"/>", "Una manzana <trans en=\"(An apple)\" ar=\"(تفاحة)\" uk=\"(Яблуко)\" fr=\"(Une pomme)\"/>", "Una naranja <trans en=\"(An orange)\" ar=\"(برتقالة)\" uk=\"(Апельсин)\" fr=\"(Une orange)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "La bebida blanca que dan las vacas es...",
-        options: ["Leche","Agua","Zumo"],
+        question: `La bebida blanca que dan las vacas es... <trans en="(The white drink that cows give is...)" ar="(المشروب الأبيض الذي تقدمه الأبقار هو...)" uk="(Білий напій, який дають корови, це...)" fr="(La boisson blanche que donnent les vaches est...)"/>`,
+        options: ["Leche <trans en=\"(Milk)\" ar=\"(حليب)\" uk=\"(Молоко)\" fr=\"(Lait)\"/>", "Agua <trans en=\"(Water)\" ar=\"(ماء)\" uk=\"(Вода)\" fr=\"(Eau)\"/>", "Zumo <trans en=\"(Juice)\" ar=\"(عصير)\" uk=\"(Сік)\" fr=\"(Jus)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Comemos paella en un...",
-        options: ["Plato","Vaso","Tenedor"],
+        question: `Comemos paella en un... <trans en="(We eat paella in a...)" ar="(نحن نأكل الباييلا في...)" uk="(Їмо паелью в...)" fr="(On mange de la paella dans un...)"/>`,
+        options: ["Plato <trans en=\"(Plate)\" ar=\"(لوحة)\" uk=\"(Тарілка)\" fr=\"(Assiette)\"/>", "Vaso <trans en=\"(Glass)\" ar=\"(زجاج)\" uk=\"(Скло)\" fr=\"(Verre)\"/>", "Tenedor <trans en=\"(Fork)\" ar=\"(شوكة)\" uk=\"(Виделка)\" fr=\"(Fourchette)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "La comida de la mañana se llama... (Extra)",
-        options: ["Desayuno","Almuerzo","Cena"],
+        question: `La comida de la mañana se llama... (Extra) <trans en="(The morning meal is called... (Extra))" ar="(وجبة الصباح تسمى... (إضافي))" uk="(Ранковий прийом їжі називається... (Додатковий))" fr="(Le repas du matin s'appelle... (Extra))"/>`,
+        options: ["Desayuno <trans en=\"(Breakfast)\" ar=\"(الإفطار)\" uk=\"(Сніданок)\" fr=\"(Petit-déjeuner)\"/>", "Almuerzo <trans en=\"(Lunch)\" ar=\"(الغداء)\" uk=\"(Обід)\" fr=\"(Déjeuner)\"/>", "Cena <trans en=\"(Dinner)\" ar=\"(العشاء)\" uk=\"(Вечеря)\" fr=\"(Dîner)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "La comida de la noche se llama... (Extra)",
-        options: ["Cena","Desayuno","Comida"],
+        question: `La comida de la noche se llama... (Extra) <trans en="(The evening meal is called... (Extra))" ar="(وجبة المساء تسمى... (إضافي))" uk="(Вечеря називається... (Додатково))" fr="(Le repas du soir s'appelle... (Extra))"/>`,
+        options: ["Cena <trans en=\"(Dinner)\" ar=\"(العشاء)\" uk=\"(Вечеря)\" fr=\"(Dîner)\"/>", "Desayuno <trans en=\"(Breakfast)\" ar=\"(الإفطار)\" uk=\"(Сніданок)\" fr=\"(Petit-déjeuner)\"/>", "Comida <trans en=\"(Food)\" ar=\"(الغذاء)\" uk=\"(Харчування)\" fr=\"(Nourriture)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -12008,124 +12037,125 @@ Usamos este tiempo verbal para hablar de acciones pasadas que ocurrieron en un m
     exercises: [
       {
         id: "ex1",
-        question: "Hoy nosotros _______ (trabajar) mucho.",
-        options: ["hemos trabajado", "han trabajado", "ha trabajado"],
+        question: `Hoy nosotros _______ (trabajar) mucho. <trans en="(Today we _______ (work) a lot.)" ar="(اليوم _______ (نعمل) كثيرًا.)" uk="(Сьогодні ми _______ (працюємо) багато.)" fr="(Aujourd'hui, nous _______ (travaillons) beaucoup.)"/>`,
+        options: ["hemos trabajado <trans en=\"(we have worked)\" ar=\"(لقد عملنا)\" uk=\"(ми попрацювали)\" fr=\"(nous avons travaillé)\"/>", "han trabajado <trans en=\"(have worked)\" ar=\"(عملت)\" uk=\"(працювали)\" fr=\"(j'ai travaillé)\"/>", "ha trabajado <trans en=\"(has worked)\" ar=\"(وقد عملت)\" uk=\"(спрацювало)\" fr=\"(a fonctionné)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "¿Tú _____ (estar) en Marruecos alguna vez?",
-        options: ["ha estado", "has estado", "he estado"],
+        question: `¿Tú _____ (estar) en Marruecos alguna vez? <trans en="(Have you ever _____ (be) in Morocco?)" ar="(هل سبق لك _____ (أن تكون) في المغرب؟)" uk="(Ви коли-небудь _____ (були) в Марокко?)" fr="(Avez-vous déjà _____ (être) au Maroc ?)"/>`,
+        options: ["ha estado <trans en=\"(has been)\" ar=\"(تم)\" uk=\"(було)\" fr=\"(a été)\"/>", "has estado <trans en=\"(you have been)\" ar=\"(لقد كنت)\" uk=\"(ви були)\" fr=\"(tu as été)\"/>", "he estado <trans en=\"(I have been)\" ar=\"(لقد كنت)\" uk=\"(Я був)\" fr=\"(j'ai été)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "Hoy ___ una manzana.",
-        options: ["he comido","ha comido","hemos comido"],
+        question: `Hoy ___ una manzana. <trans en="(Today ___ an apple.)" ar="(اليوم ___ تفاحة.)" uk="(Сьогодні ___ яблуко.)" fr="(Aujourd'hui ___ une pomme.)"/>`,
+        options: ["he comido <trans en=\"(I have eaten)\" ar=\"(لقد أكلت)\" uk=\"(Я поїв)\" fr=\"(j'ai mangé)\"/>", "ha comido <trans en=\"(has eaten)\" ar=\"(قد أكل)\" uk=\"(з'їв)\" fr=\"(a mangé)\"/>", "hemos comido <trans en=\"(we have eaten)\" ar=\"(لقد أكلنا)\" uk=\"(ми поїли)\" fr=\"(nous avons mangé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Esta mañana María ___ temprano.",
-        options: ["se ha levantado","se han levantado","se he levantado"],
+        question: `Esta mañana María ___ temprano. <trans en="(This morning Maria ___ early.)" ar="(هذا الصباح ماريا ___ مبكرا.)" uk="(Сьогодні вранці Марія ___ рано.)" fr="(Ce matin Maria ___ tôt.)"/>`,
+        options: ["se ha levantado <trans en=\"(has risen)\" ar=\"(ارتفع)\" uk=\"(піднявся)\" fr=\"(s'est levé)\"/>", "se han levantado <trans en=\"(they have risen)\" ar=\"(لقد قاموا)\" uk=\"(вони піднялися)\" fr=\"(ils se sont levés)\"/>", "se he levantado <trans en=\"(I have gotten up)\" ar=\"(لقد استيقظت)\" uk=\"(Я встав)\" fr=\"(je me suis levé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Esta semana nosotros ___ mucho.",
-        options: ["hemos trabajado","han trabajado","habéis trabajado"],
+        question: `Esta semana nosotros ___ mucho. <trans en="(This week we ___ a lot.)" ar="(هذا الأسبوع ___ الكثير.)" uk="(Цього тижня ми ___ багато.)" fr="(Cette semaine, nous ___ beaucoup.)"/>`,
+        options: ["hemos trabajado <trans en=\"(we have worked)\" ar=\"(لقد عملنا)\" uk=\"(ми попрацювали)\" fr=\"(nous avons travaillé)\"/>", "han trabajado <trans en=\"(have worked)\" ar=\"(عملت)\" uk=\"(працювали)\" fr=\"(j'ai travaillé)\"/>", "habéis trabajado <trans en=\"(you have worked)\" ar=\"(لقد عملت)\" uk=\"(ви працювали)\" fr=\"(tu as travaillé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿Tú ___ alguna vez a España?",
-        options: ["has viajado","ha viajado","he viajado"],
+        question: `¿Tú ___ alguna vez a España? <trans en="(Have you ever ___ to Spain?)" ar="(هل سبق لك ___ إلى إسبانيا؟)" uk="(Ви коли-небудь ___ відвідували Іспанію?)" fr="(Avez-vous déjà ___ en Espagne ?)"/>`,
+        options: ["has viajado <trans en=\"(you have traveled)\" ar=\"(لقد سافرت)\" uk=\"(ви подорожували)\" fr=\"(tu as voyagé)\"/>", "ha viajado <trans en=\"(has traveled)\" ar=\"(سافر)\" uk=\"(подорожував)\" fr=\"(a voyagé)\"/>", "he viajado <trans en=\"(I have traveled)\" ar=\"(لقد سافرت)\" uk=\"(Я подорожував)\" fr=\"(j'ai voyagé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Este año ellos no ___ de vacaciones.",
-        options: ["han ido","hemos ido","habéis ido"],
+        question: `Este año ellos no ___ de vacaciones. <trans en="(This year they don't ___ on vacation.)" ar="(هذا العام لا ___ في إجازة.)" uk="(Цього року вони не ___ у відпустці.)" fr="(Cette année, ils ne ___ pas en vacances.)"/>`,
+        options: ["han ido <trans en=\"(have gone)\" ar=\"(لقد ذهب)\" uk=\"(пішли)\" fr=\"(je suis parti)\"/>", "hemos ido <trans en=\"(we have gone)\" ar=\"(لقد ذهبنا)\" uk=\"(ми пішли)\" fr=\"(nous sommes partis)\"/>", "habéis ido <trans en=\"(you have gone)\" ar=\"(لقد ذهبت)\" uk=\"(ти пішов)\" fr=\"(tu es parti)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Yo nunca ___ sushi.",
-        options: ["he probado","has probado","ha probado"],
+        question: `Yo nunca ___ sushi. <trans en="(I never ___ sushi.)" ar="(أنا لا ___ السوشي.)" uk="(Я ніколи не ___ суші.)" fr="(Je n'ai jamais ___ sushi.)"/>`,
+        options: ["he probado <trans en=\"(I have tried)\" ar=\"(لقد حاولت)\" uk=\"(Я пробував)\" fr=\"(j'ai essayé)\"/>", "has probado <trans en=\"(have you tried)\" ar=\"(هل حاولت)\" uk=\"(ви пробували)\" fr=\"(as-tu essayé)\"/>", "ha probado <trans en=\"(has tried)\" ar=\"(وقد حاول)\" uk=\"(пробував)\" fr=\"(a essayé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "El pretérito perfecto de 'hacer' (yo) es...",
-        options: ["he hecho","he hacido","he echo"],
+        question: `El pretérito perfecto de 'hacer' (yo) es... <trans en="(The past perfect of 'do' (yo) is...)" ar="(الماضي التام لـ "do" (yo) هو ...)" uk="(Минулий досконалий від "do" (yo) є...)" fr="(Le plus-que-parfait de 'do' (yo) est...)"/>`,
+        options: ["he hecho <trans en=\"(I have done)\" ar=\"(لقد فعلت)\" uk=\"(Я зробив)\" fr=\"(j'ai fait)\"/>", "he hacido <trans en=\"(I have done)\" ar=\"(لقد فعلت)\" uk=\"(Я зробив)\" fr=\"(j'ai fait)\"/>", "he echo <trans en=\"(I have done)\" ar=\"(لقد فعلت)\" uk=\"(Я зробив)\" fr=\"(j'ai fait)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "El pretérito perfecto de 'escribir' (él) es...",
-        options: ["ha escrito","ha escribido","ha escrebido"],
+        question: `El pretérito perfecto de 'escribir' (él) es... <trans en="(The past perfect of 'write' (him) is...)" ar="(الماضي التام لـ "اكتب" (هو) هو ...)" uk="(Минулий досконалий від «написати» (його) є...)" fr="(Le plus-que-parfait de « écrire » (lui) est...)"/>`,
+        options: ["ha escrito <trans en=\"(has written)\" ar=\"(وقد كتب)\" uk=\"(написав)\" fr=\"(a écrit)\"/>", "ha escribido <trans en=\"(has written)\" ar=\"(وقد كتب)\" uk=\"(написав)\" fr=\"(a écrit)\"/>", "ha escrebido <trans en=\"(has written)\" ar=\"(وقد كتب)\" uk=\"(написав)\" fr=\"(a écrit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "El pretérito perfecto de 'ver' (nosotros) es...",
-        options: ["hemos visto","hemos vido","hemos veído"],
+        question: `El pretérito perfecto de 'ver' (nosotros) es... <trans en="(The past perfect of 'see' (us) is...)" ar="(الماضي التام لـ "أرى" (نحن) هو ...)" uk="(Минулий досконалий від 'бачити' (нас) є...)" fr="(Le plus-que-parfait de « voir » (nous) est...)"/>`,
+        options: ["hemos visto <trans en=\"(we have seen)\" ar=\"(لقد رأينا)\" uk=\"(ми бачили)\" fr=\"(nous avons vu)\"/>", "hemos vido <trans en=\"(we have seen)\" ar=\"(لقد رأينا)\" uk=\"(ми бачили)\" fr=\"(nous avons vu)\"/>", "hemos veído <trans en=\"(we have seen)\" ar=\"(لقد رأينا)\" uk=\"(ми бачили)\" fr=\"(nous avons vu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿___ (vosotros) las llaves?",
-        options: ["Habéis encontrado","Han encontrado","Has encontrado"],
+        question: `¿___ (vosotros) las llaves? <trans en="(___ (you) the keys?)" ar="(___ (أنت) المفاتيح؟)" uk="(___ (ви) ключі?)" fr="(___ (vous) les clés ?)"/>`,
+        options: ["Habéis encontrado <trans en=\"(You have found)\" ar=\"(لقد وجدت)\" uk=\"(Ви знайшли)\" fr=\"(Vous avez trouvé)\"/>", "Han encontrado <trans en=\"(They have found)\" ar=\"(لقد وجدوا)\" uk=\"(Знайшли)\" fr=\"(Ils ont trouvé)\"/>", "Has encontrado <trans en=\"(You have found)\" ar=\"(لقد وجدت)\" uk=\"(Ви знайшли)\" fr=\"(Vous avez trouvé)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Aún no ___ (yo) mis deberes.",
-        options: ["he terminado","ha terminado","has terminado"],
+        question: `Aún no ___ (yo) mis deberes. <trans en="(I still haven't ___ (me) my homework.)" ar="(ما زلت لم ___ (أنا) واجباتي المنزلية.)" uk="(Я все ще не маю ___ (я) домашнього завдання.)" fr="(Je n'ai toujours pas ___ (moi) mes devoirs.)"/>`,
+        options: ["he terminado <trans en=\"(I'm done)\" ar=\"(لقد انتهيت)\" uk=\"(Я закінчив)\" fr=\"(j'ai fini)\"/>", "ha terminado <trans en=\"(has finished)\" ar=\"(انتهى)\" uk=\"(закінчено)\" fr=\"(a fini)\"/>", "has terminado <trans en=\"(you're done)\" ar=\"(لقد انتهيت)\" uk=\"(ви закінчили)\" fr=\"(tu as fini)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Pedro ya ___ (volver) a casa.",
-        options: ["ha vuelto","ha volvido","ha volvedo"],
+        question: `Pedro ya ___ (volver) a casa. <trans en="(Pedro already ___ (return) home.)" ar="(بيدرو بالفعل ___ (عودة) إلى المنزل.)" uk="(Педро вже ___ (повернутися) додому.)" fr="(Pedro déjà ___ (retour) à la maison.)"/>`,
+        options: ["ha vuelto <trans en=\"(is back)\" ar=\"(عاد)\" uk=\"(повернувся)\" fr=\"(est de retour)\"/>", "ha volvido <trans en=\"(has returned)\" ar=\"(لقد عاد)\" uk=\"(повернувся)\" fr=\"(est revenu)\"/>", "ha volvedo <trans en=\"(has returned)\" ar=\"(لقد عاد)\" uk=\"(повернувся)\" fr=\"(est revenu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Esta tarde ___ (llover) mucho.",
-        options: ["ha llovido","he llovido","han llovido"],
+        question: `Esta tarde ___ (llover) mucho. <trans en="(This afternoon ___ (rain) a lot.)" ar="(بعد ظهر اليوم ___ (مطر) غزير.)" uk="(Сьогодні вдень ___ (дощ) багато.)" fr="(Cet après-midi ___ (pluie) beaucoup.)"/>`,
+        options: ["ha llovido <trans en=\"(it has rained)\" ar=\"(هطلت الأمطار)\" uk=\"(пішов дощ)\" fr=\"(il a plu)\"/>", "he llovido <trans en=\"(it has rained)\" ar=\"(هطلت الأمطار)\" uk=\"(пішов дощ)\" fr=\"(il a plu)\"/>", "han llovido <trans en=\"(it has rained)\" ar=\"(هطلت الأمطار)\" uk=\"(пішов дощ)\" fr=\"(il a plu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "¿Qué ___ (pasar) hoy?",
-        options: ["ha pasado","han pasado","has pasado"],
+        question: `¿Qué ___ (pasar) hoy? <trans en="(What ___ (happen) today?)" ar="(ماذا ___ (يحدث) اليوم؟)" uk="(Що ___ (відбулося) сьогодні?)" fr="(Que ___ (arrive-t-il) aujourd'hui ?)"/>`,
+        options: ["ha pasado <trans en=\"(has passed)\" ar=\"(قد مضى)\" uk=\"(минуло)\" fr=\"(est passé)\"/>", "han pasado <trans en=\"(have passed)\" ar=\"(لقد مرت)\" uk=\"(пройшли)\" fr=\"(sont passés)\"/>", "has pasado <trans en=\"(you have passed)\" ar=\"(لقد مرت)\" uk=\"(ви пройшли)\" fr=\"(tu as réussi)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Mis padres ___ (decir) que no.",
-        options: ["han dicho","han decido","han diciado"],
+        question: `Mis padres ___ (decir) que no. <trans en="(My parents ___ (say) no.)" ar="(والدي ___ (قل) لا.)" uk="(Мої батьки ___ (кажуть) ні.)" fr="(Mes parents ___ (dis) non.)"/>`,
+        options: ["han dicho <trans en=\"(they have said)\" ar=\"(قالوا)\" uk=\"(сказали вони)\" fr=\"(ils ont dit)\"/>", "han decido <trans en=\"(have decided)\" ar=\"(قررت)\" uk=\"(вирішили)\" fr=\"(j'ai décidé)\"/>", "han diciado <trans en=\"(they have said)\" ar=\"(قالوا)\" uk=\"(сказали вони)\" fr=\"(ils ont dit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Hoy me ___ (levantar) a las 8.",
-        options: ["he levantado","ha levantado","has levantado"],
+        question: `Hoy me ___ (levantar) a las 8. <trans en="(Today I ___ (get up) at 8.)" ar="(اليوم ___ (استيقظ) الساعة 8.)" uk="(Сьогодні я ___ (встаю) о 8.)" fr="(Aujourd'hui, je ___ (me lève) à 8 heures.)"/>`,
+        options: ["he levantado <trans en=\"(I have raised)\" ar=\"(لقد رفعت)\" uk=\"(Я підняв)\" fr=\"(j'ai élevé)\"/>", "ha levantado <trans en=\"(has risen)\" ar=\"(ارتفع)\" uk=\"(піднявся)\" fr=\"(s'est levé)\"/>", "has levantado <trans en=\"(you have risen)\" ar=\"(لقد قمت)\" uk=\"(ти воскрес)\" fr=\"(tu es ressuscité)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "El verbo auxiliar del pretérito perfecto es...",
-        options: ["Haber","Tener","Ser"],
+        question: `El verbo auxiliar del pretérito perfecto es... <trans en="(The auxiliary verb of the past perfect is...)" ar="(الفعل المساعد للماضي التام هو ...)" uk="(Допоміжним дієсловом минулого часу є...)" fr="(Le verbe auxiliaire du plus-que-parfait est...)"/>`,
+        options: ["Haber <trans en=\"(Have)\" ar=\"(هل لديك)\" uk=\"(Мати)\" fr=\"(Avoir)\"/>", "Tener <trans en=\"(Have)\" ar=\"(هل)\" uk=\"(Є)\" fr=\"(Avoir)\"/>", "Ser <trans en=\"(Be)\" ar=\"(كن)\" uk=\"(Будь)\" fr=\"(Soyez)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Hoy ___ una manzana. (Extra)",
-        options: ["he comido","ha comido","hemos comido"],
+        question: `Hoy ___ una manzana. (Extra) <trans en="(Today ___ an apple. (Bonus))" ar="(اليوم ___ تفاحة. (مكافأة))" uk="(Сьогодні ___ яблуко. (Бонус))" fr="(Aujourd'hui ___ une pomme. (Prime))"/>`,
+        options: ["he comido <trans en=\"(I have eaten)\" ar=\"(لقد أكلت)\" uk=\"(Я поїв)\" fr=\"(j'ai mangé)\"/>", "ha comido <trans en=\"(has eaten)\" ar=\"(قد أكل)\" uk=\"(з'їв)\" fr=\"(a mangé)\"/>", "hemos comido <trans en=\"(we have eaten)\" ar=\"(لقد أكلنا)\" uk=\"(ми поїли)\" fr=\"(nous avons mangé)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -12151,124 +12181,125 @@ Para hablar de planes inmediatos o decisiones tomadas para el futuro (ej. "maña
     exercises: [
       {
         id: "ex1",
-        question: "El fin de semana, yo _______ español.",
-        options: ["voy a estudio", "voy a estudiar", "voy estudiar"],
+        question: `El fin de semana, yo _______ español. <trans en="(On the weekend, I _______ Spanish.)" ar="(في عطلة نهاية الأسبوع، أنا _______ الإسبانية.)" uk="(На вихідних я _______ іспанською.)" fr="(Le week-end, je _______ espagnol.)"/>`,
+        options: ["voy a estudio <trans en=\"(I'm going to study)\" ar=\"(انا ذاهب للدراسة)\" uk=\"(Я збираюся вчитися)\" fr=\"(je vais étudier)\"/>", "voy a estudiar <trans en=\"(I'm going to study)\" ar=\"(انا ذاهب للدراسة)\" uk=\"(Я збираюся вчитися)\" fr=\"(je vais étudier)\"/>", "voy estudiar <trans en=\"(I'm going to study)\" ar=\"(انا ذاهب للدراسة)\" uk=\"(Я збираюся вчитися)\" fr=\"(je vais étudier)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "Mañana nosotros _____ ir al cine.",
-        options: ["vamos a", "vamos", "va a"],
+        question: `Mañana nosotros _____ ir al cine. <trans en="(Tomorrow we _____ go to the cinema.)" ar="(غدا _____ نذهب إلى السينما.)" uk="(Завтра ми _____ підемо в кінотеатр.)" fr="(Demain, nous _____ allons au cinéma.)"/>`,
+        options: ["vamos a <trans en=\"(let's)\" ar=\"(دعونا)\" uk=\"(давайте)\" fr=\"(allons)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "va a <trans en=\"(going to)\" ar=\"(الذهاب الى)\" uk=\"(збирається)\" fr=\"(je vais à)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "Mañana yo ___ a comprar pan.",
-        options: ["voy","vas","vamos"],
+        question: `Mañana yo ___ a comprar pan. <trans en="(Tomorrow I ___ to buy bread.)" ar="(غدا أنا ___ لشراء الخبز.)" uk="(Завтра я ___ купити хліб.)" fr="(Demain, je ___ pour acheter du pain.)"/>`,
+        options: ["voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>", "vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "El próximo año, ella ___ a viajar a Francia.",
-        options: ["va","voy","van"],
+        question: `El próximo año, ella ___ a viajar a Francia. <trans en="(Next year, she ___ to travel to France.)" ar="(العام المقبل، ___ ستسافر إلى فرنسا.)" uk="(Наступного року вона ___ поїде до Франції.)" fr="(L'année prochaine, elle ___ voyager en France.)"/>`,
+        options: ["va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>", "voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Este fin de semana, nosotros ___ a ver una película.",
-        options: ["vamos","van","vais"],
+        question: `Este fin de semana, nosotros ___ a ver una película. <trans en="(This weekend, we ___ to see a movie.)" ar="(في نهاية هذا الأسبوع، ___ لمشاهدة فيلم.)" uk="(Цими вихідними ми ___ хочемо подивитися фільм.)" fr="(Ce week-end, nous ___ pour voir un film.)"/>`,
+        options: ["vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>", "vais <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "¿Qué ___ a hacer tú esta tarde?",
-        options: ["vas","va","voy"],
+        question: `¿Qué ___ a hacer tú esta tarde? <trans en="(What ___ are you going to do this afternoon?)" ar="(ماذا ___ ستفعل بعد ظهر هذا اليوم؟)" uk="(Що ___ ти збираєшся робити сьогодні вдень?)" fr="(Qu'est-ce que ___ tu vas faire cet après-midi ?)"/>`,
+        options: ["vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>", "voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Mis amigos ___ a venir a mi fiesta.",
-        options: ["van","vamos","va"],
+        question: `Mis amigos ___ a venir a mi fiesta. <trans en="(My friends ___ to come to my party.)" ar="(أصدقائي ___ ليأتوا إلى حفلتي.)" uk="(Мої друзі ___ прийти на мою вечірку.)" fr="(Mes amis ___ pour venir à ma fête.)"/>`,
+        options: ["van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Vosotros ___ a aprender español muy rápido.",
-        options: ["vais","van","vamos"],
+        question: `Vosotros ___ a aprender español muy rápido. <trans en="(You ___ to learn Spanish very quickly.)" ar="(أنت ___ تتعلم اللغة الإسبانية بسرعة كبيرة.)" uk="(Ви ___ вивчити іспанську дуже швидко.)" fr="(Vous ___ apprendre l'espagnol très rapidement.)"/>`,
+        options: ["vais <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "El cielo está negro, ___ a llover.",
-        options: ["va","voy","van"],
+        question: `El cielo está negro, ___ a llover. <trans en="(The sky is black, ___ it's going to rain.)" ar="(السماء سوداء، ___ ستمطر.)" uk="(Небо чорне, ___ буде дощ.)" fr="(Le ciel est noir, ___ il va pleuvoir.)"/>`,
+        options: ["va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>", "voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Yo no ___ a comer más, estoy lleno.",
-        options: ["voy","vas","va"],
+        question: `Yo no ___ a comer más, estoy lleno. <trans en="(I don't ___ to eat more, I'm full.)" ar="(لا أريد ___ أن آكل أكثر، فأنا ممتلئ.)" uk="(Я не ___ їсти більше, я ситий.)" fr="(Je ne ___ pas manger plus, je suis rassasié.)"/>`,
+        options: ["voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>", "vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "La estructura del futuro próximo es...",
-        options: ["Ir + a + infinitivo","Ir + infinitivo","Estar + infinitivo"],
+        question: `La estructura del futuro próximo es... <trans en="(The structure of the near future is...)" ar="(هيكل المستقبل القريب هو ...)" uk="(Структура найближчого майбутнього - це...)" fr="(La structure du futur proche est...)"/>`,
+        options: ["Ir + a + infinitivo <trans en=\"(Go + to + infinitive)\" ar=\"(اذهب + إلى + صيغة المصدر)\" uk=\"(Go + to + інфінітив)\" fr=\"(Aller + à + infinitif)\"/>", "Ir + infinitivo <trans en=\"(Go + infinitive)\" ar=\"(اذهب + صيغة المصدر)\" uk=\"(Іти + інфінітив)\" fr=\"(Aller + infinitif)\"/>", "Estar + infinitivo <trans en=\"(Estar + infinitive)\" ar=\"(استار + صيغة المصدر)\" uk=\"(Естар + інфінітив)\" fr=\"(Estar + infinitif)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿Dónde ___ a dormir ellos hoy?",
-        options: ["van","vamos","vais"],
+        question: `¿Dónde ___ a dormir ellos hoy? <trans en="(Where ___ them to sleep today?)" ar="(أين ___ لهم أن يناموا اليوم؟)" uk="(Де ___ їм спати сьогодні?)" fr="(Où ___ les dorment-ils aujourd'hui ?)"/>`,
+        options: ["van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "vais <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Nosotros ___ a cocinar una tortilla.",
-        options: ["vamos","vais","van"],
+        question: `Nosotros ___ a cocinar una tortilla. <trans en="(We ___ to cook an omelet.)" ar="(نحن ___ لطهي العجة.)" uk="(Ми ___ приготувати омлет.)" fr="(Nous ___ pour cuisiner une omelette.)"/>`,
+        options: ["vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "vais <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Tú y yo ___ a salir esta noche.",
-        options: ["vamos","vais","van"],
+        question: `Tú y yo ___ a salir esta noche. <trans en="(You and I ___ going out tonight.)" ar="(أنا وأنت ___ سنخرج الليلة.)" uk="(Ми з тобою ___ йдемо сьогодні ввечері.)" fr="(Toi et moi ___ sortons ce soir.)"/>`,
+        options: ["vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "vais <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Usted ___ a entender esto pronto.",
-        options: ["va","vas","voy"],
+        question: `Usted ___ a entender esto pronto. <trans en="(You ___ to understand this soon.)" ar="(أنت ___ ستفهم هذا قريبًا.)" uk="(Ви ___ зрозумієте це найближчим часом.)" fr="(Vous ___ comprendrez cela bientôt.)"/>`,
+        options: ["va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>", "vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Ellas ___ a llegar tarde.",
-        options: ["van","vamos","va"],
+        question: `Ellas ___ a llegar tarde. <trans en="(They ___ to be late.)" ar="(إنهم ___ يتأخرون.)" uk="(Вони ___ спізнюватися.)" fr="(Ils ___ être en retard.)"/>`,
+        options: ["van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>", "va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Yo ___ a estudiar más.",
-        options: ["voy","vas","vamos"],
+        question: `Yo ___ a estudiar más. <trans en="(I ___ to study more.)" ar="(أنا ___ لدراسة المزيد.)" uk="(Я ___ вчитися більше.)" fr="(Je ___ pour étudier davantage.)"/>`,
+        options: ["voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>", "vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "¿A qué hora ___ a terminar tú?",
-        options: ["vas","va","voy"],
+        question: `¿A qué hora ___ a terminar tú? <trans en="(What time ___ will you finish?)" ar="(في أي وقت ___ ستنتهي؟)" uk="(О котрій годині ___ ти закінчиш?)" fr="(À quelle heure ___ vas-tu finir ?)"/>`,
+        options: ["vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>", "voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "El tren ___ a salir en 5 minutos.",
-        options: ["va","van","voy"],
+        question: `El tren ___ a salir en 5 minutos. <trans en="(The train ___ to leave in 5 minutes.)" ar="(القطار ___ سيغادر خلال 5 دقائق.)" uk="(Поїзд ___ відправляється через 5 хвилин.)" fr="(Le train ___ part dans 5 minutes.)"/>`,
+        options: ["va <trans en=\"(goes)\" ar=\"(يذهب)\" uk=\"(йде)\" fr=\"(va)\"/>", "van <trans en=\"(go)\" ar=\"(اذهب)\" uk=\"(йти)\" fr=\"(allez)\"/>", "voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Mañana yo ___ a comprar pan. (Extra)",
-        options: ["voy","vas","vamos"],
+        question: `Mañana yo ___ a comprar pan. (Extra) <trans en="(Tomorrow I ___ to buy bread. (Bonus))" ar="(غدا أنا ___ لشراء الخبز. (مكافأة))" uk="(Завтра я ___ купити хліб. (Бонус))" fr="(Demain, je ___ pour acheter du pain. (Prime))"/>`,
+        options: ["voy <trans en=\"(I go)\" ar=\"(أذهب)\" uk=\"(Я йду)\" fr=\"(je pars)\"/>", "vas <trans en=\"(you go)\" ar=\"(تذهب)\" uk=\"(ти йдеш)\" fr=\"(tu pars)\"/>", "vamos <trans en=\"(let's go)\" ar=\"(لنذهب)\" uk=\"(ходімо)\" fr=\"(allons-y)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -12301,124 +12332,125 @@ No decimos "más malo". Decimos **peor**.
     exercises: [
       {
         id: "ex1",
-        question: "Un avión es ______ rápido que un coche.",
-        options: ["más", "mucho", "menos"],
+        question: `Un avión es ______ rápido que un coche. <trans en="(A plane is ______ faster than a car.)" ar="(الطائرة ______ أسرع من السيارة.)" uk="(Літак на ______ швидший за автомобіль.)" fr="(Un avion est ______ plus rapide qu'une voiture.)"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "mucho <trans en=\"(a lot)\" ar=\"(كثيرا)\" uk=\"(багато)\" fr=\"(beaucoup)\"/>", "menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex2",
-        question: "Mi inglés es ______ que mi español. (Es 'más bueno')",
-        options: ["más bueno", "mejor", "peor"],
+        question: `Mi inglés es ______ que mi español. (Es 'más bueno') <trans en="(My English is ______ than my Spanish. (It's 'more good'))" ar="(لغتي الإنجليزية ______ أكثر من لغتي الإسبانية. (إنها "أكثر جيدة"))" uk="(Моя англійська ______ ніж моя іспанська. (Це "більш добре"))" fr="(Mon anglais est ______ supérieur à mon espagnol. (C'est 'plus bien'))"/>`,
+        options: ["más bueno <trans en=\"(more good)\" ar=\"(المزيد من الخير)\" uk=\"(більше добра)\" fr=\"(plus de bien)\"/>", "mejor <trans en=\"(better)\" ar=\"(أفضل)\" uk=\"(краще)\" fr=\"(mieux)\"/>", "peor <trans en=\"(worse)\" ar=\"(أسوأ)\" uk=\"(гірше)\" fr=\"(pire)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex3",
-        question: "Juan es ___ alto que Pedro.",
-        options: ["más","muy","tan"],
+        question: `Juan es ___ alto que Pedro. <trans en="(Juan is ___ taller than Pedro.)" ar="(خوان ___ أطول من بيدرو.)" uk="(Хуан на ___ вищий за Педро.)" fr="(Juan est ___ plus grand que Pedro.)"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "muy <trans en=\"(very)\" ar=\"(جدا)\" uk=\"(дуже)\" fr=\"(très)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "Esta casa es ___ grande como la otra.",
-        options: ["tan","más","menos"],
+        question: `Esta casa es ___ grande como la otra. <trans en="(This house is ___ big like the other one.)" ar="(هذا المنزل ___ كبير مثل المنزل الآخر.)" uk="(Цей будинок ___ великий, як інший.)" fr="(Cette maison est ___ grande comme l'autre.)"/>`,
+        options: ["tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Yo tengo ___ libros como tú.",
-        options: ["tantos","tan","más"],
+        question: `Yo tengo ___ libros como tú. <trans en="(I have ___ books like you.)" ar="(لدي ___ كتب مثلك.)" uk="(У мене ___ таких книг, як ти.)" fr="(J'ai ___ livres comme toi.)"/>`,
+        options: ["tantos <trans en=\"(so many)\" ar=\"(الكثير)\" uk=\"(так багато)\" fr=\"(tellement)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "Ella tiene ___ años que yo.",
-        options: ["menos","tan","igual"],
+        question: `Ella tiene ___ años que yo. <trans en="(She is ___ years older than me.)" ar="(هي ___ أكبر مني بسنوات.)" uk="(Вона на ___ років старша за мене.)" fr="(Elle a ___ ans de plus que moi.)"/>`,
+        options: ["menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "igual <trans en=\"(same)\" ar=\"(نفسه)\" uk=\"(те саме)\" fr=\"(pareil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "El león es ___ rápido que la tortuga.",
-        options: ["más","menos","tan"],
+        question: `El león es ___ rápido que la tortuga. <trans en="(The lion is ___ faster than the tortoise.)" ar="(الأسد ___ أسرع من السلحفاة.)" uk="(Лев на ___ швидший за черепаху.)" fr="(Le lion est ___ plus rapide que la tortue.)"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Mi coche es ___ bueno como el tuyo.",
-        options: ["tan","igual","más"],
+        question: `Mi coche es ___ bueno como el tuyo. <trans en="(My car is ___ good like yours.)" ar="(سيارتي ___ جيدة مثل سيارتك.)" uk="(Моя машина ___ хороша, як ваша.)" fr="(Ma voiture est ___ bonne comme la vôtre.)"/>`,
+        options: ["tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "igual <trans en=\"(same)\" ar=\"(نفسه)\" uk=\"(те саме)\" fr=\"(pareil)\"/>", "más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "Madrid es ___ grande que Toledo.",
-        options: ["más","menos","tan"],
+        question: `Madrid es ___ grande que Toledo. <trans en="(Madrid is ___ bigger than Toledo.)" ar="(مدريد ___ أكبر من توليدو.)" uk="(Мадрид на ___ більший за Толедо.)" fr="(Madrid est ___ plus grande que Tolède.)"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Este examen es ___ fácil que el anterior.",
-        options: ["menos","tan","igual"],
+        question: `Este examen es ___ fácil que el anterior. <trans en="(This exam is ___ easier than the previous one.)" ar="(هذا الامتحان ___ أسهل من الاختبار السابق.)" uk="(Цей іспит ___ легший за попередній.)" fr="(Cet examen est ___ plus facile que le précédent.)"/>`,
+        options: ["menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "igual <trans en=\"(same)\" ar=\"(نفسه)\" uk=\"(те саме)\" fr=\"(pareil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "Yo como ___ como tú.",
-        options: ["tanto","tan","más"],
+        question: `Yo como ___ como tú. <trans en="(I eat ___ like you.)" ar="(أنا آكل ___ مثلك.)" uk="(Я їм ___ як ти.)" fr="(Je mange ___ comme toi.)"/>`,
+        options: ["tanto <trans en=\"(so much)\" ar=\"(كثيرا)\" uk=\"(так багато)\" fr=\"(tellement)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "El invierno es ___ frío que el verano.",
-        options: ["más","menos","tan"],
+        question: `El invierno es ___ frío que el verano. <trans en="(Winter is ___ colder than summer.)" ar="(الشتاء ___ أبرد من الصيف.)" uk="(Зима на ___ холодніша за літо.)" fr="(L'hiver est ___ plus froid que l'été.)"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "El oro es ___ caro que la plata.",
-        options: ["más","tan","igual"],
+        question: `El oro es ___ caro que la plata. <trans en="(Gold is ___ expensive than silver.)" ar="(الذهب ___ أغلى من الفضة.)" uk="(Золото на ___ дорожче срібла.)" fr="(L'or est ___ plus cher que l'argent.)"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "igual <trans en=\"(same)\" ar=\"(نفسه)\" uk=\"(те саме)\" fr=\"(pareil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Nosotros trabajamos ___ que ellos (menos cantidad).",
-        options: ["menos","tan","igual"],
+        question: `Nosotros trabajamos ___ que ellos (menos cantidad). <trans en="(We work ___ than them (less amount).)" ar="(نعمل ___ منهم (كمية أقل).)" uk="(Ми працюємо ___ ніж вони (менше).)" fr="(Nous travaillons ___ qu'eux (moins de montant).)"/>`,
+        options: ["menos <trans en=\"(less)\" ar=\"(أقل)\" uk=\"(менше)\" fr=\"(moins)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>", "igual <trans en=\"(same)\" ar=\"(نفسه)\" uk=\"(те саме)\" fr=\"(pareil)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Para igualdad con adjetivos usamos...",
-        options: ["tan ... como","más ... que","tanto ... que"],
+        question: `Para igualdad con adjetivos usamos... <trans en="(For equality with adjectives we use...)" ar="(للمساواة مع الصفات نستخدم ...)" uk="(Для рівності з прикметниками вживаємо...)" fr="(Pour l'égalité avec les adjectifs, nous utilisons...)"/>`,
+        options: ["tan ... como <trans en=\"(so... like)\" ar=\"(هكذا... مثل)\" uk=\"(так... як)\" fr=\"(alors... comme)\"/>", "más ... que <trans en=\"(more...than)\" ar=\"(أكثر...من)\" uk=\"(більше... ніж)\" fr=\"(plus... que)\"/>", "tanto ... que <trans en=\"(so much... that)\" ar=\"(كثيرا...ذلك)\" uk=\"(стільки... того)\" fr=\"(tellement... que)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "Para igualdad con sustantivos (nombres) usamos...",
-        options: ["tanto/a/os/as ... como","tan ... como","más ... como"],
+        question: `Para igualdad con sustantivos (nombres) usamos... <trans en="(For equality with nouns (nouns) we use...)" ar="(للمساواة مع الأسماء (الأسماء) نستخدم...)" uk="(Для рівноправності з іменниками (іменниками) вживаємо...)" fr="(Pour l'égalité avec les noms (noms), nous utilisons...)"/>`,
+        options: ["tanto/a/os/as ... como <trans en=\"(both ... and)\" ar=\"(كلاهما ... و)\" uk=\"(і ... і)\" fr=\"(les deux... et)\"/>", "tan ... como <trans en=\"(so... like)\" ar=\"(هكذا... مثل)\" uk=\"(так... як)\" fr=\"(alors... comme)\"/>", "más ... como <trans en=\"(more... like)\" ar=\"(المزيد... مثل)\" uk=\"(більше... подобається)\" fr=\"(plus... comme)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "Tengo ___ amigas como tú.",
-        options: ["tantas","tantos","tan"],
+        question: `Tengo ___ amigas como tú. <trans en="(I have ___ friends like you.)" ar="(لدي ___ أصدقاء مثلك.)" uk="(У мене ___ таких друзів, як ти.)" fr="(J'ai ___ amis comme toi.)"/>`,
+        options: ["tantas <trans en=\"(so many)\" ar=\"(الكثير)\" uk=\"(так багато)\" fr=\"(tellement)\"/>", "tantos <trans en=\"(so many)\" ar=\"(الكثير)\" uk=\"(так багато)\" fr=\"(tellement)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Mejor es el comparativo de...",
-        options: ["Bueno","Malo","Grande"],
+        question: `Mejor es el comparativo de... <trans en="(Better is the comparison of...)" ar="(المقارنة أفضل ...)" uk="(Краще порівняння...)" fr="(Mieux vaut la comparaison de...)"/>`,
+        options: ["Bueno <trans en=\"(Good)\" ar=\"(جيد)\" uk=\"(Добре)\" fr=\"(Bien)\"/>", "Malo <trans en=\"(Bad)\" ar=\"(سيئة)\" uk=\"(Погано)\" fr=\"(Mauvais)\"/>", "Grande <trans en=\"(Large)\" ar=\"(كبيرة)\" uk=\"(Великий)\" fr=\"(Grand)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "Peor es el comparativo de...",
-        options: ["Malo","Bueno","Pequeño"],
+        question: `Peor es el comparativo de... <trans en="(The comparison of...)" ar="(المقارنة بين...)" uk="(Порівняння...)" fr="(La comparaison de...)"/>`,
+        options: ["Malo <trans en=\"(Bad)\" ar=\"(سيئة)\" uk=\"(Погано)\" fr=\"(Mauvais)\"/>", "Bueno <trans en=\"(Good)\" ar=\"(جيد)\" uk=\"(Добре)\" fr=\"(Bien)\"/>", "Pequeño <trans en=\"(Small)\" ar=\"(صغير)\" uk=\"(Маленький)\" fr=\"(Petit)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "Juan es ___ alto que Pedro. (Extra)",
-        options: ["más","muy","tan"],
+        question: `Juan es ___ alto que Pedro. (Extra) <trans en="(Juan is ___ taller than Pedro. (Bonus))" ar="(خوان ___ أطول من بيدرو. (مكافأة))" uk="(Хуан на ___ вищий за Педро. (Бонус))" fr="(Juan est ___ plus grand que Pedro. (Prime))"/>`,
+        options: ["más <trans en=\"(more)\" ar=\"(المزيد)\" uk=\"(більше)\" fr=\"(plus)\"/>", "muy <trans en=\"(very)\" ar=\"(جدا)\" uk=\"(дуже)\" fr=\"(très)\"/>", "tan <trans en=\"(so)\" ar=\"(هكذا)\" uk=\"(так)\" fr=\"(donc)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {
@@ -12777,124 +12809,125 @@ Tú: **La cuenta, por favor.** (Para poder pagar).
     exercises: [
       {
         id: "ex1",
-        question: "Cuando terminas de comer y quieres pagar, dices...",
-        options: ["La carta, por favor.", "La cuenta, por favor.", "El menú, por favor."],
+        question: `Cuando terminas de comer y quieres pagar, dices... <trans en="(When you finish eating and want to pay, you say...)" ar="(ولما تخلص الأكل وتريد الدفع تقول...)" uk="(Коли ви закінчуєте їсти і хочете заплатити, ви говорите...)" fr="(Quand tu as fini de manger et que tu veux payer, tu dis...)"/>`,
+        options: ["La carta, por favor. <trans en=\"(The letter, please.)\" ar=\"(الرسالة من فضلك.)\" uk=\"(Лист, будь ласка.)\" fr=\"(La lettre, s'il vous plaît.)\"/>", "La cuenta, por favor. <trans en=\"(The bill, please.)\" ar=\"(الفاتورة من فضلك.)\" uk=\"(Рахунок, будь ласка.)\" fr=\"(La facture, s'il vous plaît.)\"/>", "El menú, por favor. <trans en=\"(Menu, please.)\" ar=\"(قائمة الطعام من فضلك.)\" uk=\"(Меню, будь ласка.)\" fr=\"(Le menu, s'il vous plaît.)\"/>"],
         correctAnswer: 1
       },
       {
         id: "ex2",
-        question: "El camarero te pregunta \"¿Qué van a _______?\" y respondes que quieres agua.",
-        options: ["beber", "comer", "cuenta"],
+        question: `El camarero te pregunta "¿Qué van a _______?" y respondes que quieres agua. <trans en="(The waiter asks you "What are you going to _______?" and you answer that you want water.)" ar="(يسألك النادل "ماذا ستفعل _______؟" وأجبت أنك تريد الماء.)" uk="(Офіціант запитує вас "Що ви йдете _______?" а ти відповідаєш, що хочеш води.)" fr="(Le serveur vous demande « Qu'est-ce que tu vas _______ ? » et tu réponds que tu veux de l'eau.)"/>`,
+        options: ["beber <trans en=\"(drink)\" ar=\"(شرب)\" uk=\"(пити)\" fr=\"(boire)\"/>", "comer <trans en=\"(eat)\" ar=\"(أكل)\" uk=\"(їсти)\" fr=\"(manger)\"/>", "cuenta <trans en=\"(account)\" ar=\"(حساب)\" uk=\"(рахунок)\" fr=\"(compte)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex3",
-        question: "El papel donde está la lista de platos y precios es...",
-        options: ["El menú / La carta","La factura","El recibo"],
+        question: `El papel donde está la lista de platos y precios es... <trans en="(The paper where the list of dishes and prices is...)" ar="(الورقة التي توجد بها قائمة الأطباق والأسعار...)" uk="(Папір, де перелік страв і ціни...)" fr="(Le journal où se trouve la liste des plats et les prix...)"/>`,
+        options: ["El menú / La carta <trans en=\"(The menu / The letter)\" ar=\"(القائمة / الرسالة)\" uk=\"(Меню / Лист)\" fr=\"(Le menu / La lettre)\"/>", "La factura <trans en=\"(The invoice)\" ar=\"(الفاتورة)\" uk=\"(Рахунок-фактура)\" fr=\"(La facture)\"/>", "El recibo <trans en=\"(The receipt)\" ar=\"(الإيصال)\" uk=\"(Квитанція)\" fr=\"(Le reçu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex4",
-        question: "La persona que te trae la comida es...",
-        options: ["El camarero","El cocinero","El recepcionista"],
+        question: `La persona que te trae la comida es... <trans en="(The person who brings you food is...)" ar="(الشخص الذي يحضر لك الطعام هو...)" uk="(Людина, яка приносить вам їжу, це...)" fr="(La personne qui vous apporte à manger est...)"/>`,
+        options: ["El camarero <trans en=\"(The waiter)\" ar=\"(النادل)\" uk=\"(Офіціант)\" fr=\"(Le serveur)\"/>", "El cocinero <trans en=\"(The cook)\" ar=\"(الطباخ)\" uk=\"(Кухар)\" fr=\"(Le cuisinier)\"/>", "El recepcionista <trans en=\"(The receptionist)\" ar=\"(موظف الاستقبال)\" uk=\"(Портьє)\" fr=\"(La réceptionniste)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex5",
-        question: "Para pagar, pides...",
-        options: ["La cuenta","La carta","El menú"],
+        question: `Para pagar, pides... <trans en="(To pay, you ask...)" ar="(للدفع، تسأل...)" uk="(Щоб заплатити, ви просите...)" fr="(Pour payer, vous demandez...)"/>`,
+        options: ["La cuenta <trans en=\"(The account)\" ar=\"(الحساب)\" uk=\"(Рахунок)\" fr=\"(Le compte)\"/>", "La carta <trans en=\"(The letter)\" ar=\"(الرسالة)\" uk=\"(Лист)\" fr=\"(La lettre)\"/>", "El menú <trans en=\"(The menu)\" ar=\"(القائمة)\" uk=\"(Меню)\" fr=\"(Le menu)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex6",
-        question: "El primer plato que comes se llama...",
-        options: ["Primer plato o entrante","Postre","Bebida"],
+        question: `El primer plato que comes se llama... <trans en="(The first dish you eat is called...)" ar="(أول طبق تأكله يسمى...)" uk="(Перша страва, яку ви їсте, називається...)" fr="(Le premier plat que vous mangez s'appelle...)"/>`,
+        options: ["Primer plato o entrante <trans en=\"(First course or starter)\" ar=\"(الدورة الأولى أو المبتدئين)\" uk=\"(Перша страва або закуска)\" fr=\"(Entrée ou entrée)\"/>", "Postre <trans en=\"(Dessert)\" ar=\"(حلوى)\" uk=\"(Десерт)\" fr=\"(Desserts)\"/>", "Bebida <trans en=\"(Drink)\" ar=\"(اشرب)\" uk=\"(Пити)\" fr=\"(Boire)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex7",
-        question: "Lo dulce que comes al final de la comida es...",
-        options: ["El postre","El entrante","La guarnición"],
+        question: `Lo dulce que comes al final de la comida es... <trans en="(The sweet thing you eat at the end of the meal is...)" ar="(الشيء الحلو الذي تأكله في آخر الوجبة هو...)" uk="(Солодке, що ви їсте в кінці їжі, це...)" fr="(La chose sucrée que vous mangez à la fin du repas est...)"/>`,
+        options: ["El postre <trans en=\"(The dessert)\" ar=\"(الحلوى)\" uk=\"(Десерт)\" fr=\"(Le dessert)\"/>", "El entrante <trans en=\"(The starter)\" ar=\"(المبتدأ)\" uk=\"(Стартер)\" fr=\"(Le démarreur)\"/>", "La guarnición <trans en=\"(The garrison)\" ar=\"(الحامية)\" uk=\"(Гарнізон)\" fr=\"(La garnison)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex8",
-        question: "Para reservar una mesa dices...",
-        options: ["Quería reservar una mesa, por favor","Quiero pagar la cuenta","¿Dónde está el baño?"],
+        question: `Para reservar una mesa dices... <trans en="(To reserve a table you say...)" ar="(لحجز طاولة تقول...)" uk="(Щоб забронювати столик, ви говорите...)" fr="(Pour réserver une table vous dites...)"/>`,
+        options: ["Quería reservar una mesa, por favor <trans en=\"(I would like to reserve a table, please)\" ar=\"(أريد حجز طاولة من فضلك)\" uk=\"(Я хочу забронювати столик, будь ласка)\" fr=\"(Je souhaite réserver une table, s'il vous plaît)\"/>", "Quiero pagar la cuenta <trans en=\"(I want to pay the bill)\" ar=\"(أريد أن أدفع الفاتورة)\" uk=\"(Я хочу оплатити рахунок)\" fr=\"(Je veux payer la facture)\"/>", "¿Dónde está el baño? <trans en=\"(Where is the bathroom?)\" ar=\"(أين الحمام؟)\" uk=\"(Де ванна кімната?)\" fr=\"(Où est la salle de bain ?)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex9",
-        question: "¿Qué le dices al camarero para pedir?",
-        options: ["Para mí, la ensalada por favor","Tráeme la cuenta","Adiós"],
+        question: `¿Qué le dices al camarero para pedir? <trans en="(What do you say to the waiter to order?)" ar="(ماذا تقول للنادل ليطلب؟)" uk="(Що ви скажете офіціанту замовити?)" fr="(Que dites-vous au serveur pour commander ?)"/>`,
+        options: ["Para mí, la ensalada por favor <trans en=\"(For me, the salad please)\" ar=\"(بالنسبة لي، السلطة من فضلك)\" uk=\"(Для мене, будь ласка, салат)\" fr=\"(Pour moi, la salade s'il vous plaît)\"/>", "Tráeme la cuenta <trans en=\"(Bring me the bill)\" ar=\"(أحضر لي الفاتورة)\" uk=\"(Принесіть мені рахунок)\" fr=\"(Apportez-moi la facture)\"/>", "Adiós <trans en=\"(Goodbye)\" ar=\"(وداعا)\" uk=\"(До побачення)\" fr=\"(Au revoir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex10",
-        question: "Si la comida no tiene sal, le falta...",
-        options: ["Sabor / Sal","Azúcar","Agua"],
+        question: `Si la comida no tiene sal, le falta... <trans en="(If the food does not have salt, it lacks...)" ar="(إذا لم يكن الطعام به ملح فإنه يفتقر إلى...)" uk="(Якщо в їжі немає солі, їй бракує...)" fr="(Si la nourriture n'a pas de sel, il lui manque...)"/>`,
+        options: ["Sabor / Sal <trans en=\"(Flavor/Salt)\" ar=\"(نكهة/ملح)\" uk=\"(Смак/Сіль)\" fr=\"(Saveur/Sel)\"/>", "Azúcar <trans en=\"(Sugar)\" ar=\"(سكر)\" uk=\"(Цукор)\" fr=\"(Sucre)\"/>", "Agua <trans en=\"(Water)\" ar=\"(ماء)\" uk=\"(Вода)\" fr=\"(Eau)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex11",
-        question: "El dinero extra que dejas si el servicio es bueno es...",
-        options: ["La propina","El impuesto","El billete"],
+        question: `El dinero extra que dejas si el servicio es bueno es... <trans en="(The extra money you leave if the service is good is...)" ar="(الأموال الإضافية التي تتركها إذا كانت الخدمة جيدة هي ...)" uk="(Додаткові гроші, які ви залишаєте, якщо послуга хороша, це...)" fr="(L'argent supplémentaire que vous laissez si le service est bon est...)"/>`,
+        options: ["La propina <trans en=\"(The tip)\" ar=\"(النصيحة)\" uk=\"(Підказка)\" fr=\"(Le conseil)\"/>", "El impuesto <trans en=\"(The tax)\" ar=\"(الضريبة)\" uk=\"(Податок)\" fr=\"(La taxe)\"/>", "El billete <trans en=\"(The ticket)\" ar=\"(التذكرة)\" uk=\"(Квиток)\" fr=\"(Le billet)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex12",
-        question: "¿Qué usas para limpiarte la boca en la mesa?",
-        options: ["La servilleta","El mantel","El vaso"],
+        question: `¿Qué usas para limpiarte la boca en la mesa? <trans en="(What do you use to clean your mouth at the table?)" ar="(ماذا تستخدم لتنظيف فمك على الطاولة؟)" uk="(Чим ви чистите рот за столом?)" fr="(Qu'utilisez-vous pour vous nettoyer la bouche à table ?)"/>`,
+        options: ["La servilleta <trans en=\"(The napkin)\" ar=\"(المنديل)\" uk=\"(Серветка)\" fr=\"(La serviette)\"/>", "El mantel <trans en=\"(The tablecloth)\" ar=\"(مفرش المائدة)\" uk=\"(Скатертина)\" fr=\"(La nappe)\"/>", "El vaso <trans en=\"(The glass)\" ar=\"(الزجاج)\" uk=\"(Скло)\" fr=\"(Le verre)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex13",
-        question: "Si la carne está muy hecha, está...",
-        options: ["Muy cocinada","Poco cocinada","Cruda"],
+        question: `Si la carne está muy hecha, está... <trans en="(If the meat is well done, it is...)" ar="(إذا نضج اللحم جيداً فهو...)" uk="(Якщо м'ясо добре просмажене, воно...)" fr="(Si la viande est bien cuite, elle l'est...)"/>`,
+        options: ["Muy cocinada <trans en=\"(Very cooked)\" ar=\"(مطبوخة جدًا)\" uk=\"(Дуже приготований)\" fr=\"(Très cuit)\"/>", "Poco cocinada <trans en=\"(Undercooked)\" ar=\"(غير مطبوخ جيدًا)\" uk=\"(Недоварені)\" fr=\"(Pas assez cuit)\"/>", "Cruda <trans en=\"(Raw)\" ar=\"(خام)\" uk=\"(Сирий)\" fr=\"(Brut)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex14",
-        question: "Una bebida con gas muy común es...",
-        options: ["El refresco / Agua con gas","El vino tinto","El café"],
+        question: `Una bebida con gas muy común es... <trans en="(A very common carbonated drink is...)" ar="(مشروب غازي شائع جدًا...)" uk="(Дуже поширеним газованим напоєм є...)" fr="(Une boisson gazeuse très courante est...)"/>`,
+        options: ["El refresco / Agua con gas <trans en=\"(Soft drink / Sparkling water)\" ar=\"(مشروب غازي / مياه غازية)\" uk=\"(Безалкогольний напій / Газована вода)\" fr=\"(Boisson gazeuse / Eau gazeuse)\"/>", "El vino tinto <trans en=\"(Red wine)\" ar=\"(النبيذ الاحمر)\" uk=\"(Червоне вино)\" fr=\"(Vin rouge)\"/>", "El café <trans en=\"(The coffee)\" ar=\"(القهوة)\" uk=\"(Кава)\" fr=\"(Le café)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex15",
-        question: "Si eres vegetariano, no comes...",
-        options: ["Carne ni pescado","Verduras","Frutas"],
+        question: `Si eres vegetariano, no comes... <trans en="(If you are vegetarian, you don't eat...)" ar="(إذا كنت نباتيًا، فلا تأكل...)" uk="(Якщо ви вегетаріанець, ви не їсте...)" fr="(Si vous êtes végétarien, vous ne mangez pas...)"/>`,
+        options: ["Carne ni pescado <trans en=\"(Meat or fish)\" ar=\"(اللحوم أو الأسماك)\" uk=\"(М'ясо або риба)\" fr=\"(Viande ou poisson)\"/>", "Verduras <trans en=\"(Vegetables)\" ar=\"(خضار)\" uk=\"(Овочі)\" fr=\"(Légumes)\"/>", "Frutas <trans en=\"(Fruits)\" ar=\"(فواكه)\" uk=\"(Фрукти)\" fr=\"(Fruits)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex16",
-        question: "El cuchillo, tenedor y cuchara son los...",
-        options: ["Cubiertos","Platos","Vasos"],
+        question: `El cuchillo, tenedor y cuchara son los... <trans en="(The knife, fork and spoon are the...)" ar="(السكين والشوكة والملعقة هي...)" uk="(Ніж, виделка і ложка - це...)" fr="(Le couteau, la fourchette et la cuillère sont les...)"/>`,
+        options: ["Cubiertos <trans en=\"(Cutlery)\" ar=\"(أدوات المائدة)\" uk=\"(Столові прибори)\" fr=\"(Couverts)\"/>", "Platos <trans en=\"(Dishes)\" ar=\"(أطباق)\" uk=\"(Посуд)\" fr=\"(Plats)\"/>", "Vasos <trans en=\"(Glasses)\" ar=\"(نظارات)\" uk=\"(Окуляри)\" fr=\"(Lunettes)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex17",
-        question: "¿Qué pides para beber por la mañana normalmente?",
-        options: ["Un café o té","Una cerveza","Una copa de vino"],
+        question: `¿Qué pides para beber por la mañana normalmente? <trans en="(What do you usually order to drink in the morning?)" ar="(ماذا تطلب عادة أن تشرب في الصباح؟)" uk="(Що ви зазвичай замовляєте випити вранці?)" fr="(Que commandez-vous habituellement à boire le matin ?)"/>`,
+        options: ["Un café o té <trans en=\"(A coffee or tea)\" ar=\"(قهوة أو شاي)\" uk=\"(Кава чи чай)\" fr=\"(Un café ou un thé)\"/>", "Una cerveza <trans en=\"(A beer)\" ar=\"(بيرة)\" uk=\"(Пиво)\" fr=\"(Une bière)\"/>", "Una copa de vino <trans en=\"(A glass of wine)\" ar=\"(كأس من النبيذ)\" uk=\"(Келих вина)\" fr=\"(Un verre de vin)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex18",
-        question: "Si no quieres comer en el restaurante, pides comida para...",
-        options: ["Llevar","Tirar","Dormir"],
+        question: `Si no quieres comer en el restaurante, pides comida para... <trans en="(If you don't want to eat at the restaurant, you order food for...)" ar="(إذا كنت لا ترغب في تناول الطعام في المطعم، فاطلب الطعام لـ...)" uk="(Якщо ви не хочете їсти в ресторані, ви замовляєте їжу для...)" fr="(Si vous ne voulez pas manger au restaurant, vous commandez à manger pour...)"/>`,
+        options: ["Llevar <trans en=\"(Carry)\" ar=\"(حمل)\" uk=\"(Нести)\" fr=\"(Porter)\"/>", "Tirar <trans en=\"(Throw)\" ar=\"(رمي)\" uk=\"(Кинути)\" fr=\"(Lancer)\"/>", "Dormir <trans en=\"(Sleep)\" ar=\"(النوم)\" uk=\"(Спати)\" fr=\"(Dormir)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex19",
-        question: "¿Qué significa 'Menú del día'?",
-        options: ["Un menú cerrado más económico","El plato más caro","Comida para niños"],
+        question: `¿Qué significa 'Menú del día'? <trans en="(What does 'Menu of the day' mean?)" ar="(ماذا تعني "قائمة اليوم"؟)" uk="(Що означає «Меню дня»?)" fr="(Que signifie « Menu du jour » ?)"/>`,
+        options: ["Un menú cerrado más económico <trans en=\"(A more economical closed menu)\" ar=\"(قائمة مغلقة أكثر اقتصادا)\" uk=\"(Більш економне закрите меню)\" fr=\"(Un menu fermé plus économique)\"/>", "El plato más caro <trans en=\"(The most expensive dish)\" ar=\"(أغلى طبق)\" uk=\"(Найдорожча страва)\" fr=\"(Le plat le plus cher)\"/>", "Comida para niños <trans en=\"(Food for children)\" ar=\"(أغذية للأطفال)\" uk=\"(Харчування для дітей)\" fr=\"(Nourriture pour enfants)\"/>"],
         correctAnswer: 0
       },
       {
         id: "ex20",
-        question: "El papel donde está la lista de platos y precios es... (Extra)",
-        options: ["El menú / La carta","La factura","El recibo"],
+        question: `El papel donde está la lista de platos y precios es... (Extra) <trans en="(The paper where the list of dishes and prices is... (Extra))" ar="(الورقة التي توجد بها قائمة الأطباق والأسعار... (إضافي))" uk="(Папір, де перелік страв і ціни... (Додатково))" fr="(Le journal où se trouve la liste des plats et les prix... (En Supplément))"/>`,
+        options: ["El menú / La carta <trans en=\"(The menu / The letter)\" ar=\"(القائمة / الرسالة)\" uk=\"(Меню / Лист)\" fr=\"(Le menu / La lettre)\"/>", "La factura <trans en=\"(The invoice)\" ar=\"(الفاتورة)\" uk=\"(Рахунок-фактура)\" fr=\"(La facture)\"/>", "El recibo <trans en=\"(The receipt)\" ar=\"(الإيصال)\" uk=\"(Квитанція)\" fr=\"(Le reçu)\"/>"],
         correctAnswer: 0
       }
+    
     ]
   },
   {

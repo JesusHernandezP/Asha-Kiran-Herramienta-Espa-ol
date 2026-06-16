@@ -35,56 +35,78 @@ export function useLanguage() {
   return context;
 }
 
-export function replaceTransTags(text: string, language: Language): string {
-  // When Spanish is selected, remove <trans> tags entirely so the original Spanish content remains clean
-  if (language === 'es') {
-    return text.replace(/<trans\s+en=['"][^'"]*['"]\s+ar=['"][^'"]*['"]\s+uk=['"][^'"]*['"]\s+fr=['"][^'"]*['"]\s*\/>/g, '');
+export function parseTransTag(tag: string, language: Language): string {
+  const getAttr = (lang: string): string | null => {
+    const regex = new RegExp(`${lang}\\s*=\\s*(['"])(.*?)\\1`);
+    const match = tag.match(regex);
+    return match ? match[2] : null;
+  };
+  let val = getAttr(language);
+  if (val === null && language !== 'en') {
+    val = getAttr('en');
   }
-  // Replace <trans en="..." ar="..." uk="..." fr="..."/> with the selected language text for HTML string usage
-  return text.replace(/<trans\s+en=['"]([^'"]*)['"]\s+ar=['"]([^'"]*)['"]\s+uk=['"]([^'"]*)['"]\s+fr=['"]([^'"]*)['"]\s*\/>/g, (match, en, ar, uk, fr) => {
-    switch (language) {
-      case 'ar': return `<span class="text-[#00823B] font-bold" dir="rtl">${ar}</span>`;
-      case 'uk': return `<span class="text-[#00823B] font-bold">${uk}</span>`;
-      case 'fr': return `<span class="text-[#00823B] font-bold">${fr}</span>`;
-      case 'en': 
-      default: return `<span class="text-[#00823B] font-bold">${en}</span>`;
+  return val ? val.replace(/^["']|["']$/g, '') : '';
+}
+
+export function replaceTransTags(text: string, language: Language): string {
+  if (language === 'es') {
+    return text.replace(/<trans\s+[^>]*\/>/g, (match) => {
+      const val = parseTransTag(match, 'en');
+      if (val && !val.startsWith('(')) {
+        return val;
+      }
+      return '';
+    });
+  }
+  return text.replace(/<trans\s+[^>]*\/>/g, (match) => {
+    const val = parseTransTag(match, language);
+    if (val) {
+      return `<span class="text-[#00823B] font-bold">${val}</span>`;
     }
+    return '';
   });
 }
 
-export function TransText({ text }: { text: string }) {
+export function TransText({ text, block = false }: { text: string; block?: boolean }) {
   const { language } = useLanguage();
   
   if (!text) return null;
 
-  // When Spanish is selected, strip all trans tags and return plain text
-  if (language === 'es') {
-    const cleanText = text.replace(/<trans\s+en=['"][^'"]*['"]\s+ar=['"][^'"]*['"]\s+uk=['"][^'"]*['"]\s+fr=['"][^'"]*['"]\s*\/>/g, '');
-    return <>{cleanText}</>;
-  }
-
-  const parts = text.split(/(<trans\s+en=['"][^'"]*['"]\s+ar=['"][^'"]*['"]\s+uk=['"][^'"]*['"]\s+fr=['"][^'"]*['"]\s*\/>)/g);
+  const parts = text.split(/(<trans\s+[^>]*\/>)/g);
   
   return (
     <>
       {parts.map((part, i) => {
-        const match = part.match(/<trans\s+en=['"]([^'"]*)['"]\s+ar=['"]([^'"]*)['"]\s+uk=['"]([^'"]*)['"]\s+fr=['"]([^'"]*)['"]\s*\/>/);
-        if (match) {
-          const [, en, ar, uk, fr] = match;
-          let content = en;
-          if (language === 'ar') content = ar;
-          else if (language === 'uk') content = uk;
-          else if (language === 'fr') content = fr;
+        if (part.startsWith('<trans')) {
+          if (language === 'es') {
+            const val = parseTransTag(part, 'en');
+            if (val && !val.startsWith('(')) {
+              return <React.Fragment key={i}>{val}</React.Fragment>;
+            }
+            return null;
+          }
 
-          return (
-            <span key={i} className="text-[#00823B] font-bold" dir={language === 'ar' ? 'rtl' : 'ltr'}>
-              {content}
-            </span>
-          );
+          const val = parseTransTag(part, language);
+          if (!val) return null;
+
+          if (block) {
+            return (
+              <span key={i} className="block text-xs sm:text-xs text-stone-400 font-normal mt-1 leading-normal" dir={language === 'ar' ? 'rtl' : 'ltr'}>
+                {val.startsWith('(') ? val : `(${val})`}
+              </span>
+            );
+          } else {
+            return (
+              <span key={i} className="text-[#00823B] font-bold mx-0.5" dir={language === 'ar' ? 'rtl' : 'ltr'}>
+                {val}
+              </span>
+            );
+          }
         }
         return <React.Fragment key={i}>{part}</React.Fragment>;
       })}
     </>
   );
 }
+
 

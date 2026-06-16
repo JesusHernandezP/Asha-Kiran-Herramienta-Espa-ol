@@ -237,7 +237,9 @@ export function LessonDetail() {
                         disabled={showResults}
                         className={`w-full text-left flex items-center justify-between px-5 sm:px-6 py-4 rounded-xl border transition-all min-h-[60px] active:scale-[0.99] shadow-sm text-base sm:text-lg ${bgClass} ${textClass}`}
                       >
-                        <span className="flex-1"><TransText text={opt} /></span>
+                        <span className="flex flex-col text-left w-full font-semibold text-[#192A56]">
+                          <TransText text={opt} block={true} />
+                        </span>
                         {icon && <span className="ml-3 shrink-0">{icon}</span>}
                       </button>
                     )
