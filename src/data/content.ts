@@ -46,33 +46,33 @@ export const lessons: Lesson[] = [
     illustrationUrl: "/images/lessons/abecedario.png",
     color: "#E2F3E7",
     vocabulary: [
-      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=200&auto=format&fit=crop&q=60", emoji: "✈️", color: "#E2F3E7" },
-      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-1527685609591-44b0aef2400b?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🚢", color: "#E2F3E7" },
-      { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, imageUrl: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=200&auto=format&fit=crop&q=60", emoji: "🏠", color: "#E3EEF9" },
-      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-1596180316165-0974ef954468?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☝️", color: "#FCE8E8" },
-      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=200&auto=format&fit=crop&q=60", emoji: "🐘", color: "#E2F3E7" },
+      { word: "Avión", translations: { en: "Airplane", ar: "طائرة", uk: "Літак", fr: "Avion" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "✈️", color: "#E2F3E7" },
+      { word: "Barco", translations: { en: "Boat", ar: "قارب", uk: "Човен", fr: "Bateau" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🚢", color: "#E2F3E7" },
+      { word: "Casa", translations: { en: "House", ar: "منزل", uk: "Будинок", fr: "Maison" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🏠", color: "#E3EEF9" },
+      { word: "Dedo", translations: { en: "Finger", ar: "إصبع", uk: "Палець", fr: "Doigt" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "☝️", color: "#FCE8E8" },
+      { word: "Elefante", translations: { en: "Elephant", ar: "فيل", uk: "Слон", fr: "Éléphant" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐘", color: "#E2F3E7" },
       { word: "Fuego", translations: { en: "Fire", ar: "نار", uk: "Вогонь", fr: "Feu" }, imageUrl: "https://plus.unsplash.com/premium_photo-1679954565327-e7e294e68b1c?q=80&w=678&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🔥", color: "#FFF4E5" },
-      { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&auto=format&fit=crop&q=60", emoji: "🐱", color: "#F3E8FF" },
-      { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, imageUrl: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=200&auto=format&fit=crop&q=60", emoji: "🍦", color: "#FEFCBF" },
-      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&auto=format&fit=crop&q=60", emoji: "🏝️", color: "#E2F3E7" },
-      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=200&auto=format&fit=crop&q=60", emoji: "🦒", color: "#FEFCBF" },
-      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-1579972383667-4894c883d674?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🐨", color: "#E3EEF9" },
-      { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, imageUrl: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=200&auto=format&fit=crop&q=60", emoji: "🌙", color: "#F3E8FF" },
-      { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, imageUrl: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=200&auto=format&fit=crop&q=60", emoji: "🍎", color: "#FCE8E8" },
-      { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, imageUrl: "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=200&auto=format&fit=crop&q=60", emoji: "☁️", color: "#E3EEF9" },
-      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-1551085254-e96b210db58a?w=200&auto=format&fit=crop&q=60", emoji: "🐦", color: "#F3E8FF" },
-      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, imageUrl: "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?w=200&auto=format&fit=crop&q=60", emoji: "🐻", color: "#E2F3E7" },
-      { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=200&auto=format&fit=crop&q=60", emoji: "🐶", color: "#FEFCBF" },
+      { word: "Gato", translations: { en: "Cat", ar: "قطة", uk: "Кіт", fr: "Chat" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐱", color: "#F3E8FF" },
+      { word: "Helado", translations: { en: "Ice cream", ar: "مثلجات", uk: "Морозиво", fr: "Glace" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🍦", color: "#FEFCBF" },
+      { word: "Isla", translations: { en: "Island", ar: "جزيرة", uk: "Острів", fr: "Île" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🏝️", color: "#E2F3E7" },
+      { word: "Jirafa", translations: { en: "Giraffe", ar: "زرافة", uk: "Жирафа", fr: "Girafe" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🦒", color: "#FEFCBF" },
+      { word: "Koala", translations: { en: "Koala", ar: "كوالا", uk: "Коала", fr: "Koala" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐨", color: "#E3EEF9" },
+      { word: "Luna", translations: { en: "Moon", ar: "قمر", uk: "Місяць", fr: "Lune" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🌙", color: "#F3E8FF" },
+      { word: "Manzana", translations: { en: "Apple", ar: "تفاحة", uk: "Яблуко", fr: "Pomme" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🍎", color: "#FCE8E8" },
+      { word: "Nube", translations: { en: "Cloud", ar: "سحابة", uk: "Хмара", fr: "Nuage" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "☁️", color: "#E3EEF9" },
+      { word: "Ñandú", translations: { en: "Rhea / Ostrich", ar: "نعامة", uk: "Нанду", fr: "Nandou" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐦", color: "#F3E8FF" },
+      { word: "Oso", translations: { en: "Bear", ar: "دب", uk: "Ведмідь", fr: "Ours" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐻", color: "#E2F3E7" },
+      { word: "Perro", translations: { en: "Dog", ar: "كلب", uk: "Собака", fr: "Chien" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐶", color: "#FEFCBF" },
       { word: "Queso", translations: { en: "Cheese", ar: "جبن", uk: "Сир", fr: "Fromage" }, imageUrl: "https://plus.unsplash.com/premium_photo-1691939610797-aba18030c15f?q=80&w=722&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🧀", color: "#FEFCBF" },
-      { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, imageUrl: "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=200&auto=format&fit=crop&q=60", emoji: "🐭", color: "#E3EEF9" },
-      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "☀️", color: "#FEFCBF" },
-      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=200&auto=format&fit=crop&q=60", emoji: "🚆", color: "#FCE8E8" },
-      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=200&auto=format&fit=crop&q=60", emoji: "🍇", color: "#F3E8FF" },
-      { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, imageUrl: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&auto=format&fit=crop&q=60", emoji: "🐮", color: "#E2F3E7" },
-      { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, imageUrl: "https://images.unsplash.com/photo-1585059895524-72359e06133a?w=200&auto=format&fit=crop&q=60", emoji: "🥝", color: "#E2F3E7" },
-      { word: "Xilófono", translations: { en: "Xylophone", ar: "إксيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-1711048421235-3fcb9dcf82f7?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🎹", color: "#F3E8FF" },
-      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-1646954843635-126c0fe8f3d7?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "🪀", color: "#FCE8E8" },
-      { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&auto=format&fit=crop&q=60", emoji: "👞", color: "#FFF4E5" }
+      { word: "Ratón", translations: { en: "Mouse", ar: "فأر", uk: "Миша", fr: "Souris" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐭", color: "#E3EEF9" },
+      { word: "Sol", translations: { en: "Sun", ar: "شمس", uk: "Сонце", fr: "Soleil" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "☀️", color: "#FEFCBF" },
+      { word: "Tren", translations: { en: "Train", ar: "قطار", uk: "Потяг", fr: "Train" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🚆", color: "#FCE8E8" },
+      { word: "Uvas", translations: { en: "Grapes", ar: "عنب", uk: "Виноград", fr: "Raisins" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🍇", color: "#F3E8FF" },
+      { word: "Vaca", translations: { en: "Cow", ar: "بقرة", uk: "Корова", fr: "Vache" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🐮", color: "#E2F3E7" },
+      { word: "Kiwi", translations: { en: "Kiwi", ar: "كيوي", uk: "Ківі", fr: "Kiwi" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🥝", color: "#E2F3E7" },
+      { word: "Xilófono", translations: { en: "Xylophone", ar: "إксيليفون", uk: "Ксилофон", fr: "Xylophone" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🎹", color: "#F3E8FF" },
+      { word: "Yoyó", translations: { en: "Yoyo", ar: "يويو", uk: "Йо-йо", fr: "Yoyo" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "🪀", color: "#FCE8E8" },
+      { word: "Zapato", translations: { en: "Shoe", ar: "حذاء", uk: "Взуття", fr: "Chaussure" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "👞", color: "#FFF4E5" }
     ],
     content: `
 ## Vamos a aprender el abecedario de la A a la Z
@@ -212,7 +212,7 @@ Usa el botón de abajo si estuviera disponible el audio (simulación).
     level: "A1",
     category: "Vocabulario",
     description: "Imágenes y vocabulario básico sobre las partes principales de nuestro cuerpo.",
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/cuerpo.png",
     color: "#EBF8FF",
     vocabulary: [
@@ -684,7 +684,7 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     level: "A1",
     category: "Vocabulario",
     description: "Vocabulario con tonos de colores. Rojo, azul, verde, amarillo, naranja.",
-    imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/colores.png",
     color: "#FFF5F5",
     vocabulary: [
@@ -1154,7 +1154,7 @@ Aprender las partes de nuestro cuerpo nos ayuda a comunicarnos mejor.
     level: "A1",
     category: "Gramática",
     description: "Aprende a usar los artículos (el, la, los, las) y a formar el plural añadiendo 'S' o 'ES'.",
-    imageUrl: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/articulos.png",
     color: "#EBF8FF",
     vocabulary: [
@@ -1634,7 +1634,7 @@ Para formar el plural de las palabras que terminan en vocal (a, e, i, o, u), añ
     level: "A1",
     category: "Gramática",
     description: "Aprende los pronombres para referirte a personas: yo, tú, él, ella, nosotros, vosotros, ellos.",
-    imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/pronombres.png",
     color: "#E2F3E7",
     vocabulary: [
@@ -2112,7 +2112,7 @@ Para hablar de quién hace la acción, usamos los pronombres personales. ¡Apren
     level: "A1",
     category: "Gramática",
     description: "Aprende los tres verbos más importantes en español para poder presentarte.",
-    imageUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/verbos.png",
     color: "#E2E8F0",
     vocabulary: [
@@ -2597,7 +2597,7 @@ Se usa para posesión y para expresar la edad en español.
     level: "A1",
     category: "Vocabulario",
     description: "¿Qué te pones cada día? Aprende palabras como camisa, pantalones y zapatos.",
-    imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/ropa.png",
     color: "#E2E8F0",
     vocabulary: [
@@ -3066,7 +3066,7 @@ Se usa para posesión y para expresar la edad en español.
     level: "A1",
     category: "Gramática",
     description: "Aprende las reglas básicas para saber si una palabra es masculina (termina en 'o') o femenina (termina en 'a'), y algunas excepciones.",
-    imageUrl: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/genero.png",
     color: "#E2F3E7",
     vocabulary: [
@@ -3555,7 +3555,7 @@ Las palabras que terminan en **-ción** siempre son **femeninas**, aunque no ter
     level: "A1",
     category: "Gramática",
     description: "Aprende a indicar posesión: mi, tu, nuestro, vuestro, su.",
-    imageUrl: "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🎒",
     color: "#FCE8E8",
     vocabulary: [
@@ -4035,7 +4035,7 @@ Para indicar que algo es de alguien, usamos posesivos. Van antes de las palabras
     level: "A1",
     category: "Gramática",
     description: "Aprende a decir sí o no, y a expresar lo que te gusta y no te gusta.",
-    imageUrl: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "👍",
     color: "#E3EEF9",
     vocabulary: [
@@ -4516,7 +4516,7 @@ Usamos **Me gusta** cuando algo nos parece bueno o bonito.
     level: "A1",
     category: "Vocabulario",
     description: "Hola, ¿cómo estás? Aprende las preguntas y respuestas más importantes para conocer a alguien.",
-    imageUrl: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/saludos.png",
     color: "#FFF5F5",
     vocabulary: [
@@ -4998,7 +4998,7 @@ Aquí tienes preguntas muy importantes y cómo responderlas de forma natural:
     level: "A1",
     category: "Vocabulario",
     description: "Aprende a contar del uno al diez.",
-    imageUrl: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     illustrationUrl: "/images/lessons/numeros.png",
     color: "#EBF8FF",
     vocabulary: [
@@ -5481,7 +5481,7 @@ Los primeros 10 son:
     level: "A1",
     category: "Vocabulario",
     description: "España y español. Inglaterra y británico. Aprende cómo hablar de orígenes.",
-    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🌐",
     color: "#FEFCBF",
     vocabulary: [
@@ -5961,7 +5961,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Vocabulario",
     description: "Vocabulario sobre árboles, montañas, y animales comunes (perro, gato, pájaro).",
-    imageUrl: "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🐶",
     color: "#FEFCBF",
     vocabulary: [
@@ -6432,7 +6432,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Comprensión",
     description: "Una lectura corta para entender frases simples y practicar preguntas.",
-    imageUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "📖",
     color: "#EBF8FF",
     content: `
@@ -6575,7 +6575,7 @@ Del país (el lugar) viene la palabra sobre tu origen (la nacionalidad).
     level: "A2",
     category: "Vocabulario",
     description: "Continentes, países comunes, y vocabulario geográfico.",
-    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🌍",
     color: "#E2E8F0",
     vocabulary: [
@@ -7055,7 +7055,7 @@ Para decir de dónde eres puedes decir: *"Yo soy de..."* y tu país.
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a preguntar por lugares importantes como el lavabo, el autobús o la tienda.",
-    imageUrl: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🗺️",
     color: "#EBF8FF",
     vocabulary: [
@@ -7531,7 +7531,7 @@ Si estás perdido o necesitas algo urgente, puedes usar: **¿Dónde está...?** 
     level: "A2",
     category: "Gramática",
     description: "Aprende a expresar tus deseos y necesidades: quiero comprar, necesito ayuda, quiero ir a...",
-    imageUrl: "https://images.unsplash.com/photo-1484807352052-23338990c6c6?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🛒",
     color: "#F3E8FF",
     vocabulary: [
@@ -8976,7 +8976,7 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     level: "A2",
     category: "Comprensión",
     description: "Lee sobre una visita al supermercado y practica el vocabulario de alimentos y compras.",
-    imageUrl: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🛒",
     color: "#E2F3E7",
     content: `
@@ -9119,7 +9119,7 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     level: "A2",
     category: "Comprensión",
     description: "Una pequeña conversación en la farmacia para practicar cómo pedir medicamentos.",
-    imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🏥",
     color: "#FFF5F5",
     content: `
@@ -9266,7 +9266,7 @@ Algunos verbos en español se construyen de forma diferente: no se conjuga el ve
     level: "B1",
     category: "Gramática",
     description: "Aprende a hablar de acciones terminadas en un momento específico del pasado.",
-    imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⏳",
     color: "#FEFCBF",
     content: `
@@ -9413,7 +9413,7 @@ Los verbos **SER** (ser de profesión, origen, etc.) e **IR** (moverse a un luga
     level: "B2",
     category: "Gramática",
     description: "Expresa deseos, dudas, emociones y probabilidades usando el presente de subjuntivo.",
-    imageUrl: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "💭",
     color: "#E3EEF9",
     content: `
@@ -9565,7 +9565,7 @@ Algunos verbos clave tienen formas completamente irregulares en presente de subj
     level: "C1",
     category: "Vocabulario",
     description: "Aprende expresiones idiomáticas comunes para hablar con gran naturalidad y entender a los nativos.",
-    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🗣️",
     color: "#F3E8FF",
     content: `
@@ -9604,7 +9604,7 @@ Para hablar como un nativo, es esencial conocer las frases hechas que se usan en
     level: "C2",
     category: "Comprensión",
     description: "Lee textos literarios complejos, comprende dobles sentidos, ironía y vocabulario muy avanzado.",
-    imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     color: "#FFF4E5",
     content: `
 ## Lectura Avanzada
@@ -9638,7 +9638,7 @@ Este texto no solo describe el clima (la niebla), sino que lo utiliza como metá
     level: "A1",
     category: "Vocabulario",
     description: "Aprende los días de la semana, los meses y cómo decir la hora en español.",
-    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "📅",
     color: "#E3EEF9",
     vocabulary: [
@@ -10112,7 +10112,7 @@ Para responder: **Son las dos.** (2:00) o **Es la una.** (1:00).
     level: "A1",
     category: "Vocabulario",
     description: "Aprende nombres de profesiones comunes como médico, profesor o cocinero.",
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "💼",
     color: "#FCE8E8",
     vocabulary: [
@@ -10584,7 +10584,7 @@ Para hablar de nuestra profesión usamos el verbo SER.
     level: "A1",
     category: "Vocabulario",
     description: "Habla de tu familia (madre, padre) y describe cómo son (alto, bajo).",
-    imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "👨‍👩‍👦",
     color: "#E2F3E7",
     vocabulary: [
@@ -11536,7 +11536,7 @@ Para hacer preguntas necesitas estas palabras. ¡Recuerda que llevan tilde (´) 
     level: "A1",
     category: "Vocabulario",
     description: "Aprende el nombre de algunas partes de la casa y alimentos muy comunes.",
-    imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🍞",
     color: "#EBF8FF",
     vocabulary: [
@@ -12010,7 +12010,7 @@ La casa tiene varias partes, como **el dormitorio** (para dormir) y **la cocina*
     level: "A2",
     category: "Gramática",
     description: "Habla sobre cosas que has hecho hoy, esta semana o en tu vida en general.",
-    imageUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "📅",
     color: "#FEFCBF",
     content: `
@@ -12165,7 +12165,7 @@ Usamos este tiempo verbal para hablar de acciones pasadas que ocurrieron en un m
     level: "A2",
     category: "Gramática",
     description: "Habla de tus planes y de cosas que van a pasar usando 'IR + a + infinitivo'.",
-    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🔮",
     color: "#E2F3E7",
     content: `
@@ -12309,7 +12309,7 @@ Para hablar de planes inmediatos o decisiones tomadas para el futuro (ej. "maña
     level: "A2",
     category: "Gramática",
     description: "Aprende a comparar cosas: más alto que, menos grande que, tan bueno como...",
-    imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⚖️",
     color: "#F3E8FF",
     content: `
@@ -12460,7 +12460,7 @@ No decimos "más malo". Decimos **peor**.
     level: "A2",
     category: "Vocabulario",
     description: "Aprende a pedir comida y pagar en un bar o restaurante.",
-    imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🍽️",
     color: "#FFF5F5",
     vocabulary: [
@@ -12937,7 +12937,7 @@ Tú: **La cuenta, por favor.** (Para poder pagar).
     level: "B1",
     category: "Gramática",
     description: "Aprende a hacer predicciones y a hablar de situaciones hipotéticas o deseos.",
-    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🚀",
     color: "#E2F3E7",
     content: `
@@ -13085,7 +13085,7 @@ Se forma añadiendo las desinencias al infinitivo. Las terminaciones también so
     level: "B1",
     category: "Vocabulario",
     description: "Expresa lo que piensas sobre diferentes temas y da recomendaciones a otros.",
-    imageUrl: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "💡",
     color: "#FFF4E5",
     content: `
@@ -13233,7 +13233,7 @@ Cuando alguien tiene un problema:
     level: "B1",
     category: "Gramática",
     description: "Conecta tus ideas usando 'porque', 'aunque', 'sin embargo' para hablar mejor.",
-    imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🔗",
     color: "#EBF8FF",
     content: `
@@ -13376,7 +13376,7 @@ Los conectores son palabras que unen ideas y hacen que hables de forma más comp
     level: "B2",
     category: "Gramática",
     description: "Aprende a formular suposiciones complejas usando el condicional y el subjuntivo.",
-    imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🎲",
     color: "#F3E8FF",
     content: `
@@ -13525,7 +13525,7 @@ Situaciones que no son reales en el presente:
     level: "B2",
     category: "Comprensión",
     description: "Comprende textos de nivel avanzado y practica cómo defender una postura sobre temas sociales.",
-    imageUrl: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⚖️",
     color: "#FFF5F5",
     content: `
@@ -13666,7 +13666,7 @@ En B2 debes identificar las **dos posturas** en un debate y los conectores que e
     level: "B2",
     category: "Vocabulario",
     description: "Adapta tu forma de hablar al contexto: escribir un email formal vs charlar con amigos.",
-    imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "👔",
     color: "#E2E8F0",
     content: `
@@ -13813,7 +13813,7 @@ En un nivel alto, debes saber cambiar de vocabulario dependiendo de con quién h
     level: "B1",
     category: "Comprensión",
     description: "Aprende a narrar sucesos del pasado y a seguir el hilo de una historia.",
-    imageUrl: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "✈️",
     color: "#FFF4E5",
     vocabulary: [
@@ -14289,7 +14289,7 @@ Para contar historias, combinamos los pasados:
     level: "B2",
     category: "Gramática",
     description: "Usa el subjuntivo para hablar del futuro con 'cuando' y expresar contraste con 'aunque'.",
-    imageUrl: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⏳",
     color: "#EBF8FF",
     vocabulary: [
@@ -14767,13 +14767,13 @@ En el nivel B2, aprendemos que ciertas conjunciones cambian de modo (indicativo 
     level: "C1",
     category: "Comprensión",
     description: "Analiza un texto formal sobre el cambio climático para comprender sutilezas y registros.",
-    imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "📰",
     color: "#E2F3E7",
     vocabulary: [
       { word: "El desafío", translations: { en: "The challenge", ar: "التحدي", uk: "Виклик", fr: "Le défi" }, imageUrl: "https://plus.unsplash.com/premium_photo-1720568151357-f4dbe4f54b40?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "⛰️", color: "#E2F3E7" },
       { word: "A largo plazo", translations: { en: "Long term", ar: "على المدى الطويل", uk: "على المدى البعيد", fr: "À long terme" }, imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYkgQJTyHB_wHV8JWxUPVJTl5VVDo9NZXlw&s", emoji: "📈", color: "#E2F3E7" },
-      { word: "El recurso", translations: { en: "The resource", ar: "المورد", uk: "Ресурс", fr: "La ressource" }, imageUrl: "https://images.unsplash.com/photo-1771294054598-879226abf362?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", emoji: "💧", color: "#E2F3E7" }
+      { word: "El recurso", translations: { en: "The resource", ar: "المورد", uk: "Ресурс", fr: "La ressource" }, imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80", emoji: "💧", color: "#E2F3E7" }
     ],
     content: `
 ## LECTURA: El porvenir ecológico
@@ -14807,7 +14807,7 @@ En este nivel, debes comprender:
     level: "C1",
     category: "Gramática",
     description: "Aprende a usar construcciones verbales precisas como 'soler', 'acabar de' o 'llevar + gerundio'.",
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "⚙️",
     color: "#F3E8FF",
     vocabulary: [
@@ -14854,7 +14854,7 @@ Las perífrasis son uniones de dos o más verbos que funcionan como una sola uni
     level: "C1",
     category: "Gramática",
     description: "Aprende a reportar lo que otros dijeron cambiando los tiempos verbales adecuadamente.",
-    imageUrl: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "💬",
     color: "#FFF5F5",
     vocabulary: [
@@ -14896,7 +14896,7 @@ Cuando queremos contar a alguien lo que otra persona ha dicho, usamos verbos de 
     level: "C1",
     category: "Vocabulario",
     description: "Organiza tus ideas de forma fluida y profesional usando conectores de nivel avanzado.",
-    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     emoji: "🧠",
     color: "#FEFCBF",
     vocabulary: [
@@ -14933,16 +14933,16 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
     ]
   },
   {
-  "id": "b1-lecturas-vida",
+  "id": "b1-comp-marta",
   "topic": "Comprensión B1",
-  "title": "Comprensión Lectora: Vivencias y Orígenes (B1)",
+  "title": "Lectura: El cambio de vida de Marta",
   "level": "B1",
   "category": "Comprensión",
-  "description": "Lecturas sobre el cambio de vida de Marta, el origen del chocolate y los beneficios de viajar solo, con 30 términos de vocabulario y 20 preguntas.",
-  "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
-  "emoji": "📖",
-  "color": "#E3EEF9",
+  "description": "Marta vivía en una gran ciudad pero decidió mudarse a un pueblo rural en busca de tranquilidad.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🏡",
+  "color": "#E2F3E7",
   "vocabulary": [
     {
       "word": "Gran ciudad",
@@ -15275,10 +15275,10 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "color": "#E3EEF9"
     }
   ],
-  "content": "\n## Lectura 1: El cambio de vida de Marta\n\nMarta vivía en una gran ciudad y trabajaba en una oficina de finanzas. Tenía un buen sueldo, pero siempre estaba cansada y estresada por el tráfico y el ruido. Un día, decidió que necesitaba un cambio radical. Dejó su trabajo, vendió su coche y se mudó a un pequeño pueblo en las montañas del norte de España.  \nAhora, Marta gestiona una pequeña casa rural y cultiva sus propias verduras. Aunque gana menos dinero que antes, asegura que es mucho más feliz. Los vecinos la recibieron con los brazos abiertos y cada tarde pasea por el bosque con su perro. Siente que por fin ha recuperado el control de su tiempo y de su vida.\n\n---\n\n## Lectura 2: El origen del chocolate\n\nHoy en día, el chocolate es uno de los dulces más populares del mundo, pero su historia comenzó hace miles de años en Mesoamérica. Los mayas y los aztecas consideraban que el cacao era un regalo de los dioses. Sin embargo, no lo consumían como nosotros: ellos preparaban una bebida amarga y picante mezclada con agua, maíz y especias.  \nCuando los españoles llegaron a América en el siglo XVI, llevaron el cacao a Europa. Al principio, a la corte española no le gustó el sabor amargo, pero todo cambió cuando decidieron añadirle azúcar y canela. A partir de ese momento, la bebida se convirtió en un lujo para la nobleza europea antes de transformarse en las tabletas que conocemos hoy.\n\n---\n\n## Lectura 3: Beneficios de viajar solo\n\nMucha gente piensa que viajar solo es aburrido o peligroso, pero cada vez más personas eligen esta aventura. Viajar sin compañía te obliga a salir de tu zona de confort y a tomar tus propias decisiones. No tienes que negociar el itinerario con nadie; si te apetece quedarte leyendo en un café toda la mañana, puedes hacerlo.  \nAdemás, cuando viajas solo, eres mucho más accesible para los demás. Es más fácil que los habitantes locales te hablen o que conozcas a otros viajeros en la misma situación. Al final del viaje, la mayoría de las personas vuelven a casa con una mayor confianza en sí mismas y con amigos de diferentes partes del mundo.\n  ",
+  "content": "## Lectura: El cambio de vida de Marta\n\n",
   "exercises": [
     {
-      "id": "b1-ex1",
+      "id": "ex1",
       "question": "¿Por qué decidió Marta cambiar de vida?",
       "options": [
         "Porque quería ganar más dinero",
@@ -15288,7 +15288,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex2",
+      "id": "ex2",
       "question": "¿A qué se dedica Marta en la actualidad?",
       "options": [
         "Gestiona una casa rural y cultiva verduras",
@@ -15298,7 +15298,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 0
     },
     {
-      "id": "b1-ex3",
+      "id": "ex3",
       "question": "¿Cómo la trataron los vecinos al llegar al pueblo?",
       "options": [
         "No le hablaron al principio",
@@ -15308,7 +15308,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex4",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Gran ciudad\"? <trans en=\"(What is the correct translation of \\\"Gran ciudad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Gran ciudad\\\"؟)\" uk=\"(Який правильний переклад \\\"Gran ciudad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Gran ciudad\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Big city <trans en=\"(Big city)\" ar=\"(مدينة كبيرة)\" uk=\"(Велике місто)\" fr=\"(Grande ville)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Oficina de finanzas\"? <trans en=\"(What is the correct translation of \\\"Oficina de finanzas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Oficina de finanzas\\\"؟)\" uk=\"(Який правильний переклад \\\"Oficina de finanzas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Oficina de finanzas\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Finance office <trans en=\"(Finance office)\" ar=\"(مكتب المالية)\" uk=\"(Фінансовий офіс)\" fr=\"(Bureau des finances)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Buen sueldo\"? <trans en=\"(What is the correct translation of \\\"Buen sueldo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Buen sueldo\\\"؟)\" uk=\"(Який правильний переклад \\\"Buen sueldo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Buen sueldo\\\"?)\" />",
+      "options": [
+        "Good salary <trans en=\"(Good salary)\" ar=\"(راتب جيد)\" uk=\"(Хороша зарплата)\" fr=\"(Bon salaire)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Cansada\"? <trans en=\"(What is the correct translation of \\\"Cansada\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cansada\\\"؟)\" uk=\"(Який правильний переклад \\\"Cansada\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cansada\\\"?)\" />",
+      "options": [
+        "Tired <trans en=\"(Tired)\" ar=\"(متعبة)\" uk=\"(Втомлена)\" fr=\"(Fatiguée)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Estresada\"? <trans en=\"(What is the correct translation of \\\"Estresada\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estresada\\\"؟)\" uk=\"(Який правильний переклад \\\"Estresada\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estresada\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Stressed <trans en=\"(Stressed)\" ar=\"(مجهدة)\" uk=\"(Стресована)\" fr=\"(Stressée)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Tráfico\"? <trans en=\"(What is the correct translation of \\\"Tráfico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Tráfico\\\"؟)\" uk=\"(Який правильний переклад \\\"Tráfico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Tráfico\\\"?)\" />",
+      "options": [
+        "Traffic <trans en=\"(Traffic)\" ar=\"(حركة المرور)\" uk=\"(Дорожній рух)\" fr=\"(Trafic)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Ruido\"? <trans en=\"(What is the correct translation of \\\"Ruido\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Ruido\\\"؟)\" uk=\"(Який правильний переклад \\\"Ruido\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Ruido\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Noise <trans en=\"(Noise)\" ar=\"(ضوضاء)\" uk=\"(Шум)\" fr=\"(Bruit)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Cambio radical\"? <trans en=\"(What is the correct translation of \\\"Cambio radical\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cambio radical\\\"؟)\" uk=\"(Який правильний переклад \\\"Cambio radical\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cambio radical\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Radical change <trans en=\"(Radical change)\" ar=\"(تغيير جذري)\" uk=\"(Радикальні зміни)\" fr=\"(Changement radical)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Mudarse\"? <trans en=\"(What is the correct translation of \\\"Mudarse\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Mudarse\\\"؟)\" uk=\"(Який правильний переклад \\\"Mudarse\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Mudarse\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To move (house) <trans en=\"(To move (house))\" ar=\"(ينتقل)\" uk=\"(Переїжджати)\" fr=\"(Déménager)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Gestionar\"? <trans en=\"(What is the correct translation of \\\"Gestionar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Gestionar\\\"؟)\" uk=\"(Який правильний переклад \\\"Gestionar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Gestionar\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To manage <trans en=\"(To manage)\" ar=\"(يدير / يسيّر)\" uk=\"(Керувати)\" fr=\"(Gérer)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Gran ciudad\"? <trans en=\"(What is the correct translation of \\\"Gran ciudad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Gran ciudad\\\"؟)\" uk=\"(Який правильний переклад \\\"Gran ciudad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Gran ciudad\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Big city <trans en=\"(Big city)\" ar=\"(مدينة كبيرة)\" uk=\"(Велике місто)\" fr=\"(Grande ville)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Oficina de finanzas\"? <trans en=\"(What is the correct translation of \\\"Oficina de finanzas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Oficina de finanzas\\\"؟)\" uk=\"(Який правильний переклад \\\"Oficina de finanzas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Oficina de finanzas\\\"?)\" />",
+      "options": [
+        "Finance office <trans en=\"(Finance office)\" ar=\"(مكتب المالية)\" uk=\"(Фінансовий офіс)\" fr=\"(Bureau des finances)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Buen sueldo\"? <trans en=\"(What is the correct translation of \\\"Buen sueldo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Buen sueldo\\\"؟)\" uk=\"(Який правильний переклад \\\"Buen sueldo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Buen sueldo\\\"?)\" />",
+      "options": [
+        "Good salary <trans en=\"(Good salary)\" ar=\"(راتب جيد)\" uk=\"(Хороша зарплата)\" fr=\"(Bon salaire)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Cansada\"? <trans en=\"(What is the correct translation of \\\"Cansada\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cansada\\\"؟)\" uk=\"(Який правильний переклад \\\"Cansada\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cansada\\\"?)\" />",
+      "options": [
+        "Tired <trans en=\"(Tired)\" ar=\"(متعبة)\" uk=\"(Втомлена)\" fr=\"(Fatiguée)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Estresada\"? <trans en=\"(What is the correct translation of \\\"Estresada\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estresada\\\"؟)\" uk=\"(Який правильний переклад \\\"Estresada\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estresada\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Stressed <trans en=\"(Stressed)\" ar=\"(مجهدة)\" uk=\"(Стресована)\" fr=\"(Stressée)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Tráfico\"? <trans en=\"(What is the correct translation of \\\"Tráfico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Tráfico\\\"؟)\" uk=\"(Який правильний переклад \\\"Tráfico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Tráfico\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Traffic <trans en=\"(Traffic)\" ar=\"(حركة المرور)\" uk=\"(Дорожній рух)\" fr=\"(Trafic)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Ruido\"? <trans en=\"(What is the correct translation of \\\"Ruido\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Ruido\\\"؟)\" uk=\"(Який правильний переклад \\\"Ruido\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Ruido\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Noise <trans en=\"(Noise)\" ar=\"(ضوضاء)\" uk=\"(Шум)\" fr=\"(Bruit)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+},
+  {
+  "id": "b1-comp-chocolate",
+  "topic": "Comprensión B1",
+  "title": "Lectura: El origen del chocolate",
+  "level": "B1",
+  "category": "Comprensión",
+  "description": "La historia del chocolate desde Mesoamérica hasta convertirse en un dulce popular en todo el mundo.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🍫",
+  "color": "#FFF4E5",
+  "vocabulary": [
+    {
+      "word": "Casa rural",
+      "translations": {
+        "en": "Country house",
+        "ar": "بيت ريفي",
+        "uk": "Сільський будинок",
+        "fr": "Gîte rural"
+      },
+      "emoji": "🏡",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cultivar",
+      "translations": {
+        "en": "To cultivate / grow",
+        "ar": "يزرع",
+        "uk": "Вирощувати",
+        "fr": "Cultiver"
+      },
+      "emoji": "🌱",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Verduras",
+      "translations": {
+        "en": "Vegetables",
+        "ar": "خضار",
+        "uk": "Овочі",
+        "fr": "Légumes"
+      },
+      "emoji": "🥕",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Vecinos",
+      "translations": {
+        "en": "Neighbors",
+        "ar": "جيران",
+        "uk": "Сусіди",
+        "fr": "Voisins"
+      },
+      "emoji": "👥",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Pasear",
+      "translations": {
+        "en": "To walk / stroll",
+        "ar": "يتنزه",
+        "uk": "Прогулюватися",
+        "fr": "Se promener"
+      },
+      "emoji": "🚶",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Bosque",
+      "translations": {
+        "en": "Forest",
+        "ar": "غابة",
+        "uk": "Ліс",
+        "fr": "Forêt"
+      },
+      "emoji": "🌲",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Chocolate",
+      "translations": {
+        "en": "Chocolate",
+        "ar": "شوكولاتة",
+        "uk": "Шоколад",
+        "fr": "Chocolat"
+      },
+      "emoji": "🍫",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cacao",
+      "translations": {
+        "en": "Cocoa",
+        "ar": "كاكاو",
+        "uk": "Какао",
+        "fr": "Cacao"
+      },
+      "emoji": "🍒",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Regalo de los dioses",
+      "translations": {
+        "en": "Gift of the gods",
+        "ar": "هدية الآلهة",
+        "uk": "Подарунок богів",
+        "fr": "Cadeau des dieux"
+      },
+      "emoji": "🎁",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Bebida amarga",
+      "translations": {
+        "en": "Bitter drink",
+        "ar": "مشروب مر",
+        "uk": "Гіркий напій",
+        "fr": "Boisson amère"
+      },
+      "emoji": "☕",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Gran ciudad",
+      "translations": {
+        "en": "Big city",
+        "ar": "مدينة كبيرة",
+        "uk": "Велике місто",
+        "fr": "Grande ville"
+      },
+      "emoji": "🏙️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Oficina de finanzas",
+      "translations": {
+        "en": "Finance office",
+        "ar": "مكتب المالية",
+        "uk": "Фінансовий офіс",
+        "fr": "Bureau des finances"
+      },
+      "emoji": "🏢",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Buen sueldo",
+      "translations": {
+        "en": "Good salary",
+        "ar": "راتب جيد",
+        "uk": "Хороша зарплата",
+        "fr": "Bon salaire"
+      },
+      "emoji": "💰",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cansada",
+      "translations": {
+        "en": "Tired",
+        "ar": "متعبة",
+        "uk": "Втомлена",
+        "fr": "Fatiguée"
+      },
+      "emoji": "😴",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Estresada",
+      "translations": {
+        "en": "Stressed",
+        "ar": "مجهدة",
+        "uk": "Стресована",
+        "fr": "Stressée"
+      },
+      "emoji": "😰",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Tráfico",
+      "translations": {
+        "en": "Traffic",
+        "ar": "حركة المرور",
+        "uk": "Дорожній рух",
+        "fr": "Trafic"
+      },
+      "emoji": "🚗",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Ruido",
+      "translations": {
+        "en": "Noise",
+        "ar": "ضوضاء",
+        "uk": "Шум",
+        "fr": "Bruit"
+      },
+      "emoji": "🔊",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cambio radical",
+      "translations": {
+        "en": "Radical change",
+        "ar": "تغيير جذري",
+        "uk": "Радикальні зміни",
+        "fr": "Changement radical"
+      },
+      "emoji": "🔄",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Mudarse",
+      "translations": {
+        "en": "To move (house)",
+        "ar": "ينتقل",
+        "uk": "Переїжджати",
+        "fr": "Déménager"
+      },
+      "emoji": "📦",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Gestionar",
+      "translations": {
+        "en": "To manage",
+        "ar": "يدير / يسيّر",
+        "uk": "Керувати",
+        "fr": "Gérer"
+      },
+      "emoji": "📊",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Especias",
+      "translations": {
+        "en": "Spices",
+        "ar": "توابل",
+        "uk": "Спеції",
+        "fr": "Épices"
+      },
+      "emoji": "🌶️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Sabor",
+      "translations": {
+        "en": "Flavor / Taste",
+        "ar": "نكهة / طعم",
+        "uk": "Смак",
+        "fr": "Saveur"
+      },
+      "emoji": "👅",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Azúcar",
+      "translations": {
+        "en": "Sugar",
+        "ar": "سكر",
+        "uk": "Цукор",
+        "fr": "Sucre"
+      },
+      "emoji": "🍬",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Lujo",
+      "translations": {
+        "en": "Luxury",
+        "ar": "ترف / رفاهية",
+        "uk": "Розкіш",
+        "fr": "Luxe"
+      },
+      "emoji": "💎",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Viajar solo",
+      "translations": {
+        "en": "To travel alone",
+        "ar": "السفر بمفردك",
+        "uk": "Подорожувати наодинці",
+        "fr": "Voyager seul"
+      },
+      "emoji": "🧳",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Aburrido",
+      "translations": {
+        "en": "Boring",
+        "ar": "ممل",
+        "uk": "ملل",
+        "fr": "Ennuyeux"
+      },
+      "emoji": "🥱",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Peligroso",
+      "translations": {
+        "en": "Dangerous",
+        "ar": "خطير",
+        "uk": "Небезпечний",
+        "fr": "Dangereux"
+      },
+      "emoji": "⚠️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Compañía",
+      "translations": {
+        "en": "Company / Companion",
+        "ar": "صحبة / رفقاء",
+        "uk": "Компанія",
+        "fr": "Compagnie"
+      },
+      "emoji": "👥",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Itinerario",
+      "translations": {
+        "en": "Itinerary",
+        "ar": "مسار الرحلة",
+        "uk": "Маршрут",
+        "fr": "Itinéraire"
+      },
+      "emoji": "🗺️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Confianza en sí mismo",
+      "translations": {
+        "en": "Self-confidence",
+        "ar": "الثقة بالنفس",
+        "uk": "Впевненість у собі",
+        "fr": "Confiance en soi"
+      },
+      "emoji": "🦁",
+      "color": "#E3EEF9"
+    }
+  ],
+  "content": "## Lectura: El origen del chocolate\n\nEl cambio de vida de Marta\n\nMarta vivía en una gran ciudad y trabajaba en una oficina de finanzas. Tenía un buen sueldo, pero siempre estaba cansada y estresada por el tráfico y el ruido. Un día, decidió que necesitaba un cambio radical. Dejó su trabajo, vendió su coche y se mudó a un pequeño pueblo en las montañas del norte de España.  \nAhora, Marta gestiona una pequeña casa rural y cultiva sus propias verduras. Aunque gana menos dinero que antes, asegura que es mucho más feliz. Los vecinos la recibieron con los brazos abiertos y cada tarde pasea por el bosque con su perro. Siente que por fin ha recuperado el control de su tiempo y de su vida.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿Cómo consumían originalmente el chocolate los mayas y aztecas?",
       "options": [
         "En tabletas dulces",
@@ -15318,7 +15835,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex5",
+      "id": "ex2",
       "question": "¿Qué ingrediente añadieron los europeos que popularizó el chocolate?",
       "options": [
         "Sal y pimienta",
@@ -15328,7 +15845,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex6",
+      "id": "ex3",
       "question": "¿Quiénes eran los únicos que consumían chocolate en Europa al principio?",
       "options": [
         "Los campesinos",
@@ -15338,7 +15855,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex7",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Casa rural\"? <trans en=\"(What is the correct translation of \\\"Casa rural\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Casa rural\\\"؟)\" uk=\"(Який правильний переклад \\\"Casa rural\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Casa rural\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Country house <trans en=\"(Country house)\" ar=\"(بيت ريفي)\" uk=\"(Сільський будинок)\" fr=\"(Gîte rural)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Cultivar\"? <trans en=\"(What is the correct translation of \\\"Cultivar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cultivar\\\"؟)\" uk=\"(Який правильний переклад \\\"Cultivar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cultivar\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To cultivate / grow <trans en=\"(To cultivate / grow)\" ar=\"(يزرع)\" uk=\"(Вирощувати)\" fr=\"(Cultiver)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Verduras\"? <trans en=\"(What is the correct translation of \\\"Verduras\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Verduras\\\"؟)\" uk=\"(Який правильний переклад \\\"Verduras\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Verduras\\\"?)\" />",
+      "options": [
+        "Vegetables <trans en=\"(Vegetables)\" ar=\"(خضار)\" uk=\"(Овочі)\" fr=\"(Légumes)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Vecinos\"? <trans en=\"(What is the correct translation of \\\"Vecinos\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Vecinos\\\"؟)\" uk=\"(Який правильний переклад \\\"Vecinos\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Vecinos\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Neighbors <trans en=\"(Neighbors)\" ar=\"(جيران)\" uk=\"(Сусіди)\" fr=\"(Voisins)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Pasear\"? <trans en=\"(What is the correct translation of \\\"Pasear\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Pasear\\\"؟)\" uk=\"(Який правильний переклад \\\"Pasear\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Pasear\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To walk / stroll <trans en=\"(To walk / stroll)\" ar=\"(يتنزه)\" uk=\"(Прогулюватися)\" fr=\"(Se promener)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Bosque\"? <trans en=\"(What is the correct translation of \\\"Bosque\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Bosque\\\"؟)\" uk=\"(Який правильний переклад \\\"Bosque\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Bosque\\\"?)\" />",
+      "options": [
+        "Forest <trans en=\"(Forest)\" ar=\"(غابة)\" uk=\"(Ліс)\" fr=\"(Forêt)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Chocolate\"? <trans en=\"(What is the correct translation of \\\"Chocolate\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Chocolate\\\"؟)\" uk=\"(Який правильний переклад \\\"Chocolate\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Chocolate\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Chocolate <trans en=\"(Chocolate)\" ar=\"(شوكولاتة)\" uk=\"(Шоколад)\" fr=\"(Chocolat)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Cacao\"? <trans en=\"(What is the correct translation of \\\"Cacao\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cacao\\\"؟)\" uk=\"(Який правильний переклад \\\"Cacao\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cacao\\\"?)\" />",
+      "options": [
+        "Cocoa <trans en=\"(Cocoa)\" ar=\"(كاكاو)\" uk=\"(Какао)\" fr=\"(Cacao)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Regalo de los dioses\"? <trans en=\"(What is the correct translation of \\\"Regalo de los dioses\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Regalo de los dioses\\\"؟)\" uk=\"(Який правильний переклад \\\"Regalo de los dioses\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Regalo de los dioses\\\"?)\" />",
+      "options": [
+        "Gift of the gods <trans en=\"(Gift of the gods)\" ar=\"(هدية الآلهة)\" uk=\"(Подарунок богів)\" fr=\"(Cadeau des dieux)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Bebida amarga\"? <trans en=\"(What is the correct translation of \\\"Bebida amarga\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Bebida amarga\\\"؟)\" uk=\"(Який правильний переклад \\\"Bebida amarga\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Bebida amarga\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Bitter drink <trans en=\"(Bitter drink)\" ar=\"(مشروب مر)\" uk=\"(Гіркий напій)\" fr=\"(Boisson amère)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Casa rural\"? <trans en=\"(What is the correct translation of \\\"Casa rural\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Casa rural\\\"؟)\" uk=\"(Який правильний переклад \\\"Casa rural\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Casa rural\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Country house <trans en=\"(Country house)\" ar=\"(بيت ريفي)\" uk=\"(Сільський будинок)\" fr=\"(Gîte rural)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Cultivar\"? <trans en=\"(What is the correct translation of \\\"Cultivar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cultivar\\\"؟)\" uk=\"(Який правильний переклад \\\"Cultivar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cultivar\\\"?)\" />",
+      "options": [
+        "To cultivate / grow <trans en=\"(To cultivate / grow)\" ar=\"(يزرع)\" uk=\"(Вирощувати)\" fr=\"(Cultiver)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Verduras\"? <trans en=\"(What is the correct translation of \\\"Verduras\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Verduras\\\"؟)\" uk=\"(Який правильний переклад \\\"Verduras\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Verduras\\\"?)\" />",
+      "options": [
+        "Vegetables <trans en=\"(Vegetables)\" ar=\"(خضار)\" uk=\"(Овочі)\" fr=\"(Légumes)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Vecinos\"? <trans en=\"(What is the correct translation of \\\"Vecinos\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Vecinos\\\"؟)\" uk=\"(Який правильний переклад \\\"Vecinos\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Vecinos\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Neighbors <trans en=\"(Neighbors)\" ar=\"(جيران)\" uk=\"(Сусіди)\" fr=\"(Voisins)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Pasear\"? <trans en=\"(What is the correct translation of \\\"Pasear\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Pasear\\\"؟)\" uk=\"(Який правильний переклад \\\"Pasear\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Pasear\\\"?)\" />",
+      "options": [
+        "To walk / stroll <trans en=\"(To walk / stroll)\" ar=\"(يتنزه)\" uk=\"(Прогулюватися)\" fr=\"(Se promener)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Bosque\"? <trans en=\"(What is the correct translation of \\\"Bosque\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Bosque\\\"؟)\" uk=\"(Який правильний переклад \\\"Bosque\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Bosque\\\"?)\" />",
+      "options": [
+        "Forest <trans en=\"(Forest)\" ar=\"(غابة)\" uk=\"(Ліс)\" fr=\"(Forêt)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Chocolate\"? <trans en=\"(What is the correct translation of \\\"Chocolate\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Chocolate\\\"؟)\" uk=\"(Який правильний переклад \\\"Chocolate\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Chocolate\\\"?)\" />",
+      "options": [
+        "Chocolate <trans en=\"(Chocolate)\" ar=\"(شوكولاتة)\" uk=\"(Шоколад)\" fr=\"(Chocolat)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+  {
+  "id": "b1-comp-viajarsolo",
+  "topic": "Comprensión B1",
+  "title": "Lectura: Beneficios de viajar solo",
+  "level": "B1",
+  "category": "Comprensión",
+  "description": "Viajar solo nos ayuda a salir de la zona de confort, tomar decisiones y hacer nuevos amigos.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "✈️",
+  "color": "#E3EEF9",
+  "vocabulary": [
+    {
+      "word": "Especias",
+      "translations": {
+        "en": "Spices",
+        "ar": "توابل",
+        "uk": "Спеції",
+        "fr": "Épices"
+      },
+      "emoji": "🌶️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Sabor",
+      "translations": {
+        "en": "Flavor / Taste",
+        "ar": "نكهة / طعم",
+        "uk": "Смак",
+        "fr": "Saveur"
+      },
+      "emoji": "👅",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Azúcar",
+      "translations": {
+        "en": "Sugar",
+        "ar": "سكر",
+        "uk": "Цукор",
+        "fr": "Sucre"
+      },
+      "emoji": "🍬",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Lujo",
+      "translations": {
+        "en": "Luxury",
+        "ar": "ترف / رفاهية",
+        "uk": "Розкіш",
+        "fr": "Luxe"
+      },
+      "emoji": "💎",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Viajar solo",
+      "translations": {
+        "en": "To travel alone",
+        "ar": "السفر بمفردك",
+        "uk": "Подорожувати наодинці",
+        "fr": "Voyager seul"
+      },
+      "emoji": "🧳",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Aburrido",
+      "translations": {
+        "en": "Boring",
+        "ar": "ممل",
+        "uk": "ملل",
+        "fr": "Ennuyeux"
+      },
+      "emoji": "🥱",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Peligroso",
+      "translations": {
+        "en": "Dangerous",
+        "ar": "خطير",
+        "uk": "Небезпечний",
+        "fr": "Dangereux"
+      },
+      "emoji": "⚠️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Compañía",
+      "translations": {
+        "en": "Company / Companion",
+        "ar": "صحبة / رفقاء",
+        "uk": "Компанія",
+        "fr": "Compagnie"
+      },
+      "emoji": "👥",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Itinerario",
+      "translations": {
+        "en": "Itinerary",
+        "ar": "مسار الرحلة",
+        "uk": "Маршрут",
+        "fr": "Itinéraire"
+      },
+      "emoji": "🗺️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Confianza en sí mismo",
+      "translations": {
+        "en": "Self-confidence",
+        "ar": "الثقة بالنفس",
+        "uk": "Впевненість у собі",
+        "fr": "Confiance en soi"
+      },
+      "emoji": "🦁",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Gran ciudad",
+      "translations": {
+        "en": "Big city",
+        "ar": "مدينة كبيرة",
+        "uk": "Велике місто",
+        "fr": "Grande ville"
+      },
+      "emoji": "🏙️",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Oficina de finanzas",
+      "translations": {
+        "en": "Finance office",
+        "ar": "مكتب المالية",
+        "uk": "Фінансовий офіс",
+        "fr": "Bureau des finances"
+      },
+      "emoji": "🏢",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Buen sueldo",
+      "translations": {
+        "en": "Good salary",
+        "ar": "راتب جيد",
+        "uk": "Хороша зарплата",
+        "fr": "Bon salaire"
+      },
+      "emoji": "💰",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cansada",
+      "translations": {
+        "en": "Tired",
+        "ar": "متعبة",
+        "uk": "Втомлена",
+        "fr": "Fatiguée"
+      },
+      "emoji": "😴",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Estresada",
+      "translations": {
+        "en": "Stressed",
+        "ar": "مجهدة",
+        "uk": "Стресована",
+        "fr": "Stressée"
+      },
+      "emoji": "😰",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Tráfico",
+      "translations": {
+        "en": "Traffic",
+        "ar": "حركة المرور",
+        "uk": "Дорожній рух",
+        "fr": "Trafic"
+      },
+      "emoji": "🚗",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Ruido",
+      "translations": {
+        "en": "Noise",
+        "ar": "ضوضاء",
+        "uk": "Шум",
+        "fr": "Bruit"
+      },
+      "emoji": "🔊",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cambio radical",
+      "translations": {
+        "en": "Radical change",
+        "ar": "تغيير جذري",
+        "uk": "Радикальні зміни",
+        "fr": "Changement radical"
+      },
+      "emoji": "🔄",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Mudarse",
+      "translations": {
+        "en": "To move (house)",
+        "ar": "ينتقل",
+        "uk": "Переїжджати",
+        "fr": "Déménager"
+      },
+      "emoji": "📦",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Gestionar",
+      "translations": {
+        "en": "To manage",
+        "ar": "يدير / يسيّر",
+        "uk": "Керувати",
+        "fr": "Gérer"
+      },
+      "emoji": "📊",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Casa rural",
+      "translations": {
+        "en": "Country house",
+        "ar": "بيت ريفي",
+        "uk": "Сільський будинок",
+        "fr": "Gîte rural"
+      },
+      "emoji": "🏡",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cultivar",
+      "translations": {
+        "en": "To cultivate / grow",
+        "ar": "يزرع",
+        "uk": "Вирощувати",
+        "fr": "Cultiver"
+      },
+      "emoji": "🌱",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Verduras",
+      "translations": {
+        "en": "Vegetables",
+        "ar": "خضار",
+        "uk": "Овочі",
+        "fr": "Légumes"
+      },
+      "emoji": "🥕",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Vecinos",
+      "translations": {
+        "en": "Neighbors",
+        "ar": "جيران",
+        "uk": "Сусіди",
+        "fr": "Voisins"
+      },
+      "emoji": "👥",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Pasear",
+      "translations": {
+        "en": "To walk / stroll",
+        "ar": "يتنزه",
+        "uk": "Прогулюватися",
+        "fr": "Se promener"
+      },
+      "emoji": "🚶",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Bosque",
+      "translations": {
+        "en": "Forest",
+        "ar": "غابة",
+        "uk": "Ліс",
+        "fr": "Forêt"
+      },
+      "emoji": "🌲",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Chocolate",
+      "translations": {
+        "en": "Chocolate",
+        "ar": "شوكولاتة",
+        "uk": "Шоколад",
+        "fr": "Chocolat"
+      },
+      "emoji": "🍫",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Cacao",
+      "translations": {
+        "en": "Cocoa",
+        "ar": "كاكاو",
+        "uk": "Какао",
+        "fr": "Cacao"
+      },
+      "emoji": "🍒",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Regalo de los dioses",
+      "translations": {
+        "en": "Gift of the gods",
+        "ar": "هدية الآلهة",
+        "uk": "Подарунок богів",
+        "fr": "Cadeau des dieux"
+      },
+      "emoji": "🎁",
+      "color": "#E3EEF9"
+    },
+    {
+      "word": "Bebida amarga",
+      "translations": {
+        "en": "Bitter drink",
+        "ar": "مشروب مر",
+        "uk": "Гіркий напій",
+        "fr": "Boisson amère"
+      },
+      "emoji": "☕",
+      "color": "#E3EEF9"
+    }
+  ],
+  "content": "## Lectura: Beneficios de viajar solo\n\nEl origen del chocolate\n\nHoy en día, el chocolate es uno de los dulces más populares del mundo, pero su historia comenzó hace miles de años en Mesoamérica. Los mayas y los aztecas consideraban que el cacao era un regalo de los dioses. Sin embargo, no lo consumían como nosotros: ellos preparaban una bebida amarga y picante mezclada con agua, maíz y especias.  \nCuando los españoles llegaron a América en el siglo XVI, llevaron el cacao a Europa. Al principio, a la corte española no le gustó el sabor amargo, pero todo cambió cuando decidieron añadirle azúcar y canela. A partir de ese momento, la bebida se convirtió en un lujo para la nobleza europea antes de transformarse en las tabletas que conocemos hoy.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿Qué ventaja tiene viajar solo respecto al itinerario?",
       "options": [
         "Es más barato planificarlo",
@@ -15348,7 +16382,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex8",
+      "id": "ex2",
       "question": "¿Por qué es más fácil hacer amigos cuando viajas solo?",
       "options": [
         "Porque eres más accesible para los locales y otros viajeros",
@@ -15358,7 +16392,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 0
     },
     {
-      "id": "b1-ex9",
+      "id": "ex3",
       "question": "¿Con qué beneficio personal suelen regresar a casa estos viajeros?",
       "options": [
         "Con más cansancio",
@@ -15368,128 +16402,188 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex10",
-      "question": "Completa la frase con la palabra correcta: 'Carlos decidió _______ de ciudad para buscar trabajo.'",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Especias\"? <trans en=\"(What is the correct translation of \\\"Especias\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Especias\\\"؟)\" uk=\"(Який правильний переклад \\\"Especias\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Especias\\\"?)\" />",
       "options": [
-        "mudarse",
-        "gestionar",
-        "cultivar"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Spices <trans en=\"(Spices)\" ar=\"(توابل)\" uk=\"(Спеції)\" fr=\"(Épices)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Sabor\"? <trans en=\"(What is the correct translation of \\\"Sabor\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Sabor\\\"؟)\" uk=\"(Який правильний переклад \\\"Sabor\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Sabor\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Flavor / Taste <trans en=\"(Flavor / Taste)\" ar=\"(نكهة / طعم)\" uk=\"(Смак)\" fr=\"(Saveur)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Azúcar\"? <trans en=\"(What is the correct translation of \\\"Azúcar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Azúcar\\\"؟)\" uk=\"(Який правильний переклад \\\"Azúcar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Azúcar\\\"?)\" />",
+      "options": [
+        "Sugar <trans en=\"(Sugar)\" ar=\"(سكر)\" uk=\"(Цукор)\" fr=\"(Sucre)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 0
     },
     {
-      "id": "b1-ex11",
-      "question": "El antónimo de 'amargo' es...",
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Lujo\"? <trans en=\"(What is the correct translation of \\\"Lujo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Lujo\\\"؟)\" uk=\"(Який правильний переклад \\\"Lujo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Lujo\\\"?)\" />",
       "options": [
-        "picante",
-        "salado",
-        "dulce"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Luxury <trans en=\"(Luxury)\" ar=\"(ترف / رفاهية)\" uk=\"(Розкіш)\" fr=\"(Luxe)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "b1-ex12",
-      "question": "Marta pasea con su perro cada tarde. El sinónimo de 'pasear' es...",
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Viajar solo\"? <trans en=\"(What is the correct translation of \\\"Viajar solo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Viajar solo\\\"؟)\" uk=\"(Який правильний переклад \\\"Viajar solo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Viajar solo\\\"?)\" />",
       "options": [
-        "correr",
-        "caminar / dar una vuelta",
-        "descansar"
+        "To travel alone <trans en=\"(To travel alone)\" ar=\"(السفر بمفردك)\" uk=\"(Подорожувати наодинці)\" fr=\"(Voyager seul)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 0
     },
     {
-      "id": "b1-ex13",
-      "question": "Completa: 'El chocolate se convirtió en un _______ para la nobleza europea.'",
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Aburrido\"? <trans en=\"(What is the correct translation of \\\"Aburrido\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Aburrido\\\"؟)\" uk=\"(Який правильний переклад \\\"Aburrido\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Aburrido\\\"?)\" />",
       "options": [
-        "sueldo",
-        "lujo",
-        "ruido"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b1-ex14",
-      "question": "¿Qué significa 'cambio radical'?",
-      "options": [
-        "Un cambio pequeño y lento",
-        "Un cambio completo y profundo",
-        "No hacer ningún cambio"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b1-ex15",
-      "question": "Completa: 'Cuando viajas sin _______, tienes total libertad.'",
-      "options": [
-        "itinerario",
-        "compañía",
-        "coche"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b1-ex16",
-      "question": "¿Cuál de estos alimentos pertenece al grupo de las 'verduras'?",
-      "options": [
-        "La manzana",
-        "La canela",
-        "La zanahoria"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Boring <trans en=\"(Boring)\" ar=\"(ممل)\" uk=\"(ملل)\" fr=\"(Ennuyeux)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "b1-ex17",
-      "question": "Completa la frase: 'El dinero mensual que recibe un trabajador se llama _______.'",
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Peligroso\"? <trans en=\"(What is the correct translation of \\\"Peligroso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Peligroso\\\"؟)\" uk=\"(Який правильний переклад \\\"Peligroso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Peligroso\\\"?)\" />",
       "options": [
-        "fianza",
-        "sueldo",
-        "lujo"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Dangerous <trans en=\"(Dangerous)\" ar=\"(خطير)\" uk=\"(Небезпечний)\" fr=\"(Dangereux)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "b1-ex18",
-      "question": "Las personas que viven cerca de tu casa son tus...",
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Compañía\"? <trans en=\"(What is the correct translation of \\\"Compañía\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Compañía\\\"؟)\" uk=\"(Який правильний переклад \\\"Compañía\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Compañía\\\"?)\" />",
       "options": [
-        "dioses",
-        "vecinos",
-        "compañeros de viaje"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b1-ex19",
-      "question": "El cacao era considerado por los mayas como un regalo de los...",
-      "options": [
-        "nobles",
-        "españoles",
-        "dioses"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Company / Companion <trans en=\"(Company / Companion)\" ar=\"(صحبة / رفقاء)\" uk=\"(Компанія)\" fr=\"(Compagnie)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "b1-ex20",
-      "question": "Completa: 'Tengo mucha _______ en mí mismo para superar la entrevista.'",
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Itinerario\"? <trans en=\"(What is the correct translation of \\\"Itinerario\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Itinerario\\\"؟)\" uk=\"(Який правильний переклад \\\"Itinerario\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Itinerario\\\"?)\" />",
       "options": [
-        "fianza",
-        "confianza",
-        "especias"
+        "Itinerary <trans en=\"(Itinerary)\" ar=\"(مسار الرحلة)\" uk=\"(Маршрут)\" fr=\"(Itinéraire)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Confianza en sí mismo\"? <trans en=\"(What is the correct translation of \\\"Confianza en sí mismo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Confianza en sí mismo\\\"؟)\" uk=\"(Який правильний переклад \\\"Confianza en sí mismo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Confianza en sí mismo\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Self-confidence <trans en=\"(Self-confidence)\" ar=\"(الثقة بالنفس)\" uk=\"(Впевненість у собі)\" fr=\"(Confiance en soi)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
       ],
       "correctAnswer": 1
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Especias\"? <trans en=\"(What is the correct translation of \\\"Especias\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Especias\\\"؟)\" uk=\"(Який правильний переклад \\\"Especias\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Especias\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Spices <trans en=\"(Spices)\" ar=\"(توابل)\" uk=\"(Спеції)\" fr=\"(Épices)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Sabor\"? <trans en=\"(What is the correct translation of \\\"Sabor\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Sabor\\\"؟)\" uk=\"(Який правильний переклад \\\"Sabor\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Sabor\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Flavor / Taste <trans en=\"(Flavor / Taste)\" ar=\"(نكهة / طعم)\" uk=\"(Смак)\" fr=\"(Saveur)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Azúcar\"? <trans en=\"(What is the correct translation of \\\"Azúcar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Azúcar\\\"؟)\" uk=\"(Який правильний переклад \\\"Azúcar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Azúcar\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Sugar <trans en=\"(Sugar)\" ar=\"(سكر)\" uk=\"(Цукор)\" fr=\"(Sucre)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Lujo\"? <trans en=\"(What is the correct translation of \\\"Lujo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Lujo\\\"؟)\" uk=\"(Який правильний переклад \\\"Lujo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Lujo\\\"?)\" />",
+      "options": [
+        "Luxury <trans en=\"(Luxury)\" ar=\"(ترف / رفاهية)\" uk=\"(Розкіш)\" fr=\"(Luxe)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Viajar solo\"? <trans en=\"(What is the correct translation of \\\"Viajar solo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Viajar solo\\\"؟)\" uk=\"(Який правильний переклад \\\"Viajar solo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Viajar solo\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To travel alone <trans en=\"(To travel alone)\" ar=\"(السفر بمفردك)\" uk=\"(Подорожувати наодинці)\" fr=\"(Voyager seul)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Aburrido\"? <trans en=\"(What is the correct translation of \\\"Aburrido\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Aburrido\\\"؟)\" uk=\"(Який правильний переклад \\\"Aburrido\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Aburrido\\\"?)\" />",
+      "options": [
+        "Boring <trans en=\"(Boring)\" ar=\"(ممل)\" uk=\"(ملل)\" fr=\"(Ennuyeux)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Peligroso\"? <trans en=\"(What is the correct translation of \\\"Peligroso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Peligroso\\\"؟)\" uk=\"(Який правильний переклад \\\"Peligroso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Peligroso\\\"?)\" />",
+      "options": [
+        "Dangerous <trans en=\"(Dangerous)\" ar=\"(خطير)\" uk=\"(Небезпечний)\" fr=\"(Dangereux)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
     }
   ]
 },
 {
-  "id": "b2-lecturas-vida",
+  "id": "b2-comp-teletrabajo",
   "topic": "Comprensión B2",
-  "title": "Comprensión Lectora: Sociedad y Entorno (B2)",
+  "title": "Lectura: El auge del teletrabajo",
   "level": "B2",
   "category": "Comprensión",
-  "description": "Lecturas sobre el teletrabajo, las estatuas de la isla de Pascua y la biodiversidad urbana, con 30 términos de vocabulario y 20 preguntas.",
-  "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=80",
-  "emoji": "📖",
-  "color": "#FAF9F6",
+  "description": "Los desafíos logísticos y psicológicos del teletrabajo en el panorama laboral contemporáneo.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "💻",
+  "color": "#E3EEF9",
   "vocabulary": [
     {
       "word": "Auge",
@@ -15822,10 +16916,10 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "color": "#FAF9F6"
     }
   ],
-  "content": "\n## Lectura 1: El auge del teletrabajo y sus desafíos\n\nLa adopción masiva del teletrabajo ha transformado por completo el panorama laboral contemporáneo. En un principio, tanto empresas como empleados aplaudieron esta modalidad debido a la flexibilidad horaria y al ahorro de tiempo en desplazamientos. Sin embargo, a medida que el modelo se ha consolidado, han comenzado a surgir desafíos psicológicos y logísticos que no se habían previsto adecuadamente.  \nEl principal obstáculo es la difusa línea que separa la vida laboral de la personal. Al trabajar en el mismo espacio donde se descansa, muchos profesionales confiesan que les resulta casi imposible \"desconectar\" al final de la jornada. Esto ha provocado un incremento en los casos de estrés laboral y una sensación de aislamiento social que las empresas intentan mitigar mediante reuniones híbridas y actividades de integración.\n\n---\n\n## Lectura 2: El misterio de la isla de Pascua\n\nLa isla de Pascua, ubicada en el océano Pacífico, es famosa mundialmente por sus imponentes estatuas de piedra conocidas como moáis. Estas gigantescas esculturas, talladas por los antiguos habitantes de la isla entre los siglos VIII y XVI, han desconcertado a los arqueólogos durante generaciones. La gran pregunta sigue siendo cómo una sociedad con tecnología limitada logró transportar bloques de piedra de varias toneladas a lo largo de kilómetros.  \nUna de las teorías más aceptadas sugiere que los isleños utilizaban troncos de árboles como rodillos para mover las estructuras. Lamentablemente, esta intensa actividad, sumada a la sobrepoblación, provocó una deforestación severa en la isla. Sin árboles, los recursos escasearon, lo que desencadenó una crisis social que colapsó la civilización antes de la llegada de los primeros exploradores europeos.\n\n---\n\n## Lectura 3: La importancia de la biodiversidad urbana\n\nCuando pensamos en la conservación de la naturaleza, solemos imaginar selvas tropicales o zonas montañosas remotas. Sin embargo, los científicos están prestando cada vez más atención a los ecosistemas urbanos. Las ciudades no son solo asfalto y hormigón; albergan una sorprendente variedad de aves, insectos y plantas que desempeñan un papel crucial en la calidad del aire y la regulación de la temperatura local.  \nCrear y mantener corredores verdes —como parques conectados o techos vegetales— ayuda a preservar esta biodiversidad. Estos espacios no solo ofrecen un refugio a los animales, sino que también mejoran significativamente la salud mental de los ciudadanos, reduciendo los niveles de cortisol, la hormona del estrés. Una ciudad verde es, en definitiva, una ciudad más habitable.\n  ",
+  "content": "## Lectura: El auge del teletrabajo\n\n",
   "exercises": [
     {
-      "id": "b2-ex1",
+      "id": "ex1",
       "question": "@[Textos Plataforma B1-C2.md] indica que las ventajas iniciales del teletrabajo son:",
       "options": [
         "La falta de control de las empresas",
@@ -15835,7 +16929,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex2",
+      "id": "ex2",
       "question": "¿Cuál es el principal obstáculo psicológico mencionado sobre el teletrabajo?",
       "options": [
         "La difusa línea entre la vida laboral y la personal",
@@ -15845,7 +16939,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 0
     },
     {
-      "id": "b2-ex3",
+      "id": "ex3",
       "question": "¿Cómo intentan las empresas solucionar el problema del aislamiento social?",
       "options": [
         "Prohibiendo el teletrabajo por completo",
@@ -15855,7 +16949,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex4",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Auge\"? <trans en=\"(What is the correct translation of \\\"Auge\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Auge\\\"؟)\" uk=\"(Який правильний переклад \\\"Auge\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Auge\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Rise / Boom <trans en=\"(Rise / Boom)\" ar=\"(ذروة / صعود)\" uk=\"(Сплеск / Бум)\" fr=\"(Essor)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Teletrabajo\"? <trans en=\"(What is the correct translation of \\\"Teletrabajo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Teletrabajo\\\"؟)\" uk=\"(Який правильний переклад \\\"Teletrabajo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Teletrabajo\\\"?)\" />",
+      "options": [
+        "Teleworking / Remote work <trans en=\"(Teleworking / Remote work)\" ar=\"(العمل عن بعد)\" uk=\"(Дистанційна робота)\" fr=\"(Télétravail)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Panorama laboral\"? <trans en=\"(What is the correct translation of \\\"Panorama laboral\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Panorama laboral\\\"؟)\" uk=\"(Який правильний переклад \\\"Panorama laboral\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Panorama laboral\\\"?)\" />",
+      "options": [
+        "Labor landscape <trans en=\"(Labor landscape)\" ar=\"(المشهد العمالي)\" uk=\"(Ринок праці)\" fr=\"(Paysage professionnel)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Flexibilidad horaria\"? <trans en=\"(What is the correct translation of \\\"Flexibilidad horaria\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Flexibilidad horaria\\\"؟)\" uk=\"(Який правильний переклад \\\"Flexibilidad horaria\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Flexibilidad horaria\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Flexible hours <trans en=\"(Flexible hours)\" ar=\"(مرونة الوقت)\" uk=\"(Гнучкий графік)\" fr=\"(Flexibilité horaire)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Ahorro\"? <trans en=\"(What is the correct translation of \\\"Ahorro\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Ahorro\\\"؟)\" uk=\"(Який правильний переклад \\\"Ahorro\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Ahorro\\\"?)\" />",
+      "options": [
+        "Savings <trans en=\"(Savings)\" ar=\"(توفير)\" uk=\"(Заощадження)\" fr=\"(Économie)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Desplazamiento\"? <trans en=\"(What is the correct translation of \\\"Desplazamiento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desplazamiento\\\"؟)\" uk=\"(Який правильний переклад \\\"Desplazamiento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desplazamiento\\\"?)\" />",
+      "options": [
+        "Commuting / Travel <trans en=\"(Commuting / Travel)\" ar=\"(التنقل)\" uk=\"(التنقل)\" fr=\"(Déplacement)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Obstáculo\"? <trans en=\"(What is the correct translation of \\\"Obstáculo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Obstáculo\\\"؟)\" uk=\"(Який правильний переклад \\\"Obstáculo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Obstáculo\\\"?)\" />",
+      "options": [
+        "Obstacle / Hurdle <trans en=\"(Obstacle / Hurdle)\" ar=\"(عائق)\" uk=\"(Перешкода)\" fr=\"(Obstacle)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Difuso\"? <trans en=\"(What is the correct translation of \\\"Difuso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Difuso\\\"؟)\" uk=\"(Який правильний переклад \\\"Difuso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Difuso\\\"?)\" />",
+      "options": [
+        "Blurry / Diffuse <trans en=\"(Blurry / Diffuse)\" ar=\"(غامض / غير واضح)\" uk=\"(Розмитий)\" fr=\"(Flou)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Desconectar\"? <trans en=\"(What is the correct translation of \\\"Desconectar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desconectar\\\"؟)\" uk=\"(Який правильний переклад \\\"Desconectar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desconectar\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To disconnect <trans en=\"(To disconnect)\" ar=\"(فصل / قطع الاتصال)\" uk=\"(Відключитися)\" fr=\"(Se déconnecter)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Aislamiento social\"? <trans en=\"(What is the correct translation of \\\"Aislamiento social\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Aislamiento social\\\"؟)\" uk=\"(Який правильний переклад \\\"Aislamiento social\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Aislamiento social\\\"?)\" />",
+      "options": [
+        "Social isolation <trans en=\"(Social isolation)\" ar=\"(عزلة اجتماعية)\" uk=\"(Соціальна ізоляція)\" fr=\"(Isolement social)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Auge\"? <trans en=\"(What is the correct translation of \\\"Auge\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Auge\\\"؟)\" uk=\"(Який правильний переклад \\\"Auge\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Auge\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Rise / Boom <trans en=\"(Rise / Boom)\" ar=\"(ذروة / صعود)\" uk=\"(Сплеск / Бум)\" fr=\"(Essor)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Teletrabajo\"? <trans en=\"(What is the correct translation of \\\"Teletrabajo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Teletrabajo\\\"؟)\" uk=\"(Який правильний переклад \\\"Teletrabajo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Teletrabajo\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Teleworking / Remote work <trans en=\"(Teleworking / Remote work)\" ar=\"(العمل عن بعد)\" uk=\"(Дистанційна робота)\" fr=\"(Télétravail)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Panorama laboral\"? <trans en=\"(What is the correct translation of \\\"Panorama laboral\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Panorama laboral\\\"؟)\" uk=\"(Який правильний переклад \\\"Panorama laboral\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Panorama laboral\\\"?)\" />",
+      "options": [
+        "Labor landscape <trans en=\"(Labor landscape)\" ar=\"(المشهد العمالي)\" uk=\"(Ринок праці)\" fr=\"(Paysage professionnel)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Flexibilidad horaria\"? <trans en=\"(What is the correct translation of \\\"Flexibilidad horaria\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Flexibilidad horaria\\\"؟)\" uk=\"(Який правильний переклад \\\"Flexibilidad horaria\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Flexibilidad horaria\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Flexible hours <trans en=\"(Flexible hours)\" ar=\"(مرونة الوقت)\" uk=\"(Гнучкий графік)\" fr=\"(Flexibilité horaire)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Ahorro\"? <trans en=\"(What is the correct translation of \\\"Ahorro\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Ahorro\\\"؟)\" uk=\"(Який правильний переклад \\\"Ahorro\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Ahorro\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Savings <trans en=\"(Savings)\" ar=\"(توفير)\" uk=\"(Заощадження)\" fr=\"(Économie)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Desplazamiento\"? <trans en=\"(What is the correct translation of \\\"Desplazamiento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desplazamiento\\\"؟)\" uk=\"(Який правильний переклад \\\"Desplazamiento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desplazamiento\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Commuting / Travel <trans en=\"(Commuting / Travel)\" ar=\"(التنقل)\" uk=\"(التنقل)\" fr=\"(Déplacement)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Obstáculo\"? <trans en=\"(What is the correct translation of \\\"Obstáculo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Obstáculo\\\"؟)\" uk=\"(Який правильний переклад \\\"Obstáculo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Obstáculo\\\"?)\" />",
+      "options": [
+        "Obstacle / Hurdle <trans en=\"(Obstacle / Hurdle)\" ar=\"(عائق)\" uk=\"(Перешкода)\" fr=\"(Obstacle)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+  {
+  "id": "b2-comp-isla-pascua",
+  "topic": "Comprensión B2",
+  "title": "Lectura: El misterio de la isla de Pascua",
+  "level": "B2",
+  "category": "Comprensión",
+  "description": "La historia de las estatuas moáis y cómo su construcción provocó una crisis ambiental.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🗿",
+  "color": "#FEFCBF",
+  "vocabulary": [
+    {
+      "word": "Mitigar",
+      "translations": {
+        "en": "To mitigate / Ease",
+        "ar": "تخفيف / تسكين",
+        "uk": "Пом'якшувати",
+        "fr": "Mitiger / Atténuer"
+      },
+      "emoji": "🩹",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Integración",
+      "translations": {
+        "en": "Integration",
+        "ar": "دمج",
+        "uk": "Інтеграція",
+        "fr": "Intégration"
+      },
+      "emoji": "🤝",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Moáis",
+      "translations": {
+        "en": "Moai statues",
+        "ar": "تماثيل مواي",
+        "uk": "Статуї моаї",
+        "fr": "Moaïs"
+      },
+      "emoji": "🗿",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Escultura de piedra",
+      "translations": {
+        "en": "Stone sculpture",
+        "ar": "منحوتة حجرية",
+        "uk": "Кам'яна скульптура",
+        "fr": "Sculpture en pierre"
+      },
+      "emoji": "🗿",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desconcertar",
+      "translations": {
+        "en": "To puzzle / Baffle",
+        "ar": "يربك / يحير",
+        "uk": "Бентежити",
+        "fr": "Déconcerter"
+      },
+      "emoji": "😕",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Arqueólogos",
+      "translations": {
+        "en": "Archaeologists",
+        "ar": "علماء الآثار",
+        "uk": "Археологи",
+        "fr": "Archéologues"
+      },
+      "emoji": "🤠",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Toneladas",
+      "translations": {
+        "en": "Tons",
+        "ar": "أطنان",
+        "uk": "Тонни",
+        "fr": "Tonnes"
+      },
+      "emoji": "🏋️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Troncos de árboles",
+      "translations": {
+        "en": "Tree trunks",
+        "ar": "جذوع الأشجار",
+        "uk": "Стовбури дерев",
+        "fr": "Troncs d'arbres"
+      },
+      "emoji": "🪵",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Deforestación",
+      "translations": {
+        "en": "Deforestation",
+        "ar": "إزالة الغابات",
+        "uk": "Вирубка лісів",
+        "fr": "Déforestation"
+      },
+      "emoji": "🪓",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Escasear",
+      "translations": {
+        "en": "To grow scarce",
+        "ar": "يشح / يقل",
+        "uk": "Бути в дефіциті",
+        "fr": "Se raréfier"
+      },
+      "emoji": "📉",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Auge",
+      "translations": {
+        "en": "Rise / Boom",
+        "ar": "ذروة / صعود",
+        "uk": "Сплеск / Бум",
+        "fr": "Essor"
+      },
+      "emoji": "📈",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Teletrabajo",
+      "translations": {
+        "en": "Teleworking / Remote work",
+        "ar": "العمل عن بعد",
+        "uk": "Дистанційна робота",
+        "fr": "Télétravail"
+      },
+      "emoji": "💻",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Panorama laboral",
+      "translations": {
+        "en": "Labor landscape",
+        "ar": "المشهد العمالي",
+        "uk": "Ринок праці",
+        "fr": "Paysage professionnel"
+      },
+      "emoji": "💼",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Flexibilidad horaria",
+      "translations": {
+        "en": "Flexible hours",
+        "ar": "مرونة الوقت",
+        "uk": "Гнучкий графік",
+        "fr": "Flexibilité horaire"
+      },
+      "emoji": "⏰",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Ahorro",
+      "translations": {
+        "en": "Savings",
+        "ar": "توفير",
+        "uk": "Заощадження",
+        "fr": "Économie"
+      },
+      "emoji": "🐷",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desplazamiento",
+      "translations": {
+        "en": "Commuting / Travel",
+        "ar": "التنقل",
+        "uk": "التنقل",
+        "fr": "Déplacement"
+      },
+      "emoji": "🚌",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Obstáculo",
+      "translations": {
+        "en": "Obstacle / Hurdle",
+        "ar": "عائق",
+        "uk": "Перешкода",
+        "fr": "Obstacle"
+      },
+      "emoji": "🚧",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Difuso",
+      "translations": {
+        "en": "Blurry / Diffuse",
+        "ar": "غامض / غير واضح",
+        "uk": "Розмитий",
+        "fr": "Flou"
+      },
+      "emoji": "🌫️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desconectar",
+      "translations": {
+        "en": "To disconnect",
+        "ar": "فصل / قطع الاتصال",
+        "uk": "Відключитися",
+        "fr": "Se déconnecter"
+      },
+      "emoji": "🔌",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Aislamiento social",
+      "translations": {
+        "en": "Social isolation",
+        "ar": "عزلة اجتماعية",
+        "uk": "Соціальна ізоляція",
+        "fr": "Isolement social"
+      },
+      "emoji": "👤",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Colapso",
+      "translations": {
+        "en": "Collapse",
+        "ar": "انهيار",
+        "uk": "Колапс",
+        "fr": "Effondrement"
+      },
+      "emoji": "💥",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Conservación",
+      "translations": {
+        "en": "Conservation",
+        "ar": "حفظ / صيانة",
+        "uk": "Збереження",
+        "fr": "Conservation"
+      },
+      "emoji": "🛡️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Asfalto",
+      "translations": {
+        "en": "Asphalt",
+        "ar": "أسفلت",
+        "uk": "Асфальт",
+        "fr": "Asphalte"
+      },
+      "emoji": "🛣️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Hormigón",
+      "translations": {
+        "en": "Concrete",
+        "ar": "خرسانة",
+        "uk": "Бетон",
+        "fr": "Béton"
+      },
+      "emoji": "🧱",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Biodiversidad urbana",
+      "translations": {
+        "en": "Urban biodiversity",
+        "ar": "التنوع البيولوجي الحضري",
+        "uk": "Міське біорізноманіття",
+        "fr": "Biodiversité urbaine"
+      },
+      "emoji": "🦋",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Corredor verde",
+      "translations": {
+        "en": "Green corridor",
+        "ar": "ممر أخضر",
+        "uk": "Зелений коридор",
+        "fr": "Corridor vert"
+      },
+      "emoji": "🌳",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Refugio",
+      "translations": {
+        "en": "Refuge / Shelter",
+        "ar": "ملجأ",
+        "uk": "Притулок",
+        "fr": "Refuge"
+      },
+      "emoji": "🏠",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Cortisol",
+      "translations": {
+        "en": "Cortisol",
+        "ar": "كورتيزول",
+        "uk": "Кортизол",
+        "fr": "Cortisol"
+      },
+      "emoji": "🧬",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Estrés",
+      "translations": {
+        "en": "Stress",
+        "ar": "توتر / ضغط عصبي",
+        "uk": "Стрес",
+        "fr": "Stress"
+      },
+      "emoji": "🤯",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Habitable",
+      "translations": {
+        "en": "Livable / Habitable",
+        "ar": "صالح للسكن",
+        "uk": "Придатний для життя",
+        "fr": "Habitable"
+      },
+      "emoji": "🛋️",
+      "color": "#FAF9F6"
+    }
+  ],
+  "content": "## Lectura: El misterio de la isla de Pascua\n\nEl auge del teletrabajo y sus desafíos\n\nLa adopción masiva del teletrabajo ha transformado por completo el panorama laboral contemporáneo. En un principio, tanto empresas como empleados aplaudieron esta modalidad debido a la flexibilidad horaria y al ahorro de tiempo en desplazamientos. Sin embargo, a medida que el modelo se ha consolidado, han comenzado a surgir desafíos psicológicos y logísticos que no se habían previsto adecuadamente.  \nEl principal obstáculo es la difusa línea que separa la vida laboral de la personal. Al trabajar en el mismo espacio donde se descansa, muchos profesionales confiesan que les resulta casi imposible \"desconectar\" al final de la jornada. Esto ha provocado un incremento en los casos de estrés laboral y una sensación de aislamiento social que las empresas intentan mitigar mediante reuniones híbridas y actividades de integración.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿En qué época aproximada se tallaron los moáis de la isla de Pascua?",
       "options": [
         "En el siglo XX",
@@ -15865,7 +17476,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex5",
+      "id": "ex2",
       "question": "¿Cuál es el enigma arqueológico principal que rodea a estas estatuas?",
       "options": [
         "Cómo lograron esculpir la roca blanda",
@@ -15875,7 +17486,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex6",
+      "id": "ex3",
       "question": "¿Qué consecuencia ambiental provocó el uso excesivo de madera para mover los moáis?",
       "options": [
         "La contaminación del mar circundante",
@@ -15885,7 +17496,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex7",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Mitigar\"? <trans en=\"(What is the correct translation of \\\"Mitigar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Mitigar\\\"؟)\" uk=\"(Який правильний переклад \\\"Mitigar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Mitigar\\\"?)\" />",
+      "options": [
+        "To mitigate / Ease <trans en=\"(To mitigate / Ease)\" ar=\"(تخفيف / تسكين)\" uk=\"(Пом'якшувати)\" fr=\"(Mitiger / Atténuer)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Integración\"? <trans en=\"(What is the correct translation of \\\"Integración\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Integración\\\"؟)\" uk=\"(Який правильний переклад \\\"Integración\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Integración\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Integration <trans en=\"(Integration)\" ar=\"(دمج)\" uk=\"(Інтеграція)\" fr=\"(Intégration)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Moáis\"? <trans en=\"(What is the correct translation of \\\"Moáis\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Moáis\\\"؟)\" uk=\"(Який правильний переклад \\\"Moáis\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Moáis\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Moai statues <trans en=\"(Moai statues)\" ar=\"(تماثيل مواي)\" uk=\"(Статуї моаї)\" fr=\"(Moaïs)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Escultura de piedra\"? <trans en=\"(What is the correct translation of \\\"Escultura de piedra\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Escultura de piedra\\\"؟)\" uk=\"(Який правильний переклад \\\"Escultura de piedra\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Escultura de piedra\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Stone sculpture <trans en=\"(Stone sculpture)\" ar=\"(منحوتة حجرية)\" uk=\"(Кам'яна скульптура)\" fr=\"(Sculpture en pierre)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Desconcertar\"? <trans en=\"(What is the correct translation of \\\"Desconcertar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desconcertar\\\"؟)\" uk=\"(Який правильний переклад \\\"Desconcertar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desconcertar\\\"?)\" />",
+      "options": [
+        "To puzzle / Baffle <trans en=\"(To puzzle / Baffle)\" ar=\"(يربك / يحير)\" uk=\"(Бентежити)\" fr=\"(Déconcerter)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Arqueólogos\"? <trans en=\"(What is the correct translation of \\\"Arqueólogos\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Arqueólogos\\\"؟)\" uk=\"(Який правильний переклад \\\"Arqueólogos\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Arqueólogos\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Archaeologists <trans en=\"(Archaeologists)\" ar=\"(علماء الآثار)\" uk=\"(Археологи)\" fr=\"(Archéologues)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Toneladas\"? <trans en=\"(What is the correct translation of \\\"Toneladas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Toneladas\\\"؟)\" uk=\"(Який правильний переклад \\\"Toneladas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Toneladas\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Tons <trans en=\"(Tons)\" ar=\"(أطنان)\" uk=\"(Тонни)\" fr=\"(Tonnes)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Troncos de árboles\"? <trans en=\"(What is the correct translation of \\\"Troncos de árboles\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Troncos de árboles\\\"؟)\" uk=\"(Який правильний переклад \\\"Troncos de árboles\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Troncos de árboles\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Tree trunks <trans en=\"(Tree trunks)\" ar=\"(جذوع الأشجار)\" uk=\"(Стовбури дерев)\" fr=\"(Troncs d'arbres)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Deforestación\"? <trans en=\"(What is the correct translation of \\\"Deforestación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Deforestación\\\"؟)\" uk=\"(Який правильний переклад \\\"Deforestación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Deforestación\\\"?)\" />",
+      "options": [
+        "Deforestation <trans en=\"(Deforestation)\" ar=\"(إزالة الغابات)\" uk=\"(Вирубка лісів)\" fr=\"(Déforestation)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Escasear\"? <trans en=\"(What is the correct translation of \\\"Escasear\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Escasear\\\"؟)\" uk=\"(Який правильний переклад \\\"Escasear\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Escasear\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "To grow scarce <trans en=\"(To grow scarce)\" ar=\"(يشح / يقل)\" uk=\"(Бути в дефіциті)\" fr=\"(Se raréfier)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Mitigar\"? <trans en=\"(What is the correct translation of \\\"Mitigar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Mitigar\\\"؟)\" uk=\"(Який правильний переклад \\\"Mitigar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Mitigar\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To mitigate / Ease <trans en=\"(To mitigate / Ease)\" ar=\"(تخفيف / تسكين)\" uk=\"(Пом'якшувати)\" fr=\"(Mitiger / Atténuer)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Integración\"? <trans en=\"(What is the correct translation of \\\"Integración\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Integración\\\"؟)\" uk=\"(Який правильний переклад \\\"Integración\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Integración\\\"?)\" />",
+      "options": [
+        "Integration <trans en=\"(Integration)\" ar=\"(دمج)\" uk=\"(Інтеграція)\" fr=\"(Intégration)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Moáis\"? <trans en=\"(What is the correct translation of \\\"Moáis\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Moáis\\\"؟)\" uk=\"(Який правильний переклад \\\"Moáis\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Moáis\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Moai statues <trans en=\"(Moai statues)\" ar=\"(تماثيل مواي)\" uk=\"(Статуї моаї)\" fr=\"(Moaïs)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Escultura de piedra\"? <trans en=\"(What is the correct translation of \\\"Escultura de piedra\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Escultura de piedra\\\"؟)\" uk=\"(Який правильний переклад \\\"Escultura de piedra\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Escultura de piedra\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Stone sculpture <trans en=\"(Stone sculpture)\" ar=\"(منحوتة حجرية)\" uk=\"(Кам'яна скульптура)\" fr=\"(Sculpture en pierre)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Desconcertar\"? <trans en=\"(What is the correct translation of \\\"Desconcertar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desconcertar\\\"؟)\" uk=\"(Який правильний переклад \\\"Desconcertar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desconcertar\\\"?)\" />",
+      "options": [
+        "To puzzle / Baffle <trans en=\"(To puzzle / Baffle)\" ar=\"(يربك / يحير)\" uk=\"(Бентежити)\" fr=\"(Déconcerter)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Arqueólogos\"? <trans en=\"(What is the correct translation of \\\"Arqueólogos\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Arqueólogos\\\"؟)\" uk=\"(Який правильний переклад \\\"Arqueólogos\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Arqueólogos\\\"?)\" />",
+      "options": [
+        "Archaeologists <trans en=\"(Archaeologists)\" ar=\"(علماء الآثار)\" uk=\"(Археологи)\" fr=\"(Archéologues)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Toneladas\"? <trans en=\"(What is the correct translation of \\\"Toneladas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Toneladas\\\"؟)\" uk=\"(Який правильний переклад \\\"Toneladas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Toneladas\\\"?)\" />",
+      "options": [
+        "Tons <trans en=\"(Tons)\" ar=\"(أطنان)\" uk=\"(Тонни)\" fr=\"(Tonnes)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+  {
+  "id": "b2-comp-biodiversidad",
+  "topic": "Comprensión B2",
+  "title": "Lectura: Biodiversidad urbana",
+  "level": "B2",
+  "category": "Comprensión",
+  "description": "Cómo las zonas verdes y la biodiversidad en las ciudades mejoran la salud mental de los ciudadanos.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🌳",
+  "color": "#E2F3E7",
+  "vocabulary": [
+    {
+      "word": "Colapso",
+      "translations": {
+        "en": "Collapse",
+        "ar": "انهيار",
+        "uk": "Колапс",
+        "fr": "Effondrement"
+      },
+      "emoji": "💥",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Conservación",
+      "translations": {
+        "en": "Conservation",
+        "ar": "حفظ / صيانة",
+        "uk": "Збереження",
+        "fr": "Conservation"
+      },
+      "emoji": "🛡️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Asfalto",
+      "translations": {
+        "en": "Asphalt",
+        "ar": "أسفلت",
+        "uk": "Асфальт",
+        "fr": "Asphalte"
+      },
+      "emoji": "🛣️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Hormigón",
+      "translations": {
+        "en": "Concrete",
+        "ar": "خرسانة",
+        "uk": "Бетон",
+        "fr": "Béton"
+      },
+      "emoji": "🧱",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Biodiversidad urbana",
+      "translations": {
+        "en": "Urban biodiversity",
+        "ar": "التنوع البيولوجي الحضري",
+        "uk": "Міське біорізноманіття",
+        "fr": "Biodiversité urbaine"
+      },
+      "emoji": "🦋",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Corredor verde",
+      "translations": {
+        "en": "Green corridor",
+        "ar": "ممر أخضر",
+        "uk": "Зелений коридор",
+        "fr": "Corridor vert"
+      },
+      "emoji": "🌳",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Refugio",
+      "translations": {
+        "en": "Refuge / Shelter",
+        "ar": "ملجأ",
+        "uk": "Притулок",
+        "fr": "Refuge"
+      },
+      "emoji": "🏠",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Cortisol",
+      "translations": {
+        "en": "Cortisol",
+        "ar": "كورتيزول",
+        "uk": "Кортизол",
+        "fr": "Cortisol"
+      },
+      "emoji": "🧬",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Estrés",
+      "translations": {
+        "en": "Stress",
+        "ar": "توتر / ضغط عصبي",
+        "uk": "Стрес",
+        "fr": "Stress"
+      },
+      "emoji": "🤯",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Habitable",
+      "translations": {
+        "en": "Livable / Habitable",
+        "ar": "صالح للسكن",
+        "uk": "Придатний для життя",
+        "fr": "Habitable"
+      },
+      "emoji": "🛋️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Auge",
+      "translations": {
+        "en": "Rise / Boom",
+        "ar": "ذروة / صعود",
+        "uk": "Сплеск / Бум",
+        "fr": "Essor"
+      },
+      "emoji": "📈",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Teletrabajo",
+      "translations": {
+        "en": "Teleworking / Remote work",
+        "ar": "العمل عن بعد",
+        "uk": "Дистанційна робота",
+        "fr": "Télétravail"
+      },
+      "emoji": "💻",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Panorama laboral",
+      "translations": {
+        "en": "Labor landscape",
+        "ar": "المشهد العمالي",
+        "uk": "Ринок праці",
+        "fr": "Paysage professionnel"
+      },
+      "emoji": "💼",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Flexibilidad horaria",
+      "translations": {
+        "en": "Flexible hours",
+        "ar": "مرونة الوقت",
+        "uk": "Гнучкий графік",
+        "fr": "Flexibilité horaire"
+      },
+      "emoji": "⏰",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Ahorro",
+      "translations": {
+        "en": "Savings",
+        "ar": "توفير",
+        "uk": "Заощадження",
+        "fr": "Économie"
+      },
+      "emoji": "🐷",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desplazamiento",
+      "translations": {
+        "en": "Commuting / Travel",
+        "ar": "التنقل",
+        "uk": "التنقل",
+        "fr": "Déplacement"
+      },
+      "emoji": "🚌",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Obstáculo",
+      "translations": {
+        "en": "Obstacle / Hurdle",
+        "ar": "عائق",
+        "uk": "Перешкода",
+        "fr": "Obstacle"
+      },
+      "emoji": "🚧",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Difuso",
+      "translations": {
+        "en": "Blurry / Diffuse",
+        "ar": "غامض / غير واضح",
+        "uk": "Розмитий",
+        "fr": "Flou"
+      },
+      "emoji": "🌫️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desconectar",
+      "translations": {
+        "en": "To disconnect",
+        "ar": "فصل / قطع الاتصال",
+        "uk": "Відключитися",
+        "fr": "Se déconnecter"
+      },
+      "emoji": "🔌",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Aislamiento social",
+      "translations": {
+        "en": "Social isolation",
+        "ar": "عزلة اجتماعية",
+        "uk": "Соціальна ізоляція",
+        "fr": "Isolement social"
+      },
+      "emoji": "👤",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Mitigar",
+      "translations": {
+        "en": "To mitigate / Ease",
+        "ar": "تخفيف / تسكين",
+        "uk": "Пом'якшувати",
+        "fr": "Mitiger / Atténuer"
+      },
+      "emoji": "🩹",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Integración",
+      "translations": {
+        "en": "Integration",
+        "ar": "دمج",
+        "uk": "Інтеграція",
+        "fr": "Intégration"
+      },
+      "emoji": "🤝",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Moáis",
+      "translations": {
+        "en": "Moai statues",
+        "ar": "تماثيل مواي",
+        "uk": "Статуї моаї",
+        "fr": "Moaïs"
+      },
+      "emoji": "🗿",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Escultura de piedra",
+      "translations": {
+        "en": "Stone sculpture",
+        "ar": "منحوتة حجرية",
+        "uk": "Кам'яна скульптура",
+        "fr": "Sculpture en pierre"
+      },
+      "emoji": "🗿",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Desconcertar",
+      "translations": {
+        "en": "To puzzle / Baffle",
+        "ar": "يربك / يحير",
+        "uk": "Бентежити",
+        "fr": "Déconcerter"
+      },
+      "emoji": "😕",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Arqueólogos",
+      "translations": {
+        "en": "Archaeologists",
+        "ar": "علماء الآثار",
+        "uk": "Археологи",
+        "fr": "Archéologues"
+      },
+      "emoji": "🤠",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Toneladas",
+      "translations": {
+        "en": "Tons",
+        "ar": "أطنان",
+        "uk": "Тонни",
+        "fr": "Tonnes"
+      },
+      "emoji": "🏋️",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Troncos de árboles",
+      "translations": {
+        "en": "Tree trunks",
+        "ar": "جذوع الأشجار",
+        "uk": "Стовбури дерев",
+        "fr": "Troncs d'arbres"
+      },
+      "emoji": "🪵",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Deforestación",
+      "translations": {
+        "en": "Deforestation",
+        "ar": "إزالة الغابات",
+        "uk": "Вирубка лісів",
+        "fr": "Déforestation"
+      },
+      "emoji": "🪓",
+      "color": "#FAF9F6"
+    },
+    {
+      "word": "Escasear",
+      "translations": {
+        "en": "To grow scarce",
+        "ar": "يشح / يقل",
+        "uk": "Бути в дефіциті",
+        "fr": "Se raréfier"
+      },
+      "emoji": "📉",
+      "color": "#FAF9F6"
+    }
+  ],
+  "content": "## Lectura: Biodiversidad urbana\n\nEl misterio de la isla de Pascua\n\nLa isla de Pascua, ubicada en el océano Pacífico, es famosa mundialmente por sus imponentes estatuas de piedra conocidas como moáis. Estas gigantescas esculturas, talladas por los antiguos habitantes de la isla entre los siglos VIII y XVI, han desconcertado a los arqueólogos durante generaciones. La gran pregunta sigue siendo cómo una sociedad con tecnología limitada logró transportar bloques de piedra de varias toneladas a lo largo de kilómetros.  \nUna de las teorías más aceptadas sugiere que los isleños utilizaban troncos de árboles como rodillos para mover las estructuras. Lamentablemente, esta intensa actividad, sumada a la sobrepoblación, provocó una deforestación severa en la isla. Sin árboles, los recursos escasearon, lo que desencadenó una crisis social que colapsó la civilización antes de la llegada de los primeros exploradores europeos.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿Qué funciones cruciales cumple la biodiversidad en las ciudades?",
       "options": [
         "Aumentar el tráfico vehicular nocturno",
@@ -15895,7 +18023,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex8",
+      "id": "ex2",
       "question": "¿Qué es un 'corredor verde' según la lectura?",
       "options": [
         "Una carretera para coches eléctricos",
@@ -15905,7 +18033,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex9",
+      "id": "ex3",
       "question": "¿Qué impacto tiene la presencia de áreas verdes sobre la hormona cortisol?",
       "options": [
         "La incrementa notablemente",
@@ -15915,128 +18043,188 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex10",
-      "question": "El antónimo de 'ahorro' es...",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Colapso\"? <trans en=\"(What is the correct translation of \\\"Colapso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Colapso\\\"؟)\" uk=\"(Який правильний переклад \\\"Colapso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Colapso\\\"?)\" />",
       "options": [
-        "gasto / despilfarro",
-        "inversión",
-        "presupuesto"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": "b2-ex11",
-      "question": "El sinónimo de la palabra 'mitigar' es...",
-      "options": [
-        "aumentar",
-        "atenuar / suavizar",
-        "provocar"
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Collapse <trans en=\"(Collapse)\" ar=\"(انهيار)\" uk=\"(Колапс)\" fr=\"(Effondrement)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "b2-ex12",
-      "question": "Completa la frase: 'El hormigón y el _______ son materiales comunes en la arquitectura urbana.'",
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Conservación\"? <trans en=\"(What is the correct translation of \\\"Conservación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Conservación\\\"؟)\" uk=\"(Який правильний переклад \\\"Conservación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Conservación\\\"?)\" />",
       "options": [
-        "cacao",
-        "asfalto",
-        "rodillo"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex13",
-      "question": "Si los recursos en la isla eran limitados, significa que empezaron a...",
-      "options": [
-        "aumentar",
-        "escasear",
-        "consolidarse"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex14",
-      "question": "El profesional que se encarga del estudio de civilizaciones antiguas a través de restos materiales es el...",
-      "options": [
-        "geólogo",
-        "arqueólogo",
-        "psicólogo"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex15",
-      "question": "Completa la frase: 'La crisis social desencadenó el _______ total del sistema.'",
-      "options": [
-        "refugio",
-        "colapso",
-        "desplazamiento"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex16",
-      "question": "¿Qué hormona está asociada con los niveles de estrés humano?",
-      "options": [
-        "Adrenalina",
-        "Cortisol",
-        "Insulina"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex17",
-      "question": "Un obstáculo que es 'difuso' se caracteriza por ser...",
-      "options": [
-        "muy claro y preciso",
-        "poco definido o confuso",
-        "sencillo de resolver"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex18",
-      "question": "El término 'habitable' se aplica a una casa que...",
-      "options": [
-        "está en ruinas",
-        "reúne las condiciones para vivir en ella",
-        "es extremadamente cara"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "b2-ex19",
-      "question": "Completa: 'El teletrabajo ha transformado el _______ laboral contemporáneo.'",
-      "options": [
-        "asfalto",
-        "auge",
-        "panorama"
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Conservation <trans en=\"(Conservation)\" ar=\"(حفظ / صيانة)\" uk=\"(Збереження)\" fr=\"(Conservation)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "b2-ex20",
-      "question": "Para mover las piedras gigantes, los isleños utilizaban troncos como...",
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Asfalto\"? <trans en=\"(What is the correct translation of \\\"Asfalto\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Asfalto\\\"؟)\" uk=\"(Який правильний переклад \\\"Asfalto\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Asfalto\\\"?)\" />",
       "options": [
-        "rodillos",
-        "moáis",
-        "corredores"
+        "Asphalt <trans en=\"(Asphalt)\" ar=\"(أسفلت)\" uk=\"(Асфальт)\" fr=\"(Asphalte)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Hormigón\"? <trans en=\"(What is the correct translation of \\\"Hormigón\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Hormigón\\\"؟)\" uk=\"(Який правильний переклад \\\"Hormigón\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Hormigón\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Concrete <trans en=\"(Concrete)\" ar=\"(خرسانة)\" uk=\"(Бетон)\" fr=\"(Béton)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Biodiversidad urbana\"? <trans en=\"(What is the correct translation of \\\"Biodiversidad urbana\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Biodiversidad urbana\\\"؟)\" uk=\"(Який правильний переклад \\\"Biodiversidad urbana\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Biodiversidad urbana\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Urban biodiversity <trans en=\"(Urban biodiversity)\" ar=\"(التنوع البيولوجي الحضري)\" uk=\"(Міське біорізноманіття)\" fr=\"(Biodiversité urbaine)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Corredor verde\"? <trans en=\"(What is the correct translation of \\\"Corredor verde\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Corredor verde\\\"؟)\" uk=\"(Який правильний переклад \\\"Corredor verde\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Corredor verde\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Green corridor <trans en=\"(Green corridor)\" ar=\"(ممر أخضر)\" uk=\"(Зелений коридор)\" fr=\"(Corridor vert)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Refugio\"? <trans en=\"(What is the correct translation of \\\"Refugio\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Refugio\\\"؟)\" uk=\"(Який правильний переклад \\\"Refugio\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Refugio\\\"?)\" />",
+      "options": [
+        "Refuge / Shelter <trans en=\"(Refuge / Shelter)\" ar=\"(ملجأ)\" uk=\"(Притулок)\" fr=\"(Refuge)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Cortisol\"? <trans en=\"(What is the correct translation of \\\"Cortisol\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cortisol\\\"؟)\" uk=\"(Який правильний переклад \\\"Cortisol\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cortisol\\\"?)\" />",
+      "options": [
+        "Cortisol <trans en=\"(Cortisol)\" ar=\"(كورتيزول)\" uk=\"(Кортизол)\" fr=\"(Cortisol)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Estrés\"? <trans en=\"(What is the correct translation of \\\"Estrés\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estrés\\\"؟)\" uk=\"(Який правильний переклад \\\"Estrés\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estrés\\\"?)\" />",
+      "options": [
+        "Stress <trans en=\"(Stress)\" ar=\"(توتر / ضغط عصبي)\" uk=\"(Стрес)\" fr=\"(Stress)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Habitable\"? <trans en=\"(What is the correct translation of \\\"Habitable\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Habitable\\\"؟)\" uk=\"(Який правильний переклад \\\"Habitable\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Habitable\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Livable / Habitable <trans en=\"(Livable / Habitable)\" ar=\"(صالح للسكن)\" uk=\"(Придатний для життя)\" fr=\"(Habitable)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Colapso\"? <trans en=\"(What is the correct translation of \\\"Colapso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Colapso\\\"؟)\" uk=\"(Який правильний переклад \\\"Colapso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Colapso\\\"?)\" />",
+      "options": [
+        "Collapse <trans en=\"(Collapse)\" ar=\"(انهيار)\" uk=\"(Колапс)\" fr=\"(Effondrement)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Conservación\"? <trans en=\"(What is the correct translation of \\\"Conservación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Conservación\\\"؟)\" uk=\"(Який правильний переклад \\\"Conservación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Conservación\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Conservation <trans en=\"(Conservation)\" ar=\"(حفظ / صيانة)\" uk=\"(Збереження)\" fr=\"(Conservation)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Asfalto\"? <trans en=\"(What is the correct translation of \\\"Asfalto\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Asfalto\\\"؟)\" uk=\"(Який правильний переклад \\\"Asfalto\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Asfalto\\\"?)\" />",
+      "options": [
+        "Asphalt <trans en=\"(Asphalt)\" ar=\"(أسفلت)\" uk=\"(Асфальт)\" fr=\"(Asphalte)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Hormigón\"? <trans en=\"(What is the correct translation of \\\"Hormigón\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Hormigón\\\"؟)\" uk=\"(Який правильний переклад \\\"Hormigón\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Hormigón\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Concrete <trans en=\"(Concrete)\" ar=\"(خرسانة)\" uk=\"(Бетон)\" fr=\"(Béton)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Biodiversidad urbana\"? <trans en=\"(What is the correct translation of \\\"Biodiversidad urbana\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Biodiversidad urbana\\\"؟)\" uk=\"(Який правильний переклад \\\"Biodiversidad urbana\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Biodiversidad urbana\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Urban biodiversity <trans en=\"(Urban biodiversity)\" ar=\"(التنوع البيولوجي الحضري)\" uk=\"(Міське біорізноманіття)\" fr=\"(Biodiversité urbaine)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Corredor verde\"? <trans en=\"(What is the correct translation of \\\"Corredor verde\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Corredor verde\\\"؟)\" uk=\"(Який правильний переклад \\\"Corredor verde\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Corredor verde\\\"?)\" />",
+      "options": [
+        "Green corridor <trans en=\"(Green corridor)\" ar=\"(ممر أخضر)\" uk=\"(Зелений коридор)\" fr=\"(Corridor vert)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Refugio\"? <trans en=\"(What is the correct translation of \\\"Refugio\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Refugio\\\"؟)\" uk=\"(Який правильний переклад \\\"Refugio\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Refugio\\\"?)\" />",
+      "options": [
+        "Refuge / Shelter <trans en=\"(Refuge / Shelter)\" ar=\"(ملجأ)\" uk=\"(Притулок)\" fr=\"(Refuge)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 0
     }
   ]
 },
 {
-  "id": "c1-lecturas-vida",
+  "id": "c1-comp-ia-arte",
   "topic": "Comprensión C1",
-  "title": "Comprensión Lectora: Ética, Urbanismo y Ciencia (C1)",
+  "title": "Lectura: Inteligencia Artificial en el arte",
   "level": "C1",
   "category": "Comprensión",
-  "description": "Lecturas sobre el dilema ético de la IA en el arte, el fenómeno de la gentrificación y el descubrimiento de la neuroplasticidad, con 30 términos de vocabulario y 20 preguntas.",
-  "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80",
-  "emoji": "📖",
-  "color": "#E2F3E7",
+  "description": "El debate encarnizado sobre los derechos de autor, el plagio y el valor del trabajo artístico humano.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🤖",
+  "color": "#FFF4E5",
   "vocabulary": [
     {
       "word": "Irrupción",
@@ -16369,10 +18557,10 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "color": "#E2F3E7"
     }
   ],
-  "content": "\n## Lectura 1: El dilema ético de la inteligencia artificial en el arte\n\nLa irrupción de algoritmos de inteligencia artificial capaces de generar imágenes, música y textos literarios de alta calidad ha desatado un debate encarnizado en el sector cultural. Mientras algunos tecnólogos celebran estas herramientas como una democratización de la creatividad, la comunidad artística denuncia de manera unánime el plagio sistemático que subyace en el entrenamiento de estos modelos de lenguaje, nutridos con millones de obras protegidas por derechos de autor sin consentimiento previo.  \nEl debate no es únicamente legal, sino también filosófico. Nos obliga a cuestionar la esencia misma de la autoría: ¿puede una máquina poseer intención artística o solo emula patrones probabilísticos? La falta de una legislación internacional clara deja a los creadores desprotegidos frente a un mercado que empieza a priorizar la inmediatez y el bajo coste de la producción automatizada en detrimento de la propiedad intelectual y el valor del trabajo humano.\n\n---\n\n## Lectura 2: El fenómeno de la gentrificación y el tejido social\n\nLa gentrificación se ha consolidado como uno de los procesos urbanísticos más controvertidos del siglo XXI. Este fenómeno, caracterizado por la rehabilitación de barrios históricos degradados y la consecuente afluencia de capital, suele traducirse a primera vista en una mejora estética y comercial de la zona. No obstante, este lavado de cara esconde una reality descarnada: el encarecimiento desorbitado de la vivienda y la expulsión residencial de los vecinos de toda la vida.  \nAl sustituir el comercio local tradicional por franquicias homogéneas y pisos turísticos, se erosiona la identidad cultural y el tejido social que daban vida al barrio. Los lazos de solidaridad vecinal se rompen, transformando vecindarios vibrantes en meros escaparates turísticos carentes de alma. El reto actual de las administraciones estriba en fomentar la inversión urbana sin que ello implique el desarraigo de las clases populares.\n\n---\n\n## Lectura 3: La importancia de la neuroplasticidad: el cerebro en constante evolución\n\nDurante décadas, la neurociencia sostuvo el dogma de que el cerebro humano adulto era una estructura estática e inmutable, cuyas conexiones neuronales se deterioraban irreversiblemente con la edad. Sin embargo, el descubrimiento de la neuroplasticidad revolucionó este paradigma al demostrar que el cerebro posee una capacidad asombrosa para reorganizarse, crear nuevas sinapsis e incluso generar neuronas a lo largo de toda la existencia en respuesta al aprendizaje y la experiencia.  \nEsta flexibilidad cognitiva implica que nuestras acciones y pensamientos moldean de forma literal la estructura física de nuestra mente. Actividades intelectualmente exigentes, el aprendizaje de un nuevo idioma o la práctica de la meditación actúan como catalizadores de esta remodelación arquitectónica cerebral. Por consiguiente, el envejecimiento cognitivo ya no se percibe como una decadencia pasiva, sino como un proceso maleable sobre el cual el individuo ejerce una influencia directa.\n  ",
+  "content": "## Lectura: Inteligencia Artificial en el arte\n\n",
   "exercises": [
     {
-      "id": "c1-ex1",
+      "id": "ex1",
       "question": "¿Cuál es el principal reproche legal de la comunidad artística al desarrollo de la IA?",
       "options": [
         "El alto coste energético de los servidores",
@@ -16382,7 +18570,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex2",
+      "id": "ex2",
       "question": "¿Qué interrogante filosófico plantea la generación de arte por algoritmos?",
       "options": [
         "Si el arte digital debe costar impuestos adicionales",
@@ -16392,7 +18580,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex3",
+      "id": "ex3",
       "question": "¿Por qué se encuentran desprotegidos los creadores frente a la IA?",
       "options": [
         "Políticamente no tienen derecho al voto",
@@ -16402,7 +18590,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex4",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Irrupción\"? <trans en=\"(What is the correct translation of \\\"Irrupción\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Irrupción\\\"؟)\" uk=\"(Який правильний переклад \\\"Irrupción\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Irrupción\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Emergence / Onset <trans en=\"(Emergence / Onset)\" ar=\"(اقتحام / ظهور مفاجئ)\" uk=\"(Поява / Вторгнення)\" fr=\"(Irruption)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Algoritmos\"? <trans en=\"(What is the correct translation of \\\"Algoritmos\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Algoritmos\\\"؟)\" uk=\"(Який правильний переклад \\\"Algoritmos\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Algoritmos\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Algorithms <trans en=\"(Algorithms)\" ar=\"(خوارزميات)\" uk=\"(Алгоритми)\" fr=\"(Algorithmes)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Encarnizado\"? <trans en=\"(What is the correct translation of \\\"Encarnizado\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Encarnizado\\\"؟)\" uk=\"(Який правильний переклад \\\"Encarnizado\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Encarnizado\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Fierce / Bitter <trans en=\"(Fierce / Bitter)\" ar=\"(ضاري / محتدم)\" uk=\"(Запеклий)\" fr=\"(Acharné)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Democratización\"? <trans en=\"(What is the correct translation of \\\"Democratización\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Democratización\\\"؟)\" uk=\"(Який правильний переклад \\\"Democratización\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Democratización\\\"?)\" />",
+      "options": [
+        "Democratization <trans en=\"(Democratization)\" ar=\"(إرساء الديمقراطية)\" uk=\"(Демократизація)\" fr=\"(Démocratisation)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Plagio sistemático\"? <trans en=\"(What is the correct translation of \\\"Plagio sistemático\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Plagio sistemático\\\"؟)\" uk=\"(Який правильний переклад \\\"Plagio sistemático\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Plagio sistemático\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Systematic plagiarism <trans en=\"(Systematic plagiarism)\" ar=\"(سرقة أدبية ممنهجة)\" uk=\"(Систематичний плагіат)\" fr=\"(Plagiat systématique)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Consentimiento\"? <trans en=\"(What is the correct translation of \\\"Consentimiento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Consentimiento\\\"؟)\" uk=\"(Який правильний переклад \\\"Consentimiento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Consentimiento\\\"?)\" />",
+      "options": [
+        "Consent <trans en=\"(Consent)\" ar=\"(موافقة)\" uk=\"(Згода)\" fr=\"(Consentement)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Autoría\"? <trans en=\"(What is the correct translation of \\\"Autoría\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Autoría\\\"؟)\" uk=\"(Який правильний переклад \\\"Autoría\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Autoría\\\"?)\" />",
+      "options": [
+        "Authorship <trans en=\"(Authorship)\" ar=\"(تأليف / ملكية العمل)\" uk=\"(Авторство)\" fr=\"(Auteur / Paternité)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Emular\"? <trans en=\"(What is the correct translation of \\\"Emular\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Emular\\\"؟)\" uk=\"(Який правильний переклад \\\"Emular\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Emular\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To emulate <trans en=\"(To emulate)\" ar=\"(يقلد / يحاكي)\" uk=\"(Емулювати)\" fr=\"(Émuler)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Detrimento\"? <trans en=\"(What is the correct translation of \\\"Detrimento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Detrimento\\\"؟)\" uk=\"(Який правильний переклад \\\"Detrimento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Detrimento\\\"?)\" />",
+      "options": [
+        "Detriment / Harm <trans en=\"(Detriment / Harm)\" ar=\"(ضرر / أذى)\" uk=\"(Шкода)\" fr=\"(Détriment)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Propiedad intelectual\"? <trans en=\"(What is the correct translation of \\\"Propiedad intelectual\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Propiedad intelectual\\\"؟)\" uk=\"(Який правильний переклад \\\"Propiedad intelectual\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Propiedad intelectual\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Intellectual property <trans en=\"(Intellectual property)\" ar=\"(الملكية الفكرية)\" uk=\"(Інтелектуальна власність)\" fr=\"(Propriété intellectuelle)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Irrupción\"? <trans en=\"(What is the correct translation of \\\"Irrupción\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Irrupción\\\"؟)\" uk=\"(Який правильний переклад \\\"Irrupción\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Irrupción\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Emergence / Onset <trans en=\"(Emergence / Onset)\" ar=\"(اقتحام / ظهور مفاجئ)\" uk=\"(Поява / Вторгнення)\" fr=\"(Irruption)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Algoritmos\"? <trans en=\"(What is the correct translation of \\\"Algoritmos\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Algoritmos\\\"؟)\" uk=\"(Який правильний переклад \\\"Algoritmos\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Algoritmos\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Algorithms <trans en=\"(Algorithms)\" ar=\"(خوارزميات)\" uk=\"(Алгоритми)\" fr=\"(Algorithmes)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Encarnizado\"? <trans en=\"(What is the correct translation of \\\"Encarnizado\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Encarnizado\\\"؟)\" uk=\"(Який правильний переклад \\\"Encarnizado\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Encarnizado\\\"?)\" />",
+      "options": [
+        "Fierce / Bitter <trans en=\"(Fierce / Bitter)\" ar=\"(ضاري / محتدم)\" uk=\"(Запеклий)\" fr=\"(Acharné)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Democratización\"? <trans en=\"(What is the correct translation of \\\"Democratización\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Democratización\\\"؟)\" uk=\"(Який правильний переклад \\\"Democratización\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Democratización\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Democratization <trans en=\"(Democratization)\" ar=\"(إرساء الديمقراطية)\" uk=\"(Демократизація)\" fr=\"(Démocratisation)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Plagio sistemático\"? <trans en=\"(What is the correct translation of \\\"Plagio sistemático\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Plagio sistemático\\\"؟)\" uk=\"(Який правильний переклад \\\"Plagio sistemático\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Plagio sistemático\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Systematic plagiarism <trans en=\"(Systematic plagiarism)\" ar=\"(سرقة أدبية ممنهجة)\" uk=\"(Систематичний плагіат)\" fr=\"(Plagiat systématique)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Consentimiento\"? <trans en=\"(What is the correct translation of \\\"Consentimiento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Consentimiento\\\"؟)\" uk=\"(Який правильний переклад \\\"Consentimiento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Consentimiento\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Consent <trans en=\"(Consent)\" ar=\"(موافقة)\" uk=\"(Згода)\" fr=\"(Consentement)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Autoría\"? <trans en=\"(What is the correct translation of \\\"Autoría\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Autoría\\\"؟)\" uk=\"(Який правильний переклад \\\"Autoría\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Autoría\\\"?)\" />",
+      "options": [
+        "Authorship <trans en=\"(Authorship)\" ar=\"(تأليف / ملكية العمل)\" uk=\"(Авторство)\" fr=\"(Auteur / Paternité)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+  {
+  "id": "c1-comp-gentrificacion",
+  "topic": "Comprensión C1",
+  "title": "Lectura: Gentrificación y tejido social",
+  "level": "C1",
+  "category": "Comprensión",
+  "description": "El proceso urbanístico que renueva barrios pero expulsa a los residentes históricos y destruye la identidad.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🏙️",
+  "color": "#E3EEF9",
+  "vocabulary": [
+    {
+      "word": "Gentrificación",
+      "translations": {
+        "en": "Gentrification",
+        "ar": "الgentrification (تغيير طبيعة الحي)",
+        "uk": "Джентрифікація",
+        "fr": "Gentrification"
+      },
+      "emoji": "🏢",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Controvertido",
+      "translations": {
+        "en": "Controversial",
+        "ar": "مثير للجدل",
+        "uk": "Суперечливий",
+        "fr": "Controversé"
+      },
+      "emoji": "🗣️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Rehabilitación",
+      "translations": {
+        "en": "Rehabilitation / Renovation",
+        "ar": "إعادة تأهيل",
+        "uk": "Реконструкція",
+        "fr": "Réhabilitation"
+      },
+      "emoji": "🛠️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Afluencia de capital",
+      "translations": {
+        "en": "Capital inflow",
+        "ar": "تدفق رأس المال",
+        "uk": "Приплив капіталу",
+        "fr": "Afflux de capitaux"
+      },
+      "emoji": "💵",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Estética",
+      "translations": {
+        "en": "Aesthetics",
+        "ar": "علم الجمال / جمالية",
+        "uk": "Естетика",
+        "fr": "Esthétique"
+      },
+      "emoji": "🎨",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Encarecimiento",
+      "translations": {
+        "en": "Price increase",
+        "ar": "ارتفاع الأسعار",
+        "uk": "Подорожчання",
+        "fr": "Renchérissement"
+      },
+      "emoji": "📈",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Expulsión",
+      "translations": {
+        "en": "Expulsion / Displacement",
+        "ar": "طرد / تهجير",
+        "uk": "Виселення",
+        "fr": "Expulsion"
+      },
+      "emoji": "🚪",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Homogéneas",
+      "translations": {
+        "en": "Homogeneous",
+        "ar": "متجانسة",
+        "uk": "Однорідні",
+        "fr": "Homogènes"
+      },
+      "emoji": "🥛",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Erosión",
+      "translations": {
+        "en": "Erosion",
+        "ar": "تآكل",
+        "uk": "Ерозія",
+        "fr": "Érosion"
+      },
+      "emoji": "🏔️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Tejido social",
+      "translations": {
+        "en": "Social fabric",
+        "ar": "النسيج الاجتماعي",
+        "uk": "Соціальна тканина",
+        "fr": "Tissu social"
+      },
+      "emoji": "🧶",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Irrupción",
+      "translations": {
+        "en": "Emergence / Onset",
+        "ar": "اقتحام / ظهور مفاجئ",
+        "uk": "Поява / Вторгнення",
+        "fr": "Irruption"
+      },
+      "emoji": "🌊",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Algoritmos",
+      "translations": {
+        "en": "Algorithms",
+        "ar": "خوارزميات",
+        "uk": "Алгоритми",
+        "fr": "Algorithmes"
+      },
+      "emoji": "🔢",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Encarnizado",
+      "translations": {
+        "en": "Fierce / Bitter",
+        "ar": "ضاري / محتدم",
+        "uk": "Запеклий",
+        "fr": "Acharné"
+      },
+      "emoji": "⚔️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Democratización",
+      "translations": {
+        "en": "Democratization",
+        "ar": "إرساء الديمقراطية",
+        "uk": "Демократизація",
+        "fr": "Démocratisation"
+      },
+      "emoji": "🗳️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Plagio sistemático",
+      "translations": {
+        "en": "Systematic plagiarism",
+        "ar": "سرقة أدبية ممنهجة",
+        "uk": "Систематичний плагіат",
+        "fr": "Plagiat systématique"
+      },
+      "emoji": "📋",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Consentimiento",
+      "translations": {
+        "en": "Consent",
+        "ar": "موافقة",
+        "uk": "Згода",
+        "fr": "Consentement"
+      },
+      "emoji": "✍️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Autoría",
+      "translations": {
+        "en": "Authorship",
+        "ar": "تأليف / ملكية العمل",
+        "uk": "Авторство",
+        "fr": "Auteur / Paternité"
+      },
+      "emoji": "✒️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Emular",
+      "translations": {
+        "en": "To emulate",
+        "ar": "يقلد / يحاكي",
+        "uk": "Емулювати",
+        "fr": "Émuler"
+      },
+      "emoji": "👥",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Detrimento",
+      "translations": {
+        "en": "Detriment / Harm",
+        "ar": "ضرر / أذى",
+        "uk": "Шкода",
+        "fr": "Détriment"
+      },
+      "emoji": "📉",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Propiedad intelectual",
+      "translations": {
+        "en": "Intellectual property",
+        "ar": "الملكية الفكرية",
+        "uk": "Інтелектуальна власність",
+        "fr": "Propriété intellectuelle"
+      },
+      "emoji": "🧠",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Desarraigo",
+      "translations": {
+        "en": "Uprooting / Alienation",
+        "ar": "اقتلاع من الجذور / الغربة",
+        "uk": "Відчуження / Втрата коріння",
+        "fr": "Déracinement"
+      },
+      "emoji": "🥀",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Neuroplasticidad",
+      "translations": {
+        "en": "Neuroplasticity",
+        "ar": "المرونة العصبية",
+        "uk": "Нейропластичність",
+        "fr": "Neuroplasticité"
+      },
+      "emoji": "🧠",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Estática",
+      "translations": {
+        "en": "Static",
+        "ar": "ساكنة / غير متغيرة",
+        "uk": "Статична",
+        "fr": "Statique"
+      },
+      "emoji": "⏸️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Inmutable",
+      "translations": {
+        "en": "Immutable",
+        "ar": "ثابتة لا تتغير",
+        "uk": "Незмінна",
+        "fr": "Immuable"
+      },
+      "emoji": "🔒",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Deteriorar",
+      "translations": {
+        "en": "To deteriorate",
+        "ar": "يتدهور",
+        "uk": "Погіршуватися",
+        "fr": "Se détériorer"
+      },
+      "emoji": "📉",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Sinapsis",
+      "translations": {
+        "en": "Synapses",
+        "ar": "مواضع التشابك العصبي",
+        "uk": "Синапси",
+        "fr": "Synapses"
+      },
+      "emoji": "⚡",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Flexible",
+      "translations": {
+        "en": "Flexible",
+        "ar": "مرن",
+        "uk": "Гнучкий",
+        "fr": "Flexible"
+      },
+      "emoji": "🤸",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Catalizadores",
+      "translations": {
+        "en": "Catalysts",
+        "ar": "محفزات",
+        "uk": "Каталізатори",
+        "fr": "Catalyseurs"
+      },
+      "emoji": "🧪",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Maleable",
+      "translations": {
+        "en": "Malleable / Adaptable",
+        "ar": "قابل للتشكيل",
+        "uk": "Пластичний",
+        "fr": "Malléable"
+      },
+      "emoji": "🏺",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Derechos de autor",
+      "translations": {
+        "en": "Copyright",
+        "ar": "حقوق الطبع والنشر",
+        "uk": "Авторські права",
+        "fr": "Droits d'auteur"
+      },
+      "emoji": "©️",
+      "color": "#E2F3E7"
+    }
+  ],
+  "content": "## Lectura: Gentrificación y tejido social\n\nEl dilema ético de la inteligencia artificial en el arte\n\nLa irrupción de algoritmos de inteligencia artificial capaces de generar imágenes, música y textos literarios de alta calidad ha desatado un debate encarnizado en el sector cultural. Mientras algunos tecnólogos celebran estas herramientas como una democratización de la creatividad, la comunidad artística denuncia de manera unánime el plagio sistemático que subyace en el entrenamiento de estos modelos de lenguaje, nutridos con millones de obras protegidas por derechos de autor sin consentimiento previo.  \nEl debate no es únicamente legal, sino también filosófico. Nos obliga a cuestionar la esencia misma de la autoría: ¿puede una máquina poseer intención artística o solo emula patrones probabilísticos? La falta de una legislación internacional clara deja a los creadores desprotegidos frente a un mercado que empieza a priorizar la inmediatez y el bajo coste de la producción automatizada en detrimento de la propiedad intelectual y el valor del trabajo humano.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿Qué efectos positivos y negativos contrapone el texto sobre la gentrificación?",
       "options": [
         "La reducción de la delincuencia y la escasez de vehículos",
@@ -16412,7 +19117,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex5",
+      "id": "ex2",
       "question": "¿Qué ocurre con la identidad de un barrio bajo este proceso de gentrificación?",
       "options": [
         "Se mantiene intacta y se fortalece",
@@ -16422,7 +19127,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex6",
+      "id": "ex3",
       "question": "¿Cuál es el desafío principal para las administraciones según la gentrificación?",
       "options": [
         "Atraer inversión urbana sin desarraigar a las clases populares",
@@ -16432,7 +19137,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 0
     },
     {
-      "id": "c1-ex7",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Gentrificación\"? <trans en=\"(What is the correct translation of \\\"Gentrificación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Gentrificación\\\"؟)\" uk=\"(Який правильний переклад \\\"Gentrificación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Gentrificación\\\"?)\" />",
+      "options": [
+        "Gentrification <trans en=\"(Gentrification)\" ar=\"(الgentrification (تغيير طبيعة الحي))\" uk=\"(Джентрифікація)\" fr=\"(Gentrification)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Controvertido\"? <trans en=\"(What is the correct translation of \\\"Controvertido\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Controvertido\\\"؟)\" uk=\"(Який правильний переклад \\\"Controvertido\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Controvertido\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Controversial <trans en=\"(Controversial)\" ar=\"(مثير للجدل)\" uk=\"(Суперечливий)\" fr=\"(Controversé)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Rehabilitación\"? <trans en=\"(What is the correct translation of \\\"Rehabilitación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Rehabilitación\\\"؟)\" uk=\"(Який правильний переклад \\\"Rehabilitación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Rehabilitación\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Rehabilitation / Renovation <trans en=\"(Rehabilitation / Renovation)\" ar=\"(إعادة تأهيل)\" uk=\"(Реконструкція)\" fr=\"(Réhabilitation)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Afluencia de capital\"? <trans en=\"(What is the correct translation of \\\"Afluencia de capital\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Afluencia de capital\\\"؟)\" uk=\"(Який правильний переклад \\\"Afluencia de capital\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Afluencia de capital\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Capital inflow <trans en=\"(Capital inflow)\" ar=\"(تدفق رأس المال)\" uk=\"(Приплив капіталу)\" fr=\"(Afflux de capitaux)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Estética\"? <trans en=\"(What is the correct translation of \\\"Estética\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estética\\\"؟)\" uk=\"(Який правильний переклад \\\"Estética\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estética\\\"?)\" />",
+      "options": [
+        "Aesthetics <trans en=\"(Aesthetics)\" ar=\"(علم الجمال / جمالية)\" uk=\"(Естетика)\" fr=\"(Esthétique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Encarecimiento\"? <trans en=\"(What is the correct translation of \\\"Encarecimiento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Encarecimiento\\\"؟)\" uk=\"(Який правильний переклад \\\"Encarecimiento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Encarecimiento\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Price increase <trans en=\"(Price increase)\" ar=\"(ارتفاع الأسعار)\" uk=\"(Подорожчання)\" fr=\"(Renchérissement)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Expulsión\"? <trans en=\"(What is the correct translation of \\\"Expulsión\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Expulsión\\\"؟)\" uk=\"(Який правильний переклад \\\"Expulsión\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Expulsión\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Expulsion / Displacement <trans en=\"(Expulsion / Displacement)\" ar=\"(طرد / تهجير)\" uk=\"(Виселення)\" fr=\"(Expulsion)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Homogéneas\"? <trans en=\"(What is the correct translation of \\\"Homogéneas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Homogéneas\\\"؟)\" uk=\"(Який правильний переклад \\\"Homogéneas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Homogéneas\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Homogeneous <trans en=\"(Homogeneous)\" ar=\"(متجانسة)\" uk=\"(Однорідні)\" fr=\"(Homogènes)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Erosión\"? <trans en=\"(What is the correct translation of \\\"Erosión\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Erosión\\\"؟)\" uk=\"(Який правильний переклад \\\"Erosión\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Erosión\\\"?)\" />",
+      "options": [
+        "Erosion <trans en=\"(Erosion)\" ar=\"(تآكل)\" uk=\"(Ерозія)\" fr=\"(Érosion)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Tejido social\"? <trans en=\"(What is the correct translation of \\\"Tejido social\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Tejido social\\\"؟)\" uk=\"(Який правильний переклад \\\"Tejido social\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Tejido social\\\"?)\" />",
+      "options": [
+        "Social fabric <trans en=\"(Social fabric)\" ar=\"(النسيج الاجتماعي)\" uk=\"(Соціальна тканина)\" fr=\"(Tissu social)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Gentrificación\"? <trans en=\"(What is the correct translation of \\\"Gentrificación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Gentrificación\\\"؟)\" uk=\"(Який правильний переклад \\\"Gentrificación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Gentrificación\\\"?)\" />",
+      "options": [
+        "Gentrification <trans en=\"(Gentrification)\" ar=\"(الgentrification (تغيير طبيعة الحي))\" uk=\"(Джентрифікація)\" fr=\"(Gentrification)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Controvertido\"? <trans en=\"(What is the correct translation of \\\"Controvertido\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Controvertido\\\"؟)\" uk=\"(Який правильний переклад \\\"Controvertido\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Controvertido\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Controversial <trans en=\"(Controversial)\" ar=\"(مثير للجدل)\" uk=\"(Суперечливий)\" fr=\"(Controversé)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Rehabilitación\"? <trans en=\"(What is the correct translation of \\\"Rehabilitación\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Rehabilitación\\\"؟)\" uk=\"(Який правильний переклад \\\"Rehabilitación\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Rehabilitación\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Rehabilitation / Renovation <trans en=\"(Rehabilitation / Renovation)\" ar=\"(إعادة تأهيل)\" uk=\"(Реконструкція)\" fr=\"(Réhabilitation)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Afluencia de capital\"? <trans en=\"(What is the correct translation of \\\"Afluencia de capital\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Afluencia de capital\\\"؟)\" uk=\"(Який правильний переклад \\\"Afluencia de capital\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Afluencia de capital\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Capital inflow <trans en=\"(Capital inflow)\" ar=\"(تدفق رأس المال)\" uk=\"(Приплив капіталу)\" fr=\"(Afflux de capitaux)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Estética\"? <trans en=\"(What is the correct translation of \\\"Estética\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estética\\\"؟)\" uk=\"(Який правильний переклад \\\"Estética\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estética\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Aesthetics <trans en=\"(Aesthetics)\" ar=\"(علم الجمال / جمالية)\" uk=\"(Естетика)\" fr=\"(Esthétique)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Encarecimiento\"? <trans en=\"(What is the correct translation of \\\"Encarecimiento\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Encarecimiento\\\"؟)\" uk=\"(Який правильний переклад \\\"Encarecimiento\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Encarecimiento\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Price increase <trans en=\"(Price increase)\" ar=\"(ارتفاع الأسعار)\" uk=\"(Подорожчання)\" fr=\"(Renchérissement)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Expulsión\"? <trans en=\"(What is the correct translation of \\\"Expulsión\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Expulsión\\\"؟)\" uk=\"(Який правильний переклад \\\"Expulsión\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Expulsión\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Expulsion / Displacement <trans en=\"(Expulsion / Displacement)\" ar=\"(طرد / تهجير)\" uk=\"(Виселення)\" fr=\"(Expulsion)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+},
+  {
+  "id": "c1-comp-neuroplasticidad",
+  "topic": "Comprensión C1",
+  "title": "Lectura: Neuroplasticidad cerebral",
+  "level": "C1",
+  "category": "Comprensión",
+  "description": "Cómo las experiencias y el aprendizaje continuo moldean y regeneran físicamente el cerebro adulto.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🧠",
+  "color": "#F3E8FF",
+  "vocabulary": [
+    {
+      "word": "Desarraigo",
+      "translations": {
+        "en": "Uprooting / Alienation",
+        "ar": "اقتلاع من الجذور / الغربة",
+        "uk": "Відчуження / Втрата коріння",
+        "fr": "Déracinement"
+      },
+      "emoji": "🥀",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Neuroplasticidad",
+      "translations": {
+        "en": "Neuroplasticity",
+        "ar": "المرونة العصبية",
+        "uk": "Нейропластичність",
+        "fr": "Neuroplasticité"
+      },
+      "emoji": "🧠",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Estática",
+      "translations": {
+        "en": "Static",
+        "ar": "ساكنة / غير متغيرة",
+        "uk": "Статична",
+        "fr": "Statique"
+      },
+      "emoji": "⏸️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Inmutable",
+      "translations": {
+        "en": "Immutable",
+        "ar": "ثابتة لا تتغير",
+        "uk": "Незмінна",
+        "fr": "Immuable"
+      },
+      "emoji": "🔒",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Deteriorar",
+      "translations": {
+        "en": "To deteriorate",
+        "ar": "يتدهور",
+        "uk": "Погіршуватися",
+        "fr": "Se détériorer"
+      },
+      "emoji": "📉",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Sinapsis",
+      "translations": {
+        "en": "Synapses",
+        "ar": "مواضع التشابك العصبي",
+        "uk": "Синапси",
+        "fr": "Synapses"
+      },
+      "emoji": "⚡",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Flexible",
+      "translations": {
+        "en": "Flexible",
+        "ar": "مرن",
+        "uk": "Гнучкий",
+        "fr": "Flexible"
+      },
+      "emoji": "🤸",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Catalizadores",
+      "translations": {
+        "en": "Catalysts",
+        "ar": "محفزات",
+        "uk": "Каталізатори",
+        "fr": "Catalyseurs"
+      },
+      "emoji": "🧪",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Maleable",
+      "translations": {
+        "en": "Malleable / Adaptable",
+        "ar": "قابل للتشكيل",
+        "uk": "Пластичний",
+        "fr": "Malléable"
+      },
+      "emoji": "🏺",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Derechos de autor",
+      "translations": {
+        "en": "Copyright",
+        "ar": "حقوق الطبع والنشر",
+        "uk": "Авторські права",
+        "fr": "Droits d'auteur"
+      },
+      "emoji": "©️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Irrupción",
+      "translations": {
+        "en": "Emergence / Onset",
+        "ar": "اقتحام / ظهور مفاجئ",
+        "uk": "Поява / Вторгнення",
+        "fr": "Irruption"
+      },
+      "emoji": "🌊",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Algoritmos",
+      "translations": {
+        "en": "Algorithms",
+        "ar": "خوارزميات",
+        "uk": "Алгоритми",
+        "fr": "Algorithmes"
+      },
+      "emoji": "🔢",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Encarnizado",
+      "translations": {
+        "en": "Fierce / Bitter",
+        "ar": "ضاري / محتدم",
+        "uk": "Запеклий",
+        "fr": "Acharné"
+      },
+      "emoji": "⚔️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Democratización",
+      "translations": {
+        "en": "Democratization",
+        "ar": "إرساء الديمقراطية",
+        "uk": "Демократизація",
+        "fr": "Démocratisation"
+      },
+      "emoji": "🗳️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Plagio sistemático",
+      "translations": {
+        "en": "Systematic plagiarism",
+        "ar": "سرقة أدبية ممنهجة",
+        "uk": "Систематичний плагіат",
+        "fr": "Plagiat systématique"
+      },
+      "emoji": "📋",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Consentimiento",
+      "translations": {
+        "en": "Consent",
+        "ar": "موافقة",
+        "uk": "Згода",
+        "fr": "Consentement"
+      },
+      "emoji": "✍️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Autoría",
+      "translations": {
+        "en": "Authorship",
+        "ar": "تأليف / ملكية العمل",
+        "uk": "Авторство",
+        "fr": "Auteur / Paternité"
+      },
+      "emoji": "✒️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Emular",
+      "translations": {
+        "en": "To emulate",
+        "ar": "يقلد / يحاكي",
+        "uk": "Емулювати",
+        "fr": "Émuler"
+      },
+      "emoji": "👥",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Detrimento",
+      "translations": {
+        "en": "Detriment / Harm",
+        "ar": "ضرر / أذى",
+        "uk": "Шкода",
+        "fr": "Détriment"
+      },
+      "emoji": "📉",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Propiedad intelectual",
+      "translations": {
+        "en": "Intellectual property",
+        "ar": "الملكية الفكرية",
+        "uk": "Інтелектуальна власність",
+        "fr": "Propriété intellectuelle"
+      },
+      "emoji": "🧠",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Gentrificación",
+      "translations": {
+        "en": "Gentrification",
+        "ar": "الgentrification (تغيير طبيعة الحي)",
+        "uk": "Джентрифікація",
+        "fr": "Gentrification"
+      },
+      "emoji": "🏢",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Controvertido",
+      "translations": {
+        "en": "Controversial",
+        "ar": "مثير للجدل",
+        "uk": "Суперечливий",
+        "fr": "Controversé"
+      },
+      "emoji": "🗣️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Rehabilitación",
+      "translations": {
+        "en": "Rehabilitation / Renovation",
+        "ar": "إعادة تأهيل",
+        "uk": "Реконструкція",
+        "fr": "Réhabilitation"
+      },
+      "emoji": "🛠️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Afluencia de capital",
+      "translations": {
+        "en": "Capital inflow",
+        "ar": "تدفق رأس المال",
+        "uk": "Приплив капіталу",
+        "fr": "Afflux de capitaux"
+      },
+      "emoji": "💵",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Estética",
+      "translations": {
+        "en": "Aesthetics",
+        "ar": "علم الجمال / جمالية",
+        "uk": "Естетика",
+        "fr": "Esthétique"
+      },
+      "emoji": "🎨",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Encarecimiento",
+      "translations": {
+        "en": "Price increase",
+        "ar": "ارتفاع الأسعار",
+        "uk": "Подорожчання",
+        "fr": "Renchérissement"
+      },
+      "emoji": "📈",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Expulsión",
+      "translations": {
+        "en": "Expulsion / Displacement",
+        "ar": "طرد / تهجير",
+        "uk": "Виселення",
+        "fr": "Expulsion"
+      },
+      "emoji": "🚪",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Homogéneas",
+      "translations": {
+        "en": "Homogeneous",
+        "ar": "متجانسة",
+        "uk": "Однорідні",
+        "fr": "Homogènes"
+      },
+      "emoji": "🥛",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Erosión",
+      "translations": {
+        "en": "Erosion",
+        "ar": "تآكل",
+        "uk": "Ерозія",
+        "fr": "Érosion"
+      },
+      "emoji": "🏔️",
+      "color": "#E2F3E7"
+    },
+    {
+      "word": "Tejido social",
+      "translations": {
+        "en": "Social fabric",
+        "ar": "النسيج الاجتماعي",
+        "uk": "Соціальна тканина",
+        "fr": "Tissu social"
+      },
+      "emoji": "🧶",
+      "color": "#E2F3E7"
+    }
+  ],
+  "content": "## Lectura: Neuroplasticidad cerebral\n\nEl fenómeno de la gentrificación y el tejido social\n\nLa gentrificación se ha consolidado como uno de los procesos urbanísticos más controvertidos del siglo XXI. Este fenómeno, caracterizado por la rehabilitación de barrios históricos degradados y la consecuente afluencia de capital, suele traducirse a primera vista en una mejora estética y comercial de la zona. No obstante, este lavado de cara esconde una reality descarnada: el encarecimiento desorbitado de la vivienda y la expulsión residencial de los vecinos de toda la vida.  \nAl sustituir el comercio local tradicional por franquicias homogéneas y pisos turísticos, se erosiona la identidad cultural y el tejido social que daban vida al barrio. Los lazos de solidaridad vecinal se rompen, transformando vecindarios vibrantes en meros escaparates turísticos carentes de alma. El reto actual de las administraciones estriba en fomentar la inversión urbana sin que ello implique el desarraigo de las clases populares.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿Qué dogma compartía la neurociencia clásica antes del descubrimiento de la neuroplasticidad?",
       "options": [
         "Que el cerebro es una red de agua",
@@ -16442,7 +19664,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex8",
+      "id": "ex2",
       "question": "¿Qué actividades estimulan la remodelación arquitectónica del cerebro?",
       "options": [
         "Mirar televisión pasivamente",
@@ -16452,7 +19674,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex9",
+      "id": "ex3",
       "question": "¿Cómo se percibe el envejecimiento mental tras conocer la neuroplasticidad?",
       "options": [
         "Como un declive inevitable y pasivo",
@@ -16462,127 +19684,187 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex10",
-      "question": "El sinónimo de 'debate encarnizado' es...",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Desarraigo\"? <trans en=\"(What is the correct translation of \\\"Desarraigo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desarraigo\\\"؟)\" uk=\"(Який правильний переклад \\\"Desarraigo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desarraigo\\\"?)\" />",
       "options": [
-        "conversación de cortesía",
-        "discusión feroz / violenta",
-        "acuerdo de paz"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Uprooting / Alienation <trans en=\"(Uprooting / Alienation)\" ar=\"(اقتلاع من الجذور / الغربة)\" uk=\"(Відчуження / Втрата коріння)\" fr=\"(Déracinement)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "c1-ex11",
-      "question": "Si algo se hace sin 'consentimiento', significa que...",
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Neuroplasticidad\"? <trans en=\"(What is the correct translation of \\\"Neuroplasticidad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Neuroplasticidad\\\"؟)\" uk=\"(Який правильний переклад \\\"Neuroplasticidad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Neuroplasticidad\\\"?)\" />",
       "options": [
-        "se solicitó permiso formal",
-        "se hizo sin el acuerdo o autorización de la persona",
-        "es totalmente gratuito"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c1-ex12",
-      "question": "Completa la frase: 'El encarecimiento de la vivienda provoca la _______ de los vecinos tradicionales.'",
-      "options": [
-        "gentrificación",
-        "expulsión",
-        "sinapsis"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c1-ex13",
-      "question": "El antónimo de 'homogéneas' es...",
-      "options": [
-        "iguales",
-        "heterogéneas / variadas",
-        "estáticas"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c1-ex14",
-      "question": "Completa la frase: 'El desarraigo de los residentes daña gravemente el _______ del vecindario.'",
-      "options": [
-        "algoritmo",
-        "consentimiento",
-        "tejido social"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Neuroplasticity <trans en=\"(Neuroplasticity)\" ar=\"(المرونة العصبية)\" uk=\"(Нейропластичність)\" fr=\"(Neuroplasticité)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "c1-ex15",
-      "question": "Un cambio en la estructura física del cerebro se describe como una remodelación...",
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Estática\"? <trans en=\"(What is the correct translation of \\\"Estática\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estática\\\"؟)\" uk=\"(Який правильний переклад \\\"Estática\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estática\\\"?)\" />",
       "options": [
-        "inmutable",
-        "arquitectónica",
-        "estética"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c1-ex16",
-      "question": "Las conexiones funcionales entre las células nerviosas cerebrales se llaman...",
-      "options": [
-        "sinapsis",
-        "algoritmos",
-        "catalizadores"
+        "Static <trans en=\"(Static)\" ar=\"(ساكنة / غير متغيرة)\" uk=\"(Статична)\" fr=\"(Statique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 0
     },
     {
-      "id": "c1-ex17",
-      "question": "El término 'inmutable' se refiere a algo que...",
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Inmutable\"? <trans en=\"(What is the correct translation of \\\"Inmutable\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Inmutable\\\"؟)\" uk=\"(Який правильний переклад \\\"Inmutable\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Inmutable\\\"?)\" />",
       "options": [
-        "cambia con gran facilidad",
-        "no se puede alterar o cambiar",
-        "está roto"
+        "Immutable <trans en=\"(Immutable)\" ar=\"(ثابتة لا تتغير)\" uk=\"(Незмінна)\" fr=\"(Immuable)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 0
     },
     {
-      "id": "c1-ex18",
-      "question": "Completa: 'El aprendizaje y la experiencia actúan como _______ de la remodelación cerebral.'",
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Deteriorar\"? <trans en=\"(What is the correct translation of \\\"Deteriorar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Deteriorar\\\"؟)\" uk=\"(Який правильний переклад \\\"Deteriorar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Deteriorar\\\"?)\" />",
       "options": [
-        "plagios",
-        "desarraigos",
-        "catalizadores"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "To deteriorate <trans en=\"(To deteriorate)\" ar=\"(يتدهور)\" uk=\"(Погіршуватися)\" fr=\"(Se détériorer)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "c1-ex19",
-      "question": "¿Qué concepto define la propiedad sobre creaciones de la mente?",
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Sinapsis\"? <trans en=\"(What is the correct translation of \\\"Sinapsis\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Sinapsis\\\"؟)\" uk=\"(Який правильний переклад \\\"Sinapsis\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Sinapsis\\\"?)\" />",
       "options": [
-        "Propiedad intelectual",
-        "Gentrificación",
-        "Consentimiento"
+        "Synapses <trans en=\"(Synapses)\" ar=\"(مواضع التشابك العصبي)\" uk=\"(Синапси)\" fr=\"(Synapses)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 0
     },
     {
-      "id": "c1-ex20",
-      "question": "El cerebro posee capacidad para reorganizarse gracias a que es...",
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Flexible\"? <trans en=\"(What is the correct translation of \\\"Flexible\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Flexible\\\"؟)\" uk=\"(Який правильний переклад \\\"Flexible\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Flexible\\\"?)\" />",
       "options": [
-        "estático",
-        "maleable",
-        "inmutable"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Flexible <trans en=\"(Flexible)\" ar=\"(مرن)\" uk=\"(Гнучкий)\" fr=\"(Flexible)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Catalizadores\"? <trans en=\"(What is the correct translation of \\\"Catalizadores\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Catalizadores\\\"؟)\" uk=\"(Який правильний переклад \\\"Catalizadores\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Catalizadores\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Catalysts <trans en=\"(Catalysts)\" ar=\"(محفزات)\" uk=\"(Каталізатори)\" fr=\"(Catalyseurs)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Maleable\"? <trans en=\"(What is the correct translation of \\\"Maleable\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Maleable\\\"؟)\" uk=\"(Який правильний переклад \\\"Maleable\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Maleable\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Malleable / Adaptable <trans en=\"(Malleable / Adaptable)\" ar=\"(قابل للتشكيل)\" uk=\"(Пластичний)\" fr=\"(Malléable)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Derechos de autor\"? <trans en=\"(What is the correct translation of \\\"Derechos de autor\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Derechos de autor\\\"؟)\" uk=\"(Який правильний переклад \\\"Derechos de autor\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Derechos de autor\\\"?)\" />",
+      "options": [
+        "Copyright <trans en=\"(Copyright)\" ar=\"(حقوق الطبع والنشر)\" uk=\"(Авторські права)\" fr=\"(Droits d'auteur)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Desarraigo\"? <trans en=\"(What is the correct translation of \\\"Desarraigo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Desarraigo\\\"؟)\" uk=\"(Який правильний переклад \\\"Desarraigo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Desarraigo\\\"?)\" />",
+      "options": [
+        "Uprooting / Alienation <trans en=\"(Uprooting / Alienation)\" ar=\"(اقتلاع من الجذور / الغربة)\" uk=\"(Відчуження / Втрата коріння)\" fr=\"(Déracinement)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Neuroplasticidad\"? <trans en=\"(What is the correct translation of \\\"Neuroplasticidad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Neuroplasticidad\\\"؟)\" uk=\"(Який правильний переклад \\\"Neuroplasticidad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Neuroplasticidad\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Neuroplasticity <trans en=\"(Neuroplasticity)\" ar=\"(المرونة العصبية)\" uk=\"(Нейропластичність)\" fr=\"(Neuroplasticité)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 1
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Estática\"? <trans en=\"(What is the correct translation of \\\"Estática\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Estática\\\"؟)\" uk=\"(Який правильний переклад \\\"Estática\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Estática\\\"?)\" />",
+      "options": [
+        "Static <trans en=\"(Static)\" ar=\"(ساكنة / غير متغيرة)\" uk=\"(Статична)\" fr=\"(Statique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Inmutable\"? <trans en=\"(What is the correct translation of \\\"Inmutable\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Inmutable\\\"؟)\" uk=\"(Який правильний переклад \\\"Inmutable\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Inmutable\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Immutable <trans en=\"(Immutable)\" ar=\"(ثابتة لا تتغير)\" uk=\"(Незмінна)\" fr=\"(Immuable)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Deteriorar\"? <trans en=\"(What is the correct translation of \\\"Deteriorar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Deteriorar\\\"؟)\" uk=\"(Який правильний переклад \\\"Deteriorar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Deteriorar\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "To deteriorate <trans en=\"(To deteriorate)\" ar=\"(يتدهور)\" uk=\"(Погіршуватися)\" fr=\"(Se détériorer)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Sinapsis\"? <trans en=\"(What is the correct translation of \\\"Sinapsis\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Sinapsis\\\"؟)\" uk=\"(Який правильний переклад \\\"Sinapsis\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Sinapsis\\\"?)\" />",
+      "options": [
+        "Synapses <trans en=\"(Synapses)\" ar=\"(مواضع التشابك العصبي)\" uk=\"(Синапси)\" fr=\"(Synapses)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Flexible\"? <trans en=\"(What is the correct translation of \\\"Flexible\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Flexible\\\"؟)\" uk=\"(Який правильний переклад \\\"Flexible\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Flexible\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Flexible <trans en=\"(Flexible)\" ar=\"(مرن)\" uk=\"(Гнучкий)\" fr=\"(Flexible)\" />"
+      ],
+      "correctAnswer": 2
     }
   ]
 },
 {
-  "id": "c2-lecturas-vida",
+  "id": "c2-comp-oratoria",
   "topic": "Comprensión C2",
-  "title": "Comprensión Lectora: Filosofía, Cultura y Epistemología (C2)",
+  "title": "Lectura: Eclipse de la oratoria digital",
   "level": "C2",
   "category": "Comprensión",
-  "description": "Lecturas sobre el eclipse de la oratoria, el coleccionismo y la epistemología de la posverdad, con 30 términos de vocabulario y 20 preguntas.",
-  "imageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=80",
-  "illustrationUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=80",
-  "emoji": "📖",
+  "description": "El declive de la retórica clásica en la era del clickbait y cómo afecta a la calidad democrática.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🗣️",
   "color": "#FFF4E5",
   "vocabulary": [
     {
@@ -16916,10 +20198,10 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "color": "#FFF4E5"
     }
   ],
-  "content": "\n## Lectura 1: El eclipse de la oratoria en la era de la inmediatez digital\n\nAsistimos de manera impasible al paulatino declive de la retórica clásica en el discurso público contemporáneo. En un entorno comunicativo hiperconectado, tiranizado por el algoritmo y la brevedad del *clickbait*, el debate político e intelectual ha sucumbido a la vacuidad del eslogan efectista y la polarización extrema. La argumentación prolija, fundamentada en la ponderación de matices y el rigor dialéctico, se percibe hoy en día como un anacronismo tedioso que ahuyenta a una audiencia aquejada de un déficit de atención crónico.  \nEsta devaluación de la palabra no es un mero asunto estético; hiere de gravedad la calidad democrática. Cuando la persuasión apela exclusivamente al sesgo cognitivo visceral y prescinde de la lógica formal, el ciudadano queda inerme ante la demagogia. Restaurar el prestigio del discurso articulado se erige, por ende, en un imperativo ético inaplazable si pretendemos salvaguardar el ágora pública de la trivialización y el tribalismo ideológico.\n\n---\n\n## Lectura 2: El coleccionismo y la quimera de la posesión\n\nEl coleccionismo trasciende la mera acumulación suntuaria de objetos para adentrarse en los intrincados recovecos de la psicología humana. El coleccionista meticuloso no busca la utilidad práctica de la pieza adquirida, sino la sacralización de la misma dentro de una taxonomía personal y subjetiva. Existe en este impulso un intento atávico de conferir orden al caos cósmico, de compartimentar la realidad para hacerla aprehensible a través de fetiches materiales que actúan como diques de contención contra el olvido y la finitud.  \nParadójicamente, la aparente satisfacción que depara el hallazgo de la pieza largamente codiciada es tan efímera como ilusoria. Lejos de aplacar el deseo, la completitud de la serie espolea una nueva carencia, reanudando un bucle infinito donde el objeto ausente tiraniza al poseedor. Así, el coleccionismo se revela no como el disfrute de lo que se detenta, sino como una perenne nostalgia de lo que falta; una quimera donde el sujeto acaba siendo poseído por su propia colección.\n\n---\n\n## Lectura 3: Epistemología de la posverdad: la verdad como constructo de consumo\n\nEl advenimiento de la denominada sociedad de la posverdad ha supuesto una fractura epistemológica de magnitudes inéditas. Ya no se trata de la clásica mentira política —coherente en su deliberada ocultación de los hechos—, sino de la instauración de un régimen de indiferencia absoluta hacia la realidad fáctica. En este nuevo ecosistema, los hechos objetivos ejercen una influencia notablemente inferior a la hora de modelar la opinión pública que las apelaciones a las emociones de la masa o a las creencias firmemente arraigadas en burbujas informativas autorreferenciales.  \nLa verdad ha dejado de ser un consenso descubierto mediante el escrutinio empírico para transformarse en un bien de consumo personalizado. El individuo contemporáneo exige que la información valide su cosmovisión preexistente, penalizando cognitivamente cualquier disonancia que ose perturbar su zona de confort ideológico. Nos enfrentamos, por tanto, no a una falta de información, sino a una hipertrofia informativa que satura el juicio crítico y atomiza la realidad en tantas verdades como comunidades virtuales existan.\n  ",
+  "content": "## Lectura: Eclipse de la oratoria digital\n\n",
   "exercises": [
     {
-      "id": "c2-ex1",
+      "id": "ex1",
       "question": "¿Qué factores del entorno digital actual han propiciado el declive de la retórica tradicional?",
       "options": [
         "La falta de conexiones de fibra óptica",
@@ -16929,7 +20211,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex2",
+      "id": "ex2",
       "question": "¿Por qué el autor argumenta que la pérdida de la oratoria rigurosa afecta directamente a la democracia?",
       "options": [
         "Porque los políticos hablan con voz demasiado baja",
@@ -16939,7 +20221,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex3",
+      "id": "ex3",
       "question": "¿A qué resortes humanos apela la comunicación actual en lugar de recurrir a la lógica formal?",
       "options": [
         "A la lógica matemática formal",
@@ -16949,7 +20231,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex4",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Impasible\"? <trans en=\"(What is the correct translation of \\\"Impasible\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Impasible\\\"؟)\" uk=\"(Який правильний переклад \\\"Impasible\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Impasible\\\"?)\" />",
+      "options": [
+        "Impassive / Unmoved <trans en=\"(Impassive / Unmoved)\" ar=\"(لا مبالٍ / هادئ)\" uk=\"(Байдужий)\" fr=\"(Impassible)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Declive\"? <trans en=\"(What is the correct translation of \\\"Declive\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Declive\\\"؟)\" uk=\"(Який правильний переклад \\\"Declive\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Declive\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Decline <trans en=\"(Decline)\" ar=\"(تدهور / انحدar)\" uk=\"(Занепад)\" fr=\"(Déclin)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Retórica clásica\"? <trans en=\"(What is the correct translation of \\\"Retórica clásica\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Retórica clásica\\\"؟)\" uk=\"(Який правильний переклад \\\"Retórica clásica\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Retórica clásica\\\"?)\" />",
+      "options": [
+        "Classical rhetoric <trans en=\"(Classical rhetoric)\" ar=\"(البلاغة الكلاسيكية)\" uk=\"(Класична риторика)\" fr=\"(Rhétorique classique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Vacuidad\"? <trans en=\"(What is the correct translation of \\\"Vacuidad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Vacuidad\\\"؟)\" uk=\"(Який правильний переклад \\\"Vacuidad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Vacuidad\\\"?)\" />",
+      "options": [
+        "Emptiness / Vacuity <trans en=\"(Emptiness / Vacuity)\" ar=\"(فراغ)\" uk=\"(Пустота)\" fr=\"(Vacuité)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Eslogan efectista\"? <trans en=\"(What is the correct translation of \\\"Eslogan efectista\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Eslogan efectista\\\"؟)\" uk=\"(Який правильний переклад \\\"Eslogan efectista\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Eslogan efectista\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Sensational slogan <trans en=\"(Sensational slogan)\" ar=\"(شعار مؤثر)\" uk=\"(Сенсаційне гасло)\" fr=\"(Slogan accrocheur)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Ponderación de matices\"? <trans en=\"(What is the correct translation of \\\"Ponderación de matices\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Ponderación de matices\\\"؟)\" uk=\"(Який правильний переклад \\\"Ponderación de matices\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Ponderación de matices\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Nuances weighing <trans en=\"(Nuances weighing)\" ar=\"(وزن الفروق الدقيقة)\" uk=\"(Зважування нюансів)\" fr=\"(Pondération des nuances)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Rigor dialéctico\"? <trans en=\"(What is the correct translation of \\\"Rigor dialéctico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Rigor dialéctico\\\"؟)\" uk=\"(Який правильний переклад \\\"Rigor dialéctico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Rigor dialéctico\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Dialectical rigor <trans en=\"(Dialectical rigor)\" ar=\"(الصرامة الجدلية)\" uk=\"(Діалектична строгість)\" fr=\"(Rigueur dialectique)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Anacronismo\"? <trans en=\"(What is the correct translation of \\\"Anacronismo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Anacronismo\\\"؟)\" uk=\"(Який правильний переклад \\\"Anacronismo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Anacronismo\\\"?)\" />",
+      "options": [
+        "Anachronism <trans en=\"(Anachronism)\" ar=\"(مغالطة تاريخية)\" uk=\"(Анахронізм)\" fr=\"(Anachronisme)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Trivialización\"? <trans en=\"(What is the correct translation of \\\"Trivialización\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Trivialización\\\"؟)\" uk=\"(Який правильний переклад \\\"Trivialización\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Trivialización\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Trivialization <trans en=\"(Trivialization)\" ar=\"(تبسيط مبتذل / تسخيف)\" uk=\"(Тривіалізація)\" fr=\"(Trivialisation)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Tribalismo ideológico\"? <trans en=\"(What is the correct translation of \\\"Tribalismo ideológico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Tribalismo ideológico\\\"؟)\" uk=\"(Який правильний переклад \\\"Tribalismo ideológico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Tribalismo ideológico\\\"?)\" />",
+      "options": [
+        "Ideological tribalism <trans en=\"(Ideological tribalism)\" ar=\"(القبلية الأيديولوجية)\" uk=\"(Ідеологічний трибалізм)\" fr=\"(Tribalisme idéologique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Impasible\"? <trans en=\"(What is the correct translation of \\\"Impasible\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Impasible\\\"؟)\" uk=\"(Який правильний переклад \\\"Impasible\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Impasible\\\"?)\" />",
+      "options": [
+        "Impassive / Unmoved <trans en=\"(Impassive / Unmoved)\" ar=\"(لا مبالٍ / هادئ)\" uk=\"(Байдужий)\" fr=\"(Impassible)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Declive\"? <trans en=\"(What is the correct translation of \\\"Declive\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Declive\\\"؟)\" uk=\"(Який правильний переклад \\\"Declive\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Declive\\\"?)\" />",
+      "options": [
+        "Decline <trans en=\"(Decline)\" ar=\"(تدهور / انحدar)\" uk=\"(Занепад)\" fr=\"(Déclin)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Retórica clásica\"? <trans en=\"(What is the correct translation of \\\"Retórica clásica\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Retórica clásica\\\"؟)\" uk=\"(Який правильний переклад \\\"Retórica clásica\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Retórica clásica\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Classical rhetoric <trans en=\"(Classical rhetoric)\" ar=\"(البلاغة الكلاسيكية)\" uk=\"(Класична риторика)\" fr=\"(Rhétorique classique)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Vacuidad\"? <trans en=\"(What is the correct translation of \\\"Vacuidad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Vacuidad\\\"؟)\" uk=\"(Який правильний переклад \\\"Vacuidad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Vacuidad\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Emptiness / Vacuity <trans en=\"(Emptiness / Vacuity)\" ar=\"(فراغ)\" uk=\"(Пустота)\" fr=\"(Vacuité)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Eslogan efectista\"? <trans en=\"(What is the correct translation of \\\"Eslogan efectista\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Eslogan efectista\\\"؟)\" uk=\"(Який правильний переклад \\\"Eslogan efectista\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Eslogan efectista\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Sensational slogan <trans en=\"(Sensational slogan)\" ar=\"(شعار مؤثر)\" uk=\"(Сенсаційне гасло)\" fr=\"(Slogan accrocheur)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Ponderación de matices\"? <trans en=\"(What is the correct translation of \\\"Ponderación de matices\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Ponderación de matices\\\"؟)\" uk=\"(Який правильний переклад \\\"Ponderación de matices\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Ponderación de matices\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Nuances weighing <trans en=\"(Nuances weighing)\" ar=\"(وزن الفروق الدقيقة)\" uk=\"(Зважування нюансів)\" fr=\"(Pondération des nuances)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Rigor dialéctico\"? <trans en=\"(What is the correct translation of \\\"Rigor dialéctico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Rigor dialéctico\\\"؟)\" uk=\"(Який правильний переклад \\\"Rigor dialéctico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Rigor dialéctico\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Dialectical rigor <trans en=\"(Dialectical rigor)\" ar=\"(الصرامة الجدلية)\" uk=\"(Діалектична строгість)\" fr=\"(Rigueur dialectique)\" />"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+},
+  {
+  "id": "c2-comp-coleccionismo",
+  "topic": "Comprensión C2",
+  "title": "Lectura: El coleccionismo y la posesión",
+  "level": "C2",
+  "category": "Comprensión",
+  "description": "Análisis psicológico de la necesidad humana de coleccionar y la efímera quimera del deseo.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "📦",
+  "color": "#E2F3E7",
+  "vocabulary": [
+    {
+      "word": "Coleccionismo",
+      "translations": {
+        "en": "Collecting / Collectism",
+        "ar": "جمع المقتنيات",
+        "uk": "Колекціонування",
+        "fr": "Collectionnisme"
+      },
+      "emoji": "📦",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Meticuloso",
+      "translations": {
+        "en": "Meticulous",
+        "ar": "دقيق للغاية / وسواسي",
+        "uk": "Ретельний",
+        "fr": "Meticuleux"
+      },
+      "emoji": "🔍",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Sacralización",
+      "translations": {
+        "en": "Sacralization",
+        "ar": "تقديس",
+        "uk": "Сакралізація",
+        "fr": "Sacralisation"
+      },
+      "emoji": "⛪",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Taxonomía",
+      "translations": {
+        "en": "Taxonomy / Classification",
+        "ar": "علم التصنيف",
+        "uk": "Таксономія",
+        "fr": "Taxonomie"
+      },
+      "emoji": "📂",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Atávico",
+      "translations": {
+        "en": "Atavistic / Ancestral",
+        "ar": "قديم / موروث عن الأجداد",
+        "uk": "Атавістичний",
+        "fr": "Atavique"
+      },
+      "emoji": "🦖",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Fetiche material",
+      "translations": {
+        "en": "Material fetish / Token",
+        "ar": "رمز مادي",
+        "uk": "Матеріальний фетиш",
+        "fr": "Fétiche matériel"
+      },
+      "emoji": "🧿",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Finitud",
+      "translations": {
+        "en": "Finitude / Mortality",
+        "ar": "محدودية / فناء",
+        "uk": "Скінченність",
+        "fr": "Finitude"
+      },
+      "emoji": "⏳",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Aplacar",
+      "translations": {
+        "en": "To appease / Quell",
+        "ar": "يهدئ / يسكن",
+        "uk": "Заспокоювати",
+        "fr": "Apaiser"
+      },
+      "emoji": "🌊",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Bucle infinito",
+      "translations": {
+        "en": "Infinite loop",
+        "ar": "حلقة لا نهائية",
+        "uk": "Нескінченний цикл",
+        "fr": "Boucle infinie"
+      },
+      "emoji": "🔁",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Nostalgia",
+      "translations": {
+        "en": "Nostalgia",
+        "ar": "حنين إلى الماضي",
+        "uk": "Ностальгія",
+        "fr": "Nostalgie"
+      },
+      "emoji": "🕰️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Impasible",
+      "translations": {
+        "en": "Impassive / Unmoved",
+        "ar": "لا مبالٍ / هادئ",
+        "uk": "Байдужий",
+        "fr": "Impassible"
+      },
+      "emoji": "😐",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Declive",
+      "translations": {
+        "en": "Decline",
+        "ar": "تدهور / انحدar",
+        "uk": "Занепад",
+        "fr": "Déclin"
+      },
+      "emoji": "📉",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Retórica clásica",
+      "translations": {
+        "en": "Classical rhetoric",
+        "ar": "البلاغة الكلاسيكية",
+        "uk": "Класична риторика",
+        "fr": "Rhétorique classique"
+      },
+      "emoji": "🗣️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Vacuidad",
+      "translations": {
+        "en": "Emptiness / Vacuity",
+        "ar": "فراغ",
+        "uk": "Пустота",
+        "fr": "Vacuité"
+      },
+      "emoji": "🕳️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Eslogan efectista",
+      "translations": {
+        "en": "Sensational slogan",
+        "ar": "شعار مؤثر",
+        "uk": "Сенсаційне гасло",
+        "fr": "Slogan accrocheur"
+      },
+      "emoji": "📢",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Ponderación de matices",
+      "translations": {
+        "en": "Nuances weighing",
+        "ar": "وزن الفروق الدقيقة",
+        "uk": "Зважування нюансів",
+        "fr": "Pondération des nuances"
+      },
+      "emoji": "⚖️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Rigor dialéctico",
+      "translations": {
+        "en": "Dialectical rigor",
+        "ar": "الصرامة الجدلية",
+        "uk": "Діалектична строгість",
+        "fr": "Rigueur dialectique"
+      },
+      "emoji": "🧠",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Anacronismo",
+      "translations": {
+        "en": "Anachronism",
+        "ar": "مغالطة تاريخية",
+        "uk": "Анахронізм",
+        "fr": "Anachronisme"
+      },
+      "emoji": "⏳",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Trivialización",
+      "translations": {
+        "en": "Trivialization",
+        "ar": "تبسيط مبتذل / تسخيف",
+        "uk": "Тривіалізація",
+        "fr": "Trivialisation"
+      },
+      "emoji": "🎈",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Tribalismo ideológico",
+      "translations": {
+        "en": "Ideological tribalism",
+        "ar": "القبلية الأيديولوجية",
+        "uk": "Ідеологічний трибалізм",
+        "fr": "Tribalisme idéologique"
+      },
+      "emoji": "🏹",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Epistemología",
+      "translations": {
+        "en": "Epistemology",
+        "ar": "نظرية المعرفة",
+        "uk": "Епістемологія",
+        "fr": "Épistémologie"
+      },
+      "emoji": "📖",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Posverdad",
+      "translations": {
+        "en": "Post-truth",
+        "ar": "ما بعد الحقيقة",
+        "uk": "Постправда",
+        "fr": "Post-vérité"
+      },
+      "emoji": "🎭",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Fractura epistemológica",
+      "translations": {
+        "en": "Epistemological fracture",
+        "ar": "شرخ معرفي",
+        "uk": "Епістемологічний розрив",
+        "fr": "Fracture épistémologique"
+      },
+      "emoji": "⚡",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Realidad fáctica",
+      "translations": {
+        "en": "Factual reality",
+        "ar": "الواقع الفعلي / القائم على الحقائق",
+        "uk": "Фактична реальність",
+        "fr": "Réalité factuelle"
+      },
+      "emoji": "⚖️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Burbujas informativas",
+      "translations": {
+        "en": "Filter bubbles",
+        "ar": "فقاعات المعلومات",
+        "uk": "Інформаційні бульбашки",
+        "fr": "Bulles d'information"
+      },
+      "emoji": "🫧",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Escrutinio empírico",
+      "translations": {
+        "en": "Empirical scrutiny",
+        "ar": "التدقيق التجريبي",
+        "uk": "Емпіричне дослідження",
+        "fr": "Scrutin empirique"
+      },
+      "emoji": "🔬",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Cosmovisión",
+      "translations": {
+        "en": "Worldview",
+        "ar": "رؤية العالم / الكونية",
+        "uk": "Світогляд",
+        "fr": "Vision du monde"
+      },
+      "emoji": "🌍",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Disonancia cognitiva",
+      "translations": {
+        "en": "Cognitive dissonance",
+        "ar": "التنافر المعرفي",
+        "uk": "Когнітивний дисонанс",
+        "fr": "Dissonance cognitive"
+      },
+      "emoji": "🧠",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Hipertrofia informativa",
+      "translations": {
+        "en": "Information overload",
+        "ar": "تضخم المعلومات",
+        "uk": "Інформаційне перевантаження",
+        "fr": "Surcharge informationnelle"
+      },
+      "emoji": "📚",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Atomizar",
+      "translations": {
+        "en": "To atomize / Fragment",
+        "ar": "يجزئ / يفتت",
+        "uk": "Атомізувати / Розщеплювати",
+        "fr": "Atomiser"
+      },
+      "emoji": "⚛️",
+      "color": "#FFF4E5"
+    }
+  ],
+  "content": "## Lectura: El coleccionismo y la posesión\n\nEl eclipse de la oratoria en la era de la inmediatez digital\n\nAsistimos de manera impasible al paulatino declive de la retórica clásica en el discurso público contemporáneo. En un entorno comunicativo hiperconectado, tiranizado por el algoritmo y la brevedad del *clickbait*, el debate político e intelectual ha sucumbido a la vacuidad del eslogan efectista y la polarización extrema. La argumentación prolija, fundamentada en la ponderación de matices y el rigor dialéctico, se percibe hoy en día como un anacronismo tedioso que ahuyenta a una audiencia aquejada de un déficit de atención crónico.  \nEsta devaluación de la palabra no es un mero asunto estético; hiere de gravedad la calidad democrática. Cuando la persuasión apela exclusivamente al sesgo cognitivo visceral y prescinde de la lógica formal, el ciudadano queda inerme ante la demagogia. Restaurar el prestigio del discurso articulado se erige, por ende, en un imperativo ético inaplazable si pretendemos salvaguardar el ágora pública de la trivialización y el tribalismo ideológico.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "Según el texto, ¿cuál es el trasfondo psicológico que motiva el impulso de coleccionar?",
       "options": [
         "El deseo de revender los objetos con beneficio económico",
@@ -16959,7 +20758,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex5",
+      "id": "ex2",
       "question": "Explique la paradoja que se manifiesta cuando un coleccionista consigue la pieza que tanto deseaba.",
       "options": [
         "El valor comercial disminuye drásticamente",
@@ -16969,7 +20768,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex6",
+      "id": "ex3",
       "question": "¿Qué significado encierra la frase final afirmando que el sujeto 'acaba siendo poseído por su propia colección'?",
       "options": [
         "Que la colección adquiere poderes sobrenaturales",
@@ -16979,7 +20778,524 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex7",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Coleccionismo\"? <trans en=\"(What is the correct translation of \\\"Coleccionismo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Coleccionismo\\\"؟)\" uk=\"(Який правильний переклад \\\"Coleccionismo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Coleccionismo\\\"?)\" />",
+      "options": [
+        "Collecting / Collectism <trans en=\"(Collecting / Collectism)\" ar=\"(جمع المقتنيات)\" uk=\"(Колекціонування)\" fr=\"(Collectionnisme)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Meticuloso\"? <trans en=\"(What is the correct translation of \\\"Meticuloso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Meticuloso\\\"؟)\" uk=\"(Який правильний переклад \\\"Meticuloso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Meticuloso\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Meticulous <trans en=\"(Meticulous)\" ar=\"(دقيق للغاية / وسواسي)\" uk=\"(Ретельний)\" fr=\"(Meticuleux)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Sacralización\"? <trans en=\"(What is the correct translation of \\\"Sacralización\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Sacralización\\\"؟)\" uk=\"(Який правильний переклад \\\"Sacralización\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Sacralización\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Sacralization <trans en=\"(Sacralization)\" ar=\"(تقديس)\" uk=\"(Сакралізація)\" fr=\"(Sacralisation)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Taxonomía\"? <trans en=\"(What is the correct translation of \\\"Taxonomía\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Taxonomía\\\"؟)\" uk=\"(Який правильний переклад \\\"Taxonomía\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Taxonomía\\\"?)\" />",
+      "options": [
+        "Taxonomy / Classification <trans en=\"(Taxonomy / Classification)\" ar=\"(علم التصنيف)\" uk=\"(Таксономія)\" fr=\"(Taxonomie)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Atávico\"? <trans en=\"(What is the correct translation of \\\"Atávico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Atávico\\\"؟)\" uk=\"(Який правильний переклад \\\"Atávico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Atávico\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Atavistic / Ancestral <trans en=\"(Atavistic / Ancestral)\" ar=\"(قديم / موروث عن الأجداد)\" uk=\"(Атавістичний)\" fr=\"(Atavique)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Fetiche material\"? <trans en=\"(What is the correct translation of \\\"Fetiche material\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Fetiche material\\\"؟)\" uk=\"(Який правильний переклад \\\"Fetiche material\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Fetiche material\\\"?)\" />",
+      "options": [
+        "Material fetish / Token <trans en=\"(Material fetish / Token)\" ar=\"(رمز مادي)\" uk=\"(Матеріальний фетиш)\" fr=\"(Fétiche matériel)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Finitud\"? <trans en=\"(What is the correct translation of \\\"Finitud\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Finitud\\\"؟)\" uk=\"(Який правильний переклад \\\"Finitud\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Finitud\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Finitude / Mortality <trans en=\"(Finitude / Mortality)\" ar=\"(محدودية / فناء)\" uk=\"(Скінченність)\" fr=\"(Finitude)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Aplacar\"? <trans en=\"(What is the correct translation of \\\"Aplacar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Aplacar\\\"؟)\" uk=\"(Який правильний переклад \\\"Aplacar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Aplacar\\\"?)\" />",
+      "options": [
+        "To appease / Quell <trans en=\"(To appease / Quell)\" ar=\"(يهدئ / يسكن)\" uk=\"(Заспокоювати)\" fr=\"(Apaiser)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Bucle infinito\"? <trans en=\"(What is the correct translation of \\\"Bucle infinito\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Bucle infinito\\\"؟)\" uk=\"(Який правильний переклад \\\"Bucle infinito\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Bucle infinito\\\"?)\" />",
+      "options": [
+        "Infinite loop <trans en=\"(Infinite loop)\" ar=\"(حلقة لا نهائية)\" uk=\"(Нескінченний цикл)\" fr=\"(Boucle infinie)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Nostalgia\"? <trans en=\"(What is the correct translation of \\\"Nostalgia\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Nostalgia\\\"؟)\" uk=\"(Який правильний переклад \\\"Nostalgia\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Nostalgia\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Nostalgia <trans en=\"(Nostalgia)\" ar=\"(حنين إلى الماضي)\" uk=\"(Ностальгія)\" fr=\"(Nostalgie)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Coleccionismo\"? <trans en=\"(What is the correct translation of \\\"Coleccionismo\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Coleccionismo\\\"؟)\" uk=\"(Який правильний переклад \\\"Coleccionismo\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Coleccionismo\\\"?)\" />",
+      "options": [
+        "Collecting / Collectism <trans en=\"(Collecting / Collectism)\" ar=\"(جمع المقتنيات)\" uk=\"(Колекціонування)\" fr=\"(Collectionnisme)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Meticuloso\"? <trans en=\"(What is the correct translation of \\\"Meticuloso\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Meticuloso\\\"؟)\" uk=\"(Який правильний переклад \\\"Meticuloso\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Meticuloso\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Meticulous <trans en=\"(Meticulous)\" ar=\"(دقيق للغاية / وسواسي)\" uk=\"(Ретельний)\" fr=\"(Meticuleux)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Sacralización\"? <trans en=\"(What is the correct translation of \\\"Sacralización\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Sacralización\\\"؟)\" uk=\"(Який правильний переклад \\\"Sacralización\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Sacralización\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Sacralization <trans en=\"(Sacralization)\" ar=\"(تقديس)\" uk=\"(Сакралізація)\" fr=\"(Sacralisation)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Taxonomía\"? <trans en=\"(What is the correct translation of \\\"Taxonomía\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Taxonomía\\\"؟)\" uk=\"(Який правильний переклад \\\"Taxonomía\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Taxonomía\\\"?)\" />",
+      "options": [
+        "Taxonomy / Classification <trans en=\"(Taxonomy / Classification)\" ar=\"(علم التصنيف)\" uk=\"(Таксономія)\" fr=\"(Taxonomie)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Atávico\"? <trans en=\"(What is the correct translation of \\\"Atávico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Atávico\\\"؟)\" uk=\"(Який правильний переклад \\\"Atávico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Atávico\\\"?)\" />",
+      "options": [
+        "Atavistic / Ancestral <trans en=\"(Atavistic / Ancestral)\" ar=\"(قديم / موروث عن الأجداد)\" uk=\"(Атавістичний)\" fr=\"(Atavique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Fetiche material\"? <trans en=\"(What is the correct translation of \\\"Fetiche material\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Fetiche material\\\"؟)\" uk=\"(Який правильний переклад \\\"Fetiche material\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Fetiche material\\\"?)\" />",
+      "options": [
+        "Material fetish / Token <trans en=\"(Material fetish / Token)\" ar=\"(رمز مادي)\" uk=\"(Матеріальний фетиш)\" fr=\"(Fétiche matériel)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Finitud\"? <trans en=\"(What is the correct translation of \\\"Finitud\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Finitud\\\"؟)\" uk=\"(Який правильний переклад \\\"Finitud\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Finitud\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Finitude / Mortality <trans en=\"(Finitude / Mortality)\" ar=\"(محدودية / فناء)\" uk=\"(Скінченність)\" fr=\"(Finitude)\" />"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+},
+  {
+  "id": "c2-comp-posverdad",
+  "topic": "Comprensión C2",
+  "title": "Lectura: Epistemología de la posverdad",
+  "level": "C2",
+  "category": "Comprensión",
+  "description": "El consumo personalizado de verdades de conveniencia y su impacto crítico en la sociedad.",
+  "imageUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "illustrationUrl": "https://images.unsplash.com/photo-photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+  "emoji": "🔍",
+  "color": "#E3EEF9",
+  "vocabulary": [
+    {
+      "word": "Epistemología",
+      "translations": {
+        "en": "Epistemology",
+        "ar": "نظرية المعرفة",
+        "uk": "Епістемологія",
+        "fr": "Épistémologie"
+      },
+      "emoji": "📖",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Posverdad",
+      "translations": {
+        "en": "Post-truth",
+        "ar": "ما بعد الحقيقة",
+        "uk": "Постправда",
+        "fr": "Post-vérité"
+      },
+      "emoji": "🎭",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Fractura epistemológica",
+      "translations": {
+        "en": "Epistemological fracture",
+        "ar": "شرخ معرفي",
+        "uk": "Епістемологічний розрив",
+        "fr": "Fracture épistémologique"
+      },
+      "emoji": "⚡",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Realidad fáctica",
+      "translations": {
+        "en": "Factual reality",
+        "ar": "الواقع الفعلي / القائم على الحقائق",
+        "uk": "Фактична реальність",
+        "fr": "Réalité factuelle"
+      },
+      "emoji": "⚖️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Burbujas informativas",
+      "translations": {
+        "en": "Filter bubbles",
+        "ar": "فقاعات المعلومات",
+        "uk": "Інформаційні бульбашки",
+        "fr": "Bulles d'information"
+      },
+      "emoji": "🫧",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Escrutinio empírico",
+      "translations": {
+        "en": "Empirical scrutiny",
+        "ar": "التدقيق التجريبي",
+        "uk": "Емпіричне дослідження",
+        "fr": "Scrutin empirique"
+      },
+      "emoji": "🔬",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Cosmovisión",
+      "translations": {
+        "en": "Worldview",
+        "ar": "رؤية العالم / الكونية",
+        "uk": "Світогляд",
+        "fr": "Vision du monde"
+      },
+      "emoji": "🌍",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Disonancia cognitiva",
+      "translations": {
+        "en": "Cognitive dissonance",
+        "ar": "التنافر المعرفي",
+        "uk": "Когнітивний дисонанс",
+        "fr": "Dissonance cognitive"
+      },
+      "emoji": "🧠",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Hipertrofia informativa",
+      "translations": {
+        "en": "Information overload",
+        "ar": "تضخم المعلومات",
+        "uk": "Інформаційне перевантаження",
+        "fr": "Surcharge informationnelle"
+      },
+      "emoji": "📚",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Atomizar",
+      "translations": {
+        "en": "To atomize / Fragment",
+        "ar": "يجزئ / يفتت",
+        "uk": "Атомізувати / Розщеплювати",
+        "fr": "Atomiser"
+      },
+      "emoji": "⚛️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Impasible",
+      "translations": {
+        "en": "Impassive / Unmoved",
+        "ar": "لا مبالٍ / هادئ",
+        "uk": "Байдужий",
+        "fr": "Impassible"
+      },
+      "emoji": "😐",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Declive",
+      "translations": {
+        "en": "Decline",
+        "ar": "تدهور / انحدar",
+        "uk": "Занепад",
+        "fr": "Déclin"
+      },
+      "emoji": "📉",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Retórica clásica",
+      "translations": {
+        "en": "Classical rhetoric",
+        "ar": "البلاغة الكلاسيكية",
+        "uk": "Класична риторика",
+        "fr": "Rhétorique classique"
+      },
+      "emoji": "🗣️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Vacuidad",
+      "translations": {
+        "en": "Emptiness / Vacuity",
+        "ar": "فراغ",
+        "uk": "Пустота",
+        "fr": "Vacuité"
+      },
+      "emoji": "🕳️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Eslogan efectista",
+      "translations": {
+        "en": "Sensational slogan",
+        "ar": "شعار مؤثر",
+        "uk": "Сенсаційне гасло",
+        "fr": "Slogan accrocheur"
+      },
+      "emoji": "📢",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Ponderación de matices",
+      "translations": {
+        "en": "Nuances weighing",
+        "ar": "وزن الفروق الدقيقة",
+        "uk": "Зважування нюансів",
+        "fr": "Pondération des nuances"
+      },
+      "emoji": "⚖️",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Rigor dialéctico",
+      "translations": {
+        "en": "Dialectical rigor",
+        "ar": "الصرامة الجدلية",
+        "uk": "Діалектична строгість",
+        "fr": "Rigueur dialectique"
+      },
+      "emoji": "🧠",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Anacronismo",
+      "translations": {
+        "en": "Anachronism",
+        "ar": "مغالطة تاريخية",
+        "uk": "Анахронізм",
+        "fr": "Anachronisme"
+      },
+      "emoji": "⏳",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Trivialización",
+      "translations": {
+        "en": "Trivialization",
+        "ar": "تبسيط مبتذل / تسخيف",
+        "uk": "Тривіалізація",
+        "fr": "Trivialisation"
+      },
+      "emoji": "🎈",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Tribalismo ideológico",
+      "translations": {
+        "en": "Ideological tribalism",
+        "ar": "القبلية الأيديولوجية",
+        "uk": "Ідеологічний трибалізм",
+        "fr": "Tribalisme idéologique"
+      },
+      "emoji": "🏹",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Coleccionismo",
+      "translations": {
+        "en": "Collecting / Collectism",
+        "ar": "جمع المقتنيات",
+        "uk": "Колекціонування",
+        "fr": "Collectionnisme"
+      },
+      "emoji": "📦",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Meticuloso",
+      "translations": {
+        "en": "Meticulous",
+        "ar": "دقيق للغاية / وسواسي",
+        "uk": "Ретельний",
+        "fr": "Meticuleux"
+      },
+      "emoji": "🔍",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Sacralización",
+      "translations": {
+        "en": "Sacralization",
+        "ar": "تقديس",
+        "uk": "Сакралізація",
+        "fr": "Sacralisation"
+      },
+      "emoji": "⛪",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Taxonomía",
+      "translations": {
+        "en": "Taxonomy / Classification",
+        "ar": "علم التصنيف",
+        "uk": "Таксономія",
+        "fr": "Taxonomie"
+      },
+      "emoji": "📂",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Atávico",
+      "translations": {
+        "en": "Atavistic / Ancestral",
+        "ar": "قديم / موروث عن الأجداد",
+        "uk": "Атавістичний",
+        "fr": "Atavique"
+      },
+      "emoji": "🦖",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Fetiche material",
+      "translations": {
+        "en": "Material fetish / Token",
+        "ar": "رمز مادي",
+        "uk": "Матеріальний фетиш",
+        "fr": "Fétiche matériel"
+      },
+      "emoji": "🧿",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Finitud",
+      "translations": {
+        "en": "Finitude / Mortality",
+        "ar": "محدودية / فناء",
+        "uk": "Скінченність",
+        "fr": "Finitude"
+      },
+      "emoji": "⏳",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Aplacar",
+      "translations": {
+        "en": "To appease / Quell",
+        "ar": "يهدئ / يسكن",
+        "uk": "Заспокоювати",
+        "fr": "Apaiser"
+      },
+      "emoji": "🌊",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Bucle infinito",
+      "translations": {
+        "en": "Infinite loop",
+        "ar": "حلقة لا نهائية",
+        "uk": "Нескінченний цикл",
+        "fr": "Boucle infinie"
+      },
+      "emoji": "🔁",
+      "color": "#FFF4E5"
+    },
+    {
+      "word": "Nostalgia",
+      "translations": {
+        "en": "Nostalgia",
+        "ar": "حنين إلى الماضي",
+        "uk": "Ностальгія",
+        "fr": "Nostalgie"
+      },
+      "emoji": "🕰️",
+      "color": "#FFF4E5"
+    }
+  ],
+  "content": "## Lectura: Epistemología de la posverdad\n\nEl coleccionismo y la quimera de la posesión\n\nEl coleccionismo trasciende la mera acumulación suntuaria de objetos para adentrarse en los intrincados recovecos de la psicología humana. El coleccionista meticuloso no busca la utilidad práctica de la pieza adquirida, sino la sacralización de la misma dentro de una taxonomía personal y subjetiva. Existe en este impulso un intento atávico de conferir orden al caos cósmico, de compartimentar la realidad para hacerla aprehensible a través de fetiches materiales que actúan como diques de contención contra el olvido y la finitud.  \nParadójicamente, la aparente satisfacción que depara el hallazgo de la pieza largamente codiciada es tan efímera como ilusoria. Lejos de aplacar el deseo, la completitud de la serie espolea una nueva carencia, reanudando un bucle infinito donde el objeto ausente tiraniza al poseedor. Así, el coleccionismo se revela no como el disfrute de lo que se detenta, sino como una perenne nostalgia de lo que falta; una quimera donde el sujeto acaba siendo poseído por su propia colección.\n\n---",
+  "exercises": [
+    {
+      "id": "ex1",
       "question": "¿En qué se diferencia conceptualmente la 'posverdad' de la mentira política tradicional?",
       "options": [
         "La mentira tradicional requería papel impreso",
@@ -16989,7 +21305,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex8",
+      "id": "ex2",
       "question": "¿Cómo interactúa el ciudadano de la sociedad de la posverdad con la información que contradice sus creencias?",
       "options": [
         "La analiza críticamente y cambia de opinión",
@@ -16999,7 +21315,7 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex9",
+      "id": "ex3",
       "question": "¿Qué consecuencia tiene la 'hipertrofia informativa' sobre el juicio crítico y la noción colectiva de la realidad?",
       "options": [
         "Facilita un consenso científico unánime",
@@ -17009,114 +21325,174 @@ Los marcadores discursivos sirven para estructurar un discurso formal, facilitan
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex10",
-      "question": "El antónimo de 'impasible' es...",
+      "id": "ex4",
+      "question": "¿Cuál es la traducción correcta de \"Epistemología\"? <trans en=\"(What is the correct translation of \\\"Epistemología\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Epistemología\\\"؟)\" uk=\"(Який правильний переклад \\\"Epistemología\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Epistemología\\\"?)\" />",
       "options": [
-        "tranquilo",
-        "conmovido / alterado",
-        "apático"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c2-ex11",
-      "question": "La 'vacuidad' de una propuesta se refiere a su...",
-      "options": [
-        "riqueza conceptual",
-        "falta de contenido o profundidad",
-        "complejidad gramatical"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c2-ex12",
-      "question": "Un coleccionista que trabaja de forma extremadamente cuidadosa y detallada es...",
-      "options": [
-        "impasible",
-        "meticuloso",
-        "atávico"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c2-ex13",
-      "question": "Completa la frase: 'El impulso de coleccionar responde a un deseo _______ heredado de los ancestros.'",
-      "options": [
-        "fáctico",
-        "atávico",
-        "tedioso"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "c2-ex14",
-      "question": "El estudio del origen, alcance y validez del conocimiento científico es la...",
-      "options": [
-        "epistemología",
-        "retórica",
-        "taxonomía"
+        "Epistemology <trans en=\"(Epistemology)\" ar=\"(نظرية المعرفة)\" uk=\"(Епістемологія)\" fr=\"(Épistémologie)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 0
     },
     {
-      "id": "c2-ex15",
-      "question": "Completa: 'La sociedad de la posverdad ha causado una _______ epistemológica inédita.'",
+      "id": "ex5",
+      "question": "¿Cuál es la traducción correcta de \"Posverdad\"? <trans en=\"(What is the correct translation of \\\"Posverdad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Posverdad\\\"؟)\" uk=\"(Який правильний переклад \\\"Posverdad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Posverdad\\\"?)\" />",
       "options": [
-        "finitud",
-        "nostalgia",
-        "fractura"
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Post-truth <trans en=\"(Post-truth)\" ar=\"(ما بعد الحقيقة)\" uk=\"(Постправда)\" fr=\"(Post-vérité)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex6",
+      "question": "¿Cuál es la traducción correcta de \"Fractura epistemológica\"? <trans en=\"(What is the correct translation of \\\"Fractura epistemológica\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Fractura epistemológica\\\"؟)\" uk=\"(Який правильний переклад \\\"Fractura epistemológica\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Fractura epistemológica\\\"?)\" />",
+      "options": [
+        "Epistemological fracture <trans en=\"(Epistemological fracture)\" ar=\"(شرخ معرفي)\" uk=\"(Епістемологічний розрив)\" fr=\"(Fracture épistémologique)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex7",
+      "question": "¿Cuál es la traducción correcta de \"Realidad fáctica\"? <trans en=\"(What is the correct translation of \\\"Realidad fáctica\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Realidad fáctica\\\"؟)\" uk=\"(Який правильний переклад \\\"Realidad fáctica\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Realidad fáctica\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Factual reality <trans en=\"(Factual reality)\" ar=\"(الواقع الفعلي / القائم على الحقائق)\" uk=\"(Фактична реальність)\" fr=\"(Réalité factuelle)\" />"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "c2-ex16",
-      "question": "La realidad que se basa estrictamente en hechos reales y demostrables es la realidad...",
+      "id": "ex8",
+      "question": "¿Cuál es la traducción correcta de \"Burbujas informativas\"? <trans en=\"(What is the correct translation of \\\"Burbujas informativas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Burbujas informativas\\\"؟)\" uk=\"(Який правильний переклад \\\"Burbujas informativas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Burbujas informativas\\\"?)\" />",
       "options": [
-        "fáctica",
-        "vacua",
-        "anacrónica"
+        "Filter bubbles <trans en=\"(Filter bubbles)\" ar=\"(فقاعات المعلومات)\" uk=\"(Інформаційні бульбашки)\" fr=\"(Bulles d'information)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 0
     },
     {
-      "id": "c2-ex17",
-      "question": "Completa la frase: 'Las comunidades de internet suelen encerrarse en sus propias _______ informativas.'",
+      "id": "ex9",
+      "question": "¿Cuál es la traducción correcta de \"Escrutinio empírico\"? <trans en=\"(What is the correct translation of \\\"Escrutinio empírico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Escrutinio empírico\\\"؟)\" uk=\"(Який правильний переклад \\\"Escrutinio empírico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Escrutinio empírico\\\"?)\" />",
       "options": [
-        "taxonomías",
-        "burbujas",
-        "matices"
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Empirical scrutiny <trans en=\"(Empirical scrutiny)\" ar=\"(التدقيق التجريبي)\" uk=\"(Емпіричне дослідження)\" fr=\"(Scrutin empirique)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex10",
+      "question": "¿Cuál es la traducción correcta de \"Cosmovisión\"? <trans en=\"(What is the correct translation of \\\"Cosmovisión\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cosmovisión\\\"؟)\" uk=\"(Який правильний переклад \\\"Cosmovisión\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cosmovisión\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Worldview <trans en=\"(Worldview)\" ar=\"(رؤية العالم / الكونية)\" uk=\"(Світогляд)\" fr=\"(Vision du monde)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex18",
-      "question": "Un examen minucioso y empírico de un hecho se denomina...",
+      "id": "ex11",
+      "question": "¿Cuál es la traducción correcta de \"Disonancia cognitiva\"? <trans en=\"(What is the correct translation of \\\"Disonancia cognitiva\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Disonancia cognitiva\\\"؟)\" uk=\"(Який правильний переклад \\\"Disonancia cognitiva\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Disonancia cognitiva\\\"?)\" />",
       "options": [
-        "eslogan",
-        "escrutinio",
-        "anacronismo"
+        "Cognitive dissonance <trans en=\"(Cognitive dissonance)\" ar=\"(التنافر المعرفي)\" uk=\"(Когнітивний дисонанс)\" fr=\"(Dissonance cognitive)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex12",
+      "question": "¿Cuál es la traducción correcta de \"Hipertrofia informativa\"? <trans en=\"(What is the correct translation of \\\"Hipertrofia informativa\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Hipertrofia informativa\\\"؟)\" uk=\"(Який правильний переклад \\\"Hipertrofia informativa\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Hipertrofia informativa\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Information overload <trans en=\"(Information overload)\" ar=\"(تضخم المعلومات)\" uk=\"(Інформаційне перевантаження)\" fr=\"(Surcharge informationnelle)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex13",
+      "question": "¿Cuál es la traducción correcta de \"Atomizar\"? <trans en=\"(What is the correct translation of \\\"Atomizar\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Atomizar\\\"؟)\" uk=\"(Який правильний переклад \\\"Atomizar\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Atomizar\\\"?)\" />",
+      "options": [
+        "To atomize / Fragment <trans en=\"(To atomize / Fragment)\" ar=\"(يجزئ / يفتت)\" uk=\"(Атомізувати / Розщеплювати)\" fr=\"(Atomiser)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex14",
+      "question": "¿Cuál es la traducción correcta de \"Epistemología\"? <trans en=\"(What is the correct translation of \\\"Epistemología\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Epistemología\\\"؟)\" uk=\"(Який правильний переклад \\\"Epistemología\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Epistemología\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Epistemology <trans en=\"(Epistemology)\" ar=\"(نظرية المعرفة)\" uk=\"(Епістемологія)\" fr=\"(Épistémologie)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex15",
+      "question": "¿Cuál es la traducción correcta de \"Posverdad\"? <trans en=\"(What is the correct translation of \\\"Posverdad\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Posverdad\\\"؟)\" uk=\"(Який правильний переклад \\\"Posverdad\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Posverdad\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Post-truth <trans en=\"(Post-truth)\" ar=\"(ما بعد الحقيقة)\" uk=\"(Постправда)\" fr=\"(Post-vérité)\" />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "question": "¿Cuál es la traducción correcta de \"Fractura epistemológica\"? <trans en=\"(What is the correct translation of \\\"Fractura epistemológica\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Fractura epistemológica\\\"؟)\" uk=\"(Який правильний переклад \\\"Fractura epistemológica\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Fractura epistemológica\\\"?)\" />",
+      "options": [
+        "Epistemological fracture <trans en=\"(Epistemological fracture)\" ar=\"(شرخ معرفي)\" uk=\"(Епістемологічний розрив)\" fr=\"(Fracture épistémologique)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex17",
+      "question": "¿Cuál es la traducción correcta de \"Realidad fáctica\"? <trans en=\"(What is the correct translation of \\\"Realidad fáctica\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Realidad fáctica\\\"؟)\" uk=\"(Який правильний переклад \\\"Realidad fáctica\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Realidad fáctica\\\"?)\" />",
+      "options": [
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Factual reality <trans en=\"(Factual reality)\" ar=\"(الواقع الفعلي / القائم على الحقائق)\" uk=\"(Фактична реальність)\" fr=\"(Réalité factuelle)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "c2-ex19",
-      "question": "La cosmovisión de una persona representa su...",
+      "id": "ex18",
+      "question": "¿Cuál es la traducción correcta de \"Burbujas informativas\"? <trans en=\"(What is the correct translation of \\\"Burbujas informativas\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Burbujas informativas\\\"؟)\" uk=\"(Який правильний переклад \\\"Burbujas informativas\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Burbujas informativas\\\"?)\" />",
       "options": [
-        "situación financiera",
-        "manera de ver e interpretar el mundo",
-        "capacidad de oratoria"
+        "Filter bubbles <trans en=\"(Filter bubbles)\" ar=\"(فقاعات المعلومات)\" uk=\"(Інформаційні бульбашки)\" fr=\"(Bulles d'information)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 0
     },
     {
-      "id": "c2-ex20",
-      "question": "Cuando una realidad unificada se divide en múltiples partes desconectadas, se dice que se ha...",
+      "id": "ex19",
+      "question": "¿Cuál es la traducción correcta de \"Escrutinio empírico\"? <trans en=\"(What is the correct translation of \\\"Escrutinio empírico\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Escrutinio empírico\\\"؟)\" uk=\"(Який правильний переклад \\\"Escrutinio empírico\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Escrutinio empírico\\\"?)\" />",
       "options": [
-        "aplacado",
-        "atomizado",
-        "sacralizado"
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Empirical scrutiny <trans en=\"(Empirical scrutiny)\" ar=\"(التدقيق التجريبي)\" uk=\"(Емпіричне дослідження)\" fr=\"(Scrutin empirique)\" />"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex20",
+      "question": "¿Cuál es la traducción correcta de \"Cosmovisión\"? <trans en=\"(What is the correct translation of \\\"Cosmovisión\\\"?)\" ar=\"(ما هي الترجمة الصحيحة لـ \\\"Cosmovisión\\\"؟)\" uk=\"(Який правильний переклад \\\"Cosmovisión\\\"?)\" fr=\"(Quelle es la traduction correcte de \\\"Cosmovisión\\\"?)\" />",
+      "options": [
+        "Incorrecto 2 <trans en=\"(Incorrect 2)\" ar=\"(خاطئ ٢)\" uk=\"(Неправильно 2)\" fr=\"(Incorrect 2)\" />",
+        "Incorrecto 1 <trans en=\"(Incorrect 1)\" ar=\"(خاطئ ١)\" uk=\"(Неправильно 1)\" fr=\"(Incorrect 1)\" />",
+        "Worldview <trans en=\"(Worldview)\" ar=\"(رؤية العالم / الكونية)\" uk=\"(Світогляд)\" fr=\"(Vision du monde)\" />"
+      ],
+      "correctAnswer": 2
     }
   ]
 }
