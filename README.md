@@ -181,9 +181,22 @@ La lógica de síntesis de voz está manejada centralmente a través de [Languag
 
 ---
 
-## 👥 Colaboradores
+# 👥 Colaboradores
 
-- Jesús Hernández
+- Jesús Hernández  
 - Santiago Arena
+
+---
+
+# 👨‍💻 Contacto
+
+- GitHub:  
+  https://github.com/JesusHernandezP
+
+- LinkedIn:  
+  https://www.linkedin.com/in/jesushernandezp/
+
+- Portfolio:  
+  https://jesus-hernandez.es
 
 
