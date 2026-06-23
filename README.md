@@ -178,3 +178,15 @@ export interface VerbEntry {
 La lógica de síntesis de voz está manejada centralmente a través de [LanguageContext.tsx](file:///c:/PracticaUcademy/PracticasDAM_AshaKiran/web-herramienta-español/src/contexts/LanguageContext.tsx). 
 - Permite seleccionar la velocidad de reproducción.
 - Filtra las voces disponibles en el dispositivo del usuario buscando voces locales en español de España (`es-ES`) o variantes de habla hispana como fallback para garantizar una entonación natural.
+
+---
+
+## 👥 Colaboradores y Autores
+
+Este proyecto ha sido desarrollado en colaboración por:
+- **Jesús Hernández**  
+  - GitHub: [JesusHernandezP](https://github.com/JesusHernandezP)  
+  - LinkedIn: [jesushernandezp](https://www.linkedin.com/in/jesushernandezp/)  
+  - Portfolio: [jesus-hernandez.es](https://jesus-hernandez.es)  
+- **Santiago Arena**
+
