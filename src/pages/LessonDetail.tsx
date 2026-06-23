@@ -84,13 +84,17 @@ export function LessonDetail() {
       }
     };
 
-    // Attach listener for simulated audio buttons in lesson content
+    // Attach listener for simulated audio buttons in lesson content.
+    // This allows text-to-speech interaction on text segments inside markdown
+    // by intercepting clicks on HTML elements containing the 'audio-btn' class.
     const handleAudioBtnClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (target && target.classList.contains('audio-btn')) {
+        // Special case for alphabet recitation:
         if (id === 'a1-alfa-abecedario') {
           speakSpanish("A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z");
         } else {
+          // General case: speak the clean text content inside the clicked button (excluding the speaker emoji)
           const textToSpeak = target.innerText.replace('🔊', '').trim();
           speakSpanish(textToSpeak);
         }

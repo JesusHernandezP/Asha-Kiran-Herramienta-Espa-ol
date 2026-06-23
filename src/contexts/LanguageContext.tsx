@@ -35,19 +35,30 @@ export function useLanguage() {
   return context;
 }
 
+/**
+ * Helper function to parse translation tags: <trans lang="Translation" />
+ * Extract value of the given language from the custom trans tag using regex.
+ */
 export function parseTransTag(tag: string, language: Language): string {
   const getAttr = (lang: string): string | null => {
+    // Matches attributes like en="..." or ar="..." inside the <trans /> tag
     const regex = new RegExp(`${lang}\\s*=\\s*(['"])(.*?)\\1`);
     const match = tag.match(regex);
     return match ? match[2] : null;
   };
   let val = getAttr(language);
+  // Fallback to English translation if target language is not defined
   if (val === null && language !== 'en') {
     val = getAttr('en');
   }
   return val ? val.replace(/^["']|["']$/g, '') : '';
 }
 
+/**
+ * Utility to replace custom `<trans>` tags in raw text before rendering.
+ * - For Spanish 'es', replaces tags with English translation inline for secondary reference (unless it starts with '(').
+ * - For other languages, replaces tags with highlighted translation spans.
+ */
 export function replaceTransTags(text: string, language: Language): string {
   if (language === 'es') {
     return text.replace(/<trans\s+[^>]*\/>/g, (match) => {

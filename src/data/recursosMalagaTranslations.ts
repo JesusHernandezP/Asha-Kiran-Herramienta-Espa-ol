@@ -18,7 +18,7 @@ export interface Resource {
   category: 'alimentacion' | 'alojamiento' | 'apoyo_social' | 'empleo_formacion' | 'tramites_legal' | 'salud_finanzas' | 'otros';
 }
 
-import cleanResources from '../../clean_resources.json';
+import cleanResources from './clean_resources.json';
 
 const orangeNames = [
   'Red de Atención a Personas sin Hogar',
