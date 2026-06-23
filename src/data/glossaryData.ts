@@ -7325,6 +7325,55 @@ const b2Themes: GlossaryTheme[] = [
       }
     ],
   },
+  {
+    id: 'medio-ambiente-b2',
+    name: 'El Medio Ambiente',
+    emoji: '🌱',
+    translations: { en: 'The Environment', ar: 'البيئة', uk: 'Довкілля', fr: "L'Environnement" },
+    words: [
+      { word: 'Calentamiento global', translations: { en: 'Global warming', ar: 'الاحتباس الحراري', uk: 'Глобальне потепління', fr: 'Réchauffement climatique' }, emoji: '🥵', color: '#FFF4E5' },
+      { word: 'Reciclaje', translations: { en: 'Recycling', ar: 'إعادة التدوير', uk: 'Переробка', fr: 'Recyclage' }, emoji: '♻️', color: '#E2F3E7' },
+      { word: 'Sostenible', translations: { en: 'Sustainable', ar: 'مستدام', uk: 'Сталий', fr: 'Durable' }, emoji: '🔋', color: '#E2F3E7' },
+      { word: 'Energías renovables', translations: { en: 'Renewable energy', ar: 'الطاقة المتجددة', uk: 'Відновлювана енергія', fr: 'Énergies renouvelables' }, emoji: '☀️', color: '#FEFCBF' },
+      { word: 'Biodiversidad', translations: { en: 'Biodiversity', ar: 'التنوع البيولوجي', uk: 'Біорізноманіття', fr: 'Biodiversité' }, emoji: '🦋', color: '#E2F3E7' },
+      { word: 'Efecto invernadero', translations: { en: 'Greenhouse effect', ar: 'تأثير الصوبة الزجاجية', uk: 'Тепличний ефект', fr: 'Effet de serre' }, emoji: '🏭', color: '#EDF2F7' },
+      { word: 'Contaminación', translations: { en: 'Pollution', ar: 'تلوث', uk: 'Забруднення', fr: 'Pollution' }, emoji: '🌫️', color: '#EDF2F7' },
+      { word: 'Deforestación', translations: { en: 'Deforestation', ar: 'إزالة الغابات', uk: 'Вирубка лісів', fr: 'Déforestation' }, emoji: '🪓', color: '#FFF4E5' },
+      { word: 'Conservar', translations: { en: 'To conserve', ar: 'يحافظ على', uk: 'Зберігати', fr: 'Conserver' }, emoji: '🌲', color: '#E2F3E7' },
+      { word: 'Desperdicio', translations: { en: 'Waste', ar: 'نفايات / هدر', uk: 'Відходи', fr: 'Gaspillage' }, emoji: '🗑️', color: '#EDF2F7' }
+    ]
+  },
+  {
+    id: 'trabajo-empleo-b2',
+    name: 'Trabajo y Empleo',
+    emoji: '💼',
+    translations: { en: 'Work & Employment', ar: 'العمل والتوظيف', uk: 'Робота та зайнятість', fr: 'Travail et Emploi' },
+    words: [
+      { word: 'Currículum vitae', translations: { en: 'Résumé / CV', ar: 'السيرة الذاتية', uk: 'Резюме', fr: 'Curriculum vitae' }, emoji: '📄', color: '#E3EEF9' },
+      { word: 'Puesto de trabajo', translations: { en: 'Job position', ar: 'وظيفة / منصب', uk: 'Посада', fr: 'Poste de trabajo' }, emoji: '🏢', color: '#E3EEF9' },
+      { word: 'Contrato indefinido', translations: { en: 'Permanent contract', ar: 'عقد غير محدد المدة', uk: 'Безстроковий контракт', fr: 'Contrat à durée indéterminée' }, emoji: '🖋️', color: '#E2F3E7' },
+      { word: 'Emprendedor', translations: { en: 'Entrepreneur', ar: 'رائد أعمال', uk: 'Підприємець', fr: 'Entrepreneur' }, emoji: '🚀', color: '#FFF4E5' },
+      { word: 'Salario mínimo', translations: { en: 'Minimum wage', ar: 'الحد الأدنى للأجور', uk: 'Мінімальна зарплата', fr: 'Salaire minimum' }, emoji: '💵', color: '#E2F3E7' },
+      { word: 'Despido', translations: { en: 'Dismissal / firing', ar: 'إقالة / فصل', uk: 'Звільнення', fr: 'Licenciement' }, emoji: '🚪', color: '#FCE8E8' },
+      { word: 'Jubilación', translations: { en: 'Retirement', ar: 'التقاعد', uk: 'Пенсія', fr: 'Retraite' }, emoji: '👴', color: '#FFF4E5' },
+      { word: 'Entrevista de trabajo', translations: { en: 'Job interview', ar: 'مقابلة عمل', uk: 'Співбесіда', fr: "Entretien d'embauche" }, emoji: '🤝', color: '#EBF8FF' },
+      { word: 'Ascenso', translations: { en: 'Promotion', ar: 'ترقية', uk: 'Підвищення', fr: 'Promotion' }, emoji: '📈', color: '#E2F3E7' },
+      { word: 'Jornada laboral', translations: { en: 'Working day / shift', ar: 'يوم العمل / الدوام', uk: 'Робочий день', fr: 'Journée de trabajo' }, emoji: '📅', color: '#EDF2F7' }
+    ]
+  },
+  {
+    id: 'viajes-turismo-b2',
+    name: 'Viajes y Turismo',
+    emoji: '✈️',
+    translations: { en: 'Travel & Tourism', ar: 'السفر والسياحة', uk: 'Подорожі та туризм', fr: 'Voyages et Tourisme' },
+    words: [
+      { word: 'Alojamiento', translations: { en: 'Accommodation', ar: 'الإقامة', uk: 'Житло / розміщення', fr: 'Hébergement' }, emoji: '🏨', color: '#EBF8FF' },
+      { word: 'Itinerario', translations: { en: 'Itinerary', ar: 'مسار الرحلة', uk: 'Маршрут', fr: 'Itinéraire' }, emoji: '🗺️', color: '#E3EEF9' },
+      { word: 'Pasaporte', translations: { en: 'Passport', ar: 'جواز سفر', uk: 'Паспорт', fr: 'Passeport' }, emoji: '🛂', color: '#E2F3E7' },
+      { word: 'Destino turístico', translations: { en: 'Tourist destination', ar: 'وجهة سياحية', uk: 'Туристичний напрямок', fr: 'Destination touristique' }, emoji: '🏖️', color: '#FEFCBF' },
+      { word: 'Equipaje de mano', translations: { en: 'Hand luggage', ar: 'حقيبة يد', uk: 'Ручна поклажа', fr: 'Bagage de cabine' }, emoji: '🧳', color: '#EDF2F7' }
+    ]
+  }
 ];
 
 const c1Themes: GlossaryTheme[] = [
@@ -7337,14 +7386,112 @@ const c1Themes: GlossaryTheme[] = [
       { word: 'No obstante', translations: { en: 'Nevertheless', ar: 'ومع ذلك', uk: 'Проте', fr: 'Néanmoins' }, emoji: '⚖️', color: '#FEFCBF' },
       { word: 'Por consiguiente', translations: { en: 'Therefore', ar: 'بناء على ذلك', uk: 'Отже', fr: 'Par conséquent' }, emoji: '👉', color: '#FEFCBF' },
       { word: 'En resumen', translations: { en: 'In summary', ar: 'باختصار', uk: 'Підсумовуючи', fr: 'En résumé' }, emoji: '📌', color: '#FEFCBF' },
-      { word: 'Puesto que', translations: { en: 'Since', ar: 'بما أن', uk: 'Оскільки', fr: 'Puisque' }, emoji: '📎', color: '#FEFCBF' },
+      { word: 'Puesto que', translations: { en: 'Since', ar: 'بма أن', uk: 'Оскільки', fr: 'Puisque' }, emoji: '📎', color: '#FEFCBF' },
       { word: 'A pesar de', translations: { en: 'Despite', ar: 'بالرغم من', uk: 'Незважаючи на', fr: 'Malgré' }, emoji: '💪', color: '#FEFCBF' },
     ],
   },
+  {
+    id: 'sociedad-politica-c1',
+    name: 'Sociedad y Política',
+    emoji: '⚖️',
+    translations: { en: 'Society and Politics', ar: 'المجتمع والسياسة', uk: 'Суспільство та політика', fr: 'Société et Politique' },
+    words: [
+      { word: 'Democracia', translations: { en: 'Democracy', ar: 'الديمقراطية', uk: 'Демократія', fr: 'Démocratie' }, emoji: '🗳️', color: '#E3EEF9' },
+      { word: 'Ciudadanía', translations: { en: 'Citizenship', ar: 'المواطنة', uk: 'Громадянство', fr: 'Citoyenneté' }, emoji: '🪪', color: '#E3EEF9' },
+      { word: 'Derechos humanos', translations: { en: 'Human rights', ar: 'حقوق الإنسان', uk: 'Права людини', fr: 'Derechos de l\'homme' }, emoji: '🌍', color: '#E2F3E7' },
+      { word: 'Globalización', translations: { en: 'Globalization', ar: 'العولمة', uk: 'Глобалізація', fr: 'Mondialisation' }, emoji: '🌐', color: '#EBF8FF' },
+      { word: 'Diversidad cultural', translations: { en: 'Cultural diversity', ar: 'التنوع الثقافي', uk: 'Культурне різноманіття', fr: 'Diversité culturelle' }, emoji: '🎭', color: '#F3E8FF' },
+      { word: 'Bienestar social', translations: { en: 'Social welfare', ar: 'الرعاية الاجتماعية', uk: 'Соціальне благополуччя', fr: 'Bien-être social' }, emoji: '🏥', color: '#E2F3E7' },
+      { word: 'Polémica', translations: { en: 'Controversy', ar: 'جدل', uk: 'Полеміка / суперечка', fr: 'Polémique' }, emoji: '🗣️', color: '#FCE8E8' },
+      { word: 'Inmigración', translations: { en: 'Immigration', ar: 'الهجرة', uk: 'Імміграція', fr: 'Immigration' }, emoji: '🧳', color: '#FFF4E5' },
+      { word: 'Manifestación', translations: { en: 'Protest / demonstration', ar: 'مظاهرة', uk: 'Демонстрація / протест', fr: 'Manifestation' }, emoji: '📢', color: '#FFF4E5' },
+      { word: 'Legislación', translations: { en: 'Legislation', ar: 'تشريع', uk: 'Законодавство', fr: 'Législation' }, emoji: '📜', color: '#EDF2F7' }
+    ]
+  },
+  {
+    id: 'ciencia-tecnologia-c1',
+    name: 'Ciencia y Tecnología',
+    emoji: '🔬',
+    translations: { en: 'Science and Technology', ar: 'العلوم والتكنولوجيا', uk: 'Наука і технології', fr: 'Science et Technologie' },
+    words: [
+      { word: 'Inteligencia artificial', translations: { en: 'Artificial intelligence', ar: 'الذكاء الاصطناعي', uk: 'Штучний інтелект', fr: 'Intelligence artificielle' }, emoji: '🤖', color: '#F3E8FF' },
+      { word: 'Algoritmo', translations: { en: 'Algorithm', ar: 'خوارزمية', uk: 'Алгоритм', fr: 'Algorithme' }, emoji: '💻', color: '#EDF2F7' },
+      { word: 'Dispositivo', translations: { en: 'Device', ar: 'جهاز', uk: 'Пристрій', fr: 'Dispositif' }, emoji: '📱', color: '#EBF8FF' },
+      { word: 'Investigación', translations: { en: 'Research', ar: 'بحث علمي', uk: 'Дослідження', fr: 'Recherche' }, emoji: '🔍', color: '#E3EEF9' },
+      { word: 'Desarrollo tecnológico', translations: { en: 'Technological development', ar: 'التطور التكنولوجي', uk: 'Технологічний розвиток', fr: 'Développement technologique' }, emoji: '🚀', color: '#FFF4E5' },
+      { word: 'Ciberseguridad', translations: { en: 'Cybersecurity', ar: 'الأمن السيبراني', uk: 'Кібербезпека', fr: 'Cybersécurité' }, emoji: '🛡️', color: '#E2F3E7' },
+      { word: 'Biotecnología', translations: { en: 'Biotechnology', ar: 'التكنولوجيا الحيوية', uk: 'Біотехноロジー', fr: 'Biotechnologie' }, emoji: '🧬', color: '#E2F3E7' },
+      { word: 'Innovación', translations: { en: 'Innovation', ar: 'ابتكار', uk: 'Інновація', fr: 'Innovation' }, emoji: '💡', color: '#FEFCBF' },
+      { word: 'Navegador', translations: { en: 'Browser', ar: 'متصفح', uk: 'Браузер', fr: 'Navigateur' }, emoji: '🌐', color: '#EBF8FF' },
+      { word: 'Almacenamiento en la nube', translations: { en: 'Cloud storage', ar: 'التخزين السحابий', uk: 'Хмарне сховище', fr: 'Stockage en nuage' }, emoji: '☁️', color: '#E3EEF9' }
+    ]
+  },
+  {
+    id: 'economia-finanzas-c1',
+    name: 'Economía y Finanzas',
+    emoji: '📈',
+    translations: { en: 'Economy & Finance', ar: 'الاقتصاد والتمويل', uk: 'Економіка та фінанси', fr: 'Économie et Finance' },
+    words: [
+      { word: 'Inflación', translations: { en: 'Inflation', ar: 'التضخم', uk: 'Інфляція', fr: 'Inflation' }, emoji: '💸', color: '#FFF4E5' },
+      { word: 'Presupuesto', translations: { en: 'Budget', ar: 'الميزانية', uk: 'Бюджет', fr: 'Budget' }, emoji: '📊', color: '#E3EEF9' },
+      { word: 'Inversión', translations: { en: 'Investment', ar: 'الاستثمار', uk: 'Інвестиція', fr: 'Investissement' }, emoji: '💰', color: '#E2F3E7' },
+      { word: 'Tasa de interés', translations: { en: 'Interest rate', ar: 'سعر الفائدة', uk: 'Відсоткова ставка', fr: "Taux d'intérêt" }, emoji: '📉', color: '#EDF2F7' },
+      { word: 'Mercado financiero', translations: { en: 'Financial market', ar: 'السوق المالي', uk: 'Фінансовий ринок', fr: 'Marché financier' }, emoji: '🏛️', color: '#EBF8FF' }
+    ]
+  }
 ];
 
-const c2Themes: GlossaryTheme[] = [];
-
+const c2Themes: GlossaryTheme[] = [
+  {
+    id: 'expresiones-idiomaticas-c2',
+    name: 'Expresiones Idiomáticas y Modismos',
+    emoji: '🎭',
+    translations: { en: 'Idioms and Colloquialisms', ar: 'التعبيرات الاصطلاحية', uk: 'Ідіоми та фразеологізми', fr: 'Expressions Idiomatiques' },
+    words: [
+      { word: 'Meter la pata', translations: { en: 'To screw up / make a mistake', ar: 'يرتكب خطأً فادحاً', uk: 'Зробити дурницю / схибити', fr: 'Mettre les pieds dans le plat' }, emoji: '👣', color: '#FCE8E8' },
+      { word: 'Tomar el pelo', translations: { en: 'To pull someone\'s leg', ar: 'يمزح مع شخص / يسخر من', uk: 'Морочити голову / жартувати', fr: 'Faire marcher quelqu\'un' }, emoji: '💇', color: '#FFF4E5' },
+      { word: 'Echar de menos', translations: { en: 'To miss', ar: 'يشتاق إلى', uk: 'Сумувати за', fr: 'Manquer à' }, emoji: '💔', color: '#FCE8E8' },
+      { word: 'Costar un ojo de la cara', translations: { en: 'To cost an arm and a leg', ar: 'يكلف الكثير جداً', uk: 'Коштувати шалених грошей', fr: 'Coûter les yeux de la tête' }, emoji: '👁️', color: '#FEFCBF' },
+      { word: 'Estar en las nubes', translations: { en: 'To be daydreaming', ar: 'شارد الذهن', uk: 'Літати в хмарах', fr: 'Être dans les nuages' }, emoji: '☁️', color: '#E3EEF9' },
+      { word: 'Ponerse las pilas', translations: { en: 'To get one\'s act together', ar: 'يستجمع طاقته / يجد في العمل', uk: 'Взятися за розум / підбадьоритися', fr: 'Se secouer' }, emoji: '🔋', color: '#E2F3E7' },
+      { word: 'Dar en el clavo', translations: { en: 'To hit the nail on the head', ar: 'يصيب عين الحقيقة', uk: 'Влучити в ціль', fr: 'Frapper dans le mille' }, emoji: '🎯', color: '#E2F3E7' },
+      { word: 'Tirar la toalla', translations: { en: 'To give up', ar: 'يستسلم / يرمي المنديل', uk: 'Здатися', fr: 'Jeter l\'éponge' }, emoji: '🏳️', color: '#EDF2F7' },
+      { word: 'Irse por las ramas', translations: { en: 'To beat around the bush', ar: 'يتفرع في الحديث / يلف ويدور', uk: 'Ходити манівцями', fr: 'Tourner autour du pot' }, emoji: '🌿', color: '#FFF4E5' },
+      { word: 'Hacer la vista gorda', translations: { en: 'To turn a blind eye', ar: 'يتغاضى عن', uk: 'Закривати очі на щось', fr: 'Fermer les yeux sur quelque chose' } }
+    ]
+  },
+  {
+    id: 'literatura-filosofia-c2',
+    name: 'Literatura y Filosofía',
+    emoji: '📚',
+    translations: { en: 'Literature & Philosophy', ar: 'الأدب والفلسفة', uk: 'Література та філософія', fr: 'Littérature et Philosophie' },
+    words: [
+      { word: 'Metáfora', translations: { en: 'Metaphor', ar: 'استعارة', uk: 'Метафора', fr: 'Métaphore' }, emoji: '🗣️', color: '#F3E8FF' },
+      { word: 'Ensayo', translations: { en: 'Essay', ar: 'مقال / أطروحة', uk: 'Есе', fr: 'Essai' }, emoji: '📝', color: '#E3EEF9' },
+      { word: 'Existencialismo', translations: { en: 'Existentialism', ar: 'الوجودية', uk: 'الوجودية', fr: 'Existentialisme' }, emoji: '🧠', color: '#EDF2F7' },
+      { word: 'Paradoja', translations: { en: 'Paradox', ar: 'مفارقة', uk: 'Парадокс', fr: 'Paradoxe' }, emoji: '🌀', color: '#F3E8FF' },
+      { word: 'Epifanía', translations: { en: 'Epiphany', ar: 'تجلي', uk: 'Прозріння', fr: 'Épiphanie' }, emoji: '⚡', color: '#FEFCBF' },
+      { word: 'Cosmovisión', translations: { en: 'Worldview', ar: 'رؤية العالم', uk: 'Світогляд', fr: 'Vision du monde' }, emoji: '🌌', color: '#EBF8FF' },
+      { word: 'Retórica', translations: { en: 'Rhetoric', ar: 'البلاغة', uk: 'Риторика', fr: 'Rhétorique' }, emoji: '🗣️', color: '#F3E8FF' },
+      { word: 'Escepticismo', translations: { en: 'Skepticism', ar: 'الشكوكية', uk: 'Скептицизм', fr: 'Scepticisme' }, emoji: '🤨', color: '#EDF2F7' },
+      { word: 'Estética', translations: { en: 'Aesthetics', ar: 'علم الجمال', uk: 'Естетика', fr: 'Esthétique' }, emoji: '🎨', color: '#E2F3E7' },
+      { word: 'Trascendencia', translations: { en: 'Transcendence', ar: 'السمو / التسامي', uk: 'Трансцендентність', fr: 'Transcendance' } }
+    ]
+  },
+  {
+    id: 'mente-psicologia-c2',
+    name: 'Mente y Psicología',
+    emoji: '🧠',
+    translations: { en: 'Mind & Psychology', ar: 'العقل وعلم النفس', uk: 'Розум і психологія', fr: 'Esprit et Psychologie' },
+    words: [
+      { word: 'Subconsciente', translations: { en: 'Subconscious', ar: 'اللاشعور / العقل الباطن', uk: 'Підсвідомість', fr: 'Subconscient' }, emoji: '💭', color: '#EDF2F7' },
+      { word: 'Introspección', translations: { en: 'Introspection', ar: 'التأمل الذاتي', uk: 'Самоаналіз', fr: 'Introspection' }, emoji: '🧘', color: '#E2F3E7' },
+      { word: 'Resiliencia', translations: { en: 'Resilience', ar: 'المرونة النفسية', uk: 'Стійкість', fr: 'Résilience' }, emoji: '🌱', color: '#E2F3E7' },
+      { word: 'Cognitivo', translations: { en: 'Cognitive', ar: 'معرفي', uk: 'Когнітивний', fr: 'Cognitif' }, emoji: '⚙️', color: '#FFF4E5' },
+      { word: 'Empatía', translations: { en: 'Empathy', ar: 'التعاطف', uk: 'Емпатія', fr: 'Empatía' }, emoji: '❤️', color: '#FCE8E8' }
+    ]
+  }
+];
 export const glossaryByLevel: Record<Level, GlossaryTheme[]> = {
   A1: a1Themes,
   A2: a2Themes,
@@ -7660,8 +7807,58 @@ const b2Verbs: VerbGroup[] = [
         example: 'Me gustaría viajar a Japón.',
         exampleTranslations: { en: 'I would like to travel to Japan.', ar: 'أود أن أسافر إلى اليابان.', uk: 'Я хотів би поїхати в Японію.', fr: "J'aimerais voyager au Japon." },
       },
+      {
+        infinitive: 'Hacer', emoji: '🛠️',
+        translations: { en: 'Would do / make', ar: 'يفعل (شرطي)', uk: 'Робив би', fr: 'Faire (cond.)' },
+        conjugation: { yo: 'haría', tú: 'harías', él: 'haría', nosotros: 'haríamos', vosotros: 'haríais', ellos: 'harían' },
+        example: 'Yo haría el trabajo, pero no tengo tiempo.',
+        exampleTranslations: { en: 'I would do the job, but I don\'t have time.', ar: 'كنت سأفعل العمل، لكني لا أملك الوقت.', uk: 'Я б зробив цю роботу, але в мене немає часу.', fr: 'Je ferais le travail, mais je n\'ai pas le temps.' },
+      },
+      {
+        infinitive: 'Tener', emoji: '🤲',
+        translations: { en: 'Would have', ar: 'يملك (شرطي)', uk: 'Мав би', fr: 'Avoir (cond.)' },
+        conjugation: { yo: 'tendría', tú: 'tendrías', él: 'tendría', nosotros: 'tendríamos', vosotros: 'tendríais', ellos: 'tendrían' },
+        example: 'Si estudiaras más, tendrías mejores notas.',
+        exampleTranslations: { en: 'If you studied more, you would have better grades.', ar: 'لو درست أكثر، لكانت درجاتك أفضل.', uk: 'Якби ти вчився більше, ти мав би кращі оцінки.', fr: 'Si tu étudiais plus, tu aurais de meilleures notes.' },
+      },
+      {
+        infinitive: 'Decir', emoji: '🗣️',
+        translations: { en: 'Would say', ar: 'يقول (شرطي)', uk: 'Сказав би', fr: 'Dire (cond.)' },
+        conjugation: { yo: 'diría', tú: 'dirías', él: 'diría', nosotros: 'diríamos', vosotros: 'diríais', ellos: 'dirían' },
+        example: 'Yo diría que es una buena idea.',
+        exampleTranslations: { en: 'I would say that it is a good idea.', ar: 'أود أن أقول إنها فكرة جيدة.', uk: 'Я б сказав, що це хороша ідея.', fr: 'Je dirais que c\'est une bonne idée.' },
+      }
     ],
   },
+  {
+    id: 'subjuntivo-imperfecto',
+    name: 'Subjuntivo Imperfecto',
+    emoji: '📕',
+    translations: { en: 'Imperfect Subjunctive', ar: 'الماضي الشرطي', uk: 'Минулий умовний спосіб', fr: 'Subjonctif Imparfait' },
+    verbs: [
+      {
+        infinitive: 'Hablar', emoji: '🗣️',
+        translations: { en: 'To speak (imp. subj.)', ar: 'يتكلم (ماضي شرطي)', uk: 'Говорити (минулий умовний)', fr: 'Parler (imp. subj.)' },
+        conjugation: { yo: 'hablara / hablase', tú: 'hablaras / hablases', él: 'hablara / hablase', nosotros: 'habláramos / hablásemos', vosotros: 'hablarais / hablaseis', ellos: 'hablaran / hablasen' },
+        example: 'Si yo hablara más español, viajaría.',
+        exampleTranslations: { en: 'If I spoke more Spanish, I would travel.', ar: 'لو كنت أتحدث الإسبانية أكثر، لسافرت.', uk: 'Якби я більше говорив іспанською, я б подорожував.', fr: 'Si je parlais plus espagnol, je voyagerais.' },
+      },
+      {
+        infinitive: 'Comer', emoji: '🍽️',
+        translations: { en: 'To eat (imp. subj.)', ar: 'يأكل (ماضي شرطي)', uk: 'Їсти (минулий умовний)', fr: 'Manger (imp. subj.)' },
+        conjugation: { yo: 'comiera / comiese', tú: 'comieras / comieses', él: 'comiera / comiese', nosotros: 'comiéramos / comiésemos', vosotros: 'comierais / comieseis', ellos: 'comieran / comiesen' },
+        example: 'Me gustó que comieras con nosotros.',
+        exampleTranslations: { en: 'I liked that you ate with us.', ar: 'أعجبني أنك أكلت معنا.', uk: 'Мені сподобалося, що ти поїв з нами.', fr: 'J\'ai aimé que tu manges avec nous.' },
+      },
+      {
+        infinitive: 'Vivir', emoji: '🏠',
+        translations: { en: 'To live (imp. subj.)', ar: 'يعيش (ماضي شرطي)', uk: 'Жити (минулий умовний)', fr: 'Vivre (imp. subj.)' },
+        conjugation: { yo: 'viviera / viviese', tú: 'vivieras / vivieses', él: 'viviera / viviese', nosotros: 'viviéramos / viviésemos', vosotros: 'vivierais / vivieseis', ellos: 'vivieran / viviesen' },
+        example: 'Ojalá viviéramos en una casa más grande.',
+        exampleTranslations: { en: 'I wish we lived in a bigger house.', ar: 'يا ليتنا نعيش في منزل أكبر.', uk: 'Хоч би ми жили у більшому будинку.', fr: 'Si seulement nous vivions dans une maison plus grande.' },
+      }
+    ]
+  }
 ];
 
 const c1Verbs: VerbGroup[] = [
@@ -7685,11 +7882,91 @@ const c1Verbs: VerbGroup[] = [
         example: 'Acabo de llegar a la oficina.',
         exampleTranslations: { en: 'I have just arrived at the office.', ar: 'لقد وصلت للتو إلى المكتب.', uk: 'Я щойно прийшов в офіс.', fr: "Je viens d'arriver au bureau." },
       },
+      {
+        infinitive: 'Dejar de + infinitivo', emoji: '🛑',
+        translations: { en: 'To stop doing', ar: 'يتوقف عن فعل شيء', uk: 'Перестати робити', fr: 'Arrêter de' },
+        conjugation: { yo: 'dejo de', tú: 'dejas de', él: 'deja de', nosotros: 'dejamos de', vosotros: 'dejáis de', ellos: 'dejan de' },
+        example: 'Debes dejar de fumar.',
+        exampleTranslations: { en: 'You must stop smoking.', ar: 'يجب أن تتوقف عن التدخين.', uk: 'Тобі слід кинути курити.', fr: 'Tu dois arrêter de fumer.' },
+      },
+      {
+        infinitive: 'Ponerse a + infinitivo', emoji: '🎬',
+        translations: { en: 'To start doing / set to', ar: 'يبدأ في فعل شيء', uk: 'Почати робити', fr: 'Se mettre à' },
+        conjugation: { yo: 'me pongo a', tú: 'te pones a', él: 'se pone a', nosotros: 'nos ponemos a', vosotros: 'os ponéis a', ellos: 'se ponen a' },
+        example: 'Se puso a llover de repente.',
+        exampleTranslations: { en: 'It suddenly started to rain.', ar: 'بدأت تمطر فجأة.', uk: 'Раптом пішов дощ.', fr: 'Il s\'est mis à pleuvoir soudainement.' },
+      },
+      {
+        infinitive: 'Volver a + infinitivo', emoji: '🔄',
+        translations: { en: 'To do again', ar: 'يعود لفعل شيء / يكرر', uk: 'Знову робити', fr: 'Refaire / recommencer à' },
+        conjugation: { yo: 'vuelvo a', tú: 'vuelves a', él: 'vuelve a', nosotros: 'volvemos a', vosotros: 'volvéis a', ellos: 'vuelven a' },
+        example: 'No vuelvas a hacer eso.',
+        exampleTranslations: { en: 'Don\'t do that again.', ar: 'لا تفعل ذلك مرة أخرى.', uk: 'Не роби цього знову.', fr: 'Ne refais plus ça.' },
+      }
     ],
   },
+  {
+    id: 'condicional-compuesto',
+    name: 'Condicional Compuesto',
+    emoji: '⏰',
+    translations: { en: 'Compound Conditional', ar: 'الشرطي المركب', uk: 'Складний умовний час', fr: 'Conditionnel Passé' },
+    verbs: [
+      {
+        infinitive: 'Hablar', emoji: '🗣️',
+        translations: { en: 'Would have spoken', ar: 'كان سيتكلم', uk: 'Поговорив би (минуле)', fr: 'Aurait parlé' },
+        conjugation: { yo: 'habría hablado', tú: 'habrías hablado', él: 'habría hablado', nosotros: 'habríamos hablado', vosotros: 'habríais hablado', ellos: 'habrían hablado' },
+        example: 'Habría hablado con él si hubiera venido.',
+        exampleTranslations: { en: 'I would have spoken with him if he had come.', ar: 'كنت سأتحدث معه لو جاء.', uk: 'Я б поговорив з ним, якби він прийшов.', fr: 'J\'aurais parlé avec lui s\'il était venu.' },
+      },
+      {
+        infinitive: 'Comer', emoji: '🍽️',
+        translations: { en: 'Would have eaten', ar: 'كان سيأكل', uk: 'З\'їв би (минуле)', fr: 'Aurait mangé' },
+        conjugation: { yo: 'habría comido', tú: 'habrías comido', él: 'habría comido', nosotros: 'habríamos comido', vosotros: 'habríais comido', ellos: 'habrían comido' },
+        example: '¿Habrías comido eso?',
+        exampleTranslations: { en: 'Would you have eaten that?', ar: 'هل كنت ستأكل ذلك؟', uk: 'Чи з\'їв би ти це?', fr: 'Aurais-tu mangé ça ?' },
+      },
+      {
+        infinitive: 'Ir', emoji: '🚶',
+        translations: { en: 'Would have gone', ar: 'كان سيذهب', uk: 'Пішов би (минуле)', fr: 'Serait allé' },
+        conjugation: { yo: 'habría ido', tú: 'habrías ido', él: 'habría ido', nosotros: 'habríamos ido', vosotros: 'habríais ido', ellos: 'habrían ido' },
+        example: 'Nosotros habríamos ido a la fiesta.',
+        exampleTranslations: { en: 'We would have gone to the party.', ar: 'كна سنذهب إلى الحفلة.', uk: 'Ми б пішли на вечірку.', fr: 'Nous serions allés à la fête.' },
+      }
+    ]
+  }
 ];
 
-const c2Verbs: VerbGroup[] = [];
+const c2Verbs: VerbGroup[] = [
+  {
+    id: 'subjuntivo-pluscuamperfecto',
+    name: 'Subjuntivo Pluscuamperfecto',
+    emoji: '🕰️',
+    translations: { en: 'Pluperfect Subjunctive', ar: 'الماضي التام الشرطي', uk: 'Минулий доконаний умовний', fr: 'Subjonctif Plus-que-parfait' },
+    verbs: [
+      {
+        infinitive: 'Hablar', emoji: '🗣️',
+        translations: { en: 'Had spoken (subj.)', ar: 'تحدث (شرطي تام)', uk: 'Поговорив би (раніше)', fr: 'Eût parlé' },
+        conjugation: { yo: 'hubiera / hubiese hablado', tú: 'hubieras / hubieses hablado', él: 'hubiera / hubiese hablado', nosotros: 'hubiéramos / hubiésemos hablado', vosotros: 'hubierais / hubieseis hablado', ellos: 'hubieran / hubiesen hablado' },
+        example: 'Si yo hubiera hablado antes, no habría este problema.',
+        exampleTranslations: { en: 'If I had spoken before, there wouldn\'t be this problem.', ar: 'لو كنت تحدثت من قبل، لما كانت هناك هذه المشكلة.', uk: 'Якби я заговорив раніше, цієї проблеми не було б.', fr: 'Si j\'avais parlé plus tôt, il n\'y aurait pas ce problème.' },
+      },
+      {
+        infinitive: 'Comer', emoji: '🍽️',
+        translations: { en: 'Had eaten (subj.)', ar: 'أكل (شرطي تام)', uk: 'З\'їв би (раніше)', fr: 'Eût mangé' },
+        conjugation: { yo: 'hubiera / hubiese comido', tú: 'hubieras / hubieses comido', él: 'hubiera / hubiese comido', nosotros: 'hubiéramos / hubiésemos comido', vosotros: 'hubierais / hubieseis comido', ellos: 'hubieran / hubiesen comido' },
+        example: 'Ojalá hubieras comido algo más.',
+        exampleTranslations: { en: 'I wish you had eaten something else.', ar: 'या ليتك أكلت شيئاً آخر.', uk: 'Хоч би ти з\'їв щось інше.', fr: 'Si seulement tu avais mangé autre chose.' },
+      },
+      {
+        infinitive: 'Ir', emoji: '🚶',
+        translations: { en: 'Had gone (subj.)', ar: 'ذهب (شرطي تام)', uk: 'Пішов би (раніше)', fr: 'Eût allé' },
+        conjugation: { yo: 'hubiera / hubiese ido', tú: 'hubieras / hubieses ido', él: 'hubiera / hubiese ido', nosotros: 'hubiéramos / hubiésemos ido', vosotros: 'hubierais / hubieseis ido', ellos: 'hubieran / hubiesen ido' },
+        example: 'Si ellos hubiesen ido, se habrían divertido.',
+        exampleTranslations: { en: 'If they had gone, they would have had fun.', ar: 'لو ذهبوا، لكانوا قد استمتعوا.', uk: 'Якби вони пішли, вони б добре провели час.', fr: 'S\'ils étaient allés, ils se seraient amusés.' },
+      }
+    ]
+  }
+];
 
 export const verbsByLevel: Record<Level, VerbGroup[]> = {
   A1: a1Verbs,
