@@ -23757,7 +23757,12 @@ export const lessons: Lesson[] = [
         color: "#E3EEF9"
       }
     ],
-    content: "## Lectura: El cambio de vida de Marta\n\n",
+    content: `## Lectura: El cambio de vida de Marta
+
+Marta vivía en una gran ciudad y trabajaba en una oficina de finanzas. Tenía un buen sueldo, pero siempre estaba cansada y estresada por el tráfico y el ruido. Un día, decidió que necesitaba un cambio radical. Dejó su trabajo, vendió su coche y se mudó a un pequeño pueblo en las montañas del norte de España.  
+Ahora, Marta gestiona una pequeña casa rural y cultiva sus propias verduras. Aunque gana menos dinero que antes, asegura que es mucho más feliz. Los vecinos la recibieron con los brazos abiertos y cada tarde pasea por el bosque con su perro. Siente que por fin ha recuperado el control de su tiempo y de su vida.
+
+---`,
     exercises: [
       {
         question: "¿Por qué decidió Marta un cambio radical en su vida?",
@@ -24284,7 +24289,12 @@ export const lessons: Lesson[] = [
         color: "#E3EEF9"
       }
     ],
-    content: "## Lectura: El origen del chocolate\n\nEl cambio de vida de Marta\n\nMarta vivía en una gran ciudad y trabajaba en una oficina de finanzas. Tenía un buen sueldo, pero siempre estaba cansada y estresada por el tráfico y el ruido. Un día, decidió que necesitaba un cambio radical. Dejó su trabajo, vendió su coche y se mudó a un pequeño pueblo en las montañas del norte de España.  \nAhora, Marta gestiona una pequeña casa rural y cultiva sus propias verduras. Aunque gana menos dinero que antes, asegura que es mucho más feliz. Los vecinos la recibieron con los brazos abiertos y cada tarde pasea por el bosque con su perro. Siente que por fin ha recuperado el control de su tiempo y de su vida.\n\n---",
+    content: `## Lectura: El origen del chocolate
+
+Hoy en día, el chocolate es uno de los dulces más populares del mundo, pero su historia comenzó hace miles de años en Mesoamérica. Los mayas y los aztecas consideraban que el cacao era un regalo de los dioses. Sin embargo, no lo consumían como nosotros: ellos preparaban una bebida amarga y picante mezclada con agua, maíz y especias.  
+Cuando los españoles llegaron a América en el siglo XVI, llevaron el cacao a Europa. Al principio, a la corte española no le gustó el sabor amargo, pero todo cambió cuando decidieron añadirle azúcar y canela. A partir de ese momento, la bebida se convirtió en un lujo para la nobleza europea antes de transformarse en las tabletas que conocemos hoy.
+
+---`,
     exercises: [
       {
         question: "¿Cómo preparaban los mayas y los aztecas la bebida de cacao?",
@@ -24811,7 +24821,12 @@ export const lessons: Lesson[] = [
         color: "#E3EEF9"
       }
     ],
-    content: "## Lectura: Beneficios de viajar solo\n\nEl origen del chocolate\n\nHoy en día, el chocolate es uno de los dulces más populares del mundo, pero su historia comenzó hace miles de años en Mesoamérica. Los mayas y los aztecas consideraban que el cacao era un regalo de los dioses. Sin embargo, no lo consumían como nosotros: ellos preparaban una bebida amarga y picante mezclada con agua, maíz y especias.  \nCuando los españoles llegaron a América en el siglo XVI, llevaron el cacao a Europa. Al principio, a la corte española no le gustó el sabor amargo, pero todo cambió cuando decidieron añadirle azúcar y canela. A partir de ese momento, la bebida se convirtió en un lujo para la nobleza europea antes de transformarse en las tabletas que conocemos hoy.\n\n---",
+    content: `## Lectura: Beneficios de viajar solo
+
+Mucha gente piensa que viajar solo es aburrido o peligroso, pero cada vez más personas eligen esta aventura. Viajar sin compañía te obliga a salir de tu zona de confort y a tomar tus propias decisiones. No tienes que negociar el itinerario con nadie; si te apetece quedarte leyendo en un café toda la mañana, puedes hacerlo.  
+Además, cuando viajas solo, eres mucho más accesible para los demás. Es más fácil que los habitantes locales te hablen o que conozcas a otros viajeros en la misma situación. Al final del viaje, la mayoría de las personas vuelven a casa con una mayor confianza en sí mismas y con amigos de diferentes partes del mundo.
+
+---`,
     exercises: [
       {
         question: "¿Qué ventaja tiene no tener que negociar el itinerario con nadie?",
@@ -25338,7 +25353,14 @@ export const lessons: Lesson[] = [
         color: "#FAF9F6"
       }
     ],
-    content: "## Lectura: El auge del teletrabajo\n\n",
+    content: `## Lectura: El auge del teletrabajo
+
+El auge del teletrabajo y sus desafíos
+
+La adopción masiva del teletrabajo ha transformado por completo el panorama laboral contemporáneo. En un principio, tanto empresas como empleados aplaudieron esta modalidad debido a la flexibilidad horaria y al ahorro de tiempo en desplazamientos. Sin embargo, a medida que el modelo se ha consolidado, han comenzado a surgir desafíos psicológicos y logísticos que no se habían previsto adecuadamente.  
+El principal obstáculo es la difusa línea que separa la vida laboral de la personal. Al trabajar en el mismo espacio donde se descansa, muchos profesionales confiesan que les resulta casi imposible "desconectar" al final de la jornada. Esto ha provocado un incremento en los casos de estrés laboral y una sensación de aislamiento social que las empresas intentan mitigar mediante reuniones híbridas y actividades de integración.
+
+---`,
     exercises: [
       {
         question: "¿Cuáles fueron las ventajas iniciales del teletrabajo según el texto?",
@@ -25865,7 +25887,12 @@ export const lessons: Lesson[] = [
         color: "#FAF9F6"
       }
     ],
-    content: "## Lectura: El misterio de la isla de Pascua\n\nEl auge del teletrabajo y sus desafíos\n\nLa adopción masiva del teletrabajo ha transformado por completo el panorama laboral contemporáneo. En un principio, tanto empresas como empleados aplaudieron esta modalidad debido a la flexibilidad horaria y al ahorro de tiempo en desplazamientos. Sin embargo, a medida que el modelo se ha consolidado, han comenzado a surgir desafíos psicológicos y logísticos que no se habían previsto adecuadamente.  \nEl principal obstáculo es la difusa línea que separa la vida laboral de la personal. Al trabajar en el mismo espacio donde se descansa, muchos profesionales confiesan que les resulta casi imposible \"desconectar\" al final de la jornada. Esto ha provocado un incremento en los casos de estrés laboral y una sensación de aislamiento social que las empresas intentan mitigar mediante reuniones híbridas y actividades de integración.\n\n---",
+    content: `## Lectura: El misterio de la isla de Pascua
+
+La isla de Pascua, ubicada en el océano Pacífico, es famosa mundialmente por sus imponentes estatuas de piedra conocidas como moáis. Estas gigantescas esculturas, talladas por los antiguos habitantes de la isla entre los siglos VIII y XVI, han desconcertado a los arqueólogos durante generaciones. La gran pregunta sigue siendo cómo una sociedad con tecnología limitada logró transportar bloques de piedra de varias toneladas a lo largo de kilómetros.  
+Una de las teorías más aceptadas sugiere que los isleños utilizaban troncos de árboles como rodillos para mover las estructuras. Lamentablemente, esta intensa actividad, sumada a la sobrepoblación, provocó una deforestación severa en la isla. Sin árboles, los recursos escasearon, lo que desencadenó una crisis social que colapsó la civilización antes de la llegada de los primeros exploradores europeos.
+
+---`,
     exercises: [
       {
         question: "¿Qué son los moáis?",
@@ -26392,7 +26419,14 @@ export const lessons: Lesson[] = [
         color: "#FAF9F6"
       }
     ],
-    content: "## Lectura: Biodiversidad urbana\n\nEl misterio de la isla de Pascua\n\nLa isla de Pascua, ubicada en el océano Pacífico, es famosa mundialmente por sus imponentes estatuas de piedra conocidas como moáis. Estas gigantescas esculturas, talladas por los antiguos habitantes de la isla entre los siglos VIII y XVI, han desconcertado a los arqueólogos durante generaciones. La gran pregunta sigue siendo cómo una sociedad con tecnología limitada logró transportar bloques de piedra de varias toneladas a lo largo de kilómetros.  \nUna de las teorías más aceptadas sugiere que los isleños utilizaban troncos de árboles como rodillos para mover las estructuras. Lamentablemente, esta intensa actividad, sumada a la sobrepoblación, provocó una deforestación severa en la isla. Sin árboles, los recursos escasearon, lo que desencadenó una crisis social que colapsó la civilización antes de la llegada de los primeros exploradores europeos.\n\n---",
+    content: `## Lectura: Biodiversidad urbana
+
+La importancia de la biodiversidad urbana
+
+Cuando pensamos en la conservación de la naturaleza, solemos imaginar selvas tropicales o zonas montañosas remotas. Sin embargo, los científicos están prestando cada vez más atención a los ecosistemas urbanos. Las ciudades no son solo asfalto y hormigón; albergan una sorprendente variedad de aves, insectos y plantas que desempeñan un papel crucial en la calidad del aire y la regulación de la temperatura local.  
+Crear y mantener corredores verdes —como parques conectados o techos vegetales— ayuda a preservar esta biodiversidad. Estos espacios no solo ofrecen un refugio a los animales, sino que también mejoran significativamente la salud mental de los ciudadanos, reduciendo los niveles de cortisol, la hormona del estrés. Una ciudad verde es, en definitiva, una ciudad más habitable.
+
+---`,
     exercises: [
       {
         question: "¿Qué ecosistemas están estudiando los científicos con creciente interés?",
@@ -26919,7 +26953,14 @@ export const lessons: Lesson[] = [
         color: "#E2F3E7"
       }
     ],
-    content: "## Lectura: Inteligencia Artificial en el arte\n\n",
+    content: `## Lectura: Inteligencia Artificial en el arte
+
+El dilema ético de la inteligencia artificial en el arte
+
+La irrupción de algoritmos de inteligencia artificial capaces de generar imágenes, música y textos literarios de alta calidad ha desatado un debate encarnizado en el sector cultural. Mientras algunos tecnólogos celebran estas herramientas como una democratización de la creatividad, la comunidad artística denuncia de manera unánime el plagio sistemático que subyace en el entrenamiento de estos modelos de lenguaje, nutridos con millones de obras protegidas por derechos de autor sin consentimiento previo.  
+El debate no es únicamente legal, sino también filosófico. Nos obliga a cuestionar la esencia misma de la autoría: ¿puede una máquina poseer intención artística o solo emula patrones probabilísticos? La falta de una legislación internacional clara deja a los creadores desprotegidos frente a un mercado que empieza a priorizar la inmediatez y el bajo coste de la producción automatizada en detrimento de la propiedad intelectual y el valor del trabajo humano.
+
+---`,
     exercises: [
       {
         question: "¿Cuál es el reproche ético y legal que la comunidad artística hace al entrenamiento de la IA?",
@@ -27446,7 +27487,14 @@ export const lessons: Lesson[] = [
         color: "#E2F3E7"
       }
     ],
-    content: "## Lectura: Gentrificación y tejido social\n\nEl dilema ético de la inteligencia artificial en el arte\n\nLa irrupción de algoritmos de inteligencia artificial capaces de generar imágenes, música y textos literarios de alta calidad ha desatado un debate encarnizado en el sector cultural. Mientras algunos tecnólogos celebran estas herramientas como una democratización de la creatividad, la comunidad artística denuncia de manera unánime el plagio sistemático que subyace en el entrenamiento de estos modelos de lenguaje, nutridos con millones de obras protegidas por derechos de autor sin consentimiento previo.  \nEl debate no es únicamente legal, sino también filosófico. Nos obliga a cuestionar la esencia misma de la autoría: ¿puede una máquina poseer intención artística o solo emula patrones probabilísticos? La falta de una legislación internacional clara deja a los creadores desprotegidos frente a un mercado que empieza a priorizar la inmediatez y el bajo coste de la producción automatizada en detrimento de la propiedad intelectual y el valor del trabajo humano.\n\n---",
+    content: `## Lectura: Gentrificación y tejido social
+
+El fenómeno de la gentrificación y el tejido social
+
+La gentrificación se ha consolidado como uno de los procesos urbanísticos más controvertidos del siglo XXI. Este fenómeno, caracterizado por la rehabilitación de barrios históricos degradados y la consecuente afluencia de capital, suele traducirse a primera vista en una mejora estética y comercial de la zona. No obstante, este lavado de cara esconde una realidad descarnada: el encarecimiento desorbitado de la vivienda y la expulsión residencial de los vecinos de toda la vida.  
+Al sustituir el comercio local tradicional por franquicias homogéneas y pisos turísticos, se erosiona la identidad cultural y el tejido social que daban vida al barrio. Los lazos de solidaridad vecinal se rompen, transformando vecindarios vibrantes en meros escaparates turísticos carentes de alma. El reto actual de las administraciones estriba en fomentar la inversión urbana sin que ello implique el desarraigo de las clases populares.
+
+---`,
     exercises: [
       {
         question: "¿Qué paradoja presenta la gentrificación al rehabilitar un barrio degradado?",
@@ -27973,7 +28021,14 @@ export const lessons: Lesson[] = [
         color: "#E2F3E7"
       }
     ],
-    content: "## Lectura: Neuroplasticidad cerebral\n\nEl fenómeno de la gentrificación y el tejido social\n\nLa gentrificación se ha consolidado como uno de los procesos urbanísticos más controvertidos del siglo XXI. Este fenómeno, caracterizado por la rehabilitación de barrios históricos degradados y la consecuente afluencia de capital, suele traducirse a primera vista en una mejora estética y comercial de la zona. No obstante, este lavado de cara esconde una reality descarnada: el encarecimiento desorbitado de la vivienda y la expulsión residencial de los vecinos de toda la vida.  \nAl sustituir el comercio local tradicional por franquicias homogéneas y pisos turísticos, se erosiona la identidad cultural y el tejido social que daban vida al barrio. Los lazos de solidaridad vecinal se rompen, transformando vecindarios vibrantes en meros escaparates turísticos carentes de alma. El reto actual de las administraciones estriba en fomentar la inversión urbana sin que ello implique el desarraigo de las clases populares.\n\n---",
+    content: `## Lectura: Neuroplasticidad cerebral
+
+La neuroplasticidad: el cerebro en constante evolución
+
+Durante décadas, la neurociencia sostuvo el dogma de que el cerebro humano adulto era una estructura estática e inmutable, cuyas conexiones neuronales se deterioraban irreversiblemente con la edad. Sin embargo, el descubrimiento de la neuroplasticidad revolucionó este paradigma al demostrar que el cerebro posee una capacidad asombrosa para reorganizarse, create nuevas sinapsis e incluso generar neuronas a lo largo de toda la existencia en respuesta al aprendizaje y la experiencia.  
+Esta flexibilidad cognitiva implica que nuestras acciones y pensamientos moldean de forma literal la estructura física de nuestra mente. Actividades intelectualmente exigentes, el aprendizaje de un nuevo idioma o la práctica de la meditación actúan como catalizadores de esta remodelación arquitectónica cerebral. Por consiguiente, el envejecimiento cognitivo ya no se percibe como una decadencia pasiva, sino como un proceso maleable sobre el cual el individuo ejerce una influencia directa.
+
+---`,
     exercises: [
       {
         question: "¿Qué dogma sostenía la neurociencia clásica sobre el cerebro adulto?",
@@ -28500,7 +28555,14 @@ export const lessons: Lesson[] = [
         color: "#FFF4E5"
       }
     ],
-    content: "## Lectura: Eclipse de la oratoria digital\n\n",
+    content: `## Lectura: Eclipse de la oratoria digital
+
+El eclipse de la oratoria en la era de la inmediatez digital
+
+Asistimos de manera impasible al paulatino declive de la retórica clásica en el discurso público contemporáneo. En un entorno comunicativo hiperconectado, tiranizado por el algoritmo y la brevedad del *clickbait*, el debate político e intelectual ha sucumbido a la vacuidad del eslogan efectista y la polarización extrema. La argumentación prolija, fundamentada en la ponderación de matices y el rigor dialéctico, se percibe hoy en día como un anacronismo tedioso que ahuyenta a una audiencia aquejada de un déficit de atención crónico.  
+Esta devaluación de la palabra no es un mero asunto estético; hiere de gravedad la calidad democrática. Cuando la persuasión apela exclusivamente al sesgo cognitivo visceral y prescinde de la lógica formal, el ciudadano queda inerme ante la demagogia. Restaurar el prestigio del discurso articulado se erige, por ende, en un imperativo ético inaplazable si pretendemos salvaguardar el ágora pública de la trivialización y el tribalismo ideológico.
+
+---`,
     exercises: [
       {
         question: "¿Qué factores han propiciado el paulatino declive de la retórica clásica?",
@@ -29027,7 +29089,14 @@ export const lessons: Lesson[] = [
         color: "#FFF4E5"
       }
     ],
-    content: "## Lectura: El coleccionismo y la posesión\n\nEl eclipse de la oratoria en la era de la inmediatez digital\n\nAsistimos de manera impasible al paulatino declive de la retórica clásica en el discurso público contemporáneo. En un entorno comunicativo hiperconectado, tiranizado por el algoritmo y la brevedad del *clickbait*, el debate político e intelectual ha sucumbido a la vacuidad del eslogan efectista y la polarización extrema. La argumentación prolija, fundamentada en la ponderación de matices y el rigor dialéctico, se percibe hoy en día como un anacronismo tedioso que ahuyenta a una audiencia aquejada de un déficit de atención crónico.  \nEsta devaluación de la palabra no es un mero asunto estético; hiere de gravedad la calidad democrática. Cuando la persuasión apela exclusivamente al sesgo cognitivo visceral y prescinde de la lógica formal, el ciudadano queda inerme ante la demagogia. Restaurar el prestigio del discurso articulado se erige, por ende, en un imperativo ético inaplazable si pretendemos salvaguardar el ágora pública de la trivialización y el tribalismo ideológico.\n\n---",
+    content: `## Lectura: El coleccionismo y la posesión
+
+El coleccionismo y la quimera de la posesión
+
+El coleccionismo trasciende la mera acumulación suntuaria de objetos para adentrarse en los intrincados recovecos de la psicología humana. El coleccionista meticuloso no busca la utilidad práctica de la pieza adquirida, sino la sacralización de la misma dentro de una taxonomía personal y subjetiva. Existe en este impulso un intento atávico de conferir orden al caos cósmico, de compartimentar la realidad para hacerla aprehensible a través de fetiches materiales que actúan como diques de contención contra el olvido y la finitud.  
+Paradójicamente, la aparente satisfacción que depara el hallazgo de la pieza largamente codiciada es tan efímera como ilusoria. Lejos de aplacar el deseo, la completitud de la serie espolea una nueva carencia, reanudando un bucle infinito donde el objeto ausente tiraniza al poseedor. Así, el coleccionismo se revela no como el disfrute de lo que se detenta, sino como una perenne nostalgia de lo que falta; una quimera donde el sujeto acaba siendo poseído por su propia colección.
+
+---`,
     exercises: [
       {
         question: "¿Cuál es el trasfondo psicológico primordial que motiva el coleccionismo?",
@@ -29554,7 +29623,14 @@ export const lessons: Lesson[] = [
         color: "#FFF4E5"
       }
     ],
-    content: "## Lectura: Epistemología de la posverdad\n\nEl coleccionismo y la quimera de la posesión\n\nEl coleccionismo trasciende la mera acumulación suntuaria de objetos para adentrarse en los intrincados recovecos de la psicología humana. El coleccionista meticuloso no busca la utilidad práctica de la pieza adquirida, sino la sacralización de la misma dentro de una taxonomía personal y subjetiva. Existe en este impulso un intento atávico de conferir orden al caos cósmico, de compartimentar la realidad para hacerla aprehensible a través de fetiches materiales que actúan como diques de contención contra el olvido y la finitud.  \nParadójicamente, la aparente satisfacción que depara el hallazgo de la pieza largamente codiciada es tan efímera como ilusoria. Lejos de aplacar el deseo, la completitud de la serie espolea una nueva carencia, reanudando un bucle infinito donde el objeto ausente tiraniza al poseedor. Así, el coleccionismo se revela no como el disfrute de lo que se detenta, sino como una perenne nostalgia de lo que falta; una quimera donde el sujeto acaba siendo poseído por su propia colección.\n\n---",
+    content: `## Lectura: Epistemología de la posverdad
+
+Epistemología de la posverdad: la verdad como constructo de consumo
+
+El advenimiento de la denominada sociedad de la posverdad ha supuesto una fractura epistemológica de magnitudes inéditas. Ya no se trata de la clásica mentira política —coherente en su deliberada ocultación de los hechos—, sino de la instauración de un régimen de indiferencia absoluta hacia la realidad fáctica. En este nuevo ecosistema, los hechos objetivos ejercen una influencia notablemente inferior a la hora de modelar la opinión pública que las apelaciones a las emociones de la masa o a las creencias firmemente arraigadas en burbujas informativas autorreferenciales.  
+La verdad ha dejado de ser un consenso descubierto mediante el escrutinio empírico para transformarse en un bien de consumo personalizado. El individuo contemporáneo exige que la información valide su cosmovisión preexistente, penalizando cognitivamente cualquier disonancia que ose perturbar su zona de confort ideológico. Nos enfrentamos, por tanto, no a una falta de información, sino a una hipertrofia informativa que satura el juicio crítico y atomiza la realidad en tantas verdades como comunidades virtuales existan.
+
+---`,
     exercises: [
       {
         question: "¿En qué se diferencia la 'posverdad' de la mentira política tradicional?",
